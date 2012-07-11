@@ -10,3 +10,5 @@ exercise_data/Natural_Earth_quick_start/
 exercise_data/rural_reprojected.*
 exercise_data_original/
 *.odt#
+i18n/*/LC_MESSAGES/.doctrees
+i18n/*/.doctrees
