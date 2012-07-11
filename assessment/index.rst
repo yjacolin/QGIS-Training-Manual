@@ -115,9 +115,9 @@ Add the polygon layer
 Create the raster backdrop
 -------------------------------------------------------------------------------
 
-* Create a hillshade from the DEM, and use it as an overlay for the aerial
-  photograph or for a classified version of the DEM itself. You could also use
-  the :guilabel:`Relief` plugin (as shown in the lesson on plugins).
+* Create a hillshade from the DEM, and use it as an overlay for a classified
+  version of the DEM itself. You could also use the :guilabel:`Relief` plugin
+  (as shown in the lesson on plugins).
 
 Finalize the base map
 -------------------------------------------------------------------------------

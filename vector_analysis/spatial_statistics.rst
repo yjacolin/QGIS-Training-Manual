@@ -108,6 +108,46 @@ Now get the basic statistics for this layer.
 
 * Close the plugin dialog when done.
 
+To understand the statistics above, refer to this definition list:
+
+Mean
+  The mean (average) value is simply the sum of the values divided by the
+  amount of values.
+
+StdDev
+  The standard deviation. Gives an indication of how closely the values are
+  clustered around the mean. The smaller the standard deviation, the closer
+  values tend to be to the mean.
+
+Sum
+  All the values added together.
+
+Min
+  The minimum value.
+
+Max
+  The maximum value.
+
+N
+  The amount of samples/values.
+
+CV
+  The `spatial <http://en.wikipedia.org/wiki/Spatial_covariance>`_ `covariance
+  <http://en.wikipedia.org/wiki/Covariance>`_ of the dataset.
+
+Number of unique values
+  The number of values that are unique across this dataset. If there are 90
+  unique values in a dataset with N=100, then the 10 remaining values are the
+  same as one or more of each other.
+
+Range
+  The difference between the minimum and maximum values.
+
+Median
+  If you arrange all the values from least to greatest, the middle value (or
+  the average of the two middle values, if N is an even number) is the median
+  of the values.
+
 |basic| |FA| Compute a Distance Matrix
 -------------------------------------------------------------------------------
 
