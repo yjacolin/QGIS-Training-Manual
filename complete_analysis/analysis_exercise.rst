@@ -158,66 +158,68 @@ It is best if the clipping operation is done first. This is so that no
 processing power is wasted on computing values in areas that aren't going to be
 used anyway.
 
-Find the Streets Strand and Melkbosstrand
+Find the Correct Districts
 -------------------------------------------------------------------------------
 
-* Right-click on the :guilabel:`Streets` layer in the :guilabel:`Layers list`.
+* Load the vector layer :kbd:`admin_boundaries/Western_Cape_UTM33S.shp` into
+  your map.
+* Rename it to :kbd:`Districts`.
+* Right-click on the :guilabel:`Districts` layer in the :guilabel:`Layers list`.
 * In the menu that appears,  select the :guilabel:`Query...` menu item. The
   :guilabel:`Query Builder` dialog appears.
 
-You will now build a query to select only the roads :guilabel:`Strand` and
-:guilabel:`Melkbosstrand`.
+You will now build a query to select only the following list of districts:
 
-* In the :guilabel:`Fields` list, double-click on the :guilabel:`SEGNAME`
+* :kbd:`Bellville`,
+* :kbd:`Cape`,
+* :kbd:`Goodwood`,
+* :kbd:`Kuils River`,
+* :kbd:`Mitchells Plain`,
+* :kbd:`Simons Town`, and
+* :kbd:`Wynberg`.
+
+* In the :guilabel:`Fields` list, double-click on the :guilabel:`NAME_2`
   field. It appears in the :guilabel:`SQL where clause` text field below.
 * Click the :guilabel:`=` button; an :kbd:`=` sign is added to the SQL query.
 * Click the :guilabel:`All` button below the (currently empty)
   :guilabel:`Values` list. After a short delay, this will populate the
   :guilabel:`Values` list with the values of the selected field
-  (:guilabel:`SEGNAME`).
-* Double-click the value :guilabel:`MELKBOSSTRAND` in the :guilabel:`Values`
+  (:guilabel:`NAME_2`).
+* Double-click the value :guilabel:`Bellville` in the :guilabel:`Values`
   list. As before, this will be added to the SQL query.
 
-In order to select streets that are called either :guilabel:`MELKBOSSTRAND` or
-:guilabel:`STRAND`, you'll need to use the :kbd:`OR` boolean operator.
+In order to select more than one district, you'll need to use the :kbd:`OR`
+boolean operator.
 
 * Click the :guilabel:`OR` button and it will be added to the SQL query.
-* Using a process similar to the above, add the following to the SQL query:
+* Using a process similar to the above, add the following to the existing SQL
+  query:
 
   ::
   
-    "SEGNAME" = 'STRAND'
+    "NAME_2" = 'Cape'
 
+* Add another :kbd:`OR` operator, then work your way through the list of
+  districts above in a similar fashion.
 * The final query should be
 
   ::
   
-    "SEGNAME" = 'MELKBOSSTRAND' OR "SEGNAME" = 'STRAND'
+    "NAME_2" = 'Bellville' OR "NAME_2" = 'Cape' OR "NAME_2" = 'Goodwood' OR
+    "NAME_2" = 'Kuils River' OR "NAME_2" = 'Mitchells Plain' OR "NAME_2" =
+    'Simons Town' OR "NAME_2" = 'Wynberg'
 
-* Click :guilabel:`OK`. The streets shown in your map are now limited to
-  *Strand* and *Melkbosstrand*.
-
-Labeling
-...............................................................................
-
-To allow you to see which road is which, label the :guilabel:`Streets` layer.
-
-* While the :guilabel:`Streets` layer is selected in the :guilabel:`Layers
-  list`, click on the :guilabel:`Labeling` button.
-* In the dialog that appears, check the :guilabel:`Label this layer with` box.
-* Select :guilabel:`SEGNAME` in the drop-down list next to it.
-* Click :guilabel:`OK`.
-* Save the map.
+* Click :guilabel:`OK`. The districts shown in your map are now limited to
+  those in the list above.
 
 Clip the Rasters
 -------------------------------------------------------------------------------
 
-Now that you know which streets are which, you can clip the rasters to the
-appropriate area.
+Now that you have an area of interest, you can clip the rasters to this area.
 
 * Ensure that the only layers that are visible are the :guilabel:`DEM`,
-  :guilabel:`Rainfall` and :guilabel:`Streets` layers.
-* :guilabel:`Streets` must be on top so that they are visible.
+  :guilabel:`Rainfall` and :guilabel:`Districts` layers.
+* :guilabel:`Districts` must be on top so that they are visible.
 * Open the clipping dialog by selecting the menu item :menuselection:`Raster
   --> Extraction --> Clipper`.
 * In the :guilabel:`Input file (raster)` dropdown list, select the
@@ -229,8 +231,8 @@ appropriate area.
 * Save the file. Leave the :guilabel:`No data value` checkbox unchecked.
 * Use the :guilabel:`Extent` clipping mode by ensuring the correct radio button
   is selected.
-* Click and drag an area in the canvas, so that the area south of (under)
-  Melkbosstrand and west of (left of) Strand is selected.
+* Click and drag an area in the canvas, so that the area which includes the
+  districts is selected.
 * Check the :guilabel:`Load into canvas when finished` box.
 * Click :guilabel:`OK`.
 * After the clipping operation is completed, DO NOT CLOSE the
