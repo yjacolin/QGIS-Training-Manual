@@ -55,8 +55,9 @@ Setting up the Map
   reference system.
 * Save the map by clicking on the :guilabel:`Save Project As` toolbar button,
   or use the :menuselection:`File --> Save Project As...` menu item.
-* Save the map in the directory containing the data that you were given. Give
-  it a meaningful name containing your student number and the module code.
+* Save the map in a directory called :kbd:`Rasterprac` that you should create
+  somewhere on your computer. You will save whatever layers you create in this
+  directory as well.
 
 Loading Data into the Map
 -------------------------------------------------------------------------------
@@ -103,7 +104,7 @@ For rasters ...
 * Do this for each of the two raster files. The files you want are
   :guilabel:`DEM/reproject/DEM` and
   :guilabel:`Rainfall/reprojected/rainfall.tif`.
-* Rename the rainfall raster to :kbd:`Rainfall` and the DEM to :kbd:`DEM`.
+* Rename the rainfall raster to :kbd:`Rainfall` (with an initial capital).
   Initially when you load them, the images will be gray rectangles. Don't
   worry, this will be changed later.
 * Save the map.
@@ -223,7 +224,7 @@ appropriate area.
   :guilabel:`DEM` layer.
 * Specify an output location in the :guilabel:`Output file` text field by
   clicking the :guilabel:`Select...` button.
-* Navigate to a place where you would like to save the clipped DEM file.
+* Navigate to your :kbd:`Rasterprac` directory.
 * Enter a file name.
 * Save the file. Leave the :guilabel:`No data value` checkbox unchecked.
 * Use the :guilabel:`Extent` clipping mode by ensuring the correct radio button
@@ -354,7 +355,8 @@ Reclassifying rasters
 -------------------------------------------------------------------------------
 
 * Click the menu item :menuselection:`Raster --> Raster calculator`.
-* Specify an appropriate location for the output layer.
+* Specify your :kbd:`Rasterprac` directory as the location for the output
+  layer.
 * Ensure that the :guilabel:`Add result to project` box is selected.
   
 In the :guilabel:`Raster bands` list on the left, you will see all the raster
@@ -441,7 +443,8 @@ will need to save these to a new layer file.
 
 * On the right-click menu for :guilabel:`Zoning`, select :guilabel:`Save
   as...`.
-* Save your layer under the :guilabel:`Zoning` directory as :kbd:`rural.shp`.
+* Save your layer under the :guilabel:`Zoning` directory.
+* Name the output file :kbd:`rural.shp`.
 * Click :guilabel:`OK`.
 * Add the layer to your map.
 * Click the menu item :menuselection:`Vector --> Geoprocessing Tools -->
@@ -449,7 +452,7 @@ will need to save these to a new layer file.
 * Select the :guilabel:`rural` layer as your input vector layer, while leaving
   the :guilabel:`Use only selected features` box unchecked.
 * Under :guilabel:`Dissolve field`, select :guilabel:`--- Dissolve all ---`.
-* Save the file in the same directory as :guilabel:`rural_dissolve.shp`.
+* Save your layer under the :guilabel:`Zoning` directory.
 * Click :guilabel:`OK`. A dialog will appear asking whether you want to add the
   new layer to the TOC ("Table of Contents", referring to the :guilabel:`Layers
   list`).
@@ -473,8 +476,8 @@ Creating a negative buffer
   into the associated field; the negative value means that the buffer must be
   an internal buffer.
 * Check the :guilabel:`Dissolve buffer results` box.
-* Set the output file to the same directory as the other rural vector files and
-  call it :kbd:`rural_buffer.shp`.
+* Set the output file to the same directory as the other rural vector files.
+* Name the output file :kbd:`rural_buffer.shp`.
 * Click :guilabel:`Save`.
 * Click :guilabel:`OK` and wait for the processing to complete.
 * Select :guilabel:`Yes` on the dialog that appears.
@@ -499,7 +502,8 @@ Creating a bounding box vector
   :kbd:`WGS 84 / UTM zone 33S : EPSG:32733`.
 * Click OK.
 * Click :guilabel:`OK` on the :guilabel:`New Vector Layer` dialog as well.
-* Save the vector in the :guilabel:`Zoning` directory as :kbd:`bbox.shp`.
+* Save the vector in the :guilabel:`Zoning` directory.
+* Name the output file :kbd:`bbox.shp`.
 * Hide all layers except the new :guilabel:`bbox` layer and one of the
   reclassified rasters.
 * Ensure that the :guilabel:`bbox` layer is highlighted in the
@@ -534,10 +538,10 @@ Clipping a vector layer
   visible, with the latter on top.
 * Click the menu item :menuselection:`Vector > Geoprocessing Tools > Clip`.
 * In the dialog that appears, set the input vector layer to
-  :guilabel:`rural_clipped` and the clip layer to :guilabel:`bbox`, with both
+  :guilabel:`rural_buffer` and the clip layer to :guilabel:`bbox`, with both
   :guilabel:`Use only selected features` boxes unchecked.
-* Put the output file under the :guilabel:`Zoning` directory as
-  :kbd:`rural_clipped`.
+* Put the output file under the :guilabel:`Zoning` directory.
+* Name the output file :kbd:`rural_clipped`.
 * Click :guilabel:`OK`.
 * When prompted to add the layer to the TOC, click :guilabel:`Yes`.
 * Close the dialog.
@@ -562,8 +566,8 @@ you'll need to know the size of one of your existing rasters.
   You may receive a warning about a dataset being unsupported. Click it away
   and ignore it.
 * Select :guilabel:`rural_clipped` as your input layer.
-* Set an output file location inside the :guilabel:`Zoning` directory called
-  :kbd:`rural_raster.tif`.
+* Set an output file location inside the :guilabel:`Zoning` directory.
+* Name the output file :kbd:`rural_raster.tif`.
 * Check the :guilabel:`New size` box and enter the :kbd:`X` and :kbd:`Y` values
   you made a note of earlier.
 * Check the :guilabel:`Load into canvas` box.
@@ -574,8 +578,10 @@ you'll need to know the size of one of your existing rasters.
   value of :kbd:`1` (as opposed to the rest of the image, which will
   automatically be :kbd:`0`).
 * Click :guilabel:`OK`.
-* The new raster should show up in your map once it has been computed. Verify
-  this and save your map.
+* The new raster should show up in your map once it has been computed.
+* The new raster will look like a grey rectangle – you may change the display
+  style as you did for the reclassified rasters.  
+* Save your map.
 
 Now that you have all four criteria each in a separate raster, you need to
 combine them to see which areas satisfy all the criteria. To do so, the rasters
@@ -596,8 +602,8 @@ Combining rasters
     [Rural raster] * [Reclassified aspect] * [Reclassified slope] *
     [Reclassified rainfall]
 
-* Set an appropriate output location and call the output raster
-  :kbd:`cross_product.tif`.
+* Set the output location to the :kbd:`Rasterprac` directory.
+* Name the output raster :kbd:`cross_product.tif`.
 * Ensure that the :guilabel:`Add result to project` box is checked.
 * Click OK.
 * Change the symbology of the new raster in the same way as you set the style
@@ -612,9 +618,10 @@ Vectorizing the raster
 -------------------------------------------------------------------------------
 
 * Click on the menu item :menuselection:`Raster --> Conversion --> Polygonize`.
-* Select the appropriate raster and set an output location, calling the file
-  :kbd:`candidate_areas.shp`.
-* Ensure that :guilabel:`Load into canvas` is checked.
+* Select the :guilabel:`cross_product` raster.
+* Set the output location to :kbd:`Rasterprac`.
+* Name the file :kbd:`candidate_areas.shp`.
+* Ensure that :guilabel:`Load into canvas when finished` is checked.
 * Click OK.
 * Close the dialog when processing is complete.
 
@@ -633,8 +640,8 @@ areas that have a value of :kbd:`1`.
   :guilabel:`candidate_areas` vector after the query is complete (and only the
   areas with a value of :kbd:`1` are visible). Use the :guilabel:`Save as...`
   function in the layer's right-click menu for this.
-* Save the file somewhere logical and call it
-  :guilabel:`candidate_areas_only.shp`.
+* Save the file in the :kbd:`Rasterprac` directory.
+* Name the file :guilabel:`candidate_areas_only.shp`.
 * Save your map.
 
 Calculating the area for each polygon
@@ -694,11 +701,15 @@ Digitize your house
 * Create a new vector layer as before, but this time, select the
   :guilabel:`Type` value as being a :guilabel:`Point`.
 * Ensure that it is in the correct CRS!
+* Name the new layer :kbd:`house.shp`.
 * Finish creating the new layer.
 * Enter edit mode (while the new layer is selected).
 * Click the point where your house or other current place of residence is,
-  using the streets as a guide. If you don't live anywhere nearby, just click
-  somewhere among the streets where a house could conceivably be.
+  using the streets as a guide. You might have to open other layers to help you
+  find your house. If you don't live anywhere nearby, just click somewhere
+  among the streets where a house could conceivably be.
+* Enter any arbitrary number for the shape ID.
+* Click :guilabel:`OK`.
 * Save your edits and exit edit mode.
 * Save the map.
 
@@ -710,7 +721,8 @@ Calculate polygon centroids
 
 * Click on the :menuselection:`Vector --> Geometry Tools --> Polygon centroids`
   menu item.
-* Specify the correct input layer and an appropriate output location.
+* Specify the input layer as :guilabel:`solution.shp`.
+* Provide the output location as :kbd:`Rasterprac`.
 * Call the destination file :kbd:`solution_centroids.shp`.
 * Click :guilabel:`OK` and add the result to the TOC (:guilabel:`Layers list`),
   then close the dialog.
