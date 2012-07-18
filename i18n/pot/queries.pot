@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, Linfiniti Consulting CC
+# This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-18 19:25\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ..\..\postgres\queries.rst:2
+# 34e377ee14174728b75c489e01b31848
+msgid "|LS| Queries"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:4
+# 392a4b8846354fe5841f563ad80fee66
+msgid "When you write a :kbd:`SELECT ...` command it is commonly known as a query - you are interrogating the database for information."
+msgstr ""
+
+#: ..\..\postgres\queries.rst:7
+# 2be39dbce54a449890a5e5ccb2d1bde8
+msgid "**The goal of this lesson:** To learn how to create queries that will return useful information."
+msgstr ""
+
+#: ..\..\postgres\queries.rst:11
+# 7e5bee807e90487dab96bf68a5210b6c
+msgid "Follow-up from previous lesson"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:13
+# 74d41c54c27f4b9e8a3fd78a712f9a12
+msgid "Let's check that you added a few people to the database successfully:"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:27
+# bf016fc0380148fabb674b420201d37f
+msgid "Ordering results"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:29
+# 0bbf7dfd977e4d68812c226a7d098016
+msgid "Let's get a list of people ordered by their house numbers:"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:35
+#: ..\..\postgres\queries.rst:53
+#: ..\..\postgres\queries.rst:187
+#: ..\..\postgres\queries.rst:212
+#: ..\..\postgres\queries.rst:237
+#: ..\..\postgres\queries.rst:254
+#: ..\..\postgres\queries.rst:298
+# a722d58921fc4cc28dfec1463a291a85
+# 316b79b1f0f04e689ad46891f3061b4f
+# 443dc977b39844a799df3519abe32d2f
+# 0c48f817f25d4aafadb366ea7414306b
+# 110384495f9c4cdcb0981c5a81affb43
+# 0e3ded7312de46429978fc0dbdec9a00
+# d8f78b64c19f49b28a72276c67228100
+msgid "Result:"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:47
+# 5127d6956c514e7797215992e85ec69e
+msgid "You can sort by more than one column:"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:66
+# bf31b11c33924992a4040fc093a4e08c
+msgid "Filtering"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:68
+# ca35827ba63c419da09bbc42db011f32
+msgid "Often you won't want to see every single record in the database - especially if there are thousands of records and you are only interested in seeing one or two. Never fear, you can filter the results!"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:72
+# d2bf258a839c47e1b5b5d1d14c12cfac
+msgid "Here is an example of a numerical filter:"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:83
+# a5257752a1814895b95b8b5565cc596e
+msgid "You can combine filters (defined using the :kbd:`WHERE` clause) with sorting (defined using the :kbd:`ORDER BY`)"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:96
+# 0299f74d340b467c8752d4f081e8f7d9
+msgid "You can also filter based on text data:"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:107
+# 94efce786b6244cb9f8e0ad223543f0c
+msgid "Here we used the :kbd:`LIKE` clause to find all names with an :kbd:`i` in them. If you want to search for a string of letters regardless of case, you can do a case insensitive search using the :kbd:`ILIKE` clause:"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:120
+# a9d55c52d97b404ba4f2200a2943271b
+msgid "That found everyone with a :kbd:`k` or :kbd:`K` in their name. Using the normal :kbd:`ILIKE` clause, you'd get:"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:132
+# 8ca3c15b2a114f0bade3b6b9d42e6877
+msgid "Joins"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:134
+# d7ac57330eb24b99a3b3be1348f41d6a
+msgid "What if you want to see the person's details and their street name (not its id)? In order to do that, you need to join the two tables together in a single query. Lets look at an example:"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:144
+# 5e6a9fde440b4b59a7b7f98300b0c09f
+msgid "With joins, you will always state the two tables the information is coming from, in this case people and streets.  You also need to specify which two keys must match (foreign key & primary key). If you don't specify that, you will get a list of all possible combinations of people and streets, but no way to know who actually lives on which street!"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:150
+# d4f10676d7c94d66bbca958e3127e676
+msgid "Here is what the correct output will look like:"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:162
+# f84d30e0935e42fb9a35ee966df9d258
+msgid "We will revisit joins as we create more complex queries later. Just remember they provide a simple way to combine the information from two or more tables."
+msgstr ""
+
+#: ..\..\postgres\queries.rst:166
+# 0b12b5adee1440dc9199c91d02f2307b
+msgid "Subselect"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:168
+# 69445dd341a748d9ba733c2c31d9dc2b
+msgid "First, let's do a little tweaking to our data:"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:178
+# 7ca7663a3cde4194874bd8fd1a851d6e
+msgid "Let's take a quick look at our data after those changes - we reuse our query from the previous section:"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:199
+# d7a249bd0b8a4298a45d20a0b36d27dc
+msgid "Now let's show you a subselection on this data. We want to show only people who live in :kbd:`street_id` number :kbd:`1`."
+msgstr ""
+
+#: ..\..\postgres\queries.rst:222
+# f1b29b3d44d84159aeac78241ec0587e
+msgid "This is a contrived example and in the above situations it may have been overkill. However when you have to filter based on a selection, subselects are really useful!"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:227
+# a5bfc50028464959860ff25eba956420
+msgid "Aggregate Queries"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:229
+# f6175c2601eb481989c78a878fc8ecfa
+msgid "One of the powerful features of a database is its ability to summarise the data in its tables. These summaries are called aggregate queries. Here is a typical example:"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:246
+# c389a59880804c2bba25e5bd0bdeac7d
+msgid "If we want the counts summarised by street name we can do this:"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:265
+# d0f3a95a20dd4225a1533cd62d2c14c1
+msgid "Because there is no :kbd:`ORDER BY` clause, on your computer these data may not be in the same order as shown here."
+msgstr ""
+
+#: ..\..\postgres\queries.rst:268
+# 33c211f29f1044f2b74005f2d4797000
+msgid "Exercise:"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:270
+# f2becfd7061648f6a572ee053df64089
+msgid "Summarise the people by street name and show the actual street names instead of the street_id's"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:289
+# aa827f693dde40e985842b021ee68172
+msgid "Solution:"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:309
+# 23cf3aebbc2244a6badde5ee18b18092
+msgid "You will notice that we have prefixed field names with table names (e.g. people.name and streets.name). This needs to be done whenever the field name is ambiguous."
+msgstr ""
+
+#: ..\..\postgres\queries.rst:314
+# 0dd97fefb45e4d3390c862517c5e081a
+msgid "|IC|"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:316
+# 507fa25ea3ab4c0da6eaada5432534c6
+msgid "You've seen how to use queries to return the data in your database in a way that allows you to extract useful information from it."
+msgstr ""
+
+#: ..\..\postgres\queries.rst:320
+# 3f77a3b481064406ada940f9307ddcf1
+msgid "|WN|"
+msgstr ""
+
+#: ..\..\postgres\queries.rst:322
+# c6bda890f8ce4300812a12ede50775d8
+msgid "Next you'll see how to create views from the queries that you've written."
+msgstr ""
+

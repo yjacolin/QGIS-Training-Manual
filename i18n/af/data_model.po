@@ -1,0 +1,374 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, Linfiniti Consulting CC
+# This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-18 19:25\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ..\..\postgres\data_model.rst:2
+# d8470804de0840e09e29937812b93b91
+msgid "|LS| Implementing the Data Model"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:4
+# fb53070d9e6044489037e55323bd093e
+msgid "Now that we've covered all the theory, let's create a new database. This database will be used for our exercises for the lessons that will follow afterwards."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:8
+# 6b8952d79a0f45348e5ce65990269ca8
+msgid "**The goal for this lesson:** To install the required software and use it to implement our example database."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:12
+# a48481a8d12a43a0be7fb9e5dfdcaf0a
+msgid "Install PostgreSQL"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:14
+#: ..\..\postgres\data_model.rst:51
+# ba02d66d3bc546e4a99d91e7148b58af
+# c2bfc3958500479a8bb60a2747208330
+msgid "Under Ubuntu:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:20
+# 25fa1a2f2c7c4e66bb438dee7c6f5afc
+msgid "You should get a message like this:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:39
+# 0309221d8b7042b9868fd962f7af4f22
+msgid "Press :kbd:`Y` and :kbd:`Enter` and wait for the download and installation to finish."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:43
+# 58e051df7b6245fa807cf1cdf3fafc15
+msgid "Help"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:45
+# bd74c4f9fe1544d28b65859dcac70289
+msgid "PostgreSQL has very good `online <http://www.postgresql.org/docs/9.1/static/index.html>`_ documentation."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:49
+# 334df288b2ff458eb233e2af843ec53f
+msgid "Create a database user"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:53
+# e3fbd7db48d143558a530cfa0f9e3b6a
+msgid "After the installation is complete, run this command to become the postgres user and then create a new database user:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:60
+# 255ae0fa5e4e451a9195655ba451aac7
+msgid "Type in your normal log in password when prompted (you need to have sudo rights)."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:62
+# 93e0ec2199684a4490d8e171c6a8550d
+msgid "Now, at the postgres user's bash prompt, create the database user. Make sure the user name matches your unix login name: it will make your life much easier, as postgres will automatically authenticate you when you are logged in as that user."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:71
+# 855aa93afab34b1c92e5bf9feaf60913
+msgid "Enter a password when prompted. I normally use a different password to my usual unix login."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:74
+# adb4bd2166be492c8934ed9a9f638be6
+msgid "What do those options mean?"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:86
+# 69c9a25b6ff54e4ea7f049754ad0e86f
+msgid "Now you should should leave the postgres user's bash shell environment by typing:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:94
+# e3fdae66c6c842bc99150087b580b22f
+msgid "Verify the new account"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:100
+# 263d97c5a5ef46d1bd79cdbc9dd08108
+msgid "Should return something like this:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:113
+#: ..\..\postgres\data_model.rst:144
+# f635d9ec6be54df88e62e05bdce2dbbf
+# 17fa5a564fec40868edcbc136f3ae48f
+msgid "Type :kbd:`q` to exit."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:116
+# 2ee6772af8a44f089a16386718a537ce
+msgid "Create a database"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:118
+# 20dac189d5c4460fbbcf35d0a10d1a1b
+msgid "The :kbd:`createdb` command is used to create a new database. It should be run from the bash shell prompt."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:125
+# 42288f6fe8194d6db6f04a5c2a9e6039
+msgid "You can verify the existence of your new database by using this command:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:131
+# 8ebae3affe5b4e7db6989319eb9e4c2a
+msgid "Which should return something like this:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:147
+# 131ab103e6c74f70bb39d17634c93e2b
+msgid "Starting a database shell session"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:149
+# 29e5cadda61d4394a8d790c2427a2a22
+msgid "You can connect to your database easily like this:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:155
+# 622ecbbd770a47d19f1fbe4b0a069ffa
+msgid "To exit out of the psql database shell, type:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:161
+# 0c2775e03f5b4f88a518d80612e952da
+msgid "For help in using the shell, type:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:167
+# 6bf0602f4e8a4be4a22b82fe23ab2852
+msgid "For help in using sql commands, type:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:173
+# f0e7cdcdc44643618510904776521180
+msgid "To get help on a specific command, type (for example):"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:179
+# b5dbd0b8c51b43e6851fc48266ab6092
+msgid "See also the `Psql cheat sheet <../_static/postgres/psql_cheatsheet.pdf>`_ - available online `here <http://www.postgresonline.com/special_feature.php?sf_name=postgresql83_psql_cheatsheet&outputformat=html>`_."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:184
+# c6017f1b40024d719fc4bc83b089d56b
+msgid "Make Tables in SQL"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:186
+# 37780af177344a05ac91f283a5047183
+msgid "Let's start making some tables! We will use our ER Diagram as a guide. First, let's create a streets table:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:193
+# 81e01b92254e494f8030b3d09f294718
+msgid ":kbd:`serial` and :kbd:`varchar` are **data types**. :kbd:`serial` tells PostgreSQL to start an integer sequence (autonumber) to populate the :kbd:`id` automatically for every new record. :kbd:`varchar(50)` tells PostgreSQL to create a character field of 50 characters in length."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:198
+# 2b1e74b6fffc4e7dbfcea2be2621a597
+msgid "You will notice that the command ends with a :kbd:`;` - all SQL commands should be terminated this way. When you press enter, psql will report something like this:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:210
+# 4190ab60f8d94482b54e6f0c47f0c95f
+msgid "That means your table was created successfully, with a primary key :kbd:`streets_pkey` using :kbd:`streets.id`."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:213
+# b12607aaee6d4c679b16d3497f9518ae
+msgid "Note: If you hit return without entering a :kbd:`;`, then you will get a prompt like this: :kbd:`address-#`. This is because PG is expecting you to enter more. Enter :kbd:`;` to run your command."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:217
+# e8c2a13429e44802ac0a6c7f72a5820a
+msgid "To view your table schema, you can do this:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:223
+#: ..\..\postgres\data_model.rst:242
+# 70fa441720cc40068901fe9b11af26f3
+# 04e210409c104423b4fcef8c291de739
+msgid "Which should show something like this:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:236
+# 13df715670fb4279ab30ae0e3a1dd480
+msgid "To view your table contents, you can do this:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:250
+# b7034ca724604b71bdfb57869df9d3ee
+msgid "As you can see, our table is empty!"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:252
+# 19a40bb941814bfda1caf6efb595f8e5
+msgid "Use the approach shown above to make a table called people: Add fields such as phone number, home address, name, etc. (these aren't all valid names: change them to make them valid)."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:255
+# 084ce7aa3a3941f59e5549c6f026e7cf
+msgid "Write the SQL you create here:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:296
+# f861710675054feeb6b2303787b6186d
+msgid "Solution:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:306
+# 2f4f7361092944079d65491834221de2
+msgid "The schema for the table (enter :kbd:`\\\\d people`) looks like this:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:322
+# 2afb0b6355b3404b9f3ae84457aea5e4
+msgid "For illustration purposes, we have purposely omitted the fkey constraint."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:326
+# 0839734c998b4ecd8f4b5bdad240713e
+msgid "Create Keys in SQL"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:328
+# a45b585981fa4d82a2cab91988e1247b
+msgid "The problem with our solution above is that the database doesn't know that people and streets have a logical relationship. To express this relationship, we have to define a foreign key that points to the primary key of the streets table."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:337
+# 3fb2948c9c19437494daee41847f36e7
+msgid "adding the key after the table has been created"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:338
+# 10708661dc234841b61e936b77525358
+msgid "defining the key at time of table creation"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:340
+# cb01975b4c33453493d93976eb7d7bbe
+msgid "Our table has already been created, so let's do it the first way:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:348
+# 8b2ab009c9f646d3b5c18e8a3c290f1c
+msgid "That tells the :kbd:`people` table that its :kbd:`street_id` fields must match a valid street :kbd:`id` from the :kbd:`streets` table."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:351
+# 8674e19f8a9c4931ba62df1e7653424c
+msgid "The more usual way to create a constraint is to do it when you create the table:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:361
+# 766eedb2a6594fa48cb9830f7b7aeb5e
+msgid "After adding the constraint, our table schema looks like this now:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:381
+# fb7b4b200bd4469281b2163f88096545
+msgid "Create Indexes in SQL"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:383
+# beacd17ec72b4d35aaf692538cbac566
+msgid "We want lightning fast searches on peoples names. To provide for this, we can create an index on the name column of our people table:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:409
+# ca4bd4647eab4558ab7e1cd1b3476c98
+msgid "Dropping Tables in SQL"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:411
+# f939fa338c1047d09944791ba60bc9b9
+msgid "If you want to get rid of a table you can use the :kbd:`drop` command:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:418
+# 3682c20725594e8da0621030459330fd
+msgid "In our example, this would not work - why?"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:420
+# 2d2a81b45bb04dcdbb63120a0e79be7d
+msgid "Some deep and inspired thoughts as to why..."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:436
+# 0a746b91203f48e7a05b94a4d5eab710
+msgid "Sometimes you just can't stand having a table any more. Maybe you are sick of all your friends. How can you get rid of them all in one easy step? Drop the table of course! Of course, right now too much hard work has gone into our table to get rid of it on a whim, but if you really hate your friends that much, nothing's stopping you from ridding yourself of them forever:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:446
+# da4ae1dca69245c497c5f0f3cc52cc4e
+msgid "This time it works fine! Why? Are people less important than streets?"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:448
+# 8b0e03d54f034ae199a8b6fa203464bb
+msgid "Some thoughts on why you could drop people:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:464
+# ea063dab6c64456598817f7e3ded509d
+msgid "If you actually did enter that command and dropped the :kbd:`people` table, now would be a good time to rebuild it, as you will need it in the next exercises."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:469
+# 474e2b05ea6445a2a25bbb690ab98438
+msgid "A word on PG Admin III"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:471
+# e42fd9d6093841d7ba05f76b87fec15d
+msgid "We are showing you the SQL commands from the psql prompt because it's a very useful way to learn about databases. However, there are quicker and easier ways to do a lot of what we are showing you. Install PGAdminIII and you can create, drop, alter etc tables using 'point and click' operations in a GUI."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:476
+# b8da7962adcc43ec9ceca0a6c2e60ff9
+msgid "Under Ubuntu, you can install it like this:"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:483
+# 1b3bd74c66be4004940fb14775814e93
+msgid "|IC|"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:485
+# 116a22323b7242529608d7de275489ed
+msgid "You have now seen how to create a brand new database, starting completely from scratch."
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:489
+# 6c60086bddf44b6992d1a30352bed886
+msgid "|WN|"
+msgstr ""
+
+#: ..\..\postgres\data_model.rst:491
+# 33e5e0c11f1a4d65980ea5c578832b8f
+msgid "Next you'll learn how to use the DBMS to add new data."
+msgstr ""
+

@@ -1,0 +1,283 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, Linfiniti Consulting CC
+# This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-18 19:25\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ..\..\grass\grass_setup.rst:2
+# b225781836634b5b9f2fbe1239c0f037
+msgid "|LS| GRASS Setup"
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:4
+# 4590086faa884ed4b2ae8e6c44c38572
+msgid "Using GRASS in QGIS requires you to think of the interface in a slightly different way. Remember that you're not working in QGIS directly, but working in GRASS *via* QGIS."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:8
+# cbcfb1e634054d4490adf0cc4c6aac46
+msgid "**The goal for this lesson:** To begin a GRASS project in QGIS."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:11
+# 9a0d86a1453748fc8facab5878c7759a
+msgid "|basic| |FA| Start a New GRASS Project"
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:13
+# c5bd4ac53f484579b1b70e1040dbde1e
+msgid "To launch GRASS from within QGIS, you need to activate it as with any other plugin."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:16
+# 80a7ff2a7c944f8c84cbf4f7f9f4b2ee
+msgid "In the :guilabel:`Plugin Manager`, enable :guilabel:`GRASS` in the list:"
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:21
+# a2a0dd2ffaf346cf9b6db23cbffafc81
+msgid "The GRASS toolbar will appear:"
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:26
+# 3b4ea0c60fc6486a80a0730acc92fb48
+msgid "Before you can use GRASS, you need to create a **mapset**. GRASS always works in a database environment, which means that you need to import all the data you want to use into a GRASS database."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:30
+# 3f0b81ffe385467a930dc76390ff46ac
+msgid "Click on the :guilabel:`New mapset` button:"
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:35
+# 50a8cbe30cd142fb9476cd2e960856f3
+msgid "You'll see a dialog explaining the structure of a GRASS mapset."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:36
+# 62ae9a297f64445490587ecb8094326c
+msgid "Create a new directory called :kbd:`grass_db` in :guilabel:`exercise_data`."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:37
+# f6e5077afc0944528a47d4c4bbbd1fc4
+msgid "Set it as the directory that will be used by GRASS to set up its database:"
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:42
+# 3c9f8c3b379f4b80b57b151c43388473
+msgid "GRASS needs to create a \"location\", which describes the maximum extents of the geographic area you'll be working in."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:45
+# ef5969c5e7274c12acec69137e907786
+msgid "Call the new location :kbd:`South_Africa`:"
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:50
+# 544ad729c78646f38648394072ea5ee8
+msgid "We'll be working with :kbd:`WGS 84`, so search for and select this CRS:"
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:55
+# 98700f9af6d746fab255afe5e8be1906
+msgid "Now select the region :guilabel:`South Africa`, which is already defined in GRASS:"
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:61
+# e5052ba048884c0680160495da680a5b
+msgid "Create a mapset, which is the map file that you'll be working with."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:66
+# 71209376b7c840469d4888761225f815
+msgid "Once you're done, you'll see a dialog asking you to confirm that the settings it displays are correct."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:69
+# 8c843cc19ed24d449a15e6752b9999e3
+msgid "Click :guilabel:`Finish`."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:70
+# 3d6a5349a2424e608c32b79aa79d2867
+msgid "Click :guilabel:`OK` on the success dialog."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:73
+# ded673519b9f41d9be2f13a2be781ae4
+msgid "|basic| |FA| Loading Vector Data into GRASS"
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:75
+# e528891d702c4ac8a7ff6626326ba4c2
+msgid "You'll now have a blank map. To load data into GRASS, you need to follow a two-step process."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:78
+# 4b132df5bc754f6aa074ee3898340abe
+msgid "Load data into QGIS as usual. Use the :kbd:`streets.shp` dataset (found under :kbd:`exercise_data/`) for now."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:80
+# 83c702ba287e478bb15f4df566f8aeea
+msgid "As soon as it's loaded, click on the :guilabel:`GRASS Tools` button:"
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:85
+# 57da3518d39c42d8b8b4c7aebef01fa2
+msgid "Find the vector import tool by entering the term :kbd:`v.in.ogr.qgis` in the :guilabel:`Filter` field of the dialog that has appeared."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:88
+# 6747c952b9654d71aea34e8b5dde3651
+msgid "The :kbd:`v` stands for \"vector\", :kbd:`in` means its a function to import data into the GRASS database, :kbd:`ogr` is the software library used to read vector data, and :kbd:`qgis` means that the tool will look for a vector from among the vectors already loaded into QGIS."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:93
+# eefbf717039e4845be71f67cc8d94458
+msgid "Once you've found this tool, click on it to bring up the tool itself:"
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:98
+# bce81ce5986e486ab3ed293ed425c994
+msgid "Set the loaded layer to :guilabel:`streets` and its GRASS version's name to :kbd:`g_streets` to prevent confusion."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:104
+# d58e4cd7ed4f4481b97b0125c54bd817
+msgid "|hard| Note the extra import options provided under :guilabel:`Advanced Options`. These include the ability to add a WHERE clause for the SQL query used for importing the data."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:108
+# d5c88736cea94b1ea39c5ea4a1de39e5
+msgid "Click :guilabel:`Run` to begin the import."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:109
+# f274e01d59e94fe08060b89f71f7f94a
+msgid "When it's done, click the :guilabel:`View output` button to see the newly imported GRASS layer in the map."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:111
+# cc116c243ed74b519fc87b1f9eda3843
+msgid "Close first the import tool itself (click the :guilabel:`Close` button to the immediate right of :guilabel:`View output`), then close the :guilabel:`GDAL Tools` window."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:114
+# fcd5da29e589468198bb821a379a3373
+msgid "Remove the original :guilabel:`roads_33S` layer."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:116
+# e1c71ad6ea2949b3acea8f5a004da6f4
+msgid "Now you are left with only the imported GRASS layer as displayed in your QGIS map."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:120
+# 49af8d1fd2af461ca5d9bfafd5675fff
+msgid "|basic| |FA| Loading Raster Data into GRASS"
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:122
+# 11858611de9040cf93e73f63dd1d9821
+msgid "Recall that our DEM is in the Projected CRS :kbd:`UTM 33S / WGS 84`, but our GRASS project is in the Geographic CRS :kbd:`WGS 84`. So let's reproject the DEM first."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:126
+# 115b30c5563348b0a135ccc4a0016ac6
+msgid "Load the :kbd:`srtm_41_19.tif` dataset (found under :kbd:`exercise_data/raster/SRTM/`) into the QGIS map as usual, using QGIS' :guilabel:`Add Raster Layer` tool."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:129
+# 0d8d152e849144079cb4198a271ab98f
+msgid "Reproject it using GDAL Warp tool (:menuselection:`Raster --> Projections --> Warp (Reproject)`), setting it up as shown:"
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:135
+# 05ce0ddfa18d4c4ba907565a51a2063e
+msgid "Save the raster under the same folder as the original, but with the file name :kbd:`DEM_WGS84.tif`. Once it appears in your map, remove the :kbd:`srtm_41_19.tif` dataset from your :guilabel:`Layers list`."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:139
+# 7f2c6a87bd8a46ada1f0b6aaee7a1f2e
+msgid "Now that it's reprojected, you can load it into your GRASS database."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:141
+# 2bc38e1f9b9948e6b8fe254f6e1bd849
+msgid "Open the :guilabel:`GRASS Tools` dialog again."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:142
+# 3e14d919201c4abf8adacab185bac602
+msgid "Click on the :guilabel:`Modules List` tab."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:143
+# 8fbd49e704f24731a56facb911922923
+msgid "Search for :kbd:`r.in.gdal.qgis`:"
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:148
+# ef4a1f76f0034501b74309236f9c7a99
+msgid "Which gives you this tool:"
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:153
+# 9db0c76fd590461c98ce386b96095f53
+msgid "Set it up as shown (input layer is :guilabel:`DEM_WGS84`, output is :kbd:`g_dem`)."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:155
+# edea164c91234eb3b8477aee04fd5234
+msgid "Click :guilabel:`Run`."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:156
+# be9a90f5f2904387be8e4bd31577e4e1
+msgid "When the process is done, click :guilabel:`View output`."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:157
+# 2af81d71c59e462a879222882ee63097
+msgid ":guilabel:`Close` the current tab, and then :guilabel:`Close` the whole dialog."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:163
+# c25fd2a43b9d4b5aa8ced1e6c7fffcde
+msgid "You may now remove the original :guilabel:`DEM_WGS84` layer."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:166
+# 92c595d2f9ba4a409eeeb9be7f08bd61
+msgid "|IC|"
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:168
+# ec74af0f4ae14a65a5b1829e02d04e82
+msgid "The GRASS workflow for ingesting data is somewhat different from the QGIS method, because GRASS loads its data into a spatial database structure. However, by using QGIS as a frontend, you can make the setup of a GRASS mapset easier by using existing layers in QGIS as data sources for GRASS."
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:174
+# 2fcff567dadb40a39e768dcac2407cb3
+msgid "|WN|"
+msgstr ""
+
+#: ..\..\grass\grass_setup.rst:176
+# 4492fc77af624d40935ef6586d2f11a9
+msgid "Now that the data is imported into GRASS, we can look at the advanced analysis operations that GRASS offers."
+msgstr ""
+

@@ -1,0 +1,17 @@
+sphinx-build -b gettext -c . answers i18n/pot
+sphinx-build -b gettext -c . appendix i18n/pot
+sphinx-build -b gettext -c . assessment i18n/pot
+sphinx-build -b gettext -c . basic_map i18n/pot
+sphinx-build -b gettext -c . complete_analysis i18n/pot
+sphinx-build -b gettext -c . create_vector_data i18n/pot
+sphinx-build -b gettext -c . foreword i18n/pot
+sphinx-build -b gettext -c . grass i18n/pot
+sphinx-build -b gettext -c . introduction i18n/pot
+sphinx-build -b gettext -c . map_composer i18n/pot
+sphinx-build -b gettext -c . online_resources i18n/pot
+sphinx-build -b gettext -c . postgis i18n/pot
+sphinx-build -b gettext -c . postgres i18n/pot
+sphinx-build -b gettext -c . qgis-plugins i18n/pot
+sphinx-build -b gettext -c . rasters i18n/pot
+sphinx-build -b gettext -c . vector_analysis i18n/pot
+sphinx-build -b gettext -c . vector_classification i18n/pot
