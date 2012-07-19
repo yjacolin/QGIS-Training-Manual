@@ -19,9 +19,8 @@ msgstr ""
 
 # 80de5230e72544cb8a8eec9051c2916f
 #: ..\..\vector_classification\classification.rst:2
-#, fuzzy
 msgid "|LS| Classification"
-msgstr ""
+msgstr "klasifikasi"
 
 # 7b111c6c51e4407ab1a0cf0bdb5b2a30
 #: ..\..\vector_classification\classification.rst:4
