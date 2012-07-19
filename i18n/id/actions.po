@@ -24,7 +24,11 @@ msgstr ""
 "Sesudah Anda melihat default action di latihan sebelumnya, sekarang saatnya "
 "untuk mencoba sendiri. Action adaah sesuatu yang terjafi kalau Anda "
 "meng-klik sebuah fitur. Action dapat digunakan untuk memunculkan "
-"fungsi-fugsi tambahan ke dalam peta, misalnya menampilkan"
+"fungsi-fugsi tambahan ke dalam peta, misalnya menampilkan informasi tambahan "
+"tentang sebuah obyek. Menyediakan actions dapat menambahkan dimensi baru "
+"pada peta Anda\n"
+"\n"
+"**Tujuan latihan ini** Belajar cara menambahkan actions terkustomisasi"
 
 # 68827ac1864e448eaafa65b33da9c5e8
 #: ..\..\create_vector_data\actions.rst:4
