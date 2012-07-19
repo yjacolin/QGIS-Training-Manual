@@ -61,12 +61,15 @@ msgstr ""
 
 # 226e997b6b904010aff9335bc3b1e25b
 #: ..\..\complete_analysis\analysis_combination.rst:16
-#, fuzzy
 msgid ""
 "In the :guilabel:`Layers list`, enable these layers: - "
 ":guilabel:`hillshade`, - :guilabel:`solution`, - :guilabel:`important_roads` "
 "and - either :guilabel:`aerial_photos` or :guilabel:`DEM`."
 msgstr ""
+"di dalam guilabel:'daftar Layer', memungkinkan layer ini "
+":'-':guilabel:'hillshade', - :guilabel:'solution', - "
+":guilabel:'important_roads' dan salah satu dari :guilabel:'aerial_photos' "
+"atau :guilabel:'DEM'."
 
 # 51f00c533df44d198a5fee7ff8acf0a7
 #: ..\..\complete_analysis\analysis_combination.rst:21
