@@ -42,73 +42,73 @@ msgstr ""
 
 # 9a0d86a1453748fc8facab5878c7759a
 #: ..\..\grass\grass_setup.rst:11
-#, fuzzy
 msgid "|basic| |FA| Start a New GRASS Project"
-msgstr ""
+msgstr "|Dasar| |ikuti bersama| Mulai Proyek GRASS Baru"
 
 # c5bd4ac53f484579b1b70e1040dbde1e
 #: ..\..\grass\grass_setup.rst:13
-#, fuzzy
 msgid ""
 "To launch GRASS from within QGIS, you need to activate it as with any other "
 "plugin."
 msgstr ""
+"Untuk menjalankan GRASS dari dalam QGIS, Anda perlu mengaktifkannya dengan "
+"plugin yang lain."
 
 # 80a7ff2a7c944f8c84cbf4f7f9f4b2ee
 #: ..\..\grass\grass_setup.rst:16
-#, fuzzy
 msgid ""
 "In the :guilabel:`Plugin Manager`, enable :guilabel:`GRASS` in the list:"
-msgstr ""
+msgstr "Dalam Plugin Manager, memungkinkan GRASS dalam daftar:"
 
 # a2a0dd2ffaf346cf9b6db23cbffafc81
 #: ..\..\grass\grass_setup.rst:21
-#, fuzzy
 msgid "The GRASS toolbar will appear:"
-msgstr ""
+msgstr "Toolbar GRASS akan muncul:"
 
 # 3b4ea0c60fc6486a80a0730acc92fb48
 #: ..\..\grass\grass_setup.rst:26
-#, fuzzy
 msgid ""
 "Before you can use GRASS, you need to create a **mapset**. GRASS always "
 "works in a database environment, which means that you need to import all the "
 "data you want to use into a GRASS database."
 msgstr ""
+"Sebelum Anda dapat menggunakan GRASS, Anda perlu membuat sebuah mapset. "
+"GRASS selalu bekerja dalam cakupan basis data, yang berarti bahwa Anda perlu "
+"mengimport semua data yang ingin Anda gunakan ke dalam basis data GRASS."
 
 # 3f0b81ffe385467a930dc76390ff46ac
 #: ..\..\grass\grass_setup.rst:30
-#, fuzzy
 msgid "Click on the :guilabel:`New mapset` button:"
-msgstr ""
+msgstr "Untuk memulai, klik tombol mapset baru:"
 
 # 50a8cbe30cd142fb9476cd2e960856f3
 #: ..\..\grass\grass_setup.rst:35
-#, fuzzy
 msgid "You'll see a dialog explaining the structure of a GRASS mapset."
 msgstr ""
+"Anda akan melihat dialog seperti di bawah, yang menjelaskan struktur dari "
+"mapset GRASS."
 
 # 62ae9a297f64445490587ecb8094326c
 #: ..\..\grass\grass_setup.rst:36
-#, fuzzy
 msgid ""
 "Create a new directory called :kbd:`grass_db` in :guilabel:`exercise_data`."
-msgstr ""
+msgstr "Buat direktori baru bernama grass_db di data_latihan."
 
 # f6e5077afc0944528a47d4c4bbbd1fc4
 #: ..\..\grass\grass_setup.rst:37
-#, fuzzy
 msgid ""
 "Set it as the directory that will be used by GRASS to set up its database:"
 msgstr ""
+"atur sebagai direktori yang akan digunakan oleh GRASS untuk membuat database:"
 
 # 3c9f8c3b379f4b80b57b151c43388473
 #: ..\..\grass\grass_setup.rst:42
-#, fuzzy
 msgid ""
 "GRASS needs to create a \"location\", which describes the maximum extents of "
 "the geographic area you'll be working in."
 msgstr ""
+"GRASS perlu membuat \"lokasi\", yang menggambarkan luasan maksimum daerah "
+"geografis dimana Anda akan bekerja di dalamanya.  "
 
 # ef5969c5e7274c12acec69137e907786
 #: ..\..\grass\grass_setup.rst:45
