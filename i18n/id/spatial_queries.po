@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -20,7 +19,7 @@ msgstr ""
 # d4051ab25740441cbc8c0b233a956d15
 #: ..\..\postgis\spatial_queries.rst:2
 msgid "|LS| Spatial Queries"
-msgstr ""
+msgstr "|Pelajaran| Queri Spasial"
 
 # 37aa790abce849098df1b932b4e63da5
 #: ..\..\postgis\spatial_queries.rst:4
@@ -44,7 +43,6 @@ msgstr ""
 
 # 7c49d268cd7d48d3b990631428965d82
 #: ..\..\postgis\spatial_queries.rst:16
-#, fuzzy
 msgid ""
 "When you want to know which points are within a distance of 2 degrees to a "
 "point(X,Y) you can do this with:"
