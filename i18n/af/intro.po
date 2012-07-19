@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -15,164 +14,228 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Language: en_ZA\n"
 
-#: ..\..\introduction\intro.rst:2
 # f9cd732037d54f078e9ca489f83c44c5
+#: ..\..\introduction\intro.rst:2
 msgid "|LS| A Brief Introduction"
 msgstr ""
 
-#: ..\..\introduction\intro.rst:4
 # 6d1a13018d444badb4d114e410c22ba1
-msgid "Welcome to our course! Over the next few days, we'll be showing you how to use QGIS easily and efficiently. If you're new to GIS, we'll tell you what you need to get started. If you're an experienced user, you'll see how QGIS fulfills all the functions you expect from a GIS program, and more!"
+#: ..\..\introduction\intro.rst:4
+msgid ""
+"Welcome to our course! Over the next few days, we'll be showing you how to "
+"use QGIS easily and efficiently. If you're new to GIS, we'll tell you what "
+"you need to get started. If you're an experienced user, you'll see how QGIS "
+"fulfills all the functions you expect from a GIS program, and more!"
 msgstr ""
 
-#: ..\..\introduction\intro.rst:10
 # 85590ee2ca52450fbba5b9140aa3dc97
-msgid "In this module we introduce the QGIS project itself, as well as explaining the user interface."
+#: ..\..\introduction\intro.rst:10
+msgid ""
+"In this module we introduce the QGIS project itself, as well as explaining "
+"the user interface."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:13
 # e169d392510b40129520950569b7a41c
-msgid "After completing this section, you will be able to correctly identify the main elements of the screen in QGIS and know what each of them does, and load a shapefile into QGIS."
+#: ..\..\introduction\intro.rst:13
+msgid ""
+"After completing this section, you will be able to correctly identify the "
+"main elements of the screen in QGIS and know what each of them does, and "
+"load a shapefile into QGIS."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:20
 # 6d3c0ce071f148c089d1a9c56144670d
-msgid "This course includes instructions on adding, deleting and altering GIS datasets. We have provided training datasets for this purpose. Before using the techniques described here on your own data, always ensure you have proper backups!"
+#: ..\..\introduction\intro.rst:20
+msgid ""
+"This course includes instructions on adding, deleting and altering GIS "
+"datasets. We have provided training datasets for this purpose. Before using "
+"the techniques described here on your own data, always ensure you have "
+"proper backups!"
 msgstr ""
 
-#: ..\..\introduction\intro.rst:26
 # f3e79459f96b4088a98531c6eaedebb6
+#: ..\..\introduction\intro.rst:26
 msgid "How to use this tutorial"
 msgstr ""
 
-#: ..\..\introduction\intro.rst:28
 # 0c2e0e27f065446d93f192f1bf800551
-msgid "Any text :guilabel:`that looks like this` refers to something on the screen that you can click on."
+#: ..\..\introduction\intro.rst:28
+msgid ""
+"Any text :guilabel:`that looks like this` refers to something on the screen "
+"that you can click on."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:31
 # 827c201797e0490f8c148fec587e38f9
-msgid "Text that :menuselection:`looks --> like --> this` directs you through menus."
+#: ..\..\introduction\intro.rst:31
+msgid ""
+"Text that :menuselection:`looks --> like --> this` directs you through menus."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:33
 # 28f99cf252a848cd9deb746b706dd0eb
-msgid ":kbd:`This kind of text` refers to something you can type, such as a command, path, or file name."
+#: ..\..\introduction\intro.rst:33
+msgid ""
+":kbd:`This kind of text` refers to something you can type, such as a "
+"command, path, or file name."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:37
 # 6999d4d31b4f47a6858af2ad5df1c43e
+#: ..\..\introduction\intro.rst:37
 msgid "Tiered course objectives"
 msgstr ""
 
-#: ..\..\introduction\intro.rst:39
 # 6c844d084f294a33b05825bdc469c2d7
-msgid "This course caters to different user experience levels. Depending on which category you consider yourself to be in, you can expect a different set of course outcomes. Each category contains information that is essential for the next one, so it's important to do all exercises that are at or below your level of experience."
+#: ..\..\introduction\intro.rst:39
+msgid ""
+"This course caters to different user experience levels. Depending on which "
+"category you consider yourself to be in, you can expect a different set of "
+"course outcomes. Each category contains information that is essential for "
+"the next one, so it's important to do all exercises that are at or below "
+"your level of experience."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:46
 # a4a4842e31bd4081ab00464ed97b629f
+#: ..\..\introduction\intro.rst:46
 msgid "|basic| Basic"
 msgstr ""
 
-#: ..\..\introduction\intro.rst:48
 # e8205d633fc4436daadeb781fdf52545
-msgid "In this category, the course assumes that you have little or no prior experience with theoretical GIS knowledge or the operation of a GIS program."
+#: ..\..\introduction\intro.rst:48
+msgid ""
+"In this category, the course assumes that you have little or no prior "
+"experience with theoretical GIS knowledge or the operation of a GIS program."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:51
 # f42189c7ed5a45edaeb853d7f1d42b8d
-msgid "Limited theoretical background will be provided to explain the purpose of an action you will be performing in the program, but the emphasis is on learning by doing."
+#: ..\..\introduction\intro.rst:51
+msgid ""
+"Limited theoretical background will be provided to explain the purpose of an "
+"action you will be performing in the program, but the emphasis is on "
+"learning by doing."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:55
 # 7beefdd6ff854e558596d96ff59c7850
-msgid "When you complete the course, you will have a better concept of the possibilities of GIS, and how to harness their power via QGIS."
+#: ..\..\introduction\intro.rst:55
+msgid ""
+"When you complete the course, you will have a better concept of the "
+"possibilities of GIS, and how to harness their power via QGIS."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:59
 # e48818f078274946966db2421849f91f
+#: ..\..\introduction\intro.rst:59
 msgid "|moderate| Intermediate"
 msgstr ""
 
-#: ..\..\introduction\intro.rst:61
 # 8ac343e32d9f47828a4b31653c321594
-msgid "In this category, it is assumed that you have working knowledge and experience of the everyday uses of GIS."
+#: ..\..\introduction\intro.rst:61
+msgid ""
+"In this category, it is assumed that you have working knowledge and "
+"experience of the everyday uses of GIS."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:64
 # e6ac0a53e69a41888d1502bb47f96a13
-msgid "Following the instructions for the beginner level will provide you with familiar ground, as well as to make you aware of the cases where QGIS does things slightly differently from other software you may be used to. You will also learn how to use analysis functions in QGIS."
+#: ..\..\introduction\intro.rst:64
+msgid ""
+"Following the instructions for the beginner level will provide you with "
+"familiar ground, as well as to make you aware of the cases where QGIS does "
+"things slightly differently from other software you may be used to. You will "
+"also learn how to use analysis functions in QGIS."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:69
 # 8ad90cc101c7443380a93684f84b9e72
-msgid "When you complete the course, you should be comfortable with using QGIS for all of the functions you usually need from a GIS for everyday use."
+#: ..\..\introduction\intro.rst:69
+msgid ""
+"When you complete the course, you should be comfortable with using QGIS for "
+"all of the functions you usually need from a GIS for everyday use."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:73
 # e90dfca8d950451586b40461934f2a5c
+#: ..\..\introduction\intro.rst:73
 msgid "|hard| Advanced"
 msgstr ""
 
-#: ..\..\introduction\intro.rst:75
 # d2229d3064be442fbb8bedadf0118af5
-msgid "In this category, the assumption is that you are experienced with GIS, have knowledge of and experience with spatial databases, using data on a remote server, perhaps writing scripts for analysis purposes, etc."
+#: ..\..\introduction\intro.rst:75
+msgid ""
+"In this category, the assumption is that you are experienced with GIS, have "
+"knowledge of and experience with spatial databases, using data on a remote "
+"server, perhaps writing scripts for analysis purposes, etc."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:79
 # 6f96d8ed1dd1416091d233b0a3e73eb9
-msgid "Following the instructions for the other two levels will familiarize you with the approach that the QGIS interface follows, and will ensure that you know how to access the basic functions that you need. You will also be shown how to make use of QGIS' plugin system, database access system, and so on."
+#: ..\..\introduction\intro.rst:79
+msgid ""
+"Following the instructions for the other two levels will familiarize you "
+"with the approach that the QGIS interface follows, and will ensure that you "
+"know how to access the basic functions that you need. You will also be shown "
+"how to make use of QGIS' plugin system, database access system, and so on."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:84
 # ce3519b3a70f4e74b35b27f9574331c9
-msgid "When you complete the course, you should be well-acquainted with the everyday operation of QGIS, as well as its more advanced functions."
+#: ..\..\introduction\intro.rst:84
+msgid ""
+"When you complete the course, you should be well-acquainted with the "
+"everyday operation of QGIS, as well as its more advanced functions."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:89
 # f9942ff232204217aeb0ff705e998421
+#: ..\..\introduction\intro.rst:89
 msgid "Why QGIS?"
 msgstr ""
 
-#: ..\..\introduction\intro.rst:91
 # eaddf67c9ab54cb7ad33b19a0fa2a0f0
-msgid "As information becomes increasingly spatially aware, there is no shortage of tools able to fulfill some or all commonly used GIS functions. Why should anyone be using QGIS over some other GIS software package?"
+#: ..\..\introduction\intro.rst:91
+msgid ""
+"As information becomes increasingly spatially aware, there is no shortage of "
+"tools able to fulfill some or all commonly used GIS functions. Why should "
+"anyone be using QGIS over some other GIS software package?"
 msgstr ""
 
-#: ..\..\introduction\intro.rst:95
 # 17ce6865f5fb484596f8ba96ba3788b0
+#: ..\..\introduction\intro.rst:95
 msgid "Here are only some of the reasons:"
 msgstr ""
 
-#: ..\..\introduction\intro.rst:97
 # 46b1a073020a434dbd38e109652db46d
-msgid "*It's free, as in lunch.* Installing and using the QGIS program costs you a grand total of zero money. No initial fee, no recurring fee, nothing."
+#: ..\..\introduction\intro.rst:97
+msgid ""
+"*It's free, as in lunch.* Installing and using the QGIS program costs you a "
+"grand total of zero money. No initial fee, no recurring fee, nothing."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:100
 # 3d75aa316db047819fa07d22887c36bc
-msgid "*It's free, as in liberty.* If you need extra functionality in QGIS, you can do more than just hope it will be included in the next release. You can sponsor the development of a feature, or add it yourself if you are familiar with programming."
+#: ..\..\introduction\intro.rst:100
+msgid ""
+"*It's free, as in liberty.* If you need extra functionality in QGIS, you can "
+"do more than just hope it will be included in the next release. You can "
+"sponsor the development of a feature, or add it yourself if you are familiar "
+"with programming."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:105
 # 8daf40f8ebbb4930be5e1a0bc547fc8b
-msgid "*It's constantly developing.* Because anyone can add new features and improve on existing ones, QGIS never stagnates. The development of a new tool can happen as quickly as you need it to."
+#: ..\..\introduction\intro.rst:105
+msgid ""
+"*It's constantly developing.* Because anyone can add new features and "
+"improve on existing ones, QGIS never stagnates. The development of a new "
+"tool can happen as quickly as you need it to."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:109
 # 41a6945f1ec94efeb0365d77bed1e7ea
-msgid "*Extensive help and documentation is available.* If you're stuck with anything, you can turn to the extensive documentation, your fellow QGIS users, or even the developers."
+#: ..\..\introduction\intro.rst:109
+msgid ""
+"*Extensive help and documentation is available.* If you're stuck with "
+"anything, you can turn to the extensive documentation, your fellow QGIS "
+"users, or even the developers."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:113
 # 33534fec6ed24b148ca888d8395f0055
+#: ..\..\introduction\intro.rst:113
 msgid "*Cross-platform.* QGIS can be installed on MacOS, Windows and Linux."
 msgstr ""
 
-#: ..\..\introduction\intro.rst:115
 # 331d206041ac4337a3298053c5be810a
-msgid "Now that you know why you want to use QGIS, we can show you how. The first lesson will guide you in creating your first QGIS map."
+#: ..\..\introduction\intro.rst:115
+msgid ""
+"Now that you know why you want to use QGIS, we can show you how. The first "
+"lesson will guide you in creating your first QGIS map."
 msgstr ""
-
