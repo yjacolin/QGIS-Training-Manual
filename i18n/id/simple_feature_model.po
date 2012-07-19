@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -15,219 +14,288 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Language: id\n"
 
-#: ..\..\postgis\simple_feature_model.rst:2
 # eff2b38efbb2445cacfb3c484b17ed14
+#: ..\..\postgis\simple_feature_model.rst:2
 msgid "|LS| Simple Feature Model"
-msgstr ""
+msgstr "|Pelajaran| Model Feature Sederhana"
 
-#: ..\..\postgis\simple_feature_model.rst:4
 # 9793cf32f32c4b6f94e89ba29e8274fd
-msgid "How can we store and represent geographic features in a database? In this lesson we'll cover one approach, the Simple Feature Model as defined by the OGC."
+#: ..\..\postgis\simple_feature_model.rst:4
+msgid ""
+"How can we store and represent geographic features in a database? In this "
+"lesson we'll cover one approach, the Simple Feature Model as defined by the "
+"OGC."
 msgstr ""
+"Bagaimana kita bisa menyimpan dan merepresentasikan feature geografis dalam "
+"database? Dalam pelajaran ini kita akan membahas salah satu pendekatan, "
+"Feature Model Sederhana seperti apa yang didefinisikan oleh OGC."
 
-#: ..\..\postgis\simple_feature_model.rst:8
 # 87437895048a4dbd9cdbbbaaf59b0926
-msgid "**The goal for this lesson:** To learn what the SFS Model is and how to use it."
+#: ..\..\postgis\simple_feature_model.rst:8
+msgid ""
+"**The goal for this lesson:** To learn what the SFS Model is and how to use "
+"it."
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:11
 # 9c438b6c667d4468b7384a2701048007
+#: ..\..\postgis\simple_feature_model.rst:11
 msgid "What is OGC"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:13
 # 6a268aa6148a436a8e9a4060d32a4d2e
-msgid "The Open Geospatial Consortium (OGC), an international voluntary consensus standards organization, originated in 1994. In the OGC, more than 370+ commercial, governmental, nonprofit and research organizations worldwide collaborate in an open consensus process encouraging development and implementation of standards for geospatial content and services, GIS data processing and data sharing. *- Wikipedia*"
+#: ..\..\postgis\simple_feature_model.rst:13
+msgid ""
+"The Open Geospatial Consortium (OGC), an international voluntary consensus "
+"standards organization, originated in 1994. In the OGC, more than 370+ "
+"commercial, governmental, nonprofit and research organizations worldwide "
+"collaborate in an open consensus process encouraging development and "
+"implementation of standards for geospatial content and services, GIS data "
+"processing and data sharing. *- Wikipedia*"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:21
 # ed784fb103df4c14a34cdbfa102a5dda
+#: ..\..\postgis\simple_feature_model.rst:21
 msgid "What is the SFS Model"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:23
 # 63641b14c659436da52da81ab73ac8db
-msgid "The Simple Feature for SQL (SFS) Model is a *non-topological* way to store geospatial data in a database and defines functions for accessing, operating, and constructing these data."
+#: ..\..\postgis\simple_feature_model.rst:23
+msgid ""
+"The Simple Feature for SQL (SFS) Model is a *non-topological* way to store "
+"geospatial data in a database and defines functions for accessing, "
+"operating, and constructing these data."
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:30
 # 93f41bbbd81747a792c0644ae766d498
-msgid "The model defines geospatial data from Point, Linestring, and Polygon types (and aggregations of them to Multi objects)."
+#: ..\..\postgis\simple_feature_model.rst:30
+msgid ""
+"The model defines geospatial data from Point, Linestring, and Polygon types "
+"(and aggregations of them to Multi objects)."
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:33
 # 288db9b91c7543018ac5ae27a34efd51
-msgid "For further information, have a look at the `OGC Simple Feature for SQL <http://www.opengeospatial.org/standards/sfs>`_ standard."
+#: ..\..\postgis\simple_feature_model.rst:33
+msgid ""
+"For further information, have a look at the `OGC Simple Feature for SQL "
+"<http://www.opengeospatial.org/standards/sfs>`_ standard."
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:37
 # e68b1c7696074cb98d318a0d7522c76e
+#: ..\..\postgis\simple_feature_model.rst:37
 msgid "Add a geometry field to table"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:39
 # 2bf8bc492c2447eb869afb510cfd3bae
+#: ..\..\postgis\simple_feature_model.rst:39
 msgid "Let's add a point field to our people table:"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:49
 # 941ed8e2959049f7920c3dfee0ef15c4
+#: ..\..\postgis\simple_feature_model.rst:49
 msgid "Add a constraint based on geometry type"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:51
 # c02c272782804de69816102fc8438d22
-msgid "You will notice that the geometry field type does not implicitly specify what *type* of geometry for the field - for that we need a constraint."
+#: ..\..\postgis\simple_feature_model.rst:51
+msgid ""
+"You will notice that the geometry field type does not implicitly specify "
+"what *type* of geometry for the field - for that we need a constraint."
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:60
 # 9bfc4dc4c16a4b77bd37f726d8485ba4
-msgid "What does that do? It adds a constraint to the table that prevents anything except a point geometry or a null."
+#: ..\..\postgis\simple_feature_model.rst:60
+msgid ""
+"What does that do? It adds a constraint to the table that prevents anything "
+"except a point geometry or a null."
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:63
 # f829052b1e324a1390e55e244277e537
+#: ..\..\postgis\simple_feature_model.rst:63
 msgid "Now you try:"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:65
 # 24680acde438440b82b3bf465c558e89
-msgid "Create a new table called cities and give it some appropriate columns, including a geometry field for storing polygons (the city boundaries). Make sure it has a constraint enforcing geometries to be polygons."
+#: ..\..\postgis\simple_feature_model.rst:65
+msgid ""
+"Create a new table called cities and give it some appropriate columns, "
+"including a geometry field for storing polygons (the city boundaries). Make "
+"sure it has a constraint enforcing geometries to be polygons."
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:98
 # d7c2d902b1944cd79903e23a52e6eb54
+#: ..\..\postgis\simple_feature_model.rst:98
 msgid ":ref:`Check your results <simple-feature-1>`"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:104
 # e179bd1108234058aa6fa81a0442a332
+#: ..\..\postgis\simple_feature_model.rst:104
 msgid "Populate geometry_columns table"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:106
 # 8e43841e43cb4279b48405a7b794a2d9
-msgid "At this point you should also add an entry into the :kbd:`geometry_columns` table:"
+#: ..\..\postgis\simple_feature_model.rst:106
+msgid ""
+"At this point you should also add an entry into the :kbd:`geometry_columns` "
+"table:"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:114
 # 33a88fec2ba543799cd9030e433def26
-msgid "Why? :kbd:`geometry_columns` is used by certain applications to be aware of which tables in the database contain geometry data."
+#: ..\..\postgis\simple_feature_model.rst:114
+msgid ""
+"Why? :kbd:`geometry_columns` is used by certain applications to be aware of "
+"which tables in the database contain geometry data."
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:117
 # 29fe7cfc881747a18b7cd7c277c04871
-msgid "If the above :kbd:`INSERT` statement causes a complaint, run this query first:"
+#: ..\..\postgis\simple_feature_model.rst:117
+msgid ""
+"If the above :kbd:`INSERT` statement causes a complaint, run this query "
+"first:"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:124
 # 0bcfad502829428086a81c11b9e420b0
-msgid "If the column :kbd:`f_table_name` contains the value :kbd:`people`, then this table has already been registered and you don't need to do anything more."
+#: ..\..\postgis\simple_feature_model.rst:124
+msgid ""
+"If the column :kbd:`f_table_name` contains the value :kbd:`people`, then "
+"this table has already been registered and you don't need to do anything "
+"more."
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:128
 # 3232ce94b52e4caf836d74b298184c7d
-msgid "The value :kbd:`2` refers to the number of dimensions; in this case, two: **x** and **y**."
+#: ..\..\postgis\simple_feature_model.rst:128
+msgid ""
+"The value :kbd:`2` refers to the number of dimensions; in this case, two: "
+"**x** and **y**."
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:131
 # f5868dfd51e14314831ae825a0cac7bb
-msgid "The value :kbd:`4326` refers to the projection we are using; in this case, WGS 84, which is referred to by the number 4326 (refer to the earlier discussion about the EPSG)."
+#: ..\..\postgis\simple_feature_model.rst:131
+msgid ""
+"The value :kbd:`4326` refers to the projection we are using; in this case, "
+"WGS 84, which is referred to by the number 4326 (refer to the earlier "
+"discussion about the EPSG)."
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:135
 # 41a5cdbc236c46bbab79c8df3cfb18b1
+#: ..\..\postgis\simple_feature_model.rst:135
 msgid "Add an appropriate geometry_columns entry for your new cities layer"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:156
 # 3e71c457d5bf4299a3fded25a5218306
+#: ..\..\postgis\simple_feature_model.rst:156
 msgid ":ref:`Check your results <simple-feature-2>`"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:162
 # 52b27d0c6c71464b85def1d2aea792fb
+#: ..\..\postgis\simple_feature_model.rst:162
 msgid "Add geometry record to table using SQL"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:164
 # fa9c93648928438299bedef6edfd0734
+#: ..\..\postgis\simple_feature_model.rst:164
 msgid "Now that our tables are geo-enabled, we can store geometries in them!"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:175
 # 39ea4cc1f084496485a1b6e04a68590d
-msgid "In the new entry above, you will need to specify which projection (SRID) you want to use. This is because you entered the geometry of the new point using a plain string of text, which does not automatically add the correct projection information. Obviously, the new point needs to use the same SRID as the dataset it is being added to, so you need to specify it."
+#: ..\..\postgis\simple_feature_model.rst:175
+msgid ""
+"In the new entry above, you will need to specify which projection (SRID) you "
+"want to use. This is because you entered the geometry of the new point using "
+"a plain string of text, which does not automatically add the correct "
+"projection information. Obviously, the new point needs to use the same SRID "
+"as the dataset it is being added to, so you need to specify it."
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:181
 # c4c0133fad18422d924918697844ae88
-msgid "If at this point you were using a graphical interface, for example, specifying the projection for each point would be automatic. In other words, you usually won't need to worry about using the correct projection for every point you want to add if you've already specified it for that dataset, as we did earlier."
+#: ..\..\postgis\simple_feature_model.rst:181
+msgid ""
+"If at this point you were using a graphical interface, for example, "
+"specifying the projection for each point would be automatic. In other words, "
+"you usually won't need to worry about using the correct projection for every "
+"point you want to add if you've already specified it for that dataset, as we "
+"did earlier."
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:187
 # baf16301f69244f286b582146d384950
-msgid "Now is probably a good time to fire up QGIS and try to view your :kbd:`people` table. Also, we should try editing / adding / deleting records and then performing select queries in the database to see how the data has changed."
+#: ..\..\postgis\simple_feature_model.rst:187
+msgid ""
+"Now is probably a good time to fire up QGIS and try to view your "
+":kbd:`people` table. Also, we should try editing / adding / deleting records "
+"and then performing select queries in the database to see how the data has "
+"changed."
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:191
 # 7704962470404e8ba96e8bcef373268d
-msgid "To load a PostGIS layer in QGIS, use the :menuselection:`Layer --> Add PostGIS Layers` menu option or toolbar button:"
+#: ..\..\postgis\simple_feature_model.rst:191
+msgid ""
+"To load a PostGIS layer in QGIS, use the :menuselection:`Layer --> Add "
+"PostGIS Layers` menu option or toolbar button:"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:197
 # 008379a970004110b320ad25c4792bb1
+#: ..\..\postgis\simple_feature_model.rst:197
 msgid "This will open the dialog:"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:202
 # 75974125f95d492381ff52ae5e3fc016
+#: ..\..\postgis\simple_feature_model.rst:202
 msgid "Click on the :guilabel:`New` button to open this dialog:"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:207
 # b5ba2434d9b843a0a264db973e3dc31b
+#: ..\..\postgis\simple_feature_model.rst:207
 msgid "Then define a new connection, e.g.:"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:219
 # e095aefc61844746b2ace111a7766d12
-msgid "To see whether QGIS has found the :kbd:`address` database and that your username and password are correct, click :guilabel:`Test Connect`. If it works, check the boxes next to :guilabel:`Save Username` and :guilabel:`Save Password`. Then click :guilabel:`OK` to create this connection."
+#: ..\..\postgis\simple_feature_model.rst:219
+msgid ""
+"To see whether QGIS has found the :kbd:`address` database and that your "
+"username and password are correct, click :guilabel:`Test Connect`. If it "
+"works, check the boxes next to :guilabel:`Save Username` and :guilabel:`Save "
+"Password`. Then click :guilabel:`OK` to create this connection."
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:224
 # dc8d384e09ed41aeb3241117eb1cceb8
-msgid "Back in the :guilabel:`Add PostGIS Layers` dialog, click :guilabel:`Connect` and add layers to your project as usual."
+#: ..\..\postgis\simple_feature_model.rst:224
+msgid ""
+"Back in the :guilabel:`Add PostGIS Layers` dialog, click :guilabel:`Connect` "
+"and add layers to your project as usual."
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:227
 # 267d4b99daf946cca0fd1268b6936dee
-msgid "Formulate a query that shows a person's name, street name and position (from the the_geom column) as plain text."
+#: ..\..\postgis\simple_feature_model.rst:227
+msgid ""
+"Formulate a query that shows a person's name, street name and position (from "
+"the the_geom column) as plain text."
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:248
 # 3be7d6966d6249a39741058e542000a0
+#: ..\..\postgis\simple_feature_model.rst:248
 msgid ":ref:`Check your results <simple-feature-3>`"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:251
 # 8ec51216d9b34b719b42a4c9f8b24b7f
+#: ..\..\postgis\simple_feature_model.rst:251
 msgid "|IC|"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:253
 # f68fe16bbffc4214b2bfa1bdece64b9d
-msgid "You have seen how to add spatial objects to your database and view them in GIS software."
+#: ..\..\postgis\simple_feature_model.rst:253
+msgid ""
+"You have seen how to add spatial objects to your database and view them in "
+"GIS software."
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:257
 # ad65a4ff4d664255bbd5a859a4a4a7e9
+#: ..\..\postgis\simple_feature_model.rst:257
 msgid "|WN|"
 msgstr ""
 
-#: ..\..\postgis\simple_feature_model.rst:259
 # 5d102b46e3424417bc5442d6a9175cea
-msgid "Next you'll see how to import data into, and export data from, your database."
+#: ..\..\postgis\simple_feature_model.rst:259
+msgid ""
+"Next you'll see how to import data into, and export data from, your database."
 msgstr ""
-
