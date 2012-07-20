@@ -15,354 +15,570 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Language: id_ID\n"
 
-#: ..\..\postgres\db_intro.rst:2
 # 7d96d4103b3b4faa8f7b7a4460549c0f
+#: ..\..\postgres\db_intro.rst:2
 msgid "|LS| Introduction to Databases"
-msgstr ""
+msgstr "|Pelajaran|: Perkenalan dengan Database"
 
-#: ..\..\postgres\db_intro.rst:4
 # 799cad672c0b4b5ab1d3de4c7915ec31
-msgid "Before using PostgreSQL, let's make sure of our ground by covering general database theory. You will not need to enter any of the example code; it's only there for illustration purposes."
+#: ..\..\postgres\db_intro.rst:4
+msgid ""
+"Before using PostgreSQL, let's make sure of our ground by covering general "
+"database theory. You will not need to enter any of the example code; it's "
+"only there for illustration purposes."
 msgstr ""
+"Sebelum menggunakan PostgreSQL, mari kita pastikan dari latar belakang  kita "
+"yang telah mencakup teori database umum. Anda tidak akan perlu memasukkan "
+"salah satu contoh kode, hal tersebut akan dilakukan untuk ilustrasi saja."
 
-#: ..\..\postgres\db_intro.rst:8
 # e75752e9b2cd41158fe3171e62541169
-msgid "**The goal for this lesson:** To understand fundamental database concepts."
-msgstr ""
+#: ..\..\postgres\db_intro.rst:8
+msgid ""
+"**The goal for this lesson:** To understand fundamental database concepts."
+msgstr "Tujuan dari pelajaran ini: Untuk memahami konsep dasar database."
 
-#: ..\..\postgres\db_intro.rst:11
 # b89ee3a8b65143de91d112818d762134
+#: ..\..\postgres\db_intro.rst:11
 msgid "What is a Database?"
-msgstr ""
+msgstr "Apa itu Database?"
 
-#: ..\..\postgres\db_intro.rst:13
 # cd9875ca0cc74fbd9801e00d9ce3ac07
-msgid "A database consists of an organized collection of data for one or more uses, typically in digital form. *- Wikipedia*"
+#: ..\..\postgres\db_intro.rst:13
+msgid ""
+"A database consists of an organized collection of data for one or more uses, "
+"typically in digital form. *- Wikipedia*"
 msgstr ""
+"Sebuah database terdiri dari koleksi data yang terorganisir  untuk satu atau "
+"lebih kegunaan, biasanya dalam bentuk digital. - Wikipedia"
 
-#: ..\..\postgres\db_intro.rst:18
 # 9b2e6d7d37b24b94802587af878b0d2e
-msgid "A database management system (DBMS) consists of software that operates databases, providing storage, access, security, backup and other facilities. *- Wikipedia*"
+#: ..\..\postgres\db_intro.rst:18
+msgid ""
+"A database management system (DBMS) consists of software that operates "
+"databases, providing storage, access, security, backup and other facilities. "
+"*- Wikipedia*"
 msgstr ""
+"Sebuah sistem manajemen database (DBMS) terdiri dari perangkat lunak yang "
+"mengoperasikan database, menyediakan penyimpanan, akses, keamanan, backup "
+"dan fasilitas lainnya. – Wikipedia"
 
-#: ..\..\postgres\db_intro.rst:23
 # e56499b780a5410ba95fc19fe19309fd
+#: ..\..\postgres\db_intro.rst:23
 msgid "Tables"
-msgstr ""
+msgstr "Tabel"
 
-#: ..\..\postgres\db_intro.rst:25
 # 4b4977cdca674a4e998e0297ab34d9e0
-msgid "In relational databases and flat file databases, a table is a set of data elements (values) that is organized using a model of vertical columns (which are identified by their name) and horizontal rows. A table has a specified number of columns, but can have any number of rows. Each row is identified by the values appearing in a particular column subset which has been identified as a candidate key. *- Wikipedia*"
+#: ..\..\postgres\db_intro.rst:25
+msgid ""
+"In relational databases and flat file databases, a table is a set of data "
+"elements (values) that is organized using a model of vertical columns (which "
+"are identified by their name) and horizontal rows. A table has a specified "
+"number of columns, but can have any number of rows. Each row is identified "
+"by the values appearing in a particular column subset which has been "
+"identified as a candidate key. *- Wikipedia*"
 msgstr ""
+"Dalam database relasional dan database flat file, tabel adalah seperangkat "
+"elemen data (nilai) yang disusun menggunakan model kolom vertikal (yang "
+"diidentifikasi dengan nama data-data tersebut) dan baris horisontal. Sebuah "
+"tabel memiliki kolom dengan jumlah tertentu, tetapi dapat memiliki  jumlah "
+"baris yang tak tertentu. Setiap baris diidentifikasi oleh nilai-nilai yang "
+"muncul dalam subset kolom tertentu yang telah diidentifikasi sebagai "
+"candidate key. - Wikipedia"
 
-#: ..\..\postgres\db_intro.rst:40
 # 426e3b00e5814d2baf25579a254235bc
+#: ..\..\postgres\db_intro.rst:40
 msgid "In SQL databases a table is also known as a **relation.**"
-msgstr ""
+msgstr "Dalam database SQL sebuah tabel juga dikenal sebagai relasi"
 
-#: ..\..\postgres\db_intro.rst:43
 # ae0c23089a2b47778615f2a66929fe40
+#: ..\..\postgres\db_intro.rst:43
 msgid "Columns / Fields"
-msgstr ""
+msgstr "Kolom / Field"
 
-#: ..\..\postgres\db_intro.rst:45
 # f18e30d1af4c4dd7988ee10142fd66ad
-msgid "A column is a set of data values of a particular simple type, one for each row of the table. The columns provide the structure according to which the rows are composed. The term field is often used interchangeably with column, although many consider it more correct to use field (or field value) to refer specifically to the single item that exists at the intersection between one row and one column. *- Wikipedia*"
+#: ..\..\postgres\db_intro.rst:45
+msgid ""
+"A column is a set of data values of a particular simple type, one for each "
+"row of the table. The columns provide the structure according to which the "
+"rows are composed. The term field is often used interchangeably with column, "
+"although many consider it more correct to use field (or field value) to "
+"refer specifically to the single item that exists at the intersection "
+"between one row and one column. *- Wikipedia*"
 msgstr ""
+"Sebuah kolom adalah seperangkat nilai-nilai data dari tipe sederhana "
+"tertentu, satu untuk setiap baris dari tabel. Kolom menyediakan struktur "
+"menurut baris-baris yang menyusunnya. Istilah field sering digunakan "
+"bergantian dengan kolom, meskipun banyak yang menganggap lebih benar untuk "
+"menggunakan istilah field (atau nilai field) untuk merujuk secara khusus ke "
+"item tunggal yang ada di pertemuan antara satu baris dan satu kolom. – "
+"Wikipedia"
 
-#: ..\..\postgres\db_intro.rst:52
 # 25f55589842b4cd7b86a90d69051ab2a
+#: ..\..\postgres\db_intro.rst:52
 msgid "A column:"
-msgstr ""
+msgstr "Kolom:"
 
-#: ..\..\postgres\db_intro.rst:61
 # 56b470592b7149169386bc769ef18fc4
+#: ..\..\postgres\db_intro.rst:61
 msgid "A field:"
-msgstr ""
+msgstr "Field:"
 
-#: ..\..\postgres\db_intro.rst:68
 # f420570c3e3241748faf94bb45953397
+#: ..\..\postgres\db_intro.rst:68
 msgid "Records"
-msgstr ""
+msgstr "Record"
 
-#: ..\..\postgres\db_intro.rst:70
 # b3bf8dadcb13444a812db99fd7f758eb
-msgid "A record is the information stored in a table row. Each record will have a field for each of the columns in the table."
+#: ..\..\postgres\db_intro.rst:70
+msgid ""
+"A record is the information stored in a table row. Each record will have a "
+"field for each of the columns in the table."
 msgstr ""
+"Record adalah informasi yang disimpan dalam baris tabel. Setiap record "
+"mempunyai sebuah field  untuk tiap kolom dalam tabel."
 
-#: ..\..\postgres\db_intro.rst:78
 # c4a5d707dd9243eb85359c5753ee2a0c
+#: ..\..\postgres\db_intro.rst:78
 msgid "Datatypes"
-msgstr ""
+msgstr "Tipe-tipe Data "
 
-#: ..\..\postgres\db_intro.rst:80
 # fcbda56d5ac847a391832e6cab1790c9
-msgid "Datatypes restrict the kind of information that can be stored in a column. *- Tim and Horst*"
+#: ..\..\postgres\db_intro.rst:80
+msgid ""
+"Datatypes restrict the kind of information that can be stored in a column. "
+"*- Tim and Horst*"
 msgstr ""
+"Tipe-tipe data membatasi jenis-jenis informasi yang dapat disimpan dalam "
+"sebuah kolom. –Tim and Horst"
 
-#: ..\..\postgres\db_intro.rst:83
 # 8504ded42d6d42f5a29958a721851c11
+#: ..\..\postgres\db_intro.rst:83
 msgid "There are many kinds of datatypes. Let's focus on the most common:"
-msgstr ""
+msgstr "Ada beberapa jenis tipe data. Mari kita simak yang biasa digunakan:"
 
-#: ..\..\postgres\db_intro.rst:85
 # 4fb94be771d94fabbc410d5792f6e8e5
+#: ..\..\postgres\db_intro.rst:85
 msgid "String - to store free-form text data"
-msgstr ""
+msgstr "String – untuk menyimpan jenis data text "
 
-#: ..\..\postgres\db_intro.rst:86
 # dbf33474a213440695ce65d755fa384e
+#: ..\..\postgres\db_intro.rst:86
 msgid "Integer - to store whole numbers"
-msgstr ""
+msgstr "Integer – untuk menyimpan semua jenis data number (bilangan)"
 
-#: ..\..\postgres\db_intro.rst:87
 # 5bc3c1f847354ae897aff85ba4d2d7b0
+#: ..\..\postgres\db_intro.rst:87
 msgid "Real - to store decimal numbers"
-msgstr ""
+msgstr "•\tReal – untuk menyimpan data-data bilangan desimal"
 
-#: ..\..\postgres\db_intro.rst:88
 # 82e1756d51f64efc9eb58c225938055b
+#: ..\..\postgres\db_intro.rst:88
 msgid "Date - to store Horst's birthday so no one forgets"
 msgstr ""
+"•\tDate – untuk menyimpan tanggal ulang tahun Horst agar tidak ada "
+"seorangpun yang lupa"
 
-#: ..\..\postgres\db_intro.rst:89
 # f184a1b81b5e44a897175da8571bae9f
+#: ..\..\postgres\db_intro.rst:89
 msgid "Boolean - to store simple true/false values"
-msgstr ""
+msgstr "•\tBoolean – untuk menyimpan nilai benar/salah yang sederhana "
 
-#: ..\..\postgres\db_intro.rst:91
 # ca3d0900994c49dc84b0a0f45a1fca52
-msgid "You can tell the database to allow you to also store nothing in a field. If there is nothing in a field, then the field content is referred to as a **'null' value**."
+#: ..\..\postgres\db_intro.rst:91
+msgid ""
+"You can tell the database to allow you to also store nothing in a field. If "
+"there is nothing in a field, then the field content is referred to as a "
+"**'null' value**."
 msgstr ""
+"Anda dapat memerintahkan database untuk membiarkan Anda tidak menyimpan "
+"apapun dalam suatu field.  Jika tidak ada apapun dalam sebuah field, maka "
+"isi dari field tersebut merujuk pada nilai “null”."
 
-#: ..\..\postgres\db_intro.rst:111
 # e62d28e229214bedbe212731c30a9db3
-msgid "There are many more datatypes you can use - `check the PostgreSQL manual! <http://www.postgresql.org/docs/current/static/datatype.html>`_"
+#: ..\..\postgres\db_intro.rst:111
+msgid ""
+"There are many more datatypes you can use - `check the PostgreSQL manual! "
+"<http://www.postgresql.org/docs/current/static/datatype.html>`_"
 msgstr ""
+"Ada banyak lagi tipe data yang dapat Anda gunakan. –lihat panduan PostgreSQL "
+"<http://www.postgresql.org/docs/current/static/datatype.html>`_"
 
-#: ..\..\postgres\db_intro.rst:115
 # ac9c39f2c9c34e01ac247cfeea5c4c2d
+#: ..\..\postgres\db_intro.rst:115
 msgid "Modelling an Address Database"
-msgstr ""
+msgstr "Memodelkan sebuah Address Database"
 
-#: ..\..\postgres\db_intro.rst:117
 # 6279292f152745c9a9aa615996fd9b89
-msgid "Let's use a simple case study to see how a database is constructed. We want to create an address database. What kind of information should we store?"
+#: ..\..\postgres\db_intro.rst:117
+msgid ""
+"Let's use a simple case study to see how a database is constructed. We want "
+"to create an address database. What kind of information should we store?"
 msgstr ""
+"Mari kita gunakan studi kasus yang sederhana untuk melihat bagaimana sebuah "
+"database disusun. Kita akan membuat sebuah address database.  Informasi "
+"seperti apa yang harus kita simpan?"
 
-#: ..\..\postgres\db_intro.rst:120
 # e759f3b43a57429eaf03aa4d42689358
+#: ..\..\postgres\db_intro.rst:120
 msgid "Write some address properties in the space provided:"
-msgstr ""
+msgstr "Tuliskan beberapa address properties  dalam tempat yang disediakan:"
 
-#: ..\..\postgres\db_intro.rst:155
 # bc3a095d31a240aea872bed7cb42af12
-msgid "The properties that describe an address are the columns. The type of information stored in each column is its datatype. In the next section we will analyse our conceptual address table to see how we can make it better!"
+#: ..\..\postgres\db_intro.rst:155
+msgid ""
+"The properties that describe an address are the columns. The type of "
+"information stored in each column is its datatype. In the next section we "
+"will analyse our conceptual address table to see how we can make it better!"
 msgstr ""
+"\n"
+"Properti yang menjelaskan sebuah address  adalah kolom-kolom. Tipe informasi "
+"yang disimpan di tiap kolom adalah jenis data itu sendiri. Pada bagian "
+"selanjutnya kita akan menganalisis konsep address tabel kita untuk melihat "
+"bagaimana kita menjadikannya lebih baik!\n"
 
-#: ..\..\postgres\db_intro.rst:160
 # f6cfeb7c289c4a6392c775ca5e148212
+#: ..\..\postgres\db_intro.rst:160
 msgid "Database Theory"
-msgstr ""
+msgstr "Teori Database"
 
-#: ..\..\postgres\db_intro.rst:162
 # 91029b1ee7c54bfbbef4a156cc6c9b26
-msgid "The process of creating a database involves creating a model of the real world; taking real world concepts and representing them in the database as entities."
+#: ..\..\postgres\db_intro.rst:162
+msgid ""
+"The process of creating a database involves creating a model of the real "
+"world; taking real world concepts and representing them in the database as "
+"entities."
 msgstr ""
+"Proses pembuatan database melibatkan pembuatan model dari dunia nyata; "
+"mengambil konsep dunia nyata dan merepresentasikannya ke dalam database "
+"sebagai entiti."
 
-#: ..\..\postgres\db_intro.rst:166
 # b2a6e78c09fc4bbfac99a36a77d8b1b8
+#: ..\..\postgres\db_intro.rst:166
 msgid "Normalisation"
-msgstr ""
+msgstr "Normalisasi"
 
-#: ..\..\postgres\db_intro.rst:168
 # 506ca596110b42eca4972bd4d65aa447
-msgid "One of the main ideas in a database is to avoid data duplication / redundancy. The process of removing redundancy from a database is called Normalisation."
+#: ..\..\postgres\db_intro.rst:168
+msgid ""
+"One of the main ideas in a database is to avoid data duplication / "
+"redundancy. The process of removing redundancy from a database is called "
+"Normalisation."
 msgstr ""
+"Salah satu gagasan utama dari sebuah database adalah untuk mencegah adanya "
+"duplikasi data/redundansi. Proses penghapusan redundansi dari database "
+"disebut Normalisasi."
 
-#: ..\..\postgres\db_intro.rst:171
 # 745f048c743a4f4db9752b04e9150b76
-msgid "Normalization is a systematic way of ensuring that a database structure is suitable for general-purpose querying and free of certain undesirable characteristics - insertion, update, and deletion anomalies - that could lead to a loss of data integrity. *- Wikipedia*"
+#: ..\..\postgres\db_intro.rst:171
+msgid ""
+"Normalization is a systematic way of ensuring that a database structure is "
+"suitable for general-purpose querying and free of certain undesirable "
+"characteristics - insertion, update, and deletion anomalies - that could "
+"lead to a loss of data integrity. *- Wikipedia*"
 msgstr ""
+"Normalisasi adalah suatu cara yang sistematis untuk memastikan bahwa "
+"struktur database sesuai query secara umum dan bebas dari karakteristik "
+"tertentu yang tidak diharapkan - insertion, update, and deletion anomalies – "
+"Hal tersebut menyebabkan hilangnya integritas data. –Wikipedia"
 
-#: ..\..\postgres\db_intro.rst:176
 # fd7638e8b29a44abbd60434a5e9025f5
+#: ..\..\postgres\db_intro.rst:176
 msgid "There are different kinds of normalisation 'forms'."
-msgstr ""
+msgstr "Ada beberapa perbedaan jenis “bentuk” normalisasi."
 
-#: ..\..\postgres\db_intro.rst:178
 # fbc16eadcef446e29d01b46774f6746f
+#: ..\..\postgres\db_intro.rst:178
 msgid "Let's take a look at a simple example:"
-msgstr ""
+msgstr "Mari kita simak contoh sederhana berikut:"
 
-#: ..\..\postgres\db_intro.rst:203
 # fec76bb37f28400bb5dad3ec32c9c751
-msgid "Imagine you have many friends with the same street name or city. Every time this data is duplicated, it consumes space. Worse still, if a city name changes,  you have to do a lot of work to update your database."
+#: ..\..\postgres\db_intro.rst:203
+msgid ""
+"Imagine you have many friends with the same street name or city. Every time "
+"this data is duplicated, it consumes space. Worse still, if a city name "
+"changes,  you have to do a lot of work to update your database."
 msgstr ""
+"Bayangkan Anda mempunyai banyak teman dengan nama jalan atau kota yang sama. "
+"Setiap saat datanya duplikat dan menghabiskan ruang (space). Terlebih jika "
+"nama kota berubah, Anda harus melakukan banyak pekerjaan untuk memperbarui "
+"database Anda."
 
-#: ..\..\postgres\db_intro.rst:207
 # fd27fe0c4fd84470895c5bf22bfcea3e
+#: ..\..\postgres\db_intro.rst:207
 msgid "Try to redesign our people table to reduce duplication:"
 msgstr ""
+"Cobalah untuk mendesain ulang tabel people kita untuk mengurangi duplikasi:"
 
-#: ..\..\postgres\db_intro.rst:237
 # ab696b2fa18443459eb1b91abd55fcd4
-msgid "You can read more about database normalisation `here <http://en.wikipedia.org/wiki/Database_normalization>`_"
+#: ..\..\postgres\db_intro.rst:237
+msgid ""
+"You can read more about database normalisation `here "
+"<http://en.wikipedia.org/wiki/Database_normalization>`_"
 msgstr ""
+"Anda dapat membaca lebih banyak tentang normalisasi database here.\n"
+"<http://en.wikipedia.org/wiki/Database_normalization>\n"
 
-#: ..\..\postgres\db_intro.rst:241
 # c0ab50bcce7f4b2bb602792cef0476fc
+#: ..\..\postgres\db_intro.rst:241
 msgid "Indexes"
-msgstr ""
+msgstr "Indek-indek"
 
-#: ..\..\postgres\db_intro.rst:243
 # 509baea8d04d4410b2b98be70746fe07
-msgid "A database index is a data structure that improves the speed of data retrieval operations on a database table. *- Wikipedia*"
+#: ..\..\postgres\db_intro.rst:243
+msgid ""
+"A database index is a data structure that improves the speed of data "
+"retrieval operations on a database table. *- Wikipedia*"
 msgstr ""
+"Sebuah indek database adalah struktur data yang meningkatan kecepatan "
+"operasi pencarian kembali data dalam sebuah tabel database. –Wikipedia"
 
-#: ..\..\postgres\db_intro.rst:246
 # d1ef6cb3099a4ae5b3d706ff0da6c43b
-msgid "Imagine you are reading a textbook and looking for the explanation of a concept - and the textbook has no index! You will have to start reading at one cover and work your way through the entire book until you find the information you need. The index at the back of a book helps you to jump quickly to the page with the relevant information."
+#: ..\..\postgres\db_intro.rst:246
+msgid ""
+"Imagine you are reading a textbook and looking for the explanation of a "
+"concept - and the textbook has no index! You will have to start reading at "
+"one cover and work your way through the entire book until you find the "
+"information you need. The index at the back of a book helps you to jump "
+"quickly to the page with the relevant information."
 msgstr ""
+"Bayangkan Anda sedang membaca sebuah buku dan mencari penjelasan dari sebuah "
+"konsep, dan buku tersebut tidak mempunyai indek! Anda harus membaca setiap "
+"halaman dan mencari ke seluruh halaman buku tersebut sampai Anda menemukan "
+"informasi yang Anda butuhkan. Indek pada halaman belakang buku membantu Anda "
+"untuk menuju halaman dimana informasi yang relevan tersebut berada dengan "
+"cepat."
 
-#: ..\..\postgres\db_intro.rst:256
 # b7da9b9e6de94366802f6faf48995841
+#: ..\..\postgres\db_intro.rst:256
 msgid "Now searches on name will be faster:"
-msgstr ""
+msgstr "sekarang pencarian nama akan lebih cepat:"
 
-#: ..\..\postgres\db_intro.rst:274
 # 4a1d517bee7f448981e2bea14475a438
+#: ..\..\postgres\db_intro.rst:274
 msgid "Sequences"
-msgstr ""
+msgstr "Sequence"
 
-#: ..\..\postgres\db_intro.rst:276
 # 1a9499ee96eb4185ace05b3bc439c87a
-msgid "A sequence is a unique number generator. It is normally used to create a unique identifier for a column in a table."
+#: ..\..\postgres\db_intro.rst:276
+msgid ""
+"A sequence is a unique number generator. It is normally used to create a "
+"unique identifier for a column in a table."
 msgstr ""
+"Sequence adalah sebuah generator bilangan yang unik. Normalnya digunakan "
+"untuk membuat identifier  yang unik untuk satu kolom dalam sebuah tabel. "
 
-#: ..\..\postgres\db_intro.rst:279
 # 6917f4832d0b4912b0ebe6234592e669
-msgid "In this example, id is a sequence - the number is incremented each time a record is added to the table:"
+#: ..\..\postgres\db_intro.rst:279
+msgid ""
+"In this example, id is a sequence - the number is incremented each time a "
+"record is added to the table:"
 msgstr ""
+"Pada contoh berikut, id adalah sequence –bilangan ditambahkan setiap record "
+"ditambahkan ke dalam tabel:"
 
-#: ..\..\postgres\db_intro.rst:290
 # 852241bcd28e4960ab8160e350b7293c
+#: ..\..\postgres\db_intro.rst:290
 msgid "Entity Relationship Diagramming"
-msgstr ""
+msgstr "Diagram Hubungan Entiti (Diagram ER)"
 
-#: ..\..\postgres\db_intro.rst:292
 # 4bcaefc5b3f344d497d17058c47c1bac
-msgid "In a normalised database, you typically have many relations (tables). The entity-relationship diagram (ER Diagram) is used to design the logical dependencies between the relations. Remember our un-normalised people table?"
+#: ..\..\postgres\db_intro.rst:292
+msgid ""
+"In a normalised database, you typically have many relations (tables). The "
+"entity-relationship diagram (ER Diagram) is used to design the logical "
+"dependencies between the relations. Remember our un-normalised people table?"
 msgstr ""
+"Dalam sebuah database yang ternormalisasi, Anda secara khusus akan memiliki "
+"banyak hubungan (tabel-tabel). Diagram hubungan entiti (Entiy Relationship "
+"Diagram/ Diagram ER) digunakan untuk mendesain ketergantungan yang logis "
+"antara hubungan-hubungan yang ada. Ingat tabel people kita yang belum "
+"ternormalisasi?"
 
-#: ..\..\postgres\db_intro.rst:305
 # de12ddc3c70641a0b75fd8c33aa93faa
-msgid "With a little work we can split it into two tables, removing the need to repeat the street name for individuals who live in the same street:"
+#: ..\..\postgres\db_intro.rst:305
+msgid ""
+"With a little work we can split it into two tables, removing the need to "
+"repeat the street name for individuals who live in the same street:"
 msgstr ""
+"Dengan sedikit usaha kita akan memisahnya menjadi dua tabel, memindahkan "
+"kebutuhan untuk mengulang nama jalan untuk individu-individu yang tinggal di "
+"jalan yang sama:"
 
-#: ..\..\postgres\db_intro.rst:316
 # 1fc6670985074a36a9f561ea24a24a57
+#: ..\..\postgres\db_intro.rst:316
 msgid "and"
-msgstr ""
+msgstr "dan"
 
-#: ..\..\postgres\db_intro.rst:326
 # 8d600be734e5409f8fed711cf10a3667
-msgid "We can then link the two tables using the 'keys' :kbd:`streets.id` and :kbd:`people.streets_id`."
+#: ..\..\postgres\db_intro.rst:326
+msgid ""
+"We can then link the two tables using the 'keys' :kbd:`streets.id` and "
+":kbd:`people.streets_id`."
 msgstr ""
+"Kita dapat menghubungkan dua tabel tersebut menggunakan “keys” streets.id "
+"dan people.street_id. "
 
-#: ..\..\postgres\db_intro.rst:329
 # af28ccaf2ccc4f0aa7776e6ea63e2f4b
-msgid "If we draw an ER Diagram for these two tables it would look something like this:"
+#: ..\..\postgres\db_intro.rst:329
+msgid ""
+"If we draw an ER Diagram for these two tables it would look something like "
+"this:"
 msgstr ""
+"Jika kita menggambarkan sebuah Diagram ER untuk dua tabel diatas, akan "
+"tampak seperti berikut:"
 
-#: ..\..\postgres\db_intro.rst:335
 # a17fe3248c3e4732a75d6e2e757d3f44
-msgid "The ER Diagram helps us to express 'one to many' relationships. In this case the arrow symbol show that one street can have many people living on it."
+#: ..\..\postgres\db_intro.rst:335
+msgid ""
+"The ER Diagram helps us to express 'one to many' relationships. In this case "
+"the arrow symbol show that one street can have many people living on it."
 msgstr ""
+"Diagram ER membantu kita untuk mengungkapkan hubungan “satu ke banyak (one "
+"to many)” . pada kasus ini tanda panah menunjukkan bahwa satu jalan dapat "
+"mempunyai banyak orang yang tinggal di dalamnya."
 
-#: ..\..\postgres\db_intro.rst:338
 # 22719ac0fc474d4d8c1c40abdb0b553c
-msgid "Our people model still has some normalisation issues - try to see if you can normalise it further and show your thoughts by means of an ER Diagram."
+#: ..\..\postgres\db_intro.rst:338
+msgid ""
+"Our people model still has some normalisation issues - try to see if you can "
+"normalise it further and show your thoughts by means of an ER Diagram."
 msgstr ""
+"Model people kita masih memiliki beberapa masalah terkait normalisasi - coba "
+"untuk lihat apakah Anda dapat menormalkan lebih jauh dan menunjukkan "
+"pengalaman Anda menggunakan  Diagram ER."
 
-#: ..\..\postgres\db_intro.rst:370
 # b4a5f473698f4492abd9d33ce6f4e070
+#: ..\..\postgres\db_intro.rst:370
 msgid "Constraints, Primary Keys and Foreign Keys"
-msgstr ""
+msgstr "Konstrain, Primary Key dan Foreign Key"
 
-#: ..\..\postgres\db_intro.rst:372
 # 6471445807f14fa2bc93ed5c926e461d
-msgid "A database constraint is used to ensure that data in a relation matches the modeller's view of how that data should be stored. For example a constraint on your postal code could ensure that the number falls between :kbd:`1000` and :kbd:`9999`."
+#: ..\..\postgres\db_intro.rst:372
+msgid ""
+"A database constraint is used to ensure that data in a relation matches the "
+"modeller's view of how that data should be stored. For example a constraint "
+"on your postal code could ensure that the number falls between :kbd:`1000` "
+"and :kbd:`9999`."
 msgstr ""
+"Sebuah konstrain database digunakan untuk memastikan bahwa data dalam suatu "
+"relasi sesuai pandangan pembuat model tentang bagaimana data harus disimpan. "
+"Misalnya konstrain pada kode pos, Anda bisa memastikan bahwa nomor tersebut "
+"jatuh antara 1000 dan 9999."
 
-#: ..\..\postgres\db_intro.rst:377
 # a0b31681e7644528a1f8889834e2c85b
-msgid "A Primary key is one or more field values that make a record unique. Usually the primary key is called id and is a sequence."
+#: ..\..\postgres\db_intro.rst:377
+msgid ""
+"A Primary key is one or more field values that make a record unique. Usually "
+"the primary key is called id and is a sequence."
 msgstr ""
+"Primary key  adalah satu atau lebih nilai field  yang membuat sebuah record  "
+"unik. Biasanya primary key disebut  id dan sequence."
 
-#: ..\..\postgres\db_intro.rst:380
 # 6ad240a870ce49a49b8cd373adeafbcc
-msgid "A Foreign key is used to refer to a unique record on another table (using that other table's primary key)."
+#: ..\..\postgres\db_intro.rst:380
+msgid ""
+"A Foreign key is used to refer to a unique record on another table (using "
+"that other table's primary key)."
 msgstr ""
+"Foreign Key digunakan untuk merujuk ke record yang  unik pada tabel lain "
+"(menggunakan primary key tabel yang lain)."
 
-#: ..\..\postgres\db_intro.rst:383
 # 9434df70672b45788889e96d76b5f309
-msgid "In ER Diagramming, the linkage between tables is normally based on Foreign keys linking to Primary keys."
+#: ..\..\postgres\db_intro.rst:383
+msgid ""
+"In ER Diagramming, the linkage between tables is normally based on Foreign "
+"keys linking to Primary keys."
 msgstr ""
+"Dalam Diagram ER, keterkaitan antara tabel biasanya berdasarkan foreign key  "
+"yang menghubungkan ke primary key."
 
-#: ..\..\postgres\db_intro.rst:386
 # 72ad460bdf1748bca0e7b970bbbccf43
-msgid "If we look at our people example, the table definition shows that the street column is a foreign key that references the primary key on the streets table:"
+#: ..\..\postgres\db_intro.rst:386
+msgid ""
+"If we look at our people example, the table definition shows that the street "
+"column is a foreign key that references the primary key on the streets table:"
 msgstr ""
+"Jika kita melihat contoh tabel people  kita, definisi tabel menunjukkan "
+"bahwa kolom jalan adalah foreign key yang merujuk pada primary key pada "
+"tabel streets:"
 
-#: ..\..\postgres\db_intro.rst:406
 # 398cc7b4acfa48e7b89e2c7b7a31d67f
+#: ..\..\postgres\db_intro.rst:406
 msgid "Transactions"
-msgstr ""
+msgstr "Transaksi (Transaction)"
 
-#: ..\..\postgres\db_intro.rst:408
 # 9e599796e002483ead235e6db7ead6cb
-msgid "When adding, changing, or deleting data in a database, it is always important that the database is left in a good state if something goes wrong. Most databases provide a feature called transaction support. Transactions allow you to create a rollback position that you can return to if your modifications to the database did not run as planned."
+#: ..\..\postgres\db_intro.rst:408
+msgid ""
+"When adding, changing, or deleting data in a database, it is always "
+"important that the database is left in a good state if something goes wrong. "
+"Most databases provide a feature called transaction support. Transactions "
+"allow you to create a rollback position that you can return to if your "
+"modifications to the database did not run as planned."
 msgstr ""
+"Ketika menambah, mengubah, atau menghapus data dalam sebuah database, adalah "
+"penting bahwa database yang ada dalam kondisi baik ketika terjadi kesalahan. "
+"Kebanyakan database menyediakan feature yang disebut dukungan transaksi "
+"(transaction support). Transaksi memungkinkan Anda untuk membuat posisi "
+"rollback bahwa Anda dapat kembali ke posis semula,  jika modifikasi Anda "
+"dalam database tidak berjalan seperti yang direncanakan."
 
-#: ..\..\postgres\db_intro.rst:414
 # d297d2cd9a4444ef9f994d87d1b1e8a1
-msgid "Take a scenario where you have an accounting system. You need to transfer funds from one account and add them to another. The sequence of steps would go like this:"
+#: ..\..\postgres\db_intro.rst:414
+msgid ""
+"Take a scenario where you have an accounting system. You need to transfer "
+"funds from one account and add them to another. The sequence of steps would "
+"go like this:"
 msgstr ""
+"Ambil skenario di mana Anda memiliki sistem akuntansi. Anda perlu untuk "
+"mentransfer dana dari satu account dan menambahkannya ke yang lain. Urutan "
+"langkah-langkah akan seperti ini:"
 
-#: ..\..\postgres\db_intro.rst:418
 # f0ca045a5e1b4b77a68f37b1fb34424a
+#: ..\..\postgres\db_intro.rst:418
 msgid "remove R20 from Joe"
-msgstr ""
+msgstr "menghapus R20 dari Joe"
 
-#: ..\..\postgres\db_intro.rst:419
 # dfa668c1a5c148d697ffa93b94eafd18
+#: ..\..\postgres\db_intro.rst:419
 msgid "add R20 to Anne"
-msgstr ""
+msgstr "menambah R20 untuk Anne"
 
-#: ..\..\postgres\db_intro.rst:421
 # 4c7d1fc0a3274c15a953295bb2888e03
-msgid "If something goes wrong during the process (e.g. power failure), the transaction will be rolled back."
+#: ..\..\postgres\db_intro.rst:421
+msgid ""
+"If something goes wrong during the process (e.g. power failure), the "
+"transaction will be rolled back."
 msgstr ""
+"Jika ada yang salah selama proses (misalnya listrik), transaksi akan "
+"dibatalkan."
 
-#: ..\..\postgres\db_intro.rst:425
 # 67db1deab95641b6b346a3e213821ad7
+#: ..\..\postgres\db_intro.rst:425
 msgid "|IC|"
-msgstr ""
+msgstr "|Kesimpulan|"
 
-#: ..\..\postgres\db_intro.rst:427
 # 202cc927fa4c462cab79487e5e0edf1d
-msgid "Databases allow you to manage data in a structured way using simple code structures."
+#: ..\..\postgres\db_intro.rst:427
+msgid ""
+"Databases allow you to manage data in a structured way using simple code "
+"structures."
 msgstr ""
+"Database memungkinkan Anda untuk mengelola data dalam cara yang terstruktur "
+"menggunakan struktur kode sederhana."
 
-#: ..\..\postgres\db_intro.rst:431
 # a06e9229acf34724b7ca7c98677db4e2
+#: ..\..\postgres\db_intro.rst:431
 msgid "|WN|"
-msgstr ""
+msgstr "|Apa selanjutnya?|"
 
-#: ..\..\postgres\db_intro.rst:433
 # b029c4003654442e97edfbd8bbaea45c
-msgid "Now that we've looked at how databases work in theory, let's create a new database to implement the theory we've covered."
+#: ..\..\postgres\db_intro.rst:433
+msgid ""
+"Now that we've looked at how databases work in theory, let's create a new "
+"database to implement the theory we've covered."
 msgstr ""
-
+"Sekarang kita telah melihat bagaimana database bekerja dalam teori, mari "
+"kita membuat database baru untuk menerapkan teori yang sudah kita dibahas."
