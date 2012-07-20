@@ -16,8 +16,9 @@ do
   done
 done
 
-#Add english to the list and generated docs
+# We need to flush the _build dir or the translations dont come through
 rm -rf _build
+#Add english to the list and generated docs
 LOCALES='en af id'
 for LOCALE in ${LOCALES}
 do
