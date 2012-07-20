@@ -1,0 +1,585 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, Linfiniti Consulting CC
+# This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-18 19:25\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# 0181a1d0a81048c9b32e34c95814b8bc
+#: ..\..\create_vector_data\topo_editing.rst:2
+msgid "|LS| Feature Topology"
+msgstr ""
+
+# f5afa40f3ba54aeeb851f2782cfb4dec
+#: ..\..\create_vector_data\topo_editing.rst:4
+msgid ""
+"Topology is a useful aspect of vector data layers, because it minimizes "
+"errors such as overlap or gaps."
+msgstr ""
+
+# d5f7de9624e8474399b9d19e44f2f57d
+#: ..\..\create_vector_data\topo_editing.rst:7
+msgid ""
+"For example: if two features share a border, and you edit the border using "
+"topology, then you won't need to edit first one feature, then another, and "
+"carefully line up the borders so that they match. Instead, you can edit "
+"their shared border and both features will change at the same time."
+msgstr ""
+
+# 02d90f48901e43f7b9aca1771bbe60ae
+#: ..\..\create_vector_data\topo_editing.rst:12
+msgid "**The goal for this lesson:** To understand topology using examples."
+msgstr ""
+
+# 91cee52b3fa34f63865f44bfa60900aa
+#: ..\..\create_vector_data\topo_editing.rst:15
+msgid "|moderate| |FA| Snapping"
+msgstr ""
+
+# aa05bd3fe70445eea5e8abfef0a96f2c
+#: ..\..\create_vector_data\topo_editing.rst:17
+msgid ""
+"To make topological editing easier, it's best if you enable snapping. This "
+"will allow your mouse cursor to snap to other objects while you digitize. To "
+"set snapping options:"
+msgstr ""
+
+# 4933f715008442049df712e77bbc9564
+#: ..\..\create_vector_data\topo_editing.rst:21
+msgid ""
+"Navigate to the menu entry :menuselection:`Settings --> Snapping Options...`."
+msgstr ""
+
+# b8aec8a1a4a845ec831a659c96a8f5c3
+#: ..\..\create_vector_data\topo_editing.rst:22
+msgid "Set up your :guilabel:`Snapping options` dialog as shown:"
+msgstr ""
+
+# b2830cd8a299401f92dfb7dcd4278dd6
+#: ..\..\create_vector_data\topo_editing.rst:27
+msgid ""
+"Ensure that the box in the :guilabel:`Avoid Int.` column is checked (set to "
+"true)."
+msgstr ""
+
+# d5ab96745c3e41ba95a787c8bcfd3dad
+#: ..\..\create_vector_data\topo_editing.rst:29
+msgid "Click :guilabel:`OK` to save your changes and leave the dialog."
+msgstr ""
+
+# 7cd6a595bc7947ed9c487b0230966b98
+#: ..\..\create_vector_data\topo_editing.rst:30
+msgid "Enter edit mode with the :guilabel:`rural` layer selected."
+msgstr ""
+
+# 482e9aa7797b457b80882fb2bb4c8a7b
+#: ..\..\create_vector_data\topo_editing.rst:31
+msgid ""
+"Check under :menuselection:`View --> Toolbars` to make sure that your :"
+"guilabel:`Advanced Digitizing` toolbar is enabled."
+msgstr ""
+
+# 21ad00cef6db494ba68ea2a0a8737d38
+#: ..\..\create_vector_data\topo_editing.rst:33
+msgid "Zoom to this area (enable layers and labels if necessary):"
+msgstr ""
+
+# 782afa5026384c2fbfe99d4dccaff3b2
+#: ..\..\create_vector_data\topo_editing.rst:38
+msgid "Digitize this new (fictional) farm:"
+msgstr ""
+
+# 73713334c8b84d9fb9e6f33bfb3d0520
+#: ..\..\create_vector_data\topo_editing.rst:43
+msgid ""
+"When prompted, give it an :guilabel:`id` of :kbd:`999`, but feel free to "
+"leave the other values unchanged."
+msgstr ""
+
+# cdb68a79e14d4df584a2cb735b2ea2a3
+#: ..\..\create_vector_data\topo_editing.rst:46
+msgid ""
+"If you're careful while digitizing and allow the cursor to snap to the "
+"vertices of adjoining farms, you'll notice that there won't be any gaps "
+"between your new farm and the existing farms adjacent to it."
+msgstr ""
+
+# e54add8e500f423db50523a3dd2c9db1
+#: ..\..\create_vector_data\topo_editing.rst:50
+msgid ""
+"Note the undo/redo tools in the :guilabel:`Advanced Digitizing` toolbar:"
+msgstr ""
+
+# 9efd8236b7c64b9285727dd77c8f3f2d
+#: ..\..\create_vector_data\topo_editing.rst:55
+msgid "Those buttons will become your best friends..."
+msgstr ""
+
+# 925077ea75e94e2b9e201eefa0d7d88d
+#: ..\..\create_vector_data\topo_editing.rst:58
+msgid "|moderate| |FA| Closing the Gaps"
+msgstr ""
+
+# 5aaf89379d3145bf8a2176c55d730c92
+#: ..\..\create_vector_data\topo_editing.rst:60
+msgid ""
+"You've probably noticed some large holes in the :guilabel:`rural` dataset:"
+msgstr ""
+
+# 20e5d04a3e8a4548ad194303a0f1df2c
+#: ..\..\create_vector_data\topo_editing.rst:65
+msgid ""
+"The white gaps among the farms, which are not filled by grey urban areas, "
+"represent missing farms.  Let's say you want to close these gaps. If you "
+"were adding features normally, you'd have to be very accurate to avoid gaps "
+"and overlap. In fact, even if you're very accurate, without vertex snapping "
+"(which you activated above), digitizing features without such errors is "
+"impossible."
+msgstr ""
+
+# 81719fe1d6af4df3b7c7ea4ed3944b57
+#: ..\..\create_vector_data\topo_editing.rst:71
+msgid ""
+"However, we have another tool to use for this situation. Since we already "
+"have topology enabled, it's possible to very quickly close a hole without "
+"even worrying about accuracy, and the topology will take care of the rest. "
+"For example, let's say you want to digitize a new farm to close up this gap:"
+msgstr ""
+
+# c63da0ccb45d43228fb0481267252f30
+#: ..\..\create_vector_data\topo_editing.rst:79
+msgid ""
+"If you had to do this without help from the topology, you'd be digitizing "
+"that for a while. But at the moment, as per the directions above, you have :"
+"guilabel:`Avoid Int.` (\"Avoid Intersections\") enabled for the :guilabel:"
+"`rural` layer. This tells QGIS to use the topology to prevent overlap. So "
+"you can digitize even a very rough shape:"
+msgstr ""
+
+# c001fcb0c2354f208a77c77fcdcb46c0
+#: ..\..\create_vector_data\topo_editing.rst:88
+msgid ""
+"(Use an :guilabel:`id` value of somewhere in the hundreds range to avoid a "
+"conflict with existing features.)"
+msgstr ""
+
+# 87e82b341220434badbc40e870d3db54
+#: ..\..\create_vector_data\topo_editing.rst:91
+msgid "But when you select the feature ..."
+msgstr ""
+
+# bfc3d1ef75d14b68b41b72214851765c
+#: ..\..\create_vector_data\topo_editing.rst:96
+msgid ""
+"... you'll see that QGIS has automatically added all the detailed vertices "
+"and made sure that there was no overlap!"
+msgstr ""
+
+# a56e4e39785546f19120dd27fb632c61
+#: ..\..\create_vector_data\topo_editing.rst:99
+msgid "Try doing this now."
+msgstr ""
+
+# c4ebfc2e2da742af85c762849e4c6623
+#: ..\..\create_vector_data\topo_editing.rst:101
+msgid ""
+"The \"Avoid Intersections\" option only works to eliminate overlap "
+"(intersections). Obviously, if you leave a gap, that will not be filled, "
+"because you might not actually want the gap to be filled!"
+msgstr ""
+
+# beb0de2cfe0d43f7858fcdb16329d066
+#: ..\..\create_vector_data\topo_editing.rst:108
+msgid "|moderate| |TY|"
+msgstr ""
+
+# 61ae3e0ab2b449a1a37b08e56c31c277
+#: ..\..\create_vector_data\topo_editing.rst:110
+msgid ""
+"Close the remaining gaps using the approach above, but make sure not to "
+"create farms over urban areas."
+msgstr ""
+
+# d0eb795dc5cd49e2ae542f7684669464
+#: ..\..\create_vector_data\topo_editing.rst:112
+msgid "Remember to save your edits, and if necessary, to exit edit mode."
+msgstr ""
+
+# 8ed93bd198ba4b4082236487a7a170ee
+#: ..\..\create_vector_data\topo_editing.rst:114
+msgid ":ref:`Check your results <create-vector-topology-3>`"
+msgstr ""
+
+# e96848d99f6d41ed87b034d3a1542d45
+#: ..\..\create_vector_data\topo_editing.rst:118
+msgid "|moderate| |FA| Correct topology errors"
+msgstr ""
+
+# f3cd843d4bc64798ae11c541cd290670
+#: ..\..\create_vector_data\topo_editing.rst:120
+msgid ""
+"Topology errors aren't always immediately visible. Let's change the :"
+"guilabel:`rural` layer's symbology to see some of them."
+msgstr ""
+
+# ff644af9591f4fd2af393dbaf911a59a
+#: ..\..\create_vector_data\topo_editing.rst:123
+msgid ""
+"Set the symbology for the :guilabel:`rural` layer to a single (preferably "
+"dark) color."
+msgstr ""
+
+# 554b0af1ffd3474393da30d3a9fc59e6
+#: ..\..\create_vector_data\topo_editing.rst:125
+msgid "Set its :guilabel:`Transparency` slider to :kbd:`50%`."
+msgstr ""
+
+# 42d5c4e3efa94af6bde845ebbe9d4b88
+#: ..\..\create_vector_data\topo_editing.rst:126
+msgid "You should see results like these:"
+msgstr ""
+
+# 4b430489ff27440c88d3010124d2a9a9
+#: ..\..\create_vector_data\topo_editing.rst:131
+msgid ""
+"There are several things to notice here. First, the new farm you added is "
+"lighter than the others. This is because in this dataset, there are several "
+"\"levels\" of farms: large farms and their subdivisions were digitized "
+"separately. So there is a large farm and its subdivisions resting on top of "
+"each other, which makes the color darker because you're seeing the lower one "
+"through the upper one. That's a feature of the dataset, not a problem."
+msgstr ""
+
+# c2e5333a8b6341cca22d36ccdc697b46
+#: ..\..\create_vector_data\topo_editing.rst:138
+msgid ""
+"But you can also notice a definite problem: one of the farms is going "
+"underneath another one!  Obviously this is a mistake, because in the real "
+"world farms don't overlap, and two farms don't share the same subdivision."
+msgstr ""
+
+# e71630afa64545c49302362f5bd47b94
+#: ..\..\create_vector_data\topo_editing.rst:142
+msgid "Let's correct this!"
+msgstr ""
+
+# f9b2e502511f46e1bb3cb6af6e0b04f2
+#: ..\..\create_vector_data\topo_editing.rst:144
+msgid "Enter edit mode, if it isn't active already."
+msgstr ""
+
+# de7eebad02764833930a7c5b7b90c301
+#: ..\..\create_vector_data\topo_editing.rst:145
+msgid "Select the :guilabel:`Node Tool`."
+msgstr ""
+
+# 5d998a34cca64caf88a0f5f5a3f8978f
+#: ..\..\create_vector_data\topo_editing.rst:146
+msgid ""
+"Click on one of the corners of the problematic farm. This will select that "
+"farm for editing and you'll see all the nodes appear:"
+msgstr ""
+
+# 5ebcba7db8be4be3840b23679848c038
+#: ..\..\create_vector_data\topo_editing.rst:152
+msgid "Click and drag the nodes until they snap into place."
+msgstr ""
+
+# ea43b3552b2f4da38c9eccf63e757022
+#: ..\..\create_vector_data\topo_editing.rst:157
+msgid "The topologically correct border looks like this:"
+msgstr ""
+
+# 1d3ff521296a48789cf2461fec0a809b
+#: ..\..\create_vector_data\topo_editing.rst:163
+msgid "|moderate| |FA| Tool: Simplify Feature"
+msgstr ""
+
+# 99888d41690c46a2b02c61b56aaad08a
+#: ..\..\create_vector_data\topo_editing.rst:165
+msgid "This is the :guilabel:`Simplify Feature` tool:"
+msgstr ""
+
+# d082bd034e5f444ab6b792755d312207
+#: ..\..\create_vector_data\topo_editing.rst:170
+msgid "Click on it to activate it."
+msgstr ""
+
+# 46db44920f1d49919b7b0d16c5339379
+#: ..\..\create_vector_data\topo_editing.rst:171
+msgid ""
+"Click on the new farm you created previously. You'll be presented with this "
+"dialog:"
+msgstr ""
+
+# ec1cd26c8cf640a8a1e4f1dc7ec8f710
+#: ..\..\create_vector_data\topo_editing.rst:177
+msgid "Move the slider from side to side and watch what happens:"
+msgstr ""
+
+# 07bb003ac2c2418b8f4c1df8a7f5cc30
+#: ..\..\create_vector_data\topo_editing.rst:182
+msgid ""
+"This allows you to recude the amount of nodes in complex features. However, "
+"notice what it does to the topology! The simplified farm is now no longer "
+"touching the adjacent farms as it should. That's how you know that this tool "
+"is better suited to generalizing stand-alone features. The advantage is that "
+"it provides you with a simple, intuitive interface for generalization, and "
+"allows you to see what the effects would be before you even implement them."
+msgstr ""
+
+# 357521f5b58648caaddb2bc6fbedf69b
+#: ..\..\create_vector_data\topo_editing.rst:189
+msgid "Before you go on, get the farm back in its previous state. Either:"
+msgstr ""
+
+# dd4714f010cc4dd08bcbf90e9188e1b5
+#: ..\..\create_vector_data\topo_editing.rst:191
+msgid "cancel the :guilabel:`Simplify Feature` dialog, or"
+msgstr ""
+
+# 10aca01f6f0f4acf9990b84609706d5c
+#: ..\..\create_vector_data\topo_editing.rst:192
+msgid "if you already clicked :guilabel:`OK`, just undo the last change."
+msgstr ""
+
+# d951119c7fe84f96ba80504158b222c2
+#: ..\..\create_vector_data\topo_editing.rst:198
+msgid "|moderate| |TY| Tool: Add Ring"
+msgstr ""
+
+# c1ebc5b86f6c4636ad9fb13b02b661ca
+#: ..\..\create_vector_data\topo_editing.rst:200
+msgid "This is the :guilabel:`Add Ring` tool:"
+msgstr ""
+
+# fbfc683b0b3d4155b4ae0452967fbee7
+#: ..\..\create_vector_data\topo_editing.rst:205
+msgid ""
+"It allows you to take a hole out of a feature, as long as the hole is "
+"bounded on all side by the feature. For example, if you've digitized the "
+"outer boundaries of South Africa and you need to add a hole for Lesotho, "
+"you'd use this tool."
+msgstr ""
+
+# c91c037679ab49c5b8ebd2b207dd6bb0
+#: ..\..\create_vector_data\topo_editing.rst:210
+msgid "Try using this tool to create a gap in the middle of your farm."
+msgstr ""
+
+# f8f654b71fd14aaf954e8937218ebf3f
+# 6540b560204b485c8f6fa7c50a0c73f8
+#: ..\..\create_vector_data\topo_editing.rst:211
+#: ..\..\create_vector_data\topo_editing.rst:232
+msgid "Undo the edit when you are done."
+msgstr ""
+
+# 63f2be95de28402d97df4b3575ca5654
+#: ..\..\create_vector_data\topo_editing.rst:213
+msgid ":ref:`Check your results <create-vector-topology-1>`"
+msgstr ""
+
+# f14845bf1e4d48e1ba8a917596acfbd9
+#: ..\..\create_vector_data\topo_editing.rst:219
+msgid "|moderate| |TY| Tool: Add Part"
+msgstr ""
+
+# 972b1016ab514d13a5d55d400e9ab48d
+#: ..\..\create_vector_data\topo_editing.rst:221
+msgid "This is the :guilabel:`Add Part` tool:"
+msgstr ""
+
+# d940f54cba894fecb5052f10ad72725f
+#: ..\..\create_vector_data\topo_editing.rst:226
+msgid ""
+"It allows you to create an extra part of the feature, not directly connected "
+"to the main feature. For example, if you've digitized the boundaries of "
+"mainland South Africa but you haven't yet added the Prince Edward Islands, "
+"you'd use this tool to create them."
+msgstr ""
+
+# cdbb93114c614ccaa30d7cd813c15547
+#: ..\..\create_vector_data\topo_editing.rst:231
+msgid "Try using this tool to add an outlying property to your farm."
+msgstr ""
+
+# 684a7fc02561406eb1f6064bc6019a70
+#: ..\..\create_vector_data\topo_editing.rst:234
+msgid ":ref:`Check your results <create-vector-topology-2>`"
+msgstr ""
+
+# 3f611c6f12c04f8fadae8f15d9ce1e42
+#: ..\..\create_vector_data\topo_editing.rst:238
+msgid "|moderate| |TY| Tools: Delete Ring and Delete Part"
+msgstr ""
+
+# 4973573c4e61473e8306f9c9f09d7d53
+#: ..\..\create_vector_data\topo_editing.rst:240
+msgid ""
+"These are the :guilabel:`Delete Ring` and :guilabel:`Delete Part` tools, "
+"respectively:"
+msgstr ""
+
+# 5fb433c95c24492e8711d3b2ca42cfc2
+#: ..\..\create_vector_data\topo_editing.rst:246
+msgid "Their functions should be obvious."
+msgstr ""
+
+# 75e93b9b0dd84a14912cef5114228171
+#: ..\..\create_vector_data\topo_editing.rst:248
+msgid ""
+"Create new parts and rings as above and delete them to try see how these "
+"tools work."
+msgstr ""
+
+# 237a7ffba6f74519b9086ea3472afb2e
+#: ..\..\create_vector_data\topo_editing.rst:250
+msgid ""
+"You need to click close to a node (corner) of a part or ring in order to "
+"delete it."
+msgstr ""
+
+# d90583d5fdfb4e8d9173738b1e32ecdd
+#: ..\..\create_vector_data\topo_editing.rst:255
+msgid "|moderate| |FA| Tool: Reshape Features"
+msgstr ""
+
+# ffc681bb12c64375bb113246791fbd9c
+#: ..\..\create_vector_data\topo_editing.rst:257
+msgid "This is the :guilabel:`Reshape Features` tool:"
+msgstr ""
+
+# d77a98e43e9b4aeb9850ec1f81b9cdab
+#: ..\..\create_vector_data\topo_editing.rst:262
+msgid "It can add a bump to an existing feature. With this tool selected:"
+msgstr ""
+
+# 6f4980e9fa6d42859c3bcc18f720ff0a
+#: ..\..\create_vector_data\topo_editing.rst:264
+msgid "Click inside your farm."
+msgstr ""
+
+# e0c8c5c9111c4ba984779aa862d6be4a
+#: ..\..\create_vector_data\topo_editing.rst:265
+msgid "Add an extra piece of land."
+msgstr ""
+
+# fd9006d6485d4f0181ba2af63d887d21
+#: ..\..\create_vector_data\topo_editing.rst:266
+msgid "Right-click back inside the farm:"
+msgstr ""
+
+# 0dad49902c5a4e718a21082d5f1bd08f
+# 53fa4b3c0af94184b365d0ba1585cccd
+#: ..\..\create_vector_data\topo_editing.rst:271
+#: ..\..\create_vector_data\topo_editing.rst:285
+msgid "The result of the above:"
+msgstr ""
+
+# 89936416b92e4149b46e02cb4d977b92
+#: ..\..\create_vector_data\topo_editing.rst:276
+msgid "You can do the opposite, too:"
+msgstr ""
+
+# 05370552bbd04608ad6cbcb88ca0c989
+#: ..\..\create_vector_data\topo_editing.rst:278
+msgid "Click outside the feature."
+msgstr ""
+
+# 497f19e4101245d0ab25b252a6a984a7
+#: ..\..\create_vector_data\topo_editing.rst:279
+msgid "Take a bite out of it."
+msgstr ""
+
+# fd2ad248e7d54d9591358539aae66795
+#: ..\..\create_vector_data\topo_editing.rst:280
+msgid "Right-click outside the farm again:"
+msgstr ""
+
+# 72c10c4cffba4e4eae835ff83efae7f1
+#: ..\..\create_vector_data\topo_editing.rst:292
+msgid "|moderate| |TY| Tool: Split Features"
+msgstr ""
+
+# 65416e41956b40eba6cf9e4794d23841
+#: ..\..\create_vector_data\topo_editing.rst:294
+msgid ""
+"The :guilabel:`Split Features` tool is similar to how you took part of the "
+"farm away, except that it doesn't delete either of the two parts. Instead, "
+"it keeps them both."
+msgstr ""
+
+# 2dbcd05cb4f04750af94c01538c0b03a
+#: ..\..\create_vector_data\topo_editing.rst:298
+msgid "Try it and see!"
+msgstr ""
+
+# 6afdd68260f44552ad1eb536dc6b9b1d
+#: ..\..\create_vector_data\topo_editing.rst:299
+msgid "Undo your edit before continuing with the exercise for the next tool."
+msgstr ""
+
+# b3618c6a6c4f4803befe58fda9eaa5f8
+#: ..\..\create_vector_data\topo_editing.rst:305
+msgid "|hard| |TY| Tool: Merge Features"
+msgstr ""
+
+# 0e8e3b021dc546188b8f315ee434e458
+#: ..\..\create_vector_data\topo_editing.rst:307
+msgid "Find and select these farms:"
+msgstr ""
+
+# 413651ca231a4a37a7d26a9b5da97ced
+#: ..\..\create_vector_data\topo_editing.rst:312
+msgid ""
+"Use the :guilabel:`Merge Selected Features` and :guilabel:`Merge Attributes "
+"of Selected Features` tools."
+msgstr ""
+
+# 7ddc78545f0d4294bb9a859763f19412
+#: ..\..\create_vector_data\topo_editing.rst:314
+msgid "Note the differences."
+msgstr ""
+
+# 934a389d1124463e8e0233daba715a70
+#: ..\..\create_vector_data\topo_editing.rst:316
+msgid ":ref:`Check your results <create-vector-topology-4>`"
+msgstr ""
+
+# c7e406a3b5ca4a6080329a07f9376fe5
+#: ..\..\create_vector_data\topo_editing.rst:319
+msgid "|IC|"
+msgstr ""
+
+# ed6f84b5a09a419a920445bb58dfd7f0
+#: ..\..\create_vector_data\topo_editing.rst:321
+msgid ""
+"Topology editing is a powerful tool that allows you to create and modify "
+"objects quickly and easily, while ensuring that they remain topologically "
+"correct."
+msgstr ""
+
+# 83301655f92f4143907c09eef3eff219
+#: ..\..\create_vector_data\topo_editing.rst:326
+msgid "|WN|"
+msgstr ""
+
+# fab0307bcc5741b087575f1b7affd5bc
+#: ..\..\create_vector_data\topo_editing.rst:328
+msgid ""
+"Now you know how to digitize the shape of the objects easily, but adding in "
+"the attributes is still a bit of a headache! Next we'll show you how to use "
+"forms so that attribute editing is simpler and more effective."
+msgstr ""

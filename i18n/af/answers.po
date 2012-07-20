@@ -19,7 +19,7 @@ msgstr ""
 #: ..\..\answers\answers.rst:2
 # b3be2a361bf2424184c6fa7fbdc65f5d
 msgid "Answer Sheet"
-msgstr ""
+msgstr "Antwoord Bladsy"
 
 #: ..\..\answers\answers.rst:5
 # 20dc54454fd64dccabeefe429b484c19

@@ -1,0 +1,1933 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, Linfiniti Consulting CC
+# This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-20 09:16\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../complete_analysis/analysis_combination.rst:2
+# 5b7b6509b0734898be5ccf21a4391c37
+msgid "|LS| Combining the Analyses"
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:4
+# b9bb494a42d7477a87df65fe0cf07510
+msgid "Using the vectorized results of the raster analysis will allow you to select only those farms with suitable tarrain."
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:7
+# 5ae3ceb44e1840cf9a250561bdf8e834
+msgid "**The goal for this lesson:** To use the vectorized terrain results to select suitable farms."
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:11
+#: ../../complete_analysis/raster_to_vector.rst:39
+# 10321fa8565d4dff82dd741495d4bd19
+# cbc2f1f478e84ca3940f2571b5a5ed29
+msgid "|moderate| |TY|"
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:13
+# 72de7c5808484c31bd6d5184958d50fa
+msgid "Save your current map (:kbd:`raster_analysis.qgs`)."
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:14
+# a3e935b86e4045a080b5e880182865ea
+msgid "Open the map in which you did the vector analysis earlier (:kbd:`analysis.qgs`)."
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:16
+# 1d1ddf6e4a9644778b8a59d42b8d131f
+msgid "In the :guilabel:`Layers list`, enable these layers: - :guilabel:`hillshade`, - :guilabel:`solution`, - :guilabel:`important_roads` and - either :guilabel:`aerial_photos` or :guilabel:`DEM`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:21
+# 44b6c38c11b347b2ad57defce7e3d70f
+msgid "In addition to these layers, which should already be loaded in the map from when you worked on it before, also add the :kbd:`suitable_terrain.shp` dataset."
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:24
+# 332232cb96db4ccc93b6cc6852d633dc
+msgid "Select all the farms (in the :guilabel:`solution` layer) that intersect with the :kbd:`suitable_terrain` layer. (Use the :guilabel:`select by location` tool as before.)"
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:27
+# 7d72053a54ed4c759f7bd416a038077c
+msgid "Save the selection as :kbd:`new_solution.shp`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:29
+# 877aeb9f536d40c58412511e5c368f78
+msgid "You should now have a layer with these farms as your solution:"
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:38
+# 6b288b7ca24c4e02b8ad9cc567502427
+msgid "|moderate| |TY| Inspecting the Results"
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:40
+# 118a6da74078482bab893cf7b11b4a66
+msgid "Look at each of the farms in your :guilabel:`new_solution` layer. Compare them with the :guilabel:`suitable_terrain` layer by changing the symbology for the :guilabel:`new_solution` layer so that it has outlines only. What do you notice about some of the farms? Are they all suitable just because they intersect with the :guilabel:`suitable_terrain` layer? Why or why not? Which ones would you deem to be unsuitable?"
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:47
+# 75714b7585a6460192982398643d5255
+msgid ":ref:`Check your results <complete-analysis-2>`"
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:53
+# a8fe77abc10e4c019935fe4bf77931b9
+msgid "|moderate| |TY| Refining the Analysis"
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:55
+# 4204b838570a4f6b9566e64d949c4399
+msgid "Now that you can see from the results that some farms were included that were not really suitable, it becomes possible to refine the analysis."
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:58
+# fa72b5bddbe1432fbdaaf4007cd34d2a
+msgid "We can see that there are some farms which do have suitable areas in them, but these areas are too small to be useful. The decision is made that for a farm to be considered, it must have suitable areas on it that are continuous for 350 meters or more. How would you ensure that the farms meet this requirement? Use (a) **vector** analysis tool(s) for this."
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:64
+# 7f690e0852814bde975a3084afa4424f
+msgid ":ref:`Check your results <complete-analysis-3>`"
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:67
+#: ../../complete_analysis/raster_to_vector.rst:78
+# 1128df6206cd405090df3827adaea726
+# 9968053e505d4643b478a6ad774763a6
+msgid "|IC|"
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:69
+# 66159ac24285488c955b50452460c693
+msgid "You have now answered the original research question, and can offer an opinion (with reasons, backed by analysis) for a recommendation regarding which property to develop."
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:74
+#: ../../complete_analysis/raster_to_vector.rst:84
+# 86a56f43136842879143b929c649de76
+# 0b33bbac8a7a425596e1b2e68c9bf96c
+msgid "|WN|"
+msgstr ""
+
+#: ../../complete_analysis/analysis_combination.rst:76
+# 6a3952201aa1480a8b91716bd36714d0
+msgid "Next you will present these results as part of your second assignment."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:2
+# 7db997c82d02473d8c53931277b1c1de
+msgid "|LS| Supplementary Exercise"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:4
+# eca31b80b93b433887ef0a495035d806
+msgid "In this lesson, you will be guided through a complete GIS analysis in QGIS."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:6
+# c5e3e6a07f7645f6bb11172c28bab219
+msgid "Lesson developed by Linfiniti and S Motala (Cape Peninsula University of Technology)"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:10
+# b032a0dec8fa41ae8fa8bd3c7bcf3496
+msgid "Problem Statement"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:12
+# e4b11b6b74774d0ebf2cc487553254cf
+msgid "You are tasked with finding areas in and around the Cape Peninsula that are a suitable habitat for a rare fynbos plant species. The extent of your area of investigation in the Cape Peninsula is: south of Melkbosstrand, west of Strand. Botanists have provided you with the following preferences exhibited by the species in question:"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:18
+# 01e7aa3df08742ca8959eae67bd8b172
+msgid "It grows on east facing slopes."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:19
+# 0058786d0d954945ae075824888b23b7
+msgid "It grows on slopes with a gradient between 15% and 60%."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:20
+# e873435dcd38422abc3ed8442644569c
+msgid "It grows in areas that have a total annual rainfall of > 1200 mm."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:21
+# f95d35ebd8994b1eaee5915ec4aa4925
+msgid "It will only be found at least 250 m away from any human settlement."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:22
+# a1f04240a74b418e9337b4774d04fb2f
+msgid "The area of vegetation in which it occurs should be at least 6000m2 in area."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:24
+# 5dfb201e91df4ab886fb612d582b36de
+msgid "As a volunteer for Cape Nature, you have agreed to search for the plant on the closest suitable piece of land to your house. Use your GIS skills to determine where you should go to look."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:29
+# b5451967db554642af4599de45932fe7
+msgid "Solution Outline"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:31
+# 0eb2c861fdbb49feb273b06ffd063999
+msgid "In order to solve this problem, you will have to use the available data (available in :kbd:`exercise_data/more_analysis`) to find the candidate area that is closest to your house.  If you don't live in Cape Town (where this problem is based) you can choose any house in the Cape Town region. The solution will involve:"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:37
+# 66c2d425d831451aa36b34a5e6bbcc49
+msgid "analysing the DEM to find the east facing slopes and the slopes with the correct gradients;"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:39
+# 905608b668d149228c14e930e9f676cb
+msgid "analysing the rainfall raster to find the areas with the correct amount of rainfall;"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:41
+# 07ce368c22d5449ebec1cde168abd3f0
+msgid "analysing the Zoning vector layer to find areas that are away from human settlement and are of the correct size."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:45
+# 70457b83ef564e08b75e42fa3575fceb
+msgid "Setting up the Map"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:47
+# 48e5cf5c447f491f94ed8d00b0e8f17f
+msgid "Click on the \"CRS status\" button in the extreme lower right corner of the screen. Under the :guilabel:`CRS` tab of the screen that appears, you will see the box :guilabel:`Coordinate reference systems of the world.`"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:50
+# 53e47212bbf1481e9b8d5dbdc71b996d
+msgid "In this box, navigate to :menuselection:`Projected Coordinate Systems --> Universal Transverse Mercator (UTM)`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:52
+# 40a834932d9a4ea3a339ae37222fc7ec
+msgid "Select the entry :guilabel:`WGS 84 / UTM zone 33S` (with the EPSG code :kbd:`32733`)."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:54
+# 2dc67db5b19641d0827531273cc1f5b8
+msgid "Click :guilabel:`OK`. The map is now in the :kbd:`UTM33S` coordinate reference system."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:56
+# 9669bd5ffcad4777a6ee786e1498af5c
+msgid "Save the map by clicking on the :guilabel:`Save Project As` toolbar button, or use the :menuselection:`File --> Save Project As...` menu item."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:58
+# c9569551775f4aaa8e77d70894766219
+msgid "Save the map in a directory called :kbd:`Rasterprac` that you should create somewhere on your computer. You will save whatever layers you create in this directory as well."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:63
+# 24df9dfa57f641ddaa1e4275144e00ef
+msgid "Loading Data into the Map"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:65
+# 768efdd4886247f880622d88d0f6aa8c
+msgid "In order to process the data, you will need to load the necessary layers (street names, zones, rainfall, DEM) into the map canvas."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:69
+# e10f719304154b1780d37e86c42ec11a
+msgid "For vectors ..."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:71
+# 38ac511e1cbe46a59c179574bd9e165f
+msgid "Click on the :guilabel:`Add Vector Layer` button, or use the :menuselection:`Layer --> Add Vector Layer...` menu item."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:73
+# 3b1a7f511de246c49b684714473a88cf
+msgid "In the dialog that appears, ensure that the :guilabel:`File` radio button is selected."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:75
+# bf19a2268ac644d2b2d769be5a51c0cb
+msgid "Click on the :guilabel:`Browse` button."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:76
+# 371bc95e95154eaa8270b864f3a05356
+msgid "In the dialog that appears, open the :guilabel:`exercise_data/more_analysis/streets` directory."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:78
+# b4e5324206bd4ddcb2de72da1da3335e
+msgid "Select the file :guilabel:`Street_Names_UTM33S.shp`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:79
+# a5371e21f4a843e697322045c3b4ebf9
+msgid "Click :guilabel:`Open`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:81
+# 56afa5c7ba1f4a7fab8aabe25a3802eb
+msgid "The dialog closes and shows the original dialog, with the file path specified in the text field next to the :guilabel:`Browse` button. This allows you to ensure that the correct file is selected. It is also possible to enter the file path in this field manually, should you wish to do so."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:86
+# 84df14bc413946eeae5b919193139b41
+msgid "Click :guilabel:`Open`. The vector layer will load in your map. Its color is automatically assigned. It will be changed later."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:88
+# 5630b3d015504ca9bdfc220737ad4acf
+msgid "Rename the layer to :kbd:`Streets`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:89
+# 9a913156051e4d5b90602208cfc1a954
+msgid "Right-click on it in the :guilabel:`Layers list` (by default, the pane along the left-hand side of the screen)."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:91
+# ea915ae21cc24fc7af95b4b9d9d18cbb
+msgid "Click :guilabel:`Rename` in the dialog that appears and rename it, pressing the :guilabel:`Enter` key when done."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:93
+# ed56be69ec494e9f94f24fe874aea5a4
+msgid "Repeat the vector adding process, but this time select the :guilabel:`Generalised_Zoning_Dissolve_UTM33S.shp` file in the :guilabel:`Zoning` directory."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:96
+# a2b767919657487d903469bd6cd55c3d
+msgid "Rename it to :kbd:`Zoning`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:99
+# 3accd254e71046ce9d7a69ad37d44306
+msgid "For rasters ..."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:101
+# 59d8f7cf8f7a4babadec32c72f9ecf1d
+msgid "Click on the :guilabel:`Add Raster Layer` button, or use the :menuselection:`Layer --> Add Raster Layer...` menu item."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:103
+# c2a2d46faa4244a0849976dbdce69995
+msgid "Navigate to the appropriate file, select it, and click :guilabel:`Open`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:104
+# d51b4f4ab4f04f8e8445a2890a1d8195
+msgid "Do this for each of the two raster files. The files you want are :guilabel:`DEM/reproject/DEM` and :guilabel:`Rainfall/reprojected/rainfall.tif`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:107
+# c5b77ae0ddab4d0e92400be061ad8c07
+msgid "Rename the rainfall raster to :kbd:`Rainfall` (with an initial capital). Initially when you load them, the images will be gray rectangles. Don't worry, this will be changed later."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:110
+#: ../../complete_analysis/analysis_exercise.rst:248
+#: ../../complete_analysis/analysis_exercise.rst:277
+#: ../../complete_analysis/analysis_exercise.rst:464
+#: ../../complete_analysis/analysis_exercise.rst:488
+#: ../../complete_analysis/analysis_exercise.rst:531
+#: ../../complete_analysis/analysis_exercise.rst:716
+# 1a6a47b2bce34a4b8b797061b8da09f9
+# fa085054f9fb437784f80f1341becd60
+# 934da6aea8fa4d35a340e6a53058d0b9
+# 03add97e146d4858925b4bc1d34ee8bd
+# 2df53ce9a8314c218ab6f5c09fa476c4
+# 3af8d14d614f4913aa062b61ee6d7438
+# d3b0dfb6fe904f9898d8511e8c23105b
+msgid "Save the map."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:112
+# 83a0cc3e1a5f4821ba9c9a492571410c
+msgid "In order to properly see what's going on, the symbology for the layers needs to be changed."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:116
+# be7dff6440c344ceb80c47337d4d1d96
+msgid "Changing the symbology of vector layers"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:118
+# ee99e248da684972baafbde8cdfb5e5e
+msgid "In the :guilabel:`Layers list`, right-click on the :guilabel:`Streets` layer."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:119
+# 4135485a122d4696a9203773ab7043bd
+msgid "Select :guilabel:`Properties` from the menu that appears."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:120
+# 0d7524c117c5486eb9b0ee3632f6d9b9
+msgid "Switch to the :guilabel:`Style` tab in the dialog that appears."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:121
+# 901c87b7505541e99dd5328be734c5aa
+msgid "Click on the button labeled :guilabel:`Change`, with a square showing the current color of the :guilabel:`Streets` layer."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:123
+# 16d41bc30bb1427c8f2102d5c9732212
+msgid "Select a new color in the dialog that appears."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:124
+#: ../../complete_analysis/analysis_exercise.rst:237
+#: ../../complete_analysis/analysis_exercise.rst:265
+#: ../../complete_analysis/analysis_exercise.rst:294
+#: ../../complete_analysis/analysis_exercise.rst:313
+#: ../../complete_analysis/analysis_exercise.rst:335
+#: ../../complete_analysis/analysis_exercise.rst:380
+#: ../../complete_analysis/analysis_exercise.rst:419
+#: ../../complete_analysis/analysis_exercise.rst:450
+#: ../../complete_analysis/analysis_exercise.rst:528
+#: ../../complete_analysis/analysis_exercise.rst:547
+#: ../../complete_analysis/analysis_exercise.rst:582
+#: ../../complete_analysis/analysis_exercise.rst:640
+#: ../../complete_analysis/analysis_exercise.rst:671
+#: ../../complete_analysis/analysis_exercise.rst:714
+#: ../../complete_analysis/analysis_exercise.rst:743
+# b2d014612c7a4f8fb3a9a1ca91a009f0
+# 31582bd560a64b0c85eac0174d3e3e3b
+# a2c44680be4040c1b44ff9f416aa1298
+# 4dd809de021f40ee9860b7e129099fa8
+# 1659f81935454ff18afcc6b24e499f8f
+# 6000ee92614d47bda972fe5f63e09386
+# f980a83d00d8425b947d0b0b300dc523
+# 535c7d22854647bebfd13707d7405b78
+# e75e9df541934b26a990a6b40ec82c76
+# 90b2093af7dc429c8baa9b31778aaa28
+# f1798ac3674d416b945a3628413cfee7
+# c4b91e6782204ee9b8ec1cd95c9ee2e8
+# 8eed260cce5b4763a6408234f5cacaad
+# 51d043d66558413b9b92b16657900a7e
+# b845df19c5504baca866d03b19b3ab03
+# c942d8aaab864d7998e1f25bfb844a5f
+msgid "Click :guilabel:`OK`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:125
+# 7a1b6b6b79394cf4b2e550b689f6f1f7
+msgid "Click :guilabel:`OK` again in the :guilabel:`Layer Properties` dialog. This will change the color of the :guilabel:`Streets` layer."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:127
+# c58477d97a0e4defa2c50f4ec4f9f07d
+msgid "Follow a similar process for the :guilabel:`Zoning` layer and choose an appropriate color for it."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:131
+# 78041514fe084c74ad78c0ee80d47e91
+msgid "Changing the symbology of raster layers"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:133
+# 95bd1025351041f38d56bc17e219165e
+msgid "Raster layer symbology is somewhat different."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:135
+# b4d59edf68ad460fad3c5f498c6c2acf
+msgid "Open the :guilabel:`Properties` dialog for the :guilabel:`Rainfall` raster."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:136
+# 4cbb664d39dd466a88ea8208eadae349
+msgid "Switch to the :guilabel:`Style` tab. You'll notice that this style dialog is very different from the version used for vector layers."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:138
+# 9d2c886338144b68b74167cfbdf3a3c7
+msgid "Ensure that the button :guilabel:`Use standard deviation` is selected."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:139
+# 5bdd5bc3c026469baaaa04f5062b8acd
+msgid "Change the value in the associated box to :kbd:`2.00` (it should be set to :kbd:`0.00` by default)."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:141
+# 3b1b7556887c4785bb59390e8ebe99cf
+msgid "Under the heading :guilabel:`Contrast enhancement`, change the value of the :guilabel:`Current` dropdown list to :guilabel:`Stretch to MinMax`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:143
+# ed88f1251e5e4e3aa9708d9035aef691
+msgid "Click :guilabel:`OK`. The \"Rainfall\" raster, if visible, should change colors, allowing you to see different brightness values for each pixel."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:145
+# d90f5fa504a24a858db80e324f788371
+msgid "Repeat this process for the DEM, but set the standard deviations used for stretching to :kbd:`4.00`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:149
+# 2b0ba3d3cfb54baba15e59e366521aa1
+msgid "Changing the layer order"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:151
+# 6e2d11e58eca4dc186d1fc0d8da5241d
+msgid "In the :guilabel:`Layers list`, click and drag layers up and down to change the order they appear in on the map."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:153
+# dc505c68965f4dfdac776830831c3275
+msgid "Newer versions of QGIS may have a :guilabel:`Control rendering order` checkbox beneath the :guilabel:`Layers list`. Ensure that it is checked."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:156
+# f57f75b0b68c489fb1097b5d33468fac
+msgid "Now that all the data is loaded and properly visible, the analysis can begin. It is best if the clipping operation is done first. This is so that no processing power is wasted on computing values in areas that aren't going to be used anyway."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:162
+# fd2db53b4d1c4e2cbc6a09b8555e834f
+msgid "Find the Correct Districts"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:164
+# 049be012e5704a908413a3092c0d1ac9
+msgid "Load the vector layer :kbd:`admin_boundaries/Western_Cape_UTM33S.shp` into your map."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:166
+# 0d25c906195e4a73a50699d946459681
+msgid "Rename it to :kbd:`Districts`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:167
+# f64bd6d0637946f68e42fb1632268c15
+msgid "Right-click on the :guilabel:`Districts` layer in the :guilabel:`Layers list`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:168
+# 12f29ecd90544ec09423374d8d29632b
+msgid "In the menu that appears,  select the :guilabel:`Query...` menu item. The :guilabel:`Query Builder` dialog appears."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:171
+# 35cac30e899744aeb0c5d460e30d4b6d
+msgid "You will now build a query to select only the following list of districts:"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:173
+# 29fe784576604f45884f188ce118adc8
+msgid ":kbd:`Bellville`,"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:174
+# f7fd879bc9004d4eb7ae7185f8fee707
+msgid ":kbd:`Cape`,"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:175
+# 8feea49adfcc4639a5b9cba638e02ae1
+msgid ":kbd:`Goodwood`,"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:176
+# 702ad6838c3a49099a9069f75c6312d5
+msgid ":kbd:`Kuils River`,"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:177
+# afa7ee20ecfb45768ec6da85d421a7d7
+msgid ":kbd:`Mitchells Plain`,"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:178
+# c4c08650bebe4ab48aa65b605f33d8a7
+msgid ":kbd:`Simons Town`, and"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:179
+# 7f618424db80459fbade41016e3c11e4
+msgid ":kbd:`Wynberg`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:181
+# 64c815dda1ea4e2faf1d9d00a17a6801
+msgid "In the :guilabel:`Fields` list, double-click on the :guilabel:`NAME_2` field. It appears in the :guilabel:`SQL where clause` text field below."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:183
+# cd04d3e2921441fdbe9a421ec0477c9d
+msgid "Click the :guilabel:`=` button; an :kbd:`=` sign is added to the SQL query."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:184
+# 1c04016927014bff9d31a6633c9470eb
+msgid "Click the :guilabel:`All` button below the (currently empty) :guilabel:`Values` list. After a short delay, this will populate the :guilabel:`Values` list with the values of the selected field (:guilabel:`NAME_2`)."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:188
+# ed8a12240b7d47c481a278f5dc2bd4b4
+msgid "Double-click the value :guilabel:`Bellville` in the :guilabel:`Values` list. As before, this will be added to the SQL query."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:191
+# 1f640f4d7beb4a86baf4a3c8edc43557
+msgid "In order to select more than one district, you'll need to use the :kbd:`OR` boolean operator."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:194
+# 8f12ca818dec4ab88d0709d41c1adb82
+msgid "Click the :guilabel:`OR` button and it will be added to the SQL query."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:195
+# 694e894882a64f7b9a9b2351b280f0ac
+msgid "Using a process similar to the above, add the following to the existing SQL query:"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:202
+# 63456fb3cc964973a9b69e9b6aa7e5c2
+msgid "Add another :kbd:`OR` operator, then work your way through the list of districts above in a similar fashion."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:204
+# 958425c830664590b453cf04b6fb4c05
+msgid "The final query should be"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:212
+# 4a5f1838b8134befa8c4120548aaff8b
+msgid "Click :guilabel:`OK`. The districts shown in your map are now limited to those in the list above."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:216
+# 358240af6a6e4f9f992fd0f9bfbab5cc
+msgid "Clip the Rasters"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:218
+# 71614db5715a435586706c2454bbd98c
+msgid "Now that you have an area of interest, you can clip the rasters to this area."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:220
+# 3593c3660653410185ec43a65fcad007
+msgid "Ensure that the only layers that are visible are the :guilabel:`DEM`, :guilabel:`Rainfall` and :guilabel:`Districts` layers."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:222
+# 1935fd9a430145f39fb50337b58c3ff0
+msgid ":guilabel:`Districts` must be on top so that they are visible."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:223
+# cb3514a76c5143038fd83d544251727f
+msgid "Open the clipping dialog by selecting the menu item :menuselection:`Raster --> Extraction --> Clipper`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:225
+# 9fe86f4c8ebb4d9db8c63d6c6be2a304
+msgid "In the :guilabel:`Input file (raster)` dropdown list, select the :guilabel:`DEM` layer."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:227
+# e15b82227c5b42b0b156a1ee73633f4d
+msgid "Specify an output location in the :guilabel:`Output file` text field by clicking the :guilabel:`Select...` button."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:229
+# 9c3f9d12997b4dcb98785768ebadaf82
+msgid "Navigate to your :kbd:`Rasterprac` directory."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:230
+# 46206ea798b4405b908e57bc095a946a
+msgid "Enter a file name."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:231
+# 4d022a106266426f8b4af655091a8d93
+msgid "Save the file. Leave the :guilabel:`No data value` checkbox unchecked."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:232
+# e7ec1aa91b7b4ca2af39169fea2d0905
+msgid "Use the :guilabel:`Extent` clipping mode by ensuring the correct radio button is selected."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:234
+# 788d783971b048e7941503c3c3bc4051
+msgid "Click and drag an area in the canvas, so that the area which includes the districts is selected."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:236
+# 15f759037d6d42f68fb5c68550d3efa1
+msgid "Check the :guilabel:`Load into canvas when finished` box."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:238
+# 61789a55457f40dbb2236e7f6f7258ca
+msgid "After the clipping operation is completed, DO NOT CLOSE the :guilabel:`Clipper` dialog. (Doing so would cause you to lose the clipping area that you have already defined.)"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:241
+# f8ace76b3c7645879ed28f93399572d3
+msgid "Select the :guilabel:`Rainfall` raster in the :guilabel:`Input file (raster)` dropdown list and choose a different output file name."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:243
+# e3c1547e4d53479c9e941db8c0ad7704
+msgid "Do not change any other options. Do not alter the existing clipping area which you drew previously. Leave everything the same and click :guilabel:`OK`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:246
+# 17781ef79bf44c45b3d1b880a48ed5c8
+msgid "After the second clipping operation has completed, you may close the :guilabel:`Clipper` dialog."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:251
+# f0f086c0fb36400faa5a8efee9f93851
+msgid "Clean up the map"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:253
+# 1d45ef6abacd42aa925dd74edf2e8efc
+msgid "Remove the original :guilabel:`Rainfall` and :guilabel:`DEM` layers from the :guilabel:`Layers list`:"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:256
+# 9e0601ebacc645fd9a4eb0857c0f07a5
+msgid "Right-click on these layers and select :guilabel:`Remove`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:258
+# b600835133264e79ba2bfea2c4b48a57
+msgid "This will not remove the data from your storage device, it will merely take it out of your map."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:261
+# f62080522d884fb1a20697b95bf46b35
+msgid "Deactivate the labels on the :guilabel:`Streets` layer:"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:263
+# febcd9e20e4e4d44b368cac9bf1cbc3f
+msgid "Click the :guilabel:`Labeling` button."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:264
+# 83f7b3418309461bb43eb2a183d0dd67
+msgid "Uncheck the :guilabel:`Label this layer with` box."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:267
+# c577fb485234493b95c621fe7fd99dcf
+msgid "Show all the :guilabel:`Streets` again:"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:269
+# 73d7ebd942e44eddac8d5273ad2188ef
+msgid "Right-click on the layer in the :guilabel:`Layers list`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:270
+# 707f0c3c29db4e2980a6e398d4baf113
+msgid "Select :guilabel:`Query`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:272
+# 917fbd0cc94d41a5a5a3a228b0360736
+msgid "In the :guilabel:`Query` dialog that appears, click the :guilabel:`Clear` button, then click :guilabel:`OK`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:274
+# e895fa6303f647cdbec5d5cd31c99e67
+msgid "Wait while the data is loaded. All the streets will now be visible."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:275
+# 0eb58258bbb54432af226de695ad9c97
+msgid "Change the raster symbology as before (see *Changing the symbology of raster layers*)."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:278
+# 2f349de8abe84fea9aa34737b7abde64
+msgid "You can now hide the vector layers by unchecking the box next to them in the :guilabel:`Layers list`. This will make the map render faster and will save you some time."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:282
+# 65a1fd8562b3458ea310857befc1b5b9
+msgid "In order to create the hillshade, you will need to use a plugin that was written for this purpose."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:286
+# e623c1a3104c4ac5ba91c52f0f202752
+msgid "Activating the :guilabel:`Raster Terrain Analysis` plugin"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:288
+# 543ca702d8434dc684b6cfb58cd77b3b
+msgid "This plugin is included by default in QGIS 1.8. However, it may not be immediately visible. To check if it is accessible on your system:"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:291
+# 344730be4efd45a5a97453f71be92a71
+msgid "Click on the menu item :guilabel:`Plugins --> Manage Plugins...`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:292
+# 711ea19376024fffb763677375f3e235
+msgid "Ensure that the box next to :guilabel:`Raster Terrain Analysis plugin` is selected."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:296
+# a1a06846d375410e95be120922dc5ca4
+msgid "You will now have access to this plugin via the :menuselection:`Raster --> Terrain analysis` menu item."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:299
+# 096a5418b31f491ba5169d4b83c47d46
+msgid "Remember that plugins may sometimes depend on certain Python modules being installed on your system.  Should a plugin refuse to work while complaining of missing dependencies, please ask your tutor or lecturer for assistance."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:304
+# 3fe0767bda884e098fefc390f649dc69
+msgid "Create the hillshade"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:306
+# 836e0a3105cc4e71b50d5cbd4eb1c2b3
+msgid "In the :guilabel:`Layers list`, ensure that the :guilabel:`DEM` is the active layer (i.e., it is highlighted by having been clicked on)."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:308
+# 9f75bb3e0ab94cddac804c9e3efd1162
+msgid "Click on the :menuselection:`Raster --> Terrain analysis --> Hillshade` menu item to open the :guilabel:`Hillshade` dialog."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:310
+# 2483b377cbc3429abe8183e480dbbb9c
+msgid "Specify an appropriate location for the output layer and call it :guilabel:`hillshade`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:312
+#: ../../complete_analysis/analysis_exercise.rst:334
+# 4437e8cfd5434e7db45357410a598666
+# b4073b7009c9421f86528b3e5c161c6c
+msgid "Check the :guilabel:`Add result to project` box."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:314
+# f909f79124b641aea64cc4b74047be12
+msgid "Wait for it to finish processing."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:316
+# 2c138bcb53c4401eba0d4c7bd60e968a
+msgid "The new :guilabel:`hillshade` layer has appeared in your :guilabel:`Layers list`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:319
+# 03d1fb30089d403081d1cd701d474391
+msgid "Right-click on the :guilabel:`hillshade` layer in your :guilabel:`Layers list` and bring up the :guilabel:`Properties` dialog."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:321
+# 5e253c4882ff49b3b194a27480cdf81c
+msgid "Click on the :guilabel:`Transparency` tab and set the transparency slider to :kbd:`80%`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:323
+# 658db01b97d2417995cb9f4c669bb0c5
+msgid "Click :guilabel:`OK` on the dialog."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:324
+# dfef5a0638ff4f948fc8e0639be330b8
+msgid "Note the effect when the transparent hillshade is superimposed over the clipped DEM."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:328
+# 6212f0f199644fc69b67a6a05b77cb64
+msgid "Slope"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:330
+# 979bd588b3ff4c9cb72117759d41ed48
+msgid "Click on the menu item :menuselection:`Raster --> Terrain analysis`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:331
+# 08f761e433824e23a0e782129ab33b5d
+msgid "Select the :guilabel:`Slope` analysis type, with the clipped DEM as the input layer."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:333
+# 0168b95b781f408eb27f84772bda4f28
+msgid "Specify an appropriate file name and location for output purposes."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:337
+# c1a8bec25b574e9fa235eb23412624d5
+msgid "The slope image has been calculated and added to the map. However, as usual it is just a gray rectangle. To properly see what's going on, change the symbology as follows."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:341
+# c72e04ee7e344c8c91df85600fcd4efd
+msgid "Open the layer :guilabel:`Properties` dialog (as usual, via the right-click menu of the layer)."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:343
+# 7c590d7fa7864246a4af7f7869bef84d
+msgid "Click on the :guilabel:`Style` tab."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:344
+# 63a0ac7d4faf408382cbd83d6af7a5a1
+msgid "Where it says :guilabel:`Grayscale` (in the :guilabel:`Color map` dropdown menu), change it to :guilabel:`Pseudocolor`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:346
+# 43e71c85e2264d1aa10fe19ab9454c69
+msgid "Ensure that the :guilabel:`Use standard deviation` radio button is selected."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:349
+# 74318ceaee7141309bc168b37616066c
+msgid "Aspect"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:351
+# f49e2e0346814232a62843783ab06a17
+msgid "Use the same approach as for calculating the slope, but select :guilabel:`Aspect` in the initial dialog box."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:354
+# 6b547653e98141e18864c438fa0a310a
+msgid "Remember to save the map periodically."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:357
+# f5f0d780f40449bdadba100974a71531
+msgid "Reclassifying rasters"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:359
+# 7f11a23626e0413fa34d08a0abaf0360
+msgid "Click the menu item :menuselection:`Raster --> Raster calculator`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:360
+# 9754bd28436b485ca22e5f72232dc0eb
+msgid "Specify your :kbd:`Rasterprac` directory as the location for the output layer."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:362
+# 69da96ebd393431bbe4c92d084ef601c
+msgid "Ensure that the :guilabel:`Add result to project` box is selected."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:364
+# 9c4239b4378e451daa1278930f05eb82
+msgid "In the :guilabel:`Raster bands` list on the left, you will see all the raster layers in your :guilabel:`Layers list`. If your Slope layer is called :guilabel:`slope`, it will be listed as :guilabel:`slope@1`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:368
+# 871973b9c8cd44d28561560eb0482335
+msgid "The slope needs to be between :kbd:`15` and :kbd:`60` degrees. Everything less than :kbd:`15` or greater than :kbd:`60` must therefore be excluded."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:371
+# 57e6ec3caf484c02a327c36e14f74927
+msgid "Using the list items and buttons in the interface, build the following expression:"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:378
+# f1e1598b15ed4b6d86d203a9b1729f68
+msgid "Set the :guilabel:`Output layer` field to an appropriate location and file name."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:382
+# 120982ace28548da9b0ca84711522400
+msgid "Now find the correct aspect (east-facing: between :kbd:`45` and :kbd:`135` degrees) using the same approach."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:385
+# 6f027c2144e149c1b6e97240b3b9af44
+msgid "Build the following expression:"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:391
+# 90dec11001074c279310e69ffa740160
+msgid "Find the correct rainfall (greater than :kbd:`1200mm`) the same way. Build the following expression:"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:398
+# 020d8cbb73af405d9c727f162d746a39
+msgid "Having reclassified all the rasters, you will now see them displayed as gray rectangles in your map (assuming that they have been added to the map correctly). To properly display raster data with only two classes (:kbd:`1` and :kbd:`0`, meaning true or false), you will need to change their symbology."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:404
+# 766fbd677043416c80644857a48e5443
+msgid "Setting the style for the reclassified layers"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:406
+# 5480fc05e08d4f5c860e338e5a2ce863
+msgid "Open the :guilabel:`Style` tab in the layer's :guilabel:`Properties` dialog as usual."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:408
+# 4604172730d4435fa75cac75b4973f1c
+msgid "Under the heading :guilabel:`Load min / max values from band`, select the :guilabel:`Actual (slower)` radio button."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:410
+# d39fd76d76324405b1bba81c29188fef
+msgid "Click the :guilabel:`Load` button."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:412
+# f7197beff4d44fbcb0444d4f92e1dc13
+msgid "The :guilabel:`Custom min / max values` fields should now populate with :kbd:`0` and :kbd:`1`, respectively. (If they do not, then there was a mistake with your reclassification of the data, and you will need to go over that part again.)"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:417
+# 42cc5e521be94bd4ae737f11ff35f72f
+msgid "Under the heading :guilabel:`Contrast enhancement`, set the :guilabel:`Current` dropdown list to :guilabel:`Stretch To MinMax`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:420
+# f58526eee0154ea8835bd290a3c46f4b
+msgid "Do this for all three reclassified rasters, and remember to save your work!"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:422
+# 3d459d728cd54b4badab815106bea3dd
+msgid "The only criterion that remains is that the area must be :kbd:`250m` away from urban areas. We will satisfy this requirement by ensuring that the areas we compute are :kbd:`250m` or more from the edge of a rural area. Hence, we need to find all rural areas first."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:428
+# ced979c116544a0aa823a67890cbee08
+msgid "Finding rural areas"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:430
+# 160bc1b8706146b7a0352e03c0f202fc
+msgid "Hide all layers in the :guilabel:`Layers list`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:431
+# 7ef33ef9afd84193a45fe762a77fdc77
+msgid "Unhide the :guilabel:`Zoning` vector layer."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:432
+# 7a70bfc33d294db38c5c56ab9ce30a3f
+msgid "Right-click on it and bring up the :guilabel:`Query` dialog."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:433
+# df2855be0d5842edb4aa8c34cf3fdffc
+msgid "Build the following query:"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:439
+# 7156ed196b104f009f0a734ef9ab81bb
+msgid "See the earlier instructions for building the :guilabel:`Streets` query if you get stuck."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:441
+# 33acc45644004c2d8ce27f5c13816134
+msgid "When you're done, close the :guilabel:`Query` dialog."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:443
+# 40b1a8d975c845d281a273894e82e43f
+msgid "You should see a collection of polygons from the :guilabel:`Zoning` layer. You will need to save these to a new layer file."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:446
+# 8c222aaffd9a48808d5e79d9fc2acb9c
+msgid "On the right-click menu for :guilabel:`Zoning`, select :guilabel:`Save as...`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:448
+#: ../../complete_analysis/analysis_exercise.rst:457
+# 9308de9426764617abd565fb36d4c257
+# 4cb7570154684bbab8ca00439467f50d
+msgid "Save your layer under the :guilabel:`Zoning` directory."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:449
+# a09c4c9f5fa0447bafa30dea350d6f59
+msgid "Name the output file :kbd:`rural.shp`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:451
+# d9ef3fdc3587438f889859f658494e22
+msgid "Add the layer to your map."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:452
+# 696db2a812ed4a158b0b2ff8c4166c47
+msgid "Click the menu item :menuselection:`Vector --> Geoprocessing Tools --> Dissolve`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:454
+# 7c76ecfd15b443099830ae3e1effc891
+msgid "Select the :guilabel:`rural` layer as your input vector layer, while leaving the :guilabel:`Use only selected features` box unchecked."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:456
+# 0083a282d8444ae19fa88254c1e56c14
+msgid "Under :guilabel:`Dissolve field`, select :guilabel:`--- Dissolve all ---`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:458
+# a725b511be19471ea3e1c82330f9a375
+msgid "Click :guilabel:`OK`. A dialog will appear asking whether you want to add the new layer to the TOC (\"Table of Contents\", referring to the :guilabel:`Layers list`)."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:461
+# 3da625002b3046ac8a4779227ffcf708
+msgid "Click :guilabel:`Yes`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:462
+# 4242ecb244464578a699c28240f14146
+msgid "Close the :guilabel:`Dissolve` dialog."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:463
+# a432d1bc8a3c4df6a33367b4f4e0e9c5
+msgid "Remove the :guilabel:`rural` and :guilabel:`Zoning` layers."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:466
+# c4dfe793bbd9480099934fed44a36b2a
+msgid "Now you need to exclude the areas that are within :kbd:`250m` from the edge of the rural areas. Do this by creating a negative buffer, as explained below."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:470
+# 8d4554b53c2a46e4b37e0466bfee513a
+msgid "Creating a negative buffer"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:472
+# 3f4eea74862c4b6eb30c0f268146ad12
+msgid "Click the menu item :menuselection:`Vector --> Geoprocessing Tools --> Buffer(s)`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:474
+# afe43b825d4542c3bb72373a3641275e
+msgid "In the dialog that appears, select the :guilabel:`rural_dissolve` layer as your input vector layer (:guilabel:`Use only selected features` should not be checked)."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:477
+# ef43569100f148a8971af454d4122102
+msgid "Select the :guilabel:`Buffer distance` button and enter the value :kbd:`-250` into the associated field; the negative value means that the buffer must be an internal buffer."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:480
+# 393d8b1e6ebe46e9b39b5c64d0905765
+msgid "Check the :guilabel:`Dissolve buffer results` box."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:481
+# 782cbd9155b7434da0c1bd030971c41a
+msgid "Set the output file to the same directory as the other rural vector files."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:482
+# e7219c059c1f409687528a11b2977409
+msgid "Name the output file :kbd:`rural_buffer.shp`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:483
+# 664b133a43144ff283f65559951c4888
+msgid "Click :guilabel:`Save`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:484
+# 6041df3e98b74764964d87e03cffc993
+msgid "Click :guilabel:`OK` and wait for the processing to complete."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:485
+# 93c686c05f84417785a0d2bad3c150d6
+msgid "Select :guilabel:`Yes` on the dialog that appears."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:486
+# ce527eb20e994d338d759da0100ef893
+msgid "Close the :guilabel:`Buffer` dialog."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:487
+# 52f1fe932f9946a491bd464e8991e3d9
+msgid "Remove the :guilabel:`rural_dissolve` layer."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:490
+# a2a38204c1514ffeabda66beaff71c54
+msgid "In order to incorporate the rural zones into the same analysis with the three existing rasters, it will need to be rasterized as well. But in order for the rasters to be compatible for analysis, they will need to be the same size. Therefore, before you can rasterize, you'll need to clip the vector to the same area as the three rasters. A vector can only be clipped by another vector, so you will first need to create a bounding box polygon the same size as the rasters."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:499
+# b380d37ddeab4e78809721bdc4d4ea01
+msgid "Creating a bounding box vector"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:501
+# 64e2462444664c0e838bede3745f86bc
+msgid "Click on the menu item :guilabel:`Layer --> New --> New Shapefile Layer...`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:502
+# 15b471f05e1742789949b013ac32226e
+msgid "Under the :guilabel:`Type` heading, select the :guilabel:`Polygon` button."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:503
+# 427ae1126d0d48408dfae769e3ef14fb
+msgid "Click :guilabel:`Specify CRS` and set the coordinate reference system :kbd:`WGS 84 / UTM zone 33S : EPSG:32733`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:505
+#: ../../complete_analysis/analysis_exercise.rst:610
+#: ../../complete_analysis/analysis_exercise.rst:627
+# fed099ce38b84611af393ce906d1f9ac
+# cd4c7d32cdc64deba2d74ad17307caa5
+# cc2034313ee349a29884e0b6a36b954b
+msgid "Click OK."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:506
+# 26a2f999fc8f4dc5a094f26b5086f327
+msgid "Click :guilabel:`OK` on the :guilabel:`New Vector Layer` dialog as well."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:507
+# f6f0813b04074cae8a8fe745fd3bced5
+msgid "Save the vector in the :guilabel:`Zoning` directory."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:508
+# 3162128505494ccd992c344eca347a92
+msgid "Name the output file :kbd:`bbox.shp`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:509
+# a5fc38da1fbb4879b5d6f1a1caa6ea74
+msgid "Hide all layers except the new :guilabel:`bbox` layer and one of the reclassified rasters."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:511
+# 02476781858d40229c1bca6b57f3be5a
+msgid "Ensure that the :guilabel:`bbox` layer is highlighted in the :guilabel:`Layers list`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:513
+# c2b29ccd561141608bba4eca2e3f2e68
+msgid "Navigate to the :menuselection:`View > Toolbars` menu item and ensure that :guilabel:`Digitizing` is selected. You should then see a toolbar icon with a pencil or koki on it. This is the :guilabel:`Toggle editing` button."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:516
+# 98741c203d2141d8a23e7c8f26597cfc
+msgid "Click the :guilabel:`Toggle editing` button to enter *edit mode*. This allows you to edit a vector layer."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:518
+# e7fd44df1fc94aeab34d51e30a645b02
+msgid "Click the :guilabel:`Add feature` button, which should be nearby the :guilabel:`Toggle editing` button. It may be hidden behind a double arrow button; if so, click the double arrows to show the :guilabel:`Digitizing` toolbar's hidden buttons."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:522
+# 253156c36b154ceca32bcfc48ff03007
+msgid "With the :guilabel:`Add feature` tool activated, left-click on the corners of the raster. You may need to zoom in with the mouse wheel to ensure that it is accurate. To pan across the map in this mode, click and drag in the map with the middle mouse button or mouse wheel."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:526
+# 9c4dfbc11e6d4e6cbc2ec721981eaf1d
+msgid "For the fourth and final point, right-click to finalize the shape."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:527
+#: ../../complete_analysis/analysis_exercise.rst:713
+# a9727ade986947ad8e8093c2120061e8
+# f94115075e2444e69db7506e60d0f150
+msgid "Enter any arbitrary number for the shape ID."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:529
+# 7124b91698974cbdbeb00b64654e5e85
+msgid "Click the :guilabel:`Save edits` button."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:530
+# e88f371c017a45f48a87d83d65ae6645
+msgid "Click the :guilabel:`Toggle editing` button to stop your editing session."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:533
+# 7044d5bc9d2e4cbeab023eab2d7cd8f8
+msgid "Now that you have a bounding box, you can use it to clip the rural buffer layer."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:537
+# b61c84072a9747b6a2eae1912604b31c
+msgid "Clipping a vector layer"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:539
+# 3430a835743d49c49a3786bc194d2a2b
+msgid "Ensure that only the :guilabel:`bbox` and :guilabel:`rural_buffer` layers are visible, with the latter on top."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:541
+# 426818303bb24b5594977c3fa2796add
+msgid "Click the menu item :menuselection:`Vector > Geoprocessing Tools > Clip`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:542
+# 1e3d13210cdf4de8910d35b6ea74a583
+msgid "In the dialog that appears, set the input vector layer to :guilabel:`rural_buffer` and the clip layer to :guilabel:`bbox`, with both :guilabel:`Use only selected features` boxes unchecked."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:545
+# 279b8ddaea8c47eba844285647965723
+msgid "Put the output file under the :guilabel:`Zoning` directory."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:546
+# b48fc93a5e634776b00276a72141eff4
+msgid "Name the output file :kbd:`rural_clipped`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:548
+# bb1b6449c20b4bdead48ed49c5c17dee
+msgid "When prompted to add the layer to the TOC, click :guilabel:`Yes`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:549
+# 09d7fe9ecd3843c4986dee799ad8fb89
+msgid "Close the dialog."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:550
+# 8c09ed2ae75944dda1167024002346f1
+msgid "Compare the three vectors and see the results for yourself."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:551
+# 7bf01426b46046e089dbd6c31b42e7f3
+msgid "Remove the :guilabel:`bbox` and :guilabel:`rural_buffer` layers, then save your map."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:554
+# b8db6c373f0748cab5445596bad7e0e0
+msgid "Now it's ready to be rasterized."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:557
+# 05a370b537dc4b4ab43e88dccf2ed38f
+msgid "Rasterizing a vector layer"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:559
+# 41900b7d6a9d4d9eb79ea644c85890f7
+msgid "You'll need to specify a pixel size for a new raster that you create, so first you'll need to know the size of one of your existing rasters."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:562
+# d4a71993b73d4da7875d162c088b4d4c
+msgid "Open the :guilabel:`Properties` dialog of any of the three existing rasters."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:563
+# 188a6483db6443608afbfc8e3b53a748
+msgid "Switch to the :guilabel:`Metadata` tab."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:564
+# 388b0c95799e4b698e6c228abbd72185
+msgid "Make a note of the :kbd:`X` and :kbd:`Y` values under the heading :guilabel:`Dimensions` in the Metadata table."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:566
+# adacb22a50994c4aba3175b6b8f4f28d
+msgid "Close the :guilabel:`Properties` dialog."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:567
+# 49fb1b9b0f4f45ee86e6d9c9e652db25
+msgid "Click on the :menuselection:`Raster --> Conversion --> Rasterize` menu item. You may receive a warning about a dataset being unsupported. Click it away and ignore it."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:570
+# 1e75fd6595ef4ee499108f0ebbe69805
+msgid "Select :guilabel:`rural_clipped` as your input layer."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:571
+# b2637f4f286248cdb28fa05678c75cef
+msgid "Set an output file location inside the :guilabel:`Zoning` directory."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:572
+# 8001e6500bce480f8c803b2ccc5288cc
+msgid "Name the output file :kbd:`rural_raster.tif`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:573
+# 27d18811c6bc48ba8ebb970cca62a688
+msgid "Check the :guilabel:`New size` box and enter the :kbd:`X` and :kbd:`Y` values you made a note of earlier."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:575
+# 978cc3780f6a481088bd2eac24e871b9
+msgid "Check the :guilabel:`Load into canvas` box."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:576
+# aea3676f7ac04dee9d6aa89d1adfa07e
+msgid "Click the pencil icon next to the text field which shows the command that will be run. At the end of the existing text, add a space and then the text :kbd:`-burn 1`. This tells the Rasterize function to \"burn\" the existing vector into the new raster and give the areas covered by the vector the new value of :kbd:`1` (as opposed to the rest of the image, which will automatically be :kbd:`0`)."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:583
+# 8bae875feb7345d9b18eaecd61239160
+msgid "The new raster should show up in your map once it has been computed."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:584
+# 800b044924554e39ab8cd0d381f33ef4
+msgid "The new raster will look like a grey rectangle – you may change the display style as you did for the reclassified rasters."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:586
+#: ../../complete_analysis/analysis_exercise.rst:647
+# e76cee7d3537472092154af5cdaeaaae
+# 915c5c05c340422792d38129d84d86c7
+msgid "Save your map."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:588
+# c6aefad4a88648ea9664892c6bc721c1
+msgid "Now that you have all four criteria each in a separate raster, you need to combine them to see which areas satisfy all the criteria. To do so, the rasters will be multiplied with each other. When this happens, all overlapping pixels with a value of :kbd:`1` will retain the value of :kbd:`1`, but if a pixel has the value of :kbd:`0` in any of the four rasters, then it will be :kbd:`0` in the result. In this way, the result will contain only the overlapping areas."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:596
+# 93fb679779754fc08010717ed8041af5
+msgid "Combining rasters"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:598
+# 56622934af854287b5002fbdb1de9d43
+msgid "Click the :menuselection:`Raster --> Raster calculator` menu item."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:599
+# 4ec09c59a5954b9d8a7f62f22bc892f8
+msgid "Build the following expression (with the appropriate names for your layers, depending on what you called them):"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:607
+# 9152e7b2f02749dd9c7d407a251d4f6f
+msgid "Set the output location to the :kbd:`Rasterprac` directory."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:608
+# c982ebd88cee411daf11f1f50ffb566b
+msgid "Name the output raster :kbd:`cross_product.tif`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:609
+# 698f413731b246e29c830dbfcec5cf68
+msgid "Ensure that the :guilabel:`Add result to project` box is checked."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:611
+# 4e8f373c91974148ae1ba8675a41a2c7
+msgid "Change the symbology of the new raster in the same way as you set the style for the other reclassified rasters.  The new raster now properly displays the areas where all the criteria are satisfied."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:615
+# faad139305b54d7483a9e78567738c76
+msgid "To get the final result, you need to select the areas that are greater than :kbd:`6000m^2`. However, computing these areas accurately is only possible for a vector layer, so you will need to vectorize the raster."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:620
+# 7c688a4eadf342bbaf109594f69ca3c5
+msgid "Vectorizing the raster"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:622
+# 7a31ffacab1341c9ad7be4200721ad6b
+msgid "Click on the menu item :menuselection:`Raster --> Conversion --> Polygonize`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:623
+# b6d1764a3ad442d4a4c2101ce6b73151
+msgid "Select the :guilabel:`cross_product` raster."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:624
+# b5aa3b49fb594c57a553a4df739504c9
+msgid "Set the output location to :kbd:`Rasterprac`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:625
+# 28e2ce96891547a7bece4029aa544505
+msgid "Name the file :kbd:`candidate_areas.shp`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:626
+# 4446a5ead83944bda0d7afae87046bbc
+msgid "Ensure that :guilabel:`Load into canvas when finished` is checked."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:628
+# 72af4191360b4d2dbb40e1039582e0ac
+msgid "Close the dialog when processing is complete."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:630
+# 9be2517a2e5e44eb834ef27531c60cdd
+msgid "All areas of the raster have been vectorized, so you need to select only the areas that have a value of :kbd:`1`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:633
+# 2ecc527f67164df6ac4f355c8031c2a6
+msgid "Open the :guilabel:`Query` dialog for the new vector."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:634
+# d11e3b444ef84a06af3883cddfad4612
+msgid "Build this query:"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:641
+# 10ccd602051d46d4a3ce97c1040d5d68
+msgid "Create a new vector file from the results by saving the :guilabel:`candidate_areas` vector after the query is complete (and only the areas with a value of :kbd:`1` are visible). Use the :guilabel:`Save as...` function in the layer's right-click menu for this."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:645
+# df29455ba60f432c9ce2a802950f4e81
+msgid "Save the file in the :kbd:`Rasterprac` directory."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:646
+# c335cc604f7c425baef87cb0b2dd7062
+msgid "Name the file :guilabel:`candidate_areas_only.shp`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:650
+# 87ceda460d224eac9f3336583498f026
+msgid "Calculating the area for each polygon"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:652
+# 2658a40cafba4ac78d7ab6e43f4e7f23
+msgid "Open the new vector layer's right-click menu."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:653
+# 96615f3dbfea4dc0baa49bd1c2db25dc
+msgid "Select :guilabel:`Open attribute table`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:654
+# bf3ebe7ac91743c1a6fbdf3e509eb458
+msgid "Click the :guilabel:`Toggle editing mode` button along the bottom of the table, or press :kbd:`Ctrl+E`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:656
+# 3e97a7bc85ed41079a5cfb2744305012
+msgid "Click the :guilabel:`Open field calculator` button along the bottom of the table, or press :kbd:`Ctrl+I`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:658
+# cc9a7b4545fe43fdbd55b20eea5fc071
+msgid "Under the :guilabel:`New field` heading in the dialog that appears, enter the field name :kbd:`area`. The output field type should be an integer, and the field width should be :kbd:`10`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:661
+# caf2c348368846bcbc252a1103663c1e
+msgid "In :guilabel:`Field calculator expresion`, type:"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:667
+# 7445b66c5ba84ef5977c43299bce2389
+msgid "This means that the field calculator will calculate the area of each polygon in the vector layer and will then populate a new integer column (called :guilabel:`area`) with the computed value."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:672
+# 6b910f3a79044fcbaeed3aa5a2c83118
+msgid "Do the same thing for another new field called :guilabel:`id`. In :guilabel:`Field calculator expresion`, type:"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:679
+# 3d8a04ee393548febd5fa827015c7358
+msgid "This ensures that each polygon has a unique ID for identification purposes."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:680
+# 5c3eeb3a86884e1993ce6db4672a15e0
+msgid "Click :guilabel:`Toggle editing mode` again, and save your edits if prompted to do so."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:684
+# 8738e214f3464c15815bfc463cfb2a56
+msgid "Selecting areas of a given size"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:686
+# 232d81bc86834ff18fe20e85050814da
+msgid "Now that the areas are known:"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:688
+# 4f04e46fb1c44ec5be5bc14d3c6f64a2
+msgid "Build a query (as usual) to select only the polygons larger than :kbd:`6000m^2`.  The query is:"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:695
+# 40020b23ecb64007b0745034024c4138
+msgid "Save the selection as a new vector layer called :guilabel:`solution.shp`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:697
+# d823878a9be449edb6d3ba0e43d13c5a
+msgid "You now have your solution areas, from which you will pick the one nearest to your house."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:701
+# 3fad25e992f840ac812dd6bc5eee70aa
+msgid "Digitize your house"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:703
+# 45d02864149b4d7cb182aba3d56120ac
+msgid "Create a new vector layer as before, but this time, select the :guilabel:`Type` value as being a :guilabel:`Point`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:705
+# d1064ed83c0e4c32a61524603b61ed59
+msgid "Ensure that it is in the correct CRS!"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:706
+# 57f8a553ccfe48d283728810324b6147
+msgid "Name the new layer :kbd:`house.shp`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:707
+# a560e40e4b624432a2f6b9d00057844d
+msgid "Finish creating the new layer."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:708
+# e9051a321c964566a7b2f8a6e1483576
+msgid "Enter edit mode (while the new layer is selected)."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:709
+# ec6cafc25c794dd495403c168b218e0f
+msgid "Click the point where your house or other current place of residence is, using the streets as a guide. You might have to open other layers to help you find your house. If you don't live anywhere nearby, just click somewhere among the streets where a house could conceivably be."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:715
+# 8256813beeb843579d84fb98f401c732
+msgid "Save your edits and exit edit mode."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:718
+# 15ad18dbeff24e64b400aea10a41d0fa
+msgid "You will need to find the centroids (\"centers of mass\") for the solution area polygons in order to decide which is closest to your house."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:722
+# 76d56f48c9014b23ad62dc2a18935265
+msgid "Calculate polygon centroids"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:724
+# 12ffa929994b40d2aa2b29f829ba9355
+msgid "Click on the :menuselection:`Vector --> Geometry Tools --> Polygon centroids` menu item."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:726
+# 671cb3ec294f4be2a7d7acc739afafd2
+msgid "Specify the input layer as :guilabel:`solution.shp`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:727
+# 8704310f0c474eb2875ce8a6a6c0d313
+msgid "Provide the output location as :kbd:`Rasterprac`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:728
+# a7849a64e9484a1097c3987941e1d2d3
+msgid "Call the destination file :kbd:`solution_centroids.shp`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:729
+# 8952bac1b23a43ef972a25faa9e3638c
+msgid "Click :guilabel:`OK` and add the result to the TOC (:guilabel:`Layers list`), then close the dialog."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:731
+# f3e67b12067a4405ace688c6a3167d22
+msgid "Drag the new layer to the top of the layer order so that you can see it."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:734
+# 0ec386e4a00d4efc83befdcb96f7e402
+msgid "Calculate which centroid is closest to your house"
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:736
+# 37dc2d20440849e39f3002e255b4f427
+msgid "Click on the menu item :guilabel:`Vector --> Analysis Tools --> Distance matrix`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:738
+# d7b01ab096d64c67a5832d0cab2543be
+msgid "The input layer should be your house, and the target layer :guilabel:`solution_centroids`. Both of these should use the :kbd:`id` field as their unique ID field."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:741
+# 34c5a6e8f9c34adc8a989714ca6046ca
+msgid "The output matrix type should be :guilabel:`linear`."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:742
+# 5c48e6ff09ad404b93546180cc7e7617
+msgid "Set an appropriate output location and name."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:744
+# 20ecea9e3d964e83a1337e93d0fa0ecc
+msgid "Open the file in a text editor (or import it into a spreadsheet). Note which target ID is associated with the shortest :guilabel:`Distance`. There may be more than one at the same distance."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:747
+# 535e1a2dddc64a3fa0b154a5d518f868
+msgid "Build a query in QGIS to select only the solution areas closest to your house (selecting it using the :kbd:`id` field)."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:750
+# 1d355279e1484130a5280ddc0f3752ed
+msgid "This is the final answer to the research question."
+msgstr ""
+
+#: ../../complete_analysis/analysis_exercise.rst:752
+# 75846c3ebb6a465698f8a68ddcb962bf
+msgid "For your submission, include the semi-transparent hillshade layer over an appealing raster of your choice (such as the :guilabel:`DEM` or the :guilabel:`slope` raster, for example). Also include the polygon of the closest solution area(s), as well as your house. Follow all the best practices for cartography in creating your output map."
+msgstr ""
+
+#: ../../complete_analysis/assignment.rst:2
+# caf27b94473c47d5a40acb489ac24418
+msgid "Assignment"
+msgstr ""
+
+#: ../../complete_analysis/assignment.rst:4
+# 8073c66326614ae7a67f1cb3ae3b1c9c
+msgid "Using the Map Composer, make a new map representing the results of your analysis. Include these layers:"
+msgstr ""
+
+#: ../../complete_analysis/assignment.rst:7
+# a8400337c30149c0a00fbc9022a41ce0
+msgid ":guilabel:`places` (with labels),"
+msgstr ""
+
+#: ../../complete_analysis/assignment.rst:8
+# 0c4f62086af54732b22050c18215a60e
+msgid ":guilabel:`hillshade`,"
+msgstr ""
+
+#: ../../complete_analysis/assignment.rst:9
+# 8862c5c4bd34450db73041b4635ebbb4
+msgid ":guilabel:`solution` (or :guilabel:`new_solution`),"
+msgstr ""
+
+#: ../../complete_analysis/assignment.rst:10
+# 51284329dbff434cbcf31bf1936636e6
+msgid ":guilabel:`important_roads` and"
+msgstr ""
+
+#: ../../complete_analysis/assignment.rst:11
+# b1e762a5fbd3462798ef19fcd3ad4ba8
+msgid "either :guilabel:`aerial_photos` or :guilabel:`DEM`."
+msgstr ""
+
+#: ../../complete_analysis/assignment.rst:13
+# f15c5ac37cf2407699b66e715639c213
+msgid "Write a short explanatory text to accompany it. Include in this text the criteria that were used in considering a farm for development, as well as explaining your recommendation for which farm to use."
+msgstr ""
+
+#: ../../complete_analysis/index.rst:3
+# 77cd665d3b25477dbfd44c897bdde413
+msgid "|MOD| Completing the Analysis"
+msgstr ""
+
+#: ../../complete_analysis/index.rst:5
+# 276d7830777744929435e01eb3d71350
+msgid "You now have two halves of an analysis: a vector and a raster part. In this module, you'll see how to combine them. You will conclude the analysis and present the final results."
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:2
+# 796cfe83f769444c847fe4f6518d5b9f
+msgid "|LS| Raster to Vector Conversion"
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:4
+# 55c459d441ec4fb693905a031a6826a6
+msgid "Converting between raster and vector formats allows you to make use of both raster and vector data when solving a GIS problem, as well as using the various analysis methods unique to these two forms of geographic data. This increases the flexibility you have when considering data sources and processing methods for solving a GIS problem."
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:10
+# a713304ba4ac42739069a6c643ff0c65
+msgid "To combine a raster and vector analysis, you need to convert the one type of data to the other. Let's convert the raster result of the previous lesson to a vector."
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:14
+# 073c14ef0d8f40d094fde582d7637a79
+msgid "**The goal for this lesson:** To get the raster result into a vector that can be used to complete the analysis."
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:18
+# 381a6a670b3447c8b87cae9459ab45a6
+msgid "|moderate| |FA| The :guilabel:`Raster to Vector` Tool"
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:20
+# dfe2f75fb7254e84b197940f82893029
+msgid "Click on :menuselection:`Raster --> Conversion --> Polygonize (Raster to Vector)`. The tool dialog will appear."
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:22
+# 111b2fe3f2cf4d8c9e89d9b6ff210ff6
+msgid "Set it up like this:"
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:27
+# 922504f9e6f94e2bad4bd15a4f27d710
+msgid "Change the field name (describing the values of the raster) to :kbd:`suitable`."
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:29
+# 51d4723fd4484b919c2111fa4494ce46
+msgid "Save the shapefile under :kbd:`exercise_data/residential_development` as :kbd:`all_terrain.shp`."
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:32
+# f516a4b0e5c245fb932c3cc72330038a
+msgid "Now you have a vector file which contains all the values of the raster, but the only areas you're interested in are those that are suitable; i.e., those polygons where the value of :kbd:`suitable` is :kbd:`1`."
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:41
+# 622b8b0050dd4d10be3c51e092d81462
+msgid "Refer back to the module on vector analysis."
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:43
+# df0cdd05810f408cba6fe6a3efc5350f
+msgid "Create a new vector file that contains only the polygons where :kbd:`suitable` has the value of :kbd:`1`."
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:45
+# 79282e53da13435da5882df601c540a1
+msgid "Save the new file under :kbd:`exercise_data/residential_development` as :guilabel:`suitable_terrain.shp`."
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:48
+# 5ec40ee5f9a4488db07578667ea16ce1
+msgid ":ref:`Check your results <complete-analysis-1>`"
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:51
+# c3849b663f334606b4e115d3ba4cb0fe
+msgid "|moderate| |FA| The :guilabel:`Vector to Raster` Tool"
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:53
+# c359d19c53a846faa8c1489fa382bf4d
+msgid "Although unnecessary for our current problem, it's useful to know about the opposite conversion from the one performed above."
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:56
+# ff8d0d76695948d99a7eb3700a46314b
+msgid "Click on :menuselection:`Raster --> Conversion --> Rasterize (Vector to Raster)` to start this tool, then set it up as in the screenshot below:"
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:62
+# ea49244679474f5fb39cd5aad732e456
+msgid ":guilabel:`Input file` is :guilabel:`all_terrain`;"
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:63
+# 4826ac9dceff4559b990ce9284082cfc
+msgid ":guilabel:`Output file...` is :kbd:`exercise_data/residential_development/raster_conversion.tif`;"
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:65
+# e51808bfdb4a451e9398320d8fef00d8
+msgid ":guilabel:`Width` and :guilabel:`Height` are :kbd:`837` and :kbd:`661`, respectively."
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:68
+# b4841e011ad94e1a95c25027a2ec39da
+msgid "The size of the output image is specified here to be the same as the original raster which was vectorized. To view the dimensions of an image, open its metadata (:guilabel:`Metadata` tab in the :guilabel:`Layer Properties`)."
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:73
+# 871dbf8cf7424095af7be3fe6a432119
+msgid "Click :guilabel:`OK` on the dialog to begin the conversion process."
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:74
+# 1a2f0905902e403c8e8ab57cb60d42b5
+msgid "When it is complete, gauge its success by comparing the new raster with the original one.  They should match up exactly, pixel for pixel."
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:80
+# e1d7d4a9f21142f6922d511fbfb5ea46
+msgid "Converting between raster and vector formats allows you to widen the applicability of data, and need not lead to data degradation."
+msgstr ""
+
+#: ../../complete_analysis/raster_to_vector.rst:86
+# 490f7232908342968b45137df677143a
+msgid "Now that we have the results of the terrain analysis available in vector format, they can be used to solve the problem of which farms we should consider for the residential development."
+msgstr ""
+

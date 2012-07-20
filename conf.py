@@ -37,7 +37,7 @@ rst_epilog = """
 # -- General configuration -----------------------------------------------------
 
 # Added by Tim for internationalisation support
-locale_dirs = ['./i18n']
+locale_dirs = ['i18n']
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'

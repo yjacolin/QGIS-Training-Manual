@@ -1,0 +1,771 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, Linfiniti Consulting CC
+# This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-18 19:26\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# c5207f36c6a04d1cb7fc5c7b0851e090
+#: ..\..\vector_analysis\basic_analysis.rst:2
+msgid "|LS| Vector Analysis"
+msgstr ""
+
+# 43f76f93c32449a8ab800413cc68bd8d
+#: ..\..\vector_analysis\basic_analysis.rst:4
+msgid ""
+"Vector data can also be analyzed to reveal how different features interact "
+"with each other in space. There are many different analysis-related "
+"functions in GIS, so we won't go through them all. Rather, we'll pose a "
+"question and try to solve it using the tools that QGIS provides."
+msgstr ""
+
+# 31b20d5348ee40039b874a6347cf09ab
+#: ..\..\vector_analysis\basic_analysis.rst:9
+msgid ""
+"**The goal for this lesson:** To ask a question and solve it using analysis "
+"tools."
+msgstr ""
+
+# fb62d55097c84ac89855b5916976be64
+#: ..\..\vector_analysis\basic_analysis.rst:14
+msgid "|basic| The GIS Process"
+msgstr ""
+
+# caf5245c181743f4b90745efc451dacf
+#: ..\..\vector_analysis\basic_analysis.rst:16
+msgid ""
+"Before we start, it would be useful to give a brief overview of a process "
+"that can be used to solve any GIS problem. The way to go about it is:"
+msgstr ""
+
+# 09583fb1a19f45a0800aad6b0e03b772
+#: ..\..\vector_analysis\basic_analysis.rst:19
+msgid "State the Problem"
+msgstr ""
+
+# 59e6c641e59a47b6af45ab34f39a68aa
+#: ..\..\vector_analysis\basic_analysis.rst:20
+msgid "Get the Data"
+msgstr ""
+
+# 469819bc14e741bba4be442e931a1d41
+#: ..\..\vector_analysis\basic_analysis.rst:21
+msgid "Analyze the Problem"
+msgstr ""
+
+# c07311a39dd2442383f775b09d6b75cc
+#: ..\..\vector_analysis\basic_analysis.rst:22
+msgid "Present the Results"
+msgstr ""
+
+# 1973a44ffc714da8a8df139f9b8c4510
+#: ..\..\vector_analysis\basic_analysis.rst:25
+msgid "|basic| The problem"
+msgstr ""
+
+# 893525f6d07644c09349385baf1f25ba
+#: ..\..\vector_analysis\basic_analysis.rst:27
+msgid ""
+"Let's start off the process by deciding on a problem to solve. Let's say "
+"you're a property developer, and you need to buy a farm to build a new "
+"residential development for people who have had enough of Cape Town and "
+"Johannesburg. You've done some market research, and you've come up with the "
+"following requirements that a farm needs to satisfy:"
+msgstr ""
+
+# 4f54cdaec964429db122cc40011b773c
+#: ..\..\vector_analysis\basic_analysis.rst:33
+msgid "It needs to be in Swellendam."
+msgstr ""
+
+# 6c137160f4b04127b5f4d3eccdbcb1d3
+#: ..\..\vector_analysis\basic_analysis.rst:34
+msgid ""
+"You don't want to have to build a long access road (maximum distance 500 "
+"meters), and it has to be easily accessible from main routes."
+msgstr ""
+
+# a0db2195460641d9a949eefdd4e33e00
+#: ..\..\vector_analysis\basic_analysis.rst:36
+msgid ""
+"The people who make up the target market will probably have children, so it "
+"must be within a reasonable distance (by car) from a school."
+msgstr ""
+
+# 77dd867150824d04a872f7d286f69079
+#: ..\..\vector_analysis\basic_analysis.rst:38
+msgid "The farm must be between 100 and 150 hectares in area."
+msgstr ""
+
+# e6bba42882ae4a11afe0b4fd15a87fbd
+#: ..\..\vector_analysis\basic_analysis.rst:41
+msgid "|basic| The data"
+msgstr ""
+
+# ba7761c7fd8b4632a4f5bcf132d25349
+#: ..\..\vector_analysis\basic_analysis.rst:43
+msgid "To answer these questions, we're going to need the following data:"
+msgstr ""
+
+# eef0d6e365ae480b8ad020fe3f84c547
+#: ..\..\vector_analysis\basic_analysis.rst:45
+msgid "The farms we're going to be choosing from."
+msgstr ""
+
+# 4ed5ed29ccff4c0e8fe6cb067411ecd3
+#: ..\..\vector_analysis\basic_analysis.rst:46
+msgid "The roads that need to be running through these farms."
+msgstr ""
+
+# 4ae08c83bb504a30932822d2ea224711
+#: ..\..\vector_analysis\basic_analysis.rst:47
+msgid "The location of schools."
+msgstr ""
+
+# c4a89255d0f947c8b1d1d2285989d131
+#: ..\..\vector_analysis\basic_analysis.rst:49
+msgid ""
+"For this exercise the data has been provided already, but in reality you may "
+"need to find a provider for the datasets in question. In South Africa, the "
+"Surveyor-General's Office is a good source of the kind of data you'd find on "
+"1: 50 000 topographic map sheets, which includes all of the data we need for "
+"this particular problem."
+msgstr ""
+
+# 9a8c88b71e674b2b9a7ab4150b501248
+#: ..\..\vector_analysis\basic_analysis.rst:56
+msgid "|basic| |FA| Start a Project"
+msgstr ""
+
+# b288705b2a514729b9cf24b0a3f9c630
+#: ..\..\vector_analysis\basic_analysis.rst:58
+msgid "So now that we know what we want to do, let's start doing it!"
+msgstr ""
+
+# 618c16c1cf414df1b1e9018c70b15b88
+#: ..\..\vector_analysis\basic_analysis.rst:60
+msgid "Start a new QGIS project."
+msgstr ""
+
+# 55fda5a00021413f8907ec21db197862
+#: ..\..\vector_analysis\basic_analysis.rst:61
+msgid ""
+"Start adding new layers. They're all to be found in the :kbd:`exercise_data/"
+"projected_data` folder."
+msgstr ""
+
+# a5aafb646e0c4baeaf6a1e2b8ae781e1
+#: ..\..\vector_analysis\basic_analysis.rst:63
+msgid ""
+"Add the :kbd:`schools_33S`, :kbd:`roads_33S` and :kbd:`farms_33S` layers."
+msgstr ""
+
+# 9960462042c84f96b2e9869766f0ba4a
+#: ..\..\vector_analysis\basic_analysis.rst:65
+msgid ""
+"They'll probably look very familiar. They're the same data we've been "
+"working with all along, except that they're now in a Projected Coordinate "
+"System. This is necessary for analysis, for reasons we've covered in the "
+"previous lesson. (We want to be able to calculate distances in meters and "
+"areas in hectares, not in degrees.)"
+msgstr ""
+
+# a567a4ee29f44cebb47eae412138c588
+#: ..\..\vector_analysis\basic_analysis.rst:71
+msgid "Once you've got these layers in your :guilabel:`Layers list`:"
+msgstr ""
+
+# 5fc1be77d3054d4cafeec1b24164678f
+#: ..\..\vector_analysis\basic_analysis.rst:73
+msgid ""
+"Rename the layers by right-clicking on them and selecting the :guilabel:"
+"`Rename` option."
+msgstr ""
+
+# 847d339ce78f4de3a30495ee6ea47df9
+#: ..\..\vector_analysis\basic_analysis.rst:75
+msgid ""
+"Give them the new, less messy names :kbd:`roads`, :kbd:`schools` and :kbd:"
+"`farms`."
+msgstr ""
+
+# ae807288f6254b178ed65301e079333a
+#: ..\..\vector_analysis\basic_analysis.rst:77
+msgid "Save your map under :guilabel:`exercise_data`, as :kbd:`analysis.qgs`."
+msgstr ""
+
+# df2af37fce7f44fb8c74b4b0be7e54ff
+#: ..\..\vector_analysis\basic_analysis.rst:78
+msgid ""
+"In your operating system's file manager, create a new folder under :guilabel:"
+"`exercise_data` and call it :kbd:`residential_development`. This is where "
+"you'll save the datasets that will be the results of the analysis functions."
+msgstr ""
+
+# fe691b1cf594461489e2fdaada8e5742
+#: ..\..\vector_analysis\basic_analysis.rst:83
+msgid "Now that we've got the data, let's analyze the problem!"
+msgstr ""
+
+# 0246c9aa15a241379eb4f67b6535bc49
+#: ..\..\vector_analysis\basic_analysis.rst:86
+msgid "|basic| |FA| Analyzing the Problem: Farms in Swellendam"
+msgstr ""
+
+# f5f3dd0bc88e49029d0e89e18a7f6ccc
+#: ..\..\vector_analysis\basic_analysis.rst:88
+msgid ""
+"The first criterion we're facing is that the farm needs to be in Swellendam. "
+"So let's tell QGIS to only show us the farms that are, in fact, in "
+"Swellendam!"
+msgstr ""
+
+# ef48415b231b4df2befae2799bf77da9
+#: ..\..\vector_analysis\basic_analysis.rst:91
+msgid ""
+"Right-click on the :guilabel:`farms` layer in the :guilabel:`Layers list`."
+msgstr ""
+
+# e0cdf3fa12d54520adb0949c201e02b6
+#: ..\..\vector_analysis\basic_analysis.rst:92
+msgid ""
+"Select the option :guilabel:`Query...`. This gives you a new :guilabel:"
+"`Query Builder` dialog."
+msgstr ""
+
+# 345f2fdfcaeb444c8803cb6c7237b133
+#: ..\..\vector_analysis\basic_analysis.rst:94
+msgid ""
+"Scroll down in the :guilabel:`Fields` list on the left of this dialog until "
+"you see the field :kbd:`TOWN`."
+msgstr ""
+
+# 6a46577b607946ef96fb1c4e539af58c
+#: ..\..\vector_analysis\basic_analysis.rst:96
+msgid "Click on it once."
+msgstr ""
+
+# 75ad32550304420cadccba85bf698e6d
+#: ..\..\vector_analysis\basic_analysis.rst:97
+msgid ""
+"Click the :guilabel:`All` button underneath the :guilabel:`Values` list:"
+msgstr ""
+
+# 7c47925f290b4f119058bf76ce8a59b1
+#: ..\..\vector_analysis\basic_analysis.rst:102
+msgid ""
+"Now we need to tell QGIS to only show us the farms where the value of :kbd:"
+"`TOWN` is equal to :kbd:`Swellendam`."
+msgstr ""
+
+# 95f67d15a7644718be067c170dc00623
+#: ..\..\vector_analysis\basic_analysis.rst:105
+msgid "Double-click the word :kbd:`TOWN` in the :guilabel:`Fields` list."
+msgstr ""
+
+# 2a0f2232d3704cbf82bd7d13d7ccf2d3
+#: ..\..\vector_analysis\basic_analysis.rst:106
+msgid "Watch what happens in the :guilabel:`SQL where clause` field below:"
+msgstr ""
+
+# 7298b6921d0a49d28ad88d074115c144
+#: ..\..\vector_analysis\basic_analysis.rst:111
+msgid "The word :kbd:`\"TOWN\"` has appeared! To build the rest of the query:"
+msgstr ""
+
+# fd19dcb2bd0143399053274e853e9c30
+#: ..\..\vector_analysis\basic_analysis.rst:113
+msgid "Click the :guilabel:`=` button (under :guilabel:`Operators`)."
+msgstr ""
+
+# d5a8af75b988479f935eb8228a01744c
+#: ..\..\vector_analysis\basic_analysis.rst:114
+msgid ""
+"Double-click the value :kbd:`Swellendam` in the :guilabel:`Values` list."
+msgstr ""
+
+# ca3a24748f5d48ef9e1247010c00b30a
+#: ..\..\vector_analysis\basic_analysis.rst:116
+msgid "Your query is this:"
+msgstr ""
+
+# ac05e8403d134cf38582db41d4a96f94
+#: ..\..\vector_analysis\basic_analysis.rst:121
+msgid "And now your :guilabel:`farms` layer looks like this:"
+msgstr ""
+
+# ac7d56a28f4d4ac582cc3cdbcd78e3a9
+#: ..\..\vector_analysis\basic_analysis.rst:126
+msgid ""
+"For further analysis, it's better if we've got these farms as a separate "
+"layer."
+msgstr ""
+
+# d05ae55ec24c4132b2b8ba1a595f16f5
+#: ..\..\vector_analysis\basic_analysis.rst:128
+msgid ""
+"Right-click on the :guilabel:`farms` layer and click :guilabel:`Save As...`."
+msgstr ""
+
+# 83fc7f8a9c404ed9bc07345bc22f3566
+#: ..\..\vector_analysis\basic_analysis.rst:129
+msgid ""
+"Next to the :guilabel:`Save as` field in the dialog that appears, click the :"
+"guilabel:`Browse` button."
+msgstr ""
+
+# 1c292ef53a2f4ebb8ed90586b39e0e59
+#: ..\..\vector_analysis\basic_analysis.rst:131
+msgid ""
+"Save the layer under :kbd:`exercise_data/residential_development/`, as :kbd:"
+"`swellendam_farms.shp`."
+msgstr ""
+
+# e3613cab7f834a0fa200b6e8076a777c
+#: ..\..\vector_analysis\basic_analysis.rst:133
+msgid ""
+"Check the :guilabel:`Add saved file to map` box in the :guilabel:`Save "
+"vector layer as...` dialog."
+msgstr ""
+
+# a4de46f619334261bb33d10718f7cd93
+#: ..\..\vector_analysis\basic_analysis.rst:135
+msgid ""
+"Click :guilabel:`OK`. It will tell you that :kbd:`Export to vector file has "
+"been completed`."
+msgstr ""
+
+# d72793f4d9fc4536b19d9e50e69aabd6
+# 27b7fdc79f434968b0a9f171011e7446
+# 5b9a926d77e64b34ab8bc7eaacb245ef
+# 52d166b7b6714afe836240a7dbddab3d
+#: ..\..\vector_analysis\basic_analysis.rst:137
+#: ..\..\vector_analysis\basic_analysis.rst:230
+#: ..\..\vector_analysis\basic_analysis.rst:309
+#: ..\..\vector_analysis\basic_analysis.rst:340
+msgid "Click :guilabel:`OK`."
+msgstr ""
+
+# d370595702e947688580d4dc8ffee114
+#: ..\..\vector_analysis\basic_analysis.rst:139
+msgid ""
+"Now we've got the :guilabel:`farms` twice, but we only need the one we just "
+"created."
+msgstr ""
+
+# 9eaf80fe6848492facd84ffbce0d9565
+#: ..\..\vector_analysis\basic_analysis.rst:142
+msgid "Right-click on the old :guilabel:`farms` layer and remove it."
+msgstr ""
+
+# 8b96c07e94ae427a9d107068b598376b
+#: ..\..\vector_analysis\basic_analysis.rst:148
+msgid "|basic| |TY| find important roads"
+msgstr ""
+
+# 8abae5423b514ad1b29e6f76db02a5e1
+#: ..\..\vector_analysis\basic_analysis.rst:150
+msgid ""
+"We have a similar problem with the roads; the only roads we're taking into "
+"account are the main ones."
+msgstr ""
+
+# a4e0b07747ec4d8094f83720a9f1e70e
+#: ..\..\vector_analysis\basic_analysis.rst:153
+msgid ""
+"Build a query for the :guilabel:`roads` layer, like you did above for the :"
+"guilabel:`farms` layer. You want only the types :kbd:`primary`, :kbd:"
+"`secondary`, :kbd:`tertiary` and :kbd:`trunk`, so you need to build this "
+"query:"
+msgstr ""
+
+# cc4f9f7cd7054bcfb07b24a1e329bea1
+#: ..\..\vector_analysis\basic_analysis.rst:158
+msgid ""
+":kbd:`\"TYPE\" = 'primary' OR \"TYPE\" = 'secondary' OR \"TYPE\" = "
+"'tertiary' OR \"TYPE\" = 'trunk'`"
+msgstr ""
+
+# ec9b37211e4d46709835c2224a0bed55
+#: ..\..\vector_analysis\basic_analysis.rst:161
+msgid ""
+"You can either use the approach above, where you double-clicked values and "
+"clicked buttons, or you can copy and paste the command above."
+msgstr ""
+
+# d69acb91b7104d6bbc4ea079c0874225
+#: ..\..\vector_analysis\basic_analysis.rst:164
+msgid ":ref:`Check your results <vector-analysis-basic-1>`"
+msgstr ""
+
+# 3914b9ff3a0d48608fa9b4f47a679877
+#: ..\..\vector_analysis\basic_analysis.rst:167
+msgid "|basic| |TY| find high schools"
+msgstr ""
+
+# d007e38c176142d0b2228fe47c0c3512
+#: ..\..\vector_analysis\basic_analysis.rst:169
+msgid "Your future customers will want to send their children to high schools."
+msgstr ""
+
+# 24e1992bce074538b3601377ed84f1e5
+#: ..\..\vector_analysis\basic_analysis.rst:171
+msgid ""
+"Use the same approach as before and build this query for the :guilabel:"
+"`schools` layer:"
+msgstr ""
+
+# 1452d3be51904236a8b41122ec55ffa2
+#: ..\..\vector_analysis\basic_analysis.rst:174
+msgid ":kbd:`\"has_high_s\" = 'y'`"
+msgstr ""
+
+# 5fd28310bfe84b91a080d4fb93957e51
+#: ..\..\vector_analysis\basic_analysis.rst:176
+msgid "You should have only 3 out of the 4 original schools left."
+msgstr ""
+
+# 34bf7b3ad5114f41b6442bb3638a9a3a
+#: ..\..\vector_analysis\basic_analysis.rst:178
+msgid ""
+"Save the resulting layer under :kbd:`exercise_data/residential_development/` "
+"as :kbd:`high_schools.shp`."
+msgstr ""
+
+# 9bb5233959ba425695571e5009d3bd30
+#: ..\..\vector_analysis\basic_analysis.rst:183
+msgid "|basic| |FA| Analyzing the Problem: Distances From Schools and Roads"
+msgstr ""
+
+# e9f8e4fc73024ea8a1721a2181efa5b1
+#: ..\..\vector_analysis\basic_analysis.rst:185
+msgid "QGIS allows you to calculate distances from any vector object."
+msgstr ""
+
+# f47fcfac692e4c529927848a8ad55375
+#: ..\..\vector_analysis\basic_analysis.rst:187
+msgid ""
+"Make sure that only the :guilabel:`important_roads` and :guilabel:"
+"`swellendam_farms` layers are visible, to simplify the map while you're "
+"working."
+msgstr ""
+
+# 79410186b72445a889d050093adf07df
+#: ..\..\vector_analysis\basic_analysis.rst:190
+msgid ""
+"Click on the :menuselection:`Vector --> Geoprocessing Tools --> Buffer(s)` "
+"tool:"
+msgstr ""
+
+# 7bc53d7968ef46598203971e5b026d1b
+#: ..\..\vector_analysis\basic_analysis.rst:196
+msgid "This gives you a new dialog."
+msgstr ""
+
+# 4b26ac269d094c9291dbac876a7f1eb4
+# f7a64aa5f75b4add86bd6cd36d4b9fd2
+# d146d9d10d79499ea8f062166585ecaa
+#: ..\..\vector_analysis\basic_analysis.rst:198
+#: ..\..\vector_analysis\basic_analysis.rst:288
+#: ..\..\vector_analysis\basic_analysis.rst:330
+msgid "Set it up like this:"
+msgstr ""
+
+# 66c718fb49cc4e1084053960868fd92e
+#: ..\..\vector_analysis\basic_analysis.rst:203
+msgid ""
+"The :guilabel:`Buffer distance` is in meters because our input dataset is in "
+"a Projected Coordinate System. This is why we needed to use projected data!"
+msgstr ""
+
+# 0c8b0a07ea5d4720929dc523e46cafca
+#: ..\..\vector_analysis\basic_analysis.rst:206
+msgid ""
+"Save the resulting layer under :kbd:`exercise_data/residential_development/` "
+"as :kbd:`important_roads_buffer_500m.shp`."
+msgstr ""
+
+# 869d9311c41f4d5fac29e4a70e7144de
+#: ..\..\vector_analysis\basic_analysis.rst:208
+msgid "Click :guilabel:`OK` and it will create the buffer."
+msgstr ""
+
+# de904f50f4ef4479acddce08278c0772
+#: ..\..\vector_analysis\basic_analysis.rst:209
+msgid ""
+"When it asks you if it should \"add the new layer to the TOC\", click :"
+"guilabel:`Yes`. (\"TOC\" stands for \"Table of Contents\", by which it means "
+"the :guilabel:`Layers list`)."
+msgstr ""
+
+# 137b0a01d90144959b8305e5595ebf19
+#: ..\..\vector_analysis\basic_analysis.rst:213
+msgid "Now you've got this:"
+msgstr ""
+
+# eeb70196d0704693accad7e2ca2b8898
+#: ..\..\vector_analysis\basic_analysis.rst:218
+msgid ""
+"OK, that looks interesting! Those are all the areas that are within 500 "
+"meters of an important road."
+msgstr ""
+
+# 8ce3b9f5ad8842a69e1d2509662ca7cf
+#: ..\..\vector_analysis\basic_analysis.rst:221
+msgid ""
+"But look closer: it looks like there are joins between different sections of "
+"road! That's not nice. Remove that layer and let's try again:"
+msgstr ""
+
+# b34e6e9264c049d9bd34936abdb823d5
+#: ..\..\vector_analysis\basic_analysis.rst:227
+msgid ""
+"Note that we're now checking the :guilabel:`Dissolve buffer results` box."
+msgstr ""
+
+# feee664aab244f1c9c0d01521ef74c08
+#: ..\..\vector_analysis\basic_analysis.rst:228
+msgid ""
+"Save the output under the same name as before (click :guilabel:`Yes` when it "
+"asks your permission to overwrite the old one)."
+msgstr ""
+
+# 1f21154ab7e5452588038c24fbd1054a
+#: ..\..\vector_analysis\basic_analysis.rst:232
+msgid ""
+"Once you've added the layer to the :guilabel:`Layers list`, it will look "
+"like this:"
+msgstr ""
+
+# 8a8ff16123964ea29ccf3a34d2ef9ae0
+#: ..\..\vector_analysis\basic_analysis.rst:238
+msgid "That's more like it! Now there are no unnecessary subdivisions."
+msgstr ""
+
+# e1e4dfeab8ff48159a882af950a3e818
+#: ..\..\vector_analysis\basic_analysis.rst:243
+msgid "|basic| |TY| distance from high schools"
+msgstr ""
+
+# 27ed5f0b48334910b6c1d59b00682d69
+#: ..\..\vector_analysis\basic_analysis.rst:245
+msgid "Use the same approach as above and create a buffer for your schools."
+msgstr ""
+
+# 29a10a0bb10a4162b5558de4aef68631
+#: ..\..\vector_analysis\basic_analysis.rst:247
+msgid ""
+"It needs to be :kbd:`10 km` in radius, and saved under the usual directory "
+"as :kbd:`high_schools_buffer_10km.shp`."
+msgstr ""
+
+# 2f3dd50f73d94874b33d27757041911e
+#: ..\..\vector_analysis\basic_analysis.rst:250
+msgid ":ref:`Check your results <vector-analysis-basic-2>`"
+msgstr ""
+
+# bf113b0e5dd8469c97ca0e004efbef91
+#: ..\..\vector_analysis\basic_analysis.rst:253
+msgid "|basic| |FA| Overlapping Areas"
+msgstr ""
+
+# a41aa1a82cfb4e2ea615e00710ab4d44
+#: ..\..\vector_analysis\basic_analysis.rst:255
+msgid ""
+"Now we have areas where the road in 500 meters away and there's a school "
+"within 10 km (as the crow flies). But obviously, we only want the areas "
+"where both of these criteria are satisfied at once! To do that, we'll need "
+"to use the :guilabel:`Intersect` tool. Find it under :menuselection:`Vector "
+"--> Geoprocessing Tools --> Intersect`. Set it up like this:"
+msgstr ""
+
+# c9fdccb82bf643e596360eafb3336222
+#: ..\..\vector_analysis\basic_analysis.rst:264
+msgid ""
+"The two input layers are the two buffers; the save location is as usual; and "
+"the file name is :kbd:`road_school_buffers_intersect.shp`. Once it's set up "
+"like this, click :guilabel:`OK` and add the layer to the :guilabel:`Layers "
+"list` when prompted."
+msgstr ""
+
+# a4e4d7265b9a45bbaa9bbeb7b14b0e68
+#: ..\..\vector_analysis\basic_analysis.rst:269
+msgid ""
+"In the image below, the blue areas show us where both distance criteria are "
+"satisfied at once!"
+msgstr ""
+
+# 734bc53247e44178832ab843412b76df
+#: ..\..\vector_analysis\basic_analysis.rst:275
+msgid ""
+"You may remove the two buffer layers and only keep the one that shows where "
+"they overlap, since that's what we really wanted to know in the first place."
+msgstr ""
+
+# 47d537786167429d9843b2d32e80c9d7
+#: ..\..\vector_analysis\basic_analysis.rst:281
+msgid "|basic| |FA| Select the Farms"
+msgstr ""
+
+# b73f3ac7fafd4f04bddbd0ed2da04ebf
+#: ..\..\vector_analysis\basic_analysis.rst:283
+msgid ""
+"Now you've got the area that the farms must overlap. Next, you want to "
+"select the farms in that area."
+msgstr ""
+
+# a00fa9acfd094c208c7f7904a7f9cdac
+#: ..\..\vector_analysis\basic_analysis.rst:286
+msgid ""
+"Click on the menu entry :menuselection:`Vector --> Research Tools --> Select "
+"by location`. A dialog will appear."
+msgstr ""
+
+# 45f7337b32af46a08cb6306e527af150
+#: ..\..\vector_analysis\basic_analysis.rst:293
+msgid "Click :guilabel:`OK` and you'll see the results:"
+msgstr ""
+
+# 4c27e3d777ed4f2b9887067712c219eb
+#: ..\..\vector_analysis\basic_analysis.rst:298
+msgid "The yellow farms are the selected ones. Let's save them as a new layer."
+msgstr ""
+
+# 177063e2f2d0441297af5b522aca4b99
+#: ..\..\vector_analysis\basic_analysis.rst:300
+msgid ""
+"Right-click on the :guilabel:`swellendam_farms` layer in the :guilabel:"
+"`Layers list`."
+msgstr ""
+
+# af7d46316199493fb7fe202ef3f30d9a
+#: ..\..\vector_analysis\basic_analysis.rst:302
+msgid "Select :guilabel:`Save Selection As...`."
+msgstr ""
+
+# 4614f3848ae54b1eb32b259fab0e5051
+#: ..\..\vector_analysis\basic_analysis.rst:303
+msgid "Set the dialog up like this:"
+msgstr ""
+
+# 5979ef6b604649a8a160dfd2a040e500
+#: ..\..\vector_analysis\basic_analysis.rst:308
+msgid "The file name is :kbd:`well_located_farms.shp`."
+msgstr ""
+
+# e5ee960645734956bdb0797633886092
+#: ..\..\vector_analysis\basic_analysis.rst:311
+msgid "Now you have the selection as a separate layer."
+msgstr ""
+
+# 7acd4b92ccfc4128b8558181eb582d0a
+#: ..\..\vector_analysis\basic_analysis.rst:314
+msgid "|basic| |FA| Select Farms of the Right Size"
+msgstr ""
+
+# acf37477f848418da830e1c29986ae52
+#: ..\..\vector_analysis\basic_analysis.rst:316
+msgid ""
+"To see which farms are the right area (between 100 and 150 ha), we first "
+"need to calculate their areas in hectares."
+msgstr ""
+
+# d0a2008b6cfc43d9af644a9c9a0aedf8
+#: ..\..\vector_analysis\basic_analysis.rst:319
+msgid "Open the attribute table for the :guilabel:`well_located_farms` layer."
+msgstr ""
+
+# 8616824c72aa4b84a99475792afed3ea
+#: ..\..\vector_analysis\basic_analysis.rst:320
+msgid "Enter edit mode:"
+msgstr ""
+
+# 641a646077424b4095c2fad64d6c7359
+#: ..\..\vector_analysis\basic_analysis.rst:325
+msgid "Start the field calculator:"
+msgstr ""
+
+# 1162f2f6ce414f28a0794fcbf623489e
+#: ..\..\vector_analysis\basic_analysis.rst:335
+msgid "If you can't find :guilabel:`AREA` in the list, try this instead:"
+msgstr ""
+
+# 5c0db3cdb3134a9aacf0ad0ec30077b5
+#: ..\..\vector_analysis\basic_analysis.rst:341
+msgid ""
+"Scroll to the right of the attribute table; your :kbd:`AREA` field now has "
+"areas in hectares for all the farms in your :guilabel:`well_located_farms` "
+"layer."
+msgstr ""
+
+# 34c7e2602e4346e791f39186ac196fab
+#: ..\..\vector_analysis\basic_analysis.rst:344
+msgid ""
+"Click the edit mode button again as above, and save your edits when prompted."
+msgstr ""
+
+# d6faf78d581e4ac9a6f8623f24430384
+#: ..\..\vector_analysis\basic_analysis.rst:345
+msgid "Do a query:"
+msgstr ""
+
+# f7251a6146d54c78857d667db496d6ed
+#: ..\..\vector_analysis\basic_analysis.rst:350
+msgid "Click :guilabel:`OK`. Your results should look like this:"
+msgstr ""
+
+# 9707c551658b4a05a2081ccc83bea548
+#: ..\..\vector_analysis\basic_analysis.rst:355
+msgid ""
+"That's it! Those red farms are the ones satisfying your criteria. Well done!"
+msgstr ""
+
+# dc331f27a34b4d0cbd3a5130342a3074
+#: ..\..\vector_analysis\basic_analysis.rst:358
+msgid "|basic| |TY|"
+msgstr ""
+
+# d17bc58ce4ac46e2895e476d3ff11503
+#: ..\..\vector_analysis\basic_analysis.rst:360
+msgid ""
+"Save your solution as a new layer, using the approach you learned above for "
+"doing so. The file should be saved under the usual directory, with the name :"
+"kbd:`solution.shp`."
+msgstr ""
+
+# 1e87f846c39d43b1ac19420ca5b185a5
+#: ..\..\vector_analysis\basic_analysis.rst:365
+msgid "|IC|"
+msgstr ""
+
+# ba92e60517034f13a1378e063470dc6f
+#: ..\..\vector_analysis\basic_analysis.rst:367
+msgid ""
+"Using the GIS problem-solving approach together with QGIS vector analysis "
+"tools, you were able to solve a problem with multiple criteria quickly and "
+"easily."
+msgstr ""
+
+# 2fe33cfc0ec4463e99cfb04ec7f61bc1
+#: ..\..\vector_analysis\basic_analysis.rst:372
+msgid "|WN|"
+msgstr ""
+
+# bd21c81403ce4632962b315519624864
+#: ..\..\vector_analysis\basic_analysis.rst:374
+msgid ""
+"In the next lesson, we'll look at how to calculate the shortest distance "
+"along the road from one point to another."
+msgstr ""
