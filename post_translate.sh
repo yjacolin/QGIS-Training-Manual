@@ -1,5 +1,5 @@
 #!/bin/bash
-LOCALES='en af id'
+LOCALES='af id'
 
 if [ $1 ]; then
   LOCALES=$1
@@ -14,8 +14,13 @@ do
     echo "Compiling messages to ${MOFILE}"
     RESULT=`msgfmt --statistics -o ${MOFILE} ${POFILE}`
   done
+done
 
-  # Compile the html docs for that locale
+#Add english to the list and generated docs
+LOCALES='en ${LOCALES}'
+for LOCALE in $LOCALES
+do
+  # Compile the html docs for this locale
   sphinx-build -D language=${LOCALE} -b html . _build/html/${LOCALE}
 
   # Compile the latex docs for that locale
