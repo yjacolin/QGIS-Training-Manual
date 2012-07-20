@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -15,266 +14,420 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Language: id\n"
 
-#: ..\..\postgis\spatial_functions.rst:2
 # 4b7cc645f0ad45c2bff5ff6f16c0377e
+#: ..\..\postgis\spatial_functions.rst:2
 msgid "|LS| PostGIS Setup"
-msgstr ""
+msgstr "|Pelajaran| Pengaturan PostGIS"
 
-#: ..\..\postgis\spatial_functions.rst:4
 # b1354a8d1ae545beb6eb4aa822a87b20
-msgid "Setting up PostGIS functions will allow you to access spatial functions from within PostgreSQL."
+#: ..\..\postgis\spatial_functions.rst:4
+msgid ""
+"Setting up PostGIS functions will allow you to access spatial functions from "
+"within PostgreSQL."
 msgstr ""
+"Pengaturan pada fungsi PostGIS akan memungkinkan Anda untuk mengakses "
+"fungsi-fungsi spasial dari PostgreSQL. "
 
-#: ..\..\postgis\spatial_functions.rst:7
 # c1982d42f1fa4df3b40dff5bbfd48172
-msgid "**The goal for this lesson:** To install spatial functions and briefly demo their effects."
+#: ..\..\postgis\spatial_functions.rst:7
+msgid ""
+"**The goal for this lesson:** To install spatial functions and briefly demo "
+"their effects."
 msgstr ""
+"**Tujuan untuk pelajaran ini:** Untuk menginstal fungsi spasial dan demo "
+"secara singkat terhadap efek yang dikeluarkan. "
 
-#: ..\..\postgis\spatial_functions.rst:11
 # b4295c9676aa4b219c1041ac10867328
+#: ..\..\postgis\spatial_functions.rst:11
 msgid "Installing under Ubuntu"
-msgstr ""
+msgstr "Instalasi untuk Ubuntu"
 
-#: ..\..\postgis\spatial_functions.rst:13
 # cd216ce693354847b3f8cc397d2f62e1
+#: ..\..\postgis\spatial_functions.rst:13
 msgid "Postgis is easily installed from apt."
-msgstr ""
+msgstr "PostGIS ini mudah diinstal dari apt. "
 
-#: ..\..\postgis\spatial_functions.rst:20
 # 983b6ae9d73949c6b092b80635f3ec76
+#: ..\..\postgis\spatial_functions.rst:20
 msgid "Really, it's that easy..."
-msgstr ""
+msgstr "Sungguh hal ini sangat mudah..."
 
-#: ..\..\postgis\spatial_functions.rst:23
 # f9a3461ddc9c42398c5224d0de31f44b
+#: ..\..\postgis\spatial_functions.rst:23
 msgid "Installing under Windows"
-msgstr ""
+msgstr "Instalasi untuk Windows "
 
-#: ..\..\postgis\spatial_functions.rst:25
 # 8898441ae78441ea967631672d4a573d
+#: ..\..\postgis\spatial_functions.rst:25
 msgid "Visit `the download page <http://www.postgresql.org/download/>`_."
-msgstr ""
+msgstr "Kunjungi halaman download <http://www.postgresql.org/download/>`_."
 
-#: ..\..\postgis\spatial_functions.rst:27
 # c53eec5171374fe29869e1cf6963992a
-msgid "Now follow `this guide <http://www.bostongis.com/PrinterFriendly.aspx?content_name=postgis_tut01>`_."
+#: ..\..\postgis\spatial_functions.rst:27
+msgid ""
+"Now follow `this guide "
+"<http://www.bostongis.com/PrinterFriendly.aspx?content_name=postgis_tut01>`_."
 msgstr ""
+"Sekarang ikuti panduan ini "
+"<http://www.bostongis.com/PrinterFriendly.aspx?content_name=postgis_tut01>`_."
 
-#: ..\..\postgis\spatial_functions.rst:30
 # 486a418cb1164ecfab0852796766daf9
-msgid "A little more complicated, but still not hard. Note that you need to be online to install the postgis stack."
+#: ..\..\postgis\spatial_functions.rst:30
+msgid ""
+"A little more complicated, but still not hard. Note that you need to be "
+"online to install the postgis stack."
 msgstr ""
+"Sedikit lebih rumit, tetapi masih tidak susah. Perhatikan bahwa Anda perlu "
+"online untuk menginstal stack pada PostGIS. "
 
-#: ..\..\postgis\spatial_functions.rst:34
 # 057a4b068a034878ae9b2d025e127c79
+#: ..\..\postgis\spatial_functions.rst:34
 msgid "Install plpgsql"
-msgstr ""
+msgstr "Instal plpgsql "
 
-#: ..\..\postgis\spatial_functions.rst:36
 # 8069302098e1472e857e20f223371f33
-msgid "You can ensure that any database created on your system automatically gets these spatial extensions by running these commands (from this and the next two sections) on the :kbd:`template1` system database *before* you create any of your own databases."
+#: ..\..\postgis\spatial_functions.rst:36
+msgid ""
+"You can ensure that any database created on your system automatically gets "
+"these spatial extensions by running these commands (from this and the next "
+"two sections) on the :kbd:`template1` system database *before* you create "
+"any of your own databases."
 msgstr ""
+"Anda dapat memastikan bahwa setiap database yang dibuat pada sistem Anda "
+"secara otomatis akan mengalami perluasan spasial dengan menjalankan perintah "
+"(dari bagian ini dan dua bagian selanjutnya) pada :kbd: template1 sistem "
+"database *sebelum* Anda membuat database Anda sendiri. "
 
-#: ..\..\postgis\spatial_functions.rst:41
 # 59ab39b0b60a4bdcbf35c2ebf32f3816
-msgid "PostgreSQL can use various procedural languages. What is a procedural language? It is an 'in database' language that can be used to extend the functionality of the database. For example you can write database functions that are called when events happen - such as when a record is inserted into the database. (Recall when this was done in the previous module.)"
+#: ..\..\postgis\spatial_functions.rst:41
+msgid ""
+"PostgreSQL can use various procedural languages. What is a procedural "
+"language? It is an 'in database' language that can be used to extend the "
+"functionality of the database. For example you can write database functions "
+"that are called when events happen - such as when a record is inserted into "
+"the database. (Recall when this was done in the previous module.)"
 msgstr ""
+"PostgreSQL dapat menggunakan berbagai bahasa prosedural. Apakah bahasa "
+"prosedural itu? Bahasa prosedural adalah bahasa 'dalam database' yang dapat "
+"digunakan untuk memperluas fungsionalitas dari database. Sebagai contoh Anda "
+"dapat menulis fungsi database yang dipanggil saat terjadi peristiwa - "
+"seperti ketika sebuah record dimasukkan ke dalam database. (Ingat saat ini "
+"dilakukan dalam modul sebelumnya.) "
 
-#: ..\..\postgis\spatial_functions.rst:47
 # fc420efe217f4a56968b9b63a64b1ac1
-msgid "PostGIS requires the PLPGSQL procedural language to be installed. So do this:"
+#: ..\..\postgis\spatial_functions.rst:47
+msgid ""
+"PostGIS requires the PLPGSQL procedural language to be installed. So do this:"
 msgstr ""
+"PostGIS memerlukan bahasa prosedural PLPGSQL yang harus diinstal. Jadi "
+"lakukan ini: "
 
-#: ..\..\postgis\spatial_functions.rst:55
 # 8bb88ded8f2c444bb4320d9ce2870311
-msgid "Where the third argument is the name of the database that the procedural language should be installed into."
+#: ..\..\postgis\spatial_functions.rst:55
+msgid ""
+"Where the third argument is the name of the database that the procedural "
+"language should be installed into."
 msgstr ""
+"Dimana argumen ketiga adalah nama database yang bahasa proseduralnya harus "
+"diinstal didalamnya."
 
-#: ..\..\postgis\spatial_functions.rst:58
 # 004bb6e402a5457a90725fd623ac5f90
-msgid "You will need administrative permissions for your database to be able to do this."
+#: ..\..\postgis\spatial_functions.rst:58
+msgid ""
+"You will need administrative permissions for your database to be able to do "
+"this."
 msgstr ""
+"Anda akan membutuhkan akses administratif pada database Anda untuk dapat "
+"melakukan hal ini."
 
-#: ..\..\postgis\spatial_functions.rst:62
 # 136ba234cea64729ab351bffbeb88669
+#: ..\..\postgis\spatial_functions.rst:62
 msgid "Install postgis.sql"
-msgstr ""
+msgstr "Instal postgis.sql"
 
-#: ..\..\postgis\spatial_functions.rst:64
 # eb5e25c6e5ba42b991251e38b3cab15b
-msgid "PostGIS can be thought of as a collection of in database functions that extend the core capabilities of PostgreSQL so that it can deal with spatial data. By 'deal with', we mean store, retrieve, query and manipulate. In order to do this, a number of functions are installed into the database. Do this:"
+#: ..\..\postgis\spatial_functions.rst:64
+msgid ""
+"PostGIS can be thought of as a collection of in database functions that "
+"extend the core capabilities of PostgreSQL so that it can deal with spatial "
+"data. By 'deal with', we mean store, retrieve, query and manipulate. In "
+"order to do this, a number of functions are installed into the database. Do "
+"this:"
 msgstr ""
+"PostGIS dapat dianggap sebagai kumpulan dalam fungsi database yang "
+"memperluas kemampuan inti dari PostgreSQL sehingga dapat menangani data "
+"spasial. Dengan 'menangani', kita berarti menyimpan, mengambil, queri dan "
+"memanipulasi. Untuk melakukan ini, terdapat sejumlah fungsi yang diinstal ke "
+"dalam database. Lakukan ini:"
 
-#: ..\..\postgis\spatial_functions.rst:73
 # e94225faa6364f6cbc6e6b731e718992
+#: ..\..\postgis\spatial_functions.rst:73
 msgid "or"
-msgstr ""
+msgstr "atau"
 
-#: ..\..\postgis\spatial_functions.rst:79
 # b8d29ff585c3472d8e32eff005ce7114
+#: ..\..\postgis\spatial_functions.rst:79
 msgid "depending on which PostGIS version you have installed. Now do:"
-msgstr ""
+msgstr "berdasarkan pada versi PostGIS yang telah diinstal. Sekarang lakukan:"
 
-#: ..\..\postgis\spatial_functions.rst:85
 # 829cabd3fe9c47eabdbeddce8b8e852f
+#: ..\..\postgis\spatial_functions.rst:85
 msgid "and, once you're in the psql prompt:"
-msgstr ""
+msgstr "dan, begitu Anda berada di prompt psql:"
 
-#: ..\..\postgis\spatial_functions.rst:91
 # ef86deabd84a420e804ec6c60a8ef657
-msgid "We will discuss these functions in more detail as we proceed with this course."
+#: ..\..\postgis\spatial_functions.rst:91
+msgid ""
+"We will discuss these functions in more detail as we proceed with this "
+"course."
 msgstr ""
+"Kita akan membahas fungsi-fungsi ini secara lebih rinci seperti yang kita "
+"proses dalam kursus ini."
 
-#: ..\..\postgis\spatial_functions.rst:94
 # 4fc18391586c4a429f2fbe70c1744ee4
+#: ..\..\postgis\spatial_functions.rst:94
 msgid "Install spatial_refsys.sql"
-msgstr ""
+msgstr "Instal spatial_refsys.sql"
 
-#: ..\..\postgis\spatial_functions.rst:96
 # d853a4c7974e40c2b31c3b195d23c3d1
-msgid "In addition to the PostGIS functions, a second helper SQL script needs to be run that will load the database with a collection of spatial reference system (SRS) definitions as defined by the European Petroleum Survey Group (EPSG). These are used during operations such as coordinate reference system (CRS) conversions."
+#: ..\..\postgis\spatial_functions.rst:96
+msgid ""
+"In addition to the PostGIS functions, a second helper SQL script needs to be "
+"run that will load the database with a collection of spatial reference "
+"system (SRS) definitions as defined by the European Petroleum Survey Group "
+"(EPSG). These are used during operations such as coordinate reference system "
+"(CRS) conversions."
 msgstr ""
+"Sebagai tambahan dalam fungsi PostGIS, pembantu script SQL kedua harus "
+"dijalankan sehingga akan memuat database dengan definisi koleksi spatial "
+"reference system (SRS) seperti yang didefinisikan oleh European Petroleum "
+"Survey Group (EPSG). Instalasi ini digunakan selama operasi seperti konversi "
+"coordinate reference system (CRS)."
 
-#: ..\..\postgis\spatial_functions.rst:102
 # e6f07183d73f4cbe8aea0fd85d73e458
-msgid "You can add more to the SRS list later if needed, but the list provided should cover just about every SRS you will need (Google Mercator and lo are notable exceptions)."
+#: ..\..\postgis\spatial_functions.rst:102
+msgid ""
+"You can add more to the SRS list later if needed, but the list provided "
+"should cover just about every SRS you will need (Google Mercator and lo are "
+"notable exceptions)."
 msgstr ""
+"Anda dapat menambahkan lebih ke daftar SRS nanti jika diperlukan, tetapi "
+"daftar yang disediakan harus mencakup hampir setiap SRS yang Anda akan "
+"perlukan (Google Mercator dan lo adalah pengecualian)."
 
-#: ..\..\postgis\spatial_functions.rst:106
 # a39a6d909ea045b19c3e5a5260a2aa3a
-msgid "To load the SRS table, first ensure that you're at a normal prompt (i.e., quit the database first with :kbd:`\\q`), then do this:"
+#: ..\..\postgis\spatial_functions.rst:106
+msgid ""
+"To load the SRS table, first ensure that you're at a normal prompt (i.e., "
+"quit the database first with :kbd:`\\q`), then do this:"
 msgstr ""
+"Untuk memuat tabel SRS, pertama pastikan bahwa Anda berada di prompt normal "
+"(yaitu,pertama berhenti dari database dengan :kdb:\\ q), kemudian melakukan "
+"ini:"
 
-#: ..\..\postgis\spatial_functions.rst:113
 # fd34561e45c54b7fa1efb232843d9277
+#: ..\..\postgis\spatial_functions.rst:113
 msgid "replacing :kbd:`1.5` with :kbd:`2.0` if necessary."
-msgstr ""
+msgstr "menggantikan :kbd: 1,5 dengan :kbd: 2,0 jika diperlukan."
 
-#: ..\..\postgis\spatial_functions.rst:115
 # 814538f7ba02454f9fe50aa0da0a6bc3
-msgid "The above command adds a table to our database. We can see the schema of this table by entering the following command in the psql prompt:"
+#: ..\..\postgis\spatial_functions.rst:115
+msgid ""
+"The above command adds a table to our database. We can see the schema of "
+"this table by entering the following command in the psql prompt:"
 msgstr ""
+"Perintah di atas untuk menambahkan tabel pada database kita. Kita bisa "
+"melihat skema dari tabel ini dengan memasukkan perintah berikut pada prompt "
+"psql:"
 
-#: ..\..\postgis\spatial_functions.rst:122
 # d0a463bc68404698aa204ab8c95ef6bd
+#: ..\..\postgis\spatial_functions.rst:122
 msgid "The result should be this:"
-msgstr ""
+msgstr "Hasilnya seharusnya menjadi ini:"
 
-#: ..\..\postgis\spatial_functions.rst:137
 # 7b33cc3cf9af4707b6e24dc57e6d7871
-msgid "You can use standard SQL queries (as we have learned from our introductory sections), to view and manipulate this table - though we suggest you do not update or delete any records unless you know what you are doing."
+#: ..\..\postgis\spatial_functions.rst:137
+msgid ""
+"You can use standard SQL queries (as we have learned from our introductory "
+"sections), to view and manipulate this table - though we suggest you do not "
+"update or delete any records unless you know what you are doing."
 msgstr ""
+"Anda dapat menggunakan query SQL standar (seperti yang telah kita pelajari "
+"dari bagian pengantar kita), untuk melihat dan memanipulasi tabel ini - kami "
+"menyarankan Anda tidak memperbarui atau menghapus records kecuali anda tahu "
+"apa yang Anda lakukan."
 
-#: ..\..\postgis\spatial_functions.rst:141
 # 131268d7613c4a68a97d312137225969
-msgid "One SRID you may be interested in is EPSG:4326 - the geographic / lat lon reference system using the WGS 84 ellipsoid. Let's take a look at it:"
+#: ..\..\postgis\spatial_functions.rst:141
+msgid ""
+"One SRID you may be interested in is EPSG:4326 - the geographic / lat lon "
+"reference system using the WGS 84 ellipsoid. Let's take a look at it:"
 msgstr ""
+"Satu SRID yang mungkin menarik bagi Anda adalah EPSG: 4326 – dengan "
+"referensi sistem geografis / lat lon menggunakan elipsoid WGS 84. Mari kita "
+"melihatnya:"
 
-#: ..\..\postgis\spatial_functions.rst:148
 # 25014f8ea94f41ac94b94415c78c489c
+#: ..\..\postgis\spatial_functions.rst:148
 msgid "Result"
-msgstr ""
+msgstr "Hasil"
 
-#: ..\..\postgis\spatial_functions.rst:162
 # 4b2ef46034114d9ca773cc7f6d74f9ce
-msgid "The srtext is the projection definition in well known text (you may recognise this from .prj files in your shapefile collection)."
+#: ..\..\postgis\spatial_functions.rst:162
+msgid ""
+"The srtext is the projection definition in well known text (you may "
+"recognise this from .prj files in your shapefile collection)."
 msgstr ""
+"Srtext adalah definisi proyeksi dalam teks yang diketahui (Anda mungkin "
+"menyadari hal ini dari file PRJ dalam koleksi shapefile Anda.)."
 
-#: ..\..\postgis\spatial_functions.rst:166
 # 159172309700412088b41cd629f6969b
+#: ..\..\postgis\spatial_functions.rst:166
 msgid "Looking at the installed PostGIS functions"
-msgstr ""
+msgstr "Melihat fungsi PostGIS yang telah diinstal "
 
-#: ..\..\postgis\spatial_functions.rst:168
 # aab8cc668b4c429eb291017ee418b592
-msgid "Good - our PostgreSQL database is now geospatially enabled, thanks to PostGIS. We are going to delve a lot deeper into this in the coming days, but let's give you a quick little taster. Let's say we want to create a point from text. First we use the psql command to find functions relating to point:"
+#: ..\..\postgis\spatial_functions.rst:168
+msgid ""
+"Good - our PostgreSQL database is now geospatially enabled, thanks to "
+"PostGIS. We are going to delve a lot deeper into this in the coming days, "
+"but let's give you a quick little taster. Let's say we want to create a "
+"point from text. First we use the psql command to find functions relating to "
+"point:"
 msgstr ""
+"Baik - database PostgreSQL kita sekarang memungkinkan secara geospasial, "
+"terima kasih kepada PostGIS. Kita akan menggali lebih dalam beberapa hari "
+"mendatang, tetapi mari kita memberikan latihan sedikit lebih cepat. "
+"Katakanlah kita ingin membuat suatu poin dari teks. Pertama kita menggunakan "
+"perintah psql untuk menemukan fungsi yang berkaitan dengan poin:"
 
-#: ..\..\postgis\spatial_functions.rst:177
 # 52f83bfad41e4b5096a026c352a8d7c6
+#: ..\..\postgis\spatial_functions.rst:177
 msgid "Here is one that caught my eye: :kbd:`st_pointfromtext`"
-msgstr ""
+msgstr "Berikut adalah salah satu yang saya tangkap : st_pointfromtext"
 
-#: ..\..\postgis\spatial_functions.rst:179
 # 3917ce0ad51b430eaf63cbc8eb5c0f53
+#: ..\..\postgis\spatial_functions.rst:179
 msgid "So let's give that a try:"
-msgstr ""
+msgstr "Jadi mari kita mencoba dengan:"
 
-#: ..\..\postgis\spatial_functions.rst:185
-#: ..\..\postgis\spatial_functions.rst:219
 # d20f63b9f4ae4d26ac0a832f0e3be315
 # 432da4c431b94797b50a5f5f3261c7ad
+#: ..\..\postgis\spatial_functions.rst:185
+#: ..\..\postgis\spatial_functions.rst:219
 msgid "Result:"
-msgstr ""
+msgstr "Hasil:"
 
-#: ..\..\postgis\spatial_functions.rst:194
 # ffe4aa4450a1421e88031761b927f3e7
+#: ..\..\postgis\spatial_functions.rst:194
 msgid "So there are a couple of interesting things going on here:"
-msgstr ""
+msgstr "Jadi ada beberapa hal yang menarik terjadi di sini:"
 
-#: ..\..\postgis\spatial_functions.rst:196
 # 5219b9adcf0b4f1683b7c0300a7948fc
-msgid "we defined a point at position 1,1 (EPSG:4326 is assumed) using :kbd:`POINT(1 1)`"
+#: ..\..\postgis\spatial_functions.rst:196
+msgid ""
+"we defined a point at position 1,1 (EPSG:4326 is assumed) using "
+":kbd:`POINT(1 1)`"
 msgstr ""
+"kita mendefinisikan poin di posisi 1,1 (diasumsikan EPSG: 4326) menggunakan "
+":kbd:POINT (1 1)"
 
-#: ..\..\postgis\spatial_functions.rst:198
 # 0cd71c24d28b4dbe890f0add95eecb9e
-msgid "we ran an sql statement, but not on any table, just on data entered from the SQL prompt"
+#: ..\..\postgis\spatial_functions.rst:198
+msgid ""
+"we ran an sql statement, but not on any table, just on data entered from the "
+"SQL prompt"
 msgstr ""
+"kita memproses pernyataan sql, tetapi tidak pada setiap tabel, hanya ada "
+"pada data yang dimasukkan dari prompt SQL"
 
-#: ..\..\postgis\spatial_functions.rst:200
 # 22721f63eb20468cb4701387f105408c
+#: ..\..\postgis\spatial_functions.rst:200
 msgid "the resulting row looks kinda strange"
-msgstr ""
+msgstr "baris yang dihasilkan terlihat agak aneh"
 
-#: ..\..\postgis\spatial_functions.rst:202
 # 81592b200a7047f88f13edeea43bf81e
-msgid "The resulting row is looking strange because its in the OGC format called 'Well Known Binary' (WKB) - more on that coming in the next section."
+#: ..\..\postgis\spatial_functions.rst:202
+msgid ""
+"The resulting row is looking strange because its in the OGC format called "
+"'Well Known Binary' (WKB) - more on that coming in the next section."
 msgstr ""
+"Baris yang dihasilkan tampak aneh karena dalam format OGC disebut 'Well "
+"Known Binary (WKB) - lebih lanjut tentang itu akan ada pada bagian "
+"berikutnya."
 
-#: ..\..\postgis\spatial_functions.rst:205
 # 0a22a6e628b2445da6cf629adfa22fb2
-msgid "To get the results back as text, I do a quick scan through the function list for something that returns text:"
+#: ..\..\postgis\spatial_functions.rst:205
+msgid ""
+"To get the results back as text, I do a quick scan through the function list "
+"for something that returns text:"
 msgstr ""
+"Untuk mendapatkan hasil kembali sebagai teks, saya melakukan scan cepat "
+"melalui daftar fungsi untuk yang mengembalikan teks:"
 
-#: ..\..\postgis\spatial_functions.rst:212
 # e6d1ce248b72418390a19897701c15aa
-msgid "One that catches my eye is :kbd:`st_astext`. Let's combine it with the previous query:"
+#: ..\..\postgis\spatial_functions.rst:212
+msgid ""
+"One that catches my eye is :kbd:`st_astext`. Let's combine it with the "
+"previous query:"
 msgstr ""
+"Salah satu yang menarik bagi saya adalah st_astext. Mari kita gabungkan "
+"dengan queri sebelumnya:"
 
-#: ..\..\postgis\spatial_functions.rst:228
 # 8b93831548dc4482add59eef5a93303b
-msgid "So what's happened here? We entered the string :kbd:`POINT(1,1)`, turned it into a point using :kbd:`st_pointfromtext()`, and turned it back into a human-readable form with :kbd:`st_astext()`, which gave us back our original string."
+#: ..\..\postgis\spatial_functions.rst:228
+msgid ""
+"So what's happened here? We entered the string :kbd:`POINT(1,1)`, turned it "
+"into a point using :kbd:`st_pointfromtext()`, and turned it back into a "
+"human-readable form with :kbd:`st_astext()`, which gave us back our original "
+"string."
 msgstr ""
+"Jadi apa yang terjadi di sini? Kita memasuki tipe data string :kbd: POINT "
+"(1,1), mengubahnya menjadi poin menggunakan st_pointfromtext (), dan "
+"mengubahnya kembali ke bentuk yang dapat dibaca oleh manusia dengan :kbd: "
+"st_astext (), yang memberikan hasil kepada kita berupa string asli."
 
-#: ..\..\postgis\spatial_functions.rst:233
 # 910e0d3e3ae3416389b3162774637ecd
+#: ..\..\postgis\spatial_functions.rst:233
 msgid "One last example before we really get into the detail of using PostGIS:"
 msgstr ""
+"Salah satu contoh terakhir sebelum kita benar-benar masuk ke dalam detail "
+"menggunakan PostGIS yaitu:"
 
-#: ..\..\postgis\spatial_functions.rst:239
 # c549b0046b89457a92fc29e52418608c
-msgid "What did that do? It created a buffer of 1 degree around our point, and returned it as text. Nifty hey?"
+#: ..\..\postgis\spatial_functions.rst:239
+msgid ""
+"What did that do? It created a buffer of 1 degree around our point, and "
+"returned it as text. Nifty hey?"
 msgstr ""
+"Apa yang dilakukan? Bagian ini menciptakan buffer 1 derajat pada sekitar "
+"poin, dan mengembalikannya sebagai teks. Bagus bukan?"
 
-#: ..\..\postgis\spatial_functions.rst:243
 # 1590baa3f0074b1781cea095e85b3b63
+#: ..\..\postgis\spatial_functions.rst:243
 msgid "|IC|"
-msgstr ""
+msgstr "|Kesimpulan|"
 
-#: ..\..\postgis\spatial_functions.rst:245
 # 7f058d631cc9438d96031f58635d212c
-msgid "You now have PostGIS functions installed in your copy of PostgreSQL. With this you'll be able to make use of PostGIS' extensive spatial functions."
+#: ..\..\postgis\spatial_functions.rst:245
+msgid ""
+"You now have PostGIS functions installed in your copy of PostgreSQL. With "
+"this you'll be able to make use of PostGIS' extensive spatial functions."
 msgstr ""
+"Anda sekarang memiliki fungsi PostGIS yang telah diinstal pada salinan "
+"PostgreSQL. Dengan ini Anda akan dapat menggunakan fungsi spasial yang "
+"semakin luas pada PostGIS."
 
-#: ..\..\postgis\spatial_functions.rst:249
 # 754c3caadc6446b0bce009449659ba03
+#: ..\..\postgis\spatial_functions.rst:249
 msgid "|WN|"
-msgstr ""
+msgstr "|Apa selanjutnya|"
 
-#: ..\..\postgis\spatial_functions.rst:251
 # 6e1325149a964a1496bc910731400f15
+#: ..\..\postgis\spatial_functions.rst:251
 msgid "Next you'll learn how spatial features are represented in a database."
 msgstr ""
-
+"Selanjutnya Anda akan belajar bagaimana feature spasial direpresentasikan "
+"dalam database."
