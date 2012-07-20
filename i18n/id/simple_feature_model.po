@@ -38,11 +38,13 @@ msgid ""
 "**The goal for this lesson:** To learn what the SFS Model is and how to use "
 "it."
 msgstr ""
+"**Tujuan untuk pelajaran ini:**  Untuk mempelajari apa itu Model SFS dan "
+"bagaimana menggunakannya."
 
 # 9c438b6c667d4468b7384a2701048007
 #: ..\..\postgis\simple_feature_model.rst:11
 msgid "What is OGC"
-msgstr ""
+msgstr "Apa itu OGC"
 
 # 6a268aa6148a436a8e9a4060d32a4d2e
 #: ..\..\postgis\simple_feature_model.rst:13
@@ -54,11 +56,17 @@ msgid ""
 "implementation of standards for geospatial content and services, GIS data "
 "processing and data sharing. *- Wikipedia*"
 msgstr ""
+"The Open Geospatial Consortium (OGC), sebuah organisasi internasional "
+"berstandar konsensus sukarela, berasal pada tahun 1994. Dalam OGC, lebih "
+"dari 370 + organisasi komersial, pemerintah, nirlaba dan penelitian di "
+"seluruh dunia bekerja sama dalam suatu proses konsensus terbuka yang "
+"mendorong dalam pengembangan dan penerapan standar untuk konten dan layanan "
+"geospasial, pengolahan data SIG dan berbagi data.* – Wikipedia*"
 
 # ed784fb103df4c14a34cdbfa102a5dda
 #: ..\..\postgis\simple_feature_model.rst:21
 msgid "What is the SFS Model"
-msgstr ""
+msgstr "Apa itu Model SFS"
 
 # 63641b14c659436da52da81ab73ac8db
 #: ..\..\postgis\simple_feature_model.rst:23
@@ -67,6 +75,9 @@ msgid ""
 "geospatial data in a database and defines functions for accessing, "
 "operating, and constructing these data."
 msgstr ""
+"Model dari The Simple Feature for SQL (SFS) adalah cara *non-topologi* untuk "
+"menyimpan data geospasial dalam database dan mendefinisikan fungsi untuk "
+"akses, operasi, dan pembangunan data ini."
 
 # 93f41bbbd81747a792c0644ae766d498
 #: ..\..\postgis\simple_feature_model.rst:30
@@ -74,6 +85,8 @@ msgid ""
 "The model defines geospatial data from Point, Linestring, and Polygon types "
 "(and aggregations of them to Multi objects)."
 msgstr ""
+"Model ini mendefinisikan data geospasial dari Poin, Linestring, dan tipe "
+"Poligon (dan agregasi dari data untuk obyek Multi)."
 
 # 288db9b91c7543018ac5ae27a34efd51
 #: ..\..\postgis\simple_feature_model.rst:33
@@ -81,21 +94,23 @@ msgid ""
 "For further information, have a look at the `OGC Simple Feature for SQL "
 "<http://www.opengeospatial.org/standards/sfs>`_ standard."
 msgstr ""
+"Untuk informasi lebih lanjut, kita lihat Simple Feature for SQL OGC standar "
+"<http://www.opengeospatial.org/standards/sfs>`."
 
 # e68b1c7696074cb98d318a0d7522c76e
 #: ..\..\postgis\simple_feature_model.rst:37
 msgid "Add a geometry field to table"
-msgstr ""
+msgstr "Menambahkan field geometri ke tabel"
 
 # 2bf8bc492c2447eb869afb510cfd3bae
 #: ..\..\postgis\simple_feature_model.rst:39
 msgid "Let's add a point field to our people table:"
-msgstr ""
+msgstr "Mari tambahkan field poin pada tabel:"
 
 # 941ed8e2959049f7920c3dfee0ef15c4
 #: ..\..\postgis\simple_feature_model.rst:49
 msgid "Add a constraint based on geometry type"
-msgstr ""
+msgstr "Menambahkan konstrain berdasarkan tipe geometri"
 
 # c02c272782804de69816102fc8438d22
 #: ..\..\postgis\simple_feature_model.rst:51
@@ -103,6 +118,8 @@ msgid ""
 "You will notice that the geometry field type does not implicitly specify "
 "what *type* of geometry for the field - for that we need a constraint."
 msgstr ""
+"Anda akan melihat bahwa tipe field geometri tidak secara implisit menentukan "
+"*tipe* geometri untuk fieldnya - untuk itu kita perlu konstrain."
 
 # 9bfc4dc4c16a4b77bd37f726d8485ba4
 #: ..\..\postgis\simple_feature_model.rst:60
@@ -110,11 +127,13 @@ msgid ""
 "What does that do? It adds a constraint to the table that prevents anything "
 "except a point geometry or a null."
 msgstr ""
+"Apa yang dilakukan? Bagian ini berarti menambahkan konstrain untuk tabel "
+"yang mencegah apa pun kecuali geometri titik atau null."
 
 # f829052b1e324a1390e55e244277e537
 #: ..\..\postgis\simple_feature_model.rst:63
 msgid "Now you try:"
-msgstr ""
+msgstr "Sekarang Anda coba:"
 
 # 24680acde438440b82b3bf465c558e89
 #: ..\..\postgis\simple_feature_model.rst:65
@@ -123,16 +142,19 @@ msgid ""
 "including a geometry field for storing polygons (the city boundaries). Make "
 "sure it has a constraint enforcing geometries to be polygons."
 msgstr ""
+"Buatlah tabel baru yang sebagai kota dan berikan beberapa kolom yang tepat, "
+"termasuk field geometri untuk menyimpan poligon (batas kota). Pastikan Anda "
+"memiliki konstrain geometri menjadi poligon."
 
 # d7c2d902b1944cd79903e23a52e6eb54
 #: ..\..\postgis\simple_feature_model.rst:98
 msgid ":ref:`Check your results <simple-feature-1>`"
-msgstr ""
+msgstr ":referensi: Periksa hasil Anda <feature-sederhana-1>"
 
 # e179bd1108234058aa6fa81a0442a332
 #: ..\..\postgis\simple_feature_model.rst:104
 msgid "Populate geometry_columns table"
-msgstr ""
+msgstr "Mengisi tabel kolom geometri"
 
 # 8e43841e43cb4279b48405a7b794a2d9
 #: ..\..\postgis\simple_feature_model.rst:106
@@ -140,6 +162,8 @@ msgid ""
 "At this point you should also add an entry into the :kbd:`geometry_columns` "
 "table:"
 msgstr ""
+"Pada poin ini Anda seharusnya juga menambahkan masukan terhadap tabel kolom "
+"geometri :"
 
 # 33a88fec2ba543799cd9030e433def26
 #: ..\..\postgis\simple_feature_model.rst:114
@@ -147,6 +171,8 @@ msgid ""
 "Why? :kbd:`geometry_columns` is used by certain applications to be aware of "
 "which tables in the database contain geometry data."
 msgstr ""
+"Mengapa? :kbd: kolom geometri digunakan oleh aplikasi tertentu untuk "
+"mengetahui tabel mana dalam geodatabase yang berisi data geometri."
 
 # 29fe7cfc881747a18b7cd7c277c04871
 #: ..\..\postgis\simple_feature_model.rst:117
@@ -154,6 +180,8 @@ msgid ""
 "If the above :kbd:`INSERT` statement causes a complaint, run this query "
 "first:"
 msgstr ""
+"Jika pernyataan :kbd: INSERT di atas menyebabkan keluhan, pertama jalankan "
+"queri ini :"
 
 # 0bcfad502829428086a81c11b9e420b0
 #: ..\..\postgis\simple_feature_model.rst:124
@@ -162,6 +190,8 @@ msgid ""
 "this table has already been registered and you don't need to do anything "
 "more."
 msgstr ""
+"Jika kolom :kbd: f_table_name berisi nilai :kbd: orang, maka tabel ini telah "
+"terdaftar dan Anda tidak perlu melakukan apapun lagi."
 
 # 3232ce94b52e4caf836d74b298184c7d
 #: ..\..\postgis\simple_feature_model.rst:128
@@ -169,6 +199,8 @@ msgid ""
 "The value :kbd:`2` refers to the number of dimensions; in this case, two: "
 "**x** and **y**."
 msgstr ""
+"Nilai :kbd: 2 mengacu pada jumlah dimensi, dalam hal ini, dua:** x** dan "
+"**y**."
 
 # f5868dfd51e14314831ae825a0cac7bb
 #: ..\..\postgis\simple_feature_model.rst:131
@@ -177,26 +209,31 @@ msgid ""
 "WGS 84, which is referred to by the number 4326 (refer to the earlier "
 "discussion about the EPSG)."
 msgstr ""
+"Nilai :kbd: 4326 mengacu pada proyeksi yang kita gunakan, dalam hal ini, WGS "
+"84, yang disebut dengan jumlah 4326 (lihat pembahasan sebelumnya tentang "
+"EPSG tersebut)."
 
 # 41a5cdbc236c46bbab79c8df3cfb18b1
 #: ..\..\postgis\simple_feature_model.rst:135
 msgid "Add an appropriate geometry_columns entry for your new cities layer"
 msgstr ""
+"Tambahkan masukan pada kolom geometri sesuai untuk layer kota baru Anda"
 
 # 3e71c457d5bf4299a3fded25a5218306
 #: ..\..\postgis\simple_feature_model.rst:156
 msgid ":ref:`Check your results <simple-feature-2>`"
-msgstr ""
+msgstr ":referensi: Periksa hasil Anda <feature-sederhana-2>"
 
 # 52b27d0c6c71464b85def1d2aea792fb
 #: ..\..\postgis\simple_feature_model.rst:162
 msgid "Add geometry record to table using SQL"
-msgstr ""
+msgstr "Menambahkan catatan geometri ke tabel menggunakan SQL"
 
 # fa9c93648928438299bedef6edfd0734
 #: ..\..\postgis\simple_feature_model.rst:164
 msgid "Now that our tables are geo-enabled, we can store geometries in them!"
 msgstr ""
+"Sekarang, tabel kita sudah geo-enabled, kita dapat menyimpan geometri disini!"
 
 # 39ea4cc1f084496485a1b6e04a68590d
 #: ..\..\postgis\simple_feature_model.rst:175
@@ -207,6 +244,12 @@ msgid ""
 "projection information. Obviously, the new point needs to use the same SRID "
 "as the dataset it is being added to, so you need to specify it."
 msgstr ""
+"Dalam entri baru di atas, Anda akan perlu untuk menentukan proyeksi (SRID) "
+"mana yang Anda ingin gunakan. Hal ini karena Anda memasuki geometri dari "
+"poin baru menggunakan string sederhana dari teks, yang tidak secara otomatis "
+"menambahkan informasi proyeksi yang benar. Tentu saja, poin baru perlu "
+"menggunakan SRID yang sama dengan dataset yang ditambahkan, sehingga Anda "
+"harus menentukan itu."
 
 # c4c0133fad18422d924918697844ae88
 #: ..\..\postgis\simple_feature_model.rst:181
@@ -217,6 +260,11 @@ msgid ""
 "point you want to add if you've already specified it for that dataset, as we "
 "did earlier."
 msgstr ""
+"Jika pada poin ini Anda menggunakan grafis antarmuka, misalnya, menentukan "
+"proyeksi untuk setiap poin akan otomatis. Dengan kata lain, Anda tidak perlu "
+"khawatir tentang menggunakan proyeksi yang benar untuk setiap poin yang "
+"ingin Anda tambahkan jika Anda telah tentukan untuk dataset itu, seperti "
+"yang kita lakukan sebelumnya."
 
 # baf16301f69244f286b582146d384950
 #: ..\..\postgis\simple_feature_model.rst:187
@@ -226,6 +274,10 @@ msgid ""
 "and then performing select queries in the database to see how the data has "
 "changed."
 msgstr ""
+"Sekarang mungkin saat yang tepat untuk menjalankan QGIS dan mencoba untuk "
+"melihat tabel :kbd: people Anda. Juga, kita harus mencoba mengedit / "
+"menambahkan / menghapus records dan kemudian melakukan queri pemilihan dalam "
+"database untuk melihat bagaimana data telah berubah."
 
 # 7704962470404e8ba96e8bcef373268d
 #: ..\..\postgis\simple_feature_model.rst:191
@@ -233,21 +285,23 @@ msgid ""
 "To load a PostGIS layer in QGIS, use the :menuselection:`Layer --> Add "
 "PostGIS Layers` menu option or toolbar button:"
 msgstr ""
+"Untuk memuat layer PostGIS di QGIS, gunakan Layer --> Add PostGIS Layers "
+":pilihan menu: atau tombol toolbar:"
 
 # 008379a970004110b320ad25c4792bb1
 #: ..\..\postgis\simple_feature_model.rst:197
 msgid "This will open the dialog:"
-msgstr ""
+msgstr "Ini akan membuka dialog:"
 
 # 75974125f95d492381ff52ae5e3fc016
 #: ..\..\postgis\simple_feature_model.rst:202
 msgid "Click on the :guilabel:`New` button to open this dialog:"
-msgstr ""
+msgstr "Klik pada tombol :guilabel: 'New' untuk membuka dialog:"
 
 # b5ba2434d9b843a0a264db973e3dc31b
 #: ..\..\postgis\simple_feature_model.rst:207
 msgid "Then define a new connection, e.g.:"
-msgstr ""
+msgstr "Kemudian definisikan koneksi baru, misalnya:"
 
 # e095aefc61844746b2ace111a7766d12
 #: ..\..\postgis\simple_feature_model.rst:219
@@ -257,6 +311,11 @@ msgid ""
 "works, check the boxes next to :guilabel:`Save Username` and :guilabel:`Save "
 "Password`. Then click :guilabel:`OK` to create this connection."
 msgstr ""
+"Untuk melihat apakah QGIS telah menemukan :kbd: 'address' database dan bahwa "
+"username dan password sudah benar, klik :guilabel:'Test Connec'. Jika "
+"berhasil, periksa kotak di sebelah :guilabel:'Save Username'  dan "
+":guilabel:'Save Password'. Kemudian klik :guilabel:'OK' untuk membuat "
+"koneksi ini."
 
 # dc8d384e09ed41aeb3241117eb1cceb8
 #: ..\..\postgis\simple_feature_model.rst:224
@@ -264,6 +323,8 @@ msgid ""
 "Back in the :guilabel:`Add PostGIS Layers` dialog, click :guilabel:`Connect` "
 "and add layers to your project as usual."
 msgstr ""
+"Kembali pada dialog :guilabel:'Add PostGIS Layers' , klik "
+":guilabel:'Connect' dan tambahkan layer untuk proyek Anda seperti biasa."
 
 # 267d4b99daf946cca0fd1268b6936dee
 #: ..\..\postgis\simple_feature_model.rst:227
@@ -271,16 +332,18 @@ msgid ""
 "Formulate a query that shows a person's name, street name and position (from "
 "the the_geom column) as plain text."
 msgstr ""
+"Formulasikan query yang menampilkan nama seseorang, nama jalan dan posisi "
+"(dari kolom the_geom) sebagai teks biasa."
 
 # 3be7d6966d6249a39741058e542000a0
 #: ..\..\postgis\simple_feature_model.rst:248
 msgid ":ref:`Check your results <simple-feature-3>`"
-msgstr ""
+msgstr ":referensi: Periksa hasil Anda <feature-sederhana-3>"
 
 # 8ec51216d9b34b719b42a4c9f8b24b7f
 #: ..\..\postgis\simple_feature_model.rst:251
 msgid "|IC|"
-msgstr ""
+msgstr "|Kesimpulan|"
 
 # f68fe16bbffc4214b2bfa1bdece64b9d
 #: ..\..\postgis\simple_feature_model.rst:253
@@ -288,14 +351,18 @@ msgid ""
 "You have seen how to add spatial objects to your database and view them in "
 "GIS software."
 msgstr ""
+"Anda telah melihat bagaimana menambahkan obyek spasial pada database Anda "
+"dan melihatnya pada perangkat lunak SIG."
 
 # ad65a4ff4d664255bbd5a859a4a4a7e9
 #: ..\..\postgis\simple_feature_model.rst:257
 msgid "|WN|"
-msgstr ""
+msgstr "|Apa selanjutnya|"
 
 # 5d102b46e3424417bc5442d6a9175cea
 #: ..\..\postgis\simple_feature_model.rst:259
 msgid ""
 "Next you'll see how to import data into, and export data from, your database."
 msgstr ""
+"Selanjutnya Anda akan melihat bagaimana melakukan import data kedalamnya dan "
+"export data dari database Anda."
