@@ -28,6 +28,9 @@ msgid ""
 "the geometry column like any other database column. With the installation of "
 "PostGIS in our database, we have additional functions to query our database."
 msgstr ""
+"Queri spasial tidak berbeda dari queri database lain. Anda dapat menggunakan "
+"kolom geometri seperti kolom database lain. Dengan instalasi PostGIS dalam "
+"database kita, kitai memiliki fungsi tambahan untuk query database kita."
 
 # 5cbbf758c71a4fcf81a1537fe278f1c9
 #: ..\..\postgis\spatial_queries.rst:8
@@ -35,11 +38,13 @@ msgid ""
 "**The goal for this lesson:** To see how spatial functions are implemented "
 "similarly to \"normal\" non-spatial functions."
 msgstr ""
+"**Tujuan untuk pelajaran ini:** Untuk melihat bagaimana fungsi spasial "
+"diimplementasikan sesuai dengan \"normal\" fungsi non-spasial."
 
 # a0805e5976dd4690932799af68daef05
 #: ..\..\postgis\spatial_queries.rst:14
 msgid "Spatial Operators"
-msgstr ""
+msgstr "Operator Spasial"
 
 # 7c49d268cd7d48d3b990631428965d82
 #: ..\..\postgis\spatial_queries.rst:16
@@ -47,8 +52,8 @@ msgid ""
 "When you want to know which points are within a distance of 2 degrees to a "
 "point(X,Y) you can do this with:"
 msgstr ""
-"ketika Anda ingin mengetahui poin mana yang berada pada jarak 2 derajat "
-"terhadap poin (X,Y) Anda dapat melakukan ini:"
+"Ketika Anda ingin mengetahui poin mana yang berada pada jarak 2 derajat "
+"terhadap poin (X,Y) Anda dapat melakukannya dengan ini:"
 
 # e07906ff1fc04ed596f20830848754a0
 # b99e6769aaac43bcabd146b296ab8a15
@@ -59,7 +64,7 @@ msgstr ""
 #: ..\..\postgis\spatial_queries.rst:179 ..\..\postgis\spatial_queries.rst:219
 #: ..\..\postgis\spatial_queries.rst:320
 msgid "Result:"
-msgstr ""
+msgstr "Hasilnya:"
 
 # 9c447888299e4f9db572af3d80ddcbb8
 #: ..\..\postgis\spatial_queries.rst:34
@@ -68,6 +73,10 @@ msgid ""
 "see the point in human-readable coordinates, try something similar to what "
 "you did in the section \"View a point as WKT\", above."
 msgstr ""
+"Nilai the_geom di atas itu dipotong untuk space pada halaman ini. Jika Anda "
+"ingin melihat poin dalam koordinat yang dapat dibaca oleh manusia, cobalah "
+"sesuatu yang mirip dengan apa yang Anda lakukan pada bagian \"Lihat pon "
+"sebagai WKT\" di atas."
 
 # 53f1395a7ee44784a7ea3ba093831add
 #: ..\..\postgis\spatial_queries.rst:38
@@ -75,16 +84,18 @@ msgid ""
 "How do we know that the query above returns all the points within 2 "
 "*degrees*? Why not 2 *meters*? Or any other unit, for that matter?"
 msgstr ""
+"Bagaimana kita tahu bahwa queri di atas mengembalikan semua poin yang berada "
+"pada sekitar 2 derajat? Mengapa tidak 2 meter? Atau unit lain, dalam hal ini?"
 
 # 1a9ac5d883c645228b797270dae78f17
 #: ..\..\postgis\spatial_queries.rst:41
 msgid ":ref:`Check your results <spatial-queries-1>`"
-msgstr ""
+msgstr ":referensi: Periksa hasil Anda <queri-spasial-1>"
 
 # 4a40ff9eecb14e73946094439f4952f6
 #: ..\..\postgis\spatial_queries.rst:46
 msgid "Spatial Indexes"
-msgstr ""
+msgstr "Indeks Spasial"
 
 # fa43214f1765419aabc8e4e4967ee70a
 #: ..\..\postgis\spatial_queries.rst:48
@@ -92,6 +103,9 @@ msgid ""
 "We also can define spatial indexes. A spatial index makes your spatial "
 "queries much faster. To create a spatial index on the geometry column use:"
 msgstr ""
+"Kita juga dapat mendefinisikan indeks spasial. Sebuah indeks spasial membuat "
+"queri spasial jauh lebih cepat. Untuk membuat indeks spasial pada kolom "
+"geometri menggunakan:"
 
 # e862a5b21df04d85a1a49f91b93fb63d
 #: ..\..\postgis\spatial_queries.rst:85
@@ -99,16 +113,18 @@ msgid ""
 "Now you try - modify the cities table so its geometry column is spatially "
 "indexed."
 msgstr ""
+"Sekarang Anda coba – memodifikasi tabel  kota sehingga kolom geometri "
+"indeksnya terspasialkan."
 
 # e192652f1dd0425ba02d3b624afeeda6
 #: ..\..\postgis\spatial_queries.rst:115
 msgid ":ref:`Check your results <spatial-queries-2>`"
-msgstr ""
+msgstr ":referensi: Periksa hasil Anda <queri-spasial-2>"
 
 # 47a974582f244579a5e44c12bcc1be8a
 #: ..\..\postgis\spatial_queries.rst:119
 msgid "PostGIS Spatial Functions Demo"
-msgstr ""
+msgstr "Demo fungsi spasial PostGIS"
 
 # 0b7884fae8334a8490a24bddbb3ae18d
 #: ..\..\postgis\spatial_queries.rst:121
@@ -116,16 +132,18 @@ msgid ""
 "In order to demo PostGIS spatial functions, we'll create a new database "
 "containing some (fictional) data."
 msgstr ""
+"Untuk demo fungsi spasial PostGIS, kita akan membuat database baru yang "
+"berisi beberapa (fiksi) data."
 
 # eac7db737ffa49c984d0ed557d061ce5
 #: ..\..\postgis\spatial_queries.rst:124
 msgid "To start, create a new database:"
-msgstr ""
+msgstr "Untuk memulai, buatlah database baru:"
 
 # 71d1c0f02b734ad7b04682695c463329
 #: ..\..\postgis\spatial_queries.rst:130
 msgid "Remember to install PLPGSQL:"
-msgstr ""
+msgstr "Jangan lupa untuk menginstal PLPGSQL:"
 
 # d8a4e806ec5f4653a4a5ffa3e7f9d788
 #: ..\..\postgis\spatial_queries.rst:136
@@ -133,6 +151,8 @@ msgid ""
 "Then install the PostGIS functions and the spatial reference system. For "
 "example, on Linux with PostgreSQL 9.1 and PostGIS 1.5:"
 msgstr ""
+"Kemudian instal fungsi PostGIS dan sistem referensi spasial. Sebagai contoh, "
+"di Linux dengan PostgreSQL 9.1 dan PostGIS 1,5:"
 
 # b58db294ed01463f96e291f9a2dc8ef7
 #: ..\..\postgis\spatial_queries.rst:144
@@ -142,21 +162,25 @@ msgid ""
 "import from the terminal or via SPIT. Import the files into the following "
 "database tables:"
 msgstr ""
+"Selanjutnya, import data yang disediakan dalam :kbd: exercise_data / PostGIS "
+"/ direktory. Lihat kembali pelajaran sebelumnya untuk petunjuk. Anda dapat "
+"mengimport dari terminal atau melalui SPIT. Import file ke dalam tabel "
+"database berikut:"
 
 # dbf4623f164b478d83c7c2887bd9c39e
 #: ..\..\postgis\spatial_queries.rst:148
 msgid ":kbd:`points.shp` = :kbd:`building`"
-msgstr ""
+msgstr ":kbd: points.shp = :kbd: building"
 
 # 1ebd84b8767d4bcd87cdbf1bd49eae9b
 #: ..\..\postgis\spatial_queries.rst:149
 msgid ":kbd:`lines.shp` = :kbd:`road`"
-msgstr ""
+msgstr ":kbd: lines.shp = :kbd: road"
 
 # a6745b75412048929be0e95eaf96e97c
 #: ..\..\postgis\spatial_queries.rst:150
 msgid ":kbd:`polygons.shp` = :kbd:`region`"
-msgstr ""
+msgstr ":kbd: polygons.shp = :kbd: region"
 
 # c76098e3ca4a4a31b10f147a9413c7d3
 #: ..\..\postgis\spatial_queries.rst:152
@@ -166,6 +190,10 @@ msgid ""
 "that they have both an :kbd:`id` field and a :kbd:`gid` field created by the "
 "PostGIS import."
 msgstr ""
+"Muatlah tiga layer database ke dalam QGIS melalui dialog :guilabel: Add "
+"PostGIS Layers, seperti biasa. Ketikaa Anda membuka tabel atributnya, Anda "
+"akan perhatikan bahwa keduanya mempunyai kolom id dan kolom gid yang "
+"diciptakan oleh import PostGIS."
 
 # 55d385e180954d1bb43cd0f3b8680d6c
 #: ..\..\postgis\spatial_queries.rst:157
@@ -173,6 +201,9 @@ msgid ""
 "Now that the tables are imported, we can use PostGIS to query the data. Go "
 "back to your terminal (command line) and enter the psql prompt by doing:"
 msgstr ""
+"Sekarang tabel telah diimport, kita dapat menggunakan PostGIS untuk queri "
+"data. Kembali ke terminal Anda (command line) dan masukkan prompt psql "
+"dengan melakukan:"
 
 # bc6b4c62eb4e4b4cab4e4eccfc7dc41f
 #: ..\..\postgis\spatial_queries.rst:164
@@ -180,47 +211,51 @@ msgid ""
 "We'll demo some of these select statements by creating views from them, so "
 "that you can open them in QGIS and see the results."
 msgstr ""
+"Kita akan mendemokan beberapa dari pilihan pernyataan dengan menciptakan "
+"tampilannya, sehingga Anda dapat membukanya di QGIS dan melihat hasilnya."
 
 # 185d31c67fff46b4929582f5bc52babb
 #: ..\..\postgis\spatial_queries.rst:168
 msgid "Select by location"
-msgstr ""
+msgstr "Select by location"
 
 # c7ea61d076ce4f838e11273ef6deb6ef
 #: ..\..\postgis\spatial_queries.rst:170
 msgid "Get all the buildings in the KwaZulu region."
-msgstr ""
+msgstr "Dapatkan semua bangunan daerah Kwazulu."
 
 # 78ad742e51544b2c971547fc6e601fbc
 #: ..\..\postgis\spatial_queries.rst:192
 msgid "Or, if we create a view from it:"
-msgstr ""
+msgstr "Atau jika kita membuat tampilan dari ini:"
 
 # 435da2c6de264143b1919d5c0cb95671
 #: ..\..\postgis\spatial_queries.rst:202
 msgid "And view it in QGIS:"
-msgstr ""
+msgstr "dan lihat dalam QGIS:"
 
 # 25f08cdc77b24e3e8e793c28fff77bca
 #: ..\..\postgis\spatial_queries.rst:208
 msgid "Select neighbors"
-msgstr ""
+msgstr "Select neighbors"
 
 # e7a397d04d2843e894f0dfeef98f9ca0
 #: ..\..\postgis\spatial_queries.rst:210
 msgid "Show a list of all the names of regions adjoining the Hokkaido region."
 msgstr ""
+"Tampilkan list dari nama-nama daerah yang berdampingan dengan daerah "
+"Hokkaido."
 
 # 78b8756421434af5b6c36f70c28a05b7
 #: ..\..\postgis\spatial_queries.rst:230
 msgid "As a view:"
-msgstr ""
+msgstr "Sebagai tampilannya:"
 
 # 982f6cb2fd50482fa6f8bc6dffec1636
 # 7add82cc3a044649929c0496ac002bed
 #: ..\..\postgis\spatial_queries.rst:240 ..\..\postgis\spatial_queries.rst:285
 msgid "In QGIS:"
-msgstr ""
+msgstr "Dalam QGIS:"
 
 # 0e573831f4fa43dc982fcf45a6a3d4f0
 #: ..\..\postgis\spatial_queries.rst:245
@@ -230,21 +265,26 @@ msgid ""
 "solve this enigma without getting caught up in the anomalies the data may "
 "have, we could use a buffer intersect instead:"
 msgstr ""
+"Perhatikan daerah yang hilang (Queensland). Hal ini mungkin karena kesalahan "
+"topologi. Artefak seperti ini dapat mengingatkan kita untuk potensi masalah "
+"dalam data. Untuk memecahkan teka-teki ini tanpa terperangkap dalam anomali "
+"data, kita bisa menggunakan buffer intersect sebagai gantinya:"
 
 # 821aaabbe8bb4cfab082aa01be465849
 #: ..\..\postgis\spatial_queries.rst:257
 msgid "This creates a buffer of 100 meters around the region Hokkaido."
 msgstr ""
+"Bagian ini membuat buffer sejauh 100 meter di sekeliling daerah Hokkaido."
 
 # 68e6a94046cd46cbbbf0b6d5e318944b
 #: ..\..\postgis\spatial_queries.rst:259
 msgid "The darker area is the buffer:"
-msgstr ""
+msgstr "Area yang lebih gelap adalah hasil buffernya:"
 
 # aa76dd92c3df4499ae2ce5366822ffce
 #: ..\..\postgis\spatial_queries.rst:264
 msgid "Select using the buffer:"
-msgstr ""
+msgstr "Seleksi menggunakan buffer:"
 
 # d738ac7ba000459cb60103fb10cd73f5
 #: ..\..\postgis\spatial_queries.rst:279
@@ -255,6 +295,11 @@ msgid ""
 "that intersects it. However, Hokkaido itself is excluded from this select "
 "statement, because we don't want it; we only want the regions adjoining it."
 msgstr ""
+"Dalam query ini, tampilan buffer asli digunakan sebagai tabel lain. Hal ini "
+"diberikan alias :kdb: a, dan field geometrinya, :kbd: a.the_geom, digunakan "
+"untuk memilih poligon dalam tabel :kdb: wilayah (alias b) yang memotongnya. "
+"Namun, Hokkaido itu sendiri dikeluarkan dari pernyataan pilihan, karena kita "
+"tidak menginginkannya, kita hanya ingin daerah yang berdampingan dengannya."
 
 # 0dde1d262b584a5c84197738a50f6805
 #: ..\..\postgis\spatial_queries.rst:290
@@ -262,33 +307,39 @@ msgid ""
 "It is also possible to select all objects within a given distance, without "
 "the extra step of creating a buffer:"
 msgstr ""
+"Hal ini juga memungkinkan untuk memilih semua obyek dalam jarak tertentu, "
+"tanpa langkah ekstra untuk menciptakan buffer:"
 
 # 279bd561d0d6486e8f48ec1dcd3aa5a9
 #: ..\..\postgis\spatial_queries.rst:302
 msgid ""
 "This achieves the same result, without need for the interim buffer step:"
 msgstr ""
+"Hal ini menghasilkan hasil yang sama, tanpa perlu untuk langkah buffer "
+"sementara:"
 
 # fb7f7171c3a746f684c07519a72032fb
 #: ..\..\postgis\spatial_queries.rst:309
 msgid "Select uniques"
-msgstr ""
+msgstr "Select uniques"
 
 # af00ee6f346d4f9e853ec3e3ebaca797
 #: ..\..\postgis\spatial_queries.rst:311
 msgid ""
 "Show a list of unique town names for all buildings in the Queensland region."
 msgstr ""
+"Tampilkan daftar nama kota yang unik untuk semua bangunan di wilayah "
+"Queensland."
 
 # 2661ae93dcf341738a66b42da60a568f
 #: ..\..\postgis\spatial_queries.rst:333
 msgid "Further examples ..."
-msgstr ""
+msgstr "Contoh lebih lanjut ..."
 
 # 6d41b9e7d10148f78d4f70a1cd99a734
 #: ..\..\postgis\spatial_queries.rst:392
 msgid "|IC|"
-msgstr ""
+msgstr "|Kesimpulan|"
 
 # 1486bee7f99c4357bbd03e60da07f23e
 #: ..\..\postgis\spatial_queries.rst:394
@@ -296,11 +347,13 @@ msgid ""
 "You have seen how to query spatial objects using the new database functions "
 "from PostGIS."
 msgstr ""
+"Anda telah melihat bagaimana obyek queri spasial menggunakan fungsi database "
+"baru dari PostGIS."
 
 # 2770977ee80445e2bfb0709337454262
 #: ..\..\postgis\spatial_queries.rst:398
 msgid "|WN|"
-msgstr ""
+msgstr "|Apa Selanjutnya|"
 
 # 08415fb6db4b457fb1e02208d199a548
 #: ..\..\postgis\spatial_queries.rst:400
@@ -308,3 +361,5 @@ msgid ""
 "Next we're going to investigate the structures of more complex geometries "
 "and how to create them using PostGIS."
 msgstr ""
+"Selanjutnya, kita akan melakukan investigasi struktur dari geometri yang "
+"lebih kompleks dan bagaimana membuatnya dengan menggunakan PostGIS."
