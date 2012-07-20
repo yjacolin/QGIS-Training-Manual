@@ -15,12 +15,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Language: id_ID\n"
+"X-Language: id\n"
 
 # 10ed8b217d45464396d360f3e7230e95
 #: ..\..\postgis\geometry.rst:2
 msgid "|LS| Geometry Construction"
-msgstr "Konstruksi Geometri"
+msgstr "Pembentukan geometri"
 
 # 050260d920fc4350b80bc3b209789188
 #: ..\..\postgis\geometry.rst:4
@@ -241,7 +241,7 @@ msgid ""
 "the points is defined by their :kbd:`id`. Another ordering method could be a "
 "timestamp, such as the one you get when you capture waypoints with a GPS "
 "receiver."
-msgstr ""
+msgstr "Dari tabel "
 
 # a6b39c426d4e4a5b8d58d648a11687aa
 #: ..\..\postgis\geometry.rst:258
@@ -249,6 +249,8 @@ msgid ""
 "To create a linestring from a new point layer called 'points', you can run "
 "the following command:"
 msgstr ""
+"Untuk membuat suatu linestring dari sebuah lapis data dengan nama 'points', "
+"anda dapat menjaankan perintah sebagai berikut:"
 
 # 5ebd835d85c249879e2365057c3b8722
 #: ..\..\postgis\geometry.rst:270
@@ -257,11 +259,15 @@ msgid ""
 "command on the 'people' layer, although of course it would make little "
 "real-world sense to do this."
 msgstr ""
+"Untuk melihat bagaimana ini bekerja tanpa harus membuat lapis data baru, "
+"anda dapat menjalankan perintah ini pada lapisdata 'people', meski tentu "
+"saja hal ini akan sedikit terasa kurang sesuai dengan dunia nyata apabila "
+"kita melakukan hal tersebut."
 
 # 35ca9168e2584f5e94fa2203d028b020
 #: ..\..\postgis\geometry.rst:278
 msgid "Geometry Cleaning"
-msgstr ""
+msgstr "Pembersihan geometri"
 
 # 000ad4f46e954d9080c6d58333dbd7bf
 #: ..\..\postgis\geometry.rst:280
@@ -269,11 +275,13 @@ msgid ""
 "You can get more information for this topic in `this blog entry "
 "<http://linfiniti.com/?s=cleangeometry>`_."
 msgstr ""
+"Anda dapat memperole informasi lanjut mengenai topik ini melalui artikel "
+"pada blog <http://linfiniti.com/?s=cleangeometry>`_."
 
 # 2a93df7b5f084f17a3a6b8420af1278f
 #: ..\..\postgis\geometry.rst:284
 msgid "Differences between tables"
-msgstr ""
+msgstr "Perbedaan-perbedaaan di antara tabel-tabel"
 
 # 9a8aeb170a9342dcac1e39972d881c82
 #: ..\..\postgis\geometry.rst:286
@@ -281,6 +289,8 @@ msgid ""
 "To detect the difference between two tables with the same structure, you can "
 "use the PostgreSQL keyword :kbd:`EXCEPT`."
 msgstr ""
+"Untuk mendeteksi perbedaan antara dua tabel dengan struktur yang sama, anda "
+"dapat menggunakan katakunci PostgreSQL :kbd:`EXCEPT`."
 
 # ac8f0ef0386d4a3fa6288f141134ebe0
 #: ..\..\postgis\geometry.rst:295
@@ -288,11 +298,13 @@ msgid ""
 "As the result, you will get all records from table_a which are not stored in "
 "table_b."
 msgstr ""
+"Sebagai hasilnya, anda akan memperoleh semua data dari table_a yang tidak "
+"tersimpan dalam table_b."
 
 # 6744052ec8024e618a10879c1ac34cc5
 #: ..\..\postgis\geometry.rst:299
 msgid "Tablespaces"
-msgstr ""
+msgstr "Tablespaces"
 
 # 5af84ff18cf84cbea4a272c28beb3b17
 #: ..\..\postgis\geometry.rst:301
@@ -300,6 +312,8 @@ msgid ""
 "You can define where postgres should store its data on disk by creating "
 "tablespaces."
 msgstr ""
+"Anda dapat mengaturdimana postgres sebaiknya menyimpan data di dalam media "
+"penyimpan (disk) dengan cara membuat tablespaces."
 
 # 5f48b9a99fe4492ebca215a1e120fe08
 #: ..\..\postgis\geometry.rst:308
@@ -307,11 +321,13 @@ msgid ""
 "When you create a database, you can then specify which tablespace to use "
 "e.g.:"
 msgstr ""
+"Saat anda membuat sebuah basisdata, anda selanjutnya dapat membuat "
+"spesifikasi tablespace mana yang digunakan misalnya:"
 
 # 01d29f2704ef4ced94a9d17d9f7e839e
 #: ..\..\postgis\geometry.rst:315
 msgid "|IC|"
-msgstr ""
+msgstr "Kesimpulan"
 
 # 8826801e28aa4295aee5ad479f1455bb
 #: ..\..\postgis\geometry.rst:317
@@ -322,4 +338,10 @@ msgid ""
 "won't need to actually enter these statements manually, but having a general "
 "idea of their structure will help you when using a GIS, especially if you "
 "encounter errors that would otherwise seem cryptic."
-msgstr ""
+msgstr "Anda telah mempelajari cara membuat geometri kompleks menggunakan statement "
+"PostGIS. Perlu diingat bahwa hal ini ditujukan agar pengetahuan anda pada "
+"saat bekerja dengan geodatabase menggunakan frontend. Biasanya ada tidak "
+"perlu mengetik statemen-satement tersebut secara manual, namun demikian "
+"mengetahui secara umum struktur geodatabase akan membantu anda sewaktu "
+"bekerja dengan sebuah sistem SIG, khususnya pada saat anda menemukan "
+"kesalahan-kesalahan yang samar atau tidak jelas."
