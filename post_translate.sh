@@ -9,16 +9,17 @@ for LOCALE in $LOCALES
 do
   for POFILE in `ls i18n/${LOCALE}/LC_MESSAGES/*.po`
   do
-    MOFILE=i18n/${LOCALE}/LC_MESSAGES/`basename ${POFILE}`.mo
+    MOFILE=i18n/${LOCALE}/LC_MESSAGES/`basename ${POFILE} .po`.mo
     # Compile the translated strings
     echo "Compiling messages to ${MOFILE}"
-    RESULT=`msgfmt --statistics -o ${MOFILE} ${POFILE}`
+    msgfmt --statistics -o ${MOFILE} ${POFILE}
   done
 done
 
 #Add english to the list and generated docs
-LOCALES='en ${LOCALES}'
-for LOCALE in $LOCALES
+set -x
+LOCALES='en af id'
+for LOCALE in ${LOCALES}
 do
   # Compile the html docs for this locale
   sphinx-build -D language=${LOCALE} -b html . _build/html/${LOCALE}

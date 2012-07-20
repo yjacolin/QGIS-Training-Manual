@@ -16,11 +16,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: af_ZA\n"
+"X-Source-Language: C\n"
 
 # d5acb7dd26ae45debfc929a68eefa8d5
 #: ../../answers/answers.rst:2
 msgid "Answer Sheet"
-msgstr ""
+msgstr "Antwoord Bladsy"
 
 # 955b500739f34d839b0789292352238b
 #: ../../answers/answers.rst:5
@@ -223,8 +226,8 @@ msgstr ""
 # 8a67504d78654d0bb947b84644a25b38
 #: ../../answers/answers.rst:117
 msgid ""
-"Also feel free to experiment with different :guilabel:`Fill Style` and :"
-"guilabel:`Border Style` settings for the polygons."
+"Also feel free to experiment with different :guilabel:`Fill Style` and "
+":guilabel:`Border Style` settings for the polygons."
 msgstr ""
 
 # 06cbed8cb86141768cae1a1a1ed4861c
@@ -455,9 +458,10 @@ msgstr ""
 # 2ce8ac30290a40939bc37fb8d82170e6
 #: ../../answers/answers.rst:281
 msgid ""
-"The settings you used might not be the same, but with the values :guilabel:"
-"`Classes` = :kbd:`7` and :guilabel:`Mode` = :guilabel:`Natural Breaks (Jenks)"
-"` (and using the same colors, of course), the map will look like this:"
+"The settings you used might not be the same, but with the values "
+":guilabel:`Classes` = :kbd:`7` and :guilabel:`Mode` = :guilabel:`Natural "
+"Breaks (Jenks)` (and using the same colors, of course), the map will look "
+"like this:"
 msgstr ""
 
 # b0af8953348f4876ad303a05859bbc56
@@ -602,16 +606,16 @@ msgstr ""
 # 89c311263fab4d61850d839de6995597
 #: ../../answers/answers.rst:398
 msgid ""
-"A road is either a one-way or it isn't, so :guilabel:`ONEWAY` should be a :"
-"guilabel:`Checkbox`."
+"A road is either a one-way or it isn't, so :guilabel:`ONEWAY` should be a "
+":guilabel:`Checkbox`."
 msgstr ""
 
 # cfe36752ef454734b8805490b1dc7c2d
 #: ../../answers/answers.rst:401
 msgid ""
 "Looking at the attribute table for :guilabel:`streets`, the value for when "
-"it's not a one-way seems to be :guilabel:`NULL`, and when it is, it's :"
-"guilabel:`yes`."
+"it's not a one-way seems to be :guilabel:`NULL`, and when it is, it's "
+":guilabel:`yes`."
 msgstr ""
 
 # 45d483458119409f83929d0e244a897d
@@ -649,8 +653,8 @@ msgstr ""
 # ed97ba81ad28472791e280b5b9f8a60a
 #: ../../answers/answers.rst:432
 msgid ""
-"Save this new layer (the same way you did before) under :kbd:`exercise_data/"
-"residential_development/`, as :kbd:`important_roads.shp`."
+"Save this new layer (the same way you did before) under "
+":kbd:`exercise_data/residential_development/`, as :kbd:`important_roads.shp`."
 msgstr ""
 
 # 43af4b984fce4bb4b2bdaf9ed296790f
@@ -704,9 +708,9 @@ msgstr ""
 # 65415d89ad304f1fa7d5d4ad32397cb2
 #: ../../answers/answers.rst:466
 msgid ""
-"The red circle is the buffer with :guilabel:`Segments to approximate` set "
-"to :kbd:`20`; the gray circle on top of it is the buffer with :guilabel:"
-"`Segments to approximate` set to :kbd:`5`."
+"The red circle is the buffer with :guilabel:`Segments to approximate` set to "
+":kbd:`20`; the gray circle on top of it is the buffer with "
+":guilabel:`Segments to approximate` set to :kbd:`5`."
 msgstr ""
 
 # 3fd3421aa6d046ba84bdb9145a017827
@@ -789,8 +793,8 @@ msgstr ""
 # d40e94069d994ceaa4e368b7333374bb
 #: ../../answers/answers.rst:530
 msgid ""
-"Open the :guilabel:`Query` dialog by right-clicking on the :guilabel:"
-"`all_terrain` layer in the :guilabel:`Layers list`."
+"Open the :guilabel:`Query` dialog by right-clicking on the "
+":guilabel:`all_terrain` layer in the :guilabel:`Layers list`."
 msgstr ""
 
 # df5b8cc6920344108cba7990fe05064c
@@ -875,8 +879,8 @@ msgstr ""
 # d1654469774d4300800b65ba553b13e3
 #: ../../answers/answers.rst:587
 msgid ""
-"Therefore, you can run an *interior buffer* of 350 meters on your existing :"
-"guilabel:`suitable_terrain` vector layer. In the output of the buffer "
+"Therefore, you can run an *interior buffer* of 350 meters on your existing "
+":guilabel:`suitable_terrain` vector layer. In the output of the buffer "
 "function, whatever remains of the original layer will represent areas where "
 "there is suitable terrain for 350 meters beyond."
 msgstr ""
@@ -909,8 +913,8 @@ msgstr ""
 # a9e3336a8661412fb435ef177cf7dcc5
 #: ../../answers/answers.rst:604
 msgid ""
-"Save the output in :kbd:`exercise_data/residential_development/` as :kbd:"
-"`suitable_terrain_continuous350m.shp`."
+"Save the output in :kbd:`exercise_data/residential_development/` as "
+":kbd:`suitable_terrain_continuous350m.shp`."
 msgstr ""
 
 # e1a19e1fbdce4b8b94ca027b0890af38
@@ -933,8 +937,8 @@ msgstr ""
 # 4654cd18f0dc44b0a1eab50d502ae891
 #: ../../answers/answers.rst:619
 msgid ""
-"Select features in :guilabel:`new_solution` that intersect features in :"
-"guilabel:`suitable_terrain_continuous350m.shp`."
+"Select features in :guilabel:`new_solution` that intersect features in "
+":guilabel:`suitable_terrain_continuous350m.shp`."
 msgstr ""
 
 # 3b46a2df0e5b4d03a035c7e497b8002e
@@ -950,8 +954,8 @@ msgstr ""
 # b0a09efe203044f1959cda831eb15f28
 #: ../../answers/answers.rst:629
 msgid ""
-"Save the selection under :kbd:`exercise_data/residential_development/` as :"
-"kbd:`final_answer.shp`."
+"Save the selection under :kbd:`exercise_data/residential_development/` as "
+":kbd:`final_answer.shp`."
 msgstr ""
 
 # 0320a79be71d4a23a5cad6f1f75afa1b
