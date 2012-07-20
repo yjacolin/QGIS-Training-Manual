@@ -15,276 +15,416 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Language: id_ID\n"
 
-#: ..\..\assessment\index.rst:3
 # 4d75a6e24abc40b6ba320378afaca9a5
+#: ..\..\assessment\index.rst:3
 msgid "|MOD| Assessment"
-msgstr ""
+msgstr "|Modul| Penilaian"
 
-#: ..\..\assessment\index.rst:5
 # 5c9cfa36e7384b97aa0192d3e4f99122
+#: ..\..\assessment\index.rst:5
 msgid "Use your own data for this section. You will need:"
-msgstr ""
+msgstr "Gunakan data Anda sendiri untuk bagian ini. Anda akan memerlukan:"
 
-#: ..\..\assessment\index.rst:7
 # 613858f4137f4b76be1b7ae438be715b
-msgid "a point vector dataset of points of interest, with point names and multiple categories"
+#: ..\..\assessment\index.rst:7
+msgid ""
+"a point vector dataset of points of interest, with point names and multiple "
+"categories"
 msgstr ""
+"• satu dataset vektor dari tempat-tempat menarik, dengan nama-nama  titik "
+"dan beberapa kategori"
 
-#: ..\..\assessment\index.rst:9
 # 255b553662f14fa1992dd70c021cfe56
+#: ..\..\assessment\index.rst:9
 msgid "a line vector dataset of roads"
-msgstr ""
+msgstr "• satu dataset vektor baris dari jalan"
 
-#: ..\..\assessment\index.rst:10
 # 7885d8a6217b4e3b8f8f2bd5b41f96c9
+#: ..\..\assessment\index.rst:10
 msgid "a polygon vector dataset of land use (using property boundaries)"
 msgstr ""
+"• satu dataset poligon vektor dari penggunaan lahan (menggunakan batas "
+"properti)"
 
-#: ..\..\assessment\index.rst:11
 # c3e995c72abd4a02bc5ad23243e1747e
+#: ..\..\assessment\index.rst:11
 msgid "a visual-spectrum image (such as an aerial photograph)"
-msgstr ""
+msgstr "•satu  gambar visual-spektrum (seperti foto udara)"
 
-#: ..\..\assessment\index.rst:12
 # 9909a49acc024004a9495f60e4082f45
-msgid "a DEM (downloadable from `this URL <http://srtm.csi.cgiar.org/>`_ if you don't have your own)"
+#: ..\..\assessment\index.rst:12
+msgid ""
+"a DEM (downloadable from `this URL <http://srtm.csi.cgiar.org/>`_ if you "
+"don't have your own)"
 msgstr ""
+"• satu buah DEM (dapat didownload dari URL ini <http://srtm.csi.cgiar.org/>  "
+"jika Anda tidak memiliki sendiri)"
 
-#: ..\..\assessment\index.rst:16
 # dac56f3a9efc4ad8a82ba1047b86bcf1
+#: ..\..\assessment\index.rst:16
 msgid "Create a base map"
-msgstr ""
+msgstr "Membuat sebuah peta dasar"
 
-#: ..\..\assessment\index.rst:18
 # 10346010e1634e93861f51b42e53b934
-msgid "Before doing any data analysis, you will need a base map, which will provide your analysis result with context."
+#: ..\..\assessment\index.rst:18
+msgid ""
+"Before doing any data analysis, you will need a base map, which will provide "
+"your analysis result with context."
 msgstr ""
+"Sebelum melakukan analisis data, Anda akan memerlukan peta dasar, yang akan "
+"menyediakan hasil analisis Anda dengan konteks."
 
-#: ..\..\assessment\index.rst:22
 # e893ac507e7c4278bd32f97aeb24ffd6
+#: ..\..\assessment\index.rst:22
 msgid "Add the point layer"
-msgstr ""
+msgstr "Menambahkan layer titik"
 
-#: ..\..\assessment\index.rst:24
 # 77f4ff5b56b3480a9a3f8cf6fc6b7ab8
-msgid "Add in the point layer. Based on the level that you're doing the course at, do only what is listed in the appropriate section below:"
+#: ..\..\assessment\index.rst:24
+msgid ""
+"Add in the point layer. Based on the level that you're doing the course at, "
+"do only what is listed in the appropriate section below:"
 msgstr ""
+"Terlebih dahulu tambahkan layer titik. Berdasarkan tingkatan yang Anda akan "
+"lakukan  dalam pelatihan, lakukan apa yang tercantum di bagian yang sesuai "
+"di bawah ini:"
 
-#: ..\..\assessment\index.rst:28
-#: ..\..\assessment\index.rst:65
-#: ..\..\assessment\index.rst:98
 # ee96271b51324ee0a5e2f59b1727d319
 # 034d74f98a9f47998dfd6049b3975ab4
 # 8febbb4bf6874e6b9d1a26085b58c979
+#: ..\..\assessment\index.rst:28 ..\..\assessment\index.rst:65
+#: ..\..\assessment\index.rst:98
 msgid "|basic|"
-msgstr ""
+msgstr "|dasar|"
 
-#: ..\..\assessment\index.rst:30
 # 65eefc06d63a4d8f85bc8d57c23822e7
-msgid "Label the points according to a unique attribute, such as place names.  Use a small font and keep the labels inconspicuous. The information should be available, but shouldn't be a main feature of the map."
+#: ..\..\assessment\index.rst:30
+msgid ""
+"Label the points according to a unique attribute, such as place names.  Use "
+"a small font and keep the labels inconspicuous. The information should be "
+"available, but shouldn't be a main feature of the map."
 msgstr ""
+"Terlebih dahulu, beri label pada titik-titik sesuai dengan atribut yang "
+"unik, misalnya nama tempat. Gunakan huruf kecil dan pastikan label tidak "
+"mencolok. Informasi harus tersedia, tetapi tidak harus merupakan fitur utama "
+"dari peta."
 
-#: ..\..\assessment\index.rst:33
 # a4c49c7e20b9484abc71511272953fcd
-msgid "Classify the points themselves into different colors based on a category. For example, categories could include \"tourist destination\", \"police station\", and \"town center\"."
+#: ..\..\assessment\index.rst:33
+msgid ""
+"Classify the points themselves into different colors based on a category. "
+"For example, categories could include \"tourist destination\", \"police "
+"station\", and \"town center\"."
 msgstr ""
+"Selanjutnya, klasifikasikan titik-titik tersebut ke dalam warna yang berbeda "
+"berdasarkan kategori. Misalnya, kategori  \"tujuan wisata\", \"kantor "
+"polisi\", dan \"pusat kota\"."
 
-#: ..\..\assessment\index.rst:38
-#: ..\..\assessment\index.rst:71
-#: ..\..\assessment\index.rst:103
 # ba6751d878e046ccad49ec378f56647c
 # 1e48c792bc4d4239b7616602de4f1a7b
 # ab105619095f41c3987df65d81bf332a
+#: ..\..\assessment\index.rst:38 ..\..\assessment\index.rst:71
+#: ..\..\assessment\index.rst:103
 msgid "|moderate|"
-msgstr ""
+msgstr "|menengah|"
 
-#: ..\..\assessment\index.rst:40
 # 805f0fff050644739cdfdb4b59e47b99
+#: ..\..\assessment\index.rst:40
 msgid "Do the same as the |basic| section."
-msgstr ""
+msgstr "Lakukan hal yang sama seperti pada  bagian |dasar|."
 
-#: ..\..\assessment\index.rst:41
 # 7af83d3d0e9e41779ee6539a80cabe0c
-msgid "Classify the point size by importance: the more significant a feature, the larger its point. However, don't exceed the point size of :kbd:`2.00`."
+#: ..\..\assessment\index.rst:41
+msgid ""
+"Classify the point size by importance: the more significant a feature, the "
+"larger its point. However, don't exceed the point size of :kbd:`2.00`."
 msgstr ""
+"Klasifikasikan ukuran titik demi kepentingan: semakin signifikan fitur, "
+"semakin besar titik. Namun, jangan melebihi ukuran titik 2,00. "
 
-#: ..\..\assessment\index.rst:43
 # 5b351c2a030041c6833aca8b83175ecd
-msgid "For features that aren't located at a single point (for example, provincial/regional names, or town names at a large scale), don't assign any point at all."
+#: ..\..\assessment\index.rst:43
+msgid ""
+"For features that aren't located at a single point (for example, "
+"provincial/regional names, or town names at a large scale), don't assign any "
+"point at all."
 msgstr ""
+"Untuk feature yang tidak terletak pada satu titik (misalnya, provinsi / nama "
+"daerah, atau nama kota pada skala besar), tidak tetapkan titik sama sekali."
 
-#: ..\..\assessment\index.rst:48
-#: ..\..\assessment\index.rst:85
-#: ..\..\assessment\index.rst:110
 # 56202a5ab77849b0b153fda953bdaace
 # aba72412b76544888fbab999347c4c6c
 # 73f5a566a8ae4ecba5b2908ce33f040e
+#: ..\..\assessment\index.rst:48 ..\..\assessment\index.rst:85
+#: ..\..\assessment\index.rst:110
 msgid "|hard|"
-msgstr ""
+msgstr "|hard|\n"
 
-#: ..\..\assessment\index.rst:50
 # 746668a7ca45453ea60b8a88782a1dd3
-msgid "Don't use point symbols to symbolize the layer at all. Instead, use labels centered over the points; the point symbols themselves should have no size."
+#: ..\..\assessment\index.rst:50
+msgid ""
+"Don't use point symbols to symbolize the layer at all. Instead, use labels "
+"centered over the points; the point symbols themselves should have no size."
 msgstr ""
+"Jangan pernah menggunakan simbol titik untuk melambangkan layer. Sebaliknya, "
+"gunakan label yang terpusat di atas titik; simbol titik sendiri tidak harus "
+"memiliki ukuran."
 
-#: ..\..\assessment\index.rst:52
 # 698e67198e7c43dea6787e1e1fd30a09
-msgid "Use :guilabel:`Data defined settings` to style the labels into meaningful categories."
+#: ..\..\assessment\index.rst:52
+msgid ""
+"Use :guilabel:`Data defined settings` to style the labels into meaningful "
+"categories."
 msgstr ""
+"gunakan Data defined settings untuk menentukan jenis  label ke dalam "
+"kategori yang bermakna. "
 
-#: ..\..\assessment\index.rst:54
 # 1cfc9a68487441deb4eb674c35e87a03
-msgid "Add appropriate columns to the attribute data if necessary. When doing so, don't create fictional data - rather, use the :guilabel:`Field Calculator` to populate the new columns, based on appropriate existing values in the dataset."
+#: ..\..\assessment\index.rst:54
+msgid ""
+"Add appropriate columns to the attribute data if necessary. When doing so, "
+"don't create fictional data - rather, use the :guilabel:`Field Calculator` "
+"to populate the new columns, based on appropriate existing values in the "
+"dataset."
 msgstr ""
+"Tambahkan kolom sesuai dengan data atribut jika diperlukan. Ketika melakukan "
+"hal tersebut, jangan  membuat data fiktif , gunakan Filed Calculator untuk "
+"mengisi kolom baru, berdasarkan nilai-nilai yang ada sesuai dalam dataset."
 
-#: ..\..\assessment\index.rst:60
 # c6e24bcac8ea405db94c9698660724ba
+#: ..\..\assessment\index.rst:60
 msgid "Add the line layer"
-msgstr ""
+msgstr "Menambahkan layer garis"
 
-#: ..\..\assessment\index.rst:62
 # 8b8922fb06284544998a7604a762b4d1
-msgid "Add the road layer and then change its symbology. Don't label the roads."
+#: ..\..\assessment\index.rst:62
+msgid ""
+"Add the road layer and then change its symbology. Don't label the roads."
 msgstr ""
+"Tambahkan layer jalan dan ubah simbologinya. Jangan memberi label jalan."
 
-#: ..\..\assessment\index.rst:67
 # 28332ce800044927a47dc654ab0ba10e
-msgid "Change the road symbology to a light color with a broad line. Make it somewhat transparent as well."
+#: ..\..\assessment\index.rst:67
+msgid ""
+"Change the road symbology to a light color with a broad line. Make it "
+"somewhat transparent as well."
 msgstr ""
+"Ubah simbologi jalan menjadi  warna yang cerah  dengan garis luas. Buatlah "
+"simbologi tersebut agak transparan."
 
-#: ..\..\assessment\index.rst:73
 # d3ddc74cb1024d229e31960a2780068d
-msgid "Create a symbol with multiple symbol layers. The resulting symbol should look like a real road. You can use a simple symbol for this; for example, a black line with a thin white solid line running down the center. It can be more elaborate as well, but the resulting map should not look too busy."
+#: ..\..\assessment\index.rst:73
+msgid ""
+"Create a symbol with multiple symbol layers. The resulting symbol should "
+"look like a real road. You can use a simple symbol for this; for example, a "
+"black line with a thin white solid line running down the center. It can be "
+"more elaborate as well, but the resulting map should not look too busy."
 msgstr ""
+"Buat simbol dengan simbol layer ganda. Simbol yang dihasilkan akan terlihat "
+"seperti jalan sebenarnya. Anda dapat menggunakan simbol sederhana untuk "
+"layer tersebut, misalnya, garis hitam dengan garis putih tipis solid "
+"sepanjang  pertengahan jalan tersebut. Hal ini dapat lebih rumit, tetapi "
+"peta yang dihasilkan tidak akan terlihat terlalu ramai."
 
-#: ..\..\assessment\index.rst:77
 # 55b36f6e95944937b9cd59a422050331
-msgid "If your dataset has a high density of roads at the scale you want to show the map at, you should have two road layers: the elaborate road-like symbol, and a simpler symbol at smaller scales. (Use scale-based visibility to make them switch out at appropriate scales.)"
+#: ..\..\assessment\index.rst:77
+msgid ""
+"If your dataset has a high density of roads at the scale you want to show "
+"the map at, you should have two road layers: the elaborate road-like symbol, "
+"and a simpler symbol at smaller scales. (Use scale-based visibility to make "
+"them switch out at appropriate scales.)"
 msgstr ""
+"Jika dataset Anda memiliki kepadatan jalan yang tinggi pada skala yang ingin "
+"ditampilkan pada peta, Anda harus memiliki dua layer  jalan : simbol jalan "
+"yang rumit, dan simbol sederhana pada skala yang lebih kecil. (Gunakan skala "
+"berbasis visibilitas untuk membuat dataset Anda  beralih pada skala yang "
+"sesuai.)"
 
-#: ..\..\assessment\index.rst:81
 # cda4d3e34ea647e9a53736eff3aeafdb
-msgid "All symbols should have multiple symbol layers. Use symbols to make them display correctly."
+#: ..\..\assessment\index.rst:81
+msgid ""
+"All symbols should have multiple symbol layers. Use symbols to make them "
+"display correctly."
 msgstr ""
+"Semua simbol harus memiliki layer simbol ganda. Gunakan simbol untuk membuat "
+"dataset Anda ditampilkan dengan benar."
 
-#: ..\..\assessment\index.rst:87
 # 71eca8d2680e4c38b0452f578226ec6e
+#: ..\..\assessment\index.rst:87
 msgid "Do the same as in the |moderate| section above."
-msgstr ""
+msgstr "Lakukan hal yang sama seperti pada bagian |moderate|   di atas. "
 
-#: ..\..\assessment\index.rst:88
 # 03271c932bb74b0db67dfacfd89e0681
-msgid "In addition, roads should be classified. When using realistic road-like symbols, each type of road should have an appropriate symbol; for example, a highway should appear to have two lanes in either direction."
+#: ..\..\assessment\index.rst:88
+msgid ""
+"In addition, roads should be classified. When using realistic road-like "
+"symbols, each type of road should have an appropriate symbol; for example, a "
+"highway should appear to have two lanes in either direction."
 msgstr ""
+"Selain itu, jalan harus diklasifikasikan. Ketika  menggunakan simbol seperti "
+"jalan sebenarnya, setiap jenis jalan harus memiliki simbol yang sesuai, "
+"misalnya, jalan raya akan disimbolkan dengan dua jalur di kedua arah."
 
-#: ..\..\assessment\index.rst:93
 # 41ca1a87611a4b95a3d5dab4f509d156
+#: ..\..\assessment\index.rst:93
 msgid "Add the polygon layer"
-msgstr ""
+msgstr "Menambahkan layer poligon"
 
-#: ..\..\assessment\index.rst:95
 # c94535e486fc4308bcf9be92c669ce91
+#: ..\..\assessment\index.rst:95
 msgid "Add the land use layer and change its symbology."
-msgstr ""
+msgstr "Tambahkan layer penggunaan lahan dan ubah simbologinya."
 
-#: ..\..\assessment\index.rst:100
 # 1a6b250ee01c4aadb2db531368696230
+#: ..\..\assessment\index.rst:100
 msgid "Classify the layer according to land use. Use solid colors."
 msgstr ""
+"Klasifikasikan layer sesuai dengan penggunaan lahan. Gunakan warna yang "
+"solid."
 
-#: ..\..\assessment\index.rst:105
 # c0a5eb4c69624e4fa7fe0a18a641dff2
-msgid "Classify the layer according to land use. Where appropriate, incorporate symbol layers, different symbol types, etc. Keep the results looking subdued and uniform, however. Keep in mind that this will be part of a backdrop!"
+#: ..\..\assessment\index.rst:105
+msgid ""
+"Classify the layer according to land use. Where appropriate, incorporate "
+"symbol layers, different symbol types, etc. Keep the results looking subdued "
+"and uniform, however. Keep in mind that this will be part of a backdrop!"
 msgstr ""
+"Klasifikasikan layer sesuai dengan penggunaan lahan. Masukkan layer-layer "
+"simbol, jenis-jenis simbol yang berbeda, dan sebagainya.  Pastikan hasilnya "
+"tampak lembut dan seragam. Perlu diingat bahwa ini akan menjadi bagian dari "
+"backdrop!"
 
-#: ..\..\assessment\index.rst:112
 # 6f9eb64f1fb445f287f4d8fe8d5e4054
-msgid "Use rule-based classification to classify the land use into general categories, such as \"urban\", \"rural\", \"nature reserve\", etc."
+#: ..\..\assessment\index.rst:112
+msgid ""
+"Use rule-based classification to classify the land use into general "
+"categories, such as \"urban\", \"rural\", \"nature reserve\", etc."
 msgstr ""
+"Gunakan peraturan berbasis klasifikasi untuk mengklasifikasikan penggunaan "
+"lahan menjadi kategori umum, seperti \"perkotaan\", \"pedesaan\", \"cagar "
+"alam\", dan sebagainya."
 
-#: ..\..\assessment\index.rst:116
 # 832cd0e3391247a494836a49e5fe066e
+#: ..\..\assessment\index.rst:116
 msgid "Create the raster backdrop"
-msgstr ""
+msgstr "Membuat raster backdrop"
 
-#: ..\..\assessment\index.rst:118
 # 0540523e0de141deb791b319474c7c88
-msgid "Create a hillshade from the DEM, and use it as an overlay for a classified version of the DEM itself. You could also use the :guilabel:`Relief` plugin (as shown in the lesson on plugins)."
+#: ..\..\assessment\index.rst:118
+msgid ""
+"Create a hillshade from the DEM, and use it as an overlay for a classified "
+"version of the DEM itself. You could also use the :guilabel:`Relief` plugin "
+"(as shown in the lesson on plugins)."
 msgstr ""
+"Buatlah sebuah hillshading dari DEM, dan gunakan sebagai sebuah overlay "
+"untuk foto udara atau untuk versi DEM terklasifikasi itu sendiri. Anda juga "
+"bisa menggunakan plugin Relief (seperti yang disajikan dalam pelajaran "
+"tentang plugin)."
 
-#: ..\..\assessment\index.rst:123
 # 06ad4fa25b3841c18cb51a8cc02dd728
+#: ..\..\assessment\index.rst:123
 msgid "Finalize the base map"
-msgstr ""
+msgstr "Menyelesaikan peta dasar"
 
-#: ..\..\assessment\index.rst:125
 # babb9e50e5a144ae92d713d0c4b3e9b5
-msgid "Using the resources you above, create a base map using some or all of the layers. This map should include all the basic information needed to orient the user, as well as being visually unified / \"simple\"."
+#: ..\..\assessment\index.rst:125
+msgid ""
+"Using the resources you above, create a base map using some or all of the "
+"layers. This map should include all the basic information needed to orient "
+"the user, as well as being visually unified / \"simple\"."
 msgstr ""
+"Menggunakan sumber daya yang di atas, buat peta dasar menggunakan beberapa "
+"atau semua layer. Peta ini harus meliputi semua informasi dasar yang "
+"dibutuhkan untuk mengarahkan pengguna, serta menjadi terpadu secara visual / "
+"\"sederhana\"."
 
-#: ..\..\assessment\index.rst:130
 # bf42a145e1ea4742bb3d0b090a5c699b
+#: ..\..\assessment\index.rst:130
 msgid "Analyze the data"
-msgstr ""
+msgstr "Menganalisis data"
 
-#: ..\..\assessment\index.rst:132
 # f23930f2d92348658bb9932017cc1a43
+#: ..\..\assessment\index.rst:132
 msgid "You are looking for a property that satisfies certain criteria."
-msgstr ""
+msgstr "Anda sedang mencari properti yang memenuhi kriteria tertentu. "
 
-#: ..\..\assessment\index.rst:133
 # 5023e75384ed429f9c6fde525aefe504
+#: ..\..\assessment\index.rst:133
 msgid "You can decide on your own criteria, which you must document."
 msgstr ""
+"Anda dapat memutuskan pada kriteria Anda sendiri, yang harus Anda "
+"dokumentasikan. "
 
-#: ..\..\assessment\index.rst:134
 # 9467722ef1e94e7399cfd8a855101f40
+#: ..\..\assessment\index.rst:134
 msgid "There are some guidelines for these criteria:"
-msgstr ""
+msgstr "Ada beberapa panduan untuk kriteria berikut:"
 
-#: ..\..\assessment\index.rst:136
 # 27ad1fce22044cd2bb4ee6edd59200c7
+#: ..\..\assessment\index.rst:136
 msgid "the target property should be of (a) certain type(s) of land use"
-msgstr ""
+msgstr "• properti sasaran harus suatu jenis tertentu dari penggunaan lahan"
 
-#: ..\..\assessment\index.rst:137
 # f2afd7624c544c919a9b601d2c83f34f
-msgid "it should be within a given distance from roads, or be crossed by a road"
+#: ..\..\assessment\index.rst:137
+msgid ""
+"it should be within a given distance from roads, or be crossed by a road"
 msgstr ""
+"• properti sasaran harus berada dalam jarak tertentu dari jalan, atau "
+"dilewati oleh jalan"
 
-#: ..\..\assessment\index.rst:138
 # 4f71f69a98b148c6a6fdaaad61aca890
-msgid "it should be within a given distance from some category of points, like a hospital for example"
+#: ..\..\assessment\index.rst:138
+msgid ""
+"it should be within a given distance from some category of points, like a "
+"hospital for example"
 msgstr ""
+"• properti sasaran harus berada dalam jarak tertentu dari beberapa kategori "
+"titik-titik, seperti rumah sakit"
 
-#: ..\..\assessment\index.rst:142
 # fd5cabe617d34f4dbbb0c3ce5b5de225
+#: ..\..\assessment\index.rst:142
 msgid "|moderate| / |hard|"
-msgstr ""
+msgstr "|moderate| / |hard|"
 
-#: ..\..\assessment\index.rst:144
 # 729e617399e84f3b8ad375347bce9200
-msgid "Include raster analysis in your results. Consider at least one derived property of the raster, such as its aspect or slope."
+#: ..\..\assessment\index.rst:144
+msgid ""
+"Include raster analysis in your results. Consider at least one derived "
+"property of the raster, such as its aspect or slope."
 msgstr ""
+"Sertakan analisis raster dalam hasil Anda. Pertimbangkan paling sedikit satu "
+"properti yang diturunkan dari raster, seperti aspek atau lereng."
 
-#: ..\..\assessment\index.rst:148
 # d9008a7cf5f744eea5c59c7e460e383d
+#: ..\..\assessment\index.rst:148
 msgid "Final Map"
-msgstr ""
+msgstr "Peta Akhir"
 
-#: ..\..\assessment\index.rst:150
 # e88c42b917e2430b985eb29d0afe7941
-msgid "Use the :guilabel:`Map Composer` to create a final map, which incorporates your analysis results."
+#: ..\..\assessment\index.rst:150
+msgid ""
+"Use the :guilabel:`Map Composer` to create a final map, which incorporates "
+"your analysis results."
 msgstr ""
+"Gunakan Map Composer untuk membuat peta akhir, yang menggabungkan hasil "
+"analisis Anda. "
 
-#: ..\..\assessment\index.rst:152
 # 6855f6ba40a044178ee52049c3919df1
-msgid "Include this map in a document along with your documented criteria. If the map has become too vsually busy due to the added layer(s), deselect the layers which you feel are the least necessary."
+#: ..\..\assessment\index.rst:152
+msgid ""
+"Include this map in a document along with your documented criteria. If the "
+"map has become too vsually busy due to the added layer(s), deselect the "
+"layers which you feel are the least necessary."
 msgstr ""
+"Sertakan peta ini dalam dokumen bersama dengan kriteria yang Anda "
+"dokumentasikan. Jika peta telah menjadi terlalu ramai secara visual karena "
+"adanya layer-layer yang ditambahkan, hapus layer yang Anda rasa kurang "
+"diperlukan."
 
-#: ..\..\assessment\index.rst:155
 # 5d0312c2f7cd4aafa01091fb200b4c0d
+#: ..\..\assessment\index.rst:155
 msgid "Your map must include a title and a legend."
-msgstr ""
-
+msgstr "Peta Anda harus menyertakan judul dan legenda."
