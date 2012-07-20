@@ -42,357 +42,363 @@ msgstr ""
 
 # 9a0d86a1453748fc8facab5878c7759a
 #: ..\..\grass\grass_setup.rst:11
-#, fuzzy
 msgid "|basic| |FA| Start a New GRASS Project"
-msgstr ""
+msgstr "|Dasar| |ikuti bersama| Mulai Proyek GRASS Baru"
 
 # c5bd4ac53f484579b1b70e1040dbde1e
 #: ..\..\grass\grass_setup.rst:13
-#, fuzzy
 msgid ""
 "To launch GRASS from within QGIS, you need to activate it as with any other "
 "plugin."
 msgstr ""
+"Untuk menjalankan GRASS dari dalam QGIS, Anda perlu mengaktifkannya dengan "
+"plugin yang lain."
 
 # 80a7ff2a7c944f8c84cbf4f7f9f4b2ee
 #: ..\..\grass\grass_setup.rst:16
-#, fuzzy
 msgid ""
 "In the :guilabel:`Plugin Manager`, enable :guilabel:`GRASS` in the list:"
-msgstr ""
+msgstr "Dalam Plugin Manager, memungkinkan GRASS dalam daftar:"
 
 # a2a0dd2ffaf346cf9b6db23cbffafc81
 #: ..\..\grass\grass_setup.rst:21
-#, fuzzy
 msgid "The GRASS toolbar will appear:"
-msgstr ""
+msgstr "Toolbar GRASS akan muncul:"
 
 # 3b4ea0c60fc6486a80a0730acc92fb48
 #: ..\..\grass\grass_setup.rst:26
-#, fuzzy
 msgid ""
 "Before you can use GRASS, you need to create a **mapset**. GRASS always "
 "works in a database environment, which means that you need to import all the "
 "data you want to use into a GRASS database."
 msgstr ""
+"Sebelum Anda dapat menggunakan GRASS, Anda perlu membuat sebuah mapset. "
+"GRASS selalu bekerja dalam cakupan basis data, yang berarti bahwa Anda perlu "
+"mengimport semua data yang ingin Anda gunakan ke dalam basis data GRASS."
 
 # 3f0b81ffe385467a930dc76390ff46ac
 #: ..\..\grass\grass_setup.rst:30
-#, fuzzy
 msgid "Click on the :guilabel:`New mapset` button:"
-msgstr ""
+msgstr "Untuk memulai, klik tombol mapset baru:"
 
 # 50a8cbe30cd142fb9476cd2e960856f3
 #: ..\..\grass\grass_setup.rst:35
-#, fuzzy
 msgid "You'll see a dialog explaining the structure of a GRASS mapset."
 msgstr ""
+"Anda akan melihat dialog seperti di bawah, yang menjelaskan struktur dari "
+"mapset GRASS."
 
 # 62ae9a297f64445490587ecb8094326c
 #: ..\..\grass\grass_setup.rst:36
-#, fuzzy
 msgid ""
 "Create a new directory called :kbd:`grass_db` in :guilabel:`exercise_data`."
-msgstr ""
+msgstr "Buat direktori baru bernama grass_db di data_latihan."
 
 # f6e5077afc0944528a47d4c4bbbd1fc4
 #: ..\..\grass\grass_setup.rst:37
-#, fuzzy
 msgid ""
 "Set it as the directory that will be used by GRASS to set up its database:"
 msgstr ""
+"atur sebagai direktori yang akan digunakan oleh GRASS untuk membuat database:"
 
 # 3c9f8c3b379f4b80b57b151c43388473
 #: ..\..\grass\grass_setup.rst:42
-#, fuzzy
 msgid ""
 "GRASS needs to create a \"location\", which describes the maximum extents of "
 "the geographic area you'll be working in."
 msgstr ""
+"GRASS perlu membuat \"lokasi\", yang menggambarkan luasan maksimum daerah "
+"geografis dimana Anda akan bekerja di dalamanya.  "
 
 # ef5969c5e7274c12acec69137e907786
 #: ..\..\grass\grass_setup.rst:45
-#, fuzzy
 msgid "Call the new location :kbd:`South_Africa`:"
-msgstr ""
+msgstr "Sebut saja South_Africa:"
 
 # 544ad729c78646f38648394072ea5ee8
 #: ..\..\grass\grass_setup.rst:50
-#, fuzzy
 msgid "We'll be working with :kbd:`WGS 84`, so search for and select this CRS:"
-msgstr ""
+msgstr "Kita akan bekerja dengan WGS 84, jadi cari dan pilih CRS ini:"
 
 # 98700f9af6d746fab255afe5e8be1906
 #: ..\..\grass\grass_setup.rst:55
-#, fuzzy
 msgid ""
 "Now select the region :guilabel:`South Africa`, which is already defined in "
 "GRASS:"
 msgstr ""
+"Sekarang pilih wilayah South Africa , yang sudah didefinisikan dalam GRASS:"
 
 # e5052ba048884c0680160495da680a5b
 #: ..\..\grass\grass_setup.rst:61
-#, fuzzy
 msgid "Create a mapset, which is the map file that you'll be working with."
-msgstr ""
+msgstr "Buat mapset, yang merupakan file peta yang akan Anda kerjakan."
 
 # 71209376b7c840469d4888761225f815
 #: ..\..\grass\grass_setup.rst:66
-#, fuzzy
 msgid ""
 "Once you're done, you'll see a dialog asking you to confirm that the "
 "settings it displays are correct."
 msgstr ""
+"Setelah Anda selesai, Anda akan melihat dialog yang meminta Anda untuk "
+"mengkonfirmasi bahwa pengaturan tampilan ini sudah benar."
 
 # 8c843cc19ed24d449a15e6752b9999e3
 #: ..\..\grass\grass_setup.rst:69
-#, fuzzy
 msgid "Click :guilabel:`Finish`."
-msgstr ""
+msgstr "Klik Finish."
 
 # 3d6a5349a2424e608c32b79aa79d2867
 #: ..\..\grass\grass_setup.rst:70
-#, fuzzy
 msgid "Click :guilabel:`OK` on the success dialog."
-msgstr ""
+msgstr "kemudian klik OK pada dialog sukses."
 
 # ded673519b9f41d9be2f13a2be781ae4
 #: ..\..\grass\grass_setup.rst:73
-#, fuzzy
 msgid "|basic| |FA| Loading Vector Data into GRASS"
-msgstr ""
+msgstr "|basic| |Ikuti Bersama| Memuat Data Vektor ke dalam GRASS"
 
 # e528891d702c4ac8a7ff6626326ba4c2
 #: ..\..\grass\grass_setup.rst:75
-#, fuzzy
 msgid ""
 "You'll now have a blank map. To load data into GRASS, you need to follow a "
 "two-step process."
 msgstr ""
+"Sekarang Anda akan memiliki peta kosong. Untuk memuat data ke dalam GRASS, "
+"Anda perlu mengikuti proses dua langkah. "
 
 # 4b132df5bc754f6aa074ee3898340abe
 #: ..\..\grass\grass_setup.rst:78
-#, fuzzy
 msgid ""
 "Load data into QGIS as usual. Use the :kbd:`streets.shp` dataset (found "
 "under :kbd:`exercise_data/`) for now."
 msgstr ""
+"Pertama, memuat data ke QGIS seperti biasa. Gunakan dataset streets.shp "
+"(temukan didalam exercise_data /) untuk saat ini."
 
 # 83c702ba287e478bb15f4df566f8aeea
 #: ..\..\grass\grass_setup.rst:80
-#, fuzzy
 msgid "As soon as it's loaded, click on the :guilabel:`GRASS Tools` button:"
-msgstr ""
+msgstr "Segera setelah data tersebut dimuat, klik pada tombol GRASS Tools:"
 
 # 57da3518d39c42d8b8b4c7aebef01fa2
 #: ..\..\grass\grass_setup.rst:85
-#, fuzzy
 msgid ""
 "Find the vector import tool by entering the term :kbd:`v.in.ogr.qgis` in the "
 ":guilabel:`Filter` field of the dialog that has appeared."
 msgstr ""
+"Temukan  vektor import tool  dengan memasukkan v.in.ogr.qgis istilah di "
+"Filter field.  dalam dialog yang telah muncul."
 
 # 6747c952b9654d71aea34e8b5dde3651
 #: ..\..\grass\grass_setup.rst:88
-#, fuzzy
 msgid ""
 "The :kbd:`v` stands for \"vector\", :kbd:`in` means its a function to import "
 "data into the GRASS database, :kbd:`ogr` is the software library used to "
 "read vector data, and :kbd:`qgis` means that the tool will look for a vector "
 "from among the vectors already loaded into QGIS."
 msgstr ""
+"V singkatan dari \"vektor\", In berarti fungsinya untuk mengimpor data ke "
+"dalam database GRASS, ogr adalah perpustakaan software yang digunakan untuk "
+"membaca data vektor, dan qgis berarti bahwa tool ini akan mencari vektor "
+"diantara vektor-vektor yang sudah dimuat ke dalam QGIS."
 
 # eefbf717039e4845be71f67cc8d94458
 #: ..\..\grass\grass_setup.rst:93
-#, fuzzy
 msgid "Once you've found this tool, click on it to bring up the tool itself:"
 msgstr ""
+"Setelah menemukan tool ini, klik pada tool tersebut sehingga  akan muncul:"
 
 # bce81ce5986e486ab3ed293ed425c994
 #: ..\..\grass\grass_setup.rst:98
-#, fuzzy
 msgid ""
 "Set the loaded layer to :guilabel:`streets` and its GRASS version's name to "
 ":kbd:`g_streets` to prevent confusion."
 msgstr ""
+"Atur  layer yang  dimuat kedalam  streets dan namai versi GRASS tersebut "
+"menjadi g_streets untuk mencegah kebingungan."
 
 # d58e4cd7ed4f4481b97b0125c54bd817
 #: ..\..\grass\grass_setup.rst:104
-#, fuzzy
 msgid ""
 "|hard| Note the extra import options provided under :guilabel:`Advanced "
 "Options`. These include the ability to add a WHERE clause for the SQL query "
 "used for importing the data."
 msgstr ""
+"|hard| CAtatan opsi extra option memungkinkan Anda mengambil Advance Option. "
+"Advance Option mencakup kemampuan untuk menambah perintah WHERE untuk query "
+"SQL yang digunakan untuk mengimport data."
 
 # d5c88736cea94b1ea39c5ea4a1de39e5
 #: ..\..\grass\grass_setup.rst:108
-#, fuzzy
 msgid "Click :guilabel:`Run` to begin the import."
-msgstr ""
+msgstr "Klik Run untuk memulai import."
 
 # f274e01d59e94fe08060b89f71f7f94a
 #: ..\..\grass\grass_setup.rst:109
-#, fuzzy
 msgid ""
 "When it's done, click the :guilabel:`View output` button to see the newly "
 "imported GRASS layer in the map."
 msgstr ""
+"Setelah selesai, klik tombol View output  untuk melihat layer  GRASS yang "
+"baru diimport ke dalam peta. "
 
 # cc116c243ed74b519fc87b1f9eda3843
 #: ..\..\grass\grass_setup.rst:111
-#, fuzzy
 msgid ""
 "Close first the import tool itself (click the :guilabel:`Close` button to "
 "the immediate right of :guilabel:`View output`), then close the "
 ":guilabel:`GDAL Tools` window."
 msgstr ""
+"Tutup terlebih dahulu import tool tersebut (klik tombol Close di sebelah "
+"kanan View output), kemudian tutup jendela GDAL Tools. "
 
 # fcd5da29e589468198bb821a379a3373
 #: ..\..\grass\grass_setup.rst:114
-#, fuzzy
 msgid "Remove the original :guilabel:`roads_33S` layer."
-msgstr ""
+msgstr "Hapus layer awal  roads_33S."
 
 # e1c71ad6ea2949b3acea8f5a004da6f4
 #: ..\..\grass\grass_setup.rst:116
-#, fuzzy
 msgid ""
 "Now you are left with only the imported GRASS layer as displayed in your "
 "QGIS map."
 msgstr ""
+"Sekarang Anda hanya tersisa dengan layer GRASS import seperti yang "
+"ditampilkan dalam peta QGIS Anda."
 
 # 49af8d1fd2af461ca5d9bfafd5675fff
 #: ..\..\grass\grass_setup.rst:120
-#, fuzzy
 msgid "|basic| |FA| Loading Raster Data into GRASS"
-msgstr ""
+msgstr "|basic| Ikuti bersama: Memuat Data Raster ke dalam GRASS "
 
 # 11858611de9040cf93e73f63dd1d9821
 #: ..\..\grass\grass_setup.rst:122
-#, fuzzy
 msgid ""
 "Recall that our DEM is in the Projected CRS :kbd:`UTM 33S / WGS 84`, but our "
 "GRASS project is in the Geographic CRS :kbd:`WGS 84`. So let's reproject the "
 "DEM first."
 msgstr ""
+"Ingatlah bahwa DEM kita menggunakan sistem proyeksi CRS UTM 33S / WGS "
+"84,akan tetapi projek GRASS kita menggunakan sistem proyeksi Geographic CRS "
+"WGS 84. Jadi mari kita lakukan proyeksi ulang DEM terlebih dahulu. "
 
 # 115b30c5563348b0a135ccc4a0016ac6
 #: ..\..\grass\grass_setup.rst:126
-#, fuzzy
 msgid ""
 "Load the :kbd:`srtm_41_19.tif` dataset (found under "
 ":kbd:`exercise_data/raster/SRTM/`) into the QGIS map as usual, using QGIS' "
 ":guilabel:`Add Raster Layer` tool."
 msgstr ""
+"Muat dataset srtm_41_19.tif (temukan dalam  exercise_data / raster / SRTM /) "
+"ke dalam peta QGIS seperti biasa, menggunakan tool Add Raster layer."
 
 # 0d8d152e849144079cb4198a271ab98f
 #: ..\..\grass\grass_setup.rst:129
-#, fuzzy
 msgid ""
 "Reproject it using GDAL Warp tool (:menuselection:`Raster --> Projections "
 "--> Warp (Reproject)`), setting it up as shown:"
 msgstr ""
+"Kemudian lakukan proyeksi ulang menggunakan tool GDAL Warp (Raster ‣ "
+"Projection ‣ Wrap (Reproject)), pengaturannya seperti yang ditunjukkan "
+"berikut:"
 
 # 05ce0ddfa18d4c4ba907565a51a2063e
 #: ..\..\grass\grass_setup.rst:135
-#, fuzzy
 msgid ""
 "Save the raster under the same folder as the original, but with the file "
 "name :kbd:`DEM_WGS84.tif`. Once it appears in your map, remove the "
 ":kbd:`srtm_41_19.tif` dataset from your :guilabel:`Layers list`."
 msgstr ""
+"Simpan data raster di dalam folder yang sama seperti aslinya, tetapi dengan "
+"nama file  DEM_WGS84.tif. Setelah muncul di peta Anda, hapus daftar dataset "
+"srtm_41_19.tif dari  Layers list Anda."
 
 # 7f2c6a87bd8a46ada1f0b6aaee7a1f2e
 #: ..\..\grass\grass_setup.rst:139
-#, fuzzy
 msgid "Now that it's reprojected, you can load it into your GRASS database."
 msgstr ""
+"Sekarang lakukan proyeksi ulang, anda dapat memuat ke dalam basis data GRASS "
+"Anda."
 
 # 2bc38e1f9b9948e6b8fe254f6e1bd849
 #: ..\..\grass\grass_setup.rst:141
-#, fuzzy
 msgid "Open the :guilabel:`GRASS Tools` dialog again."
-msgstr ""
+msgstr "Buka dialog GRASS Tools lagi ."
 
 # 3e14d919201c4abf8adacab185bac602
 #: ..\..\grass\grass_setup.rst:142
-#, fuzzy
 msgid "Click on the :guilabel:`Modules List` tab."
-msgstr ""
+msgstr "klik pada tab Modules List."
 
 # 8fbd49e704f24731a56facb911922923
 #: ..\..\grass\grass_setup.rst:143
-#, fuzzy
 msgid "Search for :kbd:`r.in.gdal.qgis`:"
-msgstr ""
+msgstr "Pencarian untuk r.in.gdal.qgis:"
 
 # ef4a1f76f0034501b74309236f9c7a99
 #: ..\..\grass\grass_setup.rst:148
-#, fuzzy
 msgid "Which gives you this tool:"
-msgstr ""
+msgstr "Yang memberi Anda tool ini:"
 
 # 9db0c76fd590461c98ce386b96095f53
 #: ..\..\grass\grass_setup.rst:153
-#, fuzzy
 msgid ""
 "Set it up as shown (input layer is :guilabel:`DEM_WGS84`, output is "
 ":kbd:`g_dem`)."
 msgstr ""
+"seperti ditunjukkan (layer input adalah DEM_WGS84, outputnya adalah  g_dem)."
 
 # edea164c91234eb3b8477aee04fd5234
 #: ..\..\grass\grass_setup.rst:155
-#, fuzzy
 msgid "Click :guilabel:`Run`."
-msgstr ""
+msgstr "klik Run."
 
 # be9a90f5f2904387be8e4bd31577e4e1
 #: ..\..\grass\grass_setup.rst:156
-#, fuzzy
 msgid "When the process is done, click :guilabel:`View output`."
-msgstr ""
+msgstr "Ketika proses selesai, klik View output."
 
 # 2af81d71c59e462a879222882ee63097
 #: ..\..\grass\grass_setup.rst:157
-#, fuzzy
 msgid ""
 ":guilabel:`Close` the current tab, and then :guilabel:`Close` the whole "
 "dialog."
-msgstr ""
+msgstr "Tutup tab saat ini, dan kemudian Tutup dialog keseluruhan."
 
 # c25fd2a43b9d4b5aa8ced1e6c7fffcde
 #: ..\..\grass\grass_setup.rst:163
-#, fuzzy
 msgid "You may now remove the original :guilabel:`DEM_WGS84` layer."
-msgstr ""
+msgstr "Sekarang Anda dapat menghilangkan layer awal  DEM_WGS84."
 
 # 92c595d2f9ba4a409eeeb9be7f08bd61
 #: ..\..\grass\grass_setup.rst:166
-#, fuzzy
 msgid "|IC|"
-msgstr ""
+msgstr "Kesimpulan"
 
 # ec74af0f4ae14a65a5b1829e02d04e82
 #: ..\..\grass\grass_setup.rst:168
-#, fuzzy
 msgid ""
 "The GRASS workflow for ingesting data is somewhat different from the QGIS "
 "method, because GRASS loads its data into a spatial database structure. "
 "However, by using QGIS as a frontend, you can make the setup of a GRASS "
 "mapset easier by using existing layers in QGIS as data sources for GRASS."
 msgstr ""
+"Alur kerja GRASS untuk mengolah data  agak berbeda dari metode QGIS, karena "
+"GRASS memuat data ke dalam struktur basis data spasial. Namun, dengan "
+"menggunakan QGIS sebagai frontend, Anda dapat membuat pengaturan dari mapset "
+"GRASS lebih mudah dengan menggunakan layer yang ada di QGIS sebagai sumber "
+"data untuk GRASS."
 
 # 2fcff567dadb40a39e768dcac2407cb3
 #: ..\..\grass\grass_setup.rst:174
-#, fuzzy
 msgid "|WN|"
-msgstr ""
+msgstr "Apa selanjutnya"
 
 # 4492fc77af624d40935ef6586d2f11a9
 #: ..\..\grass\grass_setup.rst:176
-#, fuzzy
 msgid ""
 "Now that the data is imported into GRASS, we can look at the advanced "
 "analysis operations that GRASS offers."
 msgstr ""
+"Sekarang  data yang diimpor ke dalam GRASS, kita dapat melihat operasi "
+"analisis canggih yang disediakan oleh GRASS."

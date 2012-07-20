@@ -15,12 +15,20 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Language: id\n"
+"X-Language: id_ID\n"
 
 # c7c8ad86bbf1473a9f46262fae1fc54f
 #: ..\..\create_vector_data\actions.rst:2
 msgid "|LS| Actions"
-msgstr "|Pelajaran| Tindakan"
+msgstr ""
+"Sesudah Anda melihat default action di latihan sebelumnya, sekarang saatnya "
+"untuk mencoba sendiri. Action adaah sesuatu yang terjafi kalau Anda "
+"meng-klik sebuah fitur. Action dapat digunakan untuk memunculkan "
+"fungsi-fugsi tambahan ke dalam peta, misalnya menampilkan informasi tambahan "
+"tentang sebuah obyek. Menyediakan actions dapat menambahkan dimensi baru "
+"pada peta Anda\n"
+"\n"
+"**Tujuan latihan ini** Belajar cara menambahkan actions terkustomisasi"
 
 # 68827ac1864e448eaafa65b33da9c5e8
 #: ..\..\create_vector_data\actions.rst:4
@@ -31,41 +39,30 @@ msgid ""
 "you to retrieve additional information about an object, for example. "
 "Assigning actions can add a whole new dimension to your map!"
 msgstr ""
-"Sekarang Anda telah melihat default action dalam pelajaran sebelumnya, "
-"sekarang waktunya untuk mendefinisikan action Anda sendiri. sebuah action "
-"adalah sesuatu yang terjadi ketika Anda mengklik sebuah feature. hal "
-"tersebut dapat menambah banyak fungsi ekstra pada peta Anda, memungkinkan "
-"Anda untuk menambah informasi tambahan tentang sebuah obyek, misalnya action "
-"penandaan dapat menambah dimensi baru secara keseluruhan pada peta Anda!"
 
 # d756b4eee55c4e9695ccdb436336a19f
 #: ..\..\create_vector_data\actions.rst:10
-#, fuzzy
 msgid "**The goal for this lesson:** To learn how to add custom actions."
 msgstr ""
 
 # 16ade0eecfae4c0cbd2662a2cee5fe53
 #: ..\..\create_vector_data\actions.rst:13
-#, fuzzy
 msgid "|basic| |FA| The Actions Tab"
 msgstr ""
 
 # 4b31736b442147e788556c18deaa34d5
 #: ..\..\create_vector_data\actions.rst:15
-#, fuzzy
 msgid ""
 "Open the :guilabel:`Layer Properties` dialog for the :guilabel:`rural` layer."
 msgstr ""
 
 # f899d0f11cfd4e8eb113c1fc896cb0bd
 #: ..\..\create_vector_data\actions.rst:16
-#, fuzzy
 msgid "Click on the :guilabel:`Actions` tab to see its contents."
 msgstr ""
 
 # 30af954a7d0a4c1b8cd21469f480c319
 #: ..\..\create_vector_data\actions.rst:18
-#, fuzzy
 msgid ""
 "Seems intimidating! But it doesn't need to be. Let's see how it works by "
 "adding a new action."
@@ -73,13 +70,11 @@ msgstr ""
 
 # 55d51e9b2d0342c086575fe07f1339e2
 #: ..\..\create_vector_data\actions.rst:22
-#, fuzzy
 msgid "|basic| |FA| Open an Image"
 msgstr ""
 
 # dbb4ee15e89442aab0f3c8962a98794e
 #: ..\..\create_vector_data\actions.rst:24
-#, fuzzy
 msgid ""
 "Use the :guilabel:`school_property` layer you created previously. The course "
 "materials include photos of each of the three properties you digitized. What "
@@ -90,13 +85,11 @@ msgstr ""
 
 # dfdabd7ab32d47308b85f9da65d6c74a
 #: ..\..\create_vector_data\actions.rst:31
-#, fuzzy
 msgid "|basic| |FA| Add a Field for Images"
 msgstr ""
 
 # b15c87f0aa1e4d9dabb42043e4683148
 #: ..\..\create_vector_data\actions.rst:33
-#, fuzzy
 msgid ""
 "The :guilabel:`school_property` layer has no way to associate an image with "
 "a property yet. First we'll create a field for this purpose."

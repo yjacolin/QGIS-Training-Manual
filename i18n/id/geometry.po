@@ -15,239 +15,333 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Language: id\n"
 
-#: ..\..\postgis\geometry.rst:2
 # 10ed8b217d45464396d360f3e7230e95
+#: ..\..\postgis\geometry.rst:2
 msgid "|LS| Geometry Construction"
-msgstr ""
+msgstr "Pembentukan geometri"
 
-#: ..\..\postgis\geometry.rst:4
 # 050260d920fc4350b80bc3b209789188
-msgid "In this section we are going to delve a little deeper into how simple geometries are constructed in SQL. In reality, you will probably use a GIS like QGIS to create complex geometries using their digitising tools; however, understanding how they are formulated can be handy for writing queries and understanding how the database is assembled."
+#: ..\..\postgis\geometry.rst:4
+#, fuzzy
+msgid ""
+"In this section we are going to delve a little deeper into how simple "
+"geometries are constructed in SQL. In reality, you will probably use a GIS "
+"like QGIS to create complex geometries using their digitising tools; "
+"however, understanding how they are formulated can be handy for writing "
+"queries and understanding how the database is assembled."
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:10
 # 89cee67c564641d2a9be3eb34d088488
-msgid "**The goal of this lesson:** To better understand how to create spatial entities directly in PostgreSQL/PostGIS."
+#: ..\..\postgis\geometry.rst:10
+#, fuzzy
+msgid ""
+"**The goal of this lesson:** To better understand how to create spatial "
+"entities directly in PostgreSQL/PostGIS."
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:16
 # 2913dda7669044739d10d0b8bbf32c64
+#: ..\..\postgis\geometry.rst:16
+#, fuzzy
 msgid "Creating Linestrings"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:18
 # c5f2eec6f41b44d998dacedceb199696
-msgid "Before we start, let's get our streets table matching the others; i.e., having a constraint on the geometry, an index and an entry in the geometry_columns table."
+#: ..\..\postgis\geometry.rst:18
+#, fuzzy
+msgid ""
+"Before we start, let's get our streets table matching the others; i.e., "
+"having a constraint on the geometry, an index and an entry in the "
+"geometry_columns table."
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:22
 # 6202664d27bd4514879ad71b0e8d0376
+#: ..\..\postgis\geometry.rst:22
+#, fuzzy
 msgid "Exercise:"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:24
 # db0d3ed1cc2d47099e31b5224c2720ea
-msgid "Modify the streets table so that it has a geometry column of type ST_LineString."
+#: ..\..\postgis\geometry.rst:24
+msgid ""
+"Modify the streets table so that it has a geometry column of type "
+"ST_LineString."
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:26
 # 5481e0b0419b4a7ea95791a74a504acb
-msgid "Don't forget to do the accompanying update to the geometry columns table!"
+#: ..\..\postgis\geometry.rst:26
+msgid ""
+"Don't forget to do the accompanying update to the geometry columns table!"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:28
 # da45e1aa4055464888ab1f5b2af63542
-msgid "Also add a constraint to prevent any geometries being added that are not LINESTRINGS or null."
+#: ..\..\postgis\geometry.rst:28
+msgid ""
+"Also add a constraint to prevent any geometries being added that are not "
+"LINESTRINGS or null."
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:30
 # 5e83ad3c9ac147538ad2a12cffef6666
+#: ..\..\postgis\geometry.rst:30
 msgid "Create a spatial index on the new geometry column"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:57
 # d141a25eadc9459bab3a67716806c4d4
+#: ..\..\postgis\geometry.rst:57
 msgid ":ref:`Check your results <geometry-1>`"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:59
 # 52dbbe70662445bf8e94cb61f5a8e28e
-msgid "Now let's insert a linestring into our streets table. In this case I am going to update an existing street record:"
+#: ..\..\postgis\geometry.rst:59
+msgid ""
+"Now let's insert a linestring into our streets table. In this case I am "
+"going to update an existing street record:"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:67
 # 9e8699f99cf543cc98a127b5a1cb3d2b
-msgid "Take a look at the results in QGIS. (You may need to right-click on the streets layer in the 'Layers' panel, and choose 'Zoom to layer extent'.)"
+#: ..\..\postgis\geometry.rst:67
+msgid ""
+"Take a look at the results in QGIS. (You may need to right-click on the "
+"streets layer in the 'Layers' panel, and choose 'Zoom to layer extent'.)"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:70
 # 4c4b53846b244031be1e75293adfc5db
-msgid "Now create some more streets entries - some in QGIS and some from the command line."
+#: ..\..\postgis\geometry.rst:70
+msgid ""
+"Now create some more streets entries - some in QGIS and some from the "
+"command line."
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:75
 # 0421425b140b45e3a9d9ef88663c9f1f
+#: ..\..\postgis\geometry.rst:75
 msgid "Creating Polygons"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:77
 # 4c7f90b7c85748c48937327783d2d436
-msgid "Creating polygons is just as easy. One thing to remember is that by definition, polygons have at least four vertices, with the last and first being co-located."
+#: ..\..\postgis\geometry.rst:77
+msgid ""
+"Creating polygons is just as easy. One thing to remember is that by "
+"definition, polygons have at least four vertices, with the last and first "
+"being co-located."
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:85
 # 0b8c519f3c424903a7fb265bf07777ff
-msgid "A polygon requires double brackets around its coordinate list; this is to allow you to add complex polygons with multiple unconnected areas. For instance:"
+#: ..\..\postgis\geometry.rst:85
+msgid ""
+"A polygon requires double brackets around its coordinate list; this is to "
+"allow you to add complex polygons with multiple unconnected areas. For "
+"instance:"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:95
 # ef14e08674854046a049068a22937bee
-msgid "If you followed this step, you can check what it did by loading the cities dataset into QGIS, opening its attribute table, and selecting the new entry. Note how the two new polygons behave like one polygon."
+#: ..\..\postgis\geometry.rst:95
+msgid ""
+"If you followed this step, you can check what it did by loading the cities "
+"dataset into QGIS, opening its attribute table, and selecting the new entry. "
+"Note how the two new polygons behave like one polygon."
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:103
 # 4ca26b7636da41dd90facfb1d3467682
+#: ..\..\postgis\geometry.rst:103
 msgid "Exercise: Linking Cities to People"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:105
 # ec4a972d52424d14bd7ba78f315fe55b
+#: ..\..\postgis\geometry.rst:105
 msgid "For this exercise you should do the following:"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:107
 # 4cff9d661747480ea4d81ca903d7cf0a
-msgid "Delete all data from your people table. Add a foreign key column to people that references the primary key of the cities table. Use QGIS to capture some cities. Use SQL to insert some new people records, ensuring that each has an associated street and city."
+#: ..\..\postgis\geometry.rst:107
+msgid ""
+"Delete all data from your people table. Add a foreign key column to people "
+"that references the primary key of the cities table. Use QGIS to capture "
+"some cities. Use SQL to insert some new people records, ensuring that each "
+"has an associated street and city."
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:114
 # 5b0a77c903464b5b8eaae8bcc804adbd
+#: ..\..\postgis\geometry.rst:114
 msgid "Your updated people schema should look something like this:"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:171
 # e08f28d076f6403dbf43313ce4706ff7
+#: ..\..\postgis\geometry.rst:171
 msgid ":ref:`Check your results <geometry-2>`"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:175
 # 90ca4ee5935c47fc8037029b0d885723
+#: ..\..\postgis\geometry.rst:175
 msgid "Looking at our schema"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:177
 # 12e8535702c042cc92aacf8afb7f0732
+#: ..\..\postgis\geometry.rst:177
 msgid "By now our schema should be looking like this:"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:196
 # 816d4cab24744359bca90c374fd0d404
+#: ..\..\postgis\geometry.rst:196
 msgid "Access Subobjects"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:198
 # 635246a907d0495a9d5299ff85cca40b
-msgid "With the SFS-Model functions, you have a wide variety of options to access subobjects of SFS Geometries. When you want to select the first vertex point of every polygon geometry in the table myPolygonTable, you have to do this in this way:"
+#: ..\..\postgis\geometry.rst:198
+msgid ""
+"With the SFS-Model functions, you have a wide variety of options to access "
+"subobjects of SFS Geometries. When you want to select the first vertex point "
+"of every polygon geometry in the table myPolygonTable, you have to do this "
+"in this way:"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:203
 # 64c5373c8deb49c3a70c7aa21490562a
+#: ..\..\postgis\geometry.rst:203
 msgid "Transform the polygon boundary to a linestring:"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:209
 # 7ede3adc7cfd488fb426105d1cc5fa45
+#: ..\..\postgis\geometry.rst:209
 msgid "select the first vertex point of the resultant linestring:"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:219
 # a0de969e51cb460b86a613b38518f0b5
+#: ..\..\postgis\geometry.rst:219
 msgid "Data Processing"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:221
 # 4c6312e4768c46c9b3d09ea7fbc6ccc7
-msgid "PostGIS supports all OGC SFS/MM standard conform functions. All these functions start with ``ST_``."
+#: ..\..\postgis\geometry.rst:221
+msgid ""
+"PostGIS supports all OGC SFS/MM standard conform functions. All these "
+"functions start with ``ST_``."
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:225
 # 5dfdae4f98654862b753ae93b777f826
+#: ..\..\postgis\geometry.rst:225
 msgid "Clipping"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:227
 # 05087ddf69e24d20acc041c3ca725d98
-msgid "To clip a subpart of your data you can use the :kbd:`ST_INTERSECT()` function. To avoid empty geometries, use:"
+#: ..\..\postgis\geometry.rst:227
+msgid ""
+"To clip a subpart of your data you can use the :kbd:`ST_INTERSECT()` "
+"function. To avoid empty geometries, use:"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:248
 # f58b6c23e6ef41d6b1f05049c5063475
+#: ..\..\postgis\geometry.rst:248
 msgid "Building Geometries from Other Geometries"
 msgstr ""
 
-#: ..\..\postgis\geometry.rst:250
 # df9ac039015c422ea03a49edcac1c365
-msgid "From a given point table, you want to generate a linestring. The order of the points is defined by their :kbd:`id`. Another ordering method could be a timestamp, such as the one you get when you capture waypoints with a GPS receiver."
-msgstr ""
+#: ..\..\postgis\geometry.rst:250
+msgid ""
+"From a given point table, you want to generate a linestring. The order of "
+"the points is defined by their :kbd:`id`. Another ordering method could be a "
+"timestamp, such as the one you get when you capture waypoints with a GPS "
+"receiver."
+msgstr "Dari tabel "
 
-#: ..\..\postgis\geometry.rst:258
 # a6b39c426d4e4a5b8d58d648a11687aa
-msgid "To create a linestring from a new point layer called 'points', you can run the following command:"
+#: ..\..\postgis\geometry.rst:258
+msgid ""
+"To create a linestring from a new point layer called 'points', you can run "
+"the following command:"
 msgstr ""
+"Untuk membuat suatu linestring dari sebuah lapis data dengan nama 'points', "
+"anda dapat menjaankan perintah sebagai berikut:"
 
-#: ..\..\postgis\geometry.rst:270
 # 5ebd835d85c249879e2365057c3b8722
-msgid "To see how it works without creating a new layer, you could also run this command on the 'people' layer, although of course it would make little real-world sense to do this."
+#: ..\..\postgis\geometry.rst:270
+msgid ""
+"To see how it works without creating a new layer, you could also run this "
+"command on the 'people' layer, although of course it would make little "
+"real-world sense to do this."
 msgstr ""
+"Untuk melihat bagaimana ini bekerja tanpa harus membuat lapis data baru, "
+"anda dapat menjalankan perintah ini pada lapisdata 'people', meski tentu "
+"saja hal ini akan sedikit terasa kurang sesuai dengan dunia nyata apabila "
+"kita melakukan hal tersebut."
 
-#: ..\..\postgis\geometry.rst:278
 # 35ca9168e2584f5e94fa2203d028b020
+#: ..\..\postgis\geometry.rst:278
 msgid "Geometry Cleaning"
-msgstr ""
+msgstr "Pembersihan geometri"
 
-#: ..\..\postgis\geometry.rst:280
 # 000ad4f46e954d9080c6d58333dbd7bf
-msgid "You can get more information for this topic in `this blog entry <http://linfiniti.com/?s=cleangeometry>`_."
+#: ..\..\postgis\geometry.rst:280
+msgid ""
+"You can get more information for this topic in `this blog entry "
+"<http://linfiniti.com/?s=cleangeometry>`_."
 msgstr ""
+"Anda dapat memperole informasi lanjut mengenai topik ini melalui artikel "
+"pada blog <http://linfiniti.com/?s=cleangeometry>`_."
 
-#: ..\..\postgis\geometry.rst:284
 # 2a93df7b5f084f17a3a6b8420af1278f
+#: ..\..\postgis\geometry.rst:284
 msgid "Differences between tables"
-msgstr ""
+msgstr "Perbedaan-perbedaaan di antara tabel-tabel"
 
-#: ..\..\postgis\geometry.rst:286
 # 9a8aeb170a9342dcac1e39972d881c82
-msgid "To detect the difference between two tables with the same structure, you can use the PostgreSQL keyword :kbd:`EXCEPT`."
+#: ..\..\postgis\geometry.rst:286
+msgid ""
+"To detect the difference between two tables with the same structure, you can "
+"use the PostgreSQL keyword :kbd:`EXCEPT`."
 msgstr ""
+"Untuk mendeteksi perbedaan antara dua tabel dengan struktur yang sama, anda "
+"dapat menggunakan katakunci PostgreSQL :kbd:`EXCEPT`."
 
-#: ..\..\postgis\geometry.rst:295
 # ac8f0ef0386d4a3fa6288f141134ebe0
-msgid "As the result, you will get all records from table_a which are not stored in table_b."
+#: ..\..\postgis\geometry.rst:295
+msgid ""
+"As the result, you will get all records from table_a which are not stored in "
+"table_b."
 msgstr ""
+"Sebagai hasilnya, anda akan memperoleh semua data dari table_a yang tidak "
+"tersimpan dalam table_b."
 
-#: ..\..\postgis\geometry.rst:299
 # 6744052ec8024e618a10879c1ac34cc5
+#: ..\..\postgis\geometry.rst:299
 msgid "Tablespaces"
-msgstr ""
+msgstr "Tablespaces"
 
-#: ..\..\postgis\geometry.rst:301
 # 5af84ff18cf84cbea4a272c28beb3b17
-msgid "You can define where postgres should store its data on disk by creating tablespaces."
+#: ..\..\postgis\geometry.rst:301
+msgid ""
+"You can define where postgres should store its data on disk by creating "
+"tablespaces."
 msgstr ""
+"Anda dapat mengaturdimana postgres sebaiknya menyimpan data di dalam media "
+"penyimpan (disk) dengan cara membuat tablespaces."
 
-#: ..\..\postgis\geometry.rst:308
 # 5f48b9a99fe4492ebca215a1e120fe08
-msgid "When you create a database, you can then specify which tablespace to use e.g.:"
+#: ..\..\postgis\geometry.rst:308
+msgid ""
+"When you create a database, you can then specify which tablespace to use "
+"e.g.:"
 msgstr ""
+"Saat anda membuat sebuah basisdata, anda selanjutnya dapat membuat "
+"spesifikasi tablespace mana yang digunakan misalnya:"
 
-#: ..\..\postgis\geometry.rst:315
 # 01d29f2704ef4ced94a9d17d9f7e839e
+#: ..\..\postgis\geometry.rst:315
 msgid "|IC|"
-msgstr ""
+msgstr "Kesimpulan"
 
-#: ..\..\postgis\geometry.rst:317
 # 8826801e28aa4295aee5ad479f1455bb
-msgid "You've learned how to create more complex geometries using PostGIS statements. Keep in mind that this is mostly to improve your tacit knowledge when working with geo-enabled databases through a GIS frontend. You usually won't need to actually enter these statements manually, but having a general idea of their structure will help you when using a GIS, especially if you encounter errors that would otherwise seem cryptic."
-msgstr ""
-
+#: ..\..\postgis\geometry.rst:317
+msgid ""
+"You've learned how to create more complex geometries using PostGIS "
+"statements. Keep in mind that this is mostly to improve your tacit knowledge "
+"when working with geo-enabled databases through a GIS frontend. You usually "
+"won't need to actually enter these statements manually, but having a general "
+"idea of their structure will help you when using a GIS, especially if you "
+"encounter errors that would otherwise seem cryptic."
+msgstr "Anda telah mempelajari cara membuat geometri kompleks menggunakan statement "
+"PostGIS. Perlu diingat bahwa hal ini ditujukan agar pengetahuan anda pada "
+"saat bekerja dengan geodatabase menggunakan frontend. Biasanya ada tidak "
+"perlu mengetik statemen-satement tersebut secara manual, namun demikian "
+"mengetahui secara umum struktur geodatabase akan membantu anda sewaktu "
+"bekerja dengan sebuah sistem SIG, khususnya pada saat anda menemukan "
+"kesalahan-kesalahan yang samar atau tidak jelas."

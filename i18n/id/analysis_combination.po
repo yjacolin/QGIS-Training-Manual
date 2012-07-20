@@ -20,7 +20,7 @@ msgstr ""
 # 06bd0c6d91af45ec8d2720783d9412a2
 #: ..\..\complete_analysis\analysis_combination.rst:2
 msgid "|LS| Combining the Analyses"
-msgstr "|LS| Mengkombinasikan Analisis"
+msgstr "Pelajaran Mengkombinasikan Analisis"
 
 # 85fc94a29b434527932bd601f6345aa0
 #: ..\..\complete_analysis\analysis_combination.rst:4
@@ -33,17 +33,17 @@ msgstr ""
 
 # 866601bbd7b14c0f997f9a40ac4c487b
 #: ..\..\complete_analysis\analysis_combination.rst:7
-#, fuzzy
 msgid ""
 "**The goal for this lesson:** To use the vectorized terrain results to "
 "select suitable farms."
 msgstr ""
+"Tujuan untuk pelajaran ini: ** Untuk menggunakan hasil terain vektoralisasi "
+"untuk memilih peternakan yang cocok."
 
 # 8274b4ab44af4672b8c5fe03d51f29d8
 #: ..\..\complete_analysis\analysis_combination.rst:11
-#, fuzzy
 msgid "|moderate| |TY|"
-msgstr ""
+msgstr "sebaiknya coba sendiri"
 
 # 2706747294aa46498b97ea9d45d16e20
 #: ..\..\complete_analysis\analysis_combination.rst:13
@@ -61,21 +61,26 @@ msgstr ""
 
 # 226e997b6b904010aff9335bc3b1e25b
 #: ..\..\complete_analysis\analysis_combination.rst:16
-#, fuzzy
 msgid ""
 "In the :guilabel:`Layers list`, enable these layers: - "
 ":guilabel:`hillshade`, - :guilabel:`solution`, - :guilabel:`important_roads` "
 "and - either :guilabel:`aerial_photos` or :guilabel:`DEM`."
 msgstr ""
+"di dalam guilabel:'daftar Layer', memungkinkan layer ini "
+":'-':guilabel:'hillshade', - :guilabel:'solution', - "
+":guilabel:'important_roads' dan salah satu dari :guilabel:'aerial_photos' "
+"atau :guilabel:'DEM'."
 
 # 51f00c533df44d198a5fee7ff8acf0a7
 #: ..\..\complete_analysis\analysis_combination.rst:21
-#, fuzzy
 msgid ""
 "In addition to these layers, which should already be loaded in the map from "
 "when you worked on it before, also add the :kbd:`suitable_terrain.shp` "
 "dataset."
 msgstr ""
+"dalam penambahan layer ini yang seharusnya sudah ditambahkan ke dalam peta "
+"ketika anda mengerjakannya sebelum itu,diisi juga "
+":kbd:'suitable_terrain.shp' data"
 
 # b110257ff92c47a48462bdc028f5c8dc
 #: ..\..\complete_analysis\analysis_combination.rst:24
