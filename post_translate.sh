@@ -17,7 +17,7 @@ do
 done
 
 #Add english to the list and generated docs
-set -x
+rm -rf _build
 LOCALES='en af id'
 for LOCALE in ${LOCALES}
 do

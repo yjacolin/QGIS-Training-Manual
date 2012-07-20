@@ -28,7 +28,7 @@ msgstr "Antwoord Bladsy"
 # 955b500739f34d839b0789292352238b
 #: ../../answers/answers.rst:5
 msgid "|RF| *Adding Your First Layer*"
-msgstr ""
+msgstr "|RF| *Laai jou eerst laer*"
 
 # d489ecf731ef41a382a99e7770ef8c13
 #: ../../answers/answers.rst:10
