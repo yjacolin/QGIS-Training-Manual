@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -15,249 +14,297 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Language: id_ID\n"
 
-#: ..\..\postgis\spatial_queries.rst:2
 # d4051ab25740441cbc8c0b233a956d15
+#: ..\..\postgis\spatial_queries.rst:2
 msgid "|LS| Spatial Queries"
-msgstr ""
+msgstr "|Pelajaran| Queri Spasial"
 
-#: ..\..\postgis\spatial_queries.rst:4
 # 37aa790abce849098df1b932b4e63da5
-msgid "Spatial queries are no different from other database queries. You can use the geometry column like any other database column. With the installation of PostGIS in our database, we have additional functions to query our database."
+#: ..\..\postgis\spatial_queries.rst:4
+msgid ""
+"Spatial queries are no different from other database queries. You can use "
+"the geometry column like any other database column. With the installation of "
+"PostGIS in our database, we have additional functions to query our database."
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:8
 # 5cbbf758c71a4fcf81a1537fe278f1c9
-msgid "**The goal for this lesson:** To see how spatial functions are implemented similarly to \"normal\" non-spatial functions."
+#: ..\..\postgis\spatial_queries.rst:8
+msgid ""
+"**The goal for this lesson:** To see how spatial functions are implemented "
+"similarly to \"normal\" non-spatial functions."
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:14
 # a0805e5976dd4690932799af68daef05
+#: ..\..\postgis\spatial_queries.rst:14
 msgid "Spatial Operators"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:16
 # 7c49d268cd7d48d3b990631428965d82
-msgid "When you want to know which points are within a distance of 2 degrees to a point(X,Y) you can do this with:"
+#: ..\..\postgis\spatial_queries.rst:16
+msgid ""
+"When you want to know which points are within a distance of 2 degrees to a "
+"point(X,Y) you can do this with:"
 msgstr ""
+"ketika Anda ingin mengetahui poin mana yang berada pada jarak 2 derajat "
+"terhadap poin (X,Y) Anda dapat melakukan ini:"
 
-#: ..\..\postgis\spatial_queries.rst:25
-#: ..\..\postgis\spatial_queries.rst:58
-#: ..\..\postgis\spatial_queries.rst:179
-#: ..\..\postgis\spatial_queries.rst:219
-#: ..\..\postgis\spatial_queries.rst:320
 # e07906ff1fc04ed596f20830848754a0
 # b99e6769aaac43bcabd146b296ab8a15
 # a752718c70d54d0ab954a8bdcc1e17f9
 # 4516c4224b88469ea7fb80736dc12914
 # c9edad2d42074551878f622cdc05c033
+#: ..\..\postgis\spatial_queries.rst:25 ..\..\postgis\spatial_queries.rst:58
+#: ..\..\postgis\spatial_queries.rst:179 ..\..\postgis\spatial_queries.rst:219
+#: ..\..\postgis\spatial_queries.rst:320
 msgid "Result:"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:34
 # 9c447888299e4f9db572af3d80ddcbb8
-msgid "the_geom value above was truncated for space on this page. If you want to see the point in human-readable coordinates, try something similar to what you did in the section \"View a point as WKT\", above."
+#: ..\..\postgis\spatial_queries.rst:34
+msgid ""
+"the_geom value above was truncated for space on this page. If you want to "
+"see the point in human-readable coordinates, try something similar to what "
+"you did in the section \"View a point as WKT\", above."
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:38
 # 53f1395a7ee44784a7ea3ba093831add
-msgid "How do we know that the query above returns all the points within 2 *degrees*? Why not 2 *meters*? Or any other unit, for that matter?"
+#: ..\..\postgis\spatial_queries.rst:38
+msgid ""
+"How do we know that the query above returns all the points within 2 "
+"*degrees*? Why not 2 *meters*? Or any other unit, for that matter?"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:41
 # 1a9ac5d883c645228b797270dae78f17
+#: ..\..\postgis\spatial_queries.rst:41
 msgid ":ref:`Check your results <spatial-queries-1>`"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:46
 # 4a40ff9eecb14e73946094439f4952f6
+#: ..\..\postgis\spatial_queries.rst:46
 msgid "Spatial Indexes"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:48
 # fa43214f1765419aabc8e4e4967ee70a
-msgid "We also can define spatial indexes. A spatial index makes your spatial queries much faster. To create a spatial index on the geometry column use:"
+#: ..\..\postgis\spatial_queries.rst:48
+msgid ""
+"We also can define spatial indexes. A spatial index makes your spatial "
+"queries much faster. To create a spatial index on the geometry column use:"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:85
 # e862a5b21df04d85a1a49f91b93fb63d
-msgid "Now you try - modify the cities table so its geometry column is spatially indexed."
+#: ..\..\postgis\spatial_queries.rst:85
+msgid ""
+"Now you try - modify the cities table so its geometry column is spatially "
+"indexed."
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:115
 # e192652f1dd0425ba02d3b624afeeda6
+#: ..\..\postgis\spatial_queries.rst:115
 msgid ":ref:`Check your results <spatial-queries-2>`"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:119
 # 47a974582f244579a5e44c12bcc1be8a
+#: ..\..\postgis\spatial_queries.rst:119
 msgid "PostGIS Spatial Functions Demo"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:121
 # 0b7884fae8334a8490a24bddbb3ae18d
-msgid "In order to demo PostGIS spatial functions, we'll create a new database containing some (fictional) data."
+#: ..\..\postgis\spatial_queries.rst:121
+msgid ""
+"In order to demo PostGIS spatial functions, we'll create a new database "
+"containing some (fictional) data."
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:124
 # eac7db737ffa49c984d0ed557d061ce5
+#: ..\..\postgis\spatial_queries.rst:124
 msgid "To start, create a new database:"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:130
 # 71d1c0f02b734ad7b04682695c463329
+#: ..\..\postgis\spatial_queries.rst:130
 msgid "Remember to install PLPGSQL:"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:136
 # d8a4e806ec5f4653a4a5ffa3e7f9d788
-msgid "Then install the PostGIS functions and the spatial reference system. For example, on Linux with PostgreSQL 9.1 and PostGIS 1.5:"
+#: ..\..\postgis\spatial_queries.rst:136
+msgid ""
+"Then install the PostGIS functions and the spatial reference system. For "
+"example, on Linux with PostgreSQL 9.1 and PostGIS 1.5:"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:144
 # b58db294ed01463f96e291f9a2dc8ef7
-msgid "Next, import the data provided in the :kbd:`exercise_data/postgis/` directory. Refer back to the previous lesson for instructions. You can import from the terminal or via SPIT. Import the files into the following database tables:"
+#: ..\..\postgis\spatial_queries.rst:144
+msgid ""
+"Next, import the data provided in the :kbd:`exercise_data/postgis/` "
+"directory. Refer back to the previous lesson for instructions. You can "
+"import from the terminal or via SPIT. Import the files into the following "
+"database tables:"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:148
 # dbf4623f164b478d83c7c2887bd9c39e
+#: ..\..\postgis\spatial_queries.rst:148
 msgid ":kbd:`points.shp` = :kbd:`building`"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:149
 # 1ebd84b8767d4bcd87cdbf1bd49eae9b
+#: ..\..\postgis\spatial_queries.rst:149
 msgid ":kbd:`lines.shp` = :kbd:`road`"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:150
 # a6745b75412048929be0e95eaf96e97c
+#: ..\..\postgis\spatial_queries.rst:150
 msgid ":kbd:`polygons.shp` = :kbd:`region`"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:152
 # c76098e3ca4a4a31b10f147a9413c7d3
-msgid "Load these three database layers into QGIS via the :guilabel:`Add PostGIS Layers` dialog, as usual. When you open their attribute tables, you'll note that they have both an :kbd:`id` field and a :kbd:`gid` field created by the PostGIS import."
+#: ..\..\postgis\spatial_queries.rst:152
+msgid ""
+"Load these three database layers into QGIS via the :guilabel:`Add PostGIS "
+"Layers` dialog, as usual. When you open their attribute tables, you'll note "
+"that they have both an :kbd:`id` field and a :kbd:`gid` field created by the "
+"PostGIS import."
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:157
 # 55d385e180954d1bb43cd0f3b8680d6c
-msgid "Now that the tables are imported, we can use PostGIS to query the data. Go back to your terminal (command line) and enter the psql prompt by doing:"
+#: ..\..\postgis\spatial_queries.rst:157
+msgid ""
+"Now that the tables are imported, we can use PostGIS to query the data. Go "
+"back to your terminal (command line) and enter the psql prompt by doing:"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:164
 # bc6b4c62eb4e4b4cab4e4eccfc7dc41f
-msgid "We'll demo some of these select statements by creating views from them, so that you can open them in QGIS and see the results."
+#: ..\..\postgis\spatial_queries.rst:164
+msgid ""
+"We'll demo some of these select statements by creating views from them, so "
+"that you can open them in QGIS and see the results."
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:168
 # 185d31c67fff46b4929582f5bc52babb
+#: ..\..\postgis\spatial_queries.rst:168
 msgid "Select by location"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:170
 # c7ea61d076ce4f838e11273ef6deb6ef
+#: ..\..\postgis\spatial_queries.rst:170
 msgid "Get all the buildings in the KwaZulu region."
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:192
 # 78ad742e51544b2c971547fc6e601fbc
+#: ..\..\postgis\spatial_queries.rst:192
 msgid "Or, if we create a view from it:"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:202
 # 435da2c6de264143b1919d5c0cb95671
+#: ..\..\postgis\spatial_queries.rst:202
 msgid "And view it in QGIS:"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:208
 # 25f08cdc77b24e3e8e793c28fff77bca
+#: ..\..\postgis\spatial_queries.rst:208
 msgid "Select neighbors"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:210
 # e7a397d04d2843e894f0dfeef98f9ca0
+#: ..\..\postgis\spatial_queries.rst:210
 msgid "Show a list of all the names of regions adjoining the Hokkaido region."
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:230
 # 78b8756421434af5b6c36f70c28a05b7
+#: ..\..\postgis\spatial_queries.rst:230
 msgid "As a view:"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:240
-#: ..\..\postgis\spatial_queries.rst:285
 # 982f6cb2fd50482fa6f8bc6dffec1636
 # 7add82cc3a044649929c0496ac002bed
+#: ..\..\postgis\spatial_queries.rst:240 ..\..\postgis\spatial_queries.rst:285
 msgid "In QGIS:"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:245
 # 0e573831f4fa43dc982fcf45a6a3d4f0
-msgid "Note the missing region (Queensland). This may be due to a topology error. Artifacts such as this can alert us to potential problems in the data. To solve this enigma without getting caught up in the anomalies the data may have, we could use a buffer intersect instead:"
+#: ..\..\postgis\spatial_queries.rst:245
+msgid ""
+"Note the missing region (Queensland). This may be due to a topology error. "
+"Artifacts such as this can alert us to potential problems in the data. To "
+"solve this enigma without getting caught up in the anomalies the data may "
+"have, we could use a buffer intersect instead:"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:257
 # 821aaabbe8bb4cfab082aa01be465849
+#: ..\..\postgis\spatial_queries.rst:257
 msgid "This creates a buffer of 100 meters around the region Hokkaido."
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:259
 # 68e6a94046cd46cbbbf0b6d5e318944b
+#: ..\..\postgis\spatial_queries.rst:259
 msgid "The darker area is the buffer:"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:264
 # aa76dd92c3df4499ae2ce5366822ffce
+#: ..\..\postgis\spatial_queries.rst:264
 msgid "Select using the buffer:"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:279
 # d738ac7ba000459cb60103fb10cd73f5
-msgid "In this query, the original buffer view is used as any other table would be. It is given the alias :kbd:`a`, and its geometry field, :kbd:`a.the_geom`, is used to select any polygon in the :kbd:`region` table (alias :kbd:`b`) that intersects it. However, Hokkaido itself is excluded from this select statement, because we don't want it; we only want the regions adjoining it."
+#: ..\..\postgis\spatial_queries.rst:279
+msgid ""
+"In this query, the original buffer view is used as any other table would be. "
+"It is given the alias :kbd:`a`, and its geometry field, :kbd:`a.the_geom`, "
+"is used to select any polygon in the :kbd:`region` table (alias :kbd:`b`) "
+"that intersects it. However, Hokkaido itself is excluded from this select "
+"statement, because we don't want it; we only want the regions adjoining it."
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:290
 # 0dde1d262b584a5c84197738a50f6805
-msgid "It is also possible to select all objects within a given distance, without the extra step of creating a buffer:"
+#: ..\..\postgis\spatial_queries.rst:290
+msgid ""
+"It is also possible to select all objects within a given distance, without "
+"the extra step of creating a buffer:"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:302
 # 279bd561d0d6486e8f48ec1dcd3aa5a9
-msgid "This achieves the same result, without need for the interim buffer step:"
+#: ..\..\postgis\spatial_queries.rst:302
+msgid ""
+"This achieves the same result, without need for the interim buffer step:"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:309
 # fb7f7171c3a746f684c07519a72032fb
+#: ..\..\postgis\spatial_queries.rst:309
 msgid "Select uniques"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:311
 # af00ee6f346d4f9e853ec3e3ebaca797
-msgid "Show a list of unique town names for all buildings in the Queensland region."
+#: ..\..\postgis\spatial_queries.rst:311
+msgid ""
+"Show a list of unique town names for all buildings in the Queensland region."
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:333
 # 2661ae93dcf341738a66b42da60a568f
+#: ..\..\postgis\spatial_queries.rst:333
 msgid "Further examples ..."
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:392
 # 6d41b9e7d10148f78d4f70a1cd99a734
+#: ..\..\postgis\spatial_queries.rst:392
 msgid "|IC|"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:394
 # 1486bee7f99c4357bbd03e60da07f23e
-msgid "You have seen how to query spatial objects using the new database functions from PostGIS."
+#: ..\..\postgis\spatial_queries.rst:394
+msgid ""
+"You have seen how to query spatial objects using the new database functions "
+"from PostGIS."
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:398
 # 2770977ee80445e2bfb0709337454262
+#: ..\..\postgis\spatial_queries.rst:398
 msgid "|WN|"
 msgstr ""
 
-#: ..\..\postgis\spatial_queries.rst:400
 # 08415fb6db4b457fb1e02208d199a548
-msgid "Next we're going to investigate the structures of more complex geometries and how to create them using PostGIS."
+#: ..\..\postgis\spatial_queries.rst:400
+msgid ""
+"Next we're going to investigate the structures of more complex geometries "
+"and how to create them using PostGIS."
 msgstr ""
-
