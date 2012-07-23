@@ -80,7 +80,7 @@ msgid ""
 "online to install the postgis stack."
 msgstr ""
 "Sedikit lebih rumit, tetapi masih tidak susah. Perhatikan bahwa Anda perlu "
-"online untuk menginstal stack pada PostGIS. "
+"terkoneksi dengan internet untuk menginstal stack pada PostGIS. "
 
 # 057a4b068a034878ae9b2d025e127c79
 #: ..\..\postgis\spatial_functions.rst:34
