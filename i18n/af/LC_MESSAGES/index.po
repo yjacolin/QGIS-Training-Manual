@@ -8,31 +8,31 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-20 10:03\n"
+"POT-Creation-Date: 2012-07-20 09:16\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../index.rst:25
 # cb1eeec9bf354a61b55c11645020c738
+#: ../../index.rst:25
 msgid "Indices and tables"
 msgstr ""
 
-#: ../../index.rst:27
 # 23926b00111a415593e3b0a6a9791894
+#: ../../index.rst:27
 msgid ":ref:`genindex`"
 msgstr ""
 
-#: ../../index.rst:28
 # 155df6a3bd7b4b9cb468a15ac2f56df9
+#: ../../index.rst:28
 msgid ":ref:`modindex`"
 msgstr ""
 
-#: ../../index.rst:29
 # 04e9afe7a24749a4af0552602d290793
+#: ../../index.rst:29
 msgid ":ref:`search`"
 msgstr ""
-
