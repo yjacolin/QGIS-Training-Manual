@@ -23,19 +23,21 @@ msgstr "Les: Vektoranalise"
 
 # 43f76f93c32449a8ab800413cc68bd8d
 #: ..\..\vector_analysis\basic_analysis.rst:4
+#, fuzzy
 msgid ""
 "Vector data can also be analyzed to reveal how different features interact "
 "with each other in space. There are many different analysis-related "
 "functions in GIS, so we won't go through them all. Rather, we'll pose a "
 "question and try to solve it using the tools that QGIS provides."
-msgstr "sdfgsdfgh."
+msgstr ""
 
 # 31b20d5348ee40039b874a6347cf09ab
 #: ..\..\vector_analysis\basic_analysis.rst:9
+#, fuzzy
 msgid ""
 "**The goal for this lesson:** To ask a question and solve it using analysis "
 "tools."
-msgstr "dfgdsgfsdgfsdg."
+msgstr ""
 
 # fb62d55097c84ac89855b5916976be64
 #: ..\..\vector_analysis\basic_analysis.rst:14
@@ -168,16 +170,19 @@ msgstr ""
 
 # b288705b2a514729b9cf24b0a3f9c630
 #: ..\..\vector_analysis\basic_analysis.rst:58
+#, fuzzy
 msgid "So now that we know what we want to do, let's start doing it!"
 msgstr ""
 
 # 618c16c1cf414df1b1e9018c70b15b88
 #: ..\..\vector_analysis\basic_analysis.rst:60
+#, fuzzy
 msgid "Start a new QGIS project."
 msgstr ""
 
 # 55fda5a00021413f8907ec21db197862
 #: ..\..\vector_analysis\basic_analysis.rst:61
+#, fuzzy
 msgid ""
 "Start adding new layers. They're all to be found in the "
 ":kbd:`exercise_data/projected_data` folder."
@@ -185,12 +190,14 @@ msgstr ""
 
 # a5aafb646e0c4baeaf6a1e2b8ae781e1
 #: ..\..\vector_analysis\basic_analysis.rst:63
+#, fuzzy
 msgid ""
 "Add the :kbd:`schools_33S`, :kbd:`roads_33S` and :kbd:`farms_33S` layers."
 msgstr ""
 
 # 9960462042c84f96b2e9869766f0ba4a
 #: ..\..\vector_analysis\basic_analysis.rst:65
+#, fuzzy
 msgid ""
 "They'll probably look very familiar. They're the same data we've been "
 "working with all along, except that they're now in a Projected Coordinate "
@@ -201,11 +208,13 @@ msgstr ""
 
 # a567a4ee29f44cebb47eae412138c588
 #: ..\..\vector_analysis\basic_analysis.rst:71
+#, fuzzy
 msgid "Once you've got these layers in your :guilabel:`Layers list`:"
 msgstr ""
 
 # 5fc1be77d3054d4cafeec1b24164678f
 #: ..\..\vector_analysis\basic_analysis.rst:73
+#, fuzzy
 msgid ""
 "Rename the layers by right-clicking on them and selecting the "
 ":guilabel:`Rename` option."
@@ -213,6 +222,7 @@ msgstr ""
 
 # 847d339ce78f4de3a30495ee6ea47df9
 #: ..\..\vector_analysis\basic_analysis.rst:75
+#, fuzzy
 msgid ""
 "Give them the new, less messy names :kbd:`roads`, :kbd:`schools` and "
 ":kbd:`farms`."
@@ -220,11 +230,13 @@ msgstr ""
 
 # ae807288f6254b178ed65301e079333a
 #: ..\..\vector_analysis\basic_analysis.rst:77
+#, fuzzy
 msgid "Save your map under :guilabel:`exercise_data`, as :kbd:`analysis.qgs`."
 msgstr ""
 
 # df2af37fce7f44fb8c74b4b0be7e54ff
 #: ..\..\vector_analysis\basic_analysis.rst:78
+#, fuzzy
 msgid ""
 "In your operating system's file manager, create a new folder under "
 ":guilabel:`exercise_data` and call it :kbd:`residential_development`. This "
@@ -234,16 +246,19 @@ msgstr ""
 
 # fe691b1cf594461489e2fdaada8e5742
 #: ..\..\vector_analysis\basic_analysis.rst:83
+#, fuzzy
 msgid "Now that we've got the data, let's analyze the problem!"
 msgstr ""
 
 # 0246c9aa15a241379eb4f67b6535bc49
 #: ..\..\vector_analysis\basic_analysis.rst:86
+#, fuzzy
 msgid "|basic| |FA| Analyzing the Problem: Farms in Swellendam"
 msgstr ""
 
 # f5f3dd0bc88e49029d0e89e18a7f6ccc
 #: ..\..\vector_analysis\basic_analysis.rst:88
+#, fuzzy
 msgid ""
 "The first criterion we're facing is that the farm needs to be in Swellendam. "
 "So let's tell QGIS to only show us the farms that are, in fact, in "
@@ -252,12 +267,14 @@ msgstr ""
 
 # ef48415b231b4df2befae2799bf77da9
 #: ..\..\vector_analysis\basic_analysis.rst:91
+#, fuzzy
 msgid ""
 "Right-click on the :guilabel:`farms` layer in the :guilabel:`Layers list`."
 msgstr ""
 
 # e0cdf3fa12d54520adb0949c201e02b6
 #: ..\..\vector_analysis\basic_analysis.rst:92
+#, fuzzy
 msgid ""
 "Select the option :guilabel:`Query...`. This gives you a new "
 ":guilabel:`Query Builder` dialog."
@@ -265,6 +282,7 @@ msgstr ""
 
 # 345f2fdfcaeb444c8803cb6c7237b133
 #: ..\..\vector_analysis\basic_analysis.rst:94
+#, fuzzy
 msgid ""
 "Scroll down in the :guilabel:`Fields` list on the left of this dialog until "
 "you see the field :kbd:`TOWN`."
@@ -272,17 +290,20 @@ msgstr ""
 
 # 6a46577b607946ef96fb1c4e539af58c
 #: ..\..\vector_analysis\basic_analysis.rst:96
+#, fuzzy
 msgid "Click on it once."
 msgstr ""
 
 # 75ad32550304420cadccba85bf698e6d
 #: ..\..\vector_analysis\basic_analysis.rst:97
+#, fuzzy
 msgid ""
 "Click the :guilabel:`All` button underneath the :guilabel:`Values` list:"
 msgstr ""
 
 # 7c47925f290b4f119058bf76ce8a59b1
 #: ..\..\vector_analysis\basic_analysis.rst:102
+#, fuzzy
 msgid ""
 "Now we need to tell QGIS to only show us the farms where the value of "
 ":kbd:`TOWN` is equal to :kbd:`Swellendam`."
@@ -290,42 +311,50 @@ msgstr ""
 
 # 95f67d15a7644718be067c170dc00623
 #: ..\..\vector_analysis\basic_analysis.rst:105
+#, fuzzy
 msgid "Double-click the word :kbd:`TOWN` in the :guilabel:`Fields` list."
 msgstr ""
 
 # 2a0f2232d3704cbf82bd7d13d7ccf2d3
 #: ..\..\vector_analysis\basic_analysis.rst:106
+#, fuzzy
 msgid "Watch what happens in the :guilabel:`SQL where clause` field below:"
 msgstr ""
 
 # 7298b6921d0a49d28ad88d074115c144
 #: ..\..\vector_analysis\basic_analysis.rst:111
+#, fuzzy
 msgid "The word :kbd:`\"TOWN\"` has appeared! To build the rest of the query:"
 msgstr ""
 
 # fd19dcb2bd0143399053274e853e9c30
 #: ..\..\vector_analysis\basic_analysis.rst:113
+#, fuzzy
 msgid "Click the :guilabel:`=` button (under :guilabel:`Operators`)."
 msgstr ""
 
 # d5a8af75b988479f935eb8228a01744c
 #: ..\..\vector_analysis\basic_analysis.rst:114
+#, fuzzy
 msgid ""
 "Double-click the value :kbd:`Swellendam` in the :guilabel:`Values` list."
 msgstr ""
 
 # ca3a24748f5d48ef9e1247010c00b30a
 #: ..\..\vector_analysis\basic_analysis.rst:116
+#, fuzzy
 msgid "Your query is this:"
 msgstr ""
 
 # ac05e8403d134cf38582db41d4a96f94
 #: ..\..\vector_analysis\basic_analysis.rst:121
+#, fuzzy
 msgid "And now your :guilabel:`farms` layer looks like this:"
 msgstr ""
 
 # ac7d56a28f4d4ac582cc3cdbcd78e3a9
 #: ..\..\vector_analysis\basic_analysis.rst:126
+#, fuzzy
 msgid ""
 "For further analysis, it's better if we've got these farms as a separate "
 "layer."
@@ -333,12 +362,14 @@ msgstr ""
 
 # d05ae55ec24c4132b2b8ba1a595f16f5
 #: ..\..\vector_analysis\basic_analysis.rst:128
+#, fuzzy
 msgid ""
 "Right-click on the :guilabel:`farms` layer and click :guilabel:`Save As...`."
 msgstr ""
 
 # 83fc7f8a9c404ed9bc07345bc22f3566
 #: ..\..\vector_analysis\basic_analysis.rst:129
+#, fuzzy
 msgid ""
 "Next to the :guilabel:`Save as` field in the dialog that appears, click the "
 ":guilabel:`Browse` button."
@@ -346,6 +377,7 @@ msgstr ""
 
 # 1c292ef53a2f4ebb8ed90586b39e0e59
 #: ..\..\vector_analysis\basic_analysis.rst:131
+#, fuzzy
 msgid ""
 "Save the layer under :kbd:`exercise_data/residential_development/`, as "
 ":kbd:`swellendam_farms.shp`."
@@ -353,6 +385,7 @@ msgstr ""
 
 # e3613cab7f834a0fa200b6e8076a777c
 #: ..\..\vector_analysis\basic_analysis.rst:133
+#, fuzzy
 msgid ""
 "Check the :guilabel:`Add saved file to map` box in the :guilabel:`Save "
 "vector layer as...` dialog."
@@ -360,6 +393,7 @@ msgstr ""
 
 # a4de46f619334261bb33d10718f7cd93
 #: ..\..\vector_analysis\basic_analysis.rst:135
+#, fuzzy
 msgid ""
 "Click :guilabel:`OK`. It will tell you that :kbd:`Export to vector file has "
 "been completed`."
@@ -373,11 +407,13 @@ msgstr ""
 #: ..\..\vector_analysis\basic_analysis.rst:230
 #: ..\..\vector_analysis\basic_analysis.rst:309
 #: ..\..\vector_analysis\basic_analysis.rst:340
+#, fuzzy
 msgid "Click :guilabel:`OK`."
 msgstr "Klik :guilabel:`OK`."
 
 # d370595702e947688580d4dc8ffee114
 #: ..\..\vector_analysis\basic_analysis.rst:139
+#, fuzzy
 msgid ""
 "Now we've got the :guilabel:`farms` twice, but we only need the one we just "
 "created."
@@ -385,16 +421,19 @@ msgstr ""
 
 # 9eaf80fe6848492facd84ffbce0d9565
 #: ..\..\vector_analysis\basic_analysis.rst:142
+#, fuzzy
 msgid "Right-click on the old :guilabel:`farms` layer and remove it."
 msgstr ""
 
 # 8b96c07e94ae427a9d107068b598376b
 #: ..\..\vector_analysis\basic_analysis.rst:148
+#, fuzzy
 msgid "|basic| |TY| find important roads"
 msgstr ""
 
 # 8abae5423b514ad1b29e6f76db02a5e1
 #: ..\..\vector_analysis\basic_analysis.rst:150
+#, fuzzy
 msgid ""
 "We have a similar problem with the roads; the only roads we're taking into "
 "account are the main ones."
@@ -402,6 +441,7 @@ msgstr ""
 
 # a4e0b07747ec4d8094f83720a9f1e70e
 #: ..\..\vector_analysis\basic_analysis.rst:153
+#, fuzzy
 msgid ""
 "Build a query for the :guilabel:`roads` layer, like you did above for the "
 ":guilabel:`farms` layer. You want only the types :kbd:`primary`, "
@@ -411,6 +451,7 @@ msgstr ""
 
 # cc4f9f7cd7054bcfb07b24a1e329bea1
 #: ..\..\vector_analysis\basic_analysis.rst:158
+#, fuzzy
 msgid ""
 ":kbd:`\"TYPE\" = 'primary' OR \"TYPE\" = 'secondary' OR \"TYPE\" = "
 "'tertiary' OR \"TYPE\" = 'trunk'`"
@@ -418,6 +459,7 @@ msgstr ""
 
 # ec9b37211e4d46709835c2224a0bed55
 #: ..\..\vector_analysis\basic_analysis.rst:161
+#, fuzzy
 msgid ""
 "You can either use the approach above, where you double-clicked values and "
 "clicked buttons, or you can copy and paste the command above."
@@ -425,21 +467,25 @@ msgstr ""
 
 # d69acb91b7104d6bbc4ea079c0874225
 #: ..\..\vector_analysis\basic_analysis.rst:164
+#, fuzzy
 msgid ":ref:`Check your results <vector-analysis-basic-1>`"
 msgstr ""
 
 # 3914b9ff3a0d48608fa9b4f47a679877
 #: ..\..\vector_analysis\basic_analysis.rst:167
+#, fuzzy
 msgid "|basic| |TY| find high schools"
 msgstr ""
 
 # d007e38c176142d0b2228fe47c0c3512
 #: ..\..\vector_analysis\basic_analysis.rst:169
+#, fuzzy
 msgid "Your future customers will want to send their children to high schools."
 msgstr ""
 
 # 24e1992bce074538b3601377ed84f1e5
 #: ..\..\vector_analysis\basic_analysis.rst:171
+#, fuzzy
 msgid ""
 "Use the same approach as before and build this query for the "
 ":guilabel:`schools` layer:"
@@ -447,16 +493,19 @@ msgstr ""
 
 # 1452d3be51904236a8b41122ec55ffa2
 #: ..\..\vector_analysis\basic_analysis.rst:174
+#, fuzzy
 msgid ":kbd:`\"has_high_s\" = 'y'`"
 msgstr ""
 
 # 5fd28310bfe84b91a080d4fb93957e51
 #: ..\..\vector_analysis\basic_analysis.rst:176
+#, fuzzy
 msgid "You should have only 3 out of the 4 original schools left."
 msgstr ""
 
 # 34bf7b3ad5114f41b6442bb3638a9a3a
 #: ..\..\vector_analysis\basic_analysis.rst:178
+#, fuzzy
 msgid ""
 "Save the resulting layer under :kbd:`exercise_data/residential_development/` "
 "as :kbd:`high_schools.shp`."
@@ -464,16 +513,19 @@ msgstr ""
 
 # 9bb5233959ba425695571e5009d3bd30
 #: ..\..\vector_analysis\basic_analysis.rst:183
+#, fuzzy
 msgid "|basic| |FA| Analyzing the Problem: Distances From Schools and Roads"
 msgstr ""
 
 # e9f8e4fc73024ea8a1721a2181efa5b1
 #: ..\..\vector_analysis\basic_analysis.rst:185
+#, fuzzy
 msgid "QGIS allows you to calculate distances from any vector object."
 msgstr ""
 
 # f47fcfac692e4c529927848a8ad55375
 #: ..\..\vector_analysis\basic_analysis.rst:187
+#, fuzzy
 msgid ""
 "Make sure that only the :guilabel:`important_roads` and "
 ":guilabel:`swellendam_farms` layers are visible, to simplify the map while "
@@ -482,6 +534,7 @@ msgstr ""
 
 # 79410186b72445a889d050093adf07df
 #: ..\..\vector_analysis\basic_analysis.rst:190
+#, fuzzy
 msgid ""
 "Click on the :menuselection:`Vector --> Geoprocessing Tools --> Buffer(s)` "
 "tool:"
@@ -489,6 +542,7 @@ msgstr ""
 
 # 7bc53d7968ef46598203971e5b026d1b
 #: ..\..\vector_analysis\basic_analysis.rst:196
+#, fuzzy
 msgid "This gives you a new dialog."
 msgstr ""
 
@@ -498,11 +552,13 @@ msgstr ""
 #: ..\..\vector_analysis\basic_analysis.rst:198
 #: ..\..\vector_analysis\basic_analysis.rst:288
 #: ..\..\vector_analysis\basic_analysis.rst:330
+#, fuzzy
 msgid "Set it up like this:"
 msgstr ""
 
 # 66c718fb49cc4e1084053960868fd92e
 #: ..\..\vector_analysis\basic_analysis.rst:203
+#, fuzzy
 msgid ""
 "The :guilabel:`Buffer distance` is in meters because our input dataset is in "
 "a Projected Coordinate System. This is why we needed to use projected data!"
@@ -510,6 +566,7 @@ msgstr ""
 
 # 0c8b0a07ea5d4720929dc523e46cafca
 #: ..\..\vector_analysis\basic_analysis.rst:206
+#, fuzzy
 msgid ""
 "Save the resulting layer under :kbd:`exercise_data/residential_development/` "
 "as :kbd:`important_roads_buffer_500m.shp`."
@@ -517,11 +574,13 @@ msgstr ""
 
 # 869d9311c41f4d5fac29e4a70e7144de
 #: ..\..\vector_analysis\basic_analysis.rst:208
+#, fuzzy
 msgid "Click :guilabel:`OK` and it will create the buffer."
 msgstr ""
 
 # de904f50f4ef4479acddce08278c0772
 #: ..\..\vector_analysis\basic_analysis.rst:209
+#, fuzzy
 msgid ""
 "When it asks you if it should \"add the new layer to the TOC\", click "
 ":guilabel:`Yes`. (\"TOC\" stands for \"Table of Contents\", by which it "
@@ -530,11 +589,13 @@ msgstr ""
 
 # 137b0a01d90144959b8305e5595ebf19
 #: ..\..\vector_analysis\basic_analysis.rst:213
+#, fuzzy
 msgid "Now you've got this:"
 msgstr ""
 
 # eeb70196d0704693accad7e2ca2b8898
 #: ..\..\vector_analysis\basic_analysis.rst:218
+#, fuzzy
 msgid ""
 "OK, that looks interesting! Those are all the areas that are within 500 "
 "meters of an important road."
@@ -542,6 +603,7 @@ msgstr ""
 
 # 8ce3b9f5ad8842a69e1d2509662ca7cf
 #: ..\..\vector_analysis\basic_analysis.rst:221
+#, fuzzy
 msgid ""
 "But look closer: it looks like there are joins between different sections of "
 "road! That's not nice. Remove that layer and let's try again:"
@@ -549,12 +611,14 @@ msgstr ""
 
 # b34e6e9264c049d9bd34936abdb823d5
 #: ..\..\vector_analysis\basic_analysis.rst:227
+#, fuzzy
 msgid ""
 "Note that we're now checking the :guilabel:`Dissolve buffer results` box."
 msgstr ""
 
 # feee664aab244f1c9c0d01521ef74c08
 #: ..\..\vector_analysis\basic_analysis.rst:228
+#, fuzzy
 msgid ""
 "Save the output under the same name as before (click :guilabel:`Yes` when it "
 "asks your permission to overwrite the old one)."
@@ -562,6 +626,7 @@ msgstr ""
 
 # 1f21154ab7e5452588038c24fbd1054a
 #: ..\..\vector_analysis\basic_analysis.rst:232
+#, fuzzy
 msgid ""
 "Once you've added the layer to the :guilabel:`Layers list`, it will look "
 "like this:"
@@ -569,21 +634,25 @@ msgstr ""
 
 # 8a8ff16123964ea29ccf3a34d2ef9ae0
 #: ..\..\vector_analysis\basic_analysis.rst:238
+#, fuzzy
 msgid "That's more like it! Now there are no unnecessary subdivisions."
 msgstr ""
 
 # e1e4dfeab8ff48159a882af950a3e818
 #: ..\..\vector_analysis\basic_analysis.rst:243
+#, fuzzy
 msgid "|basic| |TY| distance from high schools"
 msgstr ""
 
 # 27ed5f0b48334910b6c1d59b00682d69
 #: ..\..\vector_analysis\basic_analysis.rst:245
+#, fuzzy
 msgid "Use the same approach as above and create a buffer for your schools."
 msgstr ""
 
 # 29a10a0bb10a4162b5558de4aef68631
 #: ..\..\vector_analysis\basic_analysis.rst:247
+#, fuzzy
 msgid ""
 "It needs to be :kbd:`10 km` in radius, and saved under the usual directory "
 "as :kbd:`high_schools_buffer_10km.shp`."
@@ -591,16 +660,19 @@ msgstr ""
 
 # 2f3dd50f73d94874b33d27757041911e
 #: ..\..\vector_analysis\basic_analysis.rst:250
+#, fuzzy
 msgid ":ref:`Check your results <vector-analysis-basic-2>`"
 msgstr ""
 
 # bf113b0e5dd8469c97ca0e004efbef91
 #: ..\..\vector_analysis\basic_analysis.rst:253
+#, fuzzy
 msgid "|basic| |FA| Overlapping Areas"
 msgstr ""
 
 # a41aa1a82cfb4e2ea615e00710ab4d44
 #: ..\..\vector_analysis\basic_analysis.rst:255
+#, fuzzy
 msgid ""
 "Now we have areas where the road in 500 meters away and there's a school "
 "within 10 km (as the crow flies). But obviously, we only want the areas "
@@ -611,6 +683,7 @@ msgstr ""
 
 # c9fdccb82bf643e596360eafb3336222
 #: ..\..\vector_analysis\basic_analysis.rst:264
+#, fuzzy
 msgid ""
 "The two input layers are the two buffers; the save location is as usual; and "
 "the file name is :kbd:`road_school_buffers_intersect.shp`. Once it's set up "
@@ -620,6 +693,7 @@ msgstr ""
 
 # a4e4d7265b9a45bbaa9bbeb7b14b0e68
 #: ..\..\vector_analysis\basic_analysis.rst:269
+#, fuzzy
 msgid ""
 "In the image below, the blue areas show us where both distance criteria are "
 "satisfied at once!"
@@ -627,6 +701,7 @@ msgstr ""
 
 # 734bc53247e44178832ab843412b76df
 #: ..\..\vector_analysis\basic_analysis.rst:275
+#, fuzzy
 msgid ""
 "You may remove the two buffer layers and only keep the one that shows where "
 "they overlap, since that's what we really wanted to know in the first place."
@@ -634,11 +709,13 @@ msgstr ""
 
 # 47d537786167429d9843b2d32e80c9d7
 #: ..\..\vector_analysis\basic_analysis.rst:281
+#, fuzzy
 msgid "|basic| |FA| Select the Farms"
 msgstr ""
 
 # b73f3ac7fafd4f04bddbd0ed2da04ebf
 #: ..\..\vector_analysis\basic_analysis.rst:283
+#, fuzzy
 msgid ""
 "Now you've got the area that the farms must overlap. Next, you want to "
 "select the farms in that area."
@@ -646,6 +723,7 @@ msgstr ""
 
 # a00fa9acfd094c208c7f7904a7f9cdac
 #: ..\..\vector_analysis\basic_analysis.rst:286
+#, fuzzy
 msgid ""
 "Click on the menu entry :menuselection:`Vector --> Research Tools --> Select "
 "by location`. A dialog will appear."
@@ -653,16 +731,19 @@ msgstr ""
 
 # 45f7337b32af46a08cb6306e527af150
 #: ..\..\vector_analysis\basic_analysis.rst:293
+#, fuzzy
 msgid "Click :guilabel:`OK` and you'll see the results:"
 msgstr ""
 
 # 4c27e3d777ed4f2b9887067712c219eb
 #: ..\..\vector_analysis\basic_analysis.rst:298
+#, fuzzy
 msgid "The yellow farms are the selected ones. Let's save them as a new layer."
 msgstr ""
 
 # 177063e2f2d0441297af5b522aca4b99
 #: ..\..\vector_analysis\basic_analysis.rst:300
+#, fuzzy
 msgid ""
 "Right-click on the :guilabel:`swellendam_farms` layer in the "
 ":guilabel:`Layers list`."
@@ -670,31 +751,37 @@ msgstr ""
 
 # af7d46316199493fb7fe202ef3f30d9a
 #: ..\..\vector_analysis\basic_analysis.rst:302
+#, fuzzy
 msgid "Select :guilabel:`Save Selection As...`."
 msgstr ""
 
 # 4614f3848ae54b1eb32b259fab0e5051
 #: ..\..\vector_analysis\basic_analysis.rst:303
+#, fuzzy
 msgid "Set the dialog up like this:"
 msgstr ""
 
 # 5979ef6b604649a8a160dfd2a040e500
 #: ..\..\vector_analysis\basic_analysis.rst:308
+#, fuzzy
 msgid "The file name is :kbd:`well_located_farms.shp`."
 msgstr ""
 
 # e5ee960645734956bdb0797633886092
 #: ..\..\vector_analysis\basic_analysis.rst:311
+#, fuzzy
 msgid "Now you have the selection as a separate layer."
 msgstr ""
 
 # 7acd4b92ccfc4128b8558181eb582d0a
 #: ..\..\vector_analysis\basic_analysis.rst:314
+#, fuzzy
 msgid "|basic| |FA| Select Farms of the Right Size"
 msgstr ""
 
 # acf37477f848418da830e1c29986ae52
 #: ..\..\vector_analysis\basic_analysis.rst:316
+#, fuzzy
 msgid ""
 "To see which farms are the right area (between 100 and 150 ha), we first "
 "need to calculate their areas in hectares."
@@ -702,26 +789,31 @@ msgstr ""
 
 # d0a2008b6cfc43d9af644a9c9a0aedf8
 #: ..\..\vector_analysis\basic_analysis.rst:319
+#, fuzzy
 msgid "Open the attribute table for the :guilabel:`well_located_farms` layer."
 msgstr ""
 
 # 8616824c72aa4b84a99475792afed3ea
 #: ..\..\vector_analysis\basic_analysis.rst:320
+#, fuzzy
 msgid "Enter edit mode:"
 msgstr ""
 
 # 641a646077424b4095c2fad64d6c7359
 #: ..\..\vector_analysis\basic_analysis.rst:325
+#, fuzzy
 msgid "Start the field calculator:"
 msgstr ""
 
 # 1162f2f6ce414f28a0794fcbf623489e
 #: ..\..\vector_analysis\basic_analysis.rst:335
+#, fuzzy
 msgid "If you can't find :guilabel:`AREA` in the list, try this instead:"
 msgstr ""
 
 # 5c0db3cdb3134a9aacf0ad0ec30077b5
 #: ..\..\vector_analysis\basic_analysis.rst:341
+#, fuzzy
 msgid ""
 "Scroll to the right of the attribute table; your :kbd:`AREA` field now has "
 "areas in hectares for all the farms in your :guilabel:`well_located_farms` "
@@ -730,33 +822,39 @@ msgstr ""
 
 # 34c7e2602e4346e791f39186ac196fab
 #: ..\..\vector_analysis\basic_analysis.rst:344
+#, fuzzy
 msgid ""
 "Click the edit mode button again as above, and save your edits when prompted."
 msgstr ""
 
 # d6faf78d581e4ac9a6f8623f24430384
 #: ..\..\vector_analysis\basic_analysis.rst:345
+#, fuzzy
 msgid "Do a query:"
 msgstr ""
 
 # f7251a6146d54c78857d667db496d6ed
 #: ..\..\vector_analysis\basic_analysis.rst:350
+#, fuzzy
 msgid "Click :guilabel:`OK`. Your results should look like this:"
 msgstr ""
 
 # 9707c551658b4a05a2081ccc83bea548
 #: ..\..\vector_analysis\basic_analysis.rst:355
+#, fuzzy
 msgid ""
 "That's it! Those red farms are the ones satisfying your criteria. Well done!"
 msgstr ""
 
 # dc331f27a34b4d0cbd3a5130342a3074
 #: ..\..\vector_analysis\basic_analysis.rst:358
+#, fuzzy
 msgid "|basic| |TY|"
 msgstr ""
 
 # d17bc58ce4ac46e2895e476d3ff11503
 #: ..\..\vector_analysis\basic_analysis.rst:360
+#, fuzzy
 msgid ""
 "Save your solution as a new layer, using the approach you learned above for "
 "doing so. The file should be saved under the usual directory, with the name "
@@ -765,11 +863,13 @@ msgstr ""
 
 # 1e87f846c39d43b1ac19420ca5b185a5
 #: ..\..\vector_analysis\basic_analysis.rst:365
+#, fuzzy
 msgid "|IC|"
 msgstr ""
 
 # ba92e60517034f13a1378e063470dc6f
 #: ..\..\vector_analysis\basic_analysis.rst:367
+#, fuzzy
 msgid ""
 "Using the GIS problem-solving approach together with QGIS vector analysis "
 "tools, you were able to solve a problem with multiple criteria quickly and "
@@ -778,11 +878,13 @@ msgstr ""
 
 # 2fe33cfc0ec4463e99cfb04ec7f61bc1
 #: ..\..\vector_analysis\basic_analysis.rst:372
+#, fuzzy
 msgid "|WN|"
 msgstr ""
 
 # bd21c81403ce4632962b315519624864
 #: ..\..\vector_analysis\basic_analysis.rst:374
+#, fuzzy
 msgid ""
 "In the next lesson, we'll look at how to calculate the shortest distance "
 "along the road from one point to another."

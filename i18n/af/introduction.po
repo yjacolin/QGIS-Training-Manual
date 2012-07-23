@@ -31,6 +31,7 @@ msgstr "Les: Kortlikse Inleiding"
 
 # bef2bc208d724ca8b270df71050fd042
 #: ../../../introduction/intro.rst:4
+#, fuzzy
 msgid ""
 "Welcome to our course! Over the next few days, we'll be showing you how to "
 "use QGIS easily and efficiently. If you're new to GIS, we'll tell you what "
@@ -491,7 +492,7 @@ msgid ""
 "well appear somewhat different. However, all the same buttons will still be "
 "available, and the instructions will work on any OS. You will need QGIS 1.8 "
 "(the latest version at time of writing) to use this course."
-msgstr ""
+msgstr "Translation"
 
 # d09acdc919cc41cd994aaf774775b3a7
 #: ../../../introduction/preparation.rst:21
