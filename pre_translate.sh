@@ -1,5 +1,5 @@
 #!/bin/bash
-LOCALES='af id'
+LOCALES='af id de'
 
 if [ $1 ]; then
   LOCALES=$1

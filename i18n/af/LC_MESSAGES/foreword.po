@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-20 09:16\n"
+"POT-Creation-Date: 2012-07-23 11:45\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,17 +17,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# ebddcd92d2a145a2b115d1f2a5db988c
+# b59ae6e97a9a4a408ec0c9932448ed85
 #: ../../foreword/foreword.rst:2
 msgid "Foreword"
 msgstr ""
 
-# a74a062c4743470197e4533542c7ebe1
+# eb1ad4cc806f4c629fa51b24fd4def44
 #: ../../foreword/foreword.rst:5
 msgid "Background"
 msgstr ""
 
-# 919397887cbd42caab8c18963db03d60
+# 7aff45af89bd42299129428db56aad90
 #: ../../foreword/foreword.rst:7
 msgid ""
 "In 2008 we launched the `Gentle Introduction to GIS <http://linfiniti.com/"
@@ -47,7 +47,7 @@ msgid ""
 "prompted us to produce this work."
 msgstr ""
 
-# 8691fce951034a2abafffac8406f5ce5
+# 1665602837e9464ab159a0121dcd7d10
 #: ../../foreword/foreword.rst:23
 msgid ""
 "This training manual is intended to provide all the materials needed to run "
@@ -56,12 +56,12 @@ msgid ""
 "many exercises complete with annotated answers throughout the text."
 msgstr ""
 
-# fbf86d2f4f88454bad9054c72a77539b
+# 5f822b6cf9cb44fb9b67d59485057e61
 #: ../../foreword/foreword.rst:29
 msgid "License"
 msgstr ""
 
-# 1496b86ad00a47d1b6528b639eb1c1e7
+# 105b0d447605440fbf7338b2d1d9dec4
 #: ../../foreword/foreword.rst:33
 msgid ""
 "The Free Quantum GIS Training Manual by Linfiniti Consulting CC. is licensed "
@@ -71,7 +71,7 @@ msgid ""
 "github.com/qgis/QGIS-Training-Manual/blob/master/index.rst."
 msgstr ""
 
-# e78a346e72cc4572b3b122ffa964fca6
+# 6933cdc744244eeba7417beab1883433
 #: ../../foreword/foreword.rst:39
 msgid ""
 "We have published this QGIS training manual under a liberal license that "
@@ -80,21 +80,21 @@ msgid ""
 "terms, the usage guidelines are as follows:"
 msgstr ""
 
-# 02261ffdc9c840b6aa7015166cc7e1ec
+# 6ef234c5774f43518fb42a621d4710f9
 #: ../../foreword/foreword.rst:44
 msgid ""
 "You may not represent this work as your own work, or remove any authorship "
 "text or credits from this work."
 msgstr ""
 
-# bdb9fa61367f454391d4c8b4d482765a
+# ca2d54835baa49479b8e37f041fdfe47
 #: ../../foreword/foreword.rst:46
 msgid ""
 "You may not redistribute this work under more restrictive permissions than "
 "those under which it was provided to you."
 msgstr ""
 
-# 3cbfd85fdbd04b27b2a456b81fa55513
+# fc670d9290314839b0cc78ce27da7976
 #: ../../foreword/foreword.rst:48
 msgid ""
 "If you add a substantitive portion to the work and contribute it back to the "
@@ -102,33 +102,33 @@ msgid ""
 "the authors list for this document (which will appear on the front page)"
 msgstr ""
 
-# e245f5c4e7544d49806818d1911dea87
+# e0dd7ce5c33141998c0ab5ba4e435619
 #: ../../foreword/foreword.rst:51
 msgid ""
 "If you contribute minor changes and corrections you may add yourself to the "
 "contributors list below."
 msgstr ""
 
-# 041af57b4c794457b4afef1b56d8859d
+# 6a7ae122d3f24bf388adea4d71b12083
 #: ../../foreword/foreword.rst:53
 msgid ""
 "If you translate this document in its entirety, you may add your name to the "
 "authors list in the form \"Translated by Joe Blogs\"."
 msgstr ""
 
-# 0926cf88f7dd4b428f00e1788eb5777a
+# 0d56cac9781e45369186660fc8bc350c
 #: ../../foreword/foreword.rst:55
 msgid ""
 "If you sponsor a module or lesson, you may request the author to include an "
 "acknowledgement in the beginning of each lesson contributed, e.g.:"
 msgstr ""
 
-# fcb0d2622ccf4bdcbcbc0c12f9184c28
+# 7d3fa91afdd448b0b36a1a2943e0e8b4
 #: ../../foreword/foreword.rst:58
 msgid "This lesson was sponsored by MegaCorp."
 msgstr ""
 
-# 653651911fd149958ed4af9c605728f9
+# bf0441b8e4b6459291b7a70db647b9b1
 #: ../../foreword/foreword.rst:60
 msgid ""
 "If you are unsure about what you may do under this license, please contact "
@@ -136,14 +136,14 @@ msgid ""
 "is acceptable."
 msgstr ""
 
-# 1c3a6632ed584eb8919b970ca3b9370c
+# 792a356aa370426ab35e4cffe29d5592
 #: ../../foreword/foreword.rst:63
 msgid ""
 "If you publish this work under a self publishing site such as http:://lulu."
 "com we request that you donate the profits to the QGIS project."
 msgstr ""
 
-# bd1db111d42b4a6fb67a718a4adec056
+# 7f3cf7c7460e4387a27eb645333fe56e
 #: ../../foreword/foreword.rst:65
 msgid ""
 "You may not commercialise this work, except with the expressed permission of "
@@ -158,12 +158,12 @@ msgid ""
 "should be contributed back to QGIS."
 msgstr ""
 
-# 21c1ab3d192f4754af18add675be9743
+# acbf37d3f8b64c9db14ae3854c1a9ca7
 #: ../../foreword/foreword.rst:78
 msgid "Sponsoring Chapters"
 msgstr ""
 
-# 7530cc967cef4f74b423407257fa71a9
+# 465c527c48654c6fa726b59813ca1436
 #: ../../foreword/foreword.rst:80
 msgid ""
 "This work is by no means a complete treatise on all the things you can do "
@@ -174,19 +174,19 @@ msgid ""
 "license."
 msgstr ""
 
-# 6cf99fe424dd40e89c644a2f01493ba7
+# 2e605b3d89db4cee877946b190810890
 #: ../../foreword/foreword.rst:87
 msgid "Authors"
 msgstr ""
 
-# 0dc236ead68a4abb85e9772c16426fca
+# 4455365c23bb442fb4f07fb1f93d16b6
 #: ../../foreword/foreword.rst:89
 msgid ""
 "Rüdiger Thiede (rudi@linfiniti.com) - Rudi has written the QGIS "
 "instructional materials and parts of the PostGIS materials."
 msgstr ""
 
-# 3caee61a12bc4bb7807ca5960f3d6877
+# 61d838930e9d47dc8f8cb66818e43559
 #: ../../foreword/foreword.rst:91
 msgid ""
 "Tim Sutton (tim@linfiniti.com) - Tim has overseen and guided the project and "
@@ -194,77 +194,77 @@ msgid ""
 "sphinx theme used for this manual."
 msgstr ""
 
-# fe48e0cb33314f9b840f6d943fbb9958
+# 19bec6ecdd9241b7a9987b1881157ba2
 #: ../../foreword/foreword.rst:94
 msgid ""
 "Horst Düster (horst.duester@kappasys.ch ) - Horst co-authored the PostgreSQL "
 "and PostGIS parts"
 msgstr ""
 
-# 82db8a163f244a2495cfd0e8e5c15ae2
+# 10407e092f264facb53a86dd4a85acb7
 #: ../../foreword/foreword.rst:96
 msgid ""
 "Marcelle Sutton (marcelle@linfiniti.com) - Marcelle provided proof reading "
 "and editorial advice during the creation of this work."
 msgstr ""
 
-# 5e6aaf9256f94e97bb0ba3a941f46dd0
+# 1767b6e16ac84348889607f80ef3e03e
 #: ../../foreword/foreword.rst:100
 msgid "Individual Contributors"
 msgstr ""
 
-# 93f50b17c7aa442d8ffbc47bc8b65f9f
+# d8c5953aadaa49778d48db33da09c86f
 #: ../../foreword/foreword.rst:102
 msgid "Your name here!"
 msgstr ""
 
-# 880465804ca04db0b516943c80c8a9e5
+# 61a3dc10b8f94cbfa865de7143347998
 #: ../../foreword/foreword.rst:105
 msgid "Sponsors"
 msgstr ""
 
-# 022299378ee740c19b0fba6cbb46a4f7
+# 5d4477dc8e244e92bec53db4f9f637bf
 #: ../../foreword/foreword.rst:107
 msgid "Cape Peninsula University of Technology"
 msgstr ""
 
-# b836981db3cd41c7b32f768f6b121f57
+# b77b104b995148019d1a6a26e5ef04c6
 #: ../../foreword/foreword.rst:110
 msgid "Data"
 msgstr ""
 
-# 76716e4a5c164eef9fa8a793cc7f7ce8
+# fc827f73e8d0457395561d7e89098f94
 #: ../../foreword/foreword.rst:112
 msgid ""
 "The sample data that accompanies this resource is freely available and comes "
 "from the following sources:"
 msgstr ""
 
-# 2a7a8fc8d0894a4488efbbe8812b4143
+# 7961e222c1654bc09cc94dbbfec61011
 #: ../../foreword/foreword.rst:115
 msgid ""
 "Streets and Places datasets from OpenStreetMap (http://www.openstreetmap."
 "org/)"
 msgstr ""
 
-# b44f77bfa7494da1b7cba775084772e5
+# b98c2a6033ad4609a14c2d02ed70c4b4
 #: ../../foreword/foreword.rst:116
 msgid ""
 "Property boundaries (urban and rural), water bodies from NGI (http://www.ngi."
 "gov.za/)"
 msgstr ""
 
-# 6890a5806af947309960d314dcb6b8a1
+# 58c45c63d8c24b8ca22b4a9be77ab332
 #: ../../foreword/foreword.rst:117
 msgid "SRTM DEM from the CGIAR-CGI (http://srtm.csi.cgiar.org/)"
 msgstr ""
 
-# 7b97950838cc498286bfbb64e088f3d2
+# 7024fef5723d415299588735f938436c
 #: ../../foreword/foreword.rst:121
 msgid "Latest Version"
 msgstr ""
 
-# e5148a61aaaf4a929a20aa6849b1b2c6
+# 55efa066d58d49c4ad966f8f657268b2
 #: ../../foreword/foreword.rst:123
 msgid ""
 "You can always obtain the latest version of this document by visiting our "
@@ -272,19 +272,19 @@ msgid ""
 "which is kindly hosted by http://readthedocs.org."
 msgstr ""
 
-# 652e53c6abf04b1c8231ad1a9bc07ce5
+# 47733b831ac24be8b49d5672dc980aa5
 #: ../../foreword/foreword.rst:127
 msgid ""
 "There are links to PDF and epub versions of the documentation in the lower "
 "right hand corner of the above mentioned home page."
 msgstr ""
 
-# 99c2dc838012438e893f31eab73104a7
+# 7852d4ab73704e9cb332f7d54ce5b14a
 #: ../../foreword/foreword.rst:132
 msgid "Tim Sutton, May 2012"
 msgstr ""
 
-# 158f90c04b3c4498b1522e153d1e95a9
+# 265ee3f9f03c435a8946f2e93ea47b78
 #: ../../foreword/index.rst:3
 msgid "Course Introduction"
 msgstr ""

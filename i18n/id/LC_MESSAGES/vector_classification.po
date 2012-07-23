@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-20 09:16\n"
+"POT-Creation-Date: 2012-07-20 15:25\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -692,6 +692,17 @@ msgid ""
 "Labels can be added to a map to show any information about an object. Any "
 "vector layer can have labels associated with it. These labels rely on the "
 "attribute data of a layer for their content."
+msgstr ""
+
+# 772dd76b00bd42d1acb924a0a39ce0aa
+#: ../../vector_classification/label_tool.rst:8
+msgid ""
+"The :guilabel:`Layer Properties` dialog does have a :guilabel:`Labels` tab, "
+"but for this example we will not be using it. It has too few options and may "
+"be difficult to work with, which is why it will probably be taken out of new "
+"versions of QGIS (after 1.8). Instead, for this lesson we'll use the "
+"separate :guilabel:`Label tool`, which has more options and is more user-"
+"friendly."
 msgstr ""
 
 # d0baff1e18b74f8589bc5777928df093

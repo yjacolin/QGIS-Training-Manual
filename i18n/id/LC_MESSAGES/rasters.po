@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-20 09:16\n"
+"POT-Creation-Date: 2012-07-20 15:25\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -789,6 +789,15 @@ msgstr ""
 # 0de0bc5c48364f22bf474837dbc3fd70
 #: ../../rasters/terrain_analysis.rst:83
 msgid "Remember to save your map when you are done."
+msgstr ""
+
+# 4877c47cd8484cdba1c5fedf28b04fb3
+#: ../../rasters/terrain_analysis.rst:85
+msgid ""
+"For the next two exercises, please use a new map. Load only the :kbd:`DEM` "
+"raster dataset into it (:kbd:`exercise_data/raster/SRTM/srtm_41_19.tif`). "
+"This is to simplify matters while you're working with the raster analysis "
+"tools. Save the map as :kbd:`exercise_data/raster_analysis.qgs`."
 msgstr ""
 
 # c0bf415264c241fcbfaf5abeb2d8faa0

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-20 09:16\n"
+"POT-Creation-Date: 2012-07-23 11:45\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# c95cf9166e5e4c60bb8e5841c2ac6043
+# 6027573e2c1847d8bd2e65552280db9b
 #: ../../vector_classification/attribute_data.rst:2
 msgid "|LS| Attribute Data"
 msgstr ""
 
-# 480e405452b64bffbe4459c0feb45929
+# c383d9aa9f17441aab76216d5b6ec4c8
 #: ../../vector_classification/attribute_data.rst:4
 msgid ""
 "Up to now, none of the changes we have made to the map have been influenced "
@@ -32,7 +32,7 @@ msgid ""
 "road of a certain shape in a certain area."
 msgstr ""
 
-# a2a0362965c74005889725b1cdc1b99f
+# 2a5493f447bf452db481c5d3ed118ce5
 #: ../../vector_classification/attribute_data.rst:10
 msgid ""
 "But the whole strength of GIS is that all the objects that are visible on "
@@ -41,19 +41,19 @@ msgid ""
 "objects."
 msgstr ""
 
-# 18e0ae4c3d9e43f6aceaa0b18ae185eb
+# 853da98071444308b366b0683caa862d
 #: ../../vector_classification/attribute_data.rst:14
 msgid ""
 "**The goal of this lesson:** To explore the attribute data of an object and "
 "understand what the various data can be useful for."
 msgstr ""
 
-# a316984d040942608c21a9f3323a2a8d
+# 9279fe5de9b745deab84ad0f8ada0e40
 #: ../../vector_classification/attribute_data.rst:21
 msgid "|basic| |FA| Attribute data"
 msgstr ""
 
-# afdb55cee8224f87ad5315ec1c9d497e
+# 749b5f5e025a432bb96f21aa660915ba
 #: ../../vector_classification/attribute_data.rst:23
 msgid ""
 "Open the attribute table for the :guilabel:`places` layer (refer back to the "
@@ -61,21 +61,21 @@ msgid ""
 "the most useful to represent in label form, and why?"
 msgstr ""
 
-# 5def73a23e314db4a48e1926a39138fa
+# ee04c94d2f0f4457a3b55a7dc52a24df
 #: ../../vector_classification/attribute_data.rst:27
 msgid ":ref:`Check your results <labels-attribute-data-1>`"
 msgstr ""
 
-# 9cdc1909a90a43c290d9bd3b12b5a324
-# b8a89ac10cb44b50937f1a085ea916a3
-# e95395f3366f46cfa710b2457e9dc732
+# 77eba825418b42499774d1758d3055a2
+# 85793b28b7bb4386bc35c0874f5e0bf1
+# 1755d96c71f448ada04a3bb6b626889f
 #: ../../vector_classification/attribute_data.rst:30
 #: ../../vector_classification/classification.rst:309
 #: ../../vector_classification/label_tool.rst:310
 msgid "|IC|"
 msgstr ""
 
-# ac8d65903db941bfb73c177b9c161189
+# 85f64023023941d9894d70ea3f3cee33
 #: ../../vector_classification/attribute_data.rst:32
 msgid ""
 "You now know how to use the attribute table to see what is actually in the "
@@ -85,16 +85,16 @@ msgid ""
 "look for another one that has the required attribute data."
 msgstr ""
 
-# 30d8265988c741b58915bec557791dd7
-# 4247b480997c4d37a05da033b90f0b90
-# 257eeaced5334a94a146826ca4f78e03
+# 4a9bafb2471449de83663e52dd4bda3d
+# 6d1746bdee1745b38672292382935b4c
+# 5f7e94e85d984ca0b3db20dd2bb7ea20
 #: ../../vector_classification/attribute_data.rst:39
 #: ../../vector_classification/classification.rst:318
 #: ../../vector_classification/label_tool.rst:316
 msgid "|WN|"
 msgstr ""
 
-# 89184cacaeac4b7bb916638571260869
+# 432fc756af5f425e91707ec71da5add2
 #: ../../vector_classification/attribute_data.rst:41
 msgid ""
 "Different attributes are useful for different purposes. Some of them can be "
@@ -102,12 +102,12 @@ msgid ""
 "this in the next lesson."
 msgstr ""
 
-# feb956487b0a4fe988124c3313bf8c98
+# a2a8629cb6aa47f5a5a0398f05657ff1
 #: ../../vector_classification/classification.rst:2
 msgid "|LS| Classification"
 msgstr ""
 
-# b72050bde9444e9e8aa59c040bd2ff32
+# 36a478e9df604bf397bd50f6eccbed77
 #: ../../vector_classification/classification.rst:4
 msgid ""
 "Labels are a good way to communicate information such as the names of "
@@ -116,89 +116,89 @@ msgid ""
 "you'd get this:"
 msgstr ""
 
-# 047cd078b74244e98feb8185f3d31642
+# 289a7c6af2354990ae08d6f7021cc765
 #: ../../vector_classification/classification.rst:12
 msgid ""
 "Obviously this is not ideal, so we need another solution. That's what this "
 "lesson is about!"
 msgstr ""
 
-# c0c224dbd7274a22a76b84d1df1095ee
+# edf09c2c3bb748b6859e294d072bfc68
 #: ../../vector_classification/classification.rst:15
 msgid ""
 "**The goal for this lesson:** To learn how to classify vector data "
 "effectively."
 msgstr ""
 
-# a4ad5cc1c4ab4121929a5c259f520a27
+# 3cf9f2eb0bb249c7b6f51868f203f96c
 #: ../../vector_classification/classification.rst:18
 msgid "|basic| |FA| Classifying nominal data"
 msgstr ""
 
-# a754c30c73c14504aeec909cf69c7a31
+# ac62cde0dc0e42fd8ba20a7a4ff89732
 #: ../../vector_classification/classification.rst:20
 msgid "Open :guilabel:`Layer Properties`."
 msgstr ""
 
-# 3de26a6de9f14385aa8766ebfbae1c93
+# 6f24f924a9d04b72b1b3722e3652d684
 #: ../../vector_classification/classification.rst:21
 msgid "Go to the :guilabel:`Style` tab."
 msgstr ""
 
-# 6704dace75ab4fecb3423f371fab4423
+# 7f96aeb94e7c44738eaad600e2f606aa
 #: ../../vector_classification/classification.rst:22
 msgid "Click on the dropdown that says :guilabel:`Single Symbol`:"
 msgstr ""
 
-# d7037e22f5e44f53a48f8a9f39b573b0
+# 273b5a320ec147499d8c7c95411525f0
 #: ../../vector_classification/classification.rst:27
 msgid "Change it to :guilabel:`Categorized` and the interface will change:"
 msgstr ""
 
-# 6d72c28080a042d69742d5ad7ef4ea06
+# 6aa57f93c57949e380f36c8218b6ede3
 #: ../../vector_classification/classification.rst:32
 msgid ""
 "Change the :guilabel:`Column` to :guilabel:`TOWN` and the :guilabel:`Color "
 "ramp` to :guilabel:`random`:"
 msgstr ""
 
-# 83a3e674a5e44f8bba917e5b65a509df
+# 14aea25a98564597b393c6ff2c71aebb
 #: ../../vector_classification/classification.rst:38
 msgid ""
 "Click the button labeled :guilabel:`Classify` and then click :guilabel:`OK`."
 msgstr ""
 
-# 4369fe26a1cb4f6f929419d9ebe31c28
+# 5c36437e94c34dea948ac8261668f065
 #: ../../vector_classification/classification.rst:40
 msgid "You'll see something like this:"
 msgstr ""
 
-# a7f6bad212c64c5fa930c74d2c25c572
+# a43edf583433461c9c3afbbfa574a858
 #: ../../vector_classification/classification.rst:45
 msgid ""
 "Click the arrow (or plus sign) next to :guilabel:`rural` in the :guilabel:"
 "`Layer list`, you'll see the categories explained:"
 msgstr ""
 
-# 3c93a6ec5e154eb8b895ebf3e72e2e3b
+# 40a5a47fdd644a5a8e6b9ddd88c01b75
 #: ../../vector_classification/classification.rst:51
 msgid ""
 "So, this is useful! But it hurts your eyes to look at it, so let's see what "
 "we can do about that."
 msgstr ""
 
-# 9672ddce5dc741f088f635471fcb11a6
+# c8bb06d703264af5ae5d2cab314784d1
 #: ../../vector_classification/classification.rst:54
 msgid ""
 "Open :guilabel:`Layer Properties` and go to the :guilabel:`Style` tab again."
 msgstr ""
 
-# 5565c981a65d4c7abedb152a1ab32e1c
+# 62ab874ceb5c4fe6b69bb6b9ef79d053
 #: ../../vector_classification/classification.rst:55
 msgid "Change the symbol:"
 msgstr ""
 
-# e9692afaae8e46efbfea7a795f2dd532
+# 0269ddafaa4b42129e250cd0ca36cbf0
 #: ../../vector_classification/classification.rst:60
 msgid ""
 "Get rid of the outline the same way you did before, and click :guilabel:"
@@ -206,36 +206,36 @@ msgid ""
 "remember how it's done.)"
 msgstr ""
 
-# 04d83ff1711c40ecb4622a9440548c38
+# 5cf5235ad5564e13a1fcc2d4d482c06b
 #: ../../vector_classification/classification.rst:63
 msgid "Click the :guilabel:`Delete all` button:"
 msgstr ""
 
-# 524a39e4b044405eb06ab0d2c034e7a6
+# 18ae60a59f0441e296195c66ed0e0d38
 #: ../../vector_classification/classification.rst:68
 msgid "This gets rid of the ugly classes so you can try again."
 msgstr ""
 
-# 97c64fb745d74de5844adda0fba9d390
+# c16334f1f9c647c09b98932b7694f66e
 #: ../../vector_classification/classification.rst:70
 msgid "Click :guilabel:`Classify` again, and the new symbols will appear."
 msgstr ""
 
-# 84d3613e3b404e20a084477115cbcacf
+# a5dc5e35f9a94769a4dab1e9fdc5d0c3
 #: ../../vector_classification/classification.rst:72
 msgid ""
 "You'll notice they don't have outlines. This is because because you just "
 "removed the outlines!"
 msgstr ""
 
-# dac03792f141481e9b30bd2acb9ab6c2
+# 3081cfdaa55c4e9f8a1daaf37d279c05
 #: ../../vector_classification/classification.rst:75
 msgid ""
 "Change the color for each town by double-clicking on the colored block "
 "representing its symbol:"
 msgstr ""
 
-# 374f4212e9d54000808f573769419eef
+# 346e3ca1d4534743bdbc81aa94ad6490
 #: ../../vector_classification/classification.rst:81
 msgid ""
 "Use your own colors, but make sure they're not too bright, so that the "
@@ -243,51 +243,51 @@ msgid ""
 "colors:"
 msgstr ""
 
-# 27c8deacf22149f7858bd56f0f64eea2
+# 005b93c3127c401fb8e7e6e9e928c268
 #: ../../vector_classification/classification.rst:88
 msgid "This gives us a nice map:"
 msgstr ""
 
-# 675b44d2821343eb96d156e8e8b6c31f
+# 268faa270d5b42789cbe031ed78bd87d
 #: ../../vector_classification/classification.rst:93
 msgid "(Only :guilabel:`rural` and :guilabel:`water` are switched on here.)"
 msgstr ""
 
-# da2118b95f664acdaa9a46cd7f67a3f8
+# 0765cf3b3e36492d8abea9c4ed7f45ae
 #: ../../vector_classification/classification.rst:95
 msgid "By the way, there's one category that's empty:"
 msgstr ""
 
-# 639edebf06b04f30b2ee9ddab80bc63a
+# 77ab8cac0bbb4e84a3125663190822b9
 #: ../../vector_classification/classification.rst:100
 msgid "Select the empty category."
 msgstr ""
 
-# 8dce4794c72749dc93240d92cb835d20
+# de4ff8bf01be4d8daf114045c05574cb
 #: ../../vector_classification/classification.rst:101
 msgid "Click the :guilabel:`Delete` button."
 msgstr ""
 
-# 529730d7e6034da48119efd97dc321b0
+# 87126b784b5947bebb16f9680fc13652
 #: ../../vector_classification/classification.rst:103
 msgid ""
 "This only gets rid of the symbol, not the data, so don't worry about messing "
 "up; you're not actually deleting anything that you can't recover."
 msgstr ""
 
-# fa09d001ff214ec397c6cdcee914eab6
+# ab84d24b81d643e3b5acec95ee4fcac8
 #: ../../vector_classification/classification.rst:106
 msgid ""
 "Remember to save your map now so that you don't lose all your hard-earned "
 "changes!"
 msgstr ""
 
-# d6dbc9f2d95c4567a4f2b42dca9459f9
+# 52f0347a68e546f0a0d2b8e1621243b2
 #: ../../vector_classification/classification.rst:110
 msgid "|basic| |TY| More classification"
 msgstr ""
 
-# 77f2c6e110d646f1bf48a062ee2b71ef
+# 9fb6f63d55094042bf8da3f9958cb804
 #: ../../vector_classification/classification.rst:112
 msgid ""
 "If you're only following the basic-level content, use the knowledge you "
@@ -295,19 +295,19 @@ msgid ""
 "set them apart from the farms."
 msgstr ""
 
-# 3e21f0f5cc1e40f5b2689802805ae1cc
+# 3114984e397b4a70acd77dc1bc53b3a8
 #: ../../vector_classification/classification.rst:117
 msgid "|moderate| |FA| Ratio classification"
 msgstr ""
 
-# d6f2b1399e9a4875a33da7c31455a013
+# 78bd4ff682de453bb43753b94f7f6e70
 #: ../../vector_classification/classification.rst:119
 msgid ""
 "There are four types of classification: *nominal*, *ordinal*, *interval* and "
 "*ratio*."
 msgstr ""
 
-# 18bdc672870549d1a6a367ceb9a67894
+# 25eed73ecfc6400483e4e5489da7a184
 #: ../../vector_classification/classification.rst:122
 msgid ""
 "In nominal classification, the categories that objects are classified into "
@@ -315,7 +315,7 @@ msgid ""
 "etc."
 msgstr ""
 
-# 61ef04e7e69d4b7ab840044c5566e57d
+# 8f772cd407004447a6d162a935168734
 #: ../../vector_classification/classification.rst:125
 msgid ""
 "In ordinal classification, the categories are arranged in a certain order. "
@@ -323,7 +323,7 @@ msgid ""
 "world trade, travel, culture, etc."
 msgstr ""
 
-# cee97de3e2364412b795cf429e64d0cb
+# b6eebe0e66014c7483baca766030b6a1
 #: ../../vector_classification/classification.rst:129
 msgid ""
 "In interval classification, the numbers are on a scale with positive, "
@@ -331,7 +331,7 @@ msgid ""
 "temperature above/below freezing (0 degrees Celsius), etc."
 msgstr ""
 
-# 0b3962ee31ec41b59732783f7dbea7ff
+# ae8806c9b6b24aa9a44472438fb5bad5
 #: ../../vector_classification/classification.rst:133
 msgid ""
 "In ratio classification, the numbers are on a scale with only positive and "
@@ -340,7 +340,7 @@ msgid ""
 "street per month, etc."
 msgstr ""
 
-# c70aa503a3ae4d03b693f2826991987f
+# 1c8d3dda092d43ae9bcc55d654840ee4
 #: ../../vector_classification/classification.rst:138
 msgid ""
 "In the example above, we used nominal classification to assign each farm to "
@@ -348,56 +348,56 @@ msgid ""
 "classify the farms by area."
 msgstr ""
 
-# 127791a44ea1410e857f680dff5dafe8
+# 5ba95c79747641fd98c587ec2f1c057c
 #: ../../vector_classification/classification.rst:142
 msgid ""
 "Save your rural symbology (if you want to keep it) by clicking on the :"
 "guilabel:`Save Style ...` button in the :guilabel:`Style` dialog."
 msgstr ""
 
-# 315290ab5b8b427e93fe3e7fc8390fa1
+# e8e814f3f750413890762f0653c137d4
 #: ../../vector_classification/classification.rst:145
 msgid ""
 "We're going to reclassify the layer, so existing classes will be lost if not "
 "saved."
 msgstr ""
 
-# 87f5e6b690884e8ba473985641afb34e
+# 8ec04099fa5042e9ad0e74ad38b53fd0
 #: ../../vector_classification/classification.rst:148
 msgid "Close the :guilabel:`Style` dialog."
 msgstr ""
 
-# a7e7f8a1584f46178c259ccd1b44b110
+# da6d3282e59a4599a31a892a9fa525e1
 #: ../../vector_classification/classification.rst:149
 msgid "Open the layer attributes for the :guilabel:`rural` layer."
 msgstr ""
 
-# 88f98713cf924da889a310642cfe954b
+# d43f72e1cda1420f820b9bb3acadc284
 #: ../../vector_classification/classification.rst:151
 msgid ""
 "We want to classify these farms by area, but there's a problem: they don't "
 "have an area field! We'll have to make one."
 msgstr ""
 
-# 51afdd31c6384218894e0aec23c05953
+# d340196bde61448ba703f1dab00ca74d
 #: ../../vector_classification/classification.rst:154
 msgid "Enter edit mode by clicking this button:"
 msgstr ""
 
-# 990cdf9670aa48c3838b74dcfa4e2399
+# 249c76e332e843a0b7ffafbf9df59a3c
 #: ../../vector_classification/classification.rst:159
 msgid "Add a new column with this button:"
 msgstr ""
 
-# 3df3d7cd700249098a87b8b43936ef01
+# 8791ce715e5945198f59b19de0fbb756
 #: ../../vector_classification/classification.rst:164
 msgid "Set up the dialog that appears, like this:"
 msgstr ""
 
-# 3f1f7bd2f85f49b2992f64d935d8ac02
-# 1eb9a1ba4ddc464ca3aac2463e29a305
-# bf6fb6f6dbfc43018e0459ec7f608a21
-# c5a80fa09eb84032bf450e7d78449459
+# 555bd45bf2b24980ac30028457ca5730
+# a1bd58fa3a2e404fab7ff9207e51a4d1
+# 237dfe2d88684814ad6069097d56a4fd
+# 154358582c6d4c1884c3bc7a9320b8a1
 #: ../../vector_classification/classification.rst:169
 #: ../../vector_classification/classification.rst:198
 #: ../../vector_classification/classification.rst:240
@@ -405,7 +405,7 @@ msgstr ""
 msgid "Click :guilabel:`OK`."
 msgstr ""
 
-# 6e7c9105cb9a4f58b55aee38c2d5a1a4
+# b29d2c1829d540dd95bcd1833e039feb
 #: ../../vector_classification/classification.rst:171
 msgid ""
 "The new field will be added (at the far right of the table; you may need to "
@@ -413,153 +413,153 @@ msgid ""
 "it just has a lot of :kbd:`NULL` values."
 msgstr ""
 
-# 008814d823cc44a5a44b88da990163ae
+# 475d8538cf404f8a94248eada38f46ca
 #: ../../vector_classification/classification.rst:175
 msgid "To solve this problem, we'll need to calculate the areas."
 msgstr ""
 
-# d846501c2dff4870a5e2cdad067b6680
+# c2973536ee784e36853ee437543f584b
 #: ../../vector_classification/classification.rst:177
 msgid "Open the field calculator:"
 msgstr ""
 
-# 16113c9dd52e4eddab77345b311320ff
+# 407abeeb693b41dd964ff34f48a7beb7
 #: ../../vector_classification/classification.rst:182
 msgid "You'll get this dialog:"
 msgstr ""
 
-# e7a5bf45c1854a0ca04efb62ecb0f738
+# d1b403cf1e9641f3a162d9814c72ef47
 #: ../../vector_classification/classification.rst:187
 msgid "Change the values at the top of the dialog to look like this:"
 msgstr ""
 
-# 6c623e5a52cf49c4b964cf5a78c9eb0a
+# c219682dbc3649f6a7555ae1fdc94723
 #: ../../vector_classification/classification.rst:192
 msgid ""
 "In the :guilabel:`Function List`, select :menuselection:`Geometry --> $area`:"
 msgstr ""
 
-# c847f5999961479d8645dd349a7af9dc
+# 0607d24ea52543199c865c940fbe7ab0
 #: ../../vector_classification/classification.rst:197
 msgid ""
 "Double-click on it so that it appears in the :guilabel:`Expression` field."
 msgstr ""
 
-# 82fea0a952e9492db8807605db03f39b
+# 85f88229b9f0456a99932d9257013ad4
 #: ../../vector_classification/classification.rst:200
 msgid ""
 "Now your :kbd:`AREA` field is populated with values! Admire them, then close "
 "the attribute table."
 msgstr ""
 
-# 9e6a2a8009e94719a65d4cd2896ffecc
+# 0bbeb2f5b7094cb980dbf6be97721f90
 #: ../../vector_classification/classification.rst:203
 msgid ""
 "These areas are in degrees area. Later, we will compute them in square "
 "meters."
 msgstr ""
 
-# e635021b75834b5985c334882eca11c2
+# ee55bcfdda704e028dd694d70cbbb08b
 #: ../../vector_classification/classification.rst:206
 msgid "Open the :guilabel:`Layer properties` dialog's :guilabel:`Style` tab."
 msgstr ""
 
-# 5bdbf5bb88f4415992832f53e5f9f8d1
+# d27ef7a1c57442489b2910422709339a
 #: ../../vector_classification/classification.rst:207
 msgid ""
 "Change the classification style from :guilabel:`Classified` to :guilabel:"
 "`Graduated`:"
 msgstr ""
 
-# 1d665929a7a0449a9344e4434281edae
+# 0cdbe04c663b472fb5bcaf849642a9d9
 #: ../../vector_classification/classification.rst:213
 msgid "Change the :guilabel:`Column` to :guilabel:`AREA`:"
 msgstr ""
 
-# f408712e815a4a839df3f2b737a8789e
+# cd03a995b55346c2bc759a327d668373
 #: ../../vector_classification/classification.rst:218
 msgid ""
 "Under :guilabel:`Color ramp`, choose the option :guilabel:`New color ramp..."
 "` to get this dialog:"
 msgstr ""
 
-# 832448272922467f8275e833babb39a5
+# f144d80c153942a8880256c92c6427e8
 #: ../../vector_classification/classification.rst:224
 msgid ""
 "Choose :guilabel:`Gradient` (if it's not selected already) and click :"
 "guilabel:`OK`. You'll see this:"
 msgstr ""
 
-# 87cec9c3b9e44c6685481fdb75048d96
+# 495e6530422c4f56b72cbe9affa75f47
 #: ../../vector_classification/classification.rst:230
 msgid ""
 "You'll be using this to denote area, with small areas as :guilabel:`Color 1` "
 "and large areas as :guilabel:`Color 2`."
 msgstr ""
 
-# e2b72780ab604988a7e82fa68e0d1d28
+# 26edde9566a74f4bab0bee9c013b4b67
 #: ../../vector_classification/classification.rst:233
 msgid "Choose appropriate colors."
 msgstr ""
 
-# ea7901a561d747f6b6bb2eef24fc1632
+# ec71d27031264425957b20d9f4f21237
 #: ../../vector_classification/classification.rst:235
 msgid "In the example, the result looks like this:"
 msgstr ""
 
-# 0b6c1dc62981490697a97e106c9754e3
+# 4063dcc66030476c9c45071f9c3154ce
 #: ../../vector_classification/classification.rst:241
 msgid "Choose a suitable name for the new color ramp."
 msgstr ""
 
-# 5b16ba700ca5482daec4311d9b3022f3
+# d23e9c2c0e3f4e32ba5813eec5469b70
 #: ../../vector_classification/classification.rst:242
 msgid "Click :guilabel:`OK` after filling in the name."
 msgstr ""
 
-# 57407ef14f31400ea57394d2631d0351
+# a2671e941bbf41058f55fb7bbc6171ec
 #: ../../vector_classification/classification.rst:244
 msgid "Now you'll have something like this:"
 msgstr ""
 
-# 3daa77b986d64f8082b3fd7922539591
+# 5fa2f01449f8478eb5b35109dbef02cb
 #: ../../vector_classification/classification.rst:249
 msgid "Leave everything as-is."
 msgstr ""
 
-# 7c65f8c49c2d4f0e9248d7967d7879c2
+# 1a7441ac42a04a3f88f488cf189395f6
 #: ../../vector_classification/classification.rst:251
 msgid "Click :guilabel:`Apply`:"
 msgstr ""
 
-# f8028db5972e4502964b1695830e8513
+# 608f4fa7c8f34a1d8bcf9e492d792174
 #: ../../vector_classification/classification.rst:260
 msgid "|moderate| |TY| Refine the classification"
 msgstr ""
 
-# b43068b7b56d4ba3a9a545542bddbb67
+# e9cb0a503fa64b52b42e5e38d6b4ed2f
 #: ../../vector_classification/classification.rst:262
 msgid "Get rid of the lines between the classes."
 msgstr ""
 
-# 2ab762fa67004b0d86a0d39780fde9a9
+# b8eea85f456c4a17b7895d2deb783203
 #: ../../vector_classification/classification.rst:263
 msgid ""
 "Change the values of :guilabel:`Mode` and :guilabel:`Classes` until you get "
 "a classification that makes sense."
 msgstr ""
 
-# 91e56dd17139455795816adf48d55e4a
+# 4d07ec55da43434da3514c151781a857
 #: ../../vector_classification/classification.rst:266
 msgid ":ref:`Check your results <classification-refine-1>`"
 msgstr ""
 
-# 8293d5ef42fb495c9740ef7e68d0e8d8
+# 2cc013369efd4687826ab5aeff357319
 #: ../../vector_classification/classification.rst:269
 msgid "|hard| |FA| Rule-based classification"
 msgstr ""
 
-# 4d093a20e90f42ea8f890b3d374f0732
+# 7e18215939f04db6b1a580e1a8b8e288
 #: ../../vector_classification/classification.rst:271
 msgid ""
 "It's often useful to combine multiple criteria for a classification, but "
@@ -567,89 +567,89 @@ msgid ""
 "That's where rule-based classification comes in handy."
 msgstr ""
 
-# 346dcbbf402642818b07df435620c64c
+# 2cf8a6efac1b4064b0603aea715fdda9
 #: ../../vector_classification/classification.rst:275
 msgid ""
 "Open the :guilabel:`Layer Properties` dialog for the :guilabel:`rural` layer."
 msgstr ""
 
-# f8b79e0216be4fa98e76b9f8b96a6fed
+# 5bbebc36cf874acfbd2f7914589ccdaf
 #: ../../vector_classification/classification.rst:276
 msgid "Switch to the :guilabel:`Style` tab."
 msgstr ""
 
-# e38cf1213a904857be7ce1295b6629ad
+# cfdd51c9f5d048138c048ee9706305a7
 #: ../../vector_classification/classification.rst:277
 msgid ""
 "Switch the classification style to :guilabel:`Rule-based`. You'll get this:"
 msgstr ""
 
-# fb121e27e8ba4d8b88a93bea0f9ae378
+# b852dc4a5a424070b55ebffc9dadcd12
 #: ../../vector_classification/classification.rst:282
 msgid "Click the :guilabel:`Add` button."
 msgstr ""
 
-# 3eb9becd896d4b2eaaa8c7b556611dde
+# 007d20589daa4bba950803b50d88b7a9
 #: ../../vector_classification/classification.rst:283
 msgid "A new dialog that appears."
 msgstr ""
 
-# 142178d8553e4bc3b61f8c7b15f92a4b
+# 5dbf4de0dd9d4dffb4915decb6774d91
 #: ../../vector_classification/classification.rst:284
 msgid ""
 "Click the ellipsis :guilabel:`...` button next to the :guilabel:`Filter` "
 "text area."
 msgstr ""
 
-# 5f38b4deca7b4cc7ac52827e1b59a92b
+# 2a0d4bf0287d4af7b05c4379a11b287b
 #: ../../vector_classification/classification.rst:285
 msgid ""
 "Using the query builder that appears, enter the criterion :kbd:`AREA >= "
 "0.00085` and choose a dark color for it."
 msgstr ""
 
-# 2966079d32ea4f9fa83c2e46ba9cc82c
+# f4ef48a1455649ba8be41de58056683c
 #: ../../vector_classification/classification.rst:287
 msgid "Add the criterion :kbd:`AREA <= 0.00085` and choose a light color."
 msgstr ""
 
-# 88df757d07f94875ae473ceb22ccfbe3
+# 8fd669d3889645d2ae11fab91d5a368c
 #: ../../vector_classification/classification.rst:288
 msgid ""
 "Add the criterion :kbd:`TOWN != 'Swellendam Rural'` and assign it the color "
 "black, with transparency at :kbd:`85%`."
 msgstr ""
 
-# 76f75d3262034f5a9d30164b751bb79c
+# 9e73790cfc974b22a230654690d4f794
 #: ../../vector_classification/classification.rst:290
 msgid ""
 "Click on the :kbd:`TOWN ...` criterion in the list of rules, and then on :"
 "guilabel:`Increase priority`."
 msgstr ""
 
-# 8d6435a672e144fe94a0b63a30de6693
+# 2dd2c495e8074d8ab71c3f57e5b1036e
 #: ../../vector_classification/classification.rst:293
 msgid "Your dialog should look like this:"
 msgstr ""
 
-# 58ba994034bc413eabc194fe4385df74
+# ad8dc9edcea1449783bd6faa36eaa13f
 #: ../../vector_classification/classification.rst:298
 msgid "Apply this symbology."
 msgstr ""
 
-# 0bb7d15b2e3148ce80b44bdb1554f115
+# ec623a4b6fa842a3b8a71d8dcd675d6b
 #: ../../vector_classification/classification.rst:300
 msgid "Your map will look like this:"
 msgstr ""
 
-# d22b863ccea64e54b0592d71b5fe8927
+# a3395e3a8bd84385942e7a926823c904
 #: ../../vector_classification/classification.rst:305
 msgid ""
 "Now you have two area classes, with the farms in the Swellendam Rural area "
 "emphasized."
 msgstr ""
 
-# ae850f686a7948be96cb9e08a62e0372
+# a356161ff2ca4226b991f1bf3776bbab
 #: ../../vector_classification/classification.rst:311
 msgid ""
 "Symbology allows us to represent the attributes of a layer in an easy-to-"
@@ -659,7 +659,7 @@ msgid ""
 "techniques to solve them."
 msgstr ""
 
-# a6988dfc4c3546f49f61574445a3fb64
+# 9376819fa2c04f73ab7f9a03152d0e4e
 #: ../../vector_classification/classification.rst:320
 msgid ""
 "Now we have a nice-looking map, but how are we going to get it out of QGIS "
@@ -667,12 +667,12 @@ msgid ""
 "topic of the next lesson!"
 msgstr ""
 
-# c84eb16f3a814d04ac48795d54e713bb
+# 201a50cbe9984f4ab37f3d14aa0af721
 #: ../../vector_classification/index.rst:3
 msgid "|MOD| Classifying Vector Data"
 msgstr ""
 
-# 7a5e9243e38a454bbbba949caa708643
+# c3ed6392853c43c3b4afa07836c4ee4f
 #: ../../vector_classification/index.rst:5
 msgid ""
 "Classifying vector data allows you to assign different symbols to features "
@@ -681,12 +681,12 @@ msgid ""
 "features."
 msgstr ""
 
-# 24911f2495804da2b90f155cf725a1fb
+# 49397b6936de4b748464e6a183167283
 #: ../../vector_classification/label_tool.rst:2
 msgid "|LS| The Label Tool"
 msgstr ""
 
-# 6a97f5e00c22495c894dc38a5eb3cf05
+# 2b1dbecda8b94722b468607341bccb36
 #: ../../vector_classification/label_tool.rst:4
 msgid ""
 "Labels can be added to a map to show any information about an object. Any "
@@ -694,60 +694,71 @@ msgid ""
 "attribute data of a layer for their content."
 msgstr ""
 
-# d0baff1e18b74f8589bc5777928df093
+# 772dd76b00bd42d1acb924a0a39ce0aa
+#: ../../vector_classification/label_tool.rst:8
+msgid ""
+"The :guilabel:`Layer Properties` dialog does have a :guilabel:`Labels` tab, "
+"but for this example we will not be using it. It has too few options and may "
+"be difficult to work with, which is why it will probably be taken out of new "
+"versions of QGIS (after 1.8). Instead, for this lesson we'll use the "
+"separate :guilabel:`Label tool`, which has more options and is more user-"
+"friendly."
+msgstr ""
+
+# 6fbf6f12a06c4e2ea761f62d10130830
 #: ../../vector_classification/label_tool.rst:15
 msgid ""
 "**The goal for this lesson:** To apply useful and good-looking labels to a "
 "layer."
 msgstr ""
 
-# 74700c1e765042a0be0a28fa2d9c886f
+# 112ea028d6094280a3a335792942f2bc
 #: ../../vector_classification/label_tool.rst:19
 msgid "|basic| |FA| Using labels"
 msgstr ""
 
-# 73f19ef3f3594cc7bc18e059e64aebe7
+# 6550b79ab6a34586ae4096d107610048
 #: ../../vector_classification/label_tool.rst:21
 msgid ""
 "Before being able to access the Label tool, you will need to ensure that it "
 "has been activated."
 msgstr ""
 
-# 33bf9f29871946b3b231a2bcfe5bcbaa
+# 59ef9b60ea284625bc0b6d714786dc5b
 #: ../../vector_classification/label_tool.rst:24
 msgid "Go to the menu item :menuselection:`View --> Toolbars`."
 msgstr ""
 
-# d2c759bbafc64911a2823d1b74f0458c
+# 19ca09fd5e974010b203291587facd99
 #: ../../vector_classification/label_tool.rst:25
 msgid ""
 "Ensure that the :guilabel:`Label` item has a check mark next to it. If it "
 "doesn't, click on the :guilabel:`Label` item, and it will be activated."
 msgstr ""
 
-# 16979284f6c146bd91a939072a0e1a2e
+# 56c5fbbd8eb0432c88cea79c288a800d
 #: ../../vector_classification/label_tool.rst:27
 msgid ""
 "Click on the :guilabel:`places` layer in the :guilabel:`Layers list`, so "
 "that it is highlighted."
 msgstr ""
 
-# c086728f6a624cd58537cd4c419e6d12
+# e310ff2fca874bce9fa3990459e420a6
 #: ../../vector_classification/label_tool.rst:29
 msgid "Click on the following toolbar button:"
 msgstr ""
 
-# dd9ba27f65b6450f8641ddf642593334
+# 31397dafa5244ba7abee433ba825423c
 #: ../../vector_classification/label_tool.rst:34
 msgid "This gives you the :guilabel:`Layer labeling settings` dialog."
 msgstr ""
 
-# 7db1a040ca094e8787cee8e515c8f0c4
+# 7946733412ca4e67a431ffb22a3ddbc3
 #: ../../vector_classification/label_tool.rst:36
 msgid "Check the box next to :guilabel:`Label this layer with...`."
 msgstr ""
 
-# d3cba6eb9da9481c87c26aa899e9ddbe
+# 09ce2c5eb8d54404a2358119e6947e40
 #: ../../vector_classification/label_tool.rst:41
 msgid ""
 "You'll need to choose which field in the attributes will be used for the "
@@ -755,22 +766,22 @@ msgid ""
 "the most suitable one for this purpose."
 msgstr ""
 
-# feac8cf2e96c47298d99393215f150a3
+# 738138c8414942a38b837cb2da2a680f
 #: ../../vector_classification/label_tool.rst:45
 msgid "Select :guilabel:`NAME` from the list:"
 msgstr ""
 
-# 50f639a7a7fd4a13b61f4c6a63f0f0c5
+# 4723e57755614230ac27d2b12d8e58f8
 #: ../../vector_classification/label_tool.rst:52
 msgid "The map should now have labels like this:"
 msgstr ""
 
-# 01f506ee6384448c9e0cbf5e5c23a676
+# 3546906898b949ac8758d55f090890d4
 #: ../../vector_classification/label_tool.rst:58
 msgid "|basic| |FA| Changing label options"
 msgstr ""
 
-# 84cc4df74dc54cd1b8c7f5ece1eca73a
+# 2a61acffd34441f79ca83218ee2eab0a
 #: ../../vector_classification/label_tool.rst:60
 msgid ""
 "What we have so far is good, but as you can see, the labels are overlapping "
@@ -778,19 +789,19 @@ msgid ""
 "text is also a bit larger than it needs to be. Let's fix these problems!"
 msgstr ""
 
-# 6cabd5180a174df7abeb38e5269a4c75
+# 38f32ff9800a40409217d2b40c4d2487
 #: ../../vector_classification/label_tool.rst:64
 msgid ""
 "Open the :guilabel:`Label tool` again by clicking on its button as before."
 msgstr ""
 
-# 6d587609df26474eb35285ceca0018e2
+# 08ab326db0034d9e9dbefa62ad2ef37c
 #: ../../vector_classification/label_tool.rst:65
 msgid ""
 "Click on the ellipsis (:guilabel:`...`) button to change the text properties:"
 msgstr ""
 
-# 8df865c9dee14829b41d8789071e0805
+# 31f945e1409e4bfdba6df398c42cf02f
 #: ../../vector_classification/label_tool.rst:70
 msgid ""
 "A standard text change dialog appears, similar to those in many other "
@@ -798,7 +809,7 @@ msgid ""
 "now look like this:"
 msgstr ""
 
-# 66bb495e6c3746e49ff9726c19e6e1f6
+# 065e53ebcc804fefbbafc4ec5ca76116
 #: ../../vector_classification/label_tool.rst:77
 msgid ""
 "That's the font problem solved! Now let's look at the problem of the labels "
@@ -806,69 +817,69 @@ msgid ""
 "guilabel:`Buffer` option."
 msgstr ""
 
-# 667f9842dc4c467ba9d4cb1afb87185f
+# cfcde0bd1bad49e6a38b9ed8f4770d8e
 #: ../../vector_classification/label_tool.rst:81
 msgid "Open the :guilabel:`Label tool` dialog."
 msgstr ""
 
-# 5b3fb3dfaed94a5bb2ea8e066d3b1bb0
+# ea1ea6d90b5f44bdb0063d7bd729ce7f
 #: ../../vector_classification/label_tool.rst:82
 msgid ""
 "Deactivate the label buffer by clicking on the checkbox next to the text "
 "that says :guilabel:`Buffer`."
 msgstr ""
 
-# 6fb81b37746944358dc6ef01f99f2ec1
-# ead5b1a8e6794f41a43a1c43ae09f6d8
+# c903c2a398be449391022b655dc7f55e
+# d2d9875188fd4ce3a6dd0ef62703b7d5
 #: ../../vector_classification/label_tool.rst:84
 #: ../../vector_classification/label_tool.rst:104
 msgid "Click :guilabel:`Apply`."
 msgstr ""
 
-# faeae68f54be48d2a7101d15f3b03f9d
+# 6ebfb75754c94df0aa51cf3683a2dcc7
 #: ../../vector_classification/label_tool.rst:86
 msgid "Note the effects in the map:"
 msgstr ""
 
-# 40627720156c4ecc953992ae4e3935a2
+# b2e2fdf92bc24cf2ba8ed8b834da37b1
 #: ../../vector_classification/label_tool.rst:91
 msgid "Now you can see why we usually need label buffers!"
 msgstr ""
 
-# a7fbb83c6b8d4c0489c98de2ac2c3772
+# 494ab3a7c25a4cf087fd3708f0204acb
 #: ../../vector_classification/label_tool.rst:93
 msgid ""
 "Reactivate the buffers by clicking in the same checkbox as before, and then "
 "clicking :guilabel:`Apply`."
 msgstr ""
 
-# b4c2bd0196b84ec5a061aad2b7d01d2e
+# e1168e5f8dcb4f1b83c873d6e43718fb
 #: ../../vector_classification/label_tool.rst:96
 msgid "Back to the problem of the labels that overlap points."
 msgstr ""
 
-# 43795fd7007a48b7813aec662d87c7ef
+# 1e99ec241111416ab9893b11b276a1d1
 #: ../../vector_classification/label_tool.rst:98
 msgid ""
 "In the :guilabel:`Label tool` dialog, go to the :guilabel:`Advanced` tab."
 msgstr ""
 
-# 14b05e4601d94fdea93a7b98ccf3ab2f
+# 0e5ba3267f3644a0ae7ea2462e99af32
 #: ../../vector_classification/label_tool.rst:99
 msgid "Change the value of :guilabel:`Label distance` to :kbd:`2`."
 msgstr ""
 
-# 6aa512bfe4bc438ebf47a8425576a27c
+# 527d41f649974f3cb7a042ebabf9b55b
 #: ../../vector_classification/label_tool.rst:106
 msgid "This is the result:"
 msgstr ""
 
-# 684621892e7f40f1aac2e75ee6bf2f96
+# a07ae1726fd54feca233359ef829ba2c
 #: ../../vector_classification/label_tool.rst:112
 msgid "|moderate| |FA| Using labels instead of layer symbology"
 msgstr ""
 
-# b9a75cda01e74e4ea5da71c939ac5c51
+# f824a5c4926440e8a785b994c4546e34
 #: ../../vector_classification/label_tool.rst:114
 msgid ""
 "In many cases, the location of a point doesn't need to be very specific. For "
@@ -878,7 +889,7 @@ msgid ""
 "specific is often confusing for someone reading a map."
 msgstr ""
 
-# 9367b3b70643407c8cae1173cdc530eb
+# 8512a949cab946d095770dd478b82923
 #: ../../vector_classification/label_tool.rst:120
 msgid ""
 "To name an example: on a map of the world, the point given for the European "
@@ -887,50 +898,50 @@ msgid ""
 "capital of the European Union is therefore in Poland."
 msgstr ""
 
-# b500045e62bc4448a1591cc9b325cabc
+# 5d442556952f46c9aa90c9c063e23b42
 #: ../../vector_classification/label_tool.rst:125
 msgid ""
 "So, to prevent this kind of misunderstanding, it's often useful to "
 "deactivate the point symbols and replace them completely with labels."
 msgstr ""
 
-# 7fd6ea33894e4ca6a80af71448fb6d95
+# ab603e2327074b61ad40bae3f0d1b7bf
 #: ../../vector_classification/label_tool.rst:128
 msgid ""
 "In QGIS, you can do this by changing the position of the labels to be "
 "rendered directly over the points they refer to."
 msgstr ""
 
-# 1c491326235b458fb83977f531ad6afc
+# 4e03c82183f542dc87fa02e06a164cb1
 #: ../../vector_classification/label_tool.rst:131
 msgid ""
 "Open the :guilabel:`Layer labeling settings` dialog for the :guilabel:"
 "`places` layer."
 msgstr ""
 
-# 27d6756b02024a2ab977a2d26cbbc55d
+# fce48521568a46dbb23bd86f4e02f3ac
 #: ../../vector_classification/label_tool.rst:133
 msgid "Go to the :guilabel:`Advanced` tab."
 msgstr ""
 
-# 27eb372e13ee4c9aac44298c289a82cf
+# 1dee0b8117f84796a95e27ba8bb1a1a6
 #: ../../vector_classification/label_tool.rst:134
 msgid "Click on the :guilabel:`over point` button."
 msgstr ""
 
-# 488b73a2aa0044fbbe218f0a1d419dbe
+# 9143d995b62f4df1a8238125f5dc4cdb
 #: ../../vector_classification/label_tool.rst:139
 msgid ""
 "Hide the point symbols by editing the layer style as usual, and setting the "
 "size of points to :kbd:`0`:"
 msgstr ""
 
-# 7e397c7cadb84094841230f5f3029712
+# 03163b2ecfa24be8a23b91040de59cdc
 #: ../../vector_classification/label_tool.rst:145
 msgid "Click :guilabel:`OK` and you'll see this result:"
 msgstr ""
 
-# 057b336a8da545eeb0e02353a4bb655a
+# fde29c4e9dcb461e858fd4fce42bfd1b
 #: ../../vector_classification/label_tool.rst:150
 msgid ""
 "As you can see, some of the labels are now missing to prevent overlap (at "
@@ -940,44 +951,44 @@ msgid ""
 "cover in a later exercise in this lesson."
 msgstr ""
 
-# e16b11b399c641e0bcc6e1f432a56d03
+# 8dcf2373480e4c659c3809f8f7a2ba14
 #: ../../vector_classification/label_tool.rst:160
 msgid "|moderate| |TY| Customize the labels"
 msgstr ""
 
-# 40a97bcf50024102a1158edad76b0afb
+# a6177d4abd6f488491004bf1a39f0481
 #: ../../vector_classification/label_tool.rst:162
 msgid "Return the label and symbol settings to the way they were before."
 msgstr ""
 
-# 828d6795f137484f90ad807f1a979761
+# 7852e9327fa7474ca555e9a4c5aed3ca
 #: ../../vector_classification/label_tool.rst:164
 msgid ":ref:`Check your results <label-tool-1>`"
 msgstr ""
 
-# 297840661a5c493d9dc991e4292e0dd9
+# dd1b18615e8f4038b01e54c99237117c
 #: ../../vector_classification/label_tool.rst:166
 msgid ""
 "Set the map to the scale :kbd:`1:50000`. You can do this by typing it into "
 "the :guilabel:`Scale` box in the :guilabel:`Status Bar`."
 msgstr ""
 
-# b325ecc999f84008bb649179bf3b5875
+# 74b751f6df4249d2a268eef4741846f9
 #: ../../vector_classification/label_tool.rst:168
 msgid "Modify your labels to be suitable for viewing at this scale."
 msgstr ""
 
-# cc3065c6ca964eeb8ffe29c26787e6d4
+# 964aa80fc7d94f72b091792e296cb823
 #: ../../vector_classification/label_tool.rst:170
 msgid ":ref:`Check your results <label-tool-2>`"
 msgstr ""
 
-# 6c23804e6148455eb59eb85ce6c268df
+# 06708be8daf441bb9d0596946d671d8a
 #: ../../vector_classification/label_tool.rst:174
 msgid "|moderate| |FA| Labeling lines"
 msgstr ""
 
-# 685ef02ee309421d9a2a50e23512525e
+# 280bdc2ee8d64179aa97d78c869073ac
 #: ../../vector_classification/label_tool.rst:176
 msgid ""
 "Now that you know how labeling works, there's an additional problem. Points "
@@ -985,19 +996,19 @@ msgid ""
 "same way as the points, your results would look like this:"
 msgstr ""
 
-# 56d29471993747b49306094c41bdea04
+# d4ef4648db5f43e2a0e4bb2dc1fc3bb5
 #: ../../vector_classification/label_tool.rst:183
 msgid ""
 "This is not very useful! To make lines behave, we'll need to edit some "
 "options."
 msgstr ""
 
-# 78d825f9faa046fb87f41b9829a946fa
+# 6e8ee222f6e442a4803aa175e3f6da71
 #: ../../vector_classification/label_tool.rst:185
 msgid "Hide the :guilabel:`places` layer so that it doesn't distract you."
 msgstr ""
 
-# 30f145524ee041edae854679d9647707
+# 2b9224722cac46f8940f95d70b7a7c21
 #: ../../vector_classification/label_tool.rst:186
 msgid ""
 "Activate labels for the :guilabel:`streets` layer as before. (Remember to "
@@ -1005,30 +1016,30 @@ msgid ""
 "`Label Properties`!)"
 msgstr ""
 
-# 193459052f2147df9ed29d9e5c33e5d8
+# 97b0cd453c3d412f9fe05117c9d16208
 #: ../../vector_classification/label_tool.rst:189
 msgid ""
 "Set the font :guilabel:`Size` to :kbd:`9` so that you can see more labels."
 msgstr ""
 
-# 6244c18c215a4176b1f0ef6f029ea159
+# 0c8f1a79441d49a2ba28bef0061ae13e
 #: ../../vector_classification/label_tool.rst:190
 msgid "Zoom in on the Swellendam town area."
 msgstr ""
 
-# fd73271bba89455d8faa6316aaf14330
+# 877e16b4f7d942c28be53c52c97274a6
 #: ../../vector_classification/label_tool.rst:191
 msgid ""
 "In the :guilabel:`Label tool` dialog's :guilabel:`Advanced` tab, choose the "
 "following settings:"
 msgstr ""
 
-# 3df0d2048c4840bda5ac137ea490909c
+# 4add9e72f41c46f883137eccdc586de8
 #: ../../vector_classification/label_tool.rst:197
 msgid "The map will look somewhat like this, depending on scale:"
 msgstr ""
 
-# 54c30bb4f6a94e269e41cf90a6c59a7c
+# f7580d8213344181b32c966e975c5b4a
 #: ../../vector_classification/label_tool.rst:202
 msgid ""
 "It's better than before, but still not ideal. For starters, some of the "
@@ -1036,7 +1047,7 @@ msgid ""
 "that from happening:"
 msgstr ""
 
-# ca24278897a9448f80f9faa8b7e89130
+# 1e63c82a1c5f49d48f483aea785dd5b9
 #: ../../vector_classification/label_tool.rst:206
 msgid ""
 "Enable the option :guilabel:`Merge connected lines to avoid duplicate "
@@ -1044,21 +1055,21 @@ msgid ""
 "down to see it)."
 msgstr ""
 
-# 9c3eba1336c943a3aaafcfa04f399553
+# 0185cd2dd0f7412b9ace1889d3b3ef91
 #: ../../vector_classification/label_tool.rst:210
 msgid ""
 "Another useful function is to prevent labels being drawn for features too "
 "short to be of notice."
 msgstr ""
 
-# 2c1673859a1e42a0acc6fc617227837f
+# a1d4e050c86149a3b9e18962a8de05eb
 #: ../../vector_classification/label_tool.rst:213
 msgid ""
 "Set the value of :guilabel:`Suppress labeling of features smaller than ...` "
 "to :kbd:`5mm` and note the results when you click :guilabel:`Apply`."
 msgstr ""
 
-# 23b944d32094475b8042b36f02838319
+# 57cb48f87c3c4561ab3e35e30228852d
 #: ../../vector_classification/label_tool.rst:216
 msgid ""
 "Try out different :guilabel:`Placement` settings as well (also under the :"
@@ -1067,19 +1078,19 @@ msgid ""
 "option instead!"
 msgstr ""
 
-# 4f01cf9251b84b06b58ca904992cb8f9
+# 3f865d13d0a14c3db05cce3149b65258
 #: ../../vector_classification/label_tool.rst:221
 msgid ""
 "Select the :guilabel:`curved` option under the :guilabel:`Advanced` tab of "
 "the :guilabel:`Layer labeling settings` dialog."
 msgstr ""
 
-# b8575818ba1b40e3a5f3d392f974bd84
+# f1aa8458565d4c3ab12c03f158cd3975
 #: ../../vector_classification/label_tool.rst:224
 msgid "Here's the result:"
 msgstr ""
 
-# 7f1c282284fc40c78db03ff17b4211f2
+# fedf2201ba2c44eeaec27af0eaf2ea3f
 #: ../../vector_classification/label_tool.rst:229
 msgid ""
 "As you can see, this hides a lot of the labels that were previously visible, "
@@ -1088,29 +1099,29 @@ msgid ""
 "depending on what you think seems more useful or what looks better."
 msgstr ""
 
-# a55e017e8e544b8b8c4e87cf5655ea52
+# d19ca6dfedd14d80b7d81214e3907bcc
 #: ../../vector_classification/label_tool.rst:235
 msgid "|hard| |FA| Data defined settings"
 msgstr ""
 
-# 5d10bed6f32b489d93133649df246435
+# ccd4a8f655114051981723dde4610340
 #: ../../vector_classification/label_tool.rst:237
 msgid "Deactivate labeling for the :guilabel:`streets` layer."
 msgstr ""
 
-# f9dbf6015f284d2ea63ded0459248c47
+# 419b8a140d0f453da6f1f9537e55b96f
 #: ../../vector_classification/label_tool.rst:238
 msgid "Reactivate labeling for the :guilabel:`places` layer."
 msgstr ""
 
-# 70d659868f0349269e4899ce2ed71852
-# dafaf8aee0984a20a5db8fc56f504468
+# c4a96719fbb94b60a1faae74be42b03f
+# 0f83e75af74a4458aef867b7bd35871d
 #: ../../vector_classification/label_tool.rst:239
 #: ../../vector_classification/label_tool.rst:267
 msgid "Open the attribute table for :guilabel:`places`."
 msgstr ""
 
-# a584769973ca41c69f4aa751dce69650
+# bb3c9378a08d48c7bb257136abfba741
 #: ../../vector_classification/label_tool.rst:241
 msgid ""
 "It has two fields that are of interest to us now: :kbd:`ADDR_CITY` and :kbd:"
@@ -1120,29 +1131,29 @@ msgid ""
 "influence the label styles."
 msgstr ""
 
-# ecca16082d164711af293b85aeaf6b29
+# 6ce3c707887843c9b51ee1e8fc7bd7b2
 #: ../../vector_classification/label_tool.rst:247
 msgid "Navigate to the :guilabel:`Data defined settings` tab."
 msgstr ""
 
-# 657e871507e54fa88409e410d89d340a
+# 5857001bd0d3479d9a17df94ded044b3
 #: ../../vector_classification/label_tool.rst:248
 msgid ""
 "In the :guilabel:`Italic` dropdown, select :kbd:`IN_SWD` and click :guilabel:"
 "`Apply`."
 msgstr ""
 
-# 43209ed8e902409391dc97e6431d728a
+# 88985123c2d84056aad7ac82db6e9463
 #: ../../vector_classification/label_tool.rst:251
 msgid "Notice its effects:"
 msgstr ""
 
-# 355990b218234851a4244c08df9dcc79
+# 35f9788c0e9443c0a2741df878861147
 #: ../../vector_classification/label_tool.rst:260
 msgid "|hard| |TY| Using data defined settings"
 msgstr ""
 
-# 1a53c229f9f04106b82540a2cedb7b25
+# ba22d38b2f7b43238f092366f3231901
 #: ../../vector_classification/label_tool.rst:262
 msgid ""
 "We're jumping ahead a bit here to demonstrate some advanced labeling "
@@ -1151,41 +1162,41 @@ msgid ""
 "back later when you've covered the requisite materials."
 msgstr ""
 
-# 5e3d5a7e133b4d6c9eaa1a99a14c03fc
+# 44d206c7ce7140348a72797f7210e8de
 #: ../../vector_classification/label_tool.rst:268
 msgid ""
 "Enter edit mode by clicking this button (at the lower edge of the attribute "
 "table):"
 msgstr ""
 
-# 1e04cfa002684378892564bf86349de2
+# a8fc9ffb345c4d24b35df431dd67836a
 #: ../../vector_classification/label_tool.rst:274
 msgid "Add a new column:"
 msgstr ""
 
-# bf3e6bc1c61c4e5694fc6bb9918c036d
+# 73849ccd597040388f9ff50b9879fde8
 #: ../../vector_classification/label_tool.rst:279
 msgid "Configure it like this:"
 msgstr ""
 
-# 932e77e54456494fac42fe61158f9af0
+# b2c0eb6a598546379aa3770de3066507
 #: ../../vector_classification/label_tool.rst:284
 msgid ""
 "Use this to set custom font sizes for each different type of place (i.e., "
 "each key in the :kbd:`PLACE` field)."
 msgstr ""
 
-# 393aea39e40847d6a7e84e5378f4bc75
+# 3fc9c2b2814444b081892d9744532e7e
 #: ../../vector_classification/label_tool.rst:287
 msgid ":ref:`Check your results <label-data-defined-1>`"
 msgstr ""
 
-# bb72092f8b2a479086f4ae234b3bd7a5
+# c7f7204cfa194fd486f193b2e70a8d1c
 #: ../../vector_classification/label_tool.rst:291
 msgid "|hard| Further possibilities with labeling"
 msgstr ""
 
-# 5fc09d03535447aab2751a288e6958ff
+# 735f3554a72a4992bf975af272b45192
 #: ../../vector_classification/label_tool.rst:293
 msgid ""
 "We can't cover every option in this course, but be aware that the :guilabel:"
@@ -1197,26 +1208,26 @@ msgid ""
 "adjacent to the main :guilabel:`Label tool`:"
 msgstr ""
 
-# 4f8ec834f6cc49d98f84e7953480b28b
+# c4b07eacb8c54997aa65df297ba1c388
 #: ../../vector_classification/label_tool.rst:304
 msgid ""
 "(These tools will be active if the required attribute fields exist and you "
 "are in edit mode.)"
 msgstr ""
 
-# 723053bf928a4a39b4c736200a48078c
+# 4c5b304f24c94731a654fd4ee0f2c019
 #: ../../vector_classification/label_tool.rst:307
 msgid "Feel free to explore more possibilities of the labeling system."
 msgstr ""
 
-# 169b3ddb34274f71b943b484d415cb84
+# c7aac4196e064d64a90948e51f4290d8
 #: ../../vector_classification/label_tool.rst:312
 msgid ""
 "You've learned how to use layer attributes to create dynamic labels. This "
 "can make your map a lot more informative and stylish!"
 msgstr ""
 
-# 2816017cc2884d6e8a3d173005dea6c8
+# af62c6882af745c09411368aab726c0c
 #: ../../vector_classification/label_tool.rst:318
 msgid ""
 "Now that you know how attributes can make a visual difference for your map, "
