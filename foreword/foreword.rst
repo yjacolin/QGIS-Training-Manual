@@ -58,7 +58,7 @@ guidelines are as follows:
 .. note:: This lesson was sponsored by MegaCorp.
 
 * If you are unsure about what you may do under this license, please contact us
-  at office@linfiniti.com and we will advice you if what you intend doing is
+  at office@linfiniti.com and we will advise you if what you intend doing is
   acceptable.
 * If you publish this work under a self publishing site such as
   http:://lulu.com we request that you donate the profits to the QGIS project.
