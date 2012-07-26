@@ -34,10 +34,10 @@ do
   sphinx-build -D language=${LOCALE} -b html . _build/html/${LOCALE}
 
   # Compile the latex docs for that locale
-  #sphinx-build -D language=${LOCALE} -b latex . _build/latex/${LOCALE}
+  sphinx-build -D language=${LOCALE} -b latex . _build/latex/${LOCALE}
 
   # Compile the pdf docs for that locale
-  #sphinx-build -D language=${LOCALE} -b latexpdf . _build/pdf/${LOCALE}
+  sphinx-build -D language=${LOCALE} -b latexpdf . _build/latex/${LOCALE}
 
   rm -rf _static
 done
