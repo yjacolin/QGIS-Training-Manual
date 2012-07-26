@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-24 09:02\n"
+"POT-Creation-Date: 2012-07-26 22:01\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -184,14 +184,6 @@ msgstr ""
 msgid ""
 "Set the loaded layer to :guilabel:`streets` and its GRASS version's name to :"
 "kbd:`g_streets` to prevent confusion."
-msgstr ""
-
-# 3165052ab6e8424e84d7d5f76ff7ad4d
-#: ../../grass/grass_setup.rst:104
-msgid ""
-"|hard| Note the extra import options provided under :guilabel:`Advanced "
-"Options`. These include the ability to add a WHERE clause for the SQL query "
-"used for importing the data."
 msgstr ""
 
 # 09ce4a47619640f1aefac829623cc4c6
