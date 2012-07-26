@@ -35,9 +35,13 @@ do
 
   # Compile the latex docs for that locale
   sphinx-build -D language=${LOCALE} -b latex . _build/latex/${LOCALE}
-
   # Compile the pdf docs for that locale
-  sphinx-build -D language=${LOCALE} -b latexpdf . _build/latex/${LOCALE}
-
+  # we use texi2pdf since latexpdf target is not available via 
+  # sphinx-build which we need to use since we need to pass language flag
+  pushd .
+  cd _build/latex/${LOCALE}/
+  texi2pdf --quiet  LinfinitiQGISTrainingManual.tex
+  mv LinfinitiQGISTrainingManual.pdf LinfinitiQGISTrainingManual-${LOCALE}.pdf
+  popd
   rm -rf _static
 done
