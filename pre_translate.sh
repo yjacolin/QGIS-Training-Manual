@@ -12,9 +12,10 @@ sphinx-build -b gettext . i18n/pot/
 # Now iteratively update the locale specific .po files with any new strings needed translation
 for LOCALE in ${LOCALES}
 do
-  echo "Updating translation catalog for ${LOCAL}:"
+  echo "Updating translation catalog for ${LOCALE}:"
   echo "------------------------------------"
   mkdir -p i18n/${LOCALE}/LC_MESSAGES
+  mkdir -p _static_${LOCALE}
   for FILE in `ls i18n/pot`
   do
     POTFILE=i18n/pot/${FILE}
