@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-26 22:38\n"
+"POT-Creation-Date: 2012-07-27 00:26\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,7 +88,7 @@ msgstr ""
 
 #: ../../foreword/foreword.rst:60
 # b527d73683a942ee9f28f30a71948223
-msgid "If you are unsure about what you may do under this license, please contact us at office@linfiniti.com and we will advice you if what you intend doing is acceptable."
+msgid "If you are unsure about what you may do under this license, please contact us at office@linfiniti.com and we will advise you if what you intend doing is acceptable."
 msgstr ""
 
 #: ../../foreword/foreword.rst:63
