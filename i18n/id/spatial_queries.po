@@ -28,9 +28,10 @@ msgid ""
 "the geometry column like any other database column. With the installation of "
 "PostGIS in our database, we have additional functions to query our database."
 msgstr ""
-"Queri spasial tidak berbeda dari queri database lain. Anda dapat menggunakan "
-"kolom geometri seperti kolom database lain. Dengan instalasi PostGIS dalam "
-"database kita, kitai memiliki fungsi tambahan untuk query database kita."
+"Queri spasial tidak berbeda dari queri basis data lain. Anda dapat "
+"menggunakan kolom geometri seperti kolom basis data lain. Dengan instalasi "
+"PostGIS dalam basis data kita, kita memiliki fungsi tambahan untuk query "
+"basis data kita."
 
 # 5cbbf758c71a4fcf81a1537fe278f1c9
 #: ..\..\postgis\spatial_queries.rst:8
@@ -75,7 +76,7 @@ msgid ""
 msgstr ""
 "Nilai the_geom di atas itu dipotong untuk space pada halaman ini. Jika Anda "
 "ingin melihat poin dalam koordinat yang dapat dibaca oleh manusia, cobalah "
-"sesuatu yang mirip dengan apa yang Anda lakukan pada bagian \"Lihat pon "
+"sesuatu yang mirip dengan apa yang Anda lakukan pada bagian \"Lihat poin "
 "sebagai WKT\" di atas."
 
 # 53f1395a7ee44784a7ea3ba093831add
@@ -132,13 +133,13 @@ msgid ""
 "In order to demo PostGIS spatial functions, we'll create a new database "
 "containing some (fictional) data."
 msgstr ""
-"Untuk demo fungsi spasial PostGIS, kita akan membuat database baru yang "
+"Untuk demo fungsi spasial PostGIS, kita akan membuat basis data baru yang "
 "berisi beberapa (fiksi) data."
 
 # eac7db737ffa49c984d0ed557d061ce5
 #: ..\..\postgis\spatial_queries.rst:124
 msgid "To start, create a new database:"
-msgstr "Untuk memulai, buatlah database baru:"
+msgstr "Untuk memulai, buatlah basis data baru:"
 
 # 71d1c0f02b734ad7b04682695c463329
 #: ..\..\postgis\spatial_queries.rst:130
@@ -164,23 +165,23 @@ msgid ""
 msgstr ""
 "Selanjutnya, import data yang disediakan dalam :kbd: exercise_data / PostGIS "
 "/ direktory. Lihat kembali pelajaran sebelumnya untuk petunjuk. Anda dapat "
-"mengimport dari terminal atau melalui SPIT. Import file ke dalam tabel "
-"database berikut:"
+"mengimport dari terminal atau melalui SPIT. Import file ke dalam tabel basis "
+"data berikut:"
 
 # dbf4623f164b478d83c7c2887bd9c39e
 #: ..\..\postgis\spatial_queries.rst:148
 msgid ":kbd:`points.shp` = :kbd:`building`"
-msgstr ":kbd: points.shp = :kbd: building"
+msgstr ":kbd: points.shp = :kbd: bangunan"
 
 # 1ebd84b8767d4bcd87cdbf1bd49eae9b
 #: ..\..\postgis\spatial_queries.rst:149
 msgid ":kbd:`lines.shp` = :kbd:`road`"
-msgstr ":kbd: lines.shp = :kbd: road"
+msgstr ":kbd: lines.shp = :kbd: jalan"
 
 # a6745b75412048929be0e95eaf96e97c
 #: ..\..\postgis\spatial_queries.rst:150
 msgid ":kbd:`polygons.shp` = :kbd:`region`"
-msgstr ":kbd: polygons.shp = :kbd: region"
+msgstr ":kbd: polygons.shp = :kbd: daerah"
 
 # c76098e3ca4a4a31b10f147a9413c7d3
 #: ..\..\postgis\spatial_queries.rst:152
@@ -190,7 +191,7 @@ msgid ""
 "that they have both an :kbd:`id` field and a :kbd:`gid` field created by the "
 "PostGIS import."
 msgstr ""
-"Muatlah tiga layer database ke dalam QGIS melalui dialog :guilabel: Add "
+"Muatlah tiga layer basis data ke dalam QGIS melalui dialog :guilabel: Add "
 "PostGIS Layers, seperti biasa. Ketikaa Anda membuka tabel atributnya, Anda "
 "akan perhatikan bahwa keduanya mempunyai kolom id dan kolom gid yang "
 "diciptakan oleh import PostGIS."
@@ -295,7 +296,7 @@ msgid ""
 "that intersects it. However, Hokkaido itself is excluded from this select "
 "statement, because we don't want it; we only want the regions adjoining it."
 msgstr ""
-"Dalam query ini, tampilan buffer asli digunakan sebagai tabel lain. Hal ini "
+"Dalam queri ini, tampilan buffer asli digunakan sebagai tabel lain. Hal ini "
 "diberikan alias :kdb: a, dan field geometrinya, :kbd: a.the_geom, digunakan "
 "untuk memilih poligon dalam tabel :kdb: wilayah (alias b) yang memotongnya. "
 "Namun, Hokkaido itu sendiri dikeluarkan dari pernyataan pilihan, karena kita "
@@ -347,8 +348,8 @@ msgid ""
 "You have seen how to query spatial objects using the new database functions "
 "from PostGIS."
 msgstr ""
-"Anda telah melihat bagaimana obyek queri spasial menggunakan fungsi database "
-"baru dari PostGIS."
+"Anda telah melihat bagaimana obyek queri spasial menggunakan fungsi basis "
+"data baru dari PostGIS."
 
 # 2770977ee80445e2bfb0709337454262
 #: ..\..\postgis\spatial_queries.rst:398

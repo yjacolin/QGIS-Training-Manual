@@ -15,74 +15,105 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Language: id_ID\n"
 
-#: ..\..\postgres\rules.rst:2
 # 83c854190c524a648d0290a1d1e46b17
+#: ..\..\postgres\rules.rst:2
 msgid "|LS| Rules"
-msgstr ""
+msgstr "|Pelajaran|: Rules"
 
-#: ..\..\postgres\rules.rst:4
 # 65ae2deaf060464d8b76de2d76d08132
-msgid "Rules allow the \"query tree\" of an incoming query to be rewritten. One common usage is to implement views, including updatable view. *- Wikipedia*"
+#: ..\..\postgres\rules.rst:4
+msgid ""
+"Rules allow the \"query tree\" of an incoming query to be rewritten. One "
+"common usage is to implement views, including updatable view. *- Wikipedia*"
 msgstr ""
+"Rules memungkinkan \"pohon query\" dari sebuah query yang masuk harus "
+"ditulis ulang. Satu penggunaan umum adalah untuk menerapkan view, termasuk "
+"view yang dapat diupdate. - Wikipedia"
 
-#: ..\..\postgres\rules.rst:7
 # 488ab957cd794fc298c7b722289167f4
-msgid "**The goal for this lesson:** To learn how to create new rules for the database."
+#: ..\..\postgres\rules.rst:7
+msgid ""
+"**The goal for this lesson:** To learn how to create new rules for the "
+"database."
 msgstr ""
+"Tujuan untuk pelajaran ini: Untuk mempelajari cara untuk membuat rules baru "
+"untuk database."
 
-#: ..\..\postgres\rules.rst:11
 # d680ac10e0764cf1bcc13937e799ca72
+#: ..\..\postgres\rules.rst:11
 msgid "Materialised Views (Rule based views)"
-msgstr ""
+msgstr "Materialised Views (Peraturan berdasarkan view)"
 
-#: ..\..\postgres\rules.rst:13
 # 52e8a7c8effb4278a7f35b1d08896401
-msgid "Say you want to log every change of phone_no in your people table in to a people_log table. So you set up a new table"
+#: ..\..\postgres\rules.rst:13
+msgid ""
+"Say you want to log every change of phone_no in your people table in to a "
+"people_log table. So you set up a new table"
 msgstr ""
+"Katakanlah Anda ingin mencatat setiap perubahan phone_no dalam tabel people "
+"Anda ke ke dalam tabel people_log. Jadi Anda membuat tabel baru"
 
-#: ..\..\postgres\rules.rst:20
 # b7ba0c465d2b4bad8552be8d91abd9e4
-msgid "In the next step create a rule, that logs every change of a phone_no in the people table into the people_log table:"
+#: ..\..\postgres\rules.rst:20
+msgid ""
+"In the next step create a rule, that logs every change of a phone_no in the "
+"people table into the people_log table:"
 msgstr ""
+"Pada langkah selanjutnya buatlah sebuah rule, yang mencatat setiap perubahan "
+"dari phone_no dalam tabel people  ke dalam tabel people_log:"
 
-#: ..\..\postgres\rules.rst:29
 # 57228c1977fd468a937d4a86c6b9212d
+#: ..\..\postgres\rules.rst:29
 msgid "To test that the rule works, let's modify a phone number:"
-msgstr ""
+msgstr "untuk menguji rule bekerja, mari kita modifikasi nomor telepon:"
 
-#: ..\..\postgres\rules.rst:35
 # 21b01c66c9f34cbf9bc39134c64d0935
+#: ..\..\postgres\rules.rst:35
 msgid "Check that the table was updated correctly:"
-msgstr ""
+msgstr "pastikan bahwa tabel telah terupdate secara benar:"
 
-#: ..\..\postgres\rules.rst:44
 # c9d07c606b934826a1a23e936c7d371d
-msgid "Now, thanks to the rule we created, the :kbd:`people_log` table will look like this:"
+#: ..\..\postgres\rules.rst:44
+msgid ""
+"Now, thanks to the rule we created, the :kbd:`people_log` table will look "
+"like this:"
 msgstr ""
+"Sekarang, berterimakasihlah karena rule yang kita buat, table people log  "
+"tampak sebagai berikut:"
 
-#: ..\..\postgres\rules.rst:54
 # 585acd5e27ff4f4699de38f1e047d2e2
-msgid "The value of the :kbd:`time` field will depend on the current date and time."
-msgstr ""
+#: ..\..\postgres\rules.rst:54
+msgid ""
+"The value of the :kbd:`time` field will depend on the current date and time."
+msgstr "Nilai dari field  time akan tergantung pada data dan waktu sekarang."
 
-#: ..\..\postgres\rules.rst:58
 # cde16776be1a40378c407b5e68d531ad
+#: ..\..\postgres\rules.rst:58
 msgid "|IC|"
-msgstr ""
+msgstr "|Kesimpulan|"
 
-#: ..\..\postgres\rules.rst:60
 # db6006a02b314ddfaf9d2989cd459360
-msgid "Rules allow you to automatically add or change data in your database to reflect changes in other parts of the database."
+#: ..\..\postgres\rules.rst:60
+msgid ""
+"Rules allow you to automatically add or change data in your database to "
+"reflect changes in other parts of the database."
 msgstr ""
+"Rule memungkinkan Anda untuk secara otomatis menambahkan atau mengubah data "
+"dalam database Anda untuk menunjukkan perubahan pada bagian lain dari "
+"database."
 
-#: ..\..\postgres\rules.rst:64
 # 358ce8ab757040de8dbc501f592c8ff8
+#: ..\..\postgres\rules.rst:64
 msgid "|WN|"
-msgstr ""
+msgstr "|Apa selanjutnya?|"
 
-#: ..\..\postgres\rules.rst:66
 # 67744f11f67a4333a40d66a2ad8e494b
-msgid "The next module will introduce you to PostGIS, which takes these database concepts and applies them to GIS data."
+#: ..\..\postgres\rules.rst:66
+msgid ""
+"The next module will introduce you to PostGIS, which takes these database "
+"concepts and applies them to GIS data."
 msgstr ""
-
+"Modul berikutnya akan memperkenalkan Anda kepada PostGIS, yang mengambil "
+"konsep-konsep database dan mengaplikasikannya ke data SIG."

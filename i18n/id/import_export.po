@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -15,109 +14,168 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Language: id\n"
 
-#: ..\..\postgis\import_export.rst:2
 # 556291451e9942328f14a14aae4e3262
+#: ..\..\postgis\import_export.rst:2
 msgid "|LS| Import and Export"
-msgstr ""
+msgstr "|Pelajaran| Import dan Export"
 
-#: ..\..\postgis\import_export.rst:4
 # 55b042a1039e4046a0b219282c74fd6c
-msgid "Of course, a database with no easy way to migrate data into it and out of it would be no fun. Even more so for spatial data! Fortunately, there are a number of tools that will let you easily move data into and out of PostGIS."
+#: ..\..\postgis\import_export.rst:4
+msgid ""
+"Of course, a database with no easy way to migrate data into it and out of it "
+"would be no fun. Even more so for spatial data! Fortunately, there are a "
+"number of tools that will let you easily move data into and out of PostGIS."
 msgstr ""
+"Tentu saja, sebuah basis data tanpa cara untuk migrasi data ke dalamnya dan "
+"keluar dari itu tidak akan menyenangkan. Bahkan lebih lagi untuk data "
+"spasial! Untungnya, ada sejumlah piranti yang akan mempermudah Anda untuk "
+"memindahkan data ke dan dari PostGIS."
 
-#: ..\..\postgis\import_export.rst:9
 # 86a9a4f2e61045efb5977be421865c1c
+#: ..\..\postgis\import_export.rst:9
 msgid "shp2pgsql"
-msgstr ""
+msgstr "shp2pgsql"
 
-#: ..\..\postgis\import_export.rst:11
 # 8b9ec396b9cb49f689fc0271be9db603
-msgid "shp2pgsql is a commandline tool to import ESRI shapefiles to the database. Under Unix, you can use the following command for importing a new PostGIS table:"
+#: ..\..\postgis\import_export.rst:11
+msgid ""
+"shp2pgsql is a commandline tool to import ESRI shapefiles to the basis data. "
+"Under Unix, you can use the following command for importing a new PostGIS "
+"table:"
 msgstr ""
+"shp2pgsql merupakan piranti baris perintah untuk import shapefile ESRI ke "
+"dalam basis data. Dibawah Unix, Anda dapat menggunakan perintah berikut "
+"untuk mengimport tabel PostGIS baru:"
 
-#: ..\..\postgis\import_export.rst:20
 # 9185b004f9634085bb3e1a819f163523
+#: ..\..\postgis\import_export.rst:20
 msgid "Under Windows, you have to perform the import process in two steps:"
-msgstr ""
+msgstr "Untuk Windows, Anda harus menampilkan dua langkah dalam proses import:"
 
-#: ..\..\postgis\import_export.rst:27
 # fd18913c105e450e88cc69c4631f7cfb
+#: ..\..\postgis\import_export.rst:27
 msgid "You may encounter this error:"
-msgstr ""
+msgstr "Anda mungkin menemui eror seperti ini:"
 
-#: ..\..\postgis\import_export.rst:34
 # 6129e3ff8ea744dd9190a42751db8b64
-msgid "This is a known issue regarding the creation *in situ* of a spatial index for the data you're importing. To avoid the error, exclude the :kbd:`-I` parameter. This will mean that no spatial index is being created directly, and you'll need to create it in the database after the data have been imported. (The creation of a spatial index will be covered in the next lesson.)"
+#: ..\..\postgis\import_export.rst:34
+msgid ""
+"This is a known issue regarding the creation *in situ* of a spatial index "
+"for the data you're importing. To avoid the error, exclude the :kbd:`-I` "
+"parameter. This will mean that no spatial index is being created directly, "
+"and you'll need to create it in the database after the data have been "
+"imported. (The creation of a spatial index will be covered in the next "
+"lesson.)"
 msgstr ""
+"Hal ini merupakan masalah yang diketahui mengenai pembuatan indek spasial "
+"*in situ* untuk data yang Anda import. Untuk menghindari kesalahan, lakukan "
+"*exclude* parameter :kbd: -I. Ini berarti bahwa tidak ada indeks spasial "
+"yang dibuat secara langsung, dan Anda harus membuat dalam basis data setelah "
+"data telah diimport. (Pembuatan indeks spasial akan dibahas pada pelajaran "
+"berikutnya.)"
 
-#: ..\..\postgis\import_export.rst:41
 # 8e96e1c0050743c5aba8a2e914cc1b80
+#: ..\..\postgis\import_export.rst:41
 msgid "pgsql2shp"
-msgstr ""
+msgstr "pgsql2shp"
 
-#: ..\..\postgis\import_export.rst:43
 # 1076502c6ef54718883a3b308ecba0dc
-msgid "pgsql2shp is a commandline tool to export PostGIS Tables, Views or SQL select queries. To do this under Unix:"
+#: ..\..\postgis\import_export.rst:43
+msgid ""
+"pgsql2shp is a commandline tool to export PostGIS Tables, Views or SQL "
+"select queries. To do this under Unix:"
 msgstr ""
+"pgsql2shp merupakan piranti baris perintah untuk melakukan export tabel "
+"PostGIS, tampilan atau queri pilihan SQL. Untuk melakukannya di bawah Unix:"
 
-#: ..\..\postgis\import_export.rst:51
 # 35aeb11ffb5648619dc25f48f8f19351
+#: ..\..\postgis\import_export.rst:51
 msgid "To export the data using a query:"
-msgstr ""
+msgstr "Untuk melakukan export data menggunakan queri:"
 
-#: ..\..\postgis\import_export.rst:59
 # 9633362122c2434b9c2a8bc57a93bfba
+#: ..\..\postgis\import_export.rst:59
 msgid "ogr2ogr"
-msgstr ""
+msgstr "ogr2ogr"
 
-#: ..\..\postgis\import_export.rst:61
 # a319102c65a7451e9f08cf2e6becb4db
-msgid "ogr2ogr is a very powerful tool to convert data into and from postgis to many data formats. ogr2ogr is part of the GDAL/OGR Software and has to be installed separately. To export a table from PostGIS to GML, you can use this command:"
+#: ..\..\postgis\import_export.rst:61
+msgid ""
+"ogr2ogr is a very powerful tool to convert data into and from postgis to "
+"many data formats. ogr2ogr is part of the GDAL/OGR Software and has to be "
+"installed separately. To export a table from PostGIS to GML, you can use "
+"this command:"
 msgstr ""
+"Ogr2ogr merupakan piranti yang sangat *powerful* untuk konversi data ke "
+"dalam atau dari PostGIS ke berbagai macam format data. Org2ogr merupakan "
+"bagian dari perangkat lunak GDAL/OGR dan harus diinstal secara terpisah. "
+"Untuk melakukan export tabel dari PostGIS ke GML, Anda dapat menggunakan "
+"perintah ini:"
 
-#: ..\..\postgis\import_export.rst:71
 # 45695255ed2545dab8183f5497cfa075
+#: ..\..\postgis\import_export.rst:71
 msgid "SPIT"
-msgstr ""
+msgstr "SPIT"
 
-#: ..\..\postgis\import_export.rst:73
 # 5278965752594b509ea2be32d4d94d66
-msgid "SPIT is a QGIS plugin which is delivered with QGIS. You can use SPIT for uploading ESRI shapefiles to PostGIS."
+#: ..\..\postgis\import_export.rst:73
+msgid ""
+"SPIT is a QGIS plugin which is delivered with QGIS. You can use SPIT for "
+"uploading ESRI shapefiles to PostGIS."
 msgstr ""
+"SPIT merupakan sebuah *plugin* QGIS yang dikirim dengan QGIS. Anda dapat "
+"menggunakan SPIT untuk mengunggah shapefile ESRI ke dalam PostGIS."
 
-#: ..\..\postgis\import_export.rst:76
 # 8915adc5f2d74a5983324449ce92d24a
-msgid "Once you've added the SPIT plugin via the :guilabel:`Plugin Manager`, look for this button:"
+#: ..\..\postgis\import_export.rst:76
+msgid ""
+"Once you've added the SPIT plugin via the :guilabel:`Plugin Manager`, look "
+"for this button:"
 msgstr ""
+"Setelah Anda menambahkan *plugi*n SPIT melalui Plugin Manager, carilah "
+"tombol ini:"
 
-#: ..\..\postgis\import_export.rst:82
 # 23c2669d0ac64c7f9b75e1d0e59d0791
+#: ..\..\postgis\import_export.rst:82
 msgid "Clicking on it will give you the SPIT dialog:"
-msgstr ""
+msgstr "Klik pada tombol tersebut, ini akan memberikan dialog SPIT:"
 
-#: ..\..\postgis\import_export.rst:87
 # b4fb325224344b0cb8a65a9b616b8ef4
-msgid "You can add shapefiles to the database by clicking the :guilabel:`Add` button, which will give you a file browser window."
+#: ..\..\postgis\import_export.rst:87
+msgid ""
+"You can add shapefiles to the database by clicking the :guilabel:`Add` "
+"button, which will give you a file browser window."
 msgstr ""
+"Anda dapat menambahkan shapefile pada basis data dengan mengklik pada tombol "
+":guilabel: Add, yang akan memberikan Anda jendela pencari file."
 
-#: ..\..\postgis\import_export.rst:91
 # d5ddadcaa7934231975eb82e6013843d
+#: ..\..\postgis\import_export.rst:91
 msgid "|IC|"
-msgstr ""
+msgstr "|Kesimpulan|"
 
-#: ..\..\postgis\import_export.rst:93
 # 4f97696faf8d4953b1c79aa61d5b50aa
-msgid "Importing and exporting data to and from the database can be done in many various ways. Especially when using disparate data sources, you will probably use these functions (or others like them) on a regular basis."
+#: ..\..\postgis\import_export.rst:93
+msgid ""
+"Importing and exporting data to and from the database can be done in many "
+"various ways. Especially when using disparate data sources, you will "
+"probably use these functions (or others like them) on a regular basis."
 msgstr ""
+"Melakukan import dan export data ke dan dari basis data dapat dilakukan "
+"dengan berbagai cara. Khususnya ketika menggunakan sumber data yang tidak "
+"sama, Anda mungkin akan menggunakan fungsi ini (atau yang lainnya yang "
+"seperti ini) pada basis reguler."
 
-#: ..\..\postgis\import_export.rst:98
 # ae8fab1f3506424db9e0dc582f747264
+#: ..\..\postgis\import_export.rst:98
 msgid "|WN|"
-msgstr ""
+msgstr "|Apa selanjutnya|"
 
-#: ..\..\postgis\import_export.rst:100
 # f96198fb0ae945c6856fe45638f4a57d
+#: ..\..\postgis\import_export.rst:100
 msgid "Next we'll look at how to query the data we've created before."
 msgstr ""
-
+"Selanjutnya, kita akan melihat bagaimana queri data yang kita buat "
+"sebelumnya."

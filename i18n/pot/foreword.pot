@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-18 19:25\n"
+"POT-Creation-Date: 2012-07-23 11:49\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,188 +16,193 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..\..\foreword\foreword.rst:2
-# 4dc9812d00a742bf9d54083c07b924a8
+#: ../../foreword/foreword.rst:2
+# b59ae6e97a9a4a408ec0c9932448ed85
 msgid "Foreword"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:5
-# 14c0dfab0b234c7992c9888dfc4ad600
+#: ../../foreword/foreword.rst:5
+# eb1ad4cc806f4c629fa51b24fd4def44
 msgid "Background"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:7
-# f6ce81e97a974f108a066d05965b3e7b
+#: ../../foreword/foreword.rst:7
+# 7aff45af89bd42299129428db56aad90
 msgid "In 2008 we launched the `Gentle Introduction to GIS <http://linfiniti.com/dla>`_, a completely free, open content resource for people who want to learn about GIS without being overloaded with jargon and new terminology. It was sponsored by the South African government and has been a phenomenal success, with people all over the world writing to us to tell us how they are using the materials to run University Training Courses, teach themselves GIS and so on. The Gentle Introduction is not a software tutorial, but rather aims to be a generic text (although we used QGIS in all examples) for someone learning about GIS. There is also the QGIS manual which provides a detailed functional overview of the QGIS application. However, it is not structured as a tutorial, but rather as a reference guide. At Linfiniti Consulting CC. we frequently run training courses and have realised that a third resource is needed - one that leads the reader sequentially through learning the key aspects of QGIS in a trainer-trainee format - which prompted us to produce this work."
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:23
-# bc5acdf87a184fcaa5b4c6a34bd0df1e
+#: ../../foreword/foreword.rst:23
+# 1665602837e9464ab159a0121dcd7d10
 msgid "This training manual is intended to provide all the materials needed to run a 5 day course on QGIS, PostgreSQL and PostGIS. The course is structured with content to suit novice, intermediate and advanced users alike and has many exercises complete with annotated answers throughout the text."
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:29
-# 6ae6ddb09a6a438db079d5fd23671050
+#: ../../foreword/foreword.rst:29
+# 5f822b6cf9cb44fb9b67d59485057e61
 msgid "License"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:33
-# 8dbb9146393e4d1a92433c1e490d173d
+#: ../../foreword/foreword.rst:33
+# 105b0d447605440fbf7338b2d1d9dec4
 msgid "The Free Quantum GIS Training Manual by Linfiniti Consulting CC. is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.  Based on a work at https://github.com/qgis/QGIS-Training-Manual. Permissions beyond the scope of this license may be available at https://github.com/qgis/QGIS-Training-Manual/blob/master/index.rst."
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:39
-# b788078c2f014d26851638bc1c32ce25
+#: ../../foreword/foreword.rst:39
+# 6933cdc744244eeba7417beab1883433
 msgid "We have published this QGIS training manual under a liberal license that allows you to freely copy, modify and redistribute this work. A complete copy of the license is available at the end of this document. In simple terms, the usage guidelines are as follows:"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:44
-# 996cca90c5744794b2dccfa89e1ffd33
+#: ../../foreword/foreword.rst:44
+# 6ef234c5774f43518fb42a621d4710f9
 msgid "You may not represent this work as your own work, or remove any authorship text or credits from this work."
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:46
-# 8a0e80bb10374900a59a63c0d88d4af9
+#: ../../foreword/foreword.rst:46
+# ca2d54835baa49479b8e37f041fdfe47
 msgid "You may not redistribute this work under more restrictive permissions than those under which it was provided to you."
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:48
-# 4116bce8ea73453690c443f453572cfd
+#: ../../foreword/foreword.rst:48
+# fc670d9290314839b0cc78ce27da7976
 msgid "If you add a substantitive portion to the work and contribute it back to the project (at least one complete module) you may add your name to the end of the authors list for this document (which will appear on the front page)"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:51
-# b393d2aa07274761b740e914374a9ce8
+#: ../../foreword/foreword.rst:51
+# e0dd7ce5c33141998c0ab5ba4e435619
 msgid "If you contribute minor changes and corrections you may add yourself to the contributors list below."
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:53
-# 990dac24c4e54b14a466c3307537abe4
+#: ../../foreword/foreword.rst:53
+# 6a7ae122d3f24bf388adea4d71b12083
 msgid "If you translate this document in its entirety, you may add your name to the authors list in the form \"Translated by Joe Blogs\"."
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:55
-# 67d19b72c41a434e8dbd2bafc80e92c0
+#: ../../foreword/foreword.rst:55
+# 0d56cac9781e45369186660fc8bc350c
 msgid "If you sponsor a module or lesson, you may request the author to include an acknowledgement in the beginning of each lesson contributed, e.g.:"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:58
-# 48cc54c5a3134590a8bbef05231ec895
+#: ../../foreword/foreword.rst:58
+# 7d3fa91afdd448b0b36a1a2943e0e8b4
 msgid "This lesson was sponsored by MegaCorp."
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:60
-# 5d02a5771bb64b9e9d845e639fbfa0b8
+#: ../../foreword/foreword.rst:60
+# bf0441b8e4b6459291b7a70db647b9b1
 msgid "If you are unsure about what you may do under this license, please contact us at office@linfiniti.com and we will advice you if what you intend doing is acceptable."
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:63
-# 6b93cbcef9674a84874d7ea62ce988ba
+#: ../../foreword/foreword.rst:63
+# 792a356aa370426ab35e4cffe29d5592
 msgid "If you publish this work under a self publishing site such as http:://lulu.com we request that you donate the profits to the QGIS project."
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:65
-# 548a4f0166174274bad329e8bea763a6
+#: ../../foreword/foreword.rst:65
+# 7f3cf7c7460e4387a27eb645333fe56e
 msgid "You may not commercialise this work, except with the expressed permission of the authors. To be clear, by commercialisation we mean that you may not sell for profit, create commercial derivative works (e.g. selling content for use as articles in a magazine). The exception to this is if all the profits are given to the QGIS project. You may (and we encourage you to do so) use this work as a text book when conducting training courses, even if the course itself is commercial in nature. In other words, you are welcome to make money by running a training course that uses this work as a text book, but you may not profit off the sales of the book itself - all such profits should be contributed back to QGIS."
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:78
-# 99e97226ee524111a62d830249569335
+#: ../../foreword/foreword.rst:78
+# acbf37d3f8b64c9db14ae3854c1a9ca7
 msgid "Sponsoring Chapters"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:80
-# 03a155a3e14d4792b05a898816536700
+#: ../../foreword/foreword.rst:80
+# 465c527c48654c6fa726b59813ca1436
 msgid "This work is by no means a complete treatise on all the things you can do with QGIS and we encourage others to add new materials to fill any gaps. Linfiniti Consulting CC. can also create additional materials for you as a commercial service, with the understanding that all such works produced should become part of the core content and be published under the same license."
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:87
-# 94c0f73d10204e86949d8015a4c2d484
+#: ../../foreword/foreword.rst:87
+# 2e605b3d89db4cee877946b190810890
 msgid "Authors"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:89
-# 007fef6e8a87424997e45caa6f6d25a0
+#: ../../foreword/foreword.rst:89
+# 4455365c23bb442fb4f07fb1f93d16b6
 msgid "Rüdiger Thiede (rudi@linfiniti.com) - Rudi has written the QGIS instructional materials and parts of the PostGIS materials."
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:91
-# 0bfe47f05fd54f3d9dc4483bc85b49da
+#: ../../foreword/foreword.rst:91
+# 61d838930e9d47dc8f8cb66818e43559
 msgid "Tim Sutton (tim@linfiniti.com) - Tim has overseen and guided the project and co-authored the PostgreSQL and PostGIS parts. Tim also authored the custom sphinx theme used for this manual."
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:94
-# 32989786c8fe46d292b71e20f2905bda
+#: ../../foreword/foreword.rst:94
+# 19bec6ecdd9241b7a9987b1881157ba2
 msgid "Horst Düster (horst.duester@kappasys.ch ) - Horst co-authored the PostgreSQL and PostGIS parts"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:96
-# 4b6776a3d0c849e180a501f84cbcd2a3
+#: ../../foreword/foreword.rst:96
+# 10407e092f264facb53a86dd4a85acb7
 msgid "Marcelle Sutton (marcelle@linfiniti.com) - Marcelle provided proof reading and editorial advice during the creation of this work."
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:100
-# 5415d96d691b4347847ec7ac2b844b37
+#: ../../foreword/foreword.rst:100
+# 1767b6e16ac84348889607f80ef3e03e
 msgid "Individual Contributors"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:102
-# e4b7726810c64daab2a7ef9c8ecbce2b
+#: ../../foreword/foreword.rst:102
+# d8c5953aadaa49778d48db33da09c86f
 msgid "Your name here!"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:105
-# 34bf85e3c54f4d72b387a0434b1193f8
+#: ../../foreword/foreword.rst:105
+# 61a3dc10b8f94cbfa865de7143347998
 msgid "Sponsors"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:107
-# 3db1842c21ed4bb99c3c2bdb1fe37701
+#: ../../foreword/foreword.rst:107
+# 5d4477dc8e244e92bec53db4f9f637bf
 msgid "Cape Peninsula University of Technology"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:110
-# 82d03c0ae85640ff8aa2bf1e9708b881
+#: ../../foreword/foreword.rst:110
+# b77b104b995148019d1a6a26e5ef04c6
 msgid "Data"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:112
-# 1da3eaabc3434f8095156174a627e0b2
+#: ../../foreword/foreword.rst:112
+# fc827f73e8d0457395561d7e89098f94
 msgid "The sample data that accompanies this resource is freely available and comes from the following sources:"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:115
-# 1a8f70cc672242e398acb53807112939
+#: ../../foreword/foreword.rst:115
+# 7961e222c1654bc09cc94dbbfec61011
 msgid "Streets and Places datasets from OpenStreetMap (http://www.openstreetmap.org/)"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:116
-# 7aacd31c752846cda7484d18b09eeb00
+#: ../../foreword/foreword.rst:116
+# b98c2a6033ad4609a14c2d02ed70c4b4
 msgid "Property boundaries (urban and rural), water bodies from NGI (http://www.ngi.gov.za/)"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:117
-# ce91cfbc88904807b124ac82cecb9110
+#: ../../foreword/foreword.rst:117
+# 58c45c63d8c24b8ca22b4a9be77ab332
 msgid "SRTM DEM from the CGIAR-CGI (http://srtm.csi.cgiar.org/)"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:121
-# 29de3186fedf4c41a552845351f16cad
+#: ../../foreword/foreword.rst:121
+# 7024fef5723d415299588735f938436c
 msgid "Latest Version"
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:123
-# 020bbff237ed4f8f9fbddefc88f972e6
+#: ../../foreword/foreword.rst:123
+# 55efa066d58d49c4ad966f8f657268b2
 msgid "You can always obtain the latest version of this document by visiting our `home page <http://readthedocs.org/builds/the-free-qgis-training-manual/>`_ which is kindly hosted by http://readthedocs.org."
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:127
-# 74fde0a02db3404792cf8e81c6f60d18
+#: ../../foreword/foreword.rst:127
+# 47733b831ac24be8b49d5672dc980aa5
 msgid "There are links to PDF and epub versions of the documentation in the lower right hand corner of the above mentioned home page."
 msgstr ""
 
-#: ..\..\foreword\foreword.rst:132
-# 8d3eeed229614517a1df8c0aedf2d090
+#: ../../foreword/foreword.rst:132
+# 7852d4ab73704e9cb332f7d54ce5b14a
 msgid "Tim Sutton, May 2012"
+msgstr ""
+
+#: ../../foreword/index.rst:3
+# 265ee3f9f03c435a8946f2e93ea47b78
+msgid "Course Introduction"
 msgstr ""
 

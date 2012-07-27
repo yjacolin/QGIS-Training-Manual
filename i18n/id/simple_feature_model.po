@@ -19,7 +19,7 @@ msgstr ""
 # eff2b38efbb2445cacfb3c484b17ed14
 #: ..\..\postgis\simple_feature_model.rst:2
 msgid "|LS| Simple Feature Model"
-msgstr "|Pelajaran| Model Feature Sederhana"
+msgstr "|Pelajaran| Model *Feature* Sederhana"
 
 # 9793cf32f32c4b6f94e89ba29e8274fd
 #: ..\..\postgis\simple_feature_model.rst:4
@@ -28,9 +28,10 @@ msgid ""
 "lesson we'll cover one approach, the Simple Feature Model as defined by the "
 "OGC."
 msgstr ""
-"Bagaimana kita bisa menyimpan dan merepresentasikan feature geografis dalam "
-"database? Dalam pelajaran ini kita akan membahas salah satu pendekatan, "
-"Feature Model Sederhana seperti apa yang didefinisikan oleh OGC."
+"Bagaimana kita bisa menyimpan dan merepresentasikan *feature* geografis "
+"dalam basis data? Dalam pelajaran ini kita akan membahas salah satu "
+"pendekatan, *Feature Model Sederhana* seperti apa yang didefinisikan oleh "
+"OGC."
 
 # 87437895048a4dbd9cdbbbaaf59b0926
 #: ..\..\postgis\simple_feature_model.rst:8
@@ -56,7 +57,7 @@ msgid ""
 "implementation of standards for geospatial content and services, GIS data "
 "processing and data sharing. *- Wikipedia*"
 msgstr ""
-"The Open Geospatial Consortium (OGC), sebuah organisasi internasional "
+"*The Open Geospatial Consortium* (OGC), sebuah organisasi internasional "
 "berstandar konsensus sukarela, berasal pada tahun 1994. Dalam OGC, lebih "
 "dari 370 + organisasi komersial, pemerintah, nirlaba dan penelitian di "
 "seluruh dunia bekerja sama dalam suatu proses konsensus terbuka yang "
@@ -75,9 +76,9 @@ msgid ""
 "geospatial data in a database and defines functions for accessing, "
 "operating, and constructing these data."
 msgstr ""
-"Model dari The Simple Feature for SQL (SFS) adalah cara *non-topologi* untuk "
-"menyimpan data geospasial dalam database dan mendefinisikan fungsi untuk "
-"akses, operasi, dan pembangunan data ini."
+"Model dari *The Simple Feature for SQL* (SFS) adalah cara *non-topologi* "
+"untuk menyimpan data geospasial dalam basis data dan mendefinisikan fungsi "
+"untuk akses, operasi, dan pembangunan data ini."
 
 # 93f41bbbd81747a792c0644ae766d498
 #: ..\..\postgis\simple_feature_model.rst:30
@@ -94,8 +95,8 @@ msgid ""
 "For further information, have a look at the `OGC Simple Feature for SQL "
 "<http://www.opengeospatial.org/standards/sfs>`_ standard."
 msgstr ""
-"Untuk informasi lebih lanjut, kita lihat Simple Feature for SQL OGC standar "
-"<http://www.opengeospatial.org/standards/sfs>`."
+"Untuk informasi lebih lanjut, kita lihat *Simple Feature for SQL* OGC "
+"standar <http://www.opengeospatial.org/standards/sfs>`."
 
 # e68b1c7696074cb98d318a0d7522c76e
 #: ..\..\postgis\simple_feature_model.rst:37
@@ -128,7 +129,7 @@ msgid ""
 "except a point geometry or a null."
 msgstr ""
 "Apa yang dilakukan? Bagian ini berarti menambahkan konstrain untuk tabel "
-"yang mencegah apa pun kecuali geometri titik atau null."
+"yang mencegah apa pun kecuali geometri poin atau null."
 
 # f829052b1e324a1390e55e244277e537
 #: ..\..\postgis\simple_feature_model.rst:63
@@ -190,8 +191,8 @@ msgid ""
 "this table has already been registered and you don't need to do anything "
 "more."
 msgstr ""
-"Jika kolom :kbd: f_table_name berisi nilai :kbd: orang, maka tabel ini telah "
-"terdaftar dan Anda tidak perlu melakukan apapun lagi."
+"Jika kolom :kbd: f_table_name berisi nilai :kbd: *people*, maka tabel ini "
+"telah terdaftar dan Anda tidak perlu melakukan apapun lagi."
 
 # 3232ce94b52e4caf836d74b298184c7d
 #: ..\..\postgis\simple_feature_model.rst:128
@@ -233,7 +234,8 @@ msgstr "Menambahkan catatan geometri ke tabel menggunakan SQL"
 #: ..\..\postgis\simple_feature_model.rst:164
 msgid "Now that our tables are geo-enabled, we can store geometries in them!"
 msgstr ""
-"Sekarang, tabel kita sudah geo-enabled, kita dapat menyimpan geometri disini!"
+"Sekarang, tabel kita sudah *geo-enabled*, kita dapat menyimpan geometri "
+"disini!"
 
 # 39ea4cc1f084496485a1b6e04a68590d
 #: ..\..\postgis\simple_feature_model.rst:175
@@ -275,9 +277,9 @@ msgid ""
 "changed."
 msgstr ""
 "Sekarang mungkin saat yang tepat untuk menjalankan QGIS dan mencoba untuk "
-"melihat tabel :kbd: people Anda. Juga, kita harus mencoba mengedit / "
+"melihat tabel :kbd: *people* Anda. Juga, kita harus mencoba mengedit / "
 "menambahkan / menghapus records dan kemudian melakukan queri pemilihan dalam "
-"database untuk melihat bagaimana data telah berubah."
+"basis data untuk melihat bagaimana data telah berubah."
 
 # 7704962470404e8ba96e8bcef373268d
 #: ..\..\postgis\simple_feature_model.rst:191
@@ -311,9 +313,9 @@ msgid ""
 "works, check the boxes next to :guilabel:`Save Username` and :guilabel:`Save "
 "Password`. Then click :guilabel:`OK` to create this connection."
 msgstr ""
-"Untuk melihat apakah QGIS telah menemukan :kbd: 'address' database dan bahwa "
-"username dan password sudah benar, klik :guilabel:'Test Connec'. Jika "
-"berhasil, periksa kotak di sebelah :guilabel:'Save Username'  dan "
+"Untuk melihat apakah QGIS telah menemukan :kbd: *address* basis data dan "
+"bahwa *username* dan *password* sudah benar, klik :guilabel:*'Test Connec'*. "
+"Jika berhasil, periksa kotak di sebelah :guilabel:'Save Username'  dan "
 ":guilabel:'Save Password'. Kemudian klik :guilabel:'OK' untuk membuat "
 "koneksi ini."
 
@@ -351,7 +353,7 @@ msgid ""
 "You have seen how to add spatial objects to your database and view them in "
 "GIS software."
 msgstr ""
-"Anda telah melihat bagaimana menambahkan obyek spasial pada database Anda "
+"Anda telah melihat bagaimana menambahkan obyek spasial pada basis data Anda "
 "dan melihatnya pada perangkat lunak SIG."
 
 # ad65a4ff4d664255bbd5a859a4a4a7e9
@@ -365,4 +367,4 @@ msgid ""
 "Next you'll see how to import data into, and export data from, your database."
 msgstr ""
 "Selanjutnya Anda akan melihat bagaimana melakukan import data kedalamnya dan "
-"export data dari database Anda."
+"export data dari basis data Anda."
