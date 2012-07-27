@@ -36,8 +36,8 @@ msgid ""
 "**The goal for this lesson:** To install spatial functions and briefly demo "
 "their effects."
 msgstr ""
-"**Tujuan untuk pelajaran ini:** Untuk menginstal fungsi spasial dan demo "
-"secara singkat terhadap efek yang dikeluarkan. "
+"**Tujuan untuk pelajaran ini:** Untuk menginstal fungsi spasial dan "
+"mendemonstrasikan secara sekilas efek atau kegunaannya. "
 
 # b4295c9676aa4b219c1041ac10867328
 #: ..\..\postgis\spatial_functions.rst:11
@@ -47,7 +47,7 @@ msgstr "Instalasi untuk Ubuntu"
 # cd216ce693354847b3f8cc397d2f62e1
 #: ..\..\postgis\spatial_functions.rst:13
 msgid "Postgis is easily installed from apt."
-msgstr "PostGIS ini mudah diinstal dari apt. "
+msgstr "PostGIS mudah diinstal dari apt. "
 
 # 983b6ae9d73949c6b092b80635f3ec76
 #: ..\..\postgis\spatial_functions.rst:20
@@ -80,7 +80,11 @@ msgid ""
 "online to install the postgis stack."
 msgstr ""
 "Sedikit lebih rumit, tetapi masih tidak susah. Perhatikan bahwa Anda perlu "
+<<<<<<< HEAD
+"online untuk menginstal stack PostGIS. "
+=======
 "terkoneksi dengan internet untuk menginstal stack pada PostGIS. "
+>>>>>>> c4efe44dd72443b2292158214317d9020e4787c3
 
 # 057a4b068a034878ae9b2d025e127c79
 #: ..\..\postgis\spatial_functions.rst:34
@@ -96,9 +100,9 @@ msgid ""
 "any of your own databases."
 msgstr ""
 "Anda dapat memastikan bahwa setiap database yang dibuat pada sistem Anda "
-"secara otomatis akan mengalami perluasan spasial dengan menjalankan perintah "
-"(dari bagian ini dan dua bagian selanjutnya) pada :kbd: template1 sistem "
-"database *sebelum* Anda membuat database Anda sendiri. "
+"secara otomatis akan mendapatkan tambahan fungsi spasial dengan menjalankan "
+"perintah (dari bagian ini dan dua bagian selanjutnya) pada :kbd: template1 "
+"sistem basisdata *sebelum* Anda membuat basisdata Anda sendiri. "
 
 # 59ab39b0b60a4bdcbf35c2ebf32f3816
 #: ..\..\postgis\spatial_functions.rst:41
@@ -110,11 +114,11 @@ msgid ""
 "the database. (Recall when this was done in the previous module.)"
 msgstr ""
 "PostgreSQL dapat menggunakan berbagai bahasa prosedural. Apakah bahasa "
-"prosedural itu? Bahasa prosedural adalah bahasa 'dalam database' yang dapat "
-"digunakan untuk memperluas fungsionalitas dari database. Sebagai contoh Anda "
-"dapat menulis fungsi database yang dipanggil saat terjadi peristiwa - "
-"seperti ketika sebuah record dimasukkan ke dalam database. (Ingat saat ini "
-"dilakukan dalam modul sebelumnya.) "
+"prosedural itu? Bahasa prosedural adalah bahasa 'dalam basisdata' yang dapat "
+"digunakan untuk memperluas fungsionalitas dari basisdata. Sebagai contoh "
+"Anda dapat menulis fungsi basisdata yang dipanggil saat transaksi bassidata "
+"dilakukan- seperti ketika sebuah record dimasukkan ke dalam basisdata. "
+"(Lihat kembali saat halini dilakukan pada modul sebelumnya.) "
 
 # fc420efe217f4a56968b9b63a64b1ac1
 #: ..\..\postgis\spatial_functions.rst:47
@@ -130,7 +134,7 @@ msgid ""
 "Where the third argument is the name of the database that the procedural "
 "language should be installed into."
 msgstr ""
-"Dimana argumen ketiga adalah nama database yang bahasa proseduralnya harus "
+"Dimana argumen ketiga adalah nama basisdata yang bahasa proseduralnya harus "
 "diinstal didalamnya."
 
 # 004bb6e402a5457a90725fd623ac5f90
@@ -139,7 +143,7 @@ msgid ""
 "You will need administrative permissions for your database to be able to do "
 "this."
 msgstr ""
-"Anda akan membutuhkan akses administratif pada database Anda untuk dapat "
+"Anda akan membutuhkan ijin administratif untuk basisdata Anda untuk dapat "
 "melakukan hal ini."
 
 # 136ba234cea64729ab351bffbeb88669
@@ -170,7 +174,7 @@ msgstr "atau"
 # b8d29ff585c3472d8e32eff005ce7114
 #: ..\..\postgis\spatial_functions.rst:79
 msgid "depending on which PostGIS version you have installed. Now do:"
-msgstr "berdasarkan pada versi PostGIS yang telah diinstal. Sekarang lakukan:"
+msgstr "tergantung pada versi PostGIS yang telah diinstal. Sekarang lakukan:"
 
 # 829cabd3fe9c47eabdbeddce8b8e852f
 #: ..\..\postgis\spatial_functions.rst:85
@@ -183,8 +187,8 @@ msgid ""
 "We will discuss these functions in more detail as we proceed with this "
 "course."
 msgstr ""
-"Kita akan membahas fungsi-fungsi ini secara lebih rinci seperti yang kita "
-"proses dalam kursus ini."
+"Kita akan membahas fungsi-fungsi ini secara lebih rinci sembari kita "
+"menyelesaikan kursus ini."
 
 # 4fc18391586c4a429f2fbe70c1744ee4
 #: ..\..\postgis\spatial_functions.rst:94
@@ -200,11 +204,11 @@ msgid ""
 "(EPSG). These are used during operations such as coordinate reference system "
 "(CRS) conversions."
 msgstr ""
-"Sebagai tambahan dalam fungsi PostGIS, pembantu script SQL kedua harus "
-"dijalankan sehingga akan memuat database dengan definisi koleksi spatial "
+"Sebagai tambahan bagi fungsi PostGIS, pembantu script SQL kedua harus "
+"dijalankan yang akan memuat basisdata dengan koleksi definisi spatial "
 "reference system (SRS) seperti yang didefinisikan oleh European Petroleum "
-"Survey Group (EPSG). Instalasi ini digunakan selama operasi seperti konversi "
-"coordinate reference system (CRS)."
+"Survey Group (EPSG). Koleksi SRS ini digunakan selama operasi-operasi SIG "
+"seperti konversi coordinate reference system (CRS)."
 
 # e6f07183d73f4cbe8aea0fd85d73e458
 #: ..\..\postgis\spatial_functions.rst:102
@@ -213,9 +217,9 @@ msgid ""
 "should cover just about every SRS you will need (Google Mercator and lo are "
 "notable exceptions)."
 msgstr ""
-"Anda dapat menambahkan lebih ke daftar SRS nanti jika diperlukan, tetapi "
-"daftar yang disediakan harus mencakup hampir setiap SRS yang Anda akan "
-"perlukan (Google Mercator dan lo adalah pengecualian)."
+"Anda dapat menambahkan daftar SRS jika diperlukan, tetapi daftar yang "
+"disediakan harus mencakup hampir setiap SRS yang Anda akan perlukan (Google "
+"Mercator dan lo adalah pengecualian)."
 
 # a39a6d909ea045b19c3e5a5260a2aa3a
 #: ..\..\postgis\spatial_functions.rst:106
