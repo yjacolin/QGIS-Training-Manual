@@ -28,11 +28,20 @@ fi
 for LOCALE in ${LOCALES}
 do
   # Compile the html docs for this locale
+  rm -rf _static
+  cp -r _static_${LOCALE} _static
+  echo "Building HTML for locale '${LOCALE}'..."
   sphinx-build -D language=${LOCALE} -b html . _build/html/${LOCALE}
 
   # Compile the latex docs for that locale
-  #sphinx-build -D language=${LOCALE} -b latex . _build/latex/${LOCALE}
-
+  sphinx-build -D language=${LOCALE} -b latex . _build/latex/${LOCALE}
   # Compile the pdf docs for that locale
-  #sphinx-build -D language=${LOCALE} -b latexpdf . _build/pdf/${LOCALE}
+  # we use texi2pdf since latexpdf target is not available via 
+  # sphinx-build which we need to use since we need to pass language flag
+  pushd .
+  cd _build/latex/${LOCALE}/
+  texi2pdf --quiet  LinfinitiQGISTrainingManual.tex
+  mv LinfinitiQGISTrainingManual.pdf LinfinitiQGISTrainingManual-${LOCALE}.pdf
+  popd
+  rm -rf _static
 done
