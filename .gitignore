@@ -2,7 +2,6 @@
 _build
 .*.*.swp
 .*.swp
-exercise_data/raster/
 exercise_data/school_property.*
 exercise_data/rivers.*
 exercise_data/test.*
@@ -13,3 +12,4 @@ exercise_data_original/
 i18n/*/LC_MESSAGES/.doctrees
 i18n/*/.doctrees
 make.bat
+*.mo

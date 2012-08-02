@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-23 11:49\n"
+"POT-Creation-Date: 2012-07-24 09:02\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,12 +35,15 @@ msgid ""
 "you need to get started. If you're an experienced user, you'll see how QGIS "
 "fulfills all the functions you expect from a GIS program, and more!"
 msgstr ""
+<<<<<<< HEAD
 "Selamat datang di kursus kami! Selama beberapa hari ke depan, kami akan "
 "menunjukkan kepada Anda bagaimana untuk menggunakan QGIS secara mudah dan "
 "efisien. Jika Anda masih awam tentang SIG, kami akan memberitahukan kepada "
 "Anda apa saja yang Anda butuhkan untuk memulai. Jika Anda adalah pengguna "
 "yang berpengalaman, Anda akan melihat bagaimana QGIS memenuhi semua fungsi "
 "yang Anda harapkan dari sebuah perangkat lunak SIG, dan bahkan lebih!"
+=======
+>>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 
 # de810879131f495ca5b14a0c5921b24d
 #: ../../introduction/intro.rst:10
@@ -121,12 +125,15 @@ msgid ""
 "the next one, so it's important to do all exercises that are at or below "
 "your level of experience."
 msgstr ""
+<<<<<<< HEAD
 "Materi kursus ini dapat memenuhi kebutuhan pengguna dengan tingkat "
 "pengalaman yang berbeda. Tergantung pada kategori mana Anda menilai diri "
 "Anda sendiri masuk di dalamnya, Anda dapat menjumpai suatu set materi kursus "
 "dengan tujuan yang berbeda. Tiap kategori mengandung informasi yang penting "
 "untuk tahapan selanjutnya, sehingga penting untuk mengerjakan semua latihan "
 "yang ada pada tingkat pengalaman Anda atau tingkat di bawahnya."
+=======
+>>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 
 # ccc7774b501b4f119663e85636b64b84
 #: ../../introduction/intro.rst:46
@@ -450,6 +457,7 @@ msgid ""
 "Your most oft-used sets of tools can be turned into toolbars for basic "
 "access. For example, the File toolbar allows you to save, load, print, and "
 "start a new project. You can easily customize the interface to see only the "
+<<<<<<< HEAD
 "tools you use most often, adding or removing toolbars as necessary via the "
 ":menuselection:`View --> Toolbars` menu."
 msgstr ""
@@ -460,6 +468,11 @@ msgstr ""
 "antarmuka untuk melihat hanya *tool-tool* yang sering Anda gunakan, menambah "
 "atau menghilangkan *toolbar* sesuai dengan yang dibutuhkan melalui menu "
 ":menuselection:`View --> Toolbars`."
+=======
+"tools you use most often, adding or removing toolbars as necessary via the :"
+"menuselection:`View --> Toolbars` menu."
+msgstr ""
+>>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 
 # 1056fb60e50b467cab8f4f7af8bb3f31
 #: ../../introduction/overview.rst:56
@@ -467,6 +480,7 @@ msgid ""
 "Even if they are not visible in a toolbar, all of your tools will remain "
 "accessible via the menus. For example, if you remove the :guilabel:`File` "
 "toolbar (which contains the :guilabel:`Save` button), you can still save "
+<<<<<<< HEAD
 "your map by clicking on the :guilabel:`File` menu and then clicking on "
 ":guilabel:`Save`."
 msgstr ""
@@ -475,6 +489,11 @@ msgstr ""
 "Anda menghilangkan *toolbar* :guilabel:`File` (yang berisi tombol "
 ":guilabel:`Save`), Anda masih dapat menyimpan peta Anda dengan mengklik menu "
 ":guilabel:`File` kemudian klik :guilabel:`Save`."
+=======
+"your map by clicking on the :guilabel:`File` menu and then clicking on :"
+"guilabel:`Save`."
+msgstr ""
+>>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 
 # 4073ef402275402e8bfc801241ba96f6
 #: ../../introduction/overview.rst:63
@@ -546,6 +565,7 @@ msgid ""
 "button in any such collapsed toolbar. You can see a tooltip with the name of "
 "any tool by holding your mouse over the tool for a while."
 msgstr ""
+<<<<<<< HEAD
 "Jika *tool-tool* ini tidak terlihat pada layar monitor, cobalah mengaktifkan "
 "beberapa *toolbar* yang sekarang masih tersembunyi. Juga harus diingat bahwa "
 "jika tidak ada cukup ruang di layar monitor, sebuah *toolbar* bisa "
@@ -553,6 +573,8 @@ msgstr ""
 "*tool-tool* yang tersembunyi dengan meng-klik pada tombol panah ganda "
 "sebelah kanan. Anda juga dapat melihat *tooltip* dengan nama pada setiap "
 "*tool* dengan menekan *mouse* agak lama di atas tool."
+=======
+>>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 
 # 21f41de73c044770800a09cdeb9ff280
 #: ../../introduction/overview.rst:116
@@ -619,12 +641,15 @@ msgid ""
 "available, and the instructions will work on any OS. You will need QGIS 1.8 "
 "(the latest version at time of writing) to use this course."
 msgstr ""
+<<<<<<< HEAD
 "*Screenshot* untuk pelatihan ini dibuat pada QGIS 1.8 yang dijalankan pada "
 "Linux Ubuntu 11.10 dan Windows. Tampilan yang Anda temui mungkin akan "
 "sedikit berbeda, tergantung pada *setup* anda. Akan tetapi, semua tombol "
 "yang sama akan tetap tersedia, dan semua instruksi akan bekerja dalam "
 "berbagai sistem operasi. Anda akan membutuhkan QGIS 1.8 ( versi terakhir "
 "saat penulisan)  untuk digunakan pada pelatihan ini. "
+=======
+>>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 
 # 9e63b6f28966485e8cefe9a1d683ced2
 #: ../../introduction/preparation.rst:21
@@ -654,17 +679,25 @@ msgstr "Klik tombol tersebut untuk membuka kotak dialog sebagai berikut:"
 # bde25cf71feb4fea9829cec91f0f2a2a
 #: ../../introduction/preparation.rst:40
 msgid ""
+<<<<<<< HEAD
 "Click on the :guilabel:`Browse` button and navigate to the file "
 ":kbd:`exercise_data/streets.shp` (in your course directory). With this file "
+=======
+"Click on the :guilabel:`Browse` button and navigate to the file :kbd:"
+"`exercise_data/streets.shp` (in your course directory). With this file "
+>>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 "selected, click :guilabel:`Open`. You will see the original dialog, but with "
 "the file path filled in. Click :guilabel:`Open` here as well. The data you "
 "specified will now load."
 msgstr ""
+<<<<<<< HEAD
 "Sekarang klik tombol :guilabel:`Browse` dan arahkan pada file "
 ":kbd:`exercise_data/streets.shp` (di dalam direktori pelatihan Anda). Pilih "
 "file ini, klik :guilabel:`Open`. Anda akan melihat kotak dialog awalnya, "
 "tetapi dengan file *path* yang terisi di dalamnya. Klik :guilabel:`Open` "
 "juga disini. Data yang Anda pilih akan terpanggil. "
+=======
+>>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 
 # 7b73cc0a72424c06ac7f0f6ba6afdaa5
 #: ../../introduction/preparation.rst:46
@@ -713,6 +746,9 @@ msgid ""
 "we go on with the more involved stuff, let's first take a good look at the "
 "general layout of the QGIS interface. This is the topic of the next lesson."
 msgstr ""
+<<<<<<< HEAD
 "Sekarang Anda dapat melihat bagaimana antarmuka QGIS bekerja, Anda akan "
 "menggunakan *tool-tool* yang tersedia untuk memulai memperbaiki peta Anda. "
 "Ini adalah topik untuk pelajaran selanjutnya. "
+=======
+>>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
