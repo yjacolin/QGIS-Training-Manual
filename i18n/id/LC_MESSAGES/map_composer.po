@@ -50,15 +50,12 @@ msgid ""
 "this map on the Internet, or on a poster, or in a magazine, would it capture "
 "my attention? Would I want to read this map if it wasn't mine?"
 msgstr ""
-<<<<<<< HEAD
 "Pada saat Anda memodifikasi peta Anda, selalu tanyakan pada diri Anda "
 "pertanyaan-pertanyaan yang berkaitan. Apakah peta ini mudah dibaca dan "
 "dipahami untuk seseorang yang tidak familier dengan datanya? Jika saya "
 "melihat peta ini di internet, atau pada sebuah poster, atau di majalah, "
 "apakah peta ini akan menarik perhatian saya? Apakah saya ingin melihat peta "
 "ini jika peta ini bukan milik saya?"
-=======
->>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 
 # 4b5bcff008c34e239d89d9d9929f5eb4
 #: ../../map_composer/day_1_assignment.rst:15
@@ -85,7 +82,6 @@ msgid ""
 "The nicer the map is to look at and the easier it is to understand at a "
 "glance, the better."
 msgstr ""
-<<<<<<< HEAD
 "Apabila latihan ini diberikan oleh penyelenggara latihan kepada Anda, "
 "penyelenggara latihan mungkin meminta  Anda untuk memberikan versi akhir "
 "dari peta Anda dalam format PDF untuk dievaluasi. Jika  Anda mengerjakan "
@@ -96,8 +92,6 @@ msgstr ""
 "evaluasi tampilan peta adalah mengenai kemudahan penggunaannya. Semakin "
 "menarik peta tersebut dilihat dan semakin mudah dipahami dalam sekilas "
 "pandang berarti semakin baik pula peta tersebut."
-=======
->>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 
 # a566238ec02a47f19fc6ec5188ad5fe0
 #: ../../map_composer/day_1_assignment.rst:28
@@ -120,7 +114,6 @@ msgid ""
 "vector data; using and analyzing raster data; and using GIS to solve a "
 "problem from start to finish, using both raster and vector data sources."
 msgstr ""
-<<<<<<< HEAD
 "Keempat modul pertama telah mengajarkan  Anda bagaimana membuat dan merubah "
 "*style* suatu peta vektor. Pada empat modul berikutnya,  Anda akan "
 "mempelajari bagaimana menggunakan QGIS untuk sebuah analisis lengkap. Materi "
@@ -128,8 +121,6 @@ msgstr ""
 "vektor; menggunakan dan menganalisis data raster; serta menggunakan SIG "
 "untuk memecahkan suatu masalah dari awal hingga akhir, menggunakan data "
 "raster dan vektor. "
-=======
->>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 
 # da25752fa5844ba2add28bd999f99991
 #: ../../map_composer/index.rst:3
@@ -163,7 +154,6 @@ msgid ""
 "printing out the map if you have a printer connected. Both exporting and "
 "printing is handled via the Map Composer."
 msgstr ""
-<<<<<<< HEAD
 "Setelah  Anda mempunyai peta,  Anda perlu untuk mencetak atau mengekspor "
 "peta tersebut menjadi sebuah dokumen. Alasannya, *file* peta SIG bukanlah "
 "sebuah peta! *File* peta SIG hanya menyimpan kondisi program SIG yang "
@@ -173,8 +163,6 @@ msgstr ""
 "menjadi format yang dapat dibaca oleh komputer semua orang, sekaligus "
 "kemampuan untuk mencetak peta itu jika  Anda mempunyai *printer*. Kedua "
 "fungsi pencetakan dan ekspor ini ditangani melalui *Map Composer*."
-=======
->>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 
 # 9c447ad6817747da9323bc12fe362f10
 #: ../../map_composer/map_composer.rst:13
@@ -213,15 +201,12 @@ msgstr ""
 # 6cead5de755440168bcbb5087431e162
 #: ../../map_composer/map_composer.rst:24
 msgid ""
-<<<<<<< HEAD
 "Click the :guilabel:`Add` button and a new composer will be added called "
 ":guilabel:`Composer 1` (it may be another number if you have tried using the "
 ":guilabel:`Composer Manager` before now)."
-=======
 "Click the :guilabel:`Add` button and a new composer will be added called :"
 "guilabel:`Composer 1` (it may be another number if you have tried using the :"
 "guilabel:`Composer Manager` before now)."
->>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 msgstr ""
 "Klik pada tombol :guilabel:`Add` dan composer baru bernama "
 ":guilabel:`Composer 1` akan ditambahkan (atau dengan nomor yang lain jika  "
@@ -249,13 +234,10 @@ msgstr "Klik tombol :guilabel:`Show`."
 # c7627851d68848939ad71a9112d07c2e
 #: ../../map_composer/map_composer.rst:32
 msgid ""
-<<<<<<< HEAD
 "(You could also close the dialog and navigate to a composer via the "
 ":menuselection:`File --> Print Composers` menus, as in the image below.)"
-=======
 "(You could also close the dialog and navigate to a composer via the :"
 "menuselection:`File --> Print Composers` menus, as in the image below.)"
->>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 msgstr ""
 "( Anda dapat juga menutup kotak dialog dan mengarahkannya ke composer "
 "melalui :menuselection:`File --> Print Composers`, seperti ditunjukkan "
@@ -395,15 +377,12 @@ msgid ""
 "where you want it, but it also means that if you zoom in or out, the map "
 "will be at the wrong resolution and will look ugly or unreadable."
 msgstr ""
-<<<<<<< HEAD
 "Pada saat memperbesar peta, tampilan peta tidak akan merefresh sendiri. Hal "
 "ini berfungsi agar waktu  Anda tidak terbuang untuk menggambar peta "
 "sementara  Anda melakukan perbesaran ke halaman yang  Anda inginkan. Namun "
 "demikian, akibatnya jika  Anda memperbesar atau memperkecilnya, peta "
 "tersebut akan memiliki resolusi yang salah dan akan terlihat tidak menarik "
 "atau tidak terbaca."
-=======
->>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 
 # 855fbebc20b047fb99095bc37262695e
 #: ../../map_composer/map_composer.rst:108
@@ -417,7 +396,6 @@ msgid ""
 "final. You can always come back and change it later if you're not satisfied. "
 "For now, you need to ensure that you've saved your work on this map. Because "
 "a :guilabel:`Composer` in QGIS is part of the main map file, you'll need to "
-<<<<<<< HEAD
 "save your main project. Go to the main QGIS window (the one with the "
 ":guilabel:`Layers list` and all the other familiar elements you were working "
 "with before), and save your project from there as usual."
@@ -430,12 +408,10 @@ msgstr ""
 "Arahkan ke jendela QGIS (yang ada :guilabel:`Layers list` dan semua elemen "
 "familiar lain yang telah  Anda gunakan sebelumnya), dan simpan project  Anda "
 "dari sini seperti biasa."
-=======
 "save your main project. Go to the main QGIS window (the one with the :"
 "guilabel:`Layers list` and all the other familiar elements you were working "
 "with before), and save your project from there as usual."
 msgstr ""
->>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 
 # fa0c92a944e34c68adbc96e609ee0b8e
 #: ../../map_composer/map_composer.rst:122
@@ -552,13 +528,10 @@ msgstr "Pilih label dengan mengklik kanan label tersebut."
 # fc3dbaf9d25b44c7af1995c8d4bcf397
 #: ../../map_composer/map_composer.rst:173
 msgid ""
-<<<<<<< HEAD
 "Click on the :guilabel:`Item` tab in the side panel of the "
 ":guilabel:`Composer` window."
-=======
 "Click on the :guilabel:`Item` tab in the side panel of the :guilabel:"
 "`Composer` window."
->>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 msgstr ""
 "Klik pada tab :guilabel:`Item` di panel di samping jendela "
 ":guilabel:`Composer`."
@@ -622,13 +595,10 @@ msgstr "Kerangka ini perlu dihapus."
 # b4379e6eb8534710a294a64a353fb198
 #: ../../map_composer/map_composer.rst:206
 msgid ""
-<<<<<<< HEAD
 "Click on the :guilabel:`General options` slider at the bottom of the "
 ":guilabel:`Item` tab. The :guilabel:`Label` slider will slide away and you "
-=======
 "Click on the :guilabel:`General options` slider at the bottom of the :"
 "guilabel:`Item` tab. The :guilabel:`Label` slider will slide away and you "
->>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 "will see a new interface."
 msgstr ""
 "Klik pada slider :guilabel:`General options` pada bagian bawah tab "
@@ -721,13 +691,10 @@ msgstr "Klik tombol :guilabel:`Edit`:"
 # d9399f9944b142119a19d0b2609f1e23
 #: ../../map_composer/map_composer.rst:257
 msgid ""
-<<<<<<< HEAD
 "Rename the layers to :kbd:`Roads and Streets`, :kbd:`Surface Water`, "
 ":kbd:`Urban Areas`, and :kbd:`Farms`."
-=======
 "Rename the layers to :kbd:`Roads and Streets`, :kbd:`Surface Water`, :kbd:"
 "`Urban Areas`, and :kbd:`Farms`."
->>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 msgstr ""
 "Ubah nama layer tersebut menjadi :kbd:`Roads and Streets`, :kbd:`Surface "
 "Water`, :kbd:`Urban Areas`, dan :kbd:`Farms`."
@@ -752,7 +719,6 @@ msgid ""
 "area`, with the one in the middle :kbd:`moderate area` and the rest blanked "
 "out."
 msgstr ""
-<<<<<<< HEAD
 "Pada contoh, luasan pada layer :guilabel:`Farms` dihitung pada satuan yang "
 "tidak mudah dikonversi menjadi luasan tanah secara langsung. Jika pertanian  "
 "Anda diklasifikasikan berdasarkan area atau beberapa kriteria lainnya,  Anda "
@@ -761,8 +727,6 @@ msgstr ""
 ":kbd:`small area` dan yang terbesar menjadi :kbd:`large area`, dengan satu "
 "kelas yang ada di tengah dirubah menjadi :kbd:`moderate area` serta sisanya "
 "dibuat menjadi kosong."
-=======
->>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 
 # 8289990d1dda4cdaa17655eb4bba2503
 #: ../../map_composer/map_composer.rst:269
@@ -797,14 +761,11 @@ msgid ""
 "printer manual or a general guide to printing for more information on this "
 "topic."
 msgstr ""
-<<<<<<< HEAD
 "Tombol di sebelah kanan adalah tombol :guilabel:`Print`, yang berhubungan "
 "dengan printer. Karena opsi pencetakan dengan printer berbeda-beda "
 "tergantung model *printer* yang  Anda gunakan, mungkin lebih baik untuk "
 "merujuk pada manual *printer* atau panduan umum pencetakan untuk informasi "
 "lebih lanjut mengenai masalah ini."
-=======
->>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
 
 # dee2931bc2184fb29bc8c3401144e56a
 #: ../../map_composer/map_composer.rst:290
@@ -937,9 +898,6 @@ msgid ""
 "On the next page, you will be given an assignment to complete. This will "
 "allow you to practice the techniques you have learned so far."
 msgstr ""
-<<<<<<< HEAD
 "Pada halaman selanjutnya,  Anda akan diberi sebuah tugas untuk diselesaikan. "
 "Tugas ini memungkinkan  Anda untuk mempraktekkan teknik yang telah  Anda "
 "pelajari sejauh ini."
-=======
->>>>>>> 67c50cf7c8ee0a110f54f28febc44043fe05f9e6
