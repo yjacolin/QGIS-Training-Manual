@@ -16,6 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Language: id\n"
 
 # bbd290b076f84ebda8c2cfeda84e2cfb
 #: ../../create_vector_data/actions.rst:2
@@ -152,22 +153,37 @@ msgstr ""
 # 2ee8a38614bb4a76924569c5b05ce00a
 #: ../../create_vector_data/actions.rst:70
 msgid ""
+<<<<<<< HEAD
+"Click on the browse button (the :guilabel:`...` next to the "
+":guilabel:`image` field)."
+=======
 "Click on the browse button (the :guilabel:`...` next to the :guilabel:"
 "`image` field)."
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # 38ab5d09ca30444fa333498575b06226
 #: ../../create_vector_data/actions.rst:72
 msgid ""
+<<<<<<< HEAD
+"Select the path for your image. The images are in "
+":kbd:`exercise_data/school_property_photos/` and are named the same as the "
+"features they should be associated with."
+=======
 "Select the path for your image. The images are in :kbd:`exercise_data/"
 "school_property_photos/` and are named the same as the features they should "
 "be associated with."
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # 65442099bb7d41e78d662be37245a7a2
 # 43f9ebb7ad754ddd8e56f22433da4787
+<<<<<<< HEAD
+#: ../../create_vector_data/actions.rst:75 ../../create_vector_data/forms.rst:96
+=======
 #: ../../create_vector_data/actions.rst:75
 #: ../../create_vector_data/forms.rst:96
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgid "Click :guilabel:`OK`."
 msgstr ""
 
@@ -303,8 +319,13 @@ msgstr ""
 # 4c16af2c0a4a48638da60ac9822aa0cd
 #: ../../create_vector_data/actions.rst:135
 msgid ""
+<<<<<<< HEAD
+"Find the :guilabel:`Run feature action` button (on the same toolbar as the "
+":guilabel:`Open Attribute Table` button):"
+=======
 "Find the :guilabel:`Run feature action` button (on the same toolbar as the :"
 "guilabel:`Open Attribute Table` button):"
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # 895a3f0c8e0342dc98a8d1b7ba652fe9
@@ -412,18 +433,32 @@ msgid ""
 "Usually when you use Google, you enter your search phrase into the Google "
 "Search bar. But in this case, you want your computer to do this for you. The "
 "way you tell Google to search for something (if you don't want to use its "
+<<<<<<< HEAD
+"search bar directly) is by giving your Internet browser the address "
+":kbd:`http://www.google.co.za/search?q=SEARCH_PHRASE`, where "
+":kbd:`SEARCH_PHRASE` is what you want to search for. Since we don't know "
+"what phrase to search for yet, we'll just enter the first part (without the "
+"search phrase)."
+=======
 "search bar directly) is by giving your Internet browser the address :kbd:"
 "`http://www.google.co.za/search?q=SEARCH_PHRASE`, where :kbd:`SEARCH_PHRASE` "
 "is what you want to search for. Since we don't know what phrase to search "
 "for yet, we'll just enter the first part (without the search phrase)."
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # b47e5d082c2f457ba62037cb1c89fec3
 #: ../../create_vector_data/actions.rst:207
 msgid ""
+<<<<<<< HEAD
+"In the :guilabel:`Action` field, write "
+":kbd:`http://www.google.co.za/search?q=`. Remember to add a space after your "
+"initial command before writing this in!"
+=======
 "In the :guilabel:`Action` field, write :kbd:`http://www.google.co.za/search?"
 "q=`. Remember to add a space after your initial command before writing this "
 "in!"
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # fb62c15e160c43cfac6aefb19859b88a
@@ -453,12 +488,22 @@ msgstr ""
 #: ../../create_vector_data/actions.rst:226
 msgid ""
 "What this means is that QGIS is going to open the browser and send it to the "
+<<<<<<< HEAD
+"address :kbd:`http://www.google.co.za/search?q=[% \"SGADMIN\" %]`. But "
+":kbd:`[% \"SGADMIN\" %]` tells QGIS to use the contents of the "
+":kbd:`SGADMIN` field as the phrase to search for. So if, for example, the "
+"farm you clicked on is in the :kbd:`Montagu` area, then QGIS is going to "
+"send the browser to :kbd:`http://www.google.co.za/search?q=Montagu`, which "
+"will cause the browser to visit Google, which will in turn search for the "
+"word \"Montagu\"."
+=======
 "address :kbd:`http://www.google.co.za/search?q=[% \"SGADMIN\" %]`. But :kbd:`"
 "[% \"SGADMIN\" %]` tells QGIS to use the contents of the :kbd:`SGADMIN` "
 "field as the phrase to search for. So if, for example, the farm you clicked "
 "on is in the :kbd:`Montagu` area, then QGIS is going to send the browser to :"
 "kbd:`http://www.google.co.za/search?q=Montagu`, which will cause the browser "
 "to visit Google, which will in turn search for the word \"Montagu\"."
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # 1c765f133f3f4057890b2a1169c59017
@@ -551,18 +596,31 @@ msgstr ""
 # eaa1eda45589479598851e920c86ab61
 #: ../../create_vector_data/actions.rst:278
 msgid ""
+<<<<<<< HEAD
+"Open the :guilabel:`Layer Properties` dialog and head over to the "
+":guilabel:`Actions` tab."
+=======
 "Open the :guilabel:`Layer Properties` dialog and head over to the :guilabel:"
 "`Actions` tab."
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # a3bdfbea03af4108a9164c813dca2c1a
 #: ../../create_vector_data/actions.rst:280
 msgid ""
+<<<<<<< HEAD
+"Set up a new action using the following properties for the action: * "
+":guilabel:`Type`: :kbd:`Python` * :guilabel:`Name`: :kbd:`Wikipedia` * "
+":guilabel:`Action` (all on one line): :kbd:`from PyQt4.QtCore import QUrl; "
+"from PyQt4.QtWebKit import QWebView;  myWV = QWebView(None); "
+"myWV.load(QUrl('http://wikipedia.org/wiki/[% \"SGADMIN\" %]')); myWV.show()`"
+=======
 "Set up a new action using the following properties for the action: * :"
 "guilabel:`Type`: :kbd:`Python` * :guilabel:`Name`: :kbd:`Wikipedia` * :"
 "guilabel:`Action` (all on one line): :kbd:`from PyQt4.QtCore import QUrl; "
 "from PyQt4.QtWebKit import QWebView;  myWV = QWebView(None); myWV.load(QUrl"
 "('http://wikipedia.org/wiki/[% \"SGADMIN\" %]')); myWV.show()`"
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # 2fa288c84240481d9bdf6209c55fad92
@@ -623,10 +681,17 @@ msgstr ""
 # 668e717bd0484b55b832a390b42619c8
 #: ../../create_vector_data/actions.rst:307
 msgid ""
+<<<<<<< HEAD
+"Actions allow you to give your map extra functionality, useful to the "
+"end-user who views the same map in QGIS. Due to the fact that you can use "
+"shell commands for any operating system, as well as Python, the sky's the "
+"limit in terms of the functions you could incorporate!"
+=======
 "Actions allow you to give your map extra functionality, useful to the end-"
 "user who views the same map in QGIS. Due to the fact that you can use shell "
 "commands for any operating system, as well as Python, the sky's the limit in "
 "terms of the functions you could incorporate!"
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # 4adbe841ee254df0aafde35b0ab335c8
@@ -890,8 +955,13 @@ msgstr ""
 #: ../../create_vector_data/create_new_vector.rst:131
 msgid ""
 "If you can't find this button, check that the :guilabel:`Digitizing` toolbar "
+<<<<<<< HEAD
+"is enabled. There should be a check mark next to the :menuselection:`View "
+"--> Toolbars --> Digitizing` menu entry."
+=======
 "is enabled. There should be a check mark next to the :menuselection:`View --"
 "> Toolbars --> Digitizing` menu entry."
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # 0f14bfd3bdfd42b39498771730e8e0cd
@@ -1120,8 +1190,13 @@ msgstr ""
 # aeb073f53d4b4548930b17e75d43ca98
 #: ../../create_vector_data/create_new_vector.rst:242
 msgid ""
+<<<<<<< HEAD
+"When creating the feature, give it the :kbd:`type` attribute value of "
+"\":kbd:`stream`\"."
+=======
 "When creating the feature, give it the :kbd:`type` attribute value of \":kbd:"
 "`stream`\"."
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # e279ca030cde456884d34e07be28e2e8
@@ -1219,15 +1294,25 @@ msgstr ""
 #: ../../create_vector_data/forms.rst:25
 msgid ""
 "Obviously it would be nice to be able to do this while looking at the map, "
+<<<<<<< HEAD
+"rather than needing to search for a specific street in the "
+":guilabel:`Attribute Table` all the time."
+=======
 "rather than needing to search for a specific street in the :guilabel:"
 "`Attribute Table` all the time."
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # 9c36a3370fd4451b827bb9150e96b8f3
 #: ../../create_vector_data/forms.rst:29
 msgid ""
+<<<<<<< HEAD
+"Go to the :menuselection:`Settings --> Options` menu (in the same row as the "
+":menuselection:`File` menu, etc.)."
+=======
 "Go to the :menuselection:`Settings --> Options` menu (in the same row as "
 "the :menuselection:`File` menu, etc.)."
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # e8c0607e43304431b1b623fba5a1017f
@@ -1253,8 +1338,13 @@ msgstr ""
 # 0bd02cc0f0f343d39f1df2cd177cef19
 #: ../../create_vector_data/forms.rst:44
 msgid ""
+<<<<<<< HEAD
+"Instead of the normal :guilabel:`Identify` dialog, you'll see the "
+"now-familiar form instead:"
+=======
 "Instead of the normal :guilabel:`Identify` dialog, you'll see the now-"
 "familiar form instead:"
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # c20559066d0c4973b54006cf3260b7fd
@@ -1304,8 +1394,14 @@ msgstr ""
 # be5ad9a56fbb492794606b766e831eec
 #: ../../create_vector_data/forms.rst:67
 msgid ""
+<<<<<<< HEAD
+"Note that there is more than one road on this map called "
+":guilabel:`Voortrekker`. The one you edited had a :kbd:`TYPE` of "
+":kbd:`tertiary`."
+=======
 "Note that there is more than one road on this map called :guilabel:"
 "`Voortrekker`. The one you edited had a :kbd:`TYPE` of :kbd:`tertiary`."
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # 795d04b30adf472abe17a52fd072619d
@@ -1317,8 +1413,13 @@ msgstr ""
 #: ../../create_vector_data/forms.rst:74
 msgid ""
 "It's nice to edit things using a form, but you still have to enter "
+<<<<<<< HEAD
+"everything by hand. Fortunately, forms have different kinds of so-called "
+"*\"widgets\"* that allow you to edit data in various different ways."
+=======
 "everything by hand. Fortunately, forms have different kinds of so-called *"
 "\"widgets\"* that allow you to edit data in various different ways."
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # e30c8fa257dc424185f3ab5427b5f4ff
@@ -1334,8 +1435,13 @@ msgstr ""
 # e317b23a1dd14bb0880d669bd26839cb
 #: ../../create_vector_data/forms.rst:84
 msgid ""
+<<<<<<< HEAD
+"Click on the :guilabel:`Line edit` button in the same row as "
+":guilabel:`LANES` and you'll be given a new dialog."
+=======
 "Click on the :guilabel:`Line edit` button in the same row as :guilabel:"
 "`LANES` and you'll be given a new dialog."
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # 4c02750de0d747e98db105cfe7c0aa22
@@ -1531,8 +1637,13 @@ msgstr ""
 # 7e0d72e833bb473d95c7d038cc6d1b2a
 #: ../../create_vector_data/forms.rst:182
 msgid ""
+<<<<<<< HEAD
+"Set the dialog's maximum size (in its properties) to :kbd:`200` (width) by "
+":kbd:`100` (height)."
+=======
 "Set the dialog's maximum size (in its properties) to :kbd:`200` (width) by :"
 "kbd:`100` (height)."
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # e58f727c097e4c4fb907d620f58ab6ef
@@ -1595,9 +1706,15 @@ msgstr ""
 # effc050c39fa42c8864cbb5b7521cc0b
 #: ../../create_vector_data/forms.rst:202
 msgid ""
+<<<<<<< HEAD
+"If you are in edit mode for this layer, that context menu will show "
+":guilabel:`Edit Feature Form` instead, and you can then adjust the "
+"attributes in the new form even after initial capture."
+=======
 "If you are in edit mode for this layer, that context menu will show :"
 "guilabel:`Edit Feature Form` instead, and you can then adjust the attributes "
 "in the new form even after initial capture."
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # c96e7b6557e04de39351cd1a2fb149ff
@@ -1714,8 +1831,13 @@ msgstr ""
 # 5dee5e5f6dec48f39ca64b12b54667c2
 #: ../../create_vector_data/topo_editing.rst:31
 msgid ""
+<<<<<<< HEAD
+"Check under :menuselection:`View --> Toolbars` to make sure that your "
+":guilabel:`Advanced Digitizing` toolbar is enabled."
+=======
 "Check under :menuselection:`View --> Toolbars` to make sure that your :"
 "guilabel:`Advanced Digitizing` toolbar is enabled."
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # da515c8d4b1d4550b7c9030cedbd7f91
@@ -1789,10 +1911,17 @@ msgstr ""
 #: ../../create_vector_data/topo_editing.rst:79
 msgid ""
 "If you had to do this without help from the topology, you'd be digitizing "
+<<<<<<< HEAD
+"that for a while. But at the moment, as per the directions above, you have "
+":guilabel:`Avoid Int.` (\"Avoid Intersections\") enabled for the "
+":guilabel:`rural` layer. This tells QGIS to use the topology to prevent "
+"overlap. So you can digitize even a very rough shape:"
+=======
 "that for a while. But at the moment, as per the directions above, you have :"
 "guilabel:`Avoid Int.` (\"Avoid Intersections\") enabled for the :guilabel:"
 "`rural` layer. This tells QGIS to use the topology to prevent overlap. So "
 "you can digitize even a very rough shape:"
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # 91c7376ee6ca4aacbe929e49d0d52c6b
@@ -1852,8 +1981,13 @@ msgstr ""
 # f55011365da247c38409afd9ad90107b
 #: ../../create_vector_data/topo_editing.rst:120
 msgid ""
+<<<<<<< HEAD
+"Topology errors aren't always immediately visible. Let's change the "
+":guilabel:`rural` layer's symbology to see some of them."
+=======
 "Topology errors aren't always immediately visible. Let's change the :"
 "guilabel:`rural` layer's symbology to see some of them."
+>>>>>>> 1d712bdcc4bd2383346365d1394d3a399fb448c3
 msgstr ""
 
 # f0b9adf828ee49d2bdab022ff03b1576

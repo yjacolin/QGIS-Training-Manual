@@ -103,7 +103,7 @@ msgstr "Selamat mengeskplorasi pembuatan peta! :)"
 #: ../../map_composer/day_1_assignment.rst:31
 #: ../../map_composer/map_composer.rst:324
 msgid "|IC|"
-msgstr "|Kesimpulan|"
+msgstr "Kesimpulan"
 
 # 37eb643853fd4839820db6f547ad349b
 #: ../../map_composer/day_1_assignment.rst:33
@@ -125,7 +125,7 @@ msgstr ""
 # da25752fa5844ba2add28bd999f99991
 #: ../../map_composer/index.rst:3
 msgid "|MOD| Creating Maps"
-msgstr "|Modul| Membuat Peta"
+msgstr "Modul Membuat Peta"
 
 # 37d10afab3a845158c41ec3099dffc1e
 #: ../../map_composer/index.rst:5
@@ -140,7 +140,7 @@ msgstr ""
 # d774333be4fe4fc7bb3edbc7bf7ce8b0
 #: ../../map_composer/map_composer.rst:2
 msgid "|LS| Using Map Composer"
-msgstr "|Pelajaran| Menggunakan *Map Composer*"
+msgstr "Pelajaran Menggunakan *Map Composer*"
 
 # 513ce3ce38b74b4286866e0506d274ec
 #: ../../map_composer/map_composer.rst:4
@@ -176,7 +176,7 @@ msgstr ""
 # dd6bb49c5f66456bbb9dfd8ee390fb10
 #: ../../map_composer/map_composer.rst:17
 msgid "|basic| |FA| The Composer Manager"
-msgstr "|basic| |Ikuti Bersama| *Composer Manager*"
+msgstr "|basic| Ikuti Bersama *Composer Manager*"
 
 # 543cf36e61944f7fbd97cd230e527439
 #: ../../map_composer/map_composer.rst:19
@@ -203,10 +203,10 @@ msgstr ""
 msgid ""
 "Click the :guilabel:`Add` button and a new composer will be added called "
 ":guilabel:`Composer 1` (it may be another number if you have tried using the "
-":guilabel:`Composer Manager` before now)."
-"Click the :guilabel:`Add` button and a new composer will be added called :"
-"guilabel:`Composer 1` (it may be another number if you have tried using the :"
-"guilabel:`Composer Manager` before now)."
+":guilabel:`Composer Manager` before now).Click the :guilabel:`Add` button "
+"and a new composer will be added called :guilabel:`Composer 1` (it may be "
+"another number if you have tried using the :guilabel:`Composer Manager` "
+"before now)."
 msgstr ""
 "Klik pada tombol :guilabel:`Add` dan composer baru bernama "
 ":guilabel:`Composer 1` akan ditambahkan (atau dengan nomor yang lain jika  "
@@ -235,9 +235,9 @@ msgstr "Klik tombol :guilabel:`Show`."
 #: ../../map_composer/map_composer.rst:32
 msgid ""
 "(You could also close the dialog and navigate to a composer via the "
+":menuselection:`File --> Print Composers` menus, as in the image below.)(You "
+"could also close the dialog and navigate to a composer via the "
 ":menuselection:`File --> Print Composers` menus, as in the image below.)"
-"(You could also close the dialog and navigate to a composer via the :"
-"menuselection:`File --> Print Composers` menus, as in the image below.)"
 msgstr ""
 "( Anda dapat juga menutup kotak dialog dan mengarahkannya ke composer "
 "melalui :menuselection:`File --> Print Composers`, seperti ditunjukkan "
@@ -255,7 +255,7 @@ msgstr ""
 # e79867d5185f4055986cabd05975b3b6
 #: ../../map_composer/map_composer.rst:42
 msgid "|basic| |FA| Basic Map Composition"
-msgstr "|basic| |Ikuti Bersama| Komposisi Peta Dasar"
+msgstr "|basic| Ikuti Bersama Komposisi Peta Dasar"
 
 # 1f171a32e64a41e8aa8ce3b69b0348f5
 #: ../../map_composer/map_composer.rst:44
@@ -399,7 +399,15 @@ msgid ""
 "save your main project. Go to the main QGIS window (the one with the "
 ":guilabel:`Layers list` and all the other familiar elements you were working "
 "with before), and save your project from there as usual."
-msgstr ""
+msgid_plural ""
+"Remember that the size and position you've given the map doesn't need to be "
+"final. You can always come back and change it later if you're not satisfied. "
+"For now, you need to ensure that you've saved your work on this map. Because "
+"a :guilabel:`Composer` in QGIS is part of the main map file, you'll need to "
+"save your main project. Go to the main QGIS window (the one with the "
+":guilabel:`Layers list` and all the other familiar elements you were working "
+"with before), and save your project from there as usual."
+msgstr[0] ""
 "Ingat bahwa ukuran dan posisi peta yang telah Anda atur saat ini belum "
 "final. Anda dapat mengatur kembali dan mengubahnya lagi jika  Anda belum "
 "puas. Untuk dsaat ini,  Anda perlu memastikan bahwa  Anda telah menyimpan "
@@ -407,16 +415,16 @@ msgstr ""
 "adalah bagian dari file utama peta,  Anda harus menyimpan project  Anda. "
 "Arahkan ke jendela QGIS (yang ada :guilabel:`Layers list` dan semua elemen "
 "familiar lain yang telah  Anda gunakan sebelumnya), dan simpan project  Anda "
-"dari sini seperti biasa."
-"save your main project. Go to the main QGIS window (the one with the :"
-"guilabel:`Layers list` and all the other familiar elements you were working "
-"with before), and save your project from there as usual."
-msgstr ""
+"dari sini seperti biasa.save your main project. Go to the main QGIS window "
+"(the one with the :guilabel:`Layers list` and all the other familiar "
+"elements you were working with before), and save your project from there as "
+"usual."
+msgstr[1] ""
 
 # fa0c92a944e34c68adbc96e609ee0b8e
 #: ../../map_composer/map_composer.rst:122
 msgid "|basic| |FA| Adding a Title"
-msgstr "|basic| |Ikuti Bersama| Menambahkan Judul"
+msgstr "|basic| Ikuti Bersama Menambahkan Judul"
 
 # 8e28b2f6e463427ea818b3f00193cbd0
 #: ../../map_composer/map_composer.rst:124
@@ -529,9 +537,8 @@ msgstr "Pilih label dengan mengklik kanan label tersebut."
 #: ../../map_composer/map_composer.rst:173
 msgid ""
 "Click on the :guilabel:`Item` tab in the side panel of the "
-":guilabel:`Composer` window."
-"Click on the :guilabel:`Item` tab in the side panel of the :guilabel:"
-"`Composer` window."
+":guilabel:`Composer` window.Click on the :guilabel:`Item` tab in the side "
+"panel of the :guilabel:`Composer` window."
 msgstr ""
 "Klik pada tab :guilabel:`Item` di panel di samping jendela "
 ":guilabel:`Composer`."
@@ -597,8 +604,8 @@ msgstr "Kerangka ini perlu dihapus."
 msgid ""
 "Click on the :guilabel:`General options` slider at the bottom of the "
 ":guilabel:`Item` tab. The :guilabel:`Label` slider will slide away and you "
-"Click on the :guilabel:`General options` slider at the bottom of the :"
-"guilabel:`Item` tab. The :guilabel:`Label` slider will slide away and you "
+"Click on the :guilabel:`General options` slider at the bottom of the "
+":guilabel:`Item` tab. The :guilabel:`Label` slider will slide away and you "
 "will see a new interface."
 msgstr ""
 "Klik pada slider :guilabel:`General options` pada bagian bawah tab "
@@ -619,7 +626,7 @@ msgstr "Berikut tampilan peta kita saat ini:"
 # bbe7cbb43a5f46059959599e6b1578da
 #: ../../map_composer/map_composer.rst:220
 msgid "|basic| |FA| Adding a Legend"
-msgstr "|basic| |Ikuti Bersama| Menambahkan Legenda"
+msgstr "|basic| Ikuti Bersama Menambahkan Legenda"
 
 # cf12fca4165841cfb4c358ca34c104c6
 #: ../../map_composer/map_composer.rst:222
@@ -645,7 +652,7 @@ msgstr ""
 # 279d5393d9764e51b6694cc213917718
 #: ../../map_composer/map_composer.rst:238
 msgid "|moderate| |FA| Customizing Legend Items"
-msgstr "|moderate| |Ikuti Bersama| Mengkustomisasi Isi Legenda "
+msgstr "|moderate| Ikuti Bersama Mengkustomisasi Isi Legenda "
 
 # 083c27fe33884b818adf14f371683d01
 #: ../../map_composer/map_composer.rst:240
@@ -692,9 +699,8 @@ msgstr "Klik tombol :guilabel:`Edit`:"
 #: ../../map_composer/map_composer.rst:257
 msgid ""
 "Rename the layers to :kbd:`Roads and Streets`, :kbd:`Surface Water`, "
-":kbd:`Urban Areas`, and :kbd:`Farms`."
-"Rename the layers to :kbd:`Roads and Streets`, :kbd:`Surface Water`, :kbd:"
-"`Urban Areas`, and :kbd:`Farms`."
+":kbd:`Urban Areas`, and :kbd:`Farms`.Rename the layers to :kbd:`Roads and "
+"Streets`, :kbd:`Surface Water`, :kbd:`Urban Areas`, and :kbd:`Farms`."
 msgstr ""
 "Ubah nama layer tersebut menjadi :kbd:`Roads and Streets`, :kbd:`Surface "
 "Water`, :kbd:`Urban Areas`, dan :kbd:`Farms`."
@@ -736,7 +742,7 @@ msgstr "Inilah hasilnya:"
 # e3a564238b0246758d54bb51da8a0d7a
 #: ../../map_composer/map_composer.rst:275
 msgid "|basic| |FA| Exporting Your Map"
-msgstr "|basic| |Ikuti Bersama| Meng ekspor Peta Anda"
+msgstr "|basic| Ikuti Bersama Meng ekspor Peta Anda"
 
 # 760d7835cbb34c25818ef80afc18403d
 #: ../../map_composer/map_composer.rst:277
@@ -890,7 +896,7 @@ msgstr "Selamat atas selesainya project peta QGIS pertama  Anda!"
 # 61226def4b32478985fcbd7adf62d2a0
 #: ../../map_composer/map_composer.rst:335
 msgid "|WN|"
-msgstr "|Apa selanjutnya|"
+msgstr "Apa selanjutnya?"
 
 # 2d47ea1313c34913ba3838119f343986
 #: ../../map_composer/map_composer.rst:337
