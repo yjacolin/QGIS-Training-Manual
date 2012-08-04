@@ -1,5 +1,6 @@
 #!/bin/bash
 LOCALES='af id de'
+# Don't add the code "en" (English) here or bad things will happen!
 
 if [ $1 ]; then
   LOCALES=$1
@@ -15,7 +16,7 @@ do
   echo "Updating translation catalog for ${LOCALE}:"
   echo "------------------------------------"
   mkdir -p i18n/${LOCALE}/LC_MESSAGES
-  mkdir -p _static_${LOCALE}
+  cp -r _static_en _static_${LOCALE}
   for FILE in `ls i18n/pot`
   do
     POTFILE=i18n/pot/${FILE}
