@@ -38,9 +38,9 @@ msgid ""
 "If you are following this course at a *Basic* or *Intermediate* level, try "
 "to understand and implement techniques taught at a higher level."
 msgstr ""
-"Apabila  Anda mengikuti kursus ini pada level *Dasar* atau *Intermediate*, "
-"coba pahami dan implementasikan teknik yang telah diajarkan pada level yang "
-"lebih tinggi nanti."
+"Apabila  Anda mengikuti kursus ini pada level *Dasar* atau *Menengah*, coba "
+"pahami dan implementasikan teknik yang telah diajarkan pada level yang lebih "
+"tinggi nanti."
 
 # 18db5b366ab84bbd88069acf3c9ffec4
 #: ../../map_composer/day_1_assignment.rst:10
@@ -140,7 +140,7 @@ msgstr ""
 # d774333be4fe4fc7bb3edbc7bf7ce8b0
 #: ../../map_composer/map_composer.rst:2
 msgid "|LS| Using Map Composer"
-msgstr "Pelajaran Menggunakan *Map Composer*"
+msgstr "Pelajaran: Menggunakan *Map Composer*"
 
 # 513ce3ce38b74b4286866e0506d274ec
 #: ../../map_composer/map_composer.rst:4
@@ -176,7 +176,7 @@ msgstr ""
 # dd6bb49c5f66456bbb9dfd8ee390fb10
 #: ../../map_composer/map_composer.rst:17
 msgid "|basic| |FA| The Composer Manager"
-msgstr "|basic| Ikuti Bersama *Composer Manager*"
+msgstr "|basic| Ikuti Bersama: *Composer Manager*"
 
 # 543cf36e61944f7fbd97cd230e527439
 #: ../../map_composer/map_composer.rst:19
@@ -194,7 +194,7 @@ msgid ""
 "Click on the :menuselection:`File --> Composer Manager` menu entry to open "
 "this tool.  You'll see a blank :guilabel:`Composer manager` dialog appear."
 msgstr ""
-"Klik pada menu :menuselection:`*File --> Composer Manager*` untuk mulai "
+"Klik pada menu :menuselection:`File --> Composer Manager` untuk mulai "
 "menggunakan *tool* ini. Anda akan melihat kotak dialog :guilabel:`Composer "
 "manager` dalam keadaan kosong."
 
@@ -255,7 +255,7 @@ msgstr ""
 # e79867d5185f4055986cabd05975b3b6
 #: ../../map_composer/map_composer.rst:42
 msgid "|basic| |FA| Basic Map Composition"
-msgstr "|basic| Ikuti Bersama Komposisi Peta Dasar"
+msgstr "|basic| Ikuti Bersama: Komposisi Peta Dasar"
 
 # 1f171a32e64a41e8aa8ce3b69b0348f5
 #: ../../map_composer/map_composer.rst:44
@@ -424,7 +424,7 @@ msgstr[1] ""
 # fa0c92a944e34c68adbc96e609ee0b8e
 #: ../../map_composer/map_composer.rst:122
 msgid "|basic| |FA| Adding a Title"
-msgstr "|basic| Ikuti Bersama Menambahkan Judul"
+msgstr "|basic| Ikuti Bersama: Menambahkan Judul"
 
 # 8e28b2f6e463427ea818b3f00193cbd0
 #: ../../map_composer/map_composer.rst:124
@@ -626,7 +626,7 @@ msgstr "Berikut tampilan peta kita saat ini:"
 # bbe7cbb43a5f46059959599e6b1578da
 #: ../../map_composer/map_composer.rst:220
 msgid "|basic| |FA| Adding a Legend"
-msgstr "|basic| Ikuti Bersama Menambahkan Legenda"
+msgstr "|basic| Ikuti Bersama: Menambahkan Legenda"
 
 # cf12fca4165841cfb4c358ca34c104c6
 #: ../../map_composer/map_composer.rst:222
@@ -652,7 +652,7 @@ msgstr ""
 # 279d5393d9764e51b6694cc213917718
 #: ../../map_composer/map_composer.rst:238
 msgid "|moderate| |FA| Customizing Legend Items"
-msgstr "|moderate| Ikuti Bersama Mengkustomisasi Isi Legenda "
+msgstr "|moderate| Ikuti Bersama: Mengkustomisasi Isi Legenda "
 
 # 083c27fe33884b818adf14f371683d01
 #: ../../map_composer/map_composer.rst:240
@@ -742,7 +742,7 @@ msgstr "Inilah hasilnya:"
 # e3a564238b0246758d54bb51da8a0d7a
 #: ../../map_composer/map_composer.rst:275
 msgid "|basic| |FA| Exporting Your Map"
-msgstr "|basic| Ikuti Bersama Meng ekspor Peta Anda"
+msgstr "|basic| Ikuti Bersama: Mengekspor Peta Anda"
 
 # 760d7835cbb34c25818ef80afc18403d
 #: ../../map_composer/map_composer.rst:277
@@ -896,7 +896,7 @@ msgstr "Selamat atas selesainya project peta QGIS pertama  Anda!"
 # 61226def4b32478985fcbd7adf62d2a0
 #: ../../map_composer/map_composer.rst:335
 msgid "|WN|"
-msgstr "Apa selanjutnya?"
+msgstr "Apa Selanjutnya?"
 
 # 2d47ea1313c34913ba3838119f343986
 #: ../../map_composer/map_composer.rst:337
