@@ -20,7 +20,7 @@ msgstr ""
 # 9678709ca9674c9cb36272795e22fd14
 #: ../../postgis/geometry.rst:2
 msgid "|LS| Geometry Construction"
-msgstr "|Pelajaran| Konstruksi Geometri"
+msgstr "Pelajaran Konstruksi Geometri"
 
 # bf4dee5486c443d8b8569fab941f16b0
 #: ../../postgis/geometry.rst:4
@@ -376,7 +376,7 @@ msgstr ""
 #: ../../postgis/simple_feature_model.rst:251
 #: ../../postgis/spatial_functions.rst:243 ../../postgis/spatial_queries.rst:392
 msgid "|IC|"
-msgstr "|Kesimpulan|"
+msgstr "Kesimpulan"
 
 # 4cda6669619648a589fbef4de6edba23
 #: ../../postgis/geometry.rst:317
@@ -400,7 +400,7 @@ msgstr ""
 # 973ff1f9728c41bf983ea5f81913e0b4
 #: ../../postgis/import_export.rst:2
 msgid "|LS| Import and Export"
-msgstr "|Pelajaran| *Import* dan *Export*"
+msgstr "Pelajaran *Import* dan *Export*"
 
 # 85f4124f9d5f412fbb88a7bc347554bc
 #: ../../postgis/import_export.rst:4
@@ -554,7 +554,7 @@ msgstr ""
 #: ../../postgis/simple_feature_model.rst:257
 #: ../../postgis/spatial_functions.rst:249 ../../postgis/spatial_queries.rst:398
 msgid "|WN|"
-msgstr "|Apa Selanjutnya|"
+msgstr "Apa Selanjutnya?"
 
 # 79f924fc5b224a0baf225fce4c02f484
 #: ../../postgis/import_export.rst:100
@@ -566,7 +566,7 @@ msgstr ""
 # 657385029501428f879dbe43575e7f7a
 #: ../../postgis/index.rst:3
 msgid "|MOD| PostGIS"
-msgstr "|Modul| PostGIS"
+msgstr "Modul PostGIS"
 
 # d5901b4cdbd84e8eb16f1c9d78553f7f
 #: ../../postgis/index.rst:5
@@ -605,7 +605,7 @@ msgstr "Lihat juga `PostGIS online <http://postgisonline.org/>`_."
 # 27c345f8a85446168cce8b6fb5c1763a
 #: ../../postgis/simple_feature_model.rst:2
 msgid "|LS| Simple Feature Model"
-msgstr "|Pelajaran| Model Fitur Sederhana"
+msgstr "Pelajaran Model Fitur Sederhana"
 
 # 47095dc6de214408b4ce3a899c30f4ae
 #: ../../postgis/simple_feature_model.rst:4
@@ -955,7 +955,7 @@ msgstr ""
 # 58c953e9420c4e0e9fe0d18439bbbc0d
 #: ../../postgis/spatial_functions.rst:2
 msgid "|LS| PostGIS Setup"
-msgstr "|Pelajaran| Pengaturan PostGIS"
+msgstr "Pelajaran Pengaturan PostGIS"
 
 # 5a1543e4308c41db809400c6a6999711
 #: ../../postgis/spatial_functions.rst:4
@@ -1374,7 +1374,7 @@ msgstr ""
 # 84d92f385aa7413daa5c6d1fe44afe17
 #: ../../postgis/spatial_queries.rst:2
 msgid "|LS| Spatial Queries"
-msgstr "|Pelajaran| Queri Spasial"
+msgstr "Pelajaran Queri Spasial"
 
 # de957a1c73e84c74811f76e54b029952
 #: ../../postgis/spatial_queries.rst:4
