@@ -20,12 +20,12 @@ msgstr ""
 # 7bb61bc178d94b71aa0aa515ec804ba5
 #: ../../introduction/index.rst:3
 msgid "|MOD| The Interface"
-msgstr "|Modul| Antarmuka"
+msgstr "Modul Antarmuka"
 
 # b113f171cb984813ba2a6590d27954c0
 #: ../../introduction/intro.rst:2
 msgid "|LS| A Brief Introduction"
-msgstr "|Pelajaran| Pengenalan Singkat "
+msgstr "Pelajaran Pengenalan Singkat "
 
 # eb003223921545e0892323719371fb92
 #: ../../introduction/intro.rst:4
@@ -330,7 +330,7 @@ msgstr ""
 # 750e5656a02b4724a2ac9aeb640d8cd3
 #: ../../introduction/overview.rst:2
 msgid "|LS| An Overview of the Interface"
-msgstr "|Pelajaran| Gambaran singkat tentang antarmuka"
+msgstr "Pelajaran Gambaran singkat tentang antarmuka"
 
 # 9caf678c0ff14c60925822fd3f1d26d0
 #: ../../introduction/overview.rst:4
@@ -355,7 +355,7 @@ msgstr ""
 # 77fa8f312d3b4dcfb0585ff2974c247c
 #: ../../introduction/overview.rst:12
 msgid "|basic| |TY|: The Basics"
-msgstr "|basic| |Coba sendiri|: Dasar"
+msgstr "|basic| Coba sendiri: Dasar"
 
 # 1c088b62c3d84ae191474ce069d70f77
 #: ../../introduction/overview.rst:17
@@ -453,18 +453,20 @@ msgid ""
 "start a new project. You can easily customize the interface to see only the "
 "tools you use most often, adding or removing toolbars as necessary via the "
 ":menuselection:`View --> Toolbars` menu."
-msgstr ""
-"Seperangkat *tool* yang sering Anda gunakan dapat dimasukkan ke dalam "
-"*toolbar* untuk mengakses *tool-too*l dasar. Contohnya adalah *toolbar* "
-"**File** yang memungkinkan Anda untuk menyimpan, memproses, mencetak, dan "
-"memulai sebuah proyek baru. Anda dapat dengan mudah mengkostumisasi "
-"antarmuka untuk melihat hanya *tool-tool* yang sering Anda gunakan, menambah "
-"atau menghilangkan *toolbar* sesuai dengan yang dibutuhkan melalui menu "
-":menuselection:`View --> Toolbars`."
-"tools you use most often, adding or removing toolbars as necessary via the :"
-"menuselection:`View --> Toolbars` menu."
-msgstr ""
-
+msgid_plural ""
+"Your most oft-used sets of tools can be turned into toolbars for basic "
+"access. For example, the File toolbar allows you to save, load, print, and "
+"start a new project. You can easily customize the interface to see only the "
+"tools you use most often, adding or removing toolbars as necessary via the "
+":menuselection:`View --> Toolbars` menu."
+msgstr[0] ""
+"Seperangkat tool yang sering Anda gunakan dapat dimasukkan ke dalam toolbar "
+"untuk mengakses tool-tool dasar. Contohnya adalah toolbar File yang "
+"memungkinkan Anda untuk menyimpan, memproses, mencetak, dan memulai sebuah "
+"proyek baru. Anda dapat dengan mudah mengkostumisasi antarmuka untuk melihat "
+"hanya tool-tool yang sering Anda gunakan, menambah atau menghilangkan "
+"toolbar sesuai dengan yang dibutuhkan melalui menu :menuselection:`View --> "
+"Toolbars`."
 
 # 1056fb60e50b467cab8f4f7af8bb3f31
 #: ../../introduction/overview.rst:56
@@ -474,16 +476,20 @@ msgid ""
 "toolbar (which contains the :guilabel:`Save` button), you can still save "
 "your map by clicking on the :guilabel:`File` menu and then clicking on "
 ":guilabel:`Save`."
-msgstr ""
+msgid_plural ""
+"Even if they are not visible in a toolbar, all of your tools will remain "
+"accessible via the menus. For example, if you remove the :guilabel:`File` "
+"toolbar (which contains the :guilabel:`Save` button), you can still save "
+"your map by clicking on the :guilabel:`File` menu and then clicking on "
+":guilabel:`Save`."
+msgstr[0] ""
 "Bahkan apabila *tool – too*l tersebut tidak terlihat pada *toolbar*, seluruh "
 "*tool* Anda akan tetap dapat diakses melalui menu-menu. Sebagai contoh, jika "
 "Anda menghilangkan *toolbar* :guilabel:`File` (yang berisi tombol "
 ":guilabel:`Save`), Anda masih dapat menyimpan peta Anda dengan mengklik menu "
-":guilabel:`File` kemudian klik :guilabel:`Save`."
-"your map by clicking on the :guilabel:`File` menu and then clicking on :"
-"guilabel:`Save`."
-msgstr ""
-
+":guilabel:`File` kemudian klik :guilabel:`Save`.your map by clicking on the "
+":guilabel:`File` menu and then clicking on :guilabel:`Save`."
+msgstr[1] ""
 
 # 4073ef402275402e8bfc801241ba96f6
 #: ../../introduction/overview.rst:63
@@ -513,7 +519,7 @@ msgstr ""
 # d44c8cf290b04da4a431c1d22412ff9f
 #: ../../introduction/overview.rst:77
 msgid "|basic| |TY| 1"
-msgstr "|basic| |Coba sendiri| 1"
+msgstr "|basic| Coba sendiri 1"
 
 # e73afc267aac4a64a1418b663e401e22
 #: ../../introduction/overview.rst:79
@@ -536,7 +542,7 @@ msgstr ":ref:`Periksa hasil Anda <interface-overview-1>`"
 # e3ec74aefaab4bc0a6fc11f39c2f34f2
 #: ../../introduction/overview.rst:90
 msgid "|basic| |TY| 2"
-msgstr "|basic| |Coba sendiri| 2"
+msgstr "|basic| Coba sendiri 2"
 
 # 2a5fd0040fbe4c8aae7bc377c18b252e
 #: ../../introduction/overview.rst:92
@@ -572,7 +578,7 @@ msgstr ":ref:`Periksa hasil Anda <interface-overview-2>`"
 # 958bb911841a448aa7ee1659bfd08b90
 #: ../../introduction/overview.rst:119 ../../introduction/preparation.rst:64
 msgid "|WN|"
-msgstr "|Apa Selanjutnya|"
+msgstr "Apa Selanjutnya?"
 
 # 4e15dea4d2ce46508ff22cda81902a79
 #: ../../introduction/overview.rst:121
@@ -588,7 +594,7 @@ msgstr ""
 # 5f717289aeed4b79819cf7a425a7f7e4
 #: ../../introduction/preparation.rst:2
 msgid "|LS| Adding your first layer"
-msgstr "|Pelajaran| Menambahkan *layer* pertama anda"
+msgstr "Pelajaran Menambahkan *layer* pertama anda"
 
 # a0e1faaea73e48d2960ceba2611e6256
 #: ../../introduction/preparation.rst:4
@@ -643,7 +649,7 @@ msgstr "Mari kita mulai!"
 # 5138f9908d9b48629d63c8678a59a2af
 #: ../../introduction/preparation.rst:26
 msgid "|basic| |FA| Prepare a map"
-msgstr "|basic| |Ikuti bersama| Menyiapkan sebuah peta"
+msgstr "|basic| Ikuti bersama Menyiapkan sebuah peta"
 
 # bf52be538a1e4b00922c31c3ca320b98
 #: ../../introduction/preparation.rst:28
@@ -665,8 +671,8 @@ msgstr "Klik tombol tersebut untuk membuka kotak dialog sebagai berikut:"
 msgid ""
 "Click on the :guilabel:`Browse` button and navigate to the file "
 ":kbd:`exercise_data/streets.shp` (in your course directory). With this file "
-"Click on the :guilabel:`Browse` button and navigate to the file :kbd:"
-"`exercise_data/streets.shp` (in your course directory). With this file "
+"Click on the :guilabel:`Browse` button and navigate to the file "
+":kbd:`exercise_data/streets.shp` (in your course directory). With this file "
 "selected, click :guilabel:`Open`. You will see the original dialog, but with "
 "the file path filled in. Click :guilabel:`Open` here as well. The data you "
 "specified will now load."
@@ -707,7 +713,7 @@ msgstr ":ref:`Periksa hasil Anda <interface-preparation-1>`"
 # 21a3ccab809d4eb88ce9e144e1010be8
 #: ../../introduction/preparation.rst:59
 msgid "|IC|"
-msgstr "|Kesimpulan|"
+msgstr "Kesimpulan"
 
 # b0b211773c0745f4849eb1e960892b02
 #: ../../introduction/preparation.rst:61
@@ -727,4 +733,3 @@ msgstr ""
 "Sekarang Anda dapat melihat bagaimana antarmuka QGIS bekerja, Anda akan "
 "menggunakan *tool-tool* yang tersedia untuk memulai memperbaiki peta Anda. "
 "Ini adalah topik untuk pelajaran selanjutnya. "
-
