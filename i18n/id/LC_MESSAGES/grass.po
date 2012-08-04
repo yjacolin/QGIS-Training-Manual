@@ -21,7 +21,7 @@ msgstr ""
 # 81e32edd66d046e5ba328260d14b6d7c
 #: ../../grass/grass_setup.rst:2
 msgid "|LS| GRASS Setup"
-msgstr "|Pelajaran| Pengaturan GRASS"
+msgstr "Pelajaran :Pengaturan GRASS"
 
 # 032c2a00abad481d8ea310a69240f885
 #: ../../grass/grass_setup.rst:4
@@ -43,7 +43,7 @@ msgstr ""
 # 4c31d595bdea4975a8121a5eb1d354f6
 #: ../../grass/grass_setup.rst:11
 msgid "|basic| |FA| Start a New GRASS Project"
-msgstr "|basic||Ikuti bersama| Mulai Proyek GRASS Baru"
+msgstr "|basic|Ikuti bersama: Mulai Proyek GRASS Baru"
 
 # bc161f36fe4f412c8098d193f688b002
 #: ../../grass/grass_setup.rst:13
@@ -161,7 +161,7 @@ msgstr "kemudian klik :guilabel:`OK` pada dialog sukses."
 # 6ef7431a0eb34081aab84753f4bd325d
 #: ../../grass/grass_setup.rst:73
 msgid "|basic| |FA| Loading Vector Data into GRASS"
-msgstr "|basic||Ikuti bersama| Memuat Data Vektor ke dalam GRASS"
+msgstr "|basic|Ikuti bersama : Memuat Data Vektor ke dalam GRASS"
 
 # 67805f2bb8f34062999cdadc944deebe
 #: ../../grass/grass_setup.rst:75
@@ -269,7 +269,7 @@ msgstr ""
 # bda272337b5242739e90778d52feffcf
 #: ../../grass/grass_setup.rst:120
 msgid "|basic| |FA| Loading Raster Data into GRASS"
-msgstr "|basic||Ikuti bersama|Memuat Data Raster ke dalam GRASS "
+msgstr "|basic|Ikuti bersama: Memuat Data Raster ke dalam GRASS "
 
 # 469a99d8564540e3b5150f9f85234b30
 #: ../../grass/grass_setup.rst:122
@@ -397,7 +397,7 @@ msgstr ""
 # 736042dd1f7548279664b8807502fdcc
 #: ../../grass/grass_setup.rst:174
 msgid "|WN|"
-msgstr "|Apa Selanjutnya?|"
+msgstr "Apa Selanjutnya?"
 
 # ab5d817210d54131955c39139430d5b3
 #: ../../grass/grass_setup.rst:176
@@ -425,7 +425,7 @@ msgstr ""
 # 3510880fb39142038f1b1aeb5db36853
 #: ../../grass/grass_tools.rst:8
 msgid "|basic| |FA| Set Raster Colors"
-msgstr "|basic||Ikuti bersama| Mengatur Warna Raster"
+msgstr "|basic|Ikuti bersama: Mengatur Warna Raster"
 
 # e7a09abd46b0498a91efd54b4a31549c
 #: ../../grass/grass_tools.rst:10
@@ -456,7 +456,7 @@ msgstr ""
 # 42acf48859184b6eb8f1870f1a05213a
 #: ../../grass/grass_tools.rst:24
 msgid "|basic| |FA| Visualize Data in 3D"
-msgstr "|basic||Ikuti bersama| Visualisasi Data dalam 3D"
+msgstr "|basic|Ikuti bersama : Visualisasi Data dalam 3D"
 
 # a99f77f7a59b4c40a30288e1bbe919d0
 #: ../../grass/grass_tools.rst:26
@@ -556,7 +556,7 @@ msgstr ""
 # b10194d2f319429aac1831642a29e08d
 #: ../../grass/grass_tools.rst:69
 msgid "|moderate| |FA| The Mapcalc Tool"
-msgstr "|moderate||Ikuti bersama|Perangkat Mapcalc"
+msgstr "|moderate|Ikuti bersama:Perangkat Mapcalc"
 
 # fe9701834a4c4da29f22cd96cc277e85
 #: ../../grass/grass_tools.rst:71
@@ -699,7 +699,7 @@ msgstr ""
 # 520caeee48be4f25b80df0463688cb4a
 #: ../../grass/index.rst:3
 msgid "|MOD| GRASS"
-msgstr "|Modul| Grass"
+msgstr "Modul : Grass"
 
 # b4c399ae651a43688fdee03f09863650
 #: ../../grass/index.rst:5
