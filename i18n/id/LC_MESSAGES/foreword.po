@@ -169,7 +169,7 @@ msgid ""
 "If you sponsor a module or lesson, you may request the author to include an "
 "acknowledgement in the beginning of each lesson contributed, e.g.:"
 msgstr ""
-" Apabila Anda mensponsori sebuah modul atau materi pelajaran, Anda dapat "
+"Apabila Anda mensponsori sebuah modul atau materi pelajaran, Anda dapat "
 "meminta penulis untuk mencantumkan ungkapan terima kasih pada setiap materi "
 "yang dikontribusikan, misalnya:"
 
@@ -187,7 +187,7 @@ msgid ""
 msgstr ""
 "Apabila anda merasa tidak yakin mengenai apa saja yang boleh dilakukan "
 "dibawah lisensi ini, silahkan hubungi kami di office@linfiniti.com dan kami "
-"akan memberikan masukan apakah yang hendak anda kerjakan itu diperpolehkan "
+"akan memberikan masukan apakah yang hendak anda kerjakan itu diperbolehkan "
 "atau tidak."
 
 # 792a356aa370426ab35e4cffe29d5592
@@ -362,8 +362,8 @@ msgid ""
 "which is kindly hosted by http://readthedocs.org."
 msgstr ""
 "Anda selalu dapat memperoleh versi terbaru dari dokumen ini dengan "
-"mengunjungi 'website kami "
-"<http://readthedocs.org/builds/the-free-qgis-training-manual/>`_, yang "
+"mengunjungi `website kami "
+"<http://readthedocs.org/builds/the-free-qgis-training-manual/>`_ yang "
 "beralamat di http://readthedocs.org."
 
 # 47733b831ac24be8b49d5672dc980aa5
