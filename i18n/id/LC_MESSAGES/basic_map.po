@@ -1185,7 +1185,7 @@ msgstr ""
 # edfd802fc4b8490393659fb5ecb945ca
 #: ../../basic_map/vector_data.rst:13
 msgid "|basic| |FA| Viewing layer attributes"
-msgstr "|basic||Ikuti bersama| Menampilkan atribut layer"
+msgstr "|basic| |Ikuti bersama| Menampilkan atribut layer"
 
 # 8573fa07fa814c3f83cdfd2e1def8667
 #: ../../basic_map/vector_data.rst:15
@@ -1195,7 +1195,7 @@ msgid ""
 "objects are."
 msgstr ""
 "Sangat penting untuk mengetahui bahwa data yang akan digunakan dalam bekerja "
-"tidak hanya merepresentasikan lokas (**where**)i obyek dalam ruang, tetapi "
+"tidak hanya merepresentasikan lokasi (**where**)i obyek dalam ruang, tetapi "
 "juga memberitahu Anda tentang apa (**what**) obyek tersebut."
 
 # e5a63032f30b4ebd9ff56b92371e4f2a
