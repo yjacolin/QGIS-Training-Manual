@@ -20,12 +20,12 @@ msgstr ""
 # 7bb61bc178d94b71aa0aa515ec804ba5
 #: ../../introduction/index.rst:3
 msgid "|MOD| The Interface"
-msgstr "Modul Antarmuka"
+msgstr "Modul: Antarmuka"
 
 # b113f171cb984813ba2a6590d27954c0
 #: ../../introduction/intro.rst:2
 msgid "|LS| A Brief Introduction"
-msgstr "Pelajaran Pengenalan Singkat "
+msgstr "Pelajaran: Pengenalan Singkat "
 
 # eb003223921545e0892323719371fb92
 #: ../../introduction/intro.rst:4
@@ -217,7 +217,7 @@ msgid ""
 msgstr ""
 "Pada kategori ini, diasumsikan bahwa Anda telah berpengalaman dengan SIG, "
 "memiliki pengetahuan dan pengalaman dengan  basisdata spasial, menggunakan "
-"data di *serve*r terpisah *(remote server)*, serta mungkin pernah menulis "
+"data di *server terpisah (remote server)*, serta mungkin pernah menulis "
 "*script* untuk keperluan analisis, dan sebagainya."
 
 # 908042c18b0a44298776a8603d6454ef
@@ -315,7 +315,7 @@ msgstr ""
 #: ../../introduction/intro.rst:113
 msgid "*Cross-platform.* QGIS can be installed on MacOS, Windows and Linux."
 msgstr ""
-"*Antar sistem operas*i. QGIS dapat diinstal di MacOS, Windows dan Linux."
+"*Antar sistem operasi.* QGIS dapat diinstal di MacOS, Windows dan Linux."
 
 # 842f09bc21fe47b7ad075a76ccbc3fcc
 #: ../../introduction/intro.rst:115
@@ -330,7 +330,7 @@ msgstr ""
 # 750e5656a02b4724a2ac9aeb640d8cd3
 #: ../../introduction/overview.rst:2
 msgid "|LS| An Overview of the Interface"
-msgstr "Pelajaran Gambaran singkat tentang antarmuka"
+msgstr "Pelajaran: Gambaran Singkat Tentang Antarmuka"
 
 # 9caf678c0ff14c60925822fd3f1d26d0
 #: ../../introduction/overview.rst:4
@@ -355,7 +355,7 @@ msgstr ""
 # 77fa8f312d3b4dcfb0585ff2974c247c
 #: ../../introduction/overview.rst:12
 msgid "|basic| |TY|: The Basics"
-msgstr "|basic| Coba sendiri: Dasar"
+msgstr "|basic| Coba Sendiri: Dasar"
 
 # 1c088b62c3d84ae191474ce069d70f77
 #: ../../introduction/overview.rst:17
@@ -519,7 +519,7 @@ msgstr ""
 # d44c8cf290b04da4a431c1d22412ff9f
 #: ../../introduction/overview.rst:77
 msgid "|basic| |TY| 1"
-msgstr "|basic| Coba sendiri 1"
+msgstr "|basic| Coba Sendiri: 1"
 
 # e73afc267aac4a64a1418b663e401e22
 #: ../../introduction/overview.rst:79
@@ -542,7 +542,7 @@ msgstr ":ref:`Periksa hasil Anda <interface-overview-1>`"
 # e3ec74aefaab4bc0a6fc11f39c2f34f2
 #: ../../introduction/overview.rst:90
 msgid "|basic| |TY| 2"
-msgstr "|basic| Coba sendiri 2"
+msgstr "|basic| Coba Sendiri: 2"
 
 # 2a5fd0040fbe4c8aae7bc377c18b252e
 #: ../../introduction/overview.rst:92
@@ -594,7 +594,7 @@ msgstr ""
 # 5f717289aeed4b79819cf7a425a7f7e4
 #: ../../introduction/preparation.rst:2
 msgid "|LS| Adding your first layer"
-msgstr "Pelajaran Menambahkan *layer* pertama anda"
+msgstr "Pelajaran: Menambahkan *Layer* Pertama Anda"
 
 # a0e1faaea73e48d2960ceba2611e6256
 #: ../../introduction/preparation.rst:4
@@ -649,7 +649,7 @@ msgstr "Mari kita mulai!"
 # 5138f9908d9b48629d63c8678a59a2af
 #: ../../introduction/preparation.rst:26
 msgid "|basic| |FA| Prepare a map"
-msgstr "|basic| Ikuti bersama Menyiapkan sebuah peta"
+msgstr "|basic| Ikuti Bersama: Menyiapkan sebuah peta"
 
 # bf52be538a1e4b00922c31c3ca320b98
 #: ../../introduction/preparation.rst:28
@@ -681,7 +681,7 @@ msgstr ""
 ":kbd:`exercise_data/streets.shp` (di dalam direktori pelatihan Anda). Pilih "
 "file ini, klik :guilabel:`Open`. Anda akan melihat kotak dialog awalnya, "
 "tetapi dengan file *path* yang terisi di dalamnya. Klik :guilabel:`Open` "
-"juga disini. Data yang Anda pilih akan terpanggil. "
+"juga disini. Data yang Anda pilih akan terpanggil."
 
 # 7b73cc0a72424c06ac7f0f6ba6afdaa5
 #: ../../introduction/preparation.rst:46
