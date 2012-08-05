@@ -20,7 +20,7 @@ msgstr ""
 # 10e8f713065240a1b48e39fe35555ad9
 #: ../../complete_analysis/analysis_combination.rst:2
 msgid "|LS| Combining the Analyses"
-msgstr "|Pelajaran| Menggabungkan Analisis"
+msgstr "Pelajaran: Menggabungkan Analisis"
 
 # 3ac777178e5c4201b399deb396666f84
 #: ../../complete_analysis/analysis_combination.rst:4
@@ -37,7 +37,7 @@ msgid ""
 "**The goal for this lesson:** To use the vectorized terrain results to "
 "select suitable farms."
 msgstr ""
-"**Tujuan untuk pelajaran in:** Menggunakan terrain hasil vektorisasi untuk "
+"**Tujuan untuk pelajaran ini:** Menggunakan terrain hasil vektorisasi untuk "
 "memilih lahan pertanian yang cocok."
 
 # edd941343de844f1913b5c0f29da6ec9
@@ -45,7 +45,7 @@ msgstr ""
 #: ../../complete_analysis/analysis_combination.rst:11
 #: ../../complete_analysis/raster_to_vector.rst:39
 msgid "|moderate| |TY|"
-msgstr "|moderate| |Cobalah sendiri|"
+msgstr "|moderate| Cobalah sendiri... "
 
 # 012c336d1d1e40b1a640bb0b85911f4d
 #: ../../complete_analysis/analysis_combination.rst:13
@@ -91,7 +91,7 @@ msgid ""
 msgstr ""
 "Pilih semua pertanian ( dalam layer :guilabel:`solution`) yang bersinggungan "
 "dengan layer :kbd:`suitable_terrain` (Gunakan metode :guilabel:`select by "
-"location`seperti yang dipakai sebelumnya.)"
+"location` seperti yang dipakai sebelumnya.)"
 
 # 0f02d104379d42038627e2b753efe5aa
 #: ../../complete_analysis/analysis_combination.rst:27
@@ -106,7 +106,7 @@ msgstr "Anda sekarang  memiliki layer pertanian untuk solusi Anda:"
 # 20c53a4abfa04b759d419f524df7c9e4
 #: ../../complete_analysis/analysis_combination.rst:38
 msgid "|moderate| |TY| Inspecting the Results"
-msgstr "|moderate| |Cobalah sendiri| Periksa hasilnya"
+msgstr "|moderate| Cobalah sendiri... Periksa hasilnya"
 
 # f76a1792a6784760a5f4e3b2d66bf4a0
 #: ../../complete_analysis/analysis_combination.rst:40
@@ -134,7 +134,7 @@ msgstr ":ref:`Periksa hasil Anda <complete-analysis-2>`"
 # bdff21c7b6a84950b0562b0a7e632bfd
 #: ../../complete_analysis/analysis_combination.rst:53
 msgid "|moderate| |TY| Refining the Analysis"
-msgstr "|moderate| |Cobalah sendiri| Memperbaiki Hasilnya"
+msgstr "|moderate| Cobalah sendiri... Memperbaiki Hasilnya"
 
 # 14aabae4464b49adb14bc703ab35ab6b
 #: ../../complete_analysis/analysis_combination.rst:55
@@ -157,7 +157,7 @@ msgid ""
 msgstr ""
 "Kita bisa melihat bahwa ada beberapa pertanian yang memiliki area yang "
 "sesuai, akan tetapi area ini terlalu kecil untuk digunakan. Oleh karena itu, "
-"keputusan yang dibuat dalam memilih pertanian  yaitu pertanian tersebut "
+"keputusan yang dibuat dalam memilih pertanian yaitu pertanian tersebut "
 "harus memiliki lahan yang sesuai dengan area sepanjang 350 meter atau lebih. "
 "Bagaimana Anda memastikan bahwa pertanian tersebut memenuhi persyaratan ini? "
 "Untuk menjawab pertanyaan ini, gunakan (a) **tool** vector analysis. "
@@ -172,7 +172,7 @@ msgstr ":ref:`Periksa hasil Anda <complete-analysis-3>`"
 #: ../../complete_analysis/analysis_combination.rst:67
 #: ../../complete_analysis/raster_to_vector.rst:78
 msgid "|IC|"
-msgstr "|Kesimpulan|"
+msgstr "Kesimpulan"
 
 # fac8dcee76f7432ea86299496926c476
 #: ../../complete_analysis/analysis_combination.rst:69
@@ -191,7 +191,7 @@ msgstr ""
 #: ../../complete_analysis/analysis_combination.rst:74
 #: ../../complete_analysis/raster_to_vector.rst:84
 msgid "|WN|"
-msgstr "|Apa selanjutnya|"
+msgstr "Apa selanjutnya?"
 
 # 82c93f97978c48928f727c0922fb6d2e
 #: ../../complete_analysis/analysis_combination.rst:76
@@ -203,7 +203,7 @@ msgstr ""
 # d77762c8d7764e4892e81d92e55e07c7
 #: ../../complete_analysis/analysis_exercise.rst:2
 msgid "|LS| Supplementary Exercise"
-msgstr "|Pelajaran|Latihan Tambahan"
+msgstr "Pelajaran: Latihan Tambahan"
 
 # 75df0c05b82c46f896aa8b5698a1452c
 #: ../../complete_analysis/analysis_exercise.rst:4
@@ -297,7 +297,7 @@ msgstr ""
 "Untuk mengatasi masalah ini, Anda harus menggunakan data yang tersedia "
 "(tersedia dalam: kbd: `exercise_data / more_analysis`) untuk menemukan area "
 "kandidat yang paling dekat dengan rumah Anda. Jika Anda tidak tinggal di "
-"Cape T(yang merupakan dasar permasalahan ini) Anda dapat memilih rumah lain "
+"Cape T (yang merupakan dasar permasalahan ini) Anda dapat memilih rumah lain "
 "di kawasan Cape Town. Solusi ini akan melibatkan:"
 
 # 7d341c9dc9294c719ee62c73f141f958
@@ -437,7 +437,7 @@ msgid ""
 ":guilabel:`exercise_data/more_analysis/streets` directory."
 msgstr ""
 "Pada dialog yang muncul buka direktori "
-":guilabel:`exercise_data/more_analysis/streets."
+":guilabel:`exercise_data/more_analysis/streets.`"
 
 # 597436e77bff4e9db2029df3275428c4
 #: ../../complete_analysis/analysis_exercise.rst:78
@@ -523,14 +523,14 @@ msgid ""
 ":menuselection:`Layer --> Add Raster Layer...` menu item."
 msgstr ""
 "Klik pada tombol :guilabel:`Add Raster Layer`, atau  gunakan "
-":menuselection:`Layer --> Add Raster Layer...`pada item menu."
+":menuselection:`Layer --> Add Raster Layer...` pada item menu."
 
 # d1db08741ab24d2fb6494879c42aeb93
 #: ../../complete_analysis/analysis_exercise.rst:103
 msgid ""
 "Navigate to the appropriate file, select it, and click :guilabel:`Open`."
 msgstr ""
-"Arahkan pada file yang sesuai , pilih dan klik  click :guilabel:`Open`."
+"Arahkan pada file yang sesuai, pilih dan klik  click :guilabel:`Open`."
 
 # eea78d811fa9453386789cc972225db4
 #: ../../complete_analysis/analysis_exercise.rst:104
@@ -589,7 +589,7 @@ msgstr "Ubah simbologi pada layer vektor"
 msgid ""
 "In the :guilabel:`Layers list`, right-click on the :guilabel:`Streets` layer."
 msgstr ""
-"Dalam :guilabel:'Layer list', klik kanan di atas layer :guilabel:`Streets`."
+"Dalam :guilabel:`Layers list`, klik kanan di atas layer :guilabel:`Streets`."
 
 # 93cf7df1ddc849c791c4fc782547843c
 #: ../../complete_analysis/analysis_exercise.rst:119
@@ -657,7 +657,7 @@ msgid ""
 "will change the color of the :guilabel:`Streets` layer."
 msgstr ""
 "Klik :guilabel:'OK' lagi dalam kotak dialog :guilabel:'Layer Properties'. "
-"hal ini akan merubah warna di layer :guilabel:'Streets'."
+"hal ini akan merubah warna di layer :guilabel:`Streets`."
 
 # 30ad7cff1671451fa1e504bb704654a7
 #: ../../complete_analysis/analysis_exercise.rst:127
@@ -665,7 +665,7 @@ msgid ""
 "Follow a similar process for the :guilabel:`Zoning` layer and choose an "
 "appropriate color for it."
 msgstr ""
-"Ikuti dengan proses yang sama untu layer :guilabel:`Zoning` dan pilih warna "
+"Ikuti dengan proses yang sama untuk layer :guilabel:`Zoning` dan pilih warna "
 "yang sesuai untuk layer tersebut."
 
 # 60adfba9bc964775ad5a037f5a3df932
@@ -2671,7 +2671,7 @@ msgstr ""
 # 18b3eede20e54af09e4cb96bd2283e18
 #: ../../complete_analysis/raster_to_vector.rst:2
 msgid "|LS| Raster to Vector Conversion"
-msgstr "|Pelajaran| Konversi  Raster ke Vektor"
+msgstr "Pelajaran:  Konversi  Raster ke Vektor"
 
 # d4dd1b0cfd0c470eb903fc97955411e2
 #: ../../complete_analysis/raster_to_vector.rst:4

@@ -62,7 +62,7 @@ msgstr ""
 # 9279fe5de9b745deab84ad0f8ada0e40
 #: ../../vector_classification/attribute_data.rst:21
 msgid "|basic| |FA| Attribute data"
-msgstr "|basic| Ikuti Bersama Data Atribut"
+msgstr "|basic| Ikuti Bersama: Data Atribut"
 
 # 749b5f5e025a432bb96f21aa660915ba
 #: ../../vector_classification/attribute_data.rst:23
