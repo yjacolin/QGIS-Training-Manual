@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -21,7 +20,7 @@ msgstr ""
 # b763eb4f9be9403cb4b7249b23b624da
 #: ../../qgis_plugins/fetching_plugins.rst:2
 msgid "|LS| Installing and Managing Plugins"
-msgstr "Pelajaran menginstal dan mengatur Plugin"
+msgstr "Pelajaran: Menginstal dan mengatur Plugin"
 
 # ded47a0a78da4961ab8fa84c8fa6a144
 #: ../../qgis_plugins/fetching_plugins.rst:4
@@ -45,7 +44,7 @@ msgstr ""
 # 1d98a9837e784b6795db3ff32a81d4b3
 #: ../../qgis_plugins/fetching_plugins.rst:11
 msgid "|basic| |FA| Managing Plugins"
-msgstr "|basic| Ikuti Bersama Mengatur Plugin"
+msgstr "|basic| Ikuti Bersama: Mengatur Plugin"
 
 # ,650fc78925ca44189cde04b99dcb3b7c
 #: ../../qgis_plugins/fetching_plugins.rst:13
@@ -79,7 +78,7 @@ msgid ""
 "are part of the :guilabel:`GdalTools` plugin, which needs to be activated "
 "for you to use them."
 msgstr ""
-"Sekarang amati di bawah menu :guilabel:`Raster`.Anda akan melihat bahwa "
+"Sekarang amati di bawah menu :guilabel:`Raster`. Anda akan melihat bahwa "
 "fungsi-fungsi yang Anda gunakan sebelumnya telah menghilang. Hal ini "
 "dikarenakan, fungsi-fungsi tersebut merupakan bagian dari plugin "
 ":guilabel:`GdalTools`,yang perlu diaktifkan sebelum digunakan."
@@ -116,7 +115,7 @@ msgstr ""
 # 34606df0d41741b2bd0d4c40c16dbf98
 #: ../../qgis_plugins/fetching_plugins.rst:36
 msgid "|basic| |FA| Installing New Plugins"
-msgstr "|Basic| Ikuti Bersama Menginstal Plugin Baru"
+msgstr "|Basic| Ikuti Bersama: Menginstal Plugin Baru"
 
 # 4ed6bcde373a466883d77dcebb135812
 #: ../../qgis_plugins/fetching_plugins.rst:38
@@ -251,7 +250,7 @@ msgstr "Menginstal plugins dalam QGIS mudah dan efektif!"
 #: ../../qgis_plugins/fetching_plugins.rst:89
 #: ../../qgis_plugins/plugin_examples.rst:223
 msgid "|WN|"
-msgstr "Apa Selanjutnya"
+msgstr "Apa Selanjutnya?"
 
 # d8c3300eed864fccbf3595200f5b46be
 #: ../../qgis_plugins/fetching_plugins.rst:91
@@ -262,7 +261,7 @@ msgstr ""
 # eaded7b7ae794ada92438fe34d98e523
 #: ../../qgis_plugins/index.rst:3
 msgid "|MOD| Plugins"
-msgstr "Modul Plugin"
+msgstr "Modul: Plugin"
 
 # 562b25d7e7a149eda937e1a4fe19bd4e
 #: ../../qgis_plugins/index.rst:5
@@ -276,7 +275,7 @@ msgstr ""
 # ea273ca9565e4efda43a103a8c7be5d0
 #: ../../qgis_plugins/plugin_examples.rst:2
 msgid "|LS| Useful QGIS Plugins"
-msgstr "Pelajaran Kegunaan Plugins QGIS"
+msgstr "Pelajaran: Kegunaan Plugins QGIS"
 
 # 75d9cfc48e9c41dcb8656a88dccea91e
 #: ../../qgis_plugins/plugin_examples.rst:4
@@ -300,7 +299,7 @@ msgstr ""
 # 872dadd0c52043158caad2ef57262f31
 #: ../../qgis_plugins/plugin_examples.rst:11
 msgid "|basic| |FA| The Raster Terrain Analysis Plugin"
-msgstr "|basic| Ikuti bersama Plugin Raster Terrain Analysis"
+msgstr "|basic| Ikuti bersama: Plugin Raster Terrain Analysis"
 
 # c7958ced73844a7193f4893afb92aed1
 #: ../../qgis_plugins/plugin_examples.rst:13
@@ -413,7 +412,7 @@ msgstr ""
 # cc59b33da4094520a7b861b2914a1eda
 #: ../../qgis_plugins/plugin_examples.rst:61
 msgid "|basic| |FA| The Google Layers Plugin"
-msgstr "|basic| Ikuti bersama Plugin Google Layers"
+msgstr "|basic| Ikuti bersama: Plugin Google Layers"
 
 # 071ad5c3b7314393828b0db27f755a12
 #: ../../qgis_plugins/plugin_examples.rst:63
@@ -531,7 +530,7 @@ msgstr ""
 # 85b4908886e94eac977205209f66cb4e
 #: ../../qgis_plugins/plugin_examples.rst:111
 msgid "|moderate| |FA| The OpenStreetMap Plugin"
-msgstr "|moderate| Ikuti Bersama Plugin OpenStreetMap"
+msgstr "|moderate| Ikuti Bersama: Plugin OpenStreetMap"
 
 # ea1159594caf46fab1b48dd20ec133fe
 #: ../../qgis_plugins/plugin_examples.rst:113

@@ -1353,8 +1353,8 @@ msgid ""
 "of the database file on your computer."
 msgstr ""
 "Anda sekarang akan melihat lagi kotak dialog yang pertama. Perhatikan bahwa "
-"pilihan dropdown di atas tiga tombol sekarang berisi \"land_use.db@...\"
-"...*\", diikuti oleh path dari file *database* pada komputer Anda. "
+"pilihan dropdown di atas tiga tombol sekarang berisi \"land_use.db@...\", diikuti"
+"oleh path dari file *database* pada komputer Anda. "
 
 # 7ba9402ee20a41f0a8fd053e033df72f
 #: ../../basic_map/vector_data.rst:91

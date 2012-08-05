@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -188,7 +187,6 @@ msgstr ""
 
 # 443dc8628f44410b90a60e441eb4b516
 #: ../../rasters/changing_symbology.rst:66
-#, fuzzy
 msgid "Tell it to use :guilabel:`Custom min / max values`:"
 msgstr ""
 "Perintahkan QGIS untuk menggunakan  :guilabel:`Custom min / max values`:"
@@ -226,8 +224,8 @@ msgid ""
 "Under :guilabel:`Load min / max values from band`, select "
 ":guilabel:`Estimate (faster)`."
 msgstr ""
-"Dalam  :guilabel:`Load min / max values from band` pilih  :guilabel:`Estimate "
-"(faster)`."
+"Dalam  :guilabel:`Load min / max values from band` pilih  "
+":guilabel:`Estimate (faster)`."
 
 # 6f4301f489db4e78950b81092aaa552c
 #: ../../rasters/changing_symbology.rst:86
@@ -308,9 +306,9 @@ msgid ""
 "Click the button on the left (:guilabel:`Stretch Histogram to Full "
 "Dataset`). You'll see the data is now correctly represented as before!"
 msgstr ""
-"Klik tombol pada sisi kiri (:guilabel:`Stretch Histogram to Full "
-"Dataset`). Anda akan melihat  bahwa sekarang data telah direpresentasikan "
-"dengan benar seperti sebelumnya!"
+"Klik tombol pada sisi kiri (:guilabel:`Stretch Histogram to Full Dataset`). "
+"Anda akan melihat  bahwa sekarang data telah direpresentasikan dengan benar "
+"seperti sebelumnya!"
 
 # 44e9efecc64041109f87b3c1b79f2967
 # efbbd0678a1a49cb8094ef231d115bb6
@@ -319,7 +317,7 @@ msgstr ""
 #: ../../rasters/data_manipulation.rst:136
 #: ../../rasters/terrain_analysis.rst:286
 msgid "|IC|"
-msgstr "|Kesimpulan|"
+msgstr "Kesimpulan"
 
 # 40dd1c0dc8f444d795efb3f2547de83c
 #: ../../rasters/changing_symbology.rst:130
@@ -383,10 +381,10 @@ msgid ""
 "various different color values."
 msgstr ""
 "Data raster sangat berbeda dari data vektor. Data vektor memiliki fitur  "
-"diskrit yang dibuat dari simpul (vertex), dan mungkin terhubung dengan "
-"garis dan  atau luasan. Meskipun begitu, data raster, adalah seperti gambar "
-"yang lain.  Meskipun raster dapat menggambarkan berbagai properti  dari "
-"objek di dunia nyata, objek-objek tersebut  bukan merupakan objek-objek yang "
+"diskrit yang dibuat dari simpul (vertex), dan mungkin terhubung dengan garis "
+"dan  atau luasan. Meskipun begitu, data raster, adalah seperti gambar yang "
+"lain.  Meskipun raster dapat menggambarkan berbagai properti  dari objek di "
+"dunia nyata, objek-objek tersebut  bukan merupakan objek-objek yang "
 "terpisah, melainkan, mereka direpresentasikan  menggunakan pixel dari "
 "berbagai nilai warna yang berbeda."
 
@@ -411,7 +409,7 @@ msgstr ""
 # eb80a7f2ed174643a2cea21ec9cd978d
 #: ../../rasters/data_manipulation.rst:18
 msgid "|basic| |FA| Loading Raster Data"
-msgstr "|basic|Ikuti bersama: Memuat Data Raster"
+msgstr "|basic| Ikuti bersama: Memuat Data Raster"
 
 # 923760ec1cb94ebfbca59086c1903589
 #: ../../rasters/data_manipulation.rst:20
@@ -501,7 +499,7 @@ msgstr ""
 # 83bbba2c873f4d21892e9c87258c8452
 #: ../../rasters/data_manipulation.rst:57
 msgid "|basic| |FA| Create a Virtual Raster"
-msgstr "|basic|Ikuti bersama :Membuat Raster virtual"
+msgstr "|basic| Ikuti bersama :Membuat Raster virtual"
 
 # 4fca18d377194b4a8ae3431472799432
 #: ../../rasters/data_manipulation.rst:59
@@ -678,8 +676,7 @@ msgid ""
 "Click on the menu item :menuselection:`Raster --> Projection --> Warp "
 "(Reproject)`."
 msgstr ""
-"Klik item menu  :menuselection:`Raster --> Projection --> Warp "
-"(Reproject)`."
+"Klik item menu  :menuselection:`Raster --> Projection --> Warp (Reproject)`."
 
 # 6a918fd77bec4556abd39a0bc1200dc0
 #: ../../rasters/data_manipulation.rst:117
@@ -816,8 +813,8 @@ msgid ""
 "To work with DEMs, you should use QGIS' all-in-one :guilabel:`DEM (Terrain "
 "models)` analysis tool."
 msgstr ""
-"Untuk bekerja dengan DEM, Anda harus menggunakan tool analisis  "
-":guilabel:` DEM (Terrain models)` QGIS."
+"Untuk bekerja dengan DEM, Anda harus menggunakan tool analisis  :guilabel:` "
+"DEM (Terrain models)` QGIS."
 
 # c52b8235360c41c18c81b84b5bd79aaf
 #: ../../rasters/terrain_analysis.rst:25
@@ -943,9 +940,9 @@ msgid ""
 "layer in the :guilabel:`Layers list`. :guilabel:`Control rendering order` "
 "(beneath the list) should be checked as well."
 msgstr ""
-"Klik dan geser  :guilabel:`DEM` ke bawah layer :guilabel:`hillshade` "
-"dalam  :guilabel:`Layers list`. :guilabel:`Control rendering order` (di "
-"bawah daftar) harus dipilih juga."
+"Klik dan geser  :guilabel:`DEM` ke bawah layer :guilabel:`hillshade` dalam  "
+":guilabel:`Layers list`. :guilabel:`Control rendering order` (di bawah "
+"daftar) harus dipilih juga."
 
 # f5c0b86dbb4e4de9b7f271ad55283ff0
 #: ../../rasters/terrain_analysis.rst:64
@@ -1060,8 +1057,8 @@ msgid ""
 "Click :guilabel:`OK` and close the dialog when processing is complete. "
 "You'll see a new raster loaded into your map."
 msgstr ""
-"Klik  :guilabel:`OK` dan tutup dialog ketika proses telah selesai. Anda "
-"akan melihat raster baru yang dimuat ke dalam peta Anda. "
+"Klik  :guilabel:`OK` dan tutup dialog ketika proses telah selesai. Anda akan "
+"melihat raster baru yang dimuat ke dalam peta Anda. "
 
 # 5b3b600e709e47d1922aed37653d9056
 #: ../../rasters/terrain_analysis.rst:112
@@ -1071,11 +1068,10 @@ msgid ""
 "slope of the terrain, with black pixels being flat terrain and white pixels, "
 "steep terrain:"
 msgstr ""
-"Dengan raster baru yang terpilih dalam  :guilabel:`Layers list`, klik "
-"tombol :guilabel:`Stretch Histogram to Full Dataset` . Sekarang Anda akan "
-"melihat slope dari terain, dengan piksel yang berwarna hitam yang "
-"menggambarkan  terain yang datar dan piksel berwarna putih menggambarkan "
-"terain yang curam:"
+"Dengan raster baru yang terpilih dalam  :guilabel:`Layers list`, klik tombol "
+":guilabel:`Stretch Histogram to Full Dataset` . Sekarang Anda akan melihat "
+"slope dari terain, dengan piksel yang berwarna hitam yang menggambarkan  "
+"terain yang datar dan piksel berwarna putih menggambarkan terain yang curam:"
 
 # 6e474e5414b44e9cb3ff112a515cdfc5
 #: ../../rasters/terrain_analysis.rst:123
@@ -1216,7 +1212,7 @@ msgstr "Hasil Anda akan seperti berikut:"
 # 32e2dd196f3041a0918e0f95717cd21a
 #: ../../rasters/terrain_analysis.rst:179
 msgid "|moderate| |TY|"
-msgstr "|moderate| Coba sendiri"
+msgstr "|moderate| Coba sendiri..."
 
 # c47eef9e46fc461c8cc259e355ee7ad8
 #: ../../rasters/terrain_analysis.rst:181
@@ -1233,8 +1229,8 @@ msgid ""
 "The first will be to identify all areas where the slope is less than or "
 "equal to :kbd:`2` degrees."
 msgstr ""
-"analisis pertama adalah untuk mengidentifikasi semua area dimana "
-"kemiringan (slope) kurang dari atau sema dengan  :kbd:`2` derajat."
+"analisis pertama adalah untuk mengidentifikasi semua area dimana kemiringan "
+"(slope) kurang dari atau sema dengan  :kbd:`2` derajat."
 
 # 23673d7a38944a378342584e9191a8c8
 #: ../../rasters/terrain_analysis.rst:186
@@ -1242,8 +1238,8 @@ msgid ""
 "The second is similar, but the slope should be less than or equal to "
 ":kbd:`5` degrees."
 msgstr ""
-"Analisis yang kedua sama, tetapi slopenya harus kurang dari atau sama "
-"dengan :kbd:`5` derajat."
+"Analisis yang kedua sama, tetapi slopenya harus kurang dari atau sama dengan "
+":kbd:`5` derajat."
 
 # 67160490b4704206b733478768a8f010
 #: ../../rasters/terrain_analysis.rst:188
@@ -1338,8 +1334,8 @@ msgid ""
 "and your keyboard to build this expression in the :guilabel:`Raster "
 "calculator expression` text area:"
 msgstr ""
-"Gunakan daftar  :guilabel:`Raster bands`, tombol  :guilabel:`Operators`, "
-"dan keyboard Anda untuk membuat ekspresi pada tempat teks  :guilabel:`Raster "
+"Gunakan daftar  :guilabel:`Raster bands`, tombol  :guilabel:`Operators`, dan "
+"keyboard Anda untuk membuat ekspresi pada tempat teks  :guilabel:`Raster "
 "calculator expression`:"
 
 # fbe64a67ac3e4d58ac30211ef815fdcb
@@ -1434,8 +1430,8 @@ msgid ""
 "View the metadata under the :guilabel:`Metadata` tab of the :guilabel:`Layer "
 "Properties` dialog."
 msgstr ""
-"Lihat metadata dalam tab :guilabel:`Metadata` dari dialog  "
-":guilabel:`Layer Properties`."
+"Lihat metadata dalam tab :guilabel:`Metadata` dari dialog  :guilabel:`Layer "
+"Properties`."
 
 # 91017b7cac65494fb8762b8c233a8362
 #: ../../rasters/terrain_analysis.rst:260
@@ -1457,8 +1453,7 @@ msgstr ""
 #: ../../rasters/terrain_analysis.rst:266
 msgid ""
 "Open the :guilabel:`Raster Calculator` again, and build this expression:"
-msgstr ""
-"Buka  :guilabel:`Raster Calculator` lagi, dan buat ekspresi berikut: "
+msgstr "Buka  :guilabel:`Raster Calculator` lagi, dan buat ekspresi berikut: "
 
 # ffe594d106dc448dba1df0249b02150d
 #: ../../rasters/terrain_analysis.rst:268

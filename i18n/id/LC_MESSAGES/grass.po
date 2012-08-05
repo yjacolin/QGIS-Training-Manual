@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -43,7 +42,7 @@ msgstr ""
 # 4c31d595bdea4975a8121a5eb1d354f6
 #: ../../grass/grass_setup.rst:11
 msgid "|basic| |FA| Start a New GRASS Project"
-msgstr "|basic|Ikuti bersama: Mulai Proyek GRASS Baru"
+msgstr "|basic| Ikuti bersama: Mulai Proyek GRASS Baru"
 
 # bc161f36fe4f412c8098d193f688b002
 #: ../../grass/grass_setup.rst:13
@@ -52,7 +51,7 @@ msgid ""
 "plugin."
 msgstr ""
 "Untuk menjalankan GRASS dari dalam QGIS, Anda perlu mengaktifkannya seperti "
-"dengan *plugin* yang lain. "
+"dengan *plugin* yang lain."
 
 # 3b6e2ea3989b41fa9fa02467c5dfa430
 #: ../../grass/grass_setup.rst:16
@@ -161,7 +160,7 @@ msgstr "kemudian klik :guilabel:`OK` pada dialog sukses."
 # 6ef7431a0eb34081aab84753f4bd325d
 #: ../../grass/grass_setup.rst:73
 msgid "|basic| |FA| Loading Vector Data into GRASS"
-msgstr "|basic|Ikuti bersama : Memuat Data Vektor ke dalam GRASS"
+msgstr "|basic| Ikuti bersama : Memuat Data Vektor ke dalam GRASS"
 
 # 67805f2bb8f34062999cdadc944deebe
 #: ../../grass/grass_setup.rst:75
@@ -205,11 +204,11 @@ msgid ""
 "read vector data, and :kbd:`qgis` means that the tool will look for a vector "
 "from among the vectors already loaded into QGIS."
 msgstr ""
-" :kbd:`v` merupakan singkatan dari “vector”, :kbd:`in` merupakan fungsi "
-"untuk mengimpor data ke dalam basis data GRASS,  :kbd:`ogr` merupakan "
-"*library* perangkat lunak yang digunakan untuk membaca data vektor, dan  "
-":kbd:`qgis` merupakan *tool* untuk melihat data vektor diantara data vektor "
-"yang telah disimpan dalam QGIS."
+":kbd:`v` merupakan singkatan dari “vector”, :kbd:`in` merupakan fungsi untuk "
+"mengimpor data ke dalam basis data GRASS,  :kbd:`ogr` merupakan *library* "
+"perangkat lunak yang digunakan untuk membaca data vektor, dan  :kbd:`qgis` "
+"merupakan *tool* untuk melihat data vektor diantara data vektor yang telah "
+"disimpan dalam QGIS."
 
 # 26b40e5e878741d6b035ba8f1b53c154
 #: ../../grass/grass_setup.rst:93
@@ -269,7 +268,7 @@ msgstr ""
 # bda272337b5242739e90778d52feffcf
 #: ../../grass/grass_setup.rst:120
 msgid "|basic| |FA| Loading Raster Data into GRASS"
-msgstr "|basic|Ikuti bersama: Memuat Data Raster ke dalam GRASS "
+msgstr "|basic| Ikuti bersama: Memuat Data Raster ke dalam GRASS "
 
 # 469a99d8564540e3b5150f9f85234b30
 #: ../../grass/grass_setup.rst:122
@@ -289,7 +288,7 @@ msgid ""
 ":kbd:`exercise_data/raster/SRTM/`) into the QGIS map as usual, using QGIS' "
 ":guilabel:`Add Raster Layer` tool."
 msgstr ""
-"Muat *dataset*  :kbd:`srtm_41_19.tif`  (data disimpan dalam folder "
+"Muat *dataset* :kbd:`srtm_41_19.tif` (data disimpan dalam folder "
 ":kbd:`exercise_data/raster/SRTM/`) ke dalam peta QGIS seperti biasa, "
 "menggunakan *tool* :guilabel:`Add Raster Layer`. "
 
@@ -366,7 +365,7 @@ msgid ""
 ":guilabel:`Close` the current tab, and then :guilabel:`Close` the whole "
 "dialog."
 msgstr ""
-"Selanjutnya :guilabel:`Close`tab saat ini  dan  :guilabel:`Close`kotak "
+"Selanjutnya :guilabel:`Close` tab saat ini  dan  :guilabel:`Close` kotak "
 "dialog keseluruhan ."
 
 # 013748c35cd849e3a75714a813a63a82
@@ -378,7 +377,7 @@ msgstr "Sekarang Anda dapat menghapus *layer* awal   :guilabel:`DEM_WGS84`."
 # f8cdf60f07c64b15be6549a872b47895
 #: ../../grass/grass_setup.rst:166 ../../grass/grass_tools.rst:119
 msgid "|IC|"
-msgstr "|Kesimpulan|"
+msgstr "Kesimpulan"
 
 # fe1a39ca930c4490b8efb99a328758e4
 #: ../../grass/grass_setup.rst:168
@@ -411,7 +410,7 @@ msgstr ""
 # da9c473b8eb240a4bc08bc4f6e88607f
 #: ../../grass/grass_tools.rst:2
 msgid "|LS| GRASS Tools"
-msgstr "|pelajaran| *Tool- Tool* GRASS"
+msgstr "Pelajaran:  *Tool- Tool* GRASS"
 
 # 3bd980e9be5340438f18dbfb86dc72e7
 #: ../../grass/grass_tools.rst:4
@@ -425,7 +424,7 @@ msgstr ""
 # 3510880fb39142038f1b1aeb5db36853
 #: ../../grass/grass_tools.rst:8
 msgid "|basic| |FA| Set Raster Colors"
-msgstr "|basic|Ikuti bersama: Mengatur Warna Raster"
+msgstr "|basic| Ikuti bersama: Mengatur Warna Raster"
 
 # e7a09abd46b0498a91efd54b4a31549c
 #: ../../grass/grass_tools.rst:10
@@ -456,7 +455,7 @@ msgstr ""
 # 42acf48859184b6eb8f1870f1a05213a
 #: ../../grass/grass_tools.rst:24
 msgid "|basic| |FA| Visualize Data in 3D"
-msgstr "|basic|Ikuti bersama : Visualisasi Data dalam 3D"
+msgstr "|basic| Ikuti bersama : Visualisasi Data dalam 3D"
 
 # a99f77f7a59b4c40a30288e1bbe919d0
 #: ../../grass/grass_tools.rst:26
@@ -556,7 +555,7 @@ msgstr ""
 # b10194d2f319429aac1831642a29e08d
 #: ../../grass/grass_tools.rst:69
 msgid "|moderate| |FA| The Mapcalc Tool"
-msgstr "|moderate|Ikuti bersama:Perangkat Mapcalc"
+msgstr "|moderate| Ikuti bersama:Perangkat Mapcalc"
 
 # fe9701834a4c4da29f22cd96cc277e85
 #: ../../grass/grass_tools.rst:71
@@ -645,7 +644,7 @@ msgid ""
 ":kbd:`Delete selected item`: Removes the selected item from the current "
 "mapcalc sheet, but not from the mapset (if it is an existing raster)."
 msgstr ""
-":kbd:`Delete selected item`:Menghapus item yang dipilih dari lembar mapcalc "
+":kbd:`Delete selected item`: Menghapus item yang dipilih dari lembar mapcalc "
 "saat ini, tetapi bukan dari mapset (jika itu adalah raster yang ada)."
 
 # 09470f4d285c45eebdb533c003003345
