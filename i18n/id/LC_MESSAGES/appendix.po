@@ -20,7 +20,7 @@ msgstr ""
 # 72cd26ad8f0445ca980e81451ca468fd
 #: ../../appendix/contribute.rst:3
 msgid "Appendix: Contributing To This Manual"
-msgstr "|Lampiran| Berkontribusi Untuk Manual ini"
+msgstr "Lampiran: Berkontribusi Untuk Manual ini"
 
 # 84c54dddd8014b9080371e81a5a8cf2f
 #: ../../appendix/contribute.rst:5
@@ -103,7 +103,7 @@ msgid ""
 "Open the :kbd:`index.rst` file under the top-level directory. Its first "
 "lines are::"
 msgstr ""
-"Buka file index:kbd:`index.rst` di bawah direktori top-level. Baris pertama "
+"Buka file index :kbd:`index.rst` di bawah direktori top-level. Baris pertama "
 "adalah:"
 
 # 81f3754c549d43a4a76dae10dae06842
@@ -220,7 +220,7 @@ msgstr "Buka direktori modul."
 msgid ""
 "Open the :kbd:`index.rst` file (created above in the case of new modules)."
 msgstr ""
-"Buka file index:kbd:`index.rst` (dibuat dengan cara seperti di atas dalam "
+"Buka file index :kbd:`index.rst` (dibuat dengan cara seperti di atas dalam "
 "kasus pembuatan modul baru)."
 
 # 964101440adb4d2c8fb25e62157d6ecc
@@ -244,7 +244,7 @@ msgid ""
 ":kbd:`index.rst` file, and add the extension :kbd:`.rst`."
 msgstr ""
 "Beri nama file ini persis sama dengan nama yang Anda diberikan dalam file "
-"modul index:kbd:`index.rst`, dan tambahkan extension :kbd:`.rst`. sesudah "
+"modul index :kbd:`index.rst`, dan tambahkan extension :kbd:`.rst`. sesudah "
 "nama file tersebut."
 
 # f6fadf9b9c6940318e5150ab66e0b481
@@ -366,8 +366,8 @@ msgid ""
 ":kbd:`|basic|`, moderate by :kbd:`|moderate|`, and advanced by :kbd:`|hard|`."
 msgstr ""
 "Setiap bagian dilengkapi dengan tingkat kesulitan tertentu. Sebuah bagian "
-"dengan tanda :kbd:`|basic|` untuk dasar ,:kbd:`|moderate|` untuk sedang, dan "
-"by :kbd:`|hard|` untuk sulit."
+"dengan tanda :kbd:`|basic|` untuk dasar , :kbd:`|moderate|` untuk sedang, "
+"dan by :kbd:`|hard|` untuk sulit."
 
 # 850452fb1bcc45f3973040491549ce61
 #: ../../appendix/contribute.rst:143
@@ -548,7 +548,7 @@ msgstr ""
 # 2783d2add5954ae6adbe956386e7dfa8
 #: ../../appendix/contribute.rst:213
 msgid "Add a Conclusion"
-msgstr "Tambahkan sebuah Kesimpulan "
+msgstr "Tambahkan Sebuah Kesimpulan "
 
 # e540914bd3874a2885ea309f431771cb
 #: ../../appendix/contribute.rst:215
@@ -565,7 +565,7 @@ msgstr ""
 # b1707c518140468db37ef3f93db10b7c
 #: ../../appendix/contribute.rst:220
 msgid "Add a Further Reading Section"
-msgstr "Tambahkan *Section* Bacaan lebih lanjut"
+msgstr "Tambahkan *Section* Bacaan Lebih Lanjut"
 
 # 694ad457bdba4bbcb4fbcff3b75c4ade
 #: ../../appendix/contribute.rst:222
@@ -701,7 +701,7 @@ msgstr ""
 # 847ac1d94e79441eb590fd9983a21227
 #: ../../appendix/contribute.rst:280
 msgid "Internal links"
-msgstr "*Link Internal *"
+msgstr "*Link Internal*"
 
 # af2107bed52c4ed8aaa1293826e1ef86
 #: ../../appendix/contribute.rst:282
@@ -727,7 +727,7 @@ msgstr ""
 # 42e5ceac5c604e5b8571e18f7f0ba079
 #: ../../appendix/contribute.rst:294
 msgid "External links"
-msgstr "*Link ekxternal*"
+msgstr "*Link Eksternal*"
 
 # 26493001a73f4ee98559894682204be2
 #: ../../appendix/contribute.rst:296
