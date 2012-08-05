@@ -49,7 +49,7 @@ msgstr ":ref:`Kembali ke teks <backlink-interface-preparation-1>`"
 # b12c90213e3144b2975bd59b3eb2d4f4
 #: ../../answers/answers.rst:19
 msgid "|RF| *An Overview of the Interface*"
-msgstr "Hasil untuk *Gambaran Umum Antarmuka*"
+msgstr "Hasil Untuk *Gambaran Umum Antarmuka*"
 
 # ae906cdea10f4bfca8657a0bf899f2ae
 #: ../../answers/answers.rst:24
@@ -68,7 +68,7 @@ msgstr ""
 # 881568a4003944a884878522685e91f8
 #: ../../answers/answers.rst:29
 msgid ":ref:`Back to text <backlink-interface-overview-1>`"
-msgstr ":ref:`Back to text <backlink-interface-overview-1>`"
+msgstr ":ref:`Kembali ke teks <backlink-interface-overview-1>`"
 
 # c32132ccb5d64556ab03e5d34cf2b895
 #: ../../answers/answers.rst:35
@@ -108,7 +108,7 @@ msgstr ":ref:`Kembali ke teks <backlink-interface-overview-2>`"
 # b3da1cf8fbf1403aaef11d0fe6b6a887
 #: ../../answers/answers.rst:47
 msgid "|RF| *Working with Vector Data*"
-msgstr "Hasil untuk *Pekerjaan dengan Data Vektor*"
+msgstr "Hasil Untuk *Pekerjaan dengan Data Vektor*"
 
 # 9cc9900f2acd4dee88ca36d626403901
 #: ../../answers/answers.rst:52
@@ -162,7 +162,7 @@ msgstr ":ref:`Kembali ke teks <backlink-vector-load-from-database-1>`"
 # e7aac5f41f5747ec8464f8fd67f45bc8
 #: ../../answers/answers.rst:79
 msgid "|RF| *Symbology*"
-msgstr "Hasil untuk *Simbologi*"
+msgstr "Hasil Untuk *Simbologi*"
 
 # 4260873c72a648a19c5398f1235792f3
 #: ../../answers/answers.rst:84
@@ -205,7 +205,7 @@ msgstr ":ref:`Kembali ke teks <backlink-symbology-colors-1>`"
 # ab7f2417ffcd42d8a598d6f2451e2991
 #: ../../answers/answers.rst:104
 msgid "|basic| *Symbol Structure*"
-msgstr "|basic| *Struktur Simbol *"
+msgstr "|basic| *Struktur Simbol*"
 
 # 863fe9868c80451eb1f94a98b2882af8
 #: ../../answers/answers.rst:106
@@ -354,7 +354,7 @@ msgstr ":ref:`Kembali ke teks <backlink-symbology-levels-2>`"
 # 10b101a865174392a4289f2fc667963b
 #: ../../answers/answers.rst:189
 msgid "|RF| *Attribute Data*"
-msgstr "Hasil untuk *Data Atribut*"
+msgstr "Hasil Untuk *Data Atribut*"
 
 # 06c7a41b3272438cb710b067872f9a78
 #: ../../answers/answers.rst:194
@@ -380,7 +380,7 @@ msgstr ":ref:`Kembali ke teks. <backlink-labels-attribute-data-1>`"
 # de90755a05264cf287e8d347b494c98a
 #: ../../answers/answers.rst:204
 msgid "|RF| *The Label Tool*"
-msgstr "Hasil untuk *Piranti Label*"
+msgstr "Hasil Untuk *Piranti Label*"
 
 # e098f35ce7f740f5b7974cde7f854c19
 #: ../../answers/answers.rst:209
@@ -404,7 +404,7 @@ msgstr ":ref:`Kembali ke teks <backlink-label-tool-1>`"
 # 81e2d312dc4f4b87bc79ffd60c917ac9
 #: ../../answers/answers.rst:222
 msgid "|moderate| *Label Customization* (Part 2)"
-msgstr "|moderate| *Pengaturan Labe*l (Bagian 2)"
+msgstr "|moderate| *Pengaturan Label* (Bagian 2)"
 
 # e5edc47cc30b4adfb1005056dfa566d9
 #: ../../answers/answers.rst:224
@@ -482,7 +482,7 @@ msgstr ":ref:`Kembali ke teks <backlink-label-data-defined-1>`"
 # 3f08b6a2c1a24bf9a38bf4a87abe4d8d
 #: ../../answers/answers.rst:268
 msgid "|RF| *Classification*"
-msgstr "Hasil untuk *Klasifikasi*"
+msgstr "Hasil Untuk *Klasifikasi*"
 
 # f64628175424410099875e024f17f436
 #: ../../answers/answers.rst:273
@@ -519,7 +519,7 @@ msgstr ":ref:`Kembali ke teks <backlink-classification-refine-1>`"
 # e0fee1397eb44770a4d5df9ab61851bd
 #: ../../answers/answers.rst:292
 msgid "|RF| *Creating a New Vector Dataset*"
-msgstr "Hasil untuk *Pembuatan Vektor Dataset Baru*"
+msgstr "Hasil Untuk *Pembuatan Vektor Dataset Baru*"
 
 # 8e40f0375cd249d98d16a40df64f6601
 #: ../../answers/answers.rst:297
@@ -715,7 +715,7 @@ msgstr ":ref:`Kembali ke teks <backlink-create-vector-forms-1>`"
 # 5ffd629d754d4d91914bc2e9dc5e148b
 #: ../../answers/answers.rst:420
 msgid "|RF| *Vector Analysis*"
-msgstr "Hasil dari *Analisis Vektor*"
+msgstr "Hasil Untuk *Analisis Vektor*"
 
 # bb5ba3695eee45d5a6b631f2868191a3
 #: ../../answers/answers.rst:425
