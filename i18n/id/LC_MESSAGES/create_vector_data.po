@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -43,7 +42,7 @@ msgstr ""
 #: ../../create_vector_data/actions.rst:10
 msgid "**The goal for this lesson:** To learn how to add custom actions."
 msgstr ""
-"**Tujuan untuk pelajaran ini :** untuk mempelajari cara menambahkan action "
+"**Tujuan untuk pelajaran ini :** Untuk mempelajari cara menambahkan action "
 "terkustomisasi."
 
 # 98d11865f7f440a182646f13ed5a4d7f
@@ -152,7 +151,7 @@ msgstr "Pilih :guilabel:`File name`:"
 #: ../../create_vector_data/actions.rst:237
 #: ../../create_vector_data/forms.rst:195
 msgid "Click :guilabel:`OK` on the :guilabel:`Layer Properties` dialog."
-msgstr "Klik  :guilabel:`OK` pada kotak dialog :guilabel:`Layer Properties`."
+msgstr "Klik :guilabel:`OK` pada kotak dialog :guilabel:`Layer Properties`."
 
 # 63054d879edf4091950531fd7c6c236d
 #: ../../create_vector_data/actions.rst:61
@@ -240,7 +239,7 @@ msgid ""
 "What to do next varies according to your operating system, so choose the "
 "appropriate course to follow:"
 msgstr ""
-"Apa yang dilakukan selanjutnya mengikuti  sistem operasi Anda,  jadi pilih "
+"Apa yang dilakukan selanjutnya mengikuti  sistem operasi Anda, jadi pilih "
 "bagian yang sesuai:"
 
 # d8517e670ba74238a26b3cc3e7614669
@@ -299,7 +298,7 @@ msgstr ""
 #: ../../create_vector_data/actions.rst:115
 #: ../../create_vector_data/actions.rst:192
 msgid "Continue writing the command"
-msgstr "Lanjutkan Menulis Perintah"
+msgstr "Lanjutkan menulis perintah"
 
 # beade3a3b3e7474ab82b282d19b45e9b
 #: ../../create_vector_data/actions.rst:117
@@ -336,7 +335,7 @@ msgstr "Klik pada tombol  :guilabel:`Add to action list`."
 #: ../../create_vector_data/actions.rst:131
 #: ../../create_vector_data/actions.rst:239
 msgid "Now to test the new action!"
-msgstr "Sekarang lakukanp engujian tes untuk action yang baru!"
+msgstr "Sekarang lakukan pengujian tes untuk action yang baru!"
 
 # d8ec8e00b4a34c389d60481da9804b9e
 #: ../../create_vector_data/actions.rst:133
@@ -363,7 +362,7 @@ msgid ""
 "Click on the down arrow to the right of this button. There's only one action "
 "defined for this layer so far, which is the one you just created."
 msgstr ""
-"Klik panah kebawah di sebelah kanan tombol ini. Hanya terdapat satu action "
+"Klik panah ke bawah di sebelah kanan tombol ini. Hanya terdapat satu action "
 "untuk tombol ini."
 
 # feb802247e5341e3afe6cd4c21b1088c
@@ -447,8 +446,8 @@ msgid ""
 "Under :guilabel:`Type`, choose :guilabel:`Open`. This will tell Windows to "
 "open an Internet address in your default browser, such as Internet Explorer."
 msgstr ""
-"Dibawah  :guilabel:`Type`, pilih :guilabel:`Open`. Ini akan menyuruh jendela "
-"untuk membuat alamat internet pada browser Anda."
+"Di bawah  :guilabel:`Type`, pilih :guilabel:`Open`. Ini akan menyuruh "
+"jendela untuk membuat alamat internet pada browser Anda."
 
 # 8ea6811603134ecaa6f0fddcb8401b29
 #: ../../create_vector_data/actions.rst:182
@@ -456,7 +455,7 @@ msgid ""
 "Under :guilabel:`Action`, write :kbd:`xdg-open`. This will tell Ubuntu to "
 "open an Internet address in your default browser, such as Chrome or Firefox."
 msgstr ""
-"Dibawah :guilabel:`Action`, tuliskan :kbd:`xdg-open`. Ini akan menyuruh "
+"Di bawah :guilabel:`Action`, tuliskan :kbd:`xdg-open`. Ini akan menyuruh "
 "Ubuntu membuka alamat email internet pada browser."
 
 # 9a0a6f6967d54f57bb8ec6ca517ab46a
@@ -775,7 +774,7 @@ msgid ""
 "that the user has a particular image viewer on their system."
 msgstr ""
 "Anda juga bisa menggunakan pendekatan untuk menampilkan foto tanpa "
-"mengharuskan pengguna memiliki penampil gambar  pada sistem mereka."
+"mengharuskan pengguna memiliki penampil gambar pada sistem mereka."
 
 # 15dd434c411e4a778a1f9631a61444e0
 # 0bd246d68e1e4d999c8a125da20ba72e
@@ -786,7 +785,7 @@ msgstr ""
 #: ../../create_vector_data/forms.rst:207
 #: ../../create_vector_data/topo_editing.rst:319
 msgid "|IC|"
-msgstr "Kesimpulannya"
+msgstr "Kesimpulan"
 
 # 668e717bd0484b55b832a390b42619c8
 #: ../../create_vector_data/actions.rst:307
@@ -905,11 +904,13 @@ msgstr ""
 
 # cc78725706c44bb384c378aa083bfce9
 #: ../../create_vector_data/create_new_vector.rst:33
-#, fuzzy
 msgid ""
 "For the next exercise, we're going to be creating new features which "
 "describe areas. For such features, you'll need to create a polygon dataset."
 msgstr ""
+"Untuk latihan selanjutnya, kita akan membuat feature baru yang "
+"mendeskripsikan luasan. Untuk feature semacam ini, anda harus membuat sebuah "
+"dataset berupa polygon."
 
 # 673c4b06cd684a0fac9d83e1d23a54c7
 #: ../../create_vector_data/create_new_vector.rst:36
@@ -983,7 +984,7 @@ msgstr "Arahkan ke direktori  :kbd:`exercise_data`."
 # 7278af548f4c49feb805e50131c0a6ad
 #: ../../create_vector_data/create_new_vector.rst:72
 msgid "Save your new layer as :kbd:`school_property.shp`."
-msgstr "Simpan layer baru anda sebagai:kbd:`school_property.shp`.."
+msgstr "Simpan layer baru anda sebagai:kbd:`school_property.shp`."
 
 # 1a9e3a1926bf49239d0d18e31fe0a0df
 #: ../../create_vector_data/create_new_vector.rst:74
@@ -1092,7 +1093,7 @@ msgid ""
 "deleting important data. Edit mode is switched on or off individually for "
 "each layer."
 msgstr ""
-"Untuk memulai digitasi, Anda harus masuk **edit mode**.. Perangkat lunak GIS "
+"Untuk memulai digitasi, Anda harus masuk **edit mode**. Perangkat lunak GIS "
 "umumnya mengatur ini untuk mencegah dari ketidaksengajaan Anda mengedit atau "
 "menghapus data penting. Mode edit diaktifkan atau dimatikan secara "
 "individual untuk setiap layer."
@@ -1110,17 +1111,16 @@ msgid ""
 "sure that the correct layer is selected, otherwise you'll edit the wrong "
 "layer!)"
 msgstr ""
-"Klik pada layer didalam  Layer list  untuk memilihnya. (Pastikan bahwa layer "
+"Klik pada layer didalam  Layer list untuk memilihnya. (Pastikan bahwa layer "
 "yang benar telah dipilih, supaya tidak mengedit layer yang salah!)"
 
 # 7aaa5261de1340ffa503dc4b7b446035
 #: ../../create_vector_data/create_new_vector.rst:126
 msgid "Click on the :guilabel:`Toggle Editing` button:"
-msgstr "Klik pada tombol  :guilabel:`Toggle Editing`."
+msgstr "Klik pada tombol :guilabel:`Toggle Editing`."
 
 # a6d5dad292914961987c4905c4249de9
 #: ../../create_vector_data/create_new_vector.rst:131
-#, fuzzy
 msgid ""
 "If you can't find this button, check that the :guilabel:`Digitizing` toolbar "
 "is enabled. There should be a check mark next to the :menuselection:`View "
@@ -1128,103 +1128,99 @@ msgid ""
 "mark next to the :menuselection:`View --> Toolbars --> Digitizing` menu "
 "entry."
 msgstr ""
-"Jika Anda tidak dapat menemukan tombol ini, periksa toolbar Digitizing sudah "
-"aktif. Harus ada tanda centang di sebelah menu entryView ‣ Toolbars ‣ "
-"Digitizing ."
+"Jika Anda tidak dapat menemukan tombol ini, periksa toolbar "
+":guilabel:`Digitizing` sudah aktif. Harus ada tanda centang di sebelah menu "
+"entry :menuselection:`View --> Toolbars --> Digitizing`."
 
 # 0f14bfd3bdfd42b39498771730e8e0cd
 #: ../../create_vector_data/create_new_vector.rst:135
-#, fuzzy
 msgid ""
 "As soon as you are in edit mode, you'll see the digitizing tools are now "
 "active:"
-msgstr ""
+msgstr "Saat Anda berada pada mode edit tool digitasi sekarang sudah aktif:"
 
 # c71a9d28afc94091ae00af8701ad9385
 #: ../../create_vector_data/create_new_vector.rst:141
-#, fuzzy
 msgid "From left to right on the image above, they are:"
 msgstr "Penjelasan gambar dari kiri ke kanan adalah :"
 
 # 68cf90d10e02413a987a23321c041e0c
 #: ../../create_vector_data/create_new_vector.rst:143
-#, fuzzy
 msgid ":guilabel:`Toggle Edit`: activates / deactivates edit mode."
-msgstr ""
+msgstr ":guilabel:`Toggle Edit`: mengaktifkan/menonaktifkan mode edit."
 
 # 6ed65c8ddd404082befa7323b52d28e8
 #: ../../create_vector_data/create_new_vector.rst:144
-#, fuzzy
 msgid ":guilabel:`Save Edits`: saves changes made to the layer."
-msgstr ""
+msgstr ":guilabel:`Save Edits`: menyimpan perubahan yang dibuat pada layer."
 
 # ed1377c468104cf9a58e075a85980aff
 #: ../../create_vector_data/create_new_vector.rst:145
-#, fuzzy
 msgid ":guilabel:`Add Feature`: start digitizing a new feature."
-msgstr ""
+msgstr ":guilabel:`Add Feature`: memulai digitasi sebuah fitur baru."
 
 # 37cf036bcc734e7e8e3c51f0b7aa0e3c
 #: ../../create_vector_data/create_new_vector.rst:146
-#, fuzzy
 msgid ":guilabel:`Move Feature(s)`: move an entire feature around."
-msgstr ""
+msgstr ":guilabel:`Move Feature(s)`: memindahkan seluruh fitur ke sekitarnya."
 
 # ea0ecbfdddc44ce8bf373eb376d5d602
 #: ../../create_vector_data/create_new_vector.rst:147
-#, fuzzy
 msgid ":guilabel:`Node Tool`: move only one part of a feature."
 msgstr ""
+":guilabel:`Node Tool`: memindahkan hanya satu bagian dari sebuah fitur."
 
 # 67e6dd3aa7f4457e960b7208b9683e47
 #: ../../create_vector_data/create_new_vector.rst:148
-#, fuzzy
 msgid ""
 ":guilabel:`Delete Selected`: delete the selected feature (only active if a "
 "feature is selected)."
 msgstr ""
+":guilabel:`Delete Selected`: menghapus fitur yang di pilih (hanya fitur "
+"aktif yang dipilih)."
 
 # 698b1b8513154f71b499e29cd1994f9b
 #: ../../create_vector_data/create_new_vector.rst:150
-#, fuzzy
 msgid ""
 ":guilabel:`Cut Features`: cut the selected feature (only active if a feature "
 "is selected)."
 msgstr ""
+":guilabel:`Cut Features`: memotong fitur yang dipilih (hanya fitur aktif "
+"yang terpilih)."
 
 # 09e5570c71a44b8b9be2c830ba42d0d1
 #: ../../create_vector_data/create_new_vector.rst:152
-#, fuzzy
 msgid ""
 ":guilabel:`Copy Features`: copy the selected feature (only active if a "
 "feature is selected)."
 msgstr ""
+":guilabel:`Copy Features`: menggandakan fitur yang terpilih (hanya fitur "
+"aktif yang terpilih)."
 
 # b843dbdb8d1c4ed5a6848e131c927a6c
 #: ../../create_vector_data/create_new_vector.rst:154
-#, fuzzy
 msgid ""
 ":guilabel:`Paste Features`: paste a cut or copied feature back into the map "
 "(only active if a feature has been cut or copied)."
 msgstr ""
+":guilabel:`Paste Features`: tempel dari hasil potongan atau hasil "
+"penggandaan dari fitur peta (hanya aktif jika fitur sudah dipotong atau "
+"digandakan)."
 
 # 8ca6977dc323409fa97199c2d49a0403
 #: ../../create_vector_data/create_new_vector.rst:157
-#, fuzzy
 msgid "You want to add a new feature."
-msgstr ""
+msgstr "Anda ingin mengisi fitur baru."
 
 # 1fbe03c9e9b74faf90d1ddcc32b68cea
 #: ../../create_vector_data/create_new_vector.rst:159
-#, fuzzy
 msgid ""
 "Click on the :guilabel:`Add Feature` button now to begin digitizing right "
 "away!"
-msgstr ""
+msgstr "Klik tombol :guilabel:`Add Feature` untuk memulai mendigitasi jalan"
 
 # 39bdba75cf414fe2b3663ec17ada426a
 #: ../../create_vector_data/create_new_vector.rst:162
-#, fuzzy
 msgid ""
 "You'll notice that your mouse cursor has become a crosshair. This allows you "
 "to more accurately place the points you'll be digitizing. Remember that even "
@@ -1232,182 +1228,189 @@ msgid ""
 "rolling the mouse wheel, and you can pan around by holding down the mouse "
 "wheel and dragging around in the map."
 msgstr ""
+"Anda akan melihat bahwa kursor mouse Anda telah menjadi benang silang. Hal "
+"ini memungkinkan Anda untuk lebih akurat menmpatkan poin yang akan "
+"didigitasi. Ingat bahwa ketika Anda menggunakan alat digitasi, Anda dapat "
+"memperbesar dan memperkecil peta Anda dengan menggulung roda mouse, dan Anda "
+"dapat menjelajah dengan menekan roda mouse dan menyeret di sekitar peta."
 
 # 3524bf95c38d4070a415467ba5c090c1
 #: ../../create_vector_data/create_new_vector.rst:168
-#, fuzzy
 msgid "The first feature you'll be digitizing is the athletics field:"
-msgstr ""
+msgstr "Fitur pertama yang akan didigitasi adalah lapangan olahraga:"
 
 # b3fbfa4e61fc4deb96feb339766455c1
 #: ../../create_vector_data/create_new_vector.rst:173
-#, fuzzy
 msgid ""
 "Start digitizing by clicking on a point somewhere along the edge of the "
 "field."
 msgstr ""
+"Mulailah  mendigitasi dengan mengklik poin dimanapun sekitar tepi lapangan."
 
 # 0919b43d18c54fa6a78d3f625fd544c1
 #: ../../create_vector_data/create_new_vector.rst:175
-#, fuzzy
 msgid ""
 "Place more points by clicking further along the edge, until the shape you're "
 "drawing completely covers the field."
 msgstr ""
+"Tempatkan poin berikutnya dengan mengklik di sepanjang tepi, sampai bentuk "
+"bidang yang tergambar benar – benar seperti lapangannya."
 
 # ad3ee96509b54ef5912e59e74c26356a
 #: ../../create_vector_data/create_new_vector.rst:177
-#, fuzzy
 msgid ""
 "To place your last point, *right-click* where you want it to be. This will "
 "finalize the feature and show you the :guilabel:`Attributes` dialog."
 msgstr ""
+"Untuk menempatkan poin terakhir, *klik kanan* dimanapun Anda inginkan. Ini "
+"mengakhiri kelengkapan fitur dan menunjukkan dialog :guilabel:`Attributes` ."
 
 # 32843f65ec09458bbeb859f7254b2f78
 #: ../../create_vector_data/create_new_vector.rst:179
-#, fuzzy
 msgid "Fill in the values as below:"
-msgstr ""
+msgstr "Isikan nilai – nilai  berikut :"
 
 # ea48e3cc2fb4455f9c620f91e60b9fc9
 #: ../../create_vector_data/create_new_vector.rst:184
-#, fuzzy
 msgid "Click :guilabel:`OK` and you've created a new feature!"
-msgstr ""
+msgstr "Klik :guilabel:`OK` dan Anda dapat membuat fitur baru!"
 
 # 11b350c5538447d3b92f7c5e054401af
 #: ../../create_vector_data/create_new_vector.rst:186
-#, fuzzy
 msgid ""
 "Remember, if you've made a mistake while digitizing a feature, you can "
 "always edit it after you're done creating it. If you've made a mistake, "
 "continue digitizing until you're done creating the feature as above. Then:"
 msgstr ""
+"Jika Anda membuat kesalahan ketika mendigitasi, Anda selalu dapat "
+"mengeditnya selesai pembuatan. Jika Anda  membuat kesalahan, terus digitasi "
+"sampai Anda selesai membuat fitur seperti di atas, kemudian :"
 
 # 075cd5db41884db4b7bbf43a42983590
 #: ../../create_vector_data/create_new_vector.rst:190
-#, fuzzy
 msgid "Select the feature with the :guilabel:`Select Single Feature` tool:"
-msgstr ""
+msgstr "Pilih fitur dengan  tool  :guilabel:`Select Single Feature`:"
 
 # 491fb8af45f8407ba17251c52eb7d384
 #: ../../create_vector_data/create_new_vector.rst:195
-#, fuzzy
 msgid "You can use:"
-msgstr ""
+msgstr "Anda dapat gunakan:"
 
 # 2253ad7e9bb04384b291f10a91c688d3
 #: ../../create_vector_data/create_new_vector.rst:197
-#, fuzzy
 msgid "the :guilabel:`Move Feature(s)` tool to move the entire feature,"
-msgstr ""
+msgstr "Tool  :guilabel:`Move Feature(s)` untuk memindahkan seluruh fitur,"
 
 # d81f90f6cbcd4a98b92f7216084b1dc3
 #: ../../create_vector_data/create_new_vector.rst:198
-#, fuzzy
 msgid ""
 "the :guilabel:`Node Tool` to move only one point where you may have "
 "misclicked,"
 msgstr ""
+":guilabel:`Node Tool` untuk memindahkan hanya satu poin saat Anda salah "
+"mengkliknya."
 
 # cd1fd69c612c4b5a80530038a741d823
 #: ../../create_vector_data/create_new_vector.rst:200
-#, fuzzy
 msgid ""
 ":guilabel:`Delete Selected` to get rid of the feature entirely so you can "
 "try again, and"
 msgstr ""
+":guilabel:`Delete Selected` untuk menghapus fitur keseluruhan sehingga Anda "
+"dapat mencoba lagi, dan"
 
 # 10217c4fa8964daba232856528b417b1
 #: ../../create_vector_data/create_new_vector.rst:202
-#, fuzzy
 msgid ""
 "the :menuselection:`Edit --> Undo` menu item or the :kbd:`ctrl + z` keyboard "
 "shortcut to undo mistakes."
 msgstr ""
+"Menu :menuselection:`Edit --> Undo` atau :kbd:`ctrl + z`  untuk membatalkan "
+"langkah terakhir Anda."
 
 # af67320a3f674171acc4805783f28afc
 # e1de07c86b484b8aa30e0a1d98f87be4
 #: ../../create_vector_data/create_new_vector.rst:206
 #: ../../create_vector_data/create_new_vector.rst:221
-#, fuzzy
 msgid "|basic| |TY|"
-msgstr ""
+msgstr "|basic| Coba Sendiri..."
 
 # ed5e2580932a4f4993ba09d4de2893bf
 #: ../../create_vector_data/create_new_vector.rst:208
-#, fuzzy
 msgid ""
 "Digitize the school itself and the upper field. Use this image to assist you:"
 msgstr ""
+"Digitasi sekolah itu dan apangan diatasnya. Gunakan gambar ini untuk "
+"membantu Anda:"
 
 # 1dfc52d6a3e14ecc8f7095da08064a2f
 #: ../../create_vector_data/create_new_vector.rst:213
-#, fuzzy
 msgid "Remember that each new feature needs to have a unique :kbd:`id` value!"
-msgstr ""
+msgstr "Ingat bahwa setiap fitur baru perlu memiliki nilai :kbd:`id` unik!"
 
 # 79f5f3ef06e440628fa1f70b838a86b3
 #: ../../create_vector_data/create_new_vector.rst:215
-#, fuzzy
 msgid ""
 "When you're done adding features to a layer, remember to save your edits and "
 "then exit edit mode."
 msgstr ""
+"Ketika Anda sudah menyelesaikan pengisian fitur ke layer: jangan lupa untuk "
+"menyimpan hasil editan Anda dan kemudian keluar dari mode edit."
 
 # 7045d8dd7c1641a2adc304cd3db0e5f1
 #: ../../create_vector_data/create_new_vector.rst:223
-#, fuzzy
 msgid ""
 "Create a new line feature called :kbd:`river.shp` with attributes :kbd:`id` "
 "and :kbd:`type`. (Use the approach above to guide you.)"
 msgstr ""
+"Buat garis fitur baru yang disebut :kbd:`river.shp` dengan atribut :kbd:`id` "
+" dan :kbd:`type`. (Gunakan pendekatan di atas untuk membimbing Anda)"
 
 # 2d1be862b6784db48971511f1d3c4f9b
 #: ../../create_vector_data/create_new_vector.rst:225
-#, fuzzy
 msgid "Digitize the river that runs through town."
-msgstr ""
+msgstr "Digitasi sungai yang mengalir sepanjang kota"
 
 # 4c6f951bf22e4113b93979fa71db4ceb
 #: ../../create_vector_data/create_new_vector.rst:227
-#, fuzzy
 msgid "Start where the sandy riverbanks first become visible:"
-msgstr ""
+msgstr "Mulai dari tepi sungai berpasir yang pertama terlihat :"
 
 # 730f3306636e43cb8754e5f9dbf2edb0
 #: ../../create_vector_data/create_new_vector.rst:232
-#, fuzzy
 msgid "And stop when our river joins another river:"
-msgstr ""
+msgstr "Dan berhenti ketika sungai sudah bergabung dengan sungai lainnya:"
 
 # 5d972a9224e44d5dae5940d47b10720e
 #: ../../create_vector_data/create_new_vector.rst:237
-#, fuzzy
 msgid ""
 "It's not always clear where the river runs. In such cases, use your better "
 "judgment and estimate where the river goes. Remember that you're capturing "
 "the river at a large scale, so try to follow it in detail. Take some time, "
 "don't let the line become too straight or make the corners too sharp!"
 msgstr ""
+"Aliran sungainya tidak selalu terihat sehingga lebih baik menggunakan "
+"penilaian Anda dan perkiraan dimana aliran sungai itu. Ingat bahwa Anda "
+"mendigitasi sungai pada skala besar, jadi cobalah untuk mengikutinya secara "
+"detil. Luangkan waktu, jangan biarkan baris menjadi terlalu lurus atau "
+"membuat sudut terlalu tajam!"
 
 # aeb073f53d4b4548930b17e75d43ca98
 #: ../../create_vector_data/create_new_vector.rst:242
-#, fuzzy
 msgid ""
 "When creating the feature, give it the :kbd:`type` attribute value of "
 "\":kbd:`stream`\"."
 msgstr ""
+"Ketika membuat fitur tersebut , berikan nilai atribut :kbd:`type` sebagai  "
+"\":kbd:`stream`\"."
 
 # e279ca030cde456884d34e07be28e2e8
 #: ../../create_vector_data/create_new_vector.rst:245
-#, fuzzy
 msgid ":ref:`Check your results <create-vector-digitize-1>`"
-msgstr ""
+msgstr ":ref:`Periksa hasil Anda <create-vector-digitize-1>`"
 
 # 58b9c8e1b994440d88fde0a7a8c0e83a
 #: ../../create_vector_data/create_new_vector.rst:250
-#, fuzzy
 msgid ""
 "Now you know how to create features! This course doesn't cover adding point "
 "features, because that's not really necessary once you've worked with more "
@@ -1415,24 +1418,33 @@ msgid ""
 "that you only click once where you want the point to be, give it attributes "
 "as usual, and then the feature is created."
 msgstr ""
+"Sekarang Anda tahu cara membuat fitur! Latihan ini tidak meliputi "
+"menambahkan fitur titik, karena itu tidak terlalu diperlukan ketika Anda "
+"telah bekerja dengan fitur yang lebih rumit (garis dan poligon). Cara "
+"kerjanya persis sama, kecuali bahwa Anda hanya klik sekali di lokasi titik "
+"Anda , memberikan atribut seperti biasa, dan maka fitur dibuat."
 
 # fa8d618896c6448f9a82cd2e45469fde
 #: ../../create_vector_data/create_new_vector.rst:256
-#, fuzzy
 msgid ""
 "Knowing how to digitize is important because it's a very common activity in "
 "GIS programs."
 msgstr ""
+"Mengetahui bagaimana digitasi penting karena hal itu merupakan kegiatan yang "
+"sangat umum dalam program GIS."
 
 # 15f1f00395474b789ef3e5d999c01437
 #: ../../create_vector_data/create_new_vector.rst:262
-#, fuzzy
 msgid ""
 "Features in a GIS layer aren't just pictures, but objects in space. For "
 "example, adjacent polygons know where they are in relation to one another. "
 "This is called *topology*. In the next lesson you'll see an example of why "
 "this can be useful."
 msgstr ""
+"Fitur pada sebuah layer SIG tidak hanya gambar, tapi juga benda di ruang. "
+"Misalnya, polygon yang  berdekatan mengetahui di mana mereka dalam kaitannya "
+"dengan satu sama lain. Inilah yang disebut dengan *topology*. Dalam "
+"pelajaran berikutnya Anda akan melihat contoh mengapa ini bisa bermanfaat."
 
 # cd8df6cc337140738c46f9e713483aa2
 #: ../../create_vector_data/forms.rst:2
@@ -1569,7 +1581,7 @@ msgid ""
 "If you are in edit mode, you can use this form to edit a feature's "
 "attributes!"
 msgstr ""
-"Bila anda berada pada mode edit, anda bisa menggunakan bentuk ini untuk "
+"Bila anda berada pada mode edit, Anda bisa menggunakan bentuk ini untuk "
 "mengedit atribut fitur!"
 
 # 14cb94669529434081b63fce618c282f
@@ -1583,7 +1595,7 @@ msgid ""
 "Using the :guilabel:`Identify` tool, click on the main street running "
 "through Swellendam:"
 msgstr ""
-"Menggunakan tool  :guilabel:`Identify`, klik sepanjang jalan utama yang "
+"Menggunakan tool :guilabel:`Identify`, klik sepanjang jalan utama yang "
 "melalui Swellendam:"
 
 # bcc16da5d3e044ef966df96c21b94438
@@ -1636,18 +1648,18 @@ msgid ""
 msgstr ""
 "Sangat menyenangkan untuk mengedit hal-hal menggunakan formulir, tapi Anda "
 "masih harus memasukkan segala sesuatu dengan tangan. Untungnya, bentuk "
-"memiliki berbagai jenis yang disebut “widgets” yang memungkinkan Anda untuk "
-"mengedit data dalam berbagai cara yang berbeda."
+"memiliki berbagai jenis yang disebut *“widgets”* yang memungkinkan Anda "
+"untuk mengedit data dalam berbagai cara yang berbeda."
 
 # e30c8fa257dc424185f3ab5427b5f4ff
 #: ../../create_vector_data/forms.rst:78
 msgid "Open the :guilabel:`streets` layer's :guilabel:`Layer Properties`."
-msgstr "Buka layer - layer streets , Layer Properties."
+msgstr "Buka layer :guilabel:`streets` :guilabel:`Layer Properties`."
 
 # b1d3477cfb32432f9532c0aadf558611
 #: ../../create_vector_data/forms.rst:79
 msgid "Switch to the :guilabel:`Fields` tab. You'll see this:"
-msgstr "Pindah ke tab Fields .Anda akan melihat:"
+msgstr "Pindah ke tab :guilabel:`Fields` .Anda akan melihat:"
 
 # e317b23a1dd14bb0880d669bd26839cb
 #: ../../create_vector_data/forms.rst:84
@@ -1657,13 +1669,13 @@ msgid ""
 ":guilabel:`Line edit` button in the same row as :guilabel:`LANES` and you'll "
 "be given a new dialog."
 msgstr ""
-"Klik  pada tombol Line edit pada baris yang sama dengan LANES dan akan "
-"mendapat kotak dialog yang baru."
+"Klik  pada tombol :guilabel:`Line edit` pada baris yang sama dengan "
+":guilabel:`LANES` dan akan mendapat kotak dialog yang baru."
 
 # 4c02750de0d747e98db105cfe7c0aa22
 #: ../../create_vector_data/forms.rst:86
 msgid "In its only dropdown list, set the value to :guilabel:`Range`:"
-msgstr "Dalam daftar  dropdownnya, atur nilai ke Range:"
+msgstr "Dalam daftar  dropdownnya, atur nilai ke :guilabel:`Range`:"
 
 # a176907ee0554ffb85fb880a4af1bd8b
 #: ../../create_vector_data/forms.rst:91
@@ -1673,7 +1685,7 @@ msgstr "Atur nilainya seperti ini :"
 # c7dfeb5632274162aee8fccd449c1156
 #: ../../create_vector_data/forms.rst:97
 msgid "Apply the changes to the :guilabel:`Layer Properties`."
-msgstr "Terapkan perubahan ke  Layer Properties."
+msgstr "Terapkan perubahan ke :guilabel:`Layer Properties`."
 
 # 359d8b5f65d641618e6ae5fcad8fe4b3
 #: ../../create_vector_data/forms.rst:98
@@ -1683,12 +1695,12 @@ msgstr "Masuk ke mode edit."
 # 3a6b9e6b0cf046778ccd0d5a3177b718
 #: ../../create_vector_data/forms.rst:99
 msgid "Click on the :guilabel:`Identify` tool."
-msgstr "Klik pada tool Identify ."
+msgstr "Klik pada tool :guilabel:`Identify`."
 
 # 7bbe06c28c5a4e4cbb9952a14f9270c8
 #: ../../create_vector_data/forms.rst:100
 msgid "Click on :guilabel:`Voortrekker` road."
-msgstr "Klik pada jalan Voortrekker."
+msgstr "Klik pada jalan  :guilabel:`Voortrekker`."
 
 # b7dca2ed1a9f4454b49ee5bcba9eae1d
 #: ../../create_vector_data/forms.rst:102
@@ -1697,14 +1709,14 @@ msgid ""
 "next to the :guilabel:`LANES` field to edit its values!"
 msgstr ""
 "Sekarang bukan memasukkan nilai secara manual, Anda dapat menggunakan panah "
-"atas dan bawah sebelah LANES untuk mengedit nilai - nilainya!"
+"atas dan bawah sebelah :guilabel:`LANES` untuk mengedit nilai - nilainya!"
 
 # 75b587111d5e4ce38c6bfcff9bcbc928
 # f116a6cfa0c04f35965ec6fb71858624
 #: ../../create_vector_data/forms.rst:108
 #: ../../create_vector_data/topo_editing.rst:108
 msgid "|moderate| |TY|"
-msgstr "Coba Sendiri..."
+msgstr "|moderate| Coba Sendiri..."
 
 # 88cb1042cef940d9a4a97a5ee1307821
 #: ../../create_vector_data/forms.rst:110
@@ -1819,7 +1831,7 @@ msgid ""
 "It contains an item called :guilabel:`Line Edit`."
 msgstr ""
 "Cari :guilabel:`Widget Box` sepanjang kiri layar Anda (default). Ini berisi "
-"item yang disebut  :guilabel:`Line Edit."
+"item yang disebut :guilabel:`Line Edit."
 
 # f06333aa85f44b679acbf92a8e1565b4
 #: ../../create_vector_data/forms.rst:161
@@ -1836,13 +1848,13 @@ msgid ""
 "With the new line edit element selected, you'll see its *properties* along "
 "the side of your screen (on the right by default):"
 msgstr ""
-"Dengan unsur edit garis baru terpilih, Anda akan melihat propertnya "
+"Dengan unsur edit garis baru terpilih, Anda akan melihat propertinya "
 "sepanjang sisi layar Anda (di sebelah kanan secara default):"
 
 # 5121f0dc9dba4f56bb95d2d98643eaf3
 #: ../../create_vector_data/forms.rst:169
 msgid "Set its name to :kbd:`Name`."
-msgstr "Ubah namnya menjadi  :kbd:`Name`."
+msgstr "Ubah namanya menjadi  :kbd:`Name`."
 
 # 72a627ff75a04f5bb92bfb056737a831
 #: ../../create_vector_data/forms.rst:170
@@ -1860,7 +1872,7 @@ msgid ""
 "Alternatively, you may want to set the title of the dialog itself (rather "
 "than adding a label)."
 msgstr ""
-"Tambahkan :guilabel:`Label` dengan text   :kbd:`Add a New Person` dalam font "
+"Tambahkan :guilabel:`Label` dengan text :kbd:`Add a New Person` dalam font "
 "tebal (lihat di *properties* objek untuk mengetahui cara mengatur ini). "
 "Atau, Anda mungkin ingin mengatur judul dialog itu sendiri (bukan "
 "menambahkan label)."
@@ -1940,7 +1952,7 @@ msgid ""
 "the generic one that QGIS usually creates)."
 msgstr ""
 "Ketika Anda melakukannya, Anda akan mendapatkan kotak dialog buatan Anda "
-"(bukan yang generik yang biasanya diciptakan QGIS)."
+"(bukan yang biasanya dibuat oleh QGIS)."
 
 # c260073892644530a524dab2a0a2f382
 #: ../../create_vector_data/forms.rst:199
@@ -1965,8 +1977,8 @@ msgid ""
 "after initial capture."
 msgstr ""
 "Jika Anda berada dalam mode edit untuk layer ini, konteks menu akan "
-"menunjukkan  :guilabel:`Edit Feature Form` , dan Anda kemudian dapat "
-"mengatur atribut dalam bentuk baru bahkan sesudah pencatatan awal."
+"menunjukkan :guilabel:`Edit Feature Form` , dan Anda kemudian dapat mengatur "
+"atribut dalam bentuk baru bahkan sesudah pencatatan awal."
 
 # c96e7b6557e04de39351cd1a2fb149ff
 #: ../../create_vector_data/forms.rst:209
@@ -2020,17 +2032,19 @@ msgstr "Modul: Membuat Data Vektor"
 
 # d5c2d307b5ae4af39f07419190c22253
 #: ../../create_vector_data/index.rst:5
-#, fuzzy
 msgid ""
 "Creating maps using existing data is just the beginning. In this module, "
 "you'll learn how to modify existing vector data and create new datasets "
 "entirely."
 msgstr ""
+"Membuat peta menggunakan data yang sudah ada hanyalah permulaan saja. Di "
+"modul ini, Anda akan mempelajari bagaimana memodifikasi data vektor yang "
+"sudah tersedia dan membuat sebuah dataset yang sama sekali baru."
 
 # 4b8c6691e080445bb0b4738015bed319
 #: ../../create_vector_data/topo_editing.rst:2
 msgid "|LS| Feature Topology"
-msgstr "Pelajaran : Topologi Fitur"
+msgstr "Pelajaran: Topologi Fitur"
 
 # f6bfcdbe3f6742a3b9630cbd983fe282
 #: ../../create_vector_data/topo_editing.rst:4
@@ -2064,7 +2078,7 @@ msgstr ""
 # d6b667ccea894c09b8e96812bd66e151
 #: ../../create_vector_data/topo_editing.rst:15
 msgid "|moderate| |FA| Snapping"
-msgstr "|moderate| Ikuti bersama : Snapping"
+msgstr "|moderate| Ikuti bersama: Snapping"
 
 # f2c29f17bba8440a9eac1ba536b24192
 #: ../../create_vector_data/topo_editing.rst:17
@@ -2096,7 +2110,7 @@ msgstr ""
 msgid ""
 "Ensure that the box in the :guilabel:`Avoid Int.` column is checked (set to "
 "true)."
-msgstr "Pastikan Kotak pada kolom  :guilabel:`Avoid Int.` telah dicentang."
+msgstr "Pastikan Kotak pada kolom :guilabel:`Avoid Int.` telah dicentang."
 
 # cae82d4c76a14e46a8918c4ec5f0c2b8
 #: ../../create_vector_data/topo_editing.rst:29
@@ -2129,7 +2143,7 @@ msgstr ""
 # 709d9801671e4f42b35a2d889707e290
 #: ../../create_vector_data/topo_editing.rst:38
 msgid "Digitize this new (fictional) farm:"
-msgstr "Digitasi bidang pertanian berikut (data hanya fiksi):"
+msgstr "Digitasi bidang pertanian berikut (data hanya fiktif):"
 
 # f2150401acaf4cf4b3fcd9d338bc60d0
 #: ../../create_vector_data/topo_editing.rst:43
@@ -2166,7 +2180,7 @@ msgstr "Tombol tersebut mungkin akan sering Anda gunakan...."
 # 47a84cd8b4a044d6b2b6a3dfb1c30fe9
 #: ../../create_vector_data/topo_editing.rst:58
 msgid "|moderate| |FA| Closing the Gaps"
-msgstr "|moderate| Ikuti bersama : Menutup gap"
+msgstr "|moderate| Ikuti bersama: Menutup gap"
 
 # f05c703190074fc0a954e013ecf7befa
 #: ../../create_vector_data/topo_editing.rst:60
@@ -2314,7 +2328,7 @@ msgstr ""
 # a11c2fab9958496493962c9cd49f14ea
 #: ../../create_vector_data/topo_editing.rst:125
 msgid "Set its :guilabel:`Transparency` slider to :kbd:`50%`."
-msgstr "Atur nilai Transparency menjadi 50 %."
+msgstr "Atur nilai :guilabel:`Transparency` menjadi :kbd:`50%`."
 
 # 8193dc073fc74cdb8ee7ae27b99c0971
 #: ../../create_vector_data/topo_editing.rst:126
@@ -2365,7 +2379,7 @@ msgstr "Masuk ke mode  edit, jika belum diaktifkan."
 # 366576fe80e84c78bba1d918bfd8349b
 #: ../../create_vector_data/topo_editing.rst:145
 msgid "Select the :guilabel:`Node Tool`."
-msgstr "Pilih Node Tool."
+msgstr "Pilih  :guilabel:`Node Tool`."
 
 # 5befae99b8144fd998310b7a886f932a
 #: ../../create_vector_data/topo_editing.rst:146
@@ -2390,12 +2404,12 @@ msgstr "Batas yang benar secara topologi terlihat seperti berikut:"
 # f98f0f9b0b444a82b3eaa7e2d8532722
 #: ../../create_vector_data/topo_editing.rst:163
 msgid "|moderate| |FA| Tool: Simplify Feature"
-msgstr "Ikuti bersama : Tool : Simplify Feature"
+msgstr "Ikuti bersama: Tool: Simplify Feature"
 
 # 3e9894328f7c4f8d95ac75ed7f4d3eb7
 #: ../../create_vector_data/topo_editing.rst:165
 msgid "This is the :guilabel:`Simplify Feature` tool:"
-msgstr "Berikut adalah tool Simplify Feature:"
+msgstr "Berikut adalah tool :guilabel:`Simplify Feature`:"
 
 # 9bb78447c1204eb3a4a3c8540650f77b
 #: ../../create_vector_data/topo_editing.rst:170
@@ -2414,7 +2428,7 @@ msgstr ""
 # 89914881877845a7b61436905fd1dcdc
 #: ../../create_vector_data/topo_editing.rst:177
 msgid "Move the slider from side to side and watch what happens:"
-msgstr "Pindahkan slider ari sisi ke sisi dan lihat apa yang terjadi:"
+msgstr "Pindahkan slider dari sisi ke sisi dan lihat apa yang terjadi:"
 
 # e08567043e3c4c25a151af7a1550ae3f
 #: ../../create_vector_data/topo_editing.rst:182
@@ -2441,17 +2455,18 @@ msgstr "Sebelum Anda lanjut, kembalikan lahan pertanian ke posisi sebelumnya:"
 # 861199a1626148bd92a21d2b0f8f5335
 #: ../../create_vector_data/topo_editing.rst:191
 msgid "cancel the :guilabel:`Simplify Feature` dialog, or"
-msgstr "Batalkan kotak dialog Simplify Feature, atau"
+msgstr "Batalkan kotak dialog :guilabel:`Simplify Feature, atau"
 
 # 7d53c57e072e49fca93043553d033b54
 #: ../../create_vector_data/topo_editing.rst:192
 msgid "if you already clicked :guilabel:`OK`, just undo the last change."
-msgstr "Jika Anda telah klik OK, lakukan undo pada perubahan terakhir."
+msgstr ""
+"Jika Anda telah klik :guilabel:`OK`, lakukan undo pada perubahan terakhir."
 
 # c864c5c0f4fd4e4c8e890b52cd3d33d3
 #: ../../create_vector_data/topo_editing.rst:198
 msgid "|moderate| |TY| Tool: Add Ring"
-msgstr "|moderate| Coba sendiri... Tool : Add Ring"
+msgstr "|moderate| Coba sendiri... Tool: Add Ring"
 
 # 9bf6943c5f5846d494e77bc12c727e20
 #: ../../create_vector_data/topo_editing.rst:200
@@ -2493,7 +2508,7 @@ msgstr ":ref:`Periksa hasil anda <create-vector-topology-1>`"
 # a6da2a6488544f94830b80e02db3e7bc
 #: ../../create_vector_data/topo_editing.rst:219
 msgid "|moderate| |TY| Tool: Add Part"
-msgstr "|moderate| Coba sendiri... Tool : Add Part"
+msgstr "|moderate| Coba sendiri... Tool: Add Part"
 
 # 735e500a5eec4341b8bd4713ddc255cb
 #: ../../create_vector_data/topo_editing.rst:221
@@ -2578,7 +2593,7 @@ msgstr "Berikut adalah tool :guilabel:`Reshape Features` :"
 msgid "It can add a bump to an existing feature. With this tool selected:"
 msgstr ""
 "Tool tersebut menambah sebuah tonjolan pada fiturs yang sudah ada. Dengan "
-"tool  yang terpilih ini:"
+"tool yang terpilih ini:"
 
 # d110517038bf4310aec3ea59aed5d66a
 #: ../../create_vector_data/topo_editing.rst:264
@@ -2625,7 +2640,7 @@ msgstr "Klik kanan di luar pertanian lagi:"
 # 63f999fb1f694730b398dc219ca89efc
 #: ../../create_vector_data/topo_editing.rst:292
 msgid "|moderate| |TY| Tool: Split Features"
-msgstr "|moderate| Coba Sendiri.. Tool : Split Features"
+msgstr "|moderate| Coba Sendiri.. Tool: Split Features"
 
 # 61d822ee62794380868f67f4a83cd233
 #: ../../create_vector_data/topo_editing.rst:294
