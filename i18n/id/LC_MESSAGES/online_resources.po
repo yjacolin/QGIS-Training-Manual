@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -21,7 +20,7 @@ msgstr ""
 # dfac22cca99a4d7591bdb2c0123083db
 #: ../../online_resources/index.rst:3
 msgid "|MOD| Online Resources"
-msgstr "Modul : Sumber Data Online"
+msgstr "Modul: Sumber Data Online"
 
 # fe67cd6f260e4beea876e1839a3e8546
 #: ../../online_resources/index.rst:5
@@ -215,7 +214,7 @@ msgstr ""
 # 8a8d6cc2d9b94bd49b7544737bfb3cdd
 #: ../../online_resources/wfs.rst:81
 msgid "|moderate| |FA| Querying a WFS Layer"
-msgstr "|moderate| Ikuti bersama"
+msgstr "|moderate| Ikuti bersama: Melakukan Query pada layer WFS"
 
 # 5ee3d8c9eb914b99b62876eb87c788cc
 #: ../../online_resources/wfs.rst:83
@@ -239,7 +238,7 @@ msgid ""
 "layer (and perhaps also the :guilabel:`antarctica_country_border` layer) "
 "that's already been loaded."
 msgstr ""
-"Sebagai contoh, pada wfs server yang baru saja kita gunakan, ada sebuah "
+"Sebagai contoh, pada WFS server yang baru saja kita gunakan, ada sebuah "
 "layer yang bernama :guilabel:`countries (excluding Antarctica)`. Diasumsikan "
 "kita ingin tahu di mana posisi relative Afrika Selatan terhadap layer "
 ":guilabel:`south_poles_wfs` (dan juga layer "
@@ -378,7 +377,7 @@ msgstr ""
 # 6ff170857b704163b44ca7a7c9b2b70f
 #: ../../online_resources/wfs.rst:153 ../../online_resources/wms.rst:205
 msgid "|WN|"
-msgstr "Apa Selanjutnya"
+msgstr "Apa Selanjutnya?"
 
 # a9ea869e4c544788bf8e20cc26996780
 #: ../../online_resources/wfs.rst:155
@@ -391,7 +390,7 @@ msgstr ""
 # df9d6e5dfc174d43bc009610dde09be9
 #: ../../online_resources/wms.rst:2
 msgid "|LS| Web Mapping Services"
-msgstr "Pelajaran : Web Mapping Services"
+msgstr "Pelajaran: Web Mapping Services"
 
 # 0363fef059374ec18f473fa372f1cc98
 #: ../../online_resources/wms.rst:4
@@ -425,7 +424,7 @@ msgstr ""
 msgid ""
 "**The goal for this lesson:** To use a WMS and understand its limitations."
 msgstr ""
-"** Tujuan untuk pelajaran ini: ** Untuk menggunakan WMS dan memahami "
+"**Tujuan untuk pelajaran ini: ** Untuk menggunakan WMS dan memahami "
 "keterbatasannya."
 
 # c0444f1138bc49b6a4622ce8ee0a6788
@@ -825,7 +824,7 @@ msgstr ""
 # 88a1a135fa304e1fb8e56d1fc4e68b0f
 #: ../../online_resources/wms.rst:188
 msgid ":ref:`Check your results <wms-3>`"
-msgstr ":ref:`Check your results <wms-3>`"
+msgstr ":ref:`Periksa hasil anda <wms-3>`"
 
 # b6b510d3bb964cce841a9a5afe8ec4e2
 #: ../../online_resources/wms.rst:194

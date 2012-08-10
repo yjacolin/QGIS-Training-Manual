@@ -870,7 +870,7 @@ msgstr ""
 # 2f9cd385bcd8477a92c3c591b81738fb
 #: ../../postgres/db_intro.rst:2
 msgid "|LS| Introduction to Databases"
-msgstr "Pelajaran: Perkenalan dengan Basisdata"
+msgstr "Pelajaran: Berkenalan dengan Basisdata"
 
 # 60dc9bcb772f4a90a6ace3a0fba3f084
 #: ../../postgres/db_intro.rst:4

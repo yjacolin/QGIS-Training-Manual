@@ -195,7 +195,7 @@ msgstr ""
 # d1ee2bb2aade45ecba5292191cc744a8
 #: ../../postgis/geometry.rst:114
 msgid "Your updated people schema should look something like this:"
-msgstr "skema *People* terupdate Anda harus terlihat seperti ini:"
+msgstr "Skema *People* terupdate Anda harus terlihat seperti ini:"
 
 # 44407611626642f6a6cf6a22aa3843ce
 #: ../../postgis/geometry.rst:171
@@ -440,7 +440,7 @@ msgstr ""
 # 868f1f266df44c4698a1e309be276bc2
 #: ../../postgis/import_export.rst:27
 msgid "You may encounter this error:"
-msgstr "Anda mungkin menemui *eror* seperti ini:"
+msgstr "Anda mungkin menemui *error* seperti ini:"
 
 # cf198d1c113c4f38a6e96c0c51aefddf
 #: ../../postgis/import_export.rst:34

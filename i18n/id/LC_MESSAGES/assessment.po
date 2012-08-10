@@ -62,8 +62,8 @@ msgid ""
 "a DEM (downloadable from `this URL <http://srtm.csi.cgiar.org/>`_ if you "
 "don't have your own)"
 msgstr ""
-"DEM, yang dapat diunduh melalui ` <http://srtm.csi.cgiar.org/>`_ jika Anda "
-"tidak memilikinya."
+"DEM, yang dapat diunduh melalui `url ini <http://srtm.csi.cgiar.org/>`_ jika "
+"Anda tidak memilikinya."
 
 # 31caedfa766a494fbb403f83a8b18938
 #: ../../assessment/index.rst:16
@@ -135,7 +135,7 @@ msgstr "|moderate|"
 # b6d1aa1d27ec468b9804831d48276620
 #: ../../assessment/index.rst:40
 msgid "Do the same as the |basic| section."
-msgstr "Lakukan hal yang sama seperti pada  bagian  |basic|."
+msgstr "Lakukan hal yang sama seperti pada  bagian |basic|."
 
 # 40780465a896458e85660af56e0f9b95
 #: ../../assessment/index.rst:41
