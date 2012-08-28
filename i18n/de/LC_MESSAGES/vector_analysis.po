@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-23 11:40\n"
+"POT-Creation-Date: 2012-08-28 00:01\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -946,10 +946,10 @@ msgid ""
 "this means that it won't do anything at all if you don't set it up first."
 msgstr ""
 
-# a325574314d84f178407ef633ee9ffc4
+# 5960f6453e6b46f1894fd107329d56b4
 #: ../../vector_analysis/network_analysis.rst:48
 msgid ""
-"Click on the menu item :menuselection:`Plugins --> Road graph --> Road graph "
+"Click on the menu item :menuselection:`Vector --> Road graph --> Road graph "
 "settings`. A dialog will appear."
 msgstr ""
 
