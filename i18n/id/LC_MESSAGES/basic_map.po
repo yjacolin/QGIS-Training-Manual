@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-24 09:02\n"
+"POT-Creation-Date: 2012-08-28 00:01\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,8 +39,9 @@ msgstr "Pelajaran : Simbologi"
 
 # 420035061ff744c98c18c5489d69b041
 #: ../../basic_map/symbology.rst:4
+#, fuzzy
 msgid ""
-"The symbology of a **layer** is its visual appearance on the map. The basic "
+"The symbology of a layer is its visual appearance on the map. The basic "
 "strength of GIS over other ways of representing data with spatial aspects is "
 "that with GIS, you have a dynamic visual representation of the data you're "
 "working with."
@@ -52,16 +53,17 @@ msgstr ""
 
 # 718bd5d0fa444052b2988f6545d4b706
 #: ../../basic_map/symbology.rst:9
+#, fuzzy
 msgid ""
 "Therefore, the visual appearance of the map (which depends on the symbology "
-"of the individual *layer*s) is very important. The end user of the maps you "
+"of the individual layers) is very important. The end user of the maps you "
 "produce will need to be able to easily see what the map represents. Equally "
 "as important, you need to be able to explore the data as you're working with "
 "it, and good symbology helps a lot."
 msgstr ""
 "Oleh karena itu, tampilan visual dari peta (yang mana tergantung pada "
-"simbologi dari masing-masing *layer*) sangat penting. Pengguna akhir dari peta "
-"yang Anda hasilkan harus dapat dengan mudah melihat apa yang "
+"simbologi dari masing-masing *layer*) sangat penting. Pengguna akhir dari "
+"peta yang Anda hasilkan harus dapat dengan mudah melihat apa yang "
 "direpresentasikan oleh peta. Anda harus mampu untuk mengeksplorasi data saat "
 "Anda sedang bekerja dengannya.Simbologi yang baik akan sangat membantu."
 
@@ -78,9 +80,10 @@ msgstr ""
 
 # 5a87dee56f3e48128b11a38a0cc2766e
 #: ../../basic_map/symbology.rst:19
+#, fuzzy
 msgid ""
 "**The goal for this lesson:** To be able to create any symbology you want "
-"for any vector *layer*."
+"for any vector layer."
 msgstr ""
 "**Tujuan untuk pelajaran ini:** Untuk dapat menciptakan simbologi yang Anda "
 "inginkan untuk setiap **layer** vektor."
@@ -92,16 +95,18 @@ msgstr "|basic| Ikuti bersama: Mengubah warna"
 
 # 4559a08c4ca94c2abe6e65c42cbee25b
 #: ../../basic_map/symbology.rst:25
+#, fuzzy
 msgid ""
-"To change a *layer*'s symbology, open its :guilabel:`*layer* Properties`. Let's "
-"begin by changing the color of the :guilabel:`urban` *layer*."
+"To change a layer's symbology, open its :guilabel:`Layer Properties`. Let's "
+"begin by changing the color of the :guilabel:`urban` layer."
 msgstr ""
 "Untuk mengubah simbologi dari *layer*, buka :guilabel:`*layer* Properties` "
 "nya.Mari kita mulai dengan mengubah warna **layer**:guilabel:`Urban`."
 
 # 6337d8d4993048858ccaa866a8050e5f
 #: ../../basic_map/symbology.rst:28
-msgid "Right-click on the :guilabel:`urban` *layer* in the *layer*s list."
+#, fuzzy
+msgid "Right-click on the :guilabel:`urban` layer in the Layers list."
 msgstr "Klik kanan pada **layer** :guilabel:`urban` dalam  Daftar *layer*."
 
 # 100ad6a74ba84ff382268842f1045a6d
@@ -111,9 +116,10 @@ msgstr "Pilih item menu :guilabel:`Properties` pada menu yang mucul."
 
 # 84a7d284657a41b489cae964d1099644
 #: ../../basic_map/symbology.rst:31
+#, fuzzy
 msgid ""
-"By default, you can also access a *layer*'s properties by double-clicking on "
-"the *layer* in the *layer*s list."
+"By default, you can also access a layer's properties by double-clicking on "
+"the layer in the Layers list."
 msgstr ""
 "Anda juga dapat mengakses properties **layer** ini dengan mengklik dua kali "
 "pada **layer** dalam daftar **layer**."
@@ -146,9 +152,10 @@ msgstr "Pilih warna abu-abu dan klik  :guilabel:`OK`. "
 
 # b0682f4d120e4decbfc1372efb6d7558
 #: ../../basic_map/symbology.rst:46
+#, fuzzy
 msgid ""
-"Click :guilabel:`OK` again in the :guilabel:`*layer* Properties` window, and "
-"you will see the color change being applied to the *layer*."
+"Click :guilabel:`OK` again in the :guilabel:`Layer Properties` window, and "
+"you will see the color change being applied to the layer."
 msgstr ""
 "Klik  :guilabel:`OK` lagi pada jendela  :guilabel:`*layer* Properties`, dan "
 "Anda akan melihat perubahan warna pada *layer* Urban."
@@ -161,8 +168,9 @@ msgstr "|basic| Coba sendiri"
 
 # 4584c42d591d4ea7b396e17e30a4c8c1
 #: ../../basic_map/symbology.rst:58
+#, fuzzy
 msgid ""
-"Change the :guilabel:`rural` *layer* to a new color that you associate with "
+"Change the :guilabel:`rural` layer to a new color that you associate with "
 "rural farming areas."
 msgstr ""
 "Ubah **layer**  :guilabel:`rural` dengan warna baru yang menurut Anda sesuai "
@@ -180,11 +188,12 @@ msgstr "|basic| Ikuti bersama: Merubah struktur simbol"
 
 # fff5c960f1574683adee17f208f0a6a2
 #: ../../basic_map/symbology.rst:66
+#, fuzzy
 msgid ""
-"This is good stuff so far, but there's more to a *layer*'s symbology than just "
-"its color. Next we want to change the color of the farms (the "
-":guilabel:`rural` *layer*), but we also want to eliminate the lines between "
-"the different farms so as to make the map less visually cluttered."
+"This is good stuff so far, but there's more to a layer's symbology than just "
+"its color. Next we want to change the color of the farms (the :guilabel:"
+"`rural` layer), but we also want to eliminate the lines between the "
+"different farms so as to make the map less visually cluttered."
 msgstr ""
 "Sejauh ini semuanya tampak bagus, namun banyak lagi yang dapat dilakukan "
 "dengan simbologi **layer** disamping merubah warnanya. Selanjutnya kita akan "
@@ -194,10 +203,12 @@ msgstr ""
 
 # 40d44118e84b4d3780cc2757bd43e64b
 #: ../../basic_map/symbology.rst:71
+#, fuzzy
 msgid ""
-"Open the :guilabel:`*layer* Properties` window for the :guilabel:`rural` *layer*."
+"Open the :guilabel:`Layer Properties` window for the :guilabel:`rural` layer."
 msgstr ""
-"Buka jendela :guilabel:`*layer* Properties` untuk **layer** :guilabel:`rural`. "
+"Buka jendela :guilabel:`*layer* Properties` untuk **layer** :guilabel:"
+"`rural`. "
 
 # 07c44573c0754a3088e4fdf2e1fdf73e
 #: ../../basic_map/symbology.rst:74
@@ -223,8 +234,9 @@ msgstr "Kotak dialog:guilabel:`Symbol properties`  berikut akan muncul."
 
 # 278d723263744c16a4e8321a88b98eda
 #: ../../basic_map/symbology.rst:85
+#, fuzzy
 msgid ""
-"Change the color inside the polygons in the *layer* by clicking the button "
+"Change the color inside the polygons in the layer by clicking the button "
 "next to the :guilabel:`Color` label (if you haven't done so already during "
 "the previous lesson)."
 msgstr ""
@@ -258,8 +270,8 @@ msgid ""
 "Click on the :guilabel:`Border style` dropdown. At the moment, it should be "
 "showing a short line and the words :guilabel:`Solid Line`."
 msgstr ""
-"klik pada menu dropdown  :guilabel:`Border style`. Saat ini, seharusnya "
-"menu ini menampilkan garis pendek dan kata-kata  :guilabel:`Solid Line`."
+"klik pada menu dropdown  :guilabel:`Border style`. Saat ini, seharusnya menu "
+"ini menampilkan garis pendek dan kata-kata  :guilabel:`Solid Line`."
 
 # fc3f059d91bf4862b74eeba8640d52a5
 #: ../../basic_map/symbology.rst:95
@@ -273,15 +285,17 @@ msgstr "Klik  :guilabel:`OK`, dan kemudian klik  :guilabel:`OK` lagi. "
 
 # 164ea3595f3a4e8395035c4a27c3fe18
 #: ../../basic_map/symbology.rst:98
-msgid "Now the :guilabel:`rural` *layer* won't have any lines between farms."
+#, fuzzy
+msgid "Now the :guilabel:`rural` layer won't have any lines between farms."
 msgstr ""
 "Sekarang **layer**  :guilabel:`rural` tidak lagi memiliki garis batas apapun "
 "diantara area-area pertanian."
 
 # 02e6a210140f4ece9ab0b5de1fef9307
 #: ../../basic_map/symbology.rst:106
+#, fuzzy
 msgid ""
-"Change the :guilabel:`urban` *layer*'s symbology so that it is gray and "
+"Change the :guilabel:`urban` layer's symbology so that it is gray and "
 "without outlines."
 msgstr ""
 "Ubah simbologi **layer**  :guilabel:`urban`sehingga akan menjadi abu-abu "
@@ -289,13 +303,14 @@ msgstr ""
 
 # 18d23712210a4a9ba0f937fbb5e71a1c
 #: ../../basic_map/symbology.rst:108
+#, fuzzy
 msgid ""
-"Change the :guilabel:`rural` *layer* again so that it has dotted outlines "
-"which are just a bit darker than the fill color for that *layer*."
+"Change the :guilabel:`rural` layer again so that it has dotted outlines "
+"which are just a bit darker than the fill color for that layer."
 msgstr ""
-"Ubah lagi **layer** :guilabel:`rural` sehingga ia memiliki *outline* bertitik "
-"yang berwarna agak sedikit lebih gelap dibandingkan warna pengisi (*fill "
-"color*) **layer** tersebut."
+"Ubah lagi **layer** :guilabel:`rural` sehingga ia memiliki *outline* "
+"bertitik yang berwarna agak sedikit lebih gelap dibandingkan warna pengisi "
+"(*fill color*) **layer** tersebut."
 
 # ccfe3bc315cb4d5c9a888abe4717efc3
 #: ../../basic_map/symbology.rst:111
@@ -309,18 +324,19 @@ msgstr "|moderate| Ikuti bersama: visibilitas berbasis skala"
 
 # bec01a5a41ed4a60913b9ad5b061b728
 #: ../../basic_map/symbology.rst:116
+#, fuzzy
 msgid ""
-"Sometimes you will find that a *layer* is not suitable for a given scale. For "
-"example, a *dataset* of all the continents may have low detail, and not be "
+"Sometimes you will find that a layer is not suitable for a given scale. For "
+"example, a dataset of all the continents may have low detail, and not be "
 "very accurate at street level. When that happens, you want to be able to "
-"hide the *dataset* at inappropriate scales."
+"hide the dataset at inappropriate scales."
 msgstr ""
-"Terkadang Anda akan menemukan bahwa sebuah **layer** tidak sesuai untuk suatu "
-"skala tertentu. Sebagai contoh, **dataset** dari sebuah benua (*continents*)  "
-"bisa jadi memiliki kelengkapan detil yang rendah, dan bisa jadi tidak "
-"terlalu akurat pada level jalan. Ketika hal ini terjadi, Anda mungkin akan "
-"berkeinginan untuk menyembunyikan *dataset* tersebut pada level skala dimana "
-"ia tidak sesuai pada level skala tersebut."
+"Terkadang Anda akan menemukan bahwa sebuah **layer** tidak sesuai untuk "
+"suatu skala tertentu. Sebagai contoh, **dataset** dari sebuah benua "
+"(*continents*)  bisa jadi memiliki kelengkapan detil yang rendah, dan bisa "
+"jadi tidak terlalu akurat pada level jalan. Ketika hal ini terjadi, Anda "
+"mungkin akan berkeinginan untuk menyembunyikan *dataset* tersebut pada level "
+"skala dimana ia tidak sesuai pada level skala tersebut."
 
 # 9f89f0b8686040d2ba85657ac42588a4
 #: ../../basic_map/symbology.rst:121
@@ -345,12 +361,13 @@ msgstr "Untuk mengaktifkan rendering berbasis skala:"
 
 # be7c7dc5da24408f8d5c032978c547c4
 #: ../../basic_map/symbology.rst:131
+#, fuzzy
 msgid ""
-"Open the :guilabel:`*layer* Properties` dialog for the :guilabel:`streets` "
-"*layer*."
+"Open the :guilabel:`Layer Properties` dialog for the :guilabel:`streets` "
+"layer."
 msgstr ""
-"buka kotak dialog :guilabel:`*layer* Properties` untuk "
-"**layer** :guilable:`streets`."
+"buka kotak dialog :guilabel:`*layer* Properties` untuk **layer** :guilable:"
+"`streets`."
 
 # e567a4da1ddc4c849bf4c9da1440efe4
 #: ../../basic_map/symbology.rst:133
@@ -360,8 +377,8 @@ msgstr "Aktifkan tab :guilabel:`General`."
 # 695c0038d91d437ba338a7c8850c05c9
 #: ../../basic_map/symbology.rst:134
 msgid ""
-"Enable scale-based rendering by clicking on the checkbox labeled "
-":guilabel:`Use scale dependent rendering`:"
+"Enable scale-based rendering by clicking on the checkbox labeled :guilabel:"
+"`Use scale dependent rendering`:"
 msgstr ""
 "Akftifkan rendering berbasis skala (*scale-based rendering*)dengan mengklik "
 "*checkbox* berlabelkan :guilable:`Use scale dependent rendering`:"
@@ -378,13 +395,14 @@ msgstr "klik :guilabel:`OK`."
 
 # e0e2db45fb2a426e822af808cd609d71
 #: ../../basic_map/symbology.rst:143
+#, fuzzy
 msgid ""
-"Test the effects of this by zooming in and out in your map, noting when the "
-":guilabel:`streets` *layer* disappears and reappears."
+"Test the effects of this by zooming in and out in your map, noting when the :"
+"guilabel:`streets` layer disappears and reappears."
 msgstr ""
 "Lakukan tes untuk melihat efek dari pengubahan ini dengan melakukan "
-"*zooming*  membesar dan mengecil pada peta Anda, dan amati saat **layer** "
-" :guilable:`streets`  muncul dan menghilang."
+"*zooming*  membesar dan mengecil pada peta Anda, dan amati saat **layer**  :"
+"guilable:`streets`  muncul dan menghilang."
 
 # 6fcb11f18d3141be806fe58162c8d45b
 #: ../../basic_map/symbology.rst:146
@@ -399,15 +417,17 @@ msgstr ""
 
 # 10a7c852606247cba5bf46926ad53d28
 #: ../../basic_map/symbology.rst:153
-msgid "|moderate| |FA| Adding symbol *layer*s"
+#, fuzzy
+msgid "|moderate| |FA| Adding symbol layers"
 msgstr "|moderate| Ikuti bersama: Menambahkan **layer** symbol"
 
 # aa4a8fc6bd9441d384a38a487e59a1d5
 #: ../../basic_map/symbology.rst:155
+#, fuzzy
 msgid ""
-"Now that you know how to change simple symbology for *layer*s, the next step "
+"Now that you know how to change simple symbology for layers, the next step "
 "is to create more complex symbology. QGIS allows you to do this using symbol "
-"*layer*s."
+"layers."
 msgstr ""
 "Sekarang Anda mengetahui bagaimana merubah simbologi sederhana dari suatu "
 "**layer**, langkah selanjutnya adalah untuk membuat simbologi yang lebih "
@@ -416,18 +436,19 @@ msgstr ""
 
 # 803f77669d3a491781027739e501e788
 #: ../../basic_map/symbology.rst:159
+#, fuzzy
 msgid ""
-"Go back to the :guilabel:`rural` *layer*'s :guilabel:`Symbol properties` "
+"Go back to the :guilabel:`rural` layer's :guilabel:`Symbol properties` "
 "dialog as before."
 msgstr ""
-"Kembali ke kotak dialog  :guilabel:`Symbol Properties` **layer**  "
-":guilabel:`rural`  seperti sebelumnya. "
+"Kembali ke kotak dialog  :guilabel:`Symbol Properties` **layer**  :guilabel:"
+"`rural`  seperti sebelumnya. "
 
 # 945613b4dbe44b86bab9572706ce6114
 #: ../../basic_map/symbology.rst:162
 msgid ""
-"In this example, the current symbol has no outline (i.e., it uses the "
-":guilabel:`No Pen` border style)."
+"In this example, the current symbol has no outline (i.e., it uses the :"
+"guilabel:`No Pen` border style)."
 msgstr ""
 "Pada contoh ini, symbol yang diaplikasikan saat ini tidak memiliki *outline* "
 "(yaitu, ia menggunakan *border style*  :guilabel:`No Pen`)."
@@ -455,8 +476,9 @@ msgstr ""
 
 # 6371cc50e2cf43a2a0c78055c4c50771
 #: ../../basic_map/symbology.rst:178
+#, fuzzy
 msgid ""
-"Now there's a second symbol *layer*. Being a solid color, it will of course "
+"Now there's a second symbol layer. Being a solid color, it will of course "
 "completely hide the previous kind of symbol. Plus, it has a :guilabel:`Solid "
 "Line` border style, which we don't want. Clearly this symbol has to be "
 "changed."
@@ -469,20 +491,21 @@ msgstr ""
 
 # 7597885ad07f441082dcfa9c33441123
 #: ../../basic_map/symbology.rst:182
+#, fuzzy
 msgid ""
-"It's important not to get confused between a map *layer* and a symbol *layer*. A "
-"map *layer* is a vector (or raster) that has been loaded into the map. A "
-"symbol *layer* is part of the symbol used to represent a map *layer*. This "
-"course will usually refer to a map *layer* as just a *layer*, but a symbol *layer* "
-"will always be called a symbol *layer*, to prevent confusion."
+"It's important not to get confused between a map layer and a symbol layer. A "
+"map layer is a vector (or raster) that has been loaded into the map. A "
+"symbol layer is part of the symbol used to represent a map layer. This "
+"course will usually refer to a map layer as just a layer, but a symbol layer "
+"will always be called a symbol layer, to prevent confusion."
 msgstr ""
 "Menjadi penting untuk tidak membingungkan antara pengertian  *map *layer**  "
-"berbeda dengan  *symbol *layer**. *Map *layer**  adalah sebuah data vector (atau "
-"raster) yang telah dimuat ke dalam peta. *Simbol *layer**  merupakan bagian "
-"dari simbol yang digunakan untuk merepresentasikan *map *layer**. Selanjutnya, "
-"dalam panduan ini istilah ‘*map *layer**’ akan disebut sebagai ‘**layer**’ saja, "
-"sedangkan ‘*symbol *layer**’ akan disebut ‘*symbol *layer**’ untuk mencegah "
-"kebingungan."
+"berbeda dengan  *symbol *layer**. *Map *layer**  adalah sebuah data vector "
+"(atau raster) yang telah dimuat ke dalam peta. *Simbol *layer**  merupakan "
+"bagian dari simbol yang digunakan untuk merepresentasikan *map *layer**. "
+"Selanjutnya, dalam panduan ini istilah ‘*map *layer**’ akan disebut sebagai "
+"‘**layer**’ saja, sedangkan ‘*symbol *layer**’ akan disebut ‘*symbol "
+"*layer**’ untuk mencegah kebingungan."
 
 # 48084791c34b493e8dde1ac49bb59d8e
 #: ../../basic_map/symbology.rst:188
@@ -494,11 +517,11 @@ msgstr ""
 # 164ee8241fe9490a94eb9670e9eb18cc
 #: ../../basic_map/symbology.rst:189
 msgid ""
-"Change the fill style to something other than :guilabel:`Solid` or "
-":guilabel:`No brush`. For example:"
+"Change the fill style to something other than :guilabel:`Solid` or :guilabel:"
+"`No brush`. For example:"
 msgstr ""
-"Ubah *fill style* menjadi pilihan yang lain selain :guilabel:`Solid` atau "
-":guilabel:`No Brush`, seperti:"
+"Ubah *fill style* menjadi pilihan yang lain selain :guilabel:`Solid` atau :"
+"guilabel:`No Brush`, seperti:"
 
 # 48e163f1a85648058f48bfdd787296e4
 #: ../../basic_map/symbology.rst:195
@@ -512,9 +535,10 @@ msgstr ""
 
 # 3195b3df86ad4f6492e90c3a616130bf
 #: ../../basic_map/symbology.rst:198
+#, fuzzy
 msgid ""
-"You can even add multiple extra symbol *layer*s and create a kind of texture "
-"for your *layer* that way."
+"You can even add multiple extra symbol layers and create a kind of texture "
+"for your layer that way."
 msgstr ""
 "Anda juga dapat menambahkan beberapa simbol **layer**  sekaligus dan "
 "menggunakan tekstur untuk **layer** Anda dengan cara ini."
@@ -534,8 +558,9 @@ msgstr "|moderate| Coba sendiri"
 
 # 38e306b492d148ffa95f3ac964c38cd0
 #: ../../basic_map/symbology.rst:211
+#, fuzzy
 msgid ""
-"Create a simple, but not distracting texture for the :guilabel:`rural` *layer* "
+"Create a simple, but not distracting texture for the :guilabel:`rural` layer "
 "using the methods above."
 msgstr ""
 "Gunakan simbol tekstur yang sederhana namun tidak terlalu mencolok untuk "
@@ -543,7 +568,8 @@ msgstr ""
 
 # ac0c35bb43f6418e9f25d47600cc8f3b
 #: ../../basic_map/symbology.rst:214
-msgid ":ref:`Check your results <symbology-*layer*s-1>`"
+#, fuzzy
+msgid ":ref:`Check your results <symbology-layers-1>`"
 msgstr ":ref:`periksa hasil Anda <symbology-*layer*s-1>`"
 
 # 3b7fb6014f9a40ae842014eee851cfd4
@@ -553,24 +579,27 @@ msgstr "|Moderate| Ikuti bersama: Mengaktifkan Symbol Levels"
 
 # 9a5a664b83cd40ea89f27aff4906d8c9
 #: ../../basic_map/symbology.rst:220
+#, fuzzy
 msgid ""
-"When symbol *layer*s are rendered, they are also rendered in a sequence, "
-"similar to how the different map *layer*s are rendered. This means that in "
-"some cases, having many symbol *layer*s in one symbol can cause unexpected "
+"When symbol layers are rendered, they are also rendered in a sequence, "
+"similar to how the different map layers are rendered. This means that in "
+"some cases, having many symbol layers in one symbol can cause unexpected "
 "results."
 msgstr ""
 "Pada saat beberapa simbol **layer**  dimuat, mereka juga dimuat dalam suatu "
 "urutan, sama halnya seperti apabila beberapa *map *layer**  yang berbeda "
-"dimuat dalam peta. Pada kasus tertentu, memiliki banyak simbol **layer** untuk "
-"satu symbol dapat memberikan hasil yang tidak diinginkan."
+"dimuat dalam peta. Pada kasus tertentu, memiliki banyak simbol **layer** "
+"untuk satu symbol dapat memberikan hasil yang tidak diinginkan."
 
 # 6710c9d6a8e94d39874168d66acd0045
 #: ../../basic_map/symbology.rst:224
+#, fuzzy
 msgid ""
-"Give the :guilabel:`streets` *layer* an extra symbol *layer* (using the methid "
-"for adding symbol *layer*s demonstrated above)."
+"Give the :guilabel:`streets` layer an extra symbol layer (using the methid "
+"for adding symbol layers demonstrated above)."
 msgstr ""
-"Coba untuk memberikan tambahan simbol* *layer**  pada **layer**   :guilabel:`streets` (menggunakan metode untuk menambahkan **layer** simbol yang "
+"Coba untuk memberikan tambahan simbol* *layer**  pada **layer**   :guilabel:"
+"`streets` (menggunakan metode untuk menambahkan **layer** simbol yang "
 "ditunjukkan di atas)."
 
 # e62259306990467da8f6a5ffd09182b9
@@ -580,7 +609,8 @@ msgstr "Berikan ketebalan kepada base line dengan nilai :kbd:`2.0`."
 
 # 51226a360ae74174b6b3bcf9b4709a7f
 #: ../../basic_map/symbology.rst:227
-msgid "Give the top *layer* a thickness of :kbd:`0.5`."
+#, fuzzy
+msgid "Give the top layer a thickness of :kbd:`0.5`."
 msgstr "Berikan ketebalan kepada **layer** di atas  dengan nilai :kbd:`0.5`."
 
 # 946a80b361ea44a192d021d9a82b8ec4
@@ -595,9 +625,10 @@ msgstr "Hasilnya ternyata belum terlalu bagus!"
 
 # 8f98b4003cc24d3b911f299e36534757
 #: ../../basic_map/symbology.rst:236
+#, fuzzy
 msgid ""
 "To prevent this from happening, you can enable symbol levels, which will "
-"control the order in which the different symbol *layer*s are rendered."
+"control the order in which the different symbol layers are rendered."
 msgstr ""
 "Untuk mencegah hal ini terjadi, Anda dapat mengaktifkan *symbol levels*, "
 "yang mana akan mengontrol bagaimana susunan tiap *symbol *layer**  yang "
@@ -605,11 +636,13 @@ msgstr ""
 
 # e76b304989c840c0aa786402c6ab32c1
 #: ../../basic_map/symbology.rst:239
+#, fuzzy
 msgid ""
-"In the :guilabel:`*layer* Properties` dialog, click on "
-":menuselection:`Advanced --> Symbol levels`:"
+"In the :guilabel:`Layer Properties` dialog, click on :menuselection:"
+"`Advanced --> Symbol levels`:"
 msgstr ""
-"Di kotak dialog  :guilabel:`*layer* Properties`, klik :menuselection:`Advanced --> Symbol levels`:"
+"Di kotak dialog  :guilabel:`*layer* Properties`, klik :menuselection:"
+"`Advanced --> Symbol levels`:"
 
 # c1f2ecba126e4de39e531b2106c435e6
 #: ../../basic_map/symbology.rst:245
@@ -633,11 +666,12 @@ msgstr "Peta Anda sekarang akan tampak seperti berikut:"
 
 # 2190fe6fb6d6446bb77ab2ca028df997
 #: ../../basic_map/symbology.rst:259
+#, fuzzy
 msgid ""
 "When you're done, remember to save the symbol itself so as not to lose your "
 "work if you change the symbol again in the future. You can save your current "
-"symbol style by clicking the :guilabel:`Save Style ...` button under the "
-":guilabel:`Style` tab of the :guilabel:`*layer* Properties` dialog. Save your "
+"symbol style by clicking the :guilabel:`Save Style ...` button under the :"
+"guilabel:`Style` tab of the :guilabel:`Layer Properties` dialog. Save your "
 "style under :kbd:`exercise_data/styles`.  You can load a previously saved "
 "style at any time by clicking the :guilabel:`Load Style ...` button. Before "
 "you change a style, keep in mind that any unsaved style you are replacing "
@@ -646,7 +680,8 @@ msgstr ""
 "Ketika Anda selesai, ingatlah untuk menyimpan simbol itu sendiri sehingga "
 "Anda tidak kehilangan hasil pekerjaan Anda apabila Anda mengubah simbol itu "
 "lagi nantinya. Anda dapat menyimpan *style simbol* yang saat ini aktif "
-"dengan mengklik tombol :guilabel:`Save Style`… di bawah tab :guilabel:`Style` pada kotak dialog :guilabel:`*layer* Properties`. Simpan *style*  "
+"dengan mengklik tombol :guilabel:`Save Style`… di bawah tab :guilabel:"
+"`Style` pada kotak dialog :guilabel:`*layer* Properties`. Simpan *style*  "
 "Anda pada *root directory* untuk materi ini di bawah kbd:`exercise/data "
 "styles`. *Style* yang dirubah dan tidak disimpan, akan hilang. Anda dapat "
 "memanggil kembali *style* yang telah disimpan sebelumnya setiap saat dengan "
@@ -654,7 +689,8 @@ msgstr ""
 
 # bfd75974cd6f469480ec930a4129fee7
 #: ../../basic_map/symbology.rst:274
-msgid "Change the appearance of the :guilabel:`streets` *layer* again."
+#, fuzzy
+msgid "Change the appearance of the :guilabel:`streets` layer again."
 msgstr "Ubah lagi tampilan *layer*  :guilabel:`streets`."
 
 # c6b01fea00d540638c10dadc1ce39ff7
@@ -679,8 +715,9 @@ msgstr "|hard| Coba sendiri"
 
 # 6643e58c8d76482bb40748b46a56bdfc
 #: ../../basic_map/symbology.rst:290
+#, fuzzy
 msgid ""
-"Symbol levels also work for classified *layer*s (i.e., *layer*s having multiple "
+"Symbol levels also work for classified layers (i.e., layers having multiple "
 "symbols).  Since we haven't covered classification yet, you will work with "
 "some rudimentary preclassified data."
 msgstr ""
@@ -691,31 +728,34 @@ msgstr ""
 
 # 345c05066c114456b43f33e58b2c7749
 #: ../../basic_map/symbology.rst:294
-msgid "Create a new map and add only the :guilabel:`streets` *dataset*."
+#, fuzzy
+msgid "Create a new map and add only the :guilabel:`streets` dataset."
 msgstr "Buat peta baru dan tambahkan hanya **dataset**  :guilabel:`streets`."
 
 # 40c37dd202774aba8eef77190e6a6aad
 #: ../../basic_map/symbology.rst:295
 msgid ""
-"Apply the style :kbd:`advanced_levels_demo.qml` provided in "
-":kbd:`exercise_data/styles`."
+"Apply the style :kbd:`advanced_levels_demo.qml` provided in :kbd:"
+"`exercise_data/styles`."
 msgstr ""
-"Terapkan  :kbd:`advanced_levels_demo.qml`yang tersedia di "
-":kbd:`exercise_data/styles`."
+"Terapkan  :kbd:`advanced_levels_demo.qml`yang tersedia di :kbd:"
+"`exercise_data/styles`."
 
 # 00770a8822654663bb7220e2b8990a22
 #: ../../basic_map/symbology.rst:296
+#, fuzzy
 msgid ""
 "Zoom to the Swellendam area (the cluster of roads near the center of the "
-"*layer*)."
+"layer)."
 msgstr ""
 "*Zoom* ke area Swellendam (*the cluster of roads near the center of the "
 "*layer**)."
 
 # d2f12f8dda0445a1a09f6ec844a166ff
 #: ../../basic_map/symbology.rst:298
+#, fuzzy
 msgid ""
-"Using symbol *layer*s, ensure that the outlines of *layer*s flow into one "
+"Using symbol layers, ensure that the outlines of layers flow into one "
 "another as per the image below:"
 msgstr ""
 "Dengan menggunakan *symbol *layer** pastikan bahwa *outline* dari **layer**  "
@@ -728,15 +768,17 @@ msgstr ":ref:`periksa hasil Anda <symbology-levels-2>`"
 
 # 05ad9897e937453eb80dd0485e7dd867
 #: ../../basic_map/symbology.rst:308
-msgid "|moderate| |FA| Symbol *layer* types"
+#, fuzzy
+msgid "|moderate| |FA| Symbol layer types"
 msgstr "|moderate| Ikuti bersama: Simbol jenis-jenis *layer*"
 
 # 07ba487ee55e40668f99b8d6ff87fe68
 #: ../../basic_map/symbology.rst:310
+#, fuzzy
 msgid ""
 "In addition to setting fill colors and using predefined patterns, you can "
-"use different symbol *layer* types entirely. The only type we've been using up "
-"to now was the *Simple Fill* type. The more advanced symbol *layer* types "
+"use different symbol layer types entirely. The only type we've been using up "
+"to now was the *Simple Fill* type. The more advanced symbol layer types "
 "allow you to customize your symbols even further."
 msgstr ""
 "Selain menetapkan warna isian  dan menggunakan pola yang telah ditetapkan, "
@@ -747,9 +789,10 @@ msgstr ""
 
 # e764a08f9b994f2ea4ff9e7aa3d3ad23
 #: ../../basic_map/symbology.rst:315
+#, fuzzy
 msgid ""
 "Each type of vector (point, line and polygon) has its own set of symbol "
-"*layer* types. First we will look at the types available for points."
+"layer types. First we will look at the types available for points."
 msgstr ""
 "Setiap jenis vektor (titik, garis dan poligon) telah menetapkan sendiri "
 "jenis simbol **layer** nya. Terlebih dahulu kita akan melihat jenis yang "
@@ -757,23 +800,27 @@ msgstr ""
 
 # bca60133499e4b56ba9a98a83f5dfaee
 #: ../../basic_map/symbology.rst:319
-msgid "Point symbol *layer* types"
+#, fuzzy
+msgid "Point symbol layer types"
 msgstr "Jenis-jenis  simbol *layer*  titik"
 
 # a31f23482a0842eea7fde1a0d98219f4
 #: ../../basic_map/symbology.rst:321
-msgid "Change the symbol properties for the :guilabel:`places` *layer*:"
+#, fuzzy
+msgid "Change the symbol properties for the :guilabel:`places` layer:"
 msgstr "Ubah properti simbol untuk **layer** :guilabel:`places`:"
 
 # d7d4ad543f9a4f0d813505e99b11cd81
 #: ../../basic_map/symbology.rst:326
-msgid "You can access the various symbol *layer* types here:"
+#, fuzzy
+msgid "You can access the various symbol layer types here:"
 msgstr "Anda dapat mengakses berbagai jenis simbol *layer* di sini:"
 
 # 19be8433857540a9ad49991af1d94168
 #: ../../basic_map/symbology.rst:331
+#, fuzzy
 msgid ""
-"Investigate the various options available to you, and choose a symbol *layer* "
+"Investigate the various options available to you, and choose a symbol layer "
 "type other than the default :guilabel:`Simple Marker`."
 msgstr ""
 "Pelajari berbagai pilihan simbol yang tersedia, dan pilih jenis **layer** "
@@ -787,16 +834,17 @@ msgstr "Jika Anda ragu, gunakan :guilabel:`Ellipse Marker`."
 # f80a458d4e6142829720b8f2a226b539
 #: ../../basic_map/symbology.rst:334
 msgid ""
-"Choose a white outline and black fill, with a :guilabel:`symbol width` of "
-":kbd:`2,00` and :guilabel:`symbol height` of :kbd:`4,00`."
+"Choose a white outline and black fill, with a :guilabel:`symbol width` of :"
+"kbd:`2,00` and :guilabel:`symbol height` of :kbd:`4,00`."
 msgstr ""
-"Pilih garis tepi warna putih dan hitam, dengan lebar simbol ( "
-":guilabel:`symbol width`) :kbd:`2,00` dan tinggi simbol (:guilabel:`symbol "
-"height`) :kbd:`4,00`."
+"Pilih garis tepi warna putih dan hitam, dengan lebar simbol ( :guilabel:"
+"`symbol width`) :kbd:`2,00` dan tinggi simbol (:guilabel:`symbol height`) :"
+"kbd:`4,00`."
 
 # e96f627e584b4a62bebb4372bf6bf10e
 #: ../../basic_map/symbology.rst:338
-msgid "Line symbol *layer* types"
+#, fuzzy
+msgid "Line symbol layer types"
 msgstr "Jenis-jenis simbol *layer*  garis"
 
 # dc6be05afba043b69b0b1e63a5cce1b0
@@ -806,10 +854,12 @@ msgstr "Untuk melihat berbagai pilihan yang tersedia untuk data baris, :"
 
 # da38a5d7833443d5945bed032ba65de6
 #: ../../basic_map/symbology.rst:342
+#, fuzzy
 msgid ""
-"Change the symbol *layer* type for the :guilabel:`street` *layer*'s topmost "
-"symbol *layer*:"
-msgstr "ubah jenis simbol *layer* paling atas untuk **layer** :guilabel:`street`:"
+"Change the symbol layer type for the :guilabel:`street` layer's topmost "
+"symbol layer:"
+msgstr ""
+"ubah jenis simbol *layer* paling atas untuk **layer** :guilabel:`street`:"
 
 # 594a9ceb5fbf41fe869070d9da244ca0
 #: ../../basic_map/symbology.rst:348
@@ -835,11 +885,12 @@ msgstr ""
 
 # 16d6539f1140461caebbfa13f2f1dc2c
 #: ../../basic_map/symbology.rst:361
+#, fuzzy
 msgid ""
 "Once you have applied the style, take a look at its results on the map. As "
 "you can see, these symbols change direction along with the road but don't "
 "always bend along with it. This is useful for some purposes, but not for "
-"others. If you prefer, you can change the symbol *layer* in question back to "
+"others. If you prefer, you can change the symbol layer in question back to "
 "the way it was before."
 msgstr ""
 "Setelah Anda menerapkan jenisnya, lihat hasilnya di peta. Seperti yang Anda "
@@ -851,7 +902,8 @@ msgstr ""
 
 # ef4d76d6e1b94d4ca955ae7abbcdc08c
 #: ../../basic_map/symbology.rst:368
-msgid "Polygon symbol *layer* types"
+#, fuzzy
+msgid "Polygon symbol layer types"
 msgstr "Jenis-jenis *layer* simbol Polygon"
 
 # ca09e0e6135e4ddab462305a8391a853
@@ -861,12 +913,13 @@ msgstr "Untuk melihat berbagai pilihan yang tersedia untuk data poligon:"
 
 # 182e3f1562b24775bc571f98fc51a1ab
 #: ../../basic_map/symbology.rst:372
+#, fuzzy
 msgid ""
-"Change the symbol *layer* type for the :guilabel:`urban` *layer*, as before for "
-"the other *layer*s."
+"Change the symbol layer type for the :guilabel:`urban` layer, as before for "
+"the other layers."
 msgstr ""
-"Ubah jenis simbol *layer* untuk **layer** :guilabel:`urban`, menggunakan metode "
-"yang telah dipelajari sebelumnya. "
+"Ubah jenis simbol *layer* untuk **layer** :guilabel:`urban`, menggunakan "
+"metode yang telah dipelajari sebelumnya. "
 
 # 5c98ec563b18465780b790a00770d535
 #: ../../basic_map/symbology.rst:374
@@ -889,7 +942,8 @@ msgstr ""
 
 # 4280cc7ebea34c66a0222c3d4b9864c3
 #: ../../basic_map/symbology.rst:385
-msgid "Add a new symbol *layer* with a normal :guilabel:`Simple fill`."
+#, fuzzy
+msgid "Add a new symbol layer with a normal :guilabel:`Simple fill`."
 msgstr "Tambahkan simbol *layer* baru dengan mengisi  :guilabel:`Simple fill`."
 
 # 77be0a94f1d04698bf2bf2ef9b5716ea
@@ -899,8 +953,9 @@ msgstr "Buatlah simbol tersebut menjadi abu-abu tanpa garis tepi."
 
 # 96761b2b63564905925fd1cbbe3b864c
 #: ../../basic_map/symbology.rst:387
+#, fuzzy
 msgid ""
-"Move it underneath the point pattern symbol *layer* with the :guilabel:`Move "
+"Move it underneath the point pattern symbol layer with the :guilabel:`Move "
 "down` button:"
 msgstr ""
 "Pindahkan ke bawah simbol *layer* pola titik dengan tombol :guilabel:`Move "
@@ -908,14 +963,15 @@ msgstr ""
 
 # cdfdf1d1584546769975d7d29b6df3b3
 #: ../../basic_map/symbology.rst:393
+#, fuzzy
 msgid ""
-"As a result, you have a textured symbol for the urban *layer*, with the added "
+"As a result, you have a textured symbol for the urban layer, with the added "
 "benefit that you can change the size, shape and distance of the individual "
 "dots that make up the texture."
 msgstr ""
-"Sebagai hasilnya, Anda akan memiliki simbol bertekstur untuk **layer**  urban. "
-"Anda dapat mengubah ukuran, bentuk dan jarak dari titik-titik individu yang "
-"membentuk tekstur."
+"Sebagai hasilnya, Anda akan memiliki simbol bertekstur untuk **layer**  "
+"urban. Anda dapat mengubah ukuran, bentuk dan jarak dari titik-titik "
+"individu yang membentuk tekstur."
 
 # 1883bbf630d64e5f873c78de8454e886
 #: ../../basic_map/symbology.rst:398
@@ -1054,11 +1110,11 @@ msgstr ""
 # 5029bb2291904d72951189297fa2d19d
 #: ../../basic_map/symbology.rst:458
 msgid ""
-"Save it under the directory that the course is in, under "
-":kbd:`exercise_data/symbols`, as an SVG file."
+"Save it under the directory that the course is in, under :kbd:`exercise_data/"
+"symbols`, as an SVG file."
 msgstr ""
-"Simpan di dalam direktori yang di dalamnya terdapat  latihan, di dalam "
-":kbd:`exercise_data/symbols`, sebagai file SVG."
+"Simpan di dalam direktori yang di dalamnya terdapat  latihan, di dalam :kbd:"
+"`exercise_data/symbols`, sebagai file SVG."
 
 # 5d77ecb2d2184efd81f22ba501aac91f
 #: ../../basic_map/symbology.rst:461
@@ -1067,7 +1123,8 @@ msgstr "Dalam QGIS:"
 
 # 375b9b7692bb4379b56f0e3857c84945
 #: ../../basic_map/symbology.rst:463
-msgid "Open the :guilabel:`*layer* Properties` for the :guilabel:`rural` *layer*."
+#, fuzzy
+msgid "Open the :guilabel:`Layer Properties` for the :guilabel:`rural` layer."
 msgstr "Buka :guilabel:`*layer* Properties` untuk **layer** :guilabel:`rural`."
 
 # 0cb3e230a18c48e294d123677feed0a4
@@ -1087,10 +1144,11 @@ msgstr "Ubah pengaturan seperti yang ditunjukkan oleh kotak dialog berikut:"
 
 # e03972894a984c5a98bc06743efe115c
 #: ../../basic_map/symbology.rst:479
-msgid "Your rural *layer* should now have a texture like the one on this map:"
+#, fuzzy
+msgid "Your rural layer should now have a texture like the one on this map:"
 msgstr ""
-"**layer**  rural Anda sekarang harus memiliki tekstur seperti yang ada di peta "
-"ini:"
+"**layer**  rural Anda sekarang harus memiliki tekstur seperti yang ada di "
+"peta ini:"
 
 # 237c01e3b9e74fe09b4d2ee6b6a6f74c
 # 02c584ae179b44f194803dcc8e870517
@@ -1100,13 +1158,14 @@ msgstr "Kesimpulan"
 
 # e1c5bcc07e044f1ca30832d3b7f2b557
 #: ../../basic_map/symbology.rst:487
+#, fuzzy
 msgid ""
-"Changing the symbology for the different *layer*s has transformed a collection "
+"Changing the symbology for the different layers has transformed a collection "
 "of vector files into a legible map. Not only can you see what's happening, "
 "it's even nice to look at!"
 msgstr ""
-"Mengubah simbologi untuk *layer* yang berbeda telah ditransformasi sekumpulan "
-"file vektor ke dalam peta yang terbaca!"
+"Mengubah simbologi untuk *layer* yang berbeda telah ditransformasi "
+"sekumpulan file vektor ke dalam peta yang terbaca!"
 
 # e70efe4bf0f2428c9aba41ae6255ee4c
 #: ../../basic_map/symbology.rst:492
@@ -1116,11 +1175,11 @@ msgstr "Bacaan lebih lanjut"
 # e0bbbb63f07749e0aebf954c0a91cdab
 #: ../../basic_map/symbology.rst:494
 msgid ""
-"`Examples of Beautiful Maps "
-"<http://gis.stackexchange.com/questions/3083/examples-of-beautiful-maps>`_"
+"`Examples of Beautiful Maps <http://gis.stackexchange.com/questions/3083/"
+"examples-of-beautiful-maps>`_"
 msgstr ""
-"Contoh peta-peta yang indah dapat dilihat di "
-"http://gis.stackexchange.com/questions/3083/examples-of-beautiful-maps"
+"Contoh peta-peta yang indah dapat dilihat di http://gis.stackexchange.com/"
+"questions/3083/examples-of-beautiful-maps"
 
 # e88871878e21479480a0614b0441ecaf
 # a7da21b94bda41d8a952deb2dfa4e901
@@ -1130,20 +1189,22 @@ msgstr "Apa selanjutnya?"
 
 # ad5fda4cf1ea4566b8234af82fcea611
 #: ../../basic_map/symbology.rst:499
+#, fuzzy
 msgid ""
-"Changing symbols for whole *layer*s is useful, but the information contained "
-"within each *layer* is not yet available to someone reading these maps. What "
+"Changing symbols for whole layers is useful, but the information contained "
+"within each layer is not yet available to someone reading these maps. What "
 "are the streets called? Which administrative regions do certain areas belong "
 "to? What are the relative surface areas of the farms? All of this "
 "information is still hidden. The next lesson will explain how to represent "
 "this data on your map."
 msgstr ""
 "Mengubah simbol untuk seluruh **layer**  berguna, tapi informasi yang "
-"terkandung dalam setiap **layer** belum tersedia untuk seseorang yang membaca "
-"peta ini. Apa yang disebut *streets*? Wilayah administratif mana yang masuk "
-"ke dalam daerah tertentu? Apa saja bidang permukaan yang relatif terhadap "
-"peternakan? Semua informasi ini masih tersembunyi. Pelajaran berikutnya akan "
-"menjelaskan bagaimana untuk merepresentasikan data ini pada peta Anda."
+"terkandung dalam setiap **layer** belum tersedia untuk seseorang yang "
+"membaca peta ini. Apa yang disebut *streets*? Wilayah administratif mana "
+"yang masuk ke dalam daerah tertentu? Apa saja bidang permukaan yang relatif "
+"terhadap peternakan? Semua informasi ini masih tersembunyi. Pelajaran "
+"berikutnya akan menjelaskan bagaimana untuk merepresentasikan data ini pada "
+"peta Anda."
 
 # eb28d220ba2642f3b5bcf2d42b2cfda5
 #: ../../basic_map/symbology.rst:506
@@ -1157,10 +1218,11 @@ msgstr "Pelajaran: Bekerja dengan Data Vektor"
 
 # b82116beab1d4e029a766062d1b41a2a
 #: ../../basic_map/vector_data.rst:4
+#, fuzzy
 msgid ""
 "Vector data is arguably the most common kind of data you will find in the "
 "daily use of GIS. It describes geographic data in terms of points, that may "
-"be connected into lines and polygons. Every object in a vector *dataset* is "
+"be connected into lines and polygons. Every object in a vector dataset is "
 "called a **feature**, and is associated with data that describes that "
 "feature."
 msgstr ""
@@ -1172,16 +1234,18 @@ msgstr ""
 
 # 82cf6ae442824180a4533a60ac2fc3e6
 #: ../../basic_map/vector_data.rst:9
+#, fuzzy
 msgid ""
 "**The goal for this lesson:** To learn about the structure of vector data, "
-"and how to load vector *dataset*s into a map."
+"and how to load vector datasets into a map."
 msgstr ""
 "**Tujuan dari pelajaran ini:** mempelajari tentang struktur data vektor, dan "
 "cara memuat *dataset* vektor menjadi sebuah peta."
 
 # edfd802fc4b8490393659fb5ecb945ca
 #: ../../basic_map/vector_data.rst:13
-msgid "|basic| |FA| Viewing *layer* attributes"
+#, fuzzy
+msgid "|basic| |FA| Viewing layer attributes"
 msgstr "|basic| Ikuti bersama: Menampilkan atribut *layer*"
 
 # 8573fa07fa814c3f83cdfd2e1def8667
@@ -1197,8 +1261,9 @@ msgstr ""
 
 # e5a63032f30b4ebd9ff56b92371e4f2a
 #: ../../basic_map/vector_data.rst:19
+#, fuzzy
 msgid ""
-"From the previous exercise, you should have the :guilabel:`streets` *layer* "
+"From the previous exercise, you should have the :guilabel:`streets` layer "
 "loaded in your map. What you can see right now is merely the position of the "
 "roads."
 msgstr ""
@@ -1218,15 +1283,16 @@ msgstr "Klik pada tombol ini:"
 
 # 5b6695b4049843d3a8e26c2875de913e
 #: ../../basic_map/vector_data.rst:31
+#, fuzzy
 msgid ""
-"It will show you a table with more data about the :guilabel:`streets` *layer*. "
+"It will show you a table with more data about the :guilabel:`streets` layer. "
 "This extra data is called *attribute data*. The lines that you can see on "
 "your map represent where the streets go; this is the *spatial data*."
 msgstr ""
 "Klik tombol tersebut untuk menampilkan sebuah tabel dengan data atribut "
-"*layer* :guilabel:`streets`. Data tambahan ini disebut dengan *data atribut*. "
-"Garis yang dapat Anda lihat di peta merepresentasikan di mana jalan itu "
-"mengarah; inilah *data spasial*."
+"*layer* :guilabel:`streets`. Data tambahan ini disebut dengan *data "
+"atribut*. Garis yang dapat Anda lihat di peta merepresentasikan di mana "
+"jalan itu mengarah; inilah *data spasial*."
 
 # 101d42d9d44b42a48436a1e738f6ecdd
 #: ../../basic_map/vector_data.rst:35
@@ -1260,31 +1326,35 @@ msgstr "|basic| Ikuti bersama: Menampilkan data vektor dari *shapefiles*"
 
 # 4cceebe8b3944290ad1135125871652c
 #: ../../basic_map/vector_data.rst:49
+#, fuzzy
 msgid ""
 "The Shapefile is a specific file format that allows you to store GIS data in "
-"an associated group of files. Each *layer* consists of several files with the "
+"an associated group of files. Each layer consists of several files with the "
 "same name, but different file types. Shapefiles are easy to send back and "
 "forth, and most GIS software can read them."
 msgstr ""
 "*Shapefile* adalah format file yang memungkinkan Anda untuk menyimpan data "
-"SIG dalam sekelompok file yang berhubungan. Setiap *layer* *shapefile* terdiri "
-"atas beberapa file dengan nama yang sama, tetapi dengan jenis file yang "
-"berbeda. *Shapefile* dapat dengan mudah untuk dikonversi ke berbagai format, "
-"dan sebagian besar perangkat lunak SIG dapat membacanya."
+"SIG dalam sekelompok file yang berhubungan. Setiap *layer* *shapefile* "
+"terdiri atas beberapa file dengan nama yang sama, tetapi dengan jenis file "
+"yang berbeda. *Shapefile* dapat dengan mudah untuk dikonversi ke berbagai "
+"format, dan sebagian besar perangkat lunak SIG dapat membacanya."
 
 # e73f7fe0edd44d738e9e5caf18ab24d5
 #: ../../basic_map/vector_data.rst:54
+#, fuzzy
 msgid ""
 "Refer back to the introductory exercise in the previous section for "
-"instructions on how to add vector *layer*s."
+"instructions on how to add vector layers."
 msgstr ""
 "Lihat kembali latihan pengantar dalam bagian sebelumnya untuk instruksi "
 "bagaimana menambahkan **layer** vektor. "
 
 # 8c2e1171582b4eb89fe361a9f13e528c
 #: ../../basic_map/vector_data.rst:57
-msgid "Load the \"places\" *dataset* into your map following the same method."
-msgstr "Tambahkan **dataset** \"places\" ke dalam peta Anda dengan cara yang sama."
+#, fuzzy
+msgid "Load the \"places\" dataset into your map following the same method."
+msgstr ""
+"Tambahkan **dataset** \"places\" ke dalam peta Anda dengan cara yang sama."
 
 # dc5adca22e054d409dcd097c6faba6cb
 #: ../../basic_map/vector_data.rst:59
@@ -1301,9 +1371,9 @@ msgstr "|basic| Ikuti bersama: Memuat data vektor dari *database*"
 msgid ""
 "Databases allow you to store a large volume of associated data in one file. "
 "You may already be familiar with a database management system (DBMS) such as "
-"Microsoft Access. GIS applications can also make use of databases. "
-"GIS-specific DBMSes (such as PostGIS) have extra functions, because they "
-"need to handle spatial data."
+"Microsoft Access. GIS applications can also make use of databases. GIS-"
+"specific DBMSes (such as PostGIS) have extra functions, because they need to "
+"handle spatial data."
 msgstr ""
 "Database memungkinkan Anda untuk menyimpan data yang saling berhubungan "
 "dalam jumlah besar pada sebuah file. Anda mungkin sudah akrab dengan Sistem "
@@ -1319,12 +1389,13 @@ msgstr "Cari ikon ini di QGIS:"
 
 # 4937e4164f6f45bbb24faafa657cf563
 #: ../../basic_map/vector_data.rst:78
+#, fuzzy
 msgid ""
 "(If you're sure you can't see it at all, check that the :guilabel:`Manage "
-"*layer*s` toolbar is enabled.)"
+"Layers` toolbar is enabled.)"
 msgstr ""
-"(Jika Anda Anda tidak bisa menemukannya, periksa bahwa toolbar  "
-":guilabel:`Manage *layer*s` sudah diaktifkan.) "
+"(Jika Anda Anda tidak bisa menemukannya, periksa bahwa toolbar  :guilabel:"
+"`Manage *layer*s` sudah diaktifkan.) "
 
 # 046e21f361244e019535402999bcbeff
 #: ../../basic_map/vector_data.rst:81
@@ -1339,11 +1410,11 @@ msgstr "Pada kotak dialog ini, klik tombol :guilabel:`New`."
 # 73c63e588fed4c2b9e951b16f212e4f1
 #: ../../basic_map/vector_data.rst:84
 msgid ""
-"In the same folder as the other data, you should find the file "
-":guilabel:`land_use.db`. Select it and click :guilabel:`Open`."
+"In the same folder as the other data, you should find the file :guilabel:"
+"`land_use.db`. Select it and click :guilabel:`Open`."
 msgstr ""
-"Dalam folder yang sama dengan data lain, carilah file "
-":guilabel:`land_use.db`. Pilih file tersebut dan klik  :guilabel:`Open`."
+"Dalam folder yang sama dengan data lain, carilah file :guilabel:`land_use."
+"db`. Pilih file tersebut dan klik  :guilabel:`Open`."
 
 # ae04fd4bb72d455dbc08d53770725268
 #: ../../basic_map/vector_data.rst:87
@@ -1353,8 +1424,8 @@ msgid ""
 "of the database file on your computer."
 msgstr ""
 "Anda sekarang akan melihat lagi kotak dialog yang pertama. Perhatikan bahwa "
-"pilihan dropdown di atas tiga tombol sekarang berisi \"land_use.db@...\", diikuti"
-"oleh path dari file *database* pada komputer Anda. "
+"pilihan dropdown di atas tiga tombol sekarang berisi \"land_use.db@...\", "
+"diikutioleh path dari file *database* pada komputer Anda. "
 
 # 7ba9402ee20a41f0a8fd053e033df72f
 #: ../../basic_map/vector_data.rst:91
@@ -1367,25 +1438,29 @@ msgstr ""
 
 # 1f7c119aa20745b8ba0f86394e269ee4
 #: ../../basic_map/vector_data.rst:97
+#, fuzzy
 msgid ""
-"Click on the first *layer* to select it, then use :kbd:`shift+click` to select "
+"Click on the first layer to select it, then use :kbd:`shift+click` to select "
 "all of them at once."
 msgstr ""
-"Klik pada *layer* pertama untuk memilihnya, kemudian gunakan  "
-":kbd:`shift+click` untuk memilih semuanya sekaligus."
+"Klik pada *layer* pertama untuk memilihnya, kemudian gunakan  :kbd:`shift"
+"+click` untuk memilih semuanya sekaligus."
 
 # 0eb96a0857134a979b6f7388125dbf08
 #: ../../basic_map/vector_data.rst:99
+#, fuzzy
 msgid ""
-"Click :guilabel:`Add`. This will add all three *layer*s to the map at once."
+"Click :guilabel:`Add`. This will add all three layers to the map at once."
 msgstr ""
-"Klik  :guilabel:`Add`. Ini akan menambahkan ketiga *layer* tersebut sekaligus."
+"Klik  :guilabel:`Add`. Ini akan menambahkan ketiga *layer* tersebut "
+"sekaligus."
 
 # 5ad3c907d82b44ba94950a26b95fb52b
 #: ../../basic_map/vector_data.rst:101
+#, fuzzy
 msgid ""
 "Remember to save the map often! The map file doesn't contain any of the data "
-"directly, but it remembers which *layer*s you loaded into your map."
+"directly, but it remembers which layers you loaded into your map."
 msgstr ""
 "Ingatlah untuk sering-sering menyimpan peta Anda! File peta tidak akan "
 "berisi data apapun secara langsung, tetapi ia akan mengingat *layer*-*layer* "
@@ -1398,30 +1473,33 @@ msgstr ":ref:`Periksa hasil Anda <vector-load-from-database-1>`"
 
 # 2f71a17c74ee4ec6ace25303228e0897
 #: ../../basic_map/vector_data.rst:108
-msgid "|FA| Reordering the *layer*s"
+#, fuzzy
+msgid "|FA| Reordering the layers"
 msgstr "Ikuti bersama: Pengubahan Urutan *layer*"
 
 # 03ee975a8c30415ca7c08ffca3f6983d
 #: ../../basic_map/vector_data.rst:110
+#, fuzzy
 msgid ""
-"The *layer*s in your *layer*s list are drawn on the map in a certain order. The "
-"*layer* at the bottom of the list is drawn first, and the *layer* at the top is "
+"The layers in your Layers list are drawn on the map in a certain order. The "
+"layer at the bottom of the list is drawn first, and the layer at the top is "
 "drawn last. By changing the order that they are shown on the list, you can "
 "change the order they are drawn in."
 msgstr ""
-"**layer*-*layer** pada daftar **layer** Anda digambarkan pada peta sesuai dengan "
-"urutan tertentu. **layer** di bagian daftar bawah digambarkan lebih dulu, dan "
-"**layer** pada bagian daftar paling atas digambarkan terakhir. Dengan mengubah "
-"urutan yang ditampilkan pada daftar, Anda dapat mengubah urutan **layer** yang "
-"ditampilkan."
+"**layer*-*layer** pada daftar **layer** Anda digambarkan pada peta sesuai "
+"dengan urutan tertentu. **layer** di bagian daftar bawah digambarkan lebih "
+"dulu, dan **layer** pada bagian daftar paling atas digambarkan terakhir. "
+"Dengan mengubah urutan yang ditampilkan pada daftar, Anda dapat mengubah "
+"urutan **layer** yang ditampilkan."
 
 # 483e7abaeb21465f9b58ca24c05258b8
 #: ../../basic_map/vector_data.rst:115
+#, fuzzy
 msgid ""
 "Depending on the version of QGIS that you are using, you may have a checkbox "
-"beneath your *layer*s list reading :guilabel:`Control rendering order`. This "
-"must be checked (switched on) so that moving the *layer*s up and down in the "
-"*layer*s list will bring them to the front or send them to the back in the "
+"beneath your Layers list reading :guilabel:`Control rendering order`. This "
+"must be checked (switched on) so that moving the layers up and down in the "
+"Layers list will bring them to the front or send them to the back in the "
 "map. If your version of QGIS doesn't have this option, then it is switched "
 "on by default and you don't need to worry about it."
 msgstr ""
@@ -1433,10 +1511,11 @@ msgstr ""
 
 # f4db23299f3548839e3a1c95e311400f
 #: ../../basic_map/vector_data.rst:122
+#, fuzzy
 msgid ""
-"The order in which the *layer*s have been loaded into the map is probably not "
-"logical at this stage. It's possible that the road *layer* is completely "
-"hidden because other *layer*s are on top of it."
+"The order in which the layers have been loaded into the map is probably not "
+"logical at this stage. It's possible that the road layer is completely "
+"hidden because other layers are on top of it."
 msgstr ""
 "Urutan dari *layer* yang telah dimuat ke dalam peta mungkin tidak logis pada "
 "tahap ini. Ada kemungkinan bahwa *layer* jalan tersembunyi seluruhnya karena "
@@ -1444,7 +1523,8 @@ msgstr ""
 
 # 417a65205b354a03a99e080ecc197c66
 #: ../../basic_map/vector_data.rst:126
-msgid "For example, this *layer* order..."
+#, fuzzy
+msgid "For example, this layer order..."
 msgstr "Sebagai contoh, urutan **layer**  ini..."
 
 # 4e0ce2e7fea44bc9a29f0378190b1851
@@ -1453,9 +1533,9 @@ msgid ""
 "... would result in roads and places being hidden as they run *underneath* "
 "urban areas."
 msgstr ""
-"... akan mengakibatkan *layer*-*layer* jalan (*Streets*) dan titik-titik lokasi "
-"(*Places*) menjadi tersembunyi ketika mereka berada di bawah *layer* wilayah "
-"perkotaan (*Urban*)."
+"... akan mengakibatkan *layer*-*layer* jalan (*Streets*) dan titik-titik "
+"lokasi (*Places*) menjadi tersembunyi ketika mereka berada di bawah *layer* "
+"wilayah perkotaan (*Urban*)."
 
 # 8d580efcf5d34c8e93054638bfb6f1fe
 #: ../../basic_map/vector_data.rst:134
@@ -1464,7 +1544,8 @@ msgstr "Untuk mengatasi masalah ini:"
 
 # 54238d91b13747268c6d89cec6fc53a4
 #: ../../basic_map/vector_data.rst:136
-msgid "Click and drag on a *layer* in the *layer*s list."
+#, fuzzy
+msgid "Click and drag on a layer in the Layers list."
 msgstr "klik dan drag pada *layer* dalam daftar **layer**. "
 
 # 41fb75eef1724ca4b154b9064e070cdc
@@ -1474,16 +1555,18 @@ msgstr "Susun ulang sehingga terlihat seperti ini:"
 
 # 37aed49ed6f348d69af8a4f9825f5c1e
 #: ../../basic_map/vector_data.rst:145
+#, fuzzy
 msgid ""
-"Now you've added all the *layer*s you need from several different sources."
+"Now you've added all the layers you need from several different sources."
 msgstr ""
 "Sekarang Anda telah menambahkan semua **layer** yang Anda butuhkan dari "
 "beberapa sumber yang berbeda."
 
 # 17074584efab44418947e89e2e1c6407
 #: ../../basic_map/vector_data.rst:150
+#, fuzzy
 msgid ""
-"Using the random palette automatically assigned when loading the *layer*s, "
+"Using the random palette automatically assigned when loading the layers, "
 "your current map is probably not easy to read. It would be preferable to "
 "assign your own choice of colors and symbols. This is what you'll learn to "
 "do in the next lesson."
