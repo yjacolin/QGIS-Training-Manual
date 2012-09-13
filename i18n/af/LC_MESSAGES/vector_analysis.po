@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-13 11:27\n"
+"POT-Creation-Date: 2012-09-13 00:01\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1094,7 +1094,7 @@ msgstr ""
 msgid "Add a new column:"
 msgstr ""
 
-# f84f8b73549f413db63d33f80e3e0002
+# f3b27e3b26fd43e485b6a7eb9dd6a78e
 #: ../../vector_analysis/network_analysis.rst:126
 msgid ""
 "Call this new column :kbd:`SPEED`, and give it the type :guilabel:`Whole "
@@ -1153,7 +1153,7 @@ msgstr ""
 msgid "Close the attribute table, save your edits, and exit edit mode."
 msgstr ""
 
-# 90343896e19645ec90506735c27ea9a1
+# 1fe2a0af2e6e4a3fad5dec795339742e
 #: ../../vector_analysis/network_analysis.rst:158
 msgid ""
 "Check the :menuselection:`Vector --> Road graph --> Road graph settings` to "
