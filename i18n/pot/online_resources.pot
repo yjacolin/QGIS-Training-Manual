@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-12 00:01\n"
+"POT-Creation-Date: 2012-09-13 11:27\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,508 +17,508 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../online_resources/index.rst:3
-# 76e892e2fcfd4fc8a5592c3e10112c12
+# 41a3e5473a754e35839d1cec7803ac06
 msgid "|MOD| Online Resources"
 msgstr ""
 
 #: ../../online_resources/index.rst:5
-# 9ad45efceff84c2292a7823c275fc36c
+# b1063f35f8b744d489ef3044ff4a2d11
 msgid "When considering data sources for a map, there is no need to be restricted by data you need to download onto the computer you're working on. There are online data sources that you can load data from as long as you are connected to the Internet."
 msgstr ""
 
 #: ../../online_resources/index.rst:10
-# 71403c4729c64019b0de63246275802c
+# 0be5b0c44a944c1da709a9c6352ae876
 msgid "In this module, we'll cover two kinds of web-based GIS services: Web Mapping Services (WMS) and Web Feature Services (WFS)."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:2
-# 65577f05d2284e59a268515dea135073
+# 49fe022c349d49a7800800a1a4c88b69
 msgid "|LS| Web Feature Services"
 msgstr ""
 
 #: ../../online_resources/wfs.rst:4
-# ec197df8e66441fa95849847bf93a531
+# 7bb49bf640c346889dd80cf90501d4c4
 msgid "A Web Feature Service (WFS) provides its users with GIS data in formats that can be loaded directly in QGIS. Unlike a WMS, which provides you only with a map which you can't edit, a WFS gives you access to the features themselves."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:8
-# 5d4635146e8241a9a313ebbe28287daf
+# 30a1d204b9c7452d86ddaf0abc631f6f
 msgid "**The goal for this lesson:** To use a WFS and understand how it differs from a WMS."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:12
-# 17c8290112f145f1bc79bda02cd37e74
+# b41dca5ffb56406c96a949c4f55b925f
 msgid "|basic| |FA| Loading a WFS Layer"
 msgstr ""
 
 #: ../../online_resources/wfs.rst:14
-# d05590037f05401981a08bc129e94a3c
+# 178ae00b39b14a43a4f207c4f9affc46
 msgid "Start a new map. This is for demo purposes and won't be saved."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:15
-# ce48c1849786439698b4b82bf3c159b2
+# c28e06008728454da5471f419a46e035
 msgid "Ensure that \"on the fly\" reprojection is switched off."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:16
-# feeb65bc16104373abd060f1b608203c
+# a7f21fe6451649a395d2b1401194ecdc
 msgid "Click the :guilabel:`Add WFS Layer` button:"
 msgstr ""
 
 #: ../../online_resources/wfs.rst:21
-# 640e53246c7c4e2d97918c0fafdbebf2
+# 957d15fe16b04f28ad444163f1a4bd85
 msgid "Click the :guilabel:`New` button."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:22
-# 6f91cc9959e44822a1da9fcf357902b9
+# 42526808723945c3a3c35544e04439ca
 msgid "In the dialog that appears, enter the :guilabel:`Name` as :kbd:`nsidc.org` and the :guilabel:`URL` as :kbd:`http://nsidc.org/cgi-bin/atlas_south?version=1.1.0`."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:29
-# 6473f65b1bfb4cefb985c37b8c46e426
+# 4463fd4223e949d7915271722bcdb6c8
 msgid "Click :guilabel:`OK`, and the new connection will appear in your :guilabel:`Server connections`."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:31
-# 6b7ea217b504411e8e47f718ce1126d7
+# 62b5732e4af241a0aa53aa8859bbf3ff
 msgid "Click the :guilabel:`Connect`. A list of the available layers will appear:"
 msgstr ""
 
 #: ../../online_resources/wfs.rst:36
-# 301b351e5d0f45179373adf8ed9002d1
+# e8c88185e14448f6b074d36619971357
 msgid "Find the layer :guilabel:`south_poles_wfs`."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:37
-# 38b84538495447e9be7aa1e15aaad295
+# cb5817e1f2ac4b36934671a5517f183c
 msgid "Click on the layer to select it:"
 msgstr ""
 
 #: ../../online_resources/wfs.rst:42
-# d16ffa41cd0c4d70a6dacd1f676ecd91
+# 0eb84a89815942a28a7b614e041fe371
 msgid "Click :guilabel:`Apply`."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:44
-# f4af991d23564ee6b8ad97933b14225f
+# 4b8cb90458cd44769d77e08ae4329708
 msgid "It may take a while to load the layer. When it has loaded, it will appear in the map. Here it is over the outlines of Antarctica (available on the same server, and by the name of :guilabel:`antarctica_country_border`):"
 msgstr ""
 
 #: ../../online_resources/wfs.rst:51
-# 95e9a70f52fe4b2797bce4406b208547
+# 65364af895e14f7dafaf432aa8acd419
 msgid "How is this different from having a WMS layer? That will become obvious when you see the layers' attributes."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:54
-# e382e45669bc4d34b5a17a7226a6a3d7
+# 279d1e6f15414911acbeb43ae80ab1e7
 msgid "Open the :guilabel:`south_poles_wfs` layer's attribute table. You should see this:"
 msgstr ""
 
 #: ../../online_resources/wfs.rst:60
-# e64678d28e6643798179d891936aa752
+# 26f2172fa6e34fd8a89922d25169cc7b
 msgid "Since the points have attributes, doesn't that mean we can label them? Yes we can, as well as changing their symbology. Here's an example:"
 msgstr ""
 
 #: ../../online_resources/wfs.rst:66
-# 02c2f1c2c829439e8c251e2cf11c9a47
+# fc25c5416a3d441d9b855a937d3daad2
 msgid "Add labels to your layer to take advantage of the attribute data in this layer."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:70
-# 6e8a7d64a61444868e549411f64b7da5
+# c985627df8714262bfe97356cbb3b7a5
 msgid "Differences from WMS layers"
 msgstr ""
 
 #: ../../online_resources/wfs.rst:72
-# 07f5bd7ccaa24638ae29ecd21d80382b
+# aacfdf8930534e7b8e7565f03d20de7e
 msgid "A Web Feature Service returns the layer itself, not just a map rendered from it. This gives you direct access to the data, meaning that you can change ts symbology and run analysis functions on it. However, this is at the cost of much more data being transmitted. This will be especially obvious if the layers you're loading have complicated shapes, a lot of attributes, or many features; or even if you're just loading a lot of layers. WFS layers typically take a very long time to load because of this."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:81
-# 7f46fac1196e4d1b90a5d2b739b4e677
+# 98b9564d007f481daf5f0ed55ad06a45
 msgid "|moderate| |FA| Querying a WFS Layer"
 msgstr ""
 
 #: ../../online_resources/wfs.rst:83
-# ec6d3af3b8ff464e9ce1270b55507907
+# 8a6c19a17cf140d4a9070c3997e7ca0c
 msgid "Although it is, of course, possible to query a WFS layer after having loaded it, it's often more efficient to query it before you load it. That way, you're only requesting the features you want, meaning that you use far less bandwidth."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:87
-# 74149779c316456695d3814a74b98a21
+# e5e0c5949dcb4f96ad4ba1a5ed70ad5e
 msgid "For example, on the WFS server we're currently using, there is a layer called :guilabel:`countries (excluding Antarctica)`. Let's say that we want to know where South Africa is relative to the :guilabel:`south_poles_wfs` layer (and perhaps also the :guilabel:`antarctica_country_border` layer) that's already been loaded."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:93
-# cd1485b04a534eada7c89fc59c6606ac
+# 2441b10560884544a61f4f43265d3443
 msgid "There are two ways to do this. You can load the whole :guilabel:`countries ...` layer, and then build a query as usual once it's loaded. However, transmitting the data for all the countries in the world and then only using the data for South Africa seems a bit wasteful of bandwidth. Depending on your connection, this dataset can take several minutes to load."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:99
-# 789080bae7f943f383491aad39d24b6a
+# 65e38ea7f8b64f51b46654a548930431
 msgid "The alternative is to build the query as a filter before even loading the layer from the server."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:102
-# 7df1efe0a7b645e3a12eefd824741b28
+# 7979fd3144334567ae7b744d5831faed
 msgid "In the :guilabel:`Add WFS Layer ...` dialog, connect to the server we used before and you should see the list of available layers."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:104
-# 714baede18454c3a8fd7432e43bd3335
+# 37a04b2de0f243339476ac0ce1efe97d
 msgid "Double-click next to the :guilabel:`countries ...` layer in the :guilabel:`Filter` field:"
 msgstr ""
 
 #: ../../online_resources/wfs.rst:110
-# adfa4312d8014e2b91220c351ac1766f
+# 581a3407dabc4d0c828bab3c6701edba
 msgid "In the dialog that appears, build the query :kbd:`\"Countryeng\" = 'South Africa'`:"
 msgstr ""
 
 #: ../../online_resources/wfs.rst:116
-# 45dbd15122bc438cb0f75b2788cef80a
+# 602c887dd5324d178322955de5cef6c1
 msgid "It will appear as the :guilabel:`Filter` value:"
 msgstr ""
 
 #: ../../online_resources/wfs.rst:121
-# bab34d1cafd2422f8327697061064972
+# 0862ad37b78746d98cb953ea5b8d1653
 msgid "Click :guilabel:`Apply` with the :guilabel:`countries` layer selected as above. Only the country with the :kbd:`Countryeng` value of :kbd:`South Africa` will load from that layer:"
 msgstr ""
 
 #: ../../online_resources/wfs.rst:128
-# e7ef0d6ebe3448a093777c792f1e0bd6
+# f4db1bf19ea44495baa3db998558b521
 msgid "You don't have to, but if you tried both methods, you'll notice that this is a lot faster than loading all the countries before filtering them!"
 msgstr ""
 
 #: ../../online_resources/wfs.rst:132
-# 7f27d90a7c3e4d6684f36d8ae8b02bcc
+# f9f0a75c72ff402fa00402a0b01d2525
 msgid "Notes on WFS availability"
 msgstr ""
 
 #: ../../online_resources/wfs.rst:134
-# 705e8e8f8b4c4c91a02218ce7ec80471
+# ccd18efd56b54b6b8ed63523c70ad4ac
 msgid "It is rare to find a WFS hosting features you need, if your needs are very specific. The reason why Web Feature Services are relatively rare is because of the large amounts of data that must be transmitted to describe a whole feature. It is therefore not very cost-effective to host a WFS rather than a WMS, which sends only images."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:140
-# fa07bb807e0842b18d634f5f977410dd
+# 929380e8639d450ea62e291e9d84be07
 msgid "The most common type of WFS you'll encounter will therefore probably be on a local network or even on your own computer, rather than on the Internet."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:144
 #: ../../online_resources/wms.rst:192
-# 278adcc76d544134a44a9e4c5b3912d6
-# 10767acbbf064cb881435aaf6aeb9936
+# 770b775677754c90a74995527a3362e3
+# 1320f4fbeb3045e09a340ccca017f276
 msgid "|IC|"
 msgstr ""
 
 #: ../../online_resources/wfs.rst:146
-# 3963d1dd0ac648c7ae2d42940a930018
+# 7f8018f1800d49deb8340cf1a7a14a9c
 msgid "WFS layers are preferable over WMS layers if you need direct access to the attributes and geometries of the layers. However, considering the amount of data that needs to be downloaded (which leads to speed problems and also a lack of easily available public WFS servers) it's not always possible to use a WFS instead of a WMS."
 msgstr ""
 
 #: ../../online_resources/wfs.rst:153
 #: ../../online_resources/wms.rst:205
-# b3bcebf5f2264960ba239e323b19d011
-# cee231ffdff94025b3d9a501d3da0a05
+# b78b5b7f3fe24db38d9ffc412987ecec
+# 111488a5b92b443292b41bd737d6650f
 msgid "|WN|"
 msgstr ""
 
 #: ../../online_resources/wfs.rst:155
-# a43762a3b7ba48fe84c83a1aad9eaaea
+# 76d618c01ea54b1e9d1283ff83b2253c
 msgid "Next, you'll see how to use QGIS as a frontend for the famous GRASS GIS."
 msgstr ""
 
 #: ../../online_resources/wms.rst:2
-# 2bc4bc1ea7444bf298c95c567cfb94e3
+# 85f7418dd9d24ba1be9e8dcb61d6646d
 msgid "|LS| Web Mapping Services"
 msgstr ""
 
 #: ../../online_resources/wms.rst:4
-# 21057abc8680440aa9f716635fb95969
+# aed3f530dff94647886a7c2bf4ec7c70
 msgid "A Web Mapping Service (WMS) is a service hosted on a remote server. Similar to a website, you can access it as long as you have a connection to the server. Using QGIS, you can load a WMS directly into your existing map."
 msgstr ""
 
 #: ../../online_resources/wms.rst:8
-# 84af711a24f04175a57630995138891a
+# dca7bd7df3554e64a34c928cc0fed8d0
 msgid "From the lesson on plugins, you will remember that it's possible to load a new raster image from Google, for example.  However, this is a once-off transaction: once you have downloaded the image, it doesn't change. A WMS is different, in that it's a live service that will automatically refresh its view if you pan or zoom on the map."
 msgstr ""
 
 #: ../../online_resources/wms.rst:14
-# 19055c2118134741b1494fbdb549939c
+# a6f6440370c14dd5bcb674ba014414c4
 msgid "**The goal for this lesson:** To use a WMS and understand its limitations."
 msgstr ""
 
 #: ../../online_resources/wms.rst:17
-# c0a4e6679f65456aaa25c257d075c8c6
+# 56f812ce0071437bb17fc169b4d642be
 msgid "|basic| |FA| Loading a WMS Layer"
 msgstr ""
 
 #: ../../online_resources/wms.rst:19
-# cac8ff60f8a441038aaabbd8c4a9f6d9
+# db7143301eb14d0fbbc21c19625b1c0f
 msgid "For this exercise, you can either use the basic map you made at the start of the course, or just start a new map and load some existing layers into it. For this example, we used the :guilabel:`places`, :guilabel:`new_solution` and :guilabel:`important_roads` layers:"
 msgstr ""
 
 #: ../../online_resources/wms.rst:27
-# ffab41321cf143c0b4e2863e5447cd36
+# bbabec9c0bb04c4ea804c52c376c2673
 msgid "Load these layers into a new map, or use your original map with only these layers visible."
 msgstr ""
 
 #: ../../online_resources/wms.rst:30
-# aef62e9c25bc45959a293ed3b1440a9d
+# 82d0c123b1ea45b99585d5b31ae562c2
 msgid "Before starting to add the WMS layer, first deactivate \"on the fly\" projection.  This may cause the layers to no longer overlap properly, but don't worry: we'll fix that later."
 msgstr ""
 
 #: ../../online_resources/wms.rst:33
-# d4e43e4678544a63a8d32902e2555d8e
+# 839b3fe3f91b4820a4fd41b28cf60076
 msgid "To add WMS layers, click on the :guilabel:`Add WMS Layer` button:"
 msgstr ""
 
 #: ../../online_resources/wms.rst:38
-# 013e172f39ad42aab802d3d79d9b7a7c
+# 601a3a0187da4e75be333e807b87deb0
 msgid "Remember how you connected to a SpatiaLite database at the beginning of the course. The :guilabel:`rural`, :guilabel:`urban`, and :guilabel:`water` layers are in that database. To use those layers, you first needed to connect to the database. Using a WMS is similar, with the exception (of course) that the layers are on a remote server."
 msgstr ""
 
 #: ../../online_resources/wms.rst:44
-# 8c2796eba01f402f85321f1223e2dec9
+# 133dcf6f35b149378d2a001a224b8d1c
 msgid "To create a new connection to a WMS, click on the :guilabel:`New` button."
 msgstr ""
 
 #: ../../online_resources/wms.rst:46
-# 59dbafb53c7d4eeabce95c2dc66e51fe
+# 75128a1c07874b7f867e778cbaed4c48
 msgid "You'll need a WMS address to continue. There are several free WMS servers available on the Internet. One of these is `GIS-LAB.info <http://irs.gis-lab.info/>`_, which makes use of the `OpenStreetMap <http://wiki.openstreetmap.org/wiki/Main_Page>`_ dataset."
 msgstr ""
 
 #: ../../online_resources/wms.rst:51
-# 071e02007bc54f9db1266c7cae3ee560
+# 62ea97f1ed0446d4bb79afcc89bc3090
 msgid "To make use of this WMS, set it up in your current dialog, like this:"
 msgstr ""
 
 #: ../../online_resources/wms.rst:56
-# bf5698d21d544a018896d84b8161807d
+# d3547495c30d4f42a72e07cd55f21e52
 msgid "The value of the :guilabel:`Name` field should be :kbd:`gis-lab`."
 msgstr ""
 
 #: ../../online_resources/wms.rst:57
-# ac1b1cda48f84cbea66121545e211285
+# d14fd80063fa454c8590c436704a7eed
 msgid "The value of the :guilabel:`URL` field should be :kbd:`http://irs.gis-lab.info/`."
 msgstr ""
 
 #: ../../online_resources/wms.rst:59
-# 583e99e45a2f4395ad6c6e3087c37ab2
+# 8a070582635243bdbbff65e9cdfb2da2
 msgid "Click :guilabel:`OK`. You should see the new WMS server listed:"
 msgstr ""
 
 #: ../../online_resources/wms.rst:64
-# dd01de6d24604a69987a2216127e2437
+# 1296107f36e94bd0ae4e43053e09a903
 msgid "Click :guilabel:`Connect`. In the list below, you should now see these new entries loading:"
 msgstr ""
 
 #: ../../online_resources/wms.rst:70
-# fd3f70e02dd840db9d2a38e014a4437b
+# ca4e784033084e68a83371bbc66bf00b
 msgid "These are all the layers hosted by this WMS server."
 msgstr ""
 
 #: ../../online_resources/wms.rst:71
-# e2e8b6cca26148ee86c5d02c6562d406
+# 312619b484554a86af65e13e3ff16e4c
 msgid "Click once on the :guilabel:`osm` layer (it stands for OpenStreetMap, which is the data we want).  It will display its :guilabel:`Coordinate Reference System`:"
 msgstr ""
 
 #: ../../online_resources/wms.rst:78
-# 22658ec4b78043fba89b1065b5022286
+# 0e64a0836e544176af25db0d5fab447e
 msgid "Since we're not using :kbd:`WGS 84` for our map, let's see all the CRSs we have to choose from."
 msgstr ""
 
 #: ../../online_resources/wms.rst:81
-# ea903235a6ef495c9ed5a094a5c7f8e0
+# e2bb8214231f4a19bd4efbf1f2721a99
 msgid "Click the :guilabel:`Change` button. You will see a standard :guilabel:`Coordinate Reference System Selector` dialog."
 msgstr ""
 
 #: ../../online_resources/wms.rst:83
-# 047820cfc4bc447983600c8743486bf2
+# 89c44e65616c4e0c90a2a26e4691b4d4
 msgid "We want a *projected* CRS, so let's choose :guilabel:`WGS 84 / World Mercator`."
 msgstr ""
 
 #: ../../online_resources/wms.rst:85
 #: ../../online_resources/wms.rst:104
-# 026074e0a9464f50b8570582d6323acf
-# bc51ae12cbf647e4a4affc633a9faf60
+# 5d83d3cceec44d68801c9c3c57cce922
+# 416bfd5d344f41319631f1d7b4b55b3b
 msgid "Click :guilabel:`OK`."
 msgstr ""
 
 #: ../../online_resources/wms.rst:86
-# 975ce52f217844a19bd5a8a0f383d3c9
+# b031527f75fb46c6bbf649862cf5b8e3
 msgid "Click :guilabel:`Add` and the new layer will appear in your map as :guilabel:`osm`."
 msgstr ""
 
 #: ../../online_resources/wms.rst:88
-# 1b31c23e760248889ad9f552fae3d89d
+# 5ec092425dc3492ba6e7997a3f2ba8f4
 msgid "In the :guilabel:`Layers list`, click and drag it to the bottom of the list."
 msgstr ""
 
 #: ../../online_resources/wms.rst:90
-# 721c1284cd83473989aa2238535b60b9
+# b78381633e38437bbb526dd6122ab922
 msgid "You will notice that your layers aren't located correctly. (For example, the :guilabel:`places` layer puts Bonnievale in the Gulf of Guinea.) This is obviously because \"on the fly\" projection is disabled. Let's enable it again, but using the same projection as the :guilabel:`osm` layer, which is :guilabel:`WGS 84 / World Mercator`."
 msgstr ""
 
 #: ../../online_resources/wms.rst:96
-# ced7f7414fbd4e65a73d2b291cd2a1e2
+# b58fea257f0e4cc09c29b85d23e65898
 msgid "Enable \"on the fly\" projection."
 msgstr ""
 
 #: ../../online_resources/wms.rst:97
-# 09eb7035b20d4935a45a9969b723cf61
+# 73eacadf3bd14e8099a5ab83cd2ef1e3
 msgid "In the :guilabel:`CRS` tab (:guilabel:`Project Properties` dialog), enter the value :kbd:`world` in the :guilabel:`Filter` field:"
 msgstr ""
 
 #: ../../online_resources/wms.rst:103
-# 54de5d947a9243d7a61bd21555b69998
+# 7aa774ca637047389aa2cd1ec6d3a5b3
 msgid "Choose :guilabel:`WGS 84 / World Mercator` from the list."
 msgstr ""
 
 #: ../../online_resources/wms.rst:105
-# 07803849688949789e1c0a4209358c0e
+# 9712fbc84d464314b1676ee116aa24dc
 msgid "Now right-click on one of your own layers in the :guilabel:`Layers list` and click :guilabel:`Zoom to layer extent`. You should see the Swellendam area:"
 msgstr ""
 
 #: ../../online_resources/wms.rst:111
-# 246f23fc728e4612be2c1d92f8763549
+# 79d65929e2c34bffb0bad33f54ee9d47
 msgid "Note how the WMS layer's streets and our own streets overlap. That's a good sign!"
 msgstr ""
 
 #: ../../online_resources/wms.rst:115
-# f052a91c6f0945b78c840ae665b05b6e
+# 055647f462b946bba50bf3a3b9824b4d
 msgid "The nature and limitations of WMS"
 msgstr ""
 
 #: ../../online_resources/wms.rst:117
-# b6881e27e6714537bd7acb92bbb2f75c
+# 2eb6786c242045848229959d90a327af
 msgid "By now you may have noticed that this WMS layer actually has many layers in it. It has streets, rivers, nature reserves, and so on. What's more, even though it looks like it's made up of vectors, it seems to be a raster. But you can't even change its symbology! Why is that?"
 msgstr ""
 
 #: ../../online_resources/wms.rst:122
-# bb0d38a90eff4bf1a65820606cd063a4
+# d92b473b467748039d39e8c8d9039639
 msgid "This is how a WMS works: it's a map, similar to a normal map on paper, that you receive as an image. What usually happens is that you have vector layers, which QGIS renders as a map. But using a WMS, those vector layers are on the WMS server, which renders it as a map and sends that map to you as an image.  QGIS can display this image, but can't change its symbology, because all that is handled on the server."
 msgstr ""
 
 #: ../../online_resources/wms.rst:129
-# 6e976d420a2b43beaf73bd5ecfa224bb
+# afb51c0f0e8941c2b045ac7f185179b3
 msgid "This has several advantages, because you don't need to worry about the symbology. It's already worked out, and should be nice to look at on any competently designed WMS."
 msgstr ""
 
 #: ../../online_resources/wms.rst:133
-# 7e0e1421fd7646d5a15855d555b2142d
+# 56209cccfad14eee814e8ea2280a6531
 msgid "On the other hand, you can't change the symbology if you don't like it, and if things change on the WMS server, then they'll change on your map as well. This is why you sometimes want to use a Web Feature Service (WFS) instead, which gives you vector layers separately, and not as part of a WMS-style map."
 msgstr ""
 
 #: ../../online_resources/wms.rst:138
-# c546b48d623f49d6888ddf7079317c0d
+# 2bdbd85824f74460a21041a03354159d
 msgid "This will be covered in the next lesson, however. First, let's add another WMS layer from the :guilabel:`gis-lab` WMS server."
 msgstr ""
 
 #: ../../online_resources/wms.rst:144
-# e3a6ca15d27644efb66423a725ce4ffc
+# 6d582e2de4464f30a25a7145c054ebc4
 msgid "|basic| |TY|"
 msgstr ""
 
 #: ../../online_resources/wms.rst:146
-# f322706e754b485988370fe3278325b4
+# 4abf23dea1304cc5b11fb9af5c71c870
 msgid "Hide the :guilabel:`osm` layer in the :guilabel:`Layers list`."
 msgstr ""
 
 #: ../../online_resources/wms.rst:147
-# f887a4d51eae46ea9508c217f0aaf81b
+# ef55c6f7898b4ea1a104d0977b79d604
 msgid "Load the :guilabel:`landsat` layer into the map (use the :guilabel:`Add WMS Layer` button as before). Remember to check that it's in the same :guilabel:`WGS 84 / World Mercator` projection as the rest of your map!"
 msgstr ""
 
 #: ../../online_resources/wms.rst:150
-# ca433f3600b94712af2f7ae9d2fad420
+# c00e1209ad9d497eb241420a7a4dd571
 msgid "You might want to set its :guilabel:`Encoding` to :guilabel:`JPEG` and its :guilabel:`Tile size` option to :kbd:`200` by :kbd:`200`, so that it loads faster:"
 msgstr ""
 
 #: ../../online_resources/wms.rst:157
-# 3e7fdc52598c459dbed7353147a7192d
+# 7f0cbaf31c8c4ce1a93e9c79d14c3b1d
 msgid ":ref:`Check your results <wms-1>`"
 msgstr ""
 
 #: ../../online_resources/wms.rst:163
-# 6a6b0b07aa2e438981902308086d9413
+# ad80b5b673c249f8a8c5039419a39299
 msgid "|moderate| |TY|"
 msgstr ""
 
 #: ../../online_resources/wms.rst:165
-# ed4ed26748334bcc821a103ce65e8cff
+# 5b2604dbb255425fa6775ee1f33b8f48
 msgid "Hide all other WMS layers to prevent them rendering unnecessarily in the background."
 msgstr ""
 
 #: ../../online_resources/wms.rst:167
-# a8e35b7fca0043969c376e83cf914d1b
+# 07b5b6da98c24226ad2269454d869ad7
 msgid "Add the \"ICEDS\" WMS server at this URL: :kbd:`http://iceds.ge.ucl.ac.uk/cgi-bin/icedswms`"
 msgstr ""
 
 #: ../../online_resources/wms.rst:169
-# 40b1109e35984fadbec64a3aabb89d0e
+# 387a9794b17b40a098dcf13f76ba3be6
 msgid "Add the :guilabel:`bluemarble` layer."
 msgstr ""
 
 #: ../../online_resources/wms.rst:171
-# c270a35aef564e89bab70b8df28adc58
+# d893609ecea0450a80427aed21b22cf0
 msgid ":ref:`Check your results <wms-2>`"
 msgstr ""
 
 #: ../../online_resources/wms.rst:177
-# 788e62a499444b03a8cfe439d994a80f
+# bdd25e8ba1434747bd2c5e8b1caeccbf
 msgid "|hard| |TY|"
 msgstr ""
 
 #: ../../online_resources/wms.rst:179
-# 9ec52f2d52384b71b99d22fe69431309
+# 3c606ff0a760432ba748b42fc6e2f95f
 msgid "Part of the difficulty of using WMS is finding a good (free) server."
 msgstr ""
 
 #: ../../online_resources/wms.rst:181
-# 374497cd9cd341f1bab5e91935cfe401
+# d08ff5ec8eb842ff90e86a809bd2bea3
 msgid "Find a new WMS at `MapMatters.org <http://www.mapmatters.org/>`_ (or elsewhere online). It must not have associated fees or restrictions, and must have coverage over the Swellendam study area."
 msgstr ""
 
 #: ../../online_resources/wms.rst:185
-# 931e40caf49e4176b09c59db357bf4b9
+# 1c5ba70636844ecdb694bba63d0d256d
 msgid "Remember that what you need in order to use a WMS is only its URL (and preferably some sort of description)."
 msgstr ""
 
 #: ../../online_resources/wms.rst:188
-# 42e6d7072c5a43ea842a57a348097874
+# 5c0c2bf274824d3c83888c5b9f1df9d9
 msgid ":ref:`Check your results <wms-3>`"
 msgstr ""
 
 #: ../../online_resources/wms.rst:194
-# e9ceacc169814348904de9075eca955a
+# b7437621026d4f5eb4e4004c73b43b07
 msgid "Using a WMS, you can add inactive maps as backdrops for your existing map data."
 msgstr ""
 
 #: ../../online_resources/wms.rst:197
-# 4e4f3586744b4871adce2093baa449de
+# cb9365924c384f85a0254207796cd24f
 msgid "|FR|"
 msgstr ""
 
 #: ../../online_resources/wms.rst:199
-# ee4ad533f10c4d7db0076f69923d7185
+# d5211a17832242acb3433025068090d3
 msgid "`MapMatters.org <http://www.mapmatters.org/>`_"
 msgstr ""
 
 #: ../../online_resources/wms.rst:200
-# 84d151e79d044289972da355a21d75c7
+# c2361a1c44344a3da5e2d13639126e3b
 msgid "`Geopole.org <http://geopole.org/>`_"
 msgstr ""
 
 #: ../../online_resources/wms.rst:201
-# 1e65eeae0ed2454780971d0a3a40b7c9
+# 4eacbb97304c4ff2a85b926dcb91ac84
 msgid "`OpenStreetMap.org list of WMS servers <http://wiki.openstreetmap.org/wiki/WMS>`_"
 msgstr ""
 
 #: ../../online_resources/wms.rst:207
-# eb7e2c43f62f411ba468cc052178d827
+# c54d4f64a156499dbb5daa87a3a30271
 msgid "Now that you've added an inactive map as a backdrop, you'll be glad to know that it's also possible to add features (such as the other vector layers you added before). Adding features from remote servers is possible by using a Web Feature Service (WFS). That's the topic of the next lesson."
 msgstr ""
 
