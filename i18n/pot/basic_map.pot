@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-13 00:01\n"
+"POT-Creation-Date: 2012-09-20 10:39\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,975 +17,975 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../basic_map/index.rst:3
-# d61292edf99542429e13eac54e85d0a3
+# 89f4fbc89f9243e4b3e31173034421a3
 msgid "|MOD| Creating a Basic Map"
 msgstr ""
 
 #: ../../basic_map/index.rst:5
-# b1b8f97c330c4c86b58c463fd1d06038
+# 513ef6b2156a4fb58d65cae7ad15b96f
 msgid "In this module, you will create a basic map which will be used later as a basis for further demonstrations of QGIS' functionality."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:2
-# 3bb874626e3a465e9130e6c2a08fdffe
+# 642e827101904cf4a2f4180377898721
 msgid "|LS| Symbology"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:4
-# 24e9ecb23d9d4cbbac0242d131ba569a
+# 48e96d433c0042df9e230fc7c4abe9f4
 msgid "The symbology of a layer is its visual appearance on the map. The basic strength of GIS over other ways of representing data with spatial aspects is that with GIS, you have a dynamic visual representation of the data you're working with."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:9
-# 1e0b395a477640af94445e5ce440ff49
+# aa44d51a227e4244abfb98a226b4f46a
 msgid "Therefore, the visual appearance of the map (which depends on the symbology of the individual layers) is very important. The end user of the maps you produce will need to be able to easily see what the map represents. Equally as important, you need to be able to explore the data as you're working with it, and good symbology helps a lot."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:15
-# 3ee37825942943bc856b6b21cf187867
+# 41e9997a49d74a18a8bdd12a4c5ccb7a
 msgid "In other words, having proper symbology is not a luxury or just nice to have. In fact, it's essential for you to use a GIS properly and produce maps and information that people will be able to use."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:19
-# 7a910c97b2044628a33e840e9926c073
+# 70bcad191047483384af746baa0e4d0b
 msgid "**The goal for this lesson:** To be able to create any symbology you want for any vector layer."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:23
-# e1677ee5a6274b63ad179844f6d0b8ad
+# 0247118d5897408abed473d7c60beb96
 msgid "|basic| |FA| Changing colors"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:25
-# 74b4b5927281465a91f1f11188ec09fc
+# fad6394a9ce64fb4aea2195498131aa4
 msgid "To change a layer's symbology, open its :guilabel:`Layer Properties`. Let's begin by changing the color of the :guilabel:`urban` layer."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:28
-# b09fa22549844aab83e6bfeeb12dbf15
+# 0c77b6c563dd4a5793f0cbc1c684204e
 msgid "Right-click on the :guilabel:`urban` layer in the Layers list."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:29
-# 95e8f5b4231944a2b192491efcd33340
+# 7564a2ef0d724afb906206ea22a8a121
 msgid "Select the menu item :guilabel:`Properties` in the menu that appears."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:31
-# de2a62cedc2c4e5b9573f86df83f2085
+# ef748011ae65444894b5c4256fc1ccd2
 msgid "By default, you can also access a layer's properties by double-clicking on the layer in the Layers list."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:34
-# a3120d3efc79430f8eb82408159ff59e
+# a7a68e1df9be4ac190c6041ddfc2fa88
 msgid "In the :guilabel:`Properties` window:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:36
-# dfee4b6eaf144c0fba39a123e0e2c896
+# 088803ecb0984846a39c6be65872ea66
 msgid "Select the :guilabel:`Style` tab at the extreme left:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:41
-# 9f7fa349097942f2821fb90776b7abf0
+# eb472391ace4487cb14c6c72a588f24f
 msgid "Click the :guilabel:`Change` button next to the :guilabel:`Color` label."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:43
-# 3b89590f9b6f4d7a9c689d45b7f0c151
+# 04a86634e4dd459286414e0d477613e3
 msgid "A standard color dialog will appear."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:45
-# 33d2f524218842ef81e6c11614f7d48e
+# 6e034deac8f34c1dbed29b0675441c48
 msgid "Choose a grey color and click :guilabel:`OK`."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:46
-# a16868766c4e476da20509b267b69435
+# 2528d7a8c99e4e95b045125ad519dab7
 msgid "Click :guilabel:`OK` again in the :guilabel:`Layer Properties` window, and you will see the color change being applied to the layer."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:56
 #: ../../basic_map/symbology.rst:104
-# 271464aa476141c2ac492a477d072ae7
-# 9dcad471585344f0bf0936b960f8136c
+# 93d62a8babce4502a6264c2c8130dfae
+# c1b3b853f51e4106a48fa7f80c09463b
 msgid "|basic| |TY|"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:58
-# f47b742b5a874417b5d2befa12f559de
+# 1380079d089a4311949a37fe8110baf2
 msgid "Change the :guilabel:`rural` layer to a new color that you associate with rural farming areas."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:61
-# bbfb7a894a7a455c856a9fe02158d350
+# c2b1afd88f8941a9b7147e05c5aa40c8
 msgid ":ref:`Check your results <symbology-colors-1>`"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:64
-# 601a8434102a4bc9a7583a81ea300431
+# bb4b7a9e1f344ba7813d773e193c2204
 msgid "|basic| |FA| Changing symbol structure"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:66
-# 3895a73997024e0d867214d68d083606
+# 109342124c9045b0b4c964a09dd5f46d
 msgid "This is good stuff so far, but there's more to a layer's symbology than just its color. Next we want to change the color of the farms (the :guilabel:`rural` layer), but we also want to eliminate the lines between the different farms so as to make the map less visually cluttered."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:71
-# b46de2ce7ced4900854623b21a70cde4
+# 937d03898fac452d974e37d356415757
 msgid "Open the :guilabel:`Layer Properties` window for the :guilabel:`rural` layer."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:74
-# 80d7f15615db4db1b09feba8ece4b0c5
+# b923071c41fe41a28671f08f5c44a0df
 msgid "Under the :guilabel:`Style` tab, you will see the same kind of dialog as before. This time, however, you're doing more than just quickly changing the color."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:78
-# 9efbd6f712224554af2f5ae15943809f
+# 81a166f23d264f199335f10ee457f2cf
 msgid "Click on the :guilabel:`Change...` button below the color display:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:83
-# 90248e5d4d124ed18fe8c3a86b7ba5c0
+# 4070e7cd902c4908993e1b855802d034
 msgid "The :guilabel:`Symbol properties` dialog will appear."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:85
-# 7b380b758c164899a8759772fc66859a
+# 745a7f4fffc24fea86f5c36024b54418
 msgid "Change the color inside the polygons in the layer by clicking the button next to the :guilabel:`Color` label (if you haven't done so already during the previous lesson)."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:88
-# a93a5684f92542ac9959c3cfc1e3fa46
+# e3e5c94c5ad141feadfb2891e94cc9db
 msgid "In the dialog that appears, choose a new color (that seems to suit a farm)."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:89
-# 598068d7f7b64dc68e28a887a491d533
+# ab4bf85ccada4d18923afa3f8cf68772
 msgid "Click :guilabel:`OK`, but only once."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:91
-# 9fd98a8232ad4987ba2d816ef14320a1
+# 4b577ae39fb644b793be8e948d4d7206
 msgid "Next, we want to get rid of the lines between all the farms."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:93
-# 8bc5dd509c724f718d0baf98e4c50c0e
+# 107f9a35e0884b949e0abd7e1423dfdc
 msgid "Click on the :guilabel:`Border style` dropdown. At the moment, it should be showing a short line and the words :guilabel:`Solid Line`."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:95
-# 0351550141db465095d5085c4b9a6e35
+# ada700a1325e42f7abc933078a3f75ea
 msgid "Change this to :guilabel:`No Pen`."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:96
-# 6b8f912bce874528843c18b89fe5ab26
+# 2f46daf269dc4c26bdc18f6df5b24f06
 msgid "Click :guilabel:`OK`, and then :guilabel:`OK` again."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:98
-# 9645d871b50049f2bbb0daf45f48dd91
+# 1ba521c388c4407995cfd1f1a67c4e16
 msgid "Now the :guilabel:`rural` layer won't have any lines between farms."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:106
-# ef3d22c365054d9e91966fe84bea57df
+# df82cd2a373240d591886de313725e42
 msgid "Change the :guilabel:`urban` layer's symbology so that it is gray and without outlines."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:108
-# c57477589eeb4955845ab51b6f0a146c
+# 059f685814ac4467bf0fc1a283da324e
 msgid "Change the :guilabel:`rural` layer again so that it has dotted outlines which are just a bit darker than the fill color for that layer."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:111
-# 02cad923e1e4417793269f96faa104ff
+# 994fd9f95575498e82b87ad259344f1b
 msgid ":ref:`Check your results <symbology-structure-1>`"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:114
-# 7ca1a91aa2924f7eb68cd1d4db283357
+# e877db46d4a041b99dac5fe34d38c052
 msgid "|moderate| |FA| Scale-based visibility"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:116
-# f587c46a6f7c41859b0ab2ec56980384
+# 648dc37ebc344773bc5237a54b4609dd
 msgid "Sometimes you will find that a layer is not suitable for a given scale. For example, a dataset of all the continents may have low detail, and not be very accurate at street level. When that happens, you want to be able to hide the dataset at inappropriate scales."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:121
-# 1898384c1d584ab1913107bdc2e12100
+# 732dc934ff684c4a81aeda6e882070f8
 msgid "In our case, we may decide to hide the streets from view at small scales. This map, for example ..."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:127
-# 18716e6023e648cf9b94b391c55aadb9
+# 3da376e6bc8448c1b314c45da0b3bff6
 msgid "... is not very useful. The streets are just a blob at that scale."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:129
-# 801a148de2b9466db3c6589d9e235187
+# e077df9be2444c3e9f231f8b8e792c92
 msgid "To enable scale-based rendering:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:131
-# 83fc2811affa46fe97ee978e9ded7f73
+# 095301550b274c64a8f28c32c010c7e9
 msgid "Open the :guilabel:`Layer Properties` dialog for the :guilabel:`streets` layer."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:133
-# d0c63153eb9a4dfc8da3d65d987b709b
+# 565ca634f2244a719adc24a90e823baa
 msgid "Activate the :guilabel:`General` tab."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:134
-# 94fc40c33e2e47b2904ad318203baf92
+# 5f4afbbe0b144ecd86306decc736958f
 msgid "Enable scale-based rendering by clicking on the checkbox labeled :guilabel:`Use scale dependent rendering`:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:140
-# d4949d66e9a649419e92cdf4057eec7a
+# 46aa3b2240ba4e70bda33b977d73093b
 msgid "Change the :guilabel:`Maximum` value to :kbd:`100000`."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:141
-# 03a3c16c4b6046259561db1ad1ef33de
+# d4d3fff8ee7a4267912dfbfc53d8959b
 msgid "Click :guilabel:`OK`."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:143
-# 56a6115d34db4645a74294290c94808e
+# 6ec285ebe58e4967ad4809d7b71608e4
 msgid "Test the effects of this by zooming in and out in your map, noting when the :guilabel:`streets` layer disappears and reappears."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:146
-# c7491f4b83b848f8bc6f77c6672b13a3
+# 5e9600680e9c46ca859b2759c2df7c32
 msgid "You can use your mouse wheel to zoom in increments. Alternatively, use the zoom tools to zoom to a window:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:153
-# c2f5dc36bd91475db001eaea1d6737c8
+# 8c54805d1ad94009a1f182aba7389ff8
 msgid "|moderate| |FA| Adding symbol layers"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:155
-# 331dccd430a942ada987a9791a806936
+# 320d6563c10246659a0a034c4f568721
 msgid "Now that you know how to change simple symbology for layers, the next step is to create more complex symbology. QGIS allows you to do this using symbol layers."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:159
-# 9a652c5bd35e4355ac4249be3a2c85a6
+# d49e2749dfc7405794c062d0af4e896d
 msgid "Go back to the :guilabel:`rural` layer's :guilabel:`Symbol properties` dialog as before."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:162
-# e48d4bb69f474fe1b4b1758847ad971c
+# c0fe926b2fa8416f93a8146261d805a9
 msgid "In this example, the current symbol has no outline (i.e., it uses the :guilabel:`No Pen` border style)."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:168
-# c0d2ac9059144e42aece8f1ec2228ea7
+# f2f39453849047f18e6f3593313ac8f9
 msgid "Note the highlighted button."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:170
-# deeb79ee5fee4b13bf38985379c72908
+# 0a28f42756ed4b4db5f74aa63d2bcffe
 msgid "Click on it and the dialog will change to look somewhat like this:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:175
-# c47fb001fc3d4f169d608cf2518faeb5
+# 43c7f282c704404987870bed253ef77e
 msgid "(It may appear somewhat different in color, for example, but you're going to change that anyway.)"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:178
-# b6a26499a2804937a9116067e86af300
+# 033f5b5b74694acda3cf8fa6f02b8b5d
 msgid "Now there's a second symbol layer. Being a solid color, it will of course completely hide the previous kind of symbol. Plus, it has a :guilabel:`Solid Line` border style, which we don't want. Clearly this symbol has to be changed."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:182
-# d47b175d4d8a4743b29c50997f3e90bb
+# 5ad431b6daac4c49bdfb4cbbe40beb55
 msgid "It's important not to get confused between a map layer and a symbol layer. A map layer is a vector (or raster) that has been loaded into the map. A symbol layer is part of the symbol used to represent a map layer. This course will usually refer to a map layer as just a layer, but a symbol layer will always be called a symbol layer, to prevent confusion."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:188
-# f58105b73dba4cdd8fc906070fa78302
+# a970a6564ebb452cb6e794e98670d0ce
 msgid "Set the border style to :guilabel:`No Pen`, as before."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:189
-# b06b59347dd9459e955d464851ae4815
+# b05b65bab25a4f76a17db6666c3afaac
 msgid "Change the fill style to something other than :guilabel:`Solid` or :guilabel:`No brush`. For example:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:195
-# 368d7c46328c493b86a7d1c9af222288
+# da9becb3e2284503a44d294bd96d1ec9
 msgid "Click :guilabel:`OK` in this dialog and :guilabel:`Apply` in the one after that. Now you can see your results and tweak them as needed."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:198
-# 98e7c23a266b44acb7b919502485e5fd
+# 55ba6236ad64492eb957ccac9784087c
 msgid "You can even add multiple extra symbol layers and create a kind of texture for your layer that way."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:204
-# 3a887eac0c454add965e287f93e340ce
+# 6b1077928d8d464dae6c4123ca7c3c19
 msgid "It's fun! But it probably has too many colors to use in a real map..."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:209
 #: ../../basic_map/symbology.rst:272
-# ce981813f36c4e8d9f3ee1f5289a8f71
-# 28059d77771d423bb6d0ba49e582131e
+# a7cef5cabcb5447ab0daffe6a18db5c2
+# 82ce6794bdf74ec5827aa07a655fd860
 msgid "|moderate| |TY|"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:211
-# f2e5a74cdc3c4b0895884c2e13e37830
+# 28ca0b6d46204047a7dfde9fa8601531
 msgid "Create a simple, but not distracting texture for the :guilabel:`rural` layer using the methods above."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:214
-# a2b796c167ff49ebb82cf30f96a7df5c
+# affb563ada824141ae95de7ae367973c
 msgid ":ref:`Check your results <symbology-layers-1>`"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:218
-# 5096e56938fa433e950b5528564b8cdf
+# 3e327f953cfd46be874fb8067ab9c544
 msgid "|moderate| |FA| Enabling symbol levels"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:220
-# 0128016323a34e578fe3349156957191
+# ca754c888db54e168043fa545e94b821
 msgid "When symbol layers are rendered, they are also rendered in a sequence, similar to how the different map layers are rendered. This means that in some cases, having many symbol layers in one symbol can cause unexpected results."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:224
-# 3f8370a07186433bb25d127756aeba14
+# be2bedb94ee94a1aa8e35d227a56da4f
 msgid "Give the :guilabel:`streets` layer an extra symbol layer (using the methid for adding symbol layers demonstrated above)."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:226
-# c9cd5634b4cf4d1097fa0a5e4bed69a3
+# 14ce5983dd31401cb06019faf7f9037c
 msgid "Give the base line a thickness of :kbd:`2.0`."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:227
-# 57e8f5ef269b4c31aefb1b29a7405021
+# 52bdcc2239e14d9ca84e8a760b4f5fc6
 msgid "Give the top layer a thickness of :kbd:`0.5`."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:229
-# 0a7d771680054e7eaab28edcbcbc7866
+# 2fe42ad7c965436891e174d2347da1b9
 msgid "You'll notice that this happens:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:234
-# 7b8c9307535541b69c42e8987692a975
+# 1c92cb8c15dd432998d4308905358e4c
 msgid "Well that's not what we want at all!"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:236
-# 7c05cd8c191d40e595c88547ebb51aee
+# 19724f2d1ea84bbe95c8ce05dca5257b
 msgid "To prevent this from happening, you can enable symbol levels, which will control the order in which the different symbol layers are rendered."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:239
-# 9f4b374ecb1240a8b6e5ffdebe266002
+# 148ce606f8834651b29e80b77658f7b6
 msgid "In the :guilabel:`Layer Properties` dialog, click on :menuselection:`Advanced --> Symbol levels`:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:245
-# 6dddece26fa14080a142c766a4b46c80
+# a476cfd753a14b2fad21004d5edfec80
 msgid "The :guilabel:`Symbol Levels` dialog will appear."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:247
-# 76ad4f0b51aa47b88dee090070746860
+# b42c667d256749e290c5be9bebb819f8
 msgid "Alter its values to match this example:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:252
-# c1264894f69c4435bcced03b673ccf4e
+# a494a4bc1f8d48e8ba09b0480e61c5d2
 msgid "Click :guilabel:`OK`, then :guilabel:`OK` again."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:254
-# ccc690ec2f874bb1ab48567629c1cb39
+# 5467c7af9c9f4b258a4259d4c1cd9530
 msgid "The map will now look like this:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:259
-# 52fa8cbec0924a6fabc6ece9a90e57b5
+# f21e1f32a3e643e9a621ddeb1ad2b2c1
 msgid "When you're done, remember to save the symbol itself so as not to lose your work if you change the symbol again in the future. You can save your current symbol style by clicking the :guilabel:`Save Style ...` button under the :guilabel:`Style` tab of the :guilabel:`Layer Properties` dialog. Save your style under :kbd:`exercise_data/styles`.  You can load a previously saved style at any time by clicking the :guilabel:`Load Style ...` button. Before you change a style, keep in mind that any unsaved style you are replacing will be lost."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:274
-# 1bfaf7e400a14fcfa0d509d5311c487b
+# 8aeb14da7dde4d10b42d447e1ab40db6
 msgid "Change the appearance of the :guilabel:`streets` layer again."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:276
-# c90e76fcd5f04ad4869e21e05def12e8
+# d314f7de67354f24bb37e7317675e4f8
 msgid "The roads must be dark gray or black, with a thin yellow outline, and a dashed white line running in the middle to make them resemble a real road."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:282
-# 1e911c86904245d49f65047d764018b9
+# 0c443bc7b750436398fe262650d157a8
 msgid ":ref:`Check your results <symbology-levels-1>`"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:288
-# 77ec25768ddc4349a03ecb1b7fe8df96
+# 58397ba145df49b0b80739e249c26aef
 msgid "|hard| |TY|"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:290
-# ed56142fbd0f4963be8d8627b3838a39
+# 82aad702e15b4b7eb7eeb3341f1244f2
 msgid "Symbol levels also work for classified layers (i.e., layers having multiple symbols).  Since we haven't covered classification yet, you will work with some rudimentary preclassified data."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:294
-# fc87a29a54b64ee99d4d1961c67e7509
+# 6e613668444d4b33b62e315d4a32978e
 msgid "Create a new map and add only the :guilabel:`streets` dataset."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:295
-# 164421dbcf49430f9e83857700591263
+# 541b443c1b2b42c685621504d9f91124
 msgid "Apply the style :kbd:`advanced_levels_demo.qml` provided in :kbd:`exercise_data/styles`."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:296
-# 9de9dc58ffd24fd39d4bd586e68f5b3c
+# b764484023b84fcb96d52d074ccec73c
 msgid "Zoom to the Swellendam area (the cluster of roads near the center of the layer)."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:298
-# 2053cbb6e94247aea57c2e0fe2f053a0
+# 81da562c02d24d79a62d447fe25d2825
 msgid "Using symbol layers, ensure that the outlines of layers flow into one another as per the image below:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:304
-# 76d570867a1f4169bd32e89d784f49dd
+# 27149cd32c7b4b18ac956009b612a278
 msgid ":ref:`Check your results <symbology-levels-2>`"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:308
-# 530fc4b07fe44c8899eb701a3f559364
+# c9723969f50f44f6978d2c68a10a2707
 msgid "|moderate| |FA| Symbol layer types"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:310
-# d33fcd082b1944b69f76314bc2018c58
+# 2f2a8a87faf74e78adeb720a03640eb1
 msgid "In addition to setting fill colors and using predefined patterns, you can use different symbol layer types entirely. The only type we've been using up to now was the *Simple Fill* type. The more advanced symbol layer types allow you to customize your symbols even further."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:315
-# edadc194abf74871a34ff9702d5cf24a
+# ca48c5d14a894e608f346e67eeba836e
 msgid "Each type of vector (point, line and polygon) has its own set of symbol layer types. First we will look at the types available for points."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:319
-# f8324b41ff6849cba0b48a0fbdaffc7e
+# 6068f26e6cfd4413a021f50a9cd1c94d
 msgid "Point symbol layer types"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:321
-# f29a183ccbdd429d80a0d8124afd869d
+# a9c42fc8adfd4b1f909bc871dff28273
 msgid "Change the symbol properties for the :guilabel:`places` layer:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:326
-# d83e3d70b27341c5ac090f231eb39f49
+# 89774b4ea6ce4074a3253dca6c6adc99
 msgid "You can access the various symbol layer types here:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:331
-# 692081c85e1e4f7c833845f0f3a820a4
+# 1b5999ea848240aa92a2bdb023607952
 msgid "Investigate the various options available to you, and choose a symbol layer type other than the default :guilabel:`Simple Marker`."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:333
-# 1c69b115f98146d1b22f07a9b881a6f8
+# dd409b733ca147eaa4bd84a050644f4f
 msgid "If in doubt, use an :guilabel:`Ellipse Marker`."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:334
-# 875ef4cd7a2444de9220ee75dfd07819
+# e144432ba15b461fb15f6f6927ebfd56
 msgid "Choose a white outline and black fill, with a :guilabel:`symbol width` of :kbd:`2,00` and :guilabel:`symbol height` of :kbd:`4,00`."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:338
-# d800abe22930488981242d6bf83024ac
+# bd69f313c5f24dd6ae42ee2a01a02d4c
 msgid "Line symbol layer types"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:340
-# 256ff4964f2842ff91054ee606b2356e
+# 7290f006b9e14ef68acb5282ae2d2c98
 msgid "To see the various options available for line data:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:342
-# b41c0b4208794a87a0a797211d61a999
+# 8d4ef111e67e4e018c9c3f00035facde
 msgid "Change the symbol layer type for the :guilabel:`street` layer's topmost symbol layer:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:348
-# 89233fca8bf748068389f82348acc833
+# 2c82d6ca8e2045098ab281033e66791c
 msgid "Click on the :guilabel:`Change` button next to the :guilabel:`Marker` label."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:349
-# 2d73b4c3337e49cf8340ca740235154d
+# 1ea38ad9e8f34b989027a594d34dcaed
 msgid "Change the symbol properties to match this dialog:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:354
-# cfb11740f78743ebb5ff513a4d2c285b
+# 872095a9e75948d79a4462152a526933
 msgid "Change the interval to :kbd:`2,00`:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:359
-# 7c86c6dcc6034d94aadace449c40d92a
+# 66961fb9acff40a4925769d85a40212e
 msgid "Ensure that the symbol levels are correct before applying the style."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:361
-# 3967ebd3590a458bb6888c6b3da52039
+# 6c392b8e56aa4b63bdd1a7acc0b8743d
 msgid "Once you have applied the style, take a look at its results on the map. As you can see, these symbols change direction along with the road but don't always bend along with it. This is useful for some purposes, but not for others. If you prefer, you can change the symbol layer in question back to the way it was before."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:368
-# d851ab0faf3c402fbeb0d4963427c858
+# 9b75c1a1ad8e4ae6b37db60abcf9c85a
 msgid "Polygon symbol layer types"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:370
-# fdeec090dfed43598778896f52832071
+# 73736c3642454130bdf19404f0c069c9
 msgid "To see the various options available for polygon data:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:372
-# 5c8f5f8f8afb4c40a21b0b78ca7c8e29
+# 19494621f16d401796313497478fb6f5
 msgid "Change the symbol layer type for the :guilabel:`urban` layer, as before for the other layers."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:374
-# 2f6d3e40c01d4779b59105b900cad637
+# 64b8c1b8163a430e804b54c1286ec954
 msgid "Investigate what the different options on the list can do."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:375
-# 2412ac6ab35a4ba8bcca990a2f65f99c
+# d7c0fd3a754a492fb53218dcc13dcb2d
 msgid "Choose one of them that you find suitable."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:376
-# 8c80d1c4c60649bdbefa7f5f53e5cb98
+# 0f398c4ba5e740708c818ddf03ca09db
 msgid "If in doubt, use the :guilabel:`Point pattern fill` with the following options:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:385
-# 52409322fbfd4c9c9339c908c2ddd77d
+# e3ae47315b514731a78d3baf81830a9b
 msgid "Add a new symbol layer with a normal :guilabel:`Simple fill`."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:386
-# 3d8853f2c2dc487f8f0765c3769c3a1a
+# 0d4717f512844a88867bb75c5cd0909f
 msgid "Make it gray with no outlines."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:387
-# 628cc363e5ec4b58b37f10f19689f948
+# 79b66a6a46eb4e3d981fd1c1f72600c4
 msgid "Move it underneath the point pattern symbol layer with the :guilabel:`Move down` button:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:393
-# e8a756e76a2d4ebfb7af896ef7f22257
+# ed7433593fd54b45b96b76996d1665a4
 msgid "As a result, you have a textured symbol for the urban layer, with the added benefit that you can change the size, shape and distance of the individual dots that make up the texture."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:398
-# b7b83f9a1aa343a7bf93e103a148b401
+# b6c6d6ebb5d74e46a14316c26aa65927
 msgid "|hard| |FA| Creating a custom SVG fill"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:400
-# aef12172269f4655a2933c0f96510cf3
+# 2b025a5641e74e698a6ef942b7d0f31e
 msgid "To do this exercise, you will need to have the free vector editing software Inkscape installed."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:403
-# 038631c7133745b38a0643999a4a3a63
+# 25fdff1110394950be1b6ddbde28ec38
 msgid "Start the Inkscape program."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:405
-# aded0583be144f339fc1dfcd9a2bac4e
+# fc8ec176bd764a2f841a0259809adceb
 msgid "You will see the following interface:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:410
-# 040de3a7921e4eaf83a98ccf6c91bca3
+# 104527b47aff44efbc21bd8895e3ab28
 msgid "You should find this familiar if you have used other vector image editing programs, like Corel."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:413
-# ffd863d2855743578bdc0ff686267caf
+# 8f490c7becb04560991e2747b9d51d7d
 msgid "Change the canvas to a size appropriate for a small texture."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:414
-# 021e66f4ba6d4c148107f0e9a7feabb2
+# 67fc48cf9e39451b84c89e69da163b02
 msgid "Click on the menu item :menuselection:`File --> Document Properties`. This will give you the :guilabel:`Document Properties` dialog."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:416
-# 16d1c374f424464294c61d553c8c9c38
+# eab3033cecd748ecb977e478d4bb7746
 msgid "Change the :guilabel:`Units` to :guilabel:`px`."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:417
-# 291b10723cc546ccb1aa8dfd149edc67
+# e283d07761c24596ace73d7b14e8b19b
 msgid "Change the :guilabel:`Width` and :guilabel:`Height` to :kbd:`100`."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:418
-# 588974baadb4454a84480166872494d7
+# f2fc6114b475495593047b86ab7e1666
 msgid "Close the dialog when you are done."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:419
-# 3f7cc9de8e4a4ca18fde29572fe82e80
+# bcee154d9750487b97bf9f4b33cd9185
 msgid "Click on the menu item :menuselection:`View --> Zoom --> Page` to see the page you are working with."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:421
-# 642c8885fc284b82a0a1c552aea14bce
+# 9fe679e931df452f8af6c7cd600f2cb8
 msgid "Select the :guilabel:`Circle` tool:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:426
-# ee83acd579654cdd99e1a19d789d3b13
+# 55703d187dd5483fa14f410d1acccdd8
 msgid "Click and drag on the page to draw an ellipse. To make the ellipse turn into a circle, hold the :kbd:`ctrl` button while you're drawing it."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:428
-# 0665ac2e7d6b4c059f5636c4cf5f005e
+# 4e155b82a21b40b89a65544aa96b7b31
 msgid "Right-click on the circle you just created and open its :guilabel:`Fill and Stroke`:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:434
-# b8008b290f85426da2eb7ccb0a6097a4
+# 2eceba05333f48dcaa2fb79b5d9c802c
 msgid "Change the :guilabel:`Stroke paint` to green:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:439
-# d69dde0187fa4a38956de57f74f2a318
+# 1f8679ddd6034c449ecb1020aaea1edd
 msgid "Change the :guilabel:`Stroke style` to a thicker line:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:444
-# 6626ac4446404e0b9a2f7ca080043d4f
+# 86834730494a47b293e9e8d9f38218b7
 msgid "Draw a line using the :guilabel:`Line` tool:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:449
-# 620de7de43854e1a92fb54e716783799
+# 39ae596962d84146891492035afbe958
 msgid "Click once to start the line. Hold :kbd:`ctrl` to make it snap to increments of 15 degrees."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:451
-# da1811966e024d858994cec29dc08473
+# ff3a8e5c3f364e1e972569f1a01de0fa
 msgid "Click once to end the line segment, then right-click to finalize the line."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:452
-# c35dad8f45cc4644a2d8ea0c0d4f046f
+# 74a07deb346e4523a307b03af5d6ec9c
 msgid "Change its color and width as before and move it around as necessary, so that you end up with a symbol like this one:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:458
-# 410ab2aa94e64fd992fd2df8e211d8d1
+# 0bd9369a97af40888bb822198b453991
 msgid "Save it under the directory that the course is in, under :kbd:`exercise_data/symbols`, as an SVG file."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:461
-# 3deea301792741e9be3bd08903e435c5
+# 13bed771df194abfb21671a7d3ab267c
 msgid "In QGIS:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:463
-# 2fe62927a8b740dd8bdacc1318e17626
+# c8db4f35f57d489fb379ab6e66064e92
 msgid "Open the :guilabel:`Layer Properties` for the :guilabel:`rural` layer."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:464
-# f59c9a5bc74a48ff9572997327e7ce89
+# 24359bb6f1fc460186193467798be15b
 msgid "Change the symbol structure to the following:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:469
-# dd599e5e14914ed38a515480ae6a2a34
+# 5084be5983cd4780b581ef47fde1b784
 msgid "Find your SVG image via the :guilabel:`Browse` button:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:474
-# ee5ae2cdee164e81afc7c643c95e60a8
+# f7b4a543f3e64dca83be215c17ee3d15
 msgid "Change the settings as shown:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:479
-# c287cded8cb4447196994aec02c6f46b
+# 4ac0d9777fe64cab9417c31ecc7e7d42
 msgid "Your rural layer should now have a texture like the one on this map:"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:485
 #: ../../basic_map/vector_data.rst:143
-# b4328357462349a2ae05d77238044c28
-# 93cf8ab40a0245928e300dd40ef2069a
+# 1a7e36ce74fb493a926b8f610a861c2a
+# 89f2fa68b577462e9c9966910937f7cf
 msgid "|IC|"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:487
-# 1a97e97bef3b434fbf2105b0532c3036
+# 21a2b48229fa4dc099097c7854f49c4c
 msgid "Changing the symbology for the different layers has transformed a collection of vector files into a legible map. Not only can you see what's happening, it's even nice to look at!"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:492
-# e9be7aa0ec014b8195e9cae88f2bc48d
+# e3fc9ae3114945bb93e2e475e4e070b2
 msgid "|FR|"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:494
-# fbf53406d88b49879637ca99935a957c
+# 231add1082534316b27bbee4ef04abf9
 msgid "`Examples of Beautiful Maps <http://gis.stackexchange.com/questions/3083/examples-of-beautiful-maps>`_"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:497
 #: ../../basic_map/vector_data.rst:148
-# 4bc9ce9ff8514b0ea893986c8687cb31
-# 5efe27dc675743ffbb6107653d6f82a5
+# 51d754a3a537460f9ed83c7641c77caa
+# 7003db2e84d349caa7fbf819858e6bef
 msgid "|WN|"
 msgstr ""
 
 #: ../../basic_map/symbology.rst:499
-# f57eba8870854ade8def6a359217c7ba
+# 1969f0336fbd4dde878c4d92dfd5ac47
 msgid "Changing symbols for whole layers is useful, but the information contained within each layer is not yet available to someone reading these maps. What are the streets called? Which administrative regions do certain areas belong to? What are the relative surface areas of the farms? All of this information is still hidden. The next lesson will explain how to represent this data on your map."
 msgstr ""
 
 #: ../../basic_map/symbology.rst:506
-# f9fcc9e882f34d10978a6caaebb9060c
+# 997ee060892f4253bcb3916b1d9b55a9
 msgid "Did you remember to save your map recently?"
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:2
-# 44a77bde213d4387958e872ddfa0ca82
+# ef80d00b091440d1a0e75f2092cd0cd9
 msgid "|LS| Working with Vector Data"
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:4
-# 052f6e411cf943df8c2e78060170ebca
+# f1dc3fbf2f194c56bc579bdab3867556
 msgid "Vector data is arguably the most common kind of data you will find in the daily use of GIS. It describes geographic data in terms of points, that may be connected into lines and polygons. Every object in a vector dataset is called a **feature**, and is associated with data that describes that feature."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:9
-# e1a919c67a5f4f1cae57c6d625cba0b9
+# 433a5ce2d6ce4c6caf2fae9de29538ae
 msgid "**The goal for this lesson:** To learn about the structure of vector data, and how to load vector datasets into a map."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:13
-# 838a99de3583482388011526981e7183
+# 53b1db8167b64da690000f98e5267a96
 msgid "|basic| |FA| Viewing layer attributes"
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:15
-# 288cb0629f214c2ebeb2893061923957
+# 96bb2dab6e074c4b97d6b0218fc3f8a3
 msgid "It's important to know that the data you will be working with does not only represent **where** objects are in space, but also tells you **what** those objects are."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:19
-# 2a0088a785cc4e4dbc673a1e1ff08c4d
+# 919e84b9b2624793ade0c780c2d18f3c
 msgid "From the previous exercise, you should have the :guilabel:`streets` layer loaded in your map. What you can see right now is merely the position of the roads."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:24
-# 403ec880cbfe4bb996e4db8782400b90
+# 9d5410e39fcb491aba851f8f581ad2cd
 msgid "To see all the data available to you:"
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:26
-# f811c56d254b4872a4807653ddf3c2ac
+# 3a80f8332af9442a876c8eccda41b1a2
 msgid "Click on this button:"
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:31
-# 75d6de3974474bf283eec733cac8e2df
+# 675896fe18a04ad195ad2a45c2818aa2
 msgid "It will show you a table with more data about the :guilabel:`streets` layer. This extra data is called *attribute data*. The lines that you can see on your map represent where the streets go; this is the *spatial data*."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:35
-# 4d28c8ba279c44c6a6efd5bb7a677bed
+# 8e4533cec31f49b2bf1d945da94b7e2a
 msgid "These definitions are commonly used in GIS, so it's essential to remember them!"
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:37
-# 1ae739be005445a8994f379c5ccdf3fe
+# ae6ce51d96e04435b812361c53c2f41e
 msgid "You may now close the attribute table."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:39
-# e44d36fc020f4234bbfc36385952940e
+# c83849f0b1fe4c37ad4f800fdae80416
 msgid "Vector data represents features in terms of points, lines and polygons on a coordinate plane. It is usually used to store discrete features, like roads and city blocks."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:47
-# 960233bd4c4b4a41a1f151a2df70f526
+# fe726a8275064377bdee3bc5a12c5b67
 msgid "|basic| |FA| Loading vector data from shapefiles"
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:49
-# c0c76747a86f451aaae057725ecb7456
+# 5620ba81d6f34255a0b35b3b459ca1f2
 msgid "The Shapefile is a specific file format that allows you to store GIS data in an associated group of files. Each layer consists of several files with the same name, but different file types. Shapefiles are easy to send back and forth, and most GIS software can read them."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:54
-# 81ec62ddc1274da4aa24466fa421b412
+# ed593ef199084daa90761ea3b7ab99c9
 msgid "Refer back to the introductory exercise in the previous section for instructions on how to add vector layers."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:57
-# 7ca858fffe5b4190b9a832e810cb78eb
+# 01edc9ec12b0483682076120223a7bab
 msgid "Load the \"places\" dataset into your map following the same method."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:59
-# f60aa3f4b7ee4a16a595c4f48debf590
+# c04611cf2e24461c9fe6cdaf1eccda92
 msgid ":ref:`Check your results <vector-load-shapefiles-1>`"
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:65
-# 6b14c4939abf47958699b9a3abc38ddb
+# 8e9767416a7848b9b38f1491010df0b4
 msgid "|basic| |FA| Loading vector data from a database"
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:67
-# 213fa7f4973e49d3ba2b285920e8ada8
+# 3b3d7362b14d4c55bca11ef0f3301975
 msgid "Databases allow you to store a large volume of associated data in one file. You may already be familiar with a database management system (DBMS) such as Microsoft Access. GIS applications can also make use of databases. GIS-specific DBMSes (such as PostGIS) have extra functions, because they need to handle spatial data."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:73
-# 8b0c4a44d3ce45f6bc5f8ce726dcfee4
+# 3e32e452a3fc4bcaa35f332dfa64d5b9
 msgid "Click on this icon:"
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:78
-# f4e65c911f8944fd9fdb855c06313383
+# 61c4688c75b7458cad753ff98e3546f4
 msgid "(If you're sure you can't see it at all, check that the :guilabel:`Manage Layers` toolbar is enabled.)"
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:81
-# c441527bdfaf4250abe77d72f7b26c1d
+# daa4a65e0a2b4276a42c42cf32832bfe
 msgid "It will give you a new dialog.  In this dialog:"
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:83
-# a940e75c750c4e798cdb84e8aee730d9
+# f806e6faebdc47a794864c812ce39ece
 msgid "Click the :guilabel:`New` button."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:84
-# 9cf302f8bc1249529a3fc0f2bbc217a8
+# 3f6b4d827a5a470cad5dc6fdea41641d
 msgid "In the same folder as the other data, you should find the file :guilabel:`land_use.db`. Select it and click :guilabel:`Open`."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:87
-# a4b94c6ff7ed4363b4318a7158c1a3e6
+# 71c01ffd10c847978a474b95fe56dd20
 msgid "You will now see the first dialog again. Notice that the dropdown select above the three buttons now reads \"land_use.db@...\", followed by the path of the database file on your computer."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:91
-# e87111e794e84285bca618d3545c7764
+# f58387eb680046f6a98a996a3b443c64
 msgid "Click the :guilabel:`Connect` button. You should see this in the previously empty box:"
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:97
-# 7dd4ea9ad8b84c1bb83ac8258f19b07e
+# 8f258c552fbf488db833a2da784f3d48
 msgid "Click on the first layer to select it, then use :kbd:`shift+click` to select all of them at once."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:99
-# 148c9164a0974c67a53e84b543cdaed5
+# 5ec761a4bd874eb1a76b4386af608cb1
 msgid "Click :guilabel:`Add`. This will add all three layers to the map at once."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:101
-# 9756ccdda786444a952e313f1c85047a
+# 7ec25e1ee3c4465da223f6ed7617eb22
 msgid "Remember to save the map often! The map file doesn't contain any of the data directly, but it remembers which layers you loaded into your map."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:104
-# 0c7e58f4f796437a88c2d81376400b7c
+# 06ab885b6c0940feafdaba134b2ad14d
 msgid ":ref:`Check your results <vector-load-from-database-1>`"
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:108
-# 2069cbeee4f247eabeae825fa2b75697
+# 601acb5d19454f81b18034487a2f667f
 msgid "|FA| Reordering the layers"
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:110
-# 4d790e6e523f4176a2a95cfc288581c9
+# 8ec23bf752634cc0873a62d051d8306e
 msgid "The layers in your Layers list are drawn on the map in a certain order. The layer at the bottom of the list is drawn first, and the layer at the top is drawn last. By changing the order that they are shown on the list, you can change the order they are drawn in."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:115
-# 9f24b80e6ce743fab5a0a06555a7f524
+# 54f5baa2c9a14760b38a3980eb318566
 msgid "Depending on the version of QGIS that you are using, you may have a checkbox beneath your Layers list reading :guilabel:`Control rendering order`. This must be checked (switched on) so that moving the layers up and down in the Layers list will bring them to the front or send them to the back in the map. If your version of QGIS doesn't have this option, then it is switched on by default and you don't need to worry about it."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:122
-# 86dd756059b847d9a16756a0b23d9426
+# 2fa136deb4d8404ca41692824dc801d5
 msgid "The order in which the layers have been loaded into the map is probably not logical at this stage. It's possible that the road layer is completely hidden because other layers are on top of it."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:126
-# e6b4c6750d7a430bb863a4c0c28242fe
+# 2af6ca8ddedc4dad905c17f00d356c56
 msgid "For example, this layer order..."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:131
-# b537d0880855467cbd81f8a9c6f7c956
+# 0cb0679615f44a2ab42ad00e9bd0ebef
 msgid "... would result in roads and places being hidden as they run *underneath* urban areas."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:134
-# 9c3d3326dceb403b809c707d77d81684
+# 0c82aec73b07489faaa0f0ec5c20e6c3
 msgid "To resolve this problem:"
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:136
-# b008e6debb8840b8a60fb68cae5ac8e8
+# 1c6f17585c5a4659b9e13e9e24868d81
 msgid "Click and drag on a layer in the Layers list."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:137
-# 92d8627d95c34e2bba81a3c71d5fe99f
+# b105e9c014e54bad802787256cb15fb2
 msgid "Reorder them to look like this:"
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:145
-# ded2bc5f9310460f8b158dc263373b27
+# 1d4ebf63d51e4a0187858de0511d4f66
 msgid "Now you've added all the layers you need from several different sources."
 msgstr ""
 
 #: ../../basic_map/vector_data.rst:150
-# 4d110e7371e242b9b9217bd345ac103a
+# 1c792273d08f456e9737cae2118c0e06
 msgid "Using the random palette automatically assigned when loading the layers, your current map is probably not easy to read. It would be preferable to assign your own choice of colors and symbols. This is what you'll learn to do in the next lesson."
 msgstr ""
 

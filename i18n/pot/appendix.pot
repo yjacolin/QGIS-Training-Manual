@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-13 00:01\n"
+"POT-Creation-Date: 2012-09-20 10:39\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,538 +17,538 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../appendix/contribute.rst:3
-# 24cc7890e98d4720ab96d7bc725d13f3
+# 5b7dc3c93e5742b786c1597214bbd68e
 msgid "Appendix: Contributing To This Manual"
 msgstr ""
 
 #: ../../appendix/contribute.rst:5
-# 981ee7df11544c8c9878a738399a4956
+# 92c47305cd514e30a84e0787425fafaf
 msgid "To add materials to this course, you must follow the guidelines in this Appendix. You are not to alter the conditions in this Appendix except for clarification. This is to ensure that the quality and consistency of this manual can be maintained."
 msgstr ""
 
 #: ../../appendix/contribute.rst:11
-# 6f163b6d5d3343c6a83e233ffc01e63f
+# 6827940d2d404201bd71d37c3794b4b2
 msgid "Downloading Resources"
 msgstr ""
 
 #: ../../appendix/contribute.rst:13
-# 7809a6dbe0864f2eb5996e323ee36322
+# 439a22d87f46443eaa7e5234e2f3c9b7
 msgid "The source of this document is available at `GitHub <git@github.com:qgis/QGIS-Training-Manual.git>`_. Consult `GitHub.com <https://github.com/>`_ for instructions on how to use the git version control system."
 msgstr ""
 
 #: ../../appendix/contribute.rst:19
-# eb86768ae874488fa7c3043d3e2e66ed
+# f75834f790c949ae826987ef5d59f6ae
 msgid "Manual Format"
 msgstr ""
 
 #: ../../appendix/contribute.rst:21
-# 355373da2a084455842cf4cde1f080f6
+# fe998976adc64cb1abfb22ad4c1ad132
 msgid "This manual is written using `Sphinx <http://sphinx.pocoo.org/>`_, a Python document generator using the `reStructuredText <http://docutils.sourceforge.net/rst.html>`_ markup language. Instructions on how to use these tools are available on their respective sites."
 msgstr ""
 
 #: ../../appendix/contribute.rst:27
-# 6880c6fe3b504057b1029e691a0956a3
+# f218bc8afff440e99b870b88e813dce5
 msgid "Adding a Module"
 msgstr ""
 
 #: ../../appendix/contribute.rst:29
-# 5a7447450ce8446495d753ef738dce98
+# aaeececfc6624ba5a3da721664d2676c
 msgid "To add a new module, first create a new directory (directly under the top-level of the :kbd:`qgis-training-manual` directory) with the name of the new module."
 msgstr ""
 
 #: ../../appendix/contribute.rst:32
-# 3d961755b52344ebae7f443a82c2f602
+# b2e54f4e8db74600aebc92012f42f165
 msgid "Under this new directory, create a file called :kbd:`index.rst`. Leave this file blank for now."
 msgstr ""
 
 #: ../../appendix/contribute.rst:34
-# b7443b33c9ea4466a280c850582ef432
+# b2a60048fd734e699f27b7bb49211738
 msgid "Open the :kbd:`index.rst` file under the top-level directory. Its first lines are::"
 msgstr ""
 
 #: ../../appendix/contribute.rst:44
-# 3dd2ac2e889f42528f7a3c1e69ae4333
+# 46f84a01d6b543deb179af8e97747650
 msgid "You will note that this is a list of directory names, followed by the name :kbd:`index`. This directs the top-level index file to the index files in each directory. The order in which they are listed determines the order they will have in the document."
 msgstr ""
 
 #: ../../appendix/contribute.rst:49
-# 2bbdaca2043e432ca9350718895b16bf
+# 8656bf4abe144c25a2b1d190cdaa8dfe
 msgid "Add the name of your new module (i.e., the name you gave the new directory), followed by :kbd:`/index`, to this list, wherever you want your module to appear."
 msgstr ""
 
 #: ../../appendix/contribute.rst:52
-# d3f494522d2c4c0098c098bf4678e647
+# 78b2dcb987924d2da0d2aee0abd9577e
 msgid "Remember to keep the order of the modules logical, such that later modules build on the knowledge presented in earlier modules."
 msgstr ""
 
 #: ../../appendix/contribute.rst:54
-# f6a146a5ad804d449b29ef19a8c35a9c
+# 8ffbd557f3604f159064c0f6d14deecc
 msgid "Open your new module's own index file (:kbd:`[module name]/index.rst`)."
 msgstr ""
 
 #: ../../appendix/contribute.rst:55
-# f9092c0d81174114bbea93cee0e7e38f
+# 82616d2da56246eeb02d5eb5eccf499f
 msgid "Along the top of the page, write a line of 80 asterisks (:kbd:`*`).  This represents a module heading."
 msgstr ""
 
 #: ../../appendix/contribute.rst:57
-# 4421b01f22e24998b7694920dc34fb64
+# c9007cb07d434d2abf41e65cfa7ac541
 msgid "Follow this with a line containing the markup phrase :kbd:`|MOD|` (which stands for \"module\"), followed by the name of your module."
 msgstr ""
 
 #: ../../appendix/contribute.rst:59
-# c736c4d4c3d24300871a86495fafecf7
+# 7cf165edbfff4249b5bef9840863cf7c
 msgid "End this off with another line of 80 asterisks."
 msgstr ""
 
 #: ../../appendix/contribute.rst:60
-# c9accf56cae345b289981997804452f4
+# 01072fed7ac4402ebea418c1848c15f6
 msgid "Leave a line open beneath this."
 msgstr ""
 
 #: ../../appendix/contribute.rst:61
-# dae4c86ff0604ebbb27750de1fbc12d8
+# 6bb5a53233334617938596b978618c87
 msgid "Write a short paragraph explaining the purpose and content of the module."
 msgstr ""
 
 #: ../../appendix/contribute.rst:62
-# 655738e67e8343b785bc4ac63bddfdd9
+# c086bb5c92ef4b89ae12186d90b4b3d6
 msgid "Leave one line open, then add the following text::"
 msgstr ""
 
 #: ../../appendix/contribute.rst:71
-# 7306a72e2a874d9a87659feb4cd8d4be
+# c2b939effbe348d0b189fbe00d42bb3f
 msgid "... where :kbd:`lesson1`, :kbd:`lesson2`, etc., are the names of your planned lessons."
 msgstr ""
 
 #: ../../appendix/contribute.rst:74
-# 1378e8455f9e494c90cefb80954bd3d1
+# 98ee0dd326da4855b73f90d68a216ae2
 msgid "The module-level index file will look like this:"
 msgstr ""
 
 #: ../../appendix/contribute.rst:92
-# b49fd02e54de461899e99cfb403455b5
+# f760fe7f83a24288aeaf438fc23c6b82
 msgid "Adding a Lesson"
 msgstr ""
 
 #: ../../appendix/contribute.rst:94
-# 0b8fc3dce7c147258e00c0842d857273
+# e5f082ca89584009ad2383e9afd1e2d3
 msgid "To add a lesson to a new or existing module:"
 msgstr ""
 
 #: ../../appendix/contribute.rst:96
-# 970c483e42694c99ada67e3dcd3fb1d0
+# 07a102bb10aa45dbb4e9e66bafbe906c
 msgid "Open the module directory."
 msgstr ""
 
 #: ../../appendix/contribute.rst:97
-# fbdb7ad463e84f679b1f750b8f9b2146
+# 25cd813f6d5941cda1e8a69916cf1892
 msgid "Open the :kbd:`index.rst` file (created above in the case of new modules)."
 msgstr ""
 
 #: ../../appendix/contribute.rst:98
-# 30b29308531c4c1fb06976cfe96790b3
+# 1af4c4ad5f7b45a4a5d1b501623a9c88
 msgid "Ensure that the name of the planned lesson is listed underneath the :kbd:`toctree` directive, as shown above."
 msgstr ""
 
 #: ../../appendix/contribute.rst:100
-# c22b6673241e468893704b8122bcdd44
+# 4640a3baba774de4be7441655799da00
 msgid "Create a new file under the module directory."
 msgstr ""
 
 #: ../../appendix/contribute.rst:101
-# cb8b52418448401dbb044ba46b961614
+# 2a3a0e17d91541c19713ce47e7b70177
 msgid "Name this file exactly the same as the name you provided in the module's :kbd:`index.rst` file, and add the extension :kbd:`.rst`."
 msgstr ""
 
 #: ../../appendix/contribute.rst:104
-# 184ea2a5c867428eb077cec5def8f1c3
+# 22e56ab036c64c759a93545b2feef2c4
 msgid "For editing purposes, a :kbd:`.rst` file works exactly like a normal text file (:kbd:`.txt`)."
 msgstr ""
 
 #: ../../appendix/contribute.rst:107
-# 3e8e0d50932d4889b3ceb9906bb02e3d
+# be5f37b7061349a1922068cf279e7822
 msgid "To begin writing the lesson, write the markup phrase :kbd:`|LS|`, followed by the lesson name."
 msgstr ""
 
 #: ../../appendix/contribute.rst:109
-# fcf52c2cb49a4da69d91ce988e89a26b
+# ad349a745d4a4fe99375f395ebca734b
 msgid "In the next line, write a line of 80 equal signs (:kbd:`=`)."
 msgstr ""
 
 #: ../../appendix/contribute.rst:110
-# 1199a98209a34d02a19ccf024a61d7f5
+# 0ba3fedf257e448ea4cbad8138cbe74c
 msgid "Leave a line open after this."
 msgstr ""
 
 #: ../../appendix/contribute.rst:111
-# c8d77a71d4364b148b671573f33533cd
+# 3c1149534b304950bc8e1133ab401e80
 msgid "Write a short description of the lesson's intended purpose."
 msgstr ""
 
 #: ../../appendix/contribute.rst:112
-# a90b28c9f83c4792a93c4443ad962ffd
+# affbb724aa1f46f994fd4738060904e3
 msgid "Include a general introduction to the subject matter. See the existing lessons in this manual for examples."
 msgstr ""
 
 #: ../../appendix/contribute.rst:114
-# de6678a24cfe4ae8acc8eb6ee71e8e6a
+# af3e4d76d2dc4376a439f8b22731c515
 msgid "Beneath this, start a new paragraph, beginning with this phrase::"
 msgstr ""
 
 #: ../../appendix/contribute.rst:118
-# 7bfe3c69a7264132a2f0e863e7f1e2bb
+# 2e2521d1fc8248a0b9139d837f034998
 msgid "Briefly explain the intended outcome of completing this lesson."
 msgstr ""
 
 #: ../../appendix/contribute.rst:119
-# 382299f67e844baeaa83386f78d6e4bd
+# ba689108b44f49d1acf2f62fa15742e7
 msgid "If you can't describe the goal of the lesson in one or two sentences, consider breaking the subject matter up into multiple lessons."
 msgstr ""
 
 #: ../../appendix/contribute.rst:122
-# 8f5bb5d6462140bdb93945a56068384e
+# 31757314dd94446c8f7f01006d54ba22
 msgid "Each lesson will be subdivided into multiple sections, which will be addressed next."
 msgstr ""
 
 #: ../../appendix/contribute.rst:126
-# 5fef9a8ee83348e09399b52c3aa10ade
+# df0365ccc9fb4174b957aba3e3b3d873
 msgid "Adding a Section"
 msgstr ""
 
 #: ../../appendix/contribute.rst:128
-# 7e46b04fcf284af8bc0fa07ce89e932a
+# af42b1f022834f79a19cfe04280f18ea
 msgid "There are two types of sections: \"follow along\" and \"try yourself\"."
 msgstr ""
 
 #: ../../appendix/contribute.rst:130
-# 68e868224cd345b1a02e4c2450ed89df
+# 491172b401a44ecbb86df6d8aac75cc6
 msgid "A \"follow along\" section is a detailed set of directions intended to teach the reader how to use a given aspect of QGIS. This is typically done by giving click-by-click directions as clearly as possible, interspersed with screenshots."
 msgstr ""
 
 #: ../../appendix/contribute.rst:134
-# e0e29b10965247a49e39ae6efbfc063c
+# 9a0721f2b6bd4aa892de086a3e781e80
 msgid "A \"try yourself\" section gives the reader a short assignment to try by themselves. It is usually associated with an entry in the answer sheet at the end of the documentation, which will show or explain how to complete the assignment, and will show the expected outcome if possible."
 msgstr ""
 
 #: ../../appendix/contribute.rst:139
-# 7b3686c6273549fbbc23d2eec4804c72
+# 04b0235eac62470ab4b7a83d6d3f1a5b
 msgid "Every section comes with a difficulty level. An easy section is denoted by :kbd:`|basic|`, moderate by :kbd:`|moderate|`, and advanced by :kbd:`|hard|`."
 msgstr ""
 
 #: ../../appendix/contribute.rst:143
-# 83cda33da1c54e5d8e4f7af1f35d5fc0
+# dd9cfd537e574617aaaa316b36cb3ddf
 msgid "Adding a \"follow along\" section"
 msgstr ""
 
 #: ../../appendix/contribute.rst:145
 #: ../../appendix/contribute.rst:163
-# bf81e1cbc8a44759a7462bc0fb475d97
-# 7246f619800b4aa883989527eadc658a
+# 74b9139ae4e0420aa7e1cf75b29650ab
+# 685764f34c6d45098eddf23cac68840e
 msgid "To start this section, write the markup phrase of the intended difficulty level (as shown above)."
 msgstr ""
 
 #: ../../appendix/contribute.rst:147
-# 7a2bbb78ca34447e9442b45f9c7a4784
+# 34b48b3fe5374514ba90f98b5771475c
 msgid "Leave a space and then write :kbd:`|FA|` (for \"follow along\")."
 msgstr ""
 
 #: ../../appendix/contribute.rst:148
-# d078ce2f46424fbeb91b7f390048029f
+# 28ca952cace54f75a5282b6a4dd3e193
 msgid "Leave another space and write the name of the section (use only an initial capital letter, as well as capitals for proper nouns)."
 msgstr ""
 
 #: ../../appendix/contribute.rst:150
 #: ../../appendix/contribute.rst:166
-# 001c2ac375c143328998f9f9cc0ba853
-# 111407d9a5a145569e9d49b63790fbc3
+# f24f9c3a8af34747a5e6bfb7080f0bac
+# 58d7cd0d4da0414b8b8f584aaa079e61
 msgid "In the next line, write a line of 80 minuses/dashes (:kbd:`-`). Ensure that your text editor does not replace the default minus/dash character with a long dash or other character."
 msgstr ""
 
 #: ../../appendix/contribute.rst:153
-# 238ca9487ee2498c94bd14fa9df4c767
+# ab37d8b41a754c1e897d916de853e6e9
 msgid "Write a short introduction to the section, explaining its purpose. Then give detailed (click-by-click) instructions on the procedure to be demonstrated."
 msgstr ""
 
 #: ../../appendix/contribute.rst:155
-# b00a7096f16744d9ac99371dc1a2e314
+# fa28a6ad1077409d9f2d665ea408e995
 msgid "In each section, include internal links, external links and screenshots as needed."
 msgstr ""
 
 #: ../../appendix/contribute.rst:157
-# cc763589f1c949cdb12ff92555ec2a61
+# 378765719d4444258650c24234dd01c4
 msgid "Try to end each section with a short paragraph that concludes it and leads naturally to the next section, if possible."
 msgstr ""
 
 #: ../../appendix/contribute.rst:161
-# f760a63bb4a24353b6fb622dca8f020b
+# e5eeb990e4ac42ad91fac06a560cd44c
 msgid "Adding a \"try yourself\" section"
 msgstr ""
 
 #: ../../appendix/contribute.rst:165
-# 1befe850f84c4d88a6060fe1c650e9c4
+# 78ce63997de34b24b44ec0953f8463fb
 msgid "Leave a space and then write :kbd:`|TY|` (for \"try yourself\")."
 msgstr ""
 
 #: ../../appendix/contribute.rst:169
-# 624941472a2e47db8fbf706b3d14eda2
+# a3047be781884b20a0376b6013dcc374
 msgid "Explain the exercise that you want the reader to complete. Refer to previous sections, lessons or modules if necessary."
 msgstr ""
 
 #: ../../appendix/contribute.rst:171
-# 8f718ab0643a4e88a8a0fc2440a2d6a7
+# 6a75573a6ee94cdab34b22a722c1fdc9
 msgid "Include screenshots to clarify the requirements if a plain textual description is not clear."
 msgstr ""
 
 #: ../../appendix/contribute.rst:174
-# f34e47e8dd82495fa9906fbb3517c425
+# 64229f64768240b9b8792a995199b707
 msgid "In most cases, you will want to provide an answer regarding how to complete the assignment given in this section. To do so, you will need to add an entry in the answer sheet."
 msgstr ""
 
 #: ../../appendix/contribute.rst:178
-# 33d4220c8ef24623aeea59f7c5362560
+# 9b5f5bb2913a410ca73c4e560ef3cf02
 msgid "First, decide on a unique name for the answer. Ideally, this name will include the name of the lesson and an incrementing number."
 msgstr ""
 
 #: ../../appendix/contribute.rst:180
-# a203fd44a3d744f09ae1a9c7ce1e3ea3
+# 28e594738e9144d1a86f607fd72436e2
 msgid "Create a link for this answer:"
 msgstr ""
 
 #: ../../appendix/contribute.rst:186
-# 1367254ca9f64fe995832ffdf5496f08
+# 114fd706e1b5472dade8aa81532d13b4
 msgid "Open the answer sheet (:kbd:`answers/answers.rst`)."
 msgstr ""
 
 #: ../../appendix/contribute.rst:187
-# 9e964980c77c4f12850ccf51f06302cf
+# 0bd40a75f5354620816b563f41ce712b
 msgid "Create a link to the \"try yourself\" section by writing this line:"
 msgstr ""
 
 #: ../../appendix/contribute.rst:193
-# 0e796d439c724a0e93a2edd1f112f194
+# 54b1aa722f1a4b0bb7569e9929a2bc51
 msgid "Write the instructions on how to complete the assignment, using links and images where needed."
 msgstr ""
 
 #: ../../appendix/contribute.rst:195
-# 9e2185e6ad214ad7806e43843f110474
+# 789d1520f512479bb3e476aa2d9ec35f
 msgid "To end it off, include a link back to the \"try yourself\" section by writing this line:"
 msgstr ""
 
 #: ../../appendix/contribute.rst:202
-# 56c432b2c03e4a61a643b1277ead906f
+# a47f02248f214541babe7c036bcaf4d2
 msgid "To make this link work, add the following line above the heading to the \"try yourself\" section:"
 msgstr ""
 
 #: ../../appendix/contribute.rst:209
-# a0fae94ac0514c07a6b1129bbc260618
+# 1b105b26b1164cf087a4ea49aa3f9d72
 msgid "Remember that each of these lines shown above must have a blank line above and below it, otherwise it could cause errors while creating the document."
 msgstr ""
 
 #: ../../appendix/contribute.rst:213
-# d001ab1d1fdd4bdbad04740052edce0e
+# 12c5d4f3469d4dab8db6cb08f216d947
 msgid "Add a Conclusion"
 msgstr ""
 
 #: ../../appendix/contribute.rst:215
-# dcc2c563eaaf41dd9423d40b6bd54d01
+# 27d1362e7c8e4c8e91ca049434dca127
 msgid "To end a lesson, write the phrase :kbd:`|IC|` for \"in conclusion\", followed by a new line of 80 minuses/dashes (:kbd:`-`). Write a conclusion for the lesson, explaining which concepts have been covered in the lesson."
 msgstr ""
 
 #: ../../appendix/contribute.rst:220
-# 86aafaf7fbdd46af84ef291c8b26dfc2
+# fa0089f3885047dd9abf172fb257cacc
 msgid "Add a Further Reading Section"
 msgstr ""
 
 #: ../../appendix/contribute.rst:222
-# 296b27f165a7473b91e15c41c2185ae4
+# 0b8c0e6fe35446eaadc09da88240d035
 msgid "This section is optional."
 msgstr ""
 
 #: ../../appendix/contribute.rst:223
-# dccb33a6c56146dcb73c2bab4f167288
+# fbabf38739ed4be297c3fa647b5059ce
 msgid "Write the phrase :kbd:`FR` for \"further reading\", followed by a new line of 80 minuses/dashes (:kbd:`-`)."
 msgstr ""
 
 #: ../../appendix/contribute.rst:225
-# b1d27119aef34350b80b17f101626386
+# f0315c58966d410ca4135fba25dc0f55
 msgid "Include links to appropriate external websites."
 msgstr ""
 
 #: ../../appendix/contribute.rst:228
-# 663b8f66e00c4ec5aba70550b1ef1798
+# 992e123521e34c0c9fbf14daaead5882
 msgid "Add a What's Next Section"
 msgstr ""
 
 #: ../../appendix/contribute.rst:230
-# c00e09860aeb447182fef2e45e988703
+# 18ebbc793e114eb0aecbddeeba2386f8
 msgid "Write the phrase :kbd:`|WN|` for \"what's next\", followed by a new line of 80 minuses/dashes (:kbd:`-`)."
 msgstr ""
 
 #: ../../appendix/contribute.rst:232
-# 40388c13819b4728aff0916d5a9fda27
+# ecba4ccf328a48e2926cd2571cbfea5f
 msgid "Explain how this lesson has prepared students for the next lesson or module."
 msgstr ""
 
 #: ../../appendix/contribute.rst:233
-# 3b8b06448ff6490a9c718b5326cfa38d
+# 503ebe55472f4e5aa8f40b9e57c2f7b2
 msgid "Remember to change the \"what's next\" section of the previous lesson if necessary, so that it refers to your new lesson. This will be necessary if you have inserted a new lesson among existing lessons, or after an existing lesson."
 msgstr ""
 
 #: ../../appendix/contribute.rst:239
-# f690d65756db4228894a4d4aade6819b
+# 4e8fe04260794e869affced38c05452e
 msgid "Using Markup"
 msgstr ""
 
 #: ../../appendix/contribute.rst:241
-# a35f97281ccd4083a64e1fc4e3b8291a
+# 37010e84f95d45008fdffbbc97ea6c72
 msgid "To adhere to the standards of this document, you will need to add standard markup to your text."
 msgstr ""
 
 #: ../../appendix/contribute.rst:245
-# 737fc5a02f6841fa8d7d8f0c36c22ccb
+# 9994123359a64940ac3d55d75d59d35b
 msgid "New concepts"
 msgstr ""
 
 #: ../../appendix/contribute.rst:247
-# 78c83412554f48eab186b448e5a6b98b
+# 011ee8ab6a074f7a964026dc2abe7ff1
 msgid "If you are explaining a new concept, you will need to write the new concept's name in italics by enclosing it in asterisks (:kbd:`*`)."
 msgstr ""
 
 #: ../../appendix/contribute.rst:255
-# 2cb5bf4753144e86be4392fc2ef56012
+# 6fbd8b3351034a7dadae2da35b2aae11
 msgid "Emphasis"
 msgstr ""
 
 #: ../../appendix/contribute.rst:257
-# 2deb14aebf184c79a11e41effa5ded9a
+# 4d14dec7474b4cdf9aed698d879d0f30
 msgid "To emphasize a crucial term which is not a new concept, write the term in bold by enclosing it in double asterisks (:kbd:`**`)."
 msgstr ""
 
 #: ../../appendix/contribute.rst:259
-# 06ad8ba40ea9440da70e98685c181ef5
+# 952960b5527042bbab1b2cd6b644ef16
 msgid "Use this sparingly! If used too much, it can seem to the reader that you are shouting or being condescending."
 msgstr ""
 
 #: ../../appendix/contribute.rst:269
-# 7752005ff082437c81ce66c70f548db6
+# 0f68e081e68f428190a95259f7686941
 msgid "Images"
 msgstr ""
 
 #: ../../appendix/contribute.rst:271
-# 050bf1ccfde343f08f92f3e1f16d2459
+# f202852e3cc2463587068f4b2e52e90d
 msgid "When adding an image, save it to the folder :kbd:`_static/lesson_name/`."
 msgstr ""
 
 #: ../../appendix/contribute.rst:272
-# 5217197ed1884e9f97387c329e14425d
+# 4b19d29e75364ccbb7aa8ffac1445b29
 msgid "Include it in the document like this::"
 msgstr ""
 
 #: ../../appendix/contribute.rst:277
-# 8b2ada9345d64a59877f1e9297d6efa6
+# 64cb3ff9684447509d6088fc18a5288c
 msgid "Remember to leave a line open above and below the image markup."
 msgstr ""
 
 #: ../../appendix/contribute.rst:280
-# 95875ec280a5421eb168dc8c9dc831f1
+# 76b3d6e1e41c4922a75231117435046b
 msgid "Internal links"
 msgstr ""
 
 #: ../../appendix/contribute.rst:282
-# 80f11e9e8078456a92196a2b63240e49
+# ee9c302f779449d4ae06e1a3c6552fb0
 msgid "To create an anchor for a link, write the following line above the place where you want the link to point to::"
 msgstr ""
 
 #: ../../appendix/contribute.rst:287
-# 163ff65395d94e438eabaa55ce02672e
+# a9061c9b02f64b86812f0005f86a3d3c
 msgid "To create a link, add this line::"
 msgstr ""
 
 #: ../../appendix/contribute.rst:291
 #: ../../appendix/contribute.rst:300
-# ff67ed40607840c19fbfd21dfaf927d8
-# f06c891c128c40d1b6728c44b8e1bbab
+# c04d1c089c5448fe9c98a080470c2cc3
+# 2b692734f9744b2f8a05bc909e2cbe0f
 msgid "Remember to leave a line open above and below this line."
 msgstr ""
 
 #: ../../appendix/contribute.rst:294
-# 85c07fb6893b46b98d10a5d8da4ac0af
+# 535e63d110fd48e284aee3550598f321
 msgid "External links"
 msgstr ""
 
 #: ../../appendix/contribute.rst:296
-# 3c18f81382f84d4ca4bf5c4f9c79b6dd
+# 6cd58fd8c45d47eabdeca8a48101bfdb
 msgid "To create an external link, write it out like this::"
 msgstr ""
 
 #: ../../appendix/contribute.rst:303
-# 9406e52ff8984e17924663e9e7396556
+# 8d2961a4b651439698b65437050c6d92
 msgid "Using monospaced text"
 msgstr ""
 
 #: ../../appendix/contribute.rst:305
-# 338626f6595b4c5c88abb84d6dc9e21a
+# e34740727b564d6fa25d8f94f4ada85a
 msgid "When you are writing text that the user needs to enter, a path name, or the name of a database element such as a table or column name, you must write it in :kbd:`monospaced text`. For example::"
 msgstr ""
 
 #: ../../appendix/contribute.rst:312
-# 9071eb6464904caf9b35994755c73f82
+# 5acf05357ce1477baaceca99398a3975
 msgid "Labeling GUI items"
 msgstr ""
 
 #: ../../appendix/contribute.rst:314
-# 5d4d7924c7414ee69043301ec7fe5f75
+# 69ebc03ac1234a2ebb00bb6abcf48df1
 msgid "If you are referring to a GUI item, such as a button, you must write its name in :guilabel:`the GUI label format`. For example::"
 msgstr ""
 
 #: ../../appendix/contribute.rst:319
-# d4089888b80f40e0ade8ed274855fa03
+# 6cad17865b844299bd32a7e737bec07b
 msgid "This also applies if you are mentioning the name of a tool without requiring the user to click a button."
 msgstr ""
 
 #: ../../appendix/contribute.rst:323
-# a534ddd5d10340f9ab838053dfa1cf68
+# 41d2d862921248a8b4dacbdbe97cc3d5
 msgid "Menu selections"
 msgstr ""
 
 #: ../../appendix/contribute.rst:325
-# db3b2a575a8342dcb64d3892e2483485
+# 05e7863caf1646daba0f986c5d817487
 msgid "If you are guiding a user through menus, you must use the :menuselection:`menu --> selection --> format`. For example::"
 msgstr ""
 
 #: ../../appendix/contribute.rst:332
-# 6f9c9df0318c40c3b630416df4773f8b
+# 7836ad52631b4b14afaeff1d09f0bfaa
 msgid "Adding notes"
 msgstr ""
 
 #: ../../appendix/contribute.rst:334
-# a822cc4cc01b44479c0d922400fe8e9c
+# e64f3c72180548c3a47a8a6109406a40
 msgid "You might need to a note in the text, which explains extra details that can't easily be made part of the flow of the lesson. This is the markup::"
 msgstr ""
 
 #: ../../appendix/contribute.rst:347
-# d7aaa9af9b9f46b69ea1175deb2261e8
+# 33325d806c224c6684d483d9c6c0e882
 msgid "Adding a sponsorship/authorship note"
 msgstr ""
 
 #: ../../appendix/contribute.rst:349
-# 23bb5965f6ca4c7b9b404a1e392caaaa
+# ee6fce00010f41f9944c172380b4c9c1
 msgid "If you are writing a new module, lesson or section on behalf of a sponsor, you must include a short sponsor message of their choice. This must notify the reader of the name of the sponsor and must appear below the heading of the module, lesson or section that they sponsored. However, it may not be an advertisement for their company."
 msgstr ""
 
 #: ../../appendix/contribute.rst:355
-# 224972d113a24019a8fedb0fbade5d0a
+# bf880a52adb249498d8577657a1cd96e
 msgid "If you have volunteered to write a module, lesson or section in your own capacity, and not on behalf of a sponsor, you may include an authorship note below the heading of the module, lesson or section that you authored. This must take the form :kbd:`This [module/lesson/section] contributed by [author name].` Do not add further text, contact details, etc. Such details are to be added in the \"Contributors\" section of the Foreword, along with the name(s) of the part(s) you added. If you only made enhancements, corrections and/or additions, list yourself as an editor."
 msgstr ""
 
 #: ../../appendix/contribute.rst:365
-# b5e10a8a96394b69806c91027927a59f
+# 7c35b9ed556d43c98ac254b636728b0d
 msgid "Thank You!"
 msgstr ""
 
 #: ../../appendix/contribute.rst:367
-# e5bbb49853b14fd4be1675642adb853a
+# 08944b8cb16c4fa1ae83de6f04002dfd
 msgid "Thank you for contributing to this project! By so doing, you are making QGIS more accessible to users and adding value to the QGIS project as a whole."
 msgstr ""
 
