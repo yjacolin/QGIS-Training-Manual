@@ -162,7 +162,7 @@ msgid ""
 "**The goal for this lesson:** To learn how to classify vector data "
 "effectively."
 msgstr ""
-"**Tujuan akhir untuk pelajaran ini ** Untuk mengaplikasikan label yang "
+"**Tujuan akhir untuk pelajaran ini:** Untuk mengaplikasikan label yang "
 "berguna dan menarik pada sebuah layer."
 
 # 3cf9f2eb0bb249c7b6f51868f203f96c
@@ -196,8 +196,8 @@ msgid ""
 "Change the :guilabel:`Column` to :guilabel:`TOWN` and the :guilabel:`Color "
 "ramp` to :guilabel:`random`:"
 msgstr ""
-"Ganti :guilabel:`Column` menjadi :guilabel:`TOWN` dan :guilabel:`Color "
-"ramp`menjadi :guilabel:`random`:"
+"Ganti :guilabel:`Column` menjadi :guilabel:`TOWN` dan :guilabel:`Color ramp` "
+"menjadi :guilabel:`random`:"
 
 # 14aea25a98564597b393c6ff2c71aebb
 #: ..\..\vector_classification\classification.rst:38
@@ -214,11 +214,11 @@ msgstr "Anda akan melihat hasilnya seperti ini :"
 # a43edf583433461c9c3afbbfa574a858
 #: ..\..\vector_classification\classification.rst:45
 msgid ""
-"Click the arrow (or plus sign) next to :guilabel:`rural` in the :guilabel:"
-"`Layer list`, you'll see the categories explained:"
+"Click the arrow (or plus sign) next to :guilabel:`rural` in the "
+":guilabel:`Layer list`, you'll see the categories explained:"
 msgstr ""
-"Klik pada tanda panah (atau tanda plus) disamping :guilabel:`rural` pada :"
-"guilabel:`Layer list`, Anda akan melihat kategori tersebut dijelaskan "
+"Klik pada tanda panah (atau tanda plus) disamping :guilabel:`rural` pada "
+":guilabel:`Layer list`, Anda akan melihat kategori tersebut dijelaskan "
 "sebagai :"
 
 # 40a5a47fdd644a5a8e6b9ddd88c01b75
@@ -245,9 +245,9 @@ msgstr "Ubah simbolnya :"
 # 0269ddafaa4b42129e250cd0ca36cbf0
 #: ..\..\vector_classification\classification.rst:60
 msgid ""
-"Get rid of the outline the same way you did before, and click :guilabel:"
-"`OK`. (If you need to, go back to the lesson where we covered this to "
-"remember how it's done.)"
+"Get rid of the outline the same way you did before, and click "
+":guilabel:`OK`. (If you need to, go back to the lesson where we covered this "
+"to remember how it's done.)"
 msgstr ""
 "Hilangkan garis luarnya dengan cara yang sama seperti yang Anda lakukan "
 "sebelumnya, dan klik :guilabel:`OK`.(Jika Anda memerlukannya, Anda dapat "
@@ -309,7 +309,8 @@ msgstr "Hasilnya adalah peta yang lebih baik :"
 #: ..\..\vector_classification\classification.rst:93
 msgid "(Only :guilabel:`rural` and :guilabel:`water` are switched on here.)"
 msgstr ""
-"(Hanya :guilabel:`rural`dan :guilabel:`water`yang diaktikan pada contoh ini)"
+"(Hanya :guilabel:`rural` dan :guilabel:`water` yang diaktikan pada contoh "
+"ini)"
 
 # 0765cf3b3e36492d8abea9c4ed7f45ae
 #: ..\..\vector_classification\classification.rst:95
@@ -357,7 +358,7 @@ msgid ""
 "set them apart from the farms."
 msgstr ""
 "Jika Anda hanya mengikuti materi-materi tingkat dasar, gunakan pengetahuan "
-"Anda di atas untuk mengklasifikasikan area :guilabel:`urban`.Gunakan warna "
+"Anda di atas untuk mengklasifikasikan area :guilabel:`urban`. Gunakan warna "
 "yang lebih gelap untuk membedakannya dari area pertanian."
 
 # 3114984e397b4a70acd77dc1bc53b3a8
@@ -437,12 +438,12 @@ msgstr ""
 # 5ba95c79747641fd98c587ec2f1c057c
 #: ..\..\vector_classification\classification.rst:142
 msgid ""
-"Save your rural symbology (if you want to keep it) by clicking on the :"
-"guilabel:`Save Style ...` button in the :guilabel:`Style` dialog."
+"Save your rural symbology (if you want to keep it) by clicking on the "
+":guilabel:`Save Style ...` button in the :guilabel:`Style` dialog."
 msgstr ""
 "Simpan simbologi rural Anda (jika Anda ingin menyimpannya) dengan cara "
-"mengklik tombol :guilabel:`Save Style ...` pada kotak dialog :guilabel:"
-"`Style`."
+"mengklik tombol :guilabel:`Save Style ...` pada kotak dialog "
+":guilabel:`Style`."
 
 # e8e814f3f750413890762f0653c137d4
 #: ..\..\vector_classification\classification.rst:145
@@ -570,11 +571,11 @@ msgstr ""
 # d27ef7a1c57442489b2910422709339a
 #: ..\..\vector_classification\classification.rst:207
 msgid ""
-"Change the classification style from :guilabel:`Classified` to :guilabel:"
-"`Graduated`:"
+"Change the classification style from :guilabel:`Classified` to "
+":guilabel:`Graduated`:"
 msgstr ""
-"Ubah style klasifikasi dari :guilabel:`Classified` menjadi :guilabel:"
-"`Graduated`:"
+"Ubah style klasifikasi dari :guilabel:`Classified` menjadi "
+":guilabel:`Graduated`:"
 
 # 0cdbe04c663b472fb5bcaf849642a9d9
 #: ..\..\vector_classification\classification.rst:213
@@ -584,8 +585,8 @@ msgstr "Ubah :guilabel:`Column` menjadi :guilabel:`AREA`:"
 # cd03a995b55346c2bc759a327d668373
 #: ..\..\vector_classification\classification.rst:218
 msgid ""
-"Under :guilabel:`Color ramp`, choose the option :guilabel:`New color ramp..."
-"` to get this dialog:"
+"Under :guilabel:`Color ramp`, choose the option :guilabel:`New color "
+"ramp...` to get this dialog:"
 msgstr ""
 "Di bawah :guilabel:`Color ramp`, pilih :guilabel:`New color ramp...` untuk "
 "memunculkan kotak dialog berikut :"
@@ -593,8 +594,8 @@ msgstr ""
 # f144d80c153942a8880256c92c6427e8
 #: ..\..\vector_classification\classification.rst:224
 msgid ""
-"Choose :guilabel:`Gradient` (if it's not selected already) and click :"
-"guilabel:`OK`. You'll see this:"
+"Choose :guilabel:`Gradient` (if it's not selected already) and click "
+":guilabel:`OK`. You'll see this:"
 msgstr ""
 "Pilih :guilabel:`Gradient` (jika belum terpilih) dan klik :guilabel:`OK`. "
 "Anda akan melihat ini :"
@@ -641,7 +642,7 @@ msgstr "Biarkan semuanya seperti apa adanya."
 # 1a7441ac42a04a3f88f488cf189395f6
 #: ..\..\vector_classification\classification.rst:251
 msgid "Click :guilabel:`Apply`:"
-msgstr "Klik:guilabel:`Apply`:"
+msgstr "Klik :guilabel:`Apply`:"
 
 # 608f4fa7c8f34a1d8bcf9e492d792174
 #: ..\..\vector_classification\classification.rst:260
@@ -659,7 +660,7 @@ msgid ""
 "Change the values of :guilabel:`Mode` and :guilabel:`Classes` until you get "
 "a classification that makes sense."
 msgstr ""
-"Ubah nilai :guilabel:`Mode`dan :guilabel:`Classes`sampai Anda memperoleh "
+"Ubah nilai :guilabel:`Mode` dan :guilabel:`Classes` sampai Anda memperoleh "
 "klasifikasi yang masuk akal."
 
 # 4d07ec55da43434da3514c151781a857
@@ -719,8 +720,8 @@ msgid ""
 "Click the ellipsis :guilabel:`...` button next to the :guilabel:`Filter` "
 "text area."
 msgstr ""
-"Klik pada tombol bertanda elipsis :guilabel:`...` disamping area teks :"
-"guilabel:`Filter`."
+"Klik pada tombol bertanda elipsis :guilabel:`...` disamping area teks "
+":guilabel:`Filter`."
 
 # 2a0d4bf0287d4af7b05c4379a11b287b
 #: ..\..\vector_classification\classification.rst:285
@@ -749,11 +750,11 @@ msgstr ""
 # 9e73790cfc974b22a230654690d4f794
 #: ..\..\vector_classification\classification.rst:290
 msgid ""
-"Click on the :kbd:`TOWN ...` criterion in the list of rules, and then on :"
-"guilabel:`Increase priority`."
+"Click on the :kbd:`TOWN ...` criterion in the list of rules, and then on "
+":guilabel:`Increase priority`."
 msgstr ""
-"Klik pada kriteria :kbd:`TOWN ...`di daftar kriteria, kemudian klik pada :"
-"guilabel:`Increase priority`."
+"Klik pada kriteria :kbd:`TOWN ...` di daftar kriteria, kemudian klik pada "
+":guilabel:`Increase priority`."
 
 # 2dd2c495e8074d8ab71c3f57e5b1036e
 #: ..\..\vector_classification\classification.rst:293
@@ -782,8 +783,8 @@ msgstr ""
 # a356161ff2ca4226b991f1bf3776bbab
 #: ..\..\vector_classification\classification.rst:311
 msgid ""
-"Symbology allows us to represent the attributes of a layer in an easy-to-"
-"read way. It allows us as well as the map reader to understand the "
+"Symbology allows us to represent the attributes of a layer in an "
+"easy-to-read way. It allows us as well as the map reader to understand the "
 "significance of features, using any relevat attributes that we choose. "
 "Depending on the problems you face, you'll apply different classification "
 "techniques to solve them."
@@ -828,7 +829,7 @@ msgstr ""
 # 49397b6936de4b748464e6a183167283
 #: ..\..\vector_classification\label_tool.rst:2
 msgid "|LS| The Label Tool"
-msgstr "Pelajaran: Tool Tabel "
+msgstr "Pelajaran: Tool Label "
 
 # 2b1dbecda8b94722b468607341bccb36
 #: ..\..\vector_classification\label_tool.rst:4
@@ -849,15 +850,15 @@ msgid ""
 "but for this example we will not be using it. It has too few options and may "
 "be difficult to work with, which is why it will probably be taken out of new "
 "versions of QGIS (after 1.8). Instead, for this lesson we'll use the "
-"separate :guilabel:`Label tool`, which has more options and is more user-"
-"friendly."
+"separate :guilabel:`Label tool`, which has more options and is more "
+"user-friendly."
 msgstr ""
-"Kotak dialog :guilabel:`Layer Properties`memang memiliki tab :guilabel:"
-"`Labels`, akan tetapi, untuk contoh ini kita tidak akan menggunakannya. Tab "
-"tersebut memiliki terlalu sedikit opsi, yang mana mungkin itulah sebabnya ia "
-"akan dihilangkan dari versi baru QGIS (setelah 1.8). Selain itu, untuk "
-"pelajaran ini kita akan menggunakan :guilabel:`Label tool`, yang mana "
-"memiliki lebih banyak opsi dan lebih *user friendly*. "
+"Kotak dialog :guilabel:`Layer Properties`memang memiliki tab "
+":guilabel:`Labels`, akan tetapi, untuk contoh ini kita tidak akan "
+"menggunakannya. Tab tersebut memiliki terlalu sedikit opsi, yang mana "
+"mungkin itulah sebabnya ia akan dihilangkan dari versi baru QGIS (setelah "
+"1.8). Selain itu, untuk pelajaran ini kita akan menggunakan :guilabel:`Label "
+"tool`, yang mana memiliki lebih banyak opsi dan lebih *user friendly*. "
 
 # 6fbf6f12a06c4e2ea761f62d10130830
 #: ..\..\vector_classification\label_tool.rst:15
@@ -865,7 +866,7 @@ msgid ""
 "**The goal for this lesson:** To apply useful and good-looking labels to a "
 "layer."
 msgstr ""
-"**Tujuan akhir untuk pelajaran ini ** Untuk mengaplikasikan label yang "
+"**Tujuan akhir untuk pelajaran ini:** Untuk mengaplikasikan label yang "
 "berguna dan menarik pada sebuah layer."
 
 # 112ea028d6094280a3a335792942f2bc
@@ -930,8 +931,8 @@ msgid ""
 "the most suitable one for this purpose."
 msgstr ""
 "Anda harus memilih field mana pada tabel atribut yang akan digunakan sebagai "
-"label. Pada pelajaran sebelumnya, Anda telah memutuskan bahwa field :kbd:"
-"`NAME` adalah yang paling sesuai untuk keperluan ini."
+"label. Pada pelajaran sebelumnya, Anda telah memutuskan bahwa field "
+":kbd:`NAME` adalah yang paling sesuai untuk keperluan ini."
 
 # 738138c8414942a38b837cb2da2a680f
 #: ..\..\vector_classification\label_tool.rst:45
@@ -973,8 +974,8 @@ msgstr ""
 msgid ""
 "Click on the ellipsis (:guilabel:`...`) button to change the text properties:"
 msgstr ""
-"Untuk merubah sifat teks, klik pada tombol bertanda elipsis (:guilabel:`..."
-"`):"
+"Untuk merubah sifat teks, klik pada tombol bertanda elipsis "
+"(:guilabel:`...`):"
 
 # 31f945e1409e4bfdba6df398c42cf02f
 #: ..\..\vector_classification\label_tool.rst:70
@@ -984,15 +985,15 @@ msgid ""
 "now look like this:"
 msgstr ""
 "Akan muncul sebuah kotak dialog text change, mirip dengan yang banyak "
-"dijumpai di program-program lain. Ubah huruf menjadi ukuran :kbd:`Arial` :"
-"kbd:`9`. Sekarang label Anda akan tampak seperti ini :"
+"dijumpai di program-program lain. Ubah huruf menjadi ukuran :kbd:`Arial` "
+":kbd:`9`. Sekarang label Anda akan tampak seperti ini :"
 
 # 065e53ebcc804fefbbafc4ec5ca76116
 #: ..\..\vector_classification\label_tool.rst:77
 msgid ""
 "That's the font problem solved! Now let's look at the problem of the labels "
-"overlapping the points, but before we do that, let's take a look at the :"
-"guilabel:`Buffer` option."
+"overlapping the points, but before we do that, let's take a look at the "
+":guilabel:`Buffer` option."
 msgstr ""
 "Masalah font sudah kita selesaikan! Sekarang mari kita lihat soal label yang "
 "menutupi titik. Tetapi sebelum kita melakukannya, mari kita lihat pada "
@@ -1115,11 +1116,11 @@ msgstr ""
 # 4e03c82183f542dc87fa02e06a164cb1
 #: ..\..\vector_classification\label_tool.rst:131
 msgid ""
-"Open the :guilabel:`Layer labeling settings` dialog for the :guilabel:"
-"`places` layer."
+"Open the :guilabel:`Layer labeling settings` dialog for the "
+":guilabel:`places` layer."
 msgstr ""
-"Buka kotak dialog : :guilabel:`Layer labeling settings` untuk layer :"
-"guilabel:`places`.Buka kotak dialog : :guilabel:`Layer labeling "
+"Buka kotak dialog : :guilabel:`Layer labeling settings` untuk layer "
+":guilabel:`places`.Buka kotak dialog : :guilabel:`Layer labeling "
 "settings`untuk layer :guilabel:`places`."
 
 # fce48521568a46dbb23bd86f4e02f3ac
@@ -1183,7 +1184,7 @@ msgid ""
 "the :guilabel:`Scale` box in the :guilabel:`Status Bar`."
 msgstr ""
 "Atur skala peta menjadi:kbd:`1:50000`. Anda dapat melakukannya dengan "
-"mengetik pada kotak :guilabel:`Scale`di :guilabel:`Status Bar`."
+"mengetik pada kotak :guilabel:`Scale` di :guilabel:`Status Bar`."
 
 # 74b751f6df4249d2a268eef4741846f9
 #: ..\..\vector_classification\label_tool.rst:168
@@ -1230,8 +1231,8 @@ msgstr "Sembunyikan layer :guilabel:`places` sehingga tidak mengganggu ."
 #: ..\..\vector_classification\label_tool.rst:186
 msgid ""
 "Activate labels for the :guilabel:`streets` layer as before. (Remember to "
-"use the :guilabel:`Label tool` on the toolbar, not the one in :guilabel:"
-"`Label Properties`!)"
+"use the :guilabel:`Label tool` on the toolbar, not the one in "
+":guilabel:`Label Properties`!)"
 msgstr ""
 "Aktifkan label untuk layer :guilabel:`streets` sebagaimana sebelumnya "
 "(Gunakan :guilabel:`Label tool` pada toolbar , bukan :guilabel:`Label "
@@ -1284,8 +1285,6 @@ msgid ""
 msgstr ""
 "Aktifkan opsi :guilabel:`Merge connected lines to avoid duplicate labels` "
 "(juga terletak pada tab :guilabel:`Advanced` – Anda mungkin harus menggulung "
-"Aktifkan opsi :guilabel:`Merge connected lines to avoid duplicate labels`"
-"(juga terletaka pada tab :guilabel:`Advanced – Anda mungkin harus menggulung "
 "layar ke bawah untuk melihatnya)."
 
 # 0185cd2dd0f7412b9ace1889d3b3ef91
@@ -1303,17 +1302,15 @@ msgid ""
 "Set the value of :guilabel:`Suppress labeling of features smaller than ...` "
 "to :kbd:`5mm` and note the results when you click :guilabel:`Apply`."
 msgstr ""
-"Tetapkan nilai untuk :guilabel:`Suppress labeling of features smaller "
-"than ...` menjadi :kbd:`5mm` dan perhatikan hasilnya setelah Anda mengklik :"
-"guilabel:`Apply`.Tetapkan nilai untuk :guilabel:`Suppress labeling of "
-"features smaller than ...` menjadi :kbd:`5mm`dan perhatikan hasilnya setelah "
-"Anda mengklik :guilabel:`Apply`."
+"Tetapkan nilai untuk :guilabel:`Suppress labeling of features smaller than "
+"...` menjadi :kbd:`5mm` dan perhatikan hasilnya setelah Anda mengklik "
+":guilabel:`Apply`."
 
 # 57cb48f87c3c4561ab3e35e30228852d
 #: ..\..\vector_classification\label_tool.rst:216
 msgid ""
-"Try out different :guilabel:`Placement` settings as well (also under the :"
-"guilabel:`Advanced` tab). As we've seen before, the :guilabel:`horizontal` "
+"Try out different :guilabel:`Placement` settings as well (also under the "
+":guilabel:`Advanced` tab). As we've seen before, the :guilabel:`horizontal` "
 "option is not a good idea in this case, so let's try the :guilabel:`curved` "
 "option instead!"
 msgstr ""
@@ -1328,8 +1325,8 @@ msgid ""
 "Select the :guilabel:`curved` option under the :guilabel:`Advanced` tab of "
 "the :guilabel:`Layer labeling settings` dialog."
 msgstr ""
-"Pilih :guilabel:`curved` dalam tab :guilabel:`Advanced` dari kotak dialog :"
-"guilabel:`Layer labeling settings`."
+"Pilih :guilabel:`curved` dalam tab :guilabel:`Advanced` dari kotak dialog "
+":guilabel:`Layer labeling settings`."
 
 # f1aa8458565d4c3ab12c03f158cd3975
 #: ..\..\vector_classification\label_tool.rst:224
@@ -1375,18 +1372,18 @@ msgstr "buka atribut table untuk :guilabel:`places`."
 # bb3c9378a08d48c7bb257136abfba741
 #: ..\..\vector_classification\label_tool.rst:241
 msgid ""
-"It has two fields that are of interest to us now: :kbd:`ADDR_CITY` and :kbd:"
-"`IN_SWD`. :kbd:`ADDR_CITY` is the city that the feature is in. :kbd:`IN_SWD` "
-"is derived from it, and tells you whether or not that feature is in "
-"Swellendam (:kbd:`1` if it is, :kbd:`0` if not). We can use this data to "
-"influence the label styles."
+"It has two fields that are of interest to us now: :kbd:`ADDR_CITY` and "
+":kbd:`IN_SWD`. :kbd:`ADDR_CITY` is the city that the feature is in. "
+":kbd:`IN_SWD` is derived from it, and tells you whether or not that feature "
+"is in Swellendam (:kbd:`1` if it is, :kbd:`0` if not). We can use this data "
+"to influence the label styles."
 msgstr ""
-"Tabel atribut tersebut mempunyai dua field yang kita perlukan sekarang: :kbd:"
-"`ADDR_CITY` dan :kbd:`IN_SWD`. :kbd:`ADDR_CITY` adalah kota yang diwakili "
-"oleh fitur tersebut. :kbd:`IN_SWD` diturunkan darinya, dan berisi informasi "
-"tentang apakah fitur tersebut berada di Kota Swellendam (:kbd:`1` jika ya, "
-"dan :kbd:`0`jika tidak). Kita dapat menggunakan data-data ini untuk "
-"mempengaruhi style label. "
+"Tabel atribut tersebut mempunyai dua field yang kita perlukan sekarang: "
+":kbd:`ADDR_CITY` dan :kbd:`IN_SWD`. :kbd:`ADDR_CITY` adalah kota yang "
+"diwakili oleh fitur tersebut. :kbd:`IN_SWD` diturunkan darinya, dan berisi "
+"informasi tentang apakah fitur tersebut berada di Kota Swellendam (:kbd:`1` "
+"jika ya, dan :kbd:`0` jika tidak). Kita dapat menggunakan data-data ini "
+"untuk mempengaruhi style label. "
 
 # 6ce3c707887843c9b51ee1e8fc7bd7b2
 #: ..\..\vector_classification\label_tool.rst:247
@@ -1396,12 +1393,11 @@ msgstr "Buka tab :guilabel:`Data defined settings`."
 # 5857001bd0d3479d9a17df94ded044b3
 #: ..\..\vector_classification\label_tool.rst:248
 msgid ""
-"In the :guilabel:`Italic` dropdown, select :kbd:`IN_SWD` and click :guilabel:"
-"`Apply`."
+"In the :guilabel:`Italic` dropdown, select :kbd:`IN_SWD` and click "
+":guilabel:`Apply`."
 msgstr ""
-"Pada menu dropdown :guilabel:`Italic`,pilih :kbd:`IN_SWD`dan klik :guilabel:"
-"`Apply`.Pada menu dropdown:guilabel:`Italic`,pilih :kbd:`IN_SWD`dan klik :"
-"guilabel:`Apply`."
+"Pada menu dropdown :guilabel:`Italic`,pilih :kbd:`IN_SWD`dan klik "
+":guilabel:`Apply`."
 
 # 88985123c2d84056aad7ac82db6e9463
 #: ..\..\vector_classification\label_tool.rst:251
@@ -1468,22 +1464,22 @@ msgstr "|hard| Lebih lanjut dengan pelabelan"
 # 735f3554a72a4992bf975af272b45192
 #: ..\..\vector_classification\label_tool.rst:293
 msgid ""
-"We can't cover every option in this course, but be aware that the :guilabel:"
-"`Label tool` has many other useful functions. You can set scale-based "
-"rendering, alter the rendering priority for labels in a layer, and set every "
-"label option using layer attributes. You can even set the rotation, XY "
-"position, and other properties of a label (if you have attribute fields "
-"allocated for the purpose), then edit these properties using the tools "
-"adjacent to the main :guilabel:`Label tool`:"
+"We can't cover every option in this course, but be aware that the "
+":guilabel:`Label tool` has many other useful functions. You can set "
+"scale-based rendering, alter the rendering priority for labels in a layer, "
+"and set every label option using layer attributes. You can even set the "
+"rotation, XY position, and other properties of a label (if you have "
+"attribute fields allocated for the purpose), then edit these properties "
+"using the tools adjacent to the main :guilabel:`Label tool`:"
 msgstr ""
 "Kita tidak dapat membahas setiap  opsi pada kursus ini, tetapi perlu "
 "ditekankan bahwa :guilabel:`Label tool` mempunyai banyak fungsi lain. Anda "
 "dapat membuat rendering berbasis skala, merubah prioritas rendering label "
 "pada sebuah layer, dan mengatur agar setiap  opsi label menggunakan data "
-"pada tabel atribut. Anda bahkan dapat mengatur rotasi, posisi dalam sumbu-"
-"XY, dan sifat-sifat lain sebuah label (jika Anda mempunyai field atribut "
-"yang sesuai untuk keperluan ini), kemudian mengedit sifat ini menggunakan "
-"tool yang berkaitan dengan menu utama :guilabel:`Label tool`:"
+"pada tabel atribut. Anda bahkan dapat mengatur rotasi, posisi dalam "
+"sumbu-XY, dan sifat-sifat lain sebuah label (jika Anda mempunyai field "
+"atribut yang sesuai untuk keperluan ini), kemudian mengedit sifat ini "
+"menggunakan tool yang berkaitan dengan menu utama :guilabel:`Label tool`:"
 
 # c4b07eacb8c54997aa65df297ba1c388
 #: ..\..\vector_classification\label_tool.rst:304
