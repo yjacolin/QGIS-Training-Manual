@@ -243,8 +243,8 @@ msgstr ""
 # ea693c9c4a844915b3d26802169f5d07
 #: ..\..\answers\answers.rst:117
 msgid ""
-"Also feel free to experiment with different :guilabel:`Fill Style` and :"
-"guilabel:`Border Style` settings for the polygons."
+"Also feel free to experiment with different :guilabel:`Fill Style` and "
+":guilabel:`Border Style` settings for the polygons."
 msgstr ""
 "Juga jangan ragu untuk bereksperimen dengan :guilabel:`Fill Style` dan "
 "pengaturan :guilabel:`Border Style` yang berbeda untuk poligon."
@@ -369,8 +369,8 @@ msgid ""
 "(i.e., fields with no value)."
 msgstr ""
 "Field *NAME* paling banyak digunakan sebagai label. Hal ini dikarenakan "
-"semua nilainya unik untuk setiap objek, dan ini tidak berisi nilai "
-"“null” (misalnya fields tanpa nilai)."
+"semua nilainya unik untuk setiap objek, dan ini tidak berisi nilai “null” "
+"(misalnya fields tanpa nilai)."
 
 # f574b38e57e947efa6e38419306d6955
 #: ..\..\answers\answers.rst:200
@@ -501,13 +501,15 @@ msgstr ""
 # 8bbc392cf35e460ab527c16f0236c355
 #: ..\..\answers\answers.rst:281
 msgid ""
-"The settings you used might not be the same, but with the values :guilabel:"
-"`Classes` = :kbd:`7` and :guilabel:`Mode` = :guilabel:`Natural Breaks (Jenks)"
-"` (and using the same colors, of course), the map will look like this:"
+"The settings you used might not be the same, but with the values "
+":guilabel:`Classes` = :kbd:`7` and :guilabel:`Mode` = :guilabel:`Natural "
+"Breaks (Jenks)` (and using the same colors, of course), the map will look "
+"like this:"
 msgstr ""
-"Pengaturan yang Anda gunakan mungkin tidak sama, tetapi nilai :guilabel:"
-"`Classes` = :kbd:`7` dan :guilabel:`Mode` = :guilabel:`Natural Breaks (Jenks)"
-"` ( dan gunakan warna yang sama), peta tersebut akan terlihat seperti ini:"
+"Pengaturan yang Anda gunakan mungkin tidak sama, tetapi nilai "
+":guilabel:`Classes` = :kbd:`7` dan :guilabel:`Mode` = :guilabel:`Natural "
+"Breaks (Jenks)` ( dan gunakan warna yang sama), peta tersebut akan terlihat "
+"seperti ini:"
 
 # e5fe4fc476ab4eea984f68506c7455e4
 #: ..\..\answers\answers.rst:288
@@ -667,14 +669,14 @@ msgid ""
 "Set the widget to :guilabel:`Unique values` and leave :guilabel:`Editable` "
 "as :kbd:`False`:"
 msgstr ""
-"Mengatur widget ke :guilabel:`Unique values`  dan meninggalkan :guilabel:"
-"`Editable` sebagai :kbd:`False`:"
+"Mengatur widget ke :guilabel:`Unique values`  dan meninggalkan "
+":guilabel:`Editable` sebagai :kbd:`False`:"
 
 # 88cedbd9192349e0a6b1e2ec3774cbc9
 #: ..\..\answers\answers.rst:398
 msgid ""
-"A road is either a one-way or it isn't, so :guilabel:`ONEWAY` should be a :"
-"guilabel:`Checkbox`."
+"A road is either a one-way or it isn't, so :guilabel:`ONEWAY` should be a "
+":guilabel:`Checkbox`."
 msgstr ""
 "Sebuah jalan merupakan jalan satu arah atau bukan, maka :guilabel:`ONEWAY` "
 "harus dipilih pada :guilabel:`Checkbox`."
@@ -683,12 +685,12 @@ msgstr ""
 #: ..\..\answers\answers.rst:401
 msgid ""
 "Looking at the attribute table for :guilabel:`streets`, the value for when "
-"it's not a one-way seems to be :guilabel:`NULL`, and when it is, it's :"
-"guilabel:`yes`."
+"it's not a one-way seems to be :guilabel:`NULL`, and when it is, it's "
+":guilabel:`yes`."
 msgstr ""
 "Melihat tabel atribut untuk :guilabel:`streets`, nilai ketika tidak satu "
-"arah tampaknya menjadu :guilabel:`NULL`, dan ketika satu arah, maka :"
-"guilabel:`yes`."
+"arah tampaknya menjadu :guilabel:`NULL`, dan ketika satu arah, maka "
+":guilabel:`yes`."
 
 # 42d425d7a2074f0ba9e365a7c846f4c8
 #: ..\..\answers\answers.rst:405
@@ -728,12 +730,12 @@ msgstr "Layer Anda sekarang harus mempunyai jalan-jalan berikut:"
 # 86ed15f247ad4eadbd3ba7302c410922
 #: ..\..\answers\answers.rst:432
 msgid ""
-"Save this new layer (the same way you did before) under :kbd:`exercise_data/"
-"residential_development/`, as :kbd:`important_roads.shp`."
+"Save this new layer (the same way you did before) under "
+":kbd:`exercise_data/residential_development/`, as :kbd:`important_roads.shp`."
 msgstr ""
 "Simpan layer baru ini (dengan cara yang sama seperti sebelumnya) di dalam "
-"folder  :kbd:`exercise_data/residential_development/`, sebagai :kbd:"
-"`important_roads.shp`."
+"folder  :kbd:`exercise_data/residential_development/`, sebagai "
+":kbd:`important_roads.shp`."
 
 # ad896b703e07466b890c4ea89d0f20b2
 #: ..\..\answers\answers.rst:434
@@ -796,9 +798,9 @@ msgstr "Dengan ini:"
 # 27b2ee943e8e4dfd945cad68e7c06d05
 #: ..\..\answers\answers.rst:466
 msgid ""
-"The red circle is the buffer with :guilabel:`Segments to approximate` set "
-"to :kbd:`20`; the gray circle on top of it is the buffer with :guilabel:"
-"`Segments to approximate` set to :kbd:`5`."
+"The red circle is the buffer with :guilabel:`Segments to approximate` set to "
+":kbd:`20`; the gray circle on top of it is the buffer with "
+":guilabel:`Segments to approximate` set to :kbd:`5`."
 msgstr ""
 "Lingkaran merah adalah buffer dengan :guilabel:`Segments to approximate` "
 "diatur senilai :kbd:`20`; lingkaran berwarna abu-abu di atasnya adalah "
@@ -886,8 +888,8 @@ msgstr "|moderate| *Raster ke Vektor*"
 # fa8551c508654ddd88a3f04af56b7faf
 #: ..\..\answers\answers.rst:530
 msgid ""
-"Open the :guilabel:`Query` dialog by right-clicking on the :guilabel:"
-"`all_terrain` layer in the :guilabel:`Layers list`."
+"Open the :guilabel:`Query` dialog by right-clicking on the "
+":guilabel:`all_terrain` layer in the :guilabel:`Layers list`."
 msgstr ""
 "Buka dialog :guilabel:`Query` dengn klik pada layer :guilabel:`all_terrain` "
 "dalm :guilabel:`Layers list`."
@@ -919,9 +921,9 @@ msgid ""
 "layer in the :guilabel:`Layers list` and choosing :guilabel:`Save As...`, "
 "then continue as per the instructions."
 msgstr ""
-"Anda dapat menyimpan layer ini dengan mengklik kanan pada layer :guilabel:"
-"`all_terrain` pada :guilabel:`Layers list` dan pilih :guilabel:`Save As...`, "
-"kemudian lanjutkan tiap instruksi."
+"Anda dapat menyimpan layer ini dengan mengklik kanan pada layer "
+":guilabel:`all_terrain` pada :guilabel:`Layers list` dan pilih "
+":guilabel:`Save As...`, kemudian lanjutkan tiap instruksi."
 
 # 0fe004873fc945229b2cd86005d461bb
 #: ..\..\answers\answers.rst:545
@@ -988,8 +990,8 @@ msgstr ""
 # c397783773e6415f98d7c28c25a27850
 #: ..\..\answers\answers.rst:587
 msgid ""
-"Therefore, you can run an *interior buffer* of 350 meters on your existing :"
-"guilabel:`suitable_terrain` vector layer. In the output of the buffer "
+"Therefore, you can run an *interior buffer* of 350 meters on your existing "
+":guilabel:`suitable_terrain` vector layer. In the output of the buffer "
 "function, whatever remains of the original layer will represent areas where "
 "there is suitable terrain for 350 meters beyond."
 msgstr ""
@@ -1031,8 +1033,8 @@ msgstr ""
 # e4275a1df0294564b7206e055d90e798
 #: ..\..\answers\answers.rst:604
 msgid ""
-"Save the output in :kbd:`exercise_data/residential_development/` as :kbd:"
-"`suitable_terrain_continuous350m.shp`."
+"Save the output in :kbd:`exercise_data/residential_development/` as "
+":kbd:`suitable_terrain_continuous350m.shp`."
 msgstr ""
 "Simpan hasilnya dalam folder :kbd:`exercise_data/residential_development/`  "
 "sebagai :kbd:`suitable_terrain_continuous350m.shp`."
@@ -1048,8 +1050,8 @@ msgid ""
 "Now use the :guilabel:`Select by Location` tool (:menuselection:`Vector --> "
 "Research Tools --> Select by location`)."
 msgstr ""
-"Sekarang gunakan tool  :guilabel:`Select by Location` (:menuselection:"
-"`Vector --> Research Tools --> Select by location`)."
+"Sekarang gunakan tool  :guilabel:`Select by Location` "
+"(:menuselection:`Vector --> Research Tools --> Select by location`)."
 
 # ff05e95d68cd45c39d1e3bd41d807e72
 #: ..\..\answers\answers.rst:614
@@ -1059,8 +1061,8 @@ msgstr "Atur seperti berikut:"
 # ae04139e353d48a4a396e0332d97db47
 #: ..\..\answers\answers.rst:619
 msgid ""
-"Select features in :guilabel:`new_solution` that intersect features in :"
-"guilabel:`suitable_terrain_continuous350m.shp`."
+"Select features in :guilabel:`new_solution` that intersect features in "
+":guilabel:`suitable_terrain_continuous350m.shp`."
 msgstr ""
 "Pilih fitur dalam :guilabel:`new_solution` yang berpotongan dengan feature "
 "dalam :guilabel:`suitable_terrain_continuous350m.shp`."
@@ -1078,11 +1080,12 @@ msgstr "Lahan pertanian dengan warna kuning adalah yang dipilih."
 # e89489e1499c44bdb12a8dc9cd8e3d00
 #: ..\..\answers\answers.rst:629
 msgid ""
-"Save the selection under :kbd:`exercise_data/residential_development/` as :"
-"kbd:`final_answer.shp`."
+"Save the selection under :kbd:`exercise_data/residential_development/` as "
+":kbd:`final_answer.shp`."
 msgstr ""
-"Simpan hasil yang terpilih tersbut dalam folder  :kbd:`exercise_data/"
-"residential_development/`   sebagai  :kbd:`final_answer.shp`."
+"Simpan hasil yang terpilih tersbut dalam folder  "
+":kbd:`exercise_data/residential_development/`   sebagai  "
+":kbd:`final_answer.shp`."
 
 # 7ce72ad97bab44729d451deb27c60446
 #: ..\..\answers\answers.rst:632
@@ -1165,13 +1168,13 @@ msgid ""
 msgstr ""
 "Anda mungkin memperhatikan bahwa banyak server WMS yang tidak selalu "
 "tersedia. Kadang hal tersebut hanya sementara, tetapi kadang juga permanen. "
-"Sebuah contoh dari server WMS yang bekerja pada saat penulisan adalah  WMS :"
-"guilabel:`World Mineral Deposits` dalam :kbd:`http://apps1.gdr.nrcan.gc.ca/"
-"cgi-bin/worldmin_en-ca_ows`. WMA tersebut tidak memerluan biaya atau "
-"mempunyai akses konstrain, dan WMS terbelut bersifat global. Oleh karena "
-"itu, WMS tersebut memenuhi persyaratan. Perlu diingat, meskipun demikian, "
-"WMS tersebut hanya sebuah contoh. Ada banyak server WMS lainnya yang bisa "
-"dipilih."
+"Sebuah contoh dari server WMS yang bekerja pada saat penulisan adalah  WMS "
+":guilabel:`World Mineral Deposits` dalam "
+":kbd:`http://apps1.gdr.nrcan.gc.ca/cgi-bin/worldmin_en-ca_ows`. WMA tersebut "
+"tidak memerluan biaya atau mempunyai akses konstrain, dan WMS terbelut "
+"bersifat global. Oleh karena itu, WMS tersebut memenuhi persyaratan. Perlu "
+"diingat, meskipun demikian, WMS tersebut hanya sebuah contoh. Ada banyak "
+"server WMS lainnya yang bisa dipilih."
 
 # 0b82f473208744848cff19acd5a0a4d2
 #: ..\..\answers\answers.rst:695
@@ -1267,8 +1270,8 @@ msgid ""
 msgstr ""
 "Pesan tersebut berarti bahwa ketika membuat polygon untuk table cities, Anda "
 "harus menghapus beberapa poligon dari tebale tersebut dan memulianya lagi. "
-"Periksa data masukan dalam tabel *cities* Anda dan gunakan sembarang :kbd:"
-"`id` yang sudah ada."
+"Periksa data masukan dalam tabel *cities* Anda dan gunakan sembarang "
+":kbd:`id` yang sudah ada."
 
 # b1ac6a7e2f8641689be5a94fc88b8404
 #: ..\..\answers\answers.rst:804
