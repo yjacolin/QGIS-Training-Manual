@@ -45,7 +45,7 @@ Since so many different configurations are possible when analyzing networks,
 the plugin doesn't assume anything before you've set it up. Unfortunately, this
 means that it won't do anything at all if you don't set it up first.
 
-* Click on the menu item :menuselection:`Vector --> Road graph --> Road graph
+* Click on the menu item :menuselection:`Plugins --> Road graph --> Road graph
   settings`. A dialog will appear.
 * Make sure it's set up like this (use defaults unless otherwise specified):
 
