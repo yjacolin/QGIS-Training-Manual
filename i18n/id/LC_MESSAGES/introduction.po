@@ -151,7 +151,7 @@ msgid ""
 "action you will be performing in the program, but the emphasis is on "
 "learning by doing."
 msgstr ""
-"Llatar belakang teoritis yang terbatas akan diberikan untuk menjelaskan "
+"Latar belakang teoritis yang terbatas akan diberikan untuk menjelaskan "
 "mengenai tujuan dari sebuah aksi  yang akan Anda lakukan di program, tetapi "
 "penekanannya adalah pada *learning by doing (belajar sambil melakukan)*."
 
@@ -339,8 +339,8 @@ msgid ""
 "menus, toolbars, map canvas and layers list that form the basic structure of "
 "the interface."
 msgstr ""
-"Kita akan menjelajahi antarmuka QGIS sehingga Anda akan terbiasa dengan menu-"
-"menu, *toolbar-toolbar*, bidang peta dan daftar *layer* yang membentuk "
+"Kita akan menjelajahi antarmuka QGIS sehingga Anda akan terbiasa dengan "
+"menu-menu, *toolbar-toolbar*, bidang peta dan daftar *layer* yang membentuk "
 "struktur dasar dari antarmuka QGIS. "
 
 # 608dc2d2d4dd4f75999afd4cffef682d
@@ -447,13 +447,12 @@ msgstr "|basic| *Toolbar*"
 
 # 2c091cf0b95c45f48c17ec1166005f32
 #: ..\..\introduction\overview.rst:50
-#, fuzzy
 msgid ""
 "Your most oft-used sets of tools can be turned into toolbars for basic "
 "access. For example, the File toolbar allows you to save, load, print, and "
 "start a new project. You can easily customize the interface to see only the "
-"tools you use most often, adding or removing toolbars as necessary via the :"
-"menuselection:`View --> Toolbars` menu."
+"tools you use most often, adding or removing toolbars as necessary via the "
+":menuselection:`View --> Toolbars` menu."
 msgstr ""
 "Seperangkat tool yang sering Anda gunakan dapat dimasukkan ke dalam toolbar "
 "untuk mengakses tool-tool dasar. Contohnya adalah toolbar File yang "
@@ -465,20 +464,18 @@ msgstr ""
 
 # 1056fb60e50b467cab8f4f7af8bb3f31
 #: ..\..\introduction\overview.rst:56
-#, fuzzy
 msgid ""
 "Even if they are not visible in a toolbar, all of your tools will remain "
 "accessible via the menus. For example, if you remove the :guilabel:`File` "
 "toolbar (which contains the :guilabel:`Save` button), you can still save "
-"your map by clicking on the :guilabel:`File` menu and then clicking on :"
-"guilabel:`Save`."
+"your map by clicking on the :guilabel:`File` menu and then clicking on "
+":guilabel:`Save`."
 msgstr ""
-"Bahkan apabila *tool – too*l tersebut tidak terlihat pada *toolbar*, seluruh "
-"*tool* Anda akan tetap dapat diakses melalui menu-menu. Sebagai contoh, jika "
-"Anda menghilangkan *toolbar* :guilabel:`File` (yang berisi tombol :guilabel:"
-"`Save`), Anda masih dapat menyimpan peta Anda dengan mengklik menu :guilabel:"
-"`File` kemudian klik :guilabel:`Save`.your map by clicking on the :guilabel:"
-"`File` menu and then clicking on :guilabel:`Save`."
+"Bahkan apabila *tool – tool* tersebut tidak terlihat pada *toolbar* , "
+"seluruh *tool* Anda akan tetap dapat diakses melalui menu-menu. Sebagai "
+"contoh, jika Anda menghilangkan *toolbar* :guilabel:`File` (yang berisi "
+"tombol :guilabel:`Save`), Anda masih dapat menyimpan peta Anda dengan "
+"mengklik menu :guilabel:`File` kemudian klik :guilabel:`Save`."
 
 # 4073ef402275402e8bfc801241ba96f6
 #: ..\..\introduction\overview.rst:63
@@ -553,10 +550,10 @@ msgstr ""
 "Jika *tool-tool* ini tidak terlihat pada layar monitor, cobalah mengaktifkan "
 "beberapa *toolbar* yang sekarang masih tersembunyi. Juga harus diingat bahwa "
 "jika tidak ada cukup ruang di layar monitor, sebuah *toolbar* bisa "
-"dipendekkan dengan menyembunyikan beberapa *tool*. Anda dapat melihat *tool-"
-"tool* yang tersembunyi dengan meng-klik pada tombol panah ganda sebelah "
-"kanan. Anda juga dapat melihat *tooltip* dengan nama pada setiap *tool* "
-"dengan menekan *mouse* agak lama di atas tool."
+"dipendekkan dengan menyembunyikan beberapa *tool*. Anda dapat melihat "
+"*tool-tool* yang tersembunyi dengan meng-klik pada tombol panah ganda "
+"sebelah kanan. Anda juga dapat melihat *tooltip* dengan nama pada setiap "
+"*tool* dengan menekan *mouse* agak lama di atas tool."
 
 # 21f41de73c044770800a09cdeb9ff280
 #: ..\..\introduction\overview.rst:116
@@ -657,24 +654,18 @@ msgstr "Klik tombol tersebut untuk membuka kotak dialog sebagai berikut:"
 
 # bde25cf71feb4fea9829cec91f0f2a2a
 #: ..\..\introduction\preparation.rst:40
-#, fuzzy
 msgid ""
-"Click on the :guilabel:`Browse` button and navigate to the file :kbd:"
-"`exercise_data/streets.shp` (in your course directory). With this file "
+"Click on the :guilabel:`Browse` button and navigate to the file "
+":kbd:`exercise_data/streets.shp` (in your course directory). With this file "
 "selected, click :guilabel:`Open`. You will see the original dialog, but with "
 "the file path filled in. Click :guilabel:`Open` here as well. The data you "
 "specified will now load."
 msgstr ""
-"Sekarang klik tombol :guilabel:`Browse` dan arahkan pada file :kbd:"
-"`exercise_data/streets.shp` (di dalam direktori pelatihan Anda). Pilih file "
-"ini, klik :guilabel:`Open`. Anda akan melihat kotak dialog awalnya, tetapi "
-"dengan file *path* yang terisi di dalamnya. Klik :guilabel:`Open` juga "
-"disini. Data yang Anda pilih akan terpanggil.Sekarang klik tombol :guilabel:"
-"`Browse` dan arahkan pada file :kbd:`exercise_data/streets.shp` (di dalam "
-"direktori pelatihan Anda). Pilih file ini, klik :guilabel:`Open`. Anda akan "
-"melihat kotak dialog awalnya, tetapi dengan file *path* yang terisi di "
-"dalamnya. Klik :guilabel:`Open` juga disini. Data yang Anda pilih akan "
-"terpanggil. "
+"Sekarang klik tombol :guilabel:`Browse` dan arahkan pada file "
+":kbd:`exercise_data/streets.shp` (di dalam direktori pelatihan Anda). Pilih "
+"file ini, klik :guilabel:`Open`. Anda akan melihat kotak dialog awalnya, "
+"tetapi dengan file *path* yang terisi di dalamnya. Klik :guilabel:`Open` "
+"juga disini. Data yang Anda pilih akan terpanggil."
 
 # 7b73cc0a72424c06ac7f0f6ba6afdaa5
 #: ..\..\introduction\preparation.rst:46
@@ -695,8 +686,8 @@ msgstr "Klik pada tombol :guilabel:`Save As`:"
 msgid ""
 "Save the map under :kbd:`exercise_data/` and call it :kbd:`basic_map.qgs`."
 msgstr ""
-"Simpan peta tersebut ke dalam :kbd:`exercise_data/`  dan simpan dengan nama :"
-"kbd:`basic_map.qgs`."
+"Simpan peta tersebut ke dalam :kbd:`exercise_data/`  dan simpan dengan nama "
+":kbd:`basic_map.qgs`."
 
 # 0bb8fe73727447ae9be574099f1998f7
 #: ..\..\introduction\preparation.rst:56
