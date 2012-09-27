@@ -94,8 +94,8 @@ msgstr ""
 msgid ""
 "Create a new directory called :kbd:`grass_db` in :guilabel:`exercise_data`."
 msgstr ""
-"Buat direktori baru bernama  :kbd:`grass_db` di folder :guilabel:"
-"`exercise_data`."
+"Buat direktori baru bernama  :kbd:`grass_db` di folder "
+":guilabel:`exercise_data`."
 
 # 3bf3062094314e8f85cd893cdb04f941
 #: ..\..\grass\grass_setup.rst:37
@@ -177,8 +177,8 @@ msgid ""
 "Load data into QGIS as usual. Use the :kbd:`streets.shp` dataset (found "
 "under :kbd:`exercise_data/`) for now."
 msgstr ""
-"Pertama, muat data ke QGIS seperti biasa. Untuk saat ini gunakan *dataset*  :"
-"kbd:`streets.shp` (temukan di dalam folder  :kbd:`exercise_data/`). "
+"Pertama, muat data ke QGIS seperti biasa. Untuk saat ini gunakan *dataset*  "
+":kbd:`streets.shp` (temukan di dalam folder  :kbd:`exercise_data/`). "
 
 # 13fb6297e56740fca4bde0deecc8063d
 #: ..\..\grass\grass_setup.rst:80
@@ -189,11 +189,12 @@ msgstr ""
 # a3cd9646c2a24d3ebd2347d867911803
 #: ..\..\grass\grass_setup.rst:85
 msgid ""
-"Find the vector import tool by entering the term :kbd:`v.in.ogr.qgis` in "
-"the :guilabel:`Filter` field of the dialog that has appeared."
+"Find the vector import tool by entering the term :kbd:`v.in.ogr.qgis` in the "
+":guilabel:`Filter` field of the dialog that has appeared."
 msgstr ""
-"Temukan *tool* untuk mengimpor vektor dengan memasukkan … berikut:  :kbd:`v."
-"in.ogr.qgis` dalam pilihan :guilabel:`Filter` dari kotak dialog yang muncul."
+"Temukan *tool* untuk mengimpor vektor dengan memasukkan … berikut:  "
+":kbd:`v.in.ogr.qgis` dalam pilihan :guilabel:`Filter` dari kotak dialog yang "
+"muncul."
 
 # 5f790b95013c487ca38f4b6dcc7e0979
 #: ..\..\grass\grass_setup.rst:88
@@ -219,8 +220,8 @@ msgstr ""
 # 20e1106af3b4484fadb8a4a4f4e7192a
 #: ..\..\grass\grass_setup.rst:98
 msgid ""
-"Set the loaded layer to :guilabel:`streets` and its GRASS version's name to :"
-"kbd:`g_streets` to prevent confusion."
+"Set the loaded layer to :guilabel:`streets` and its GRASS version's name to "
+":kbd:`g_streets` to prevent confusion."
 msgstr ""
 "Atur  layer yang  dimuat ke dalam   :guilabel:`streets` dan ubah nama file "
 "versi GRASS menjadi  :kbd:`g_streets`s untuk menghindari kebingungan."
@@ -244,19 +245,19 @@ msgid ""
 "When it's done, click the :guilabel:`View output` button to see the newly "
 "imported GRASS layer in the map."
 msgstr ""
-"Setelah selesai, klik tombol  :guilabel:`View output`  untuk melihat "
-"*layer*  GRASS yang baru diimpor ke dalam peta. "
+"Setelah selesai, klik tombol  :guilabel:`View output`  untuk melihat *layer* "
+" GRASS yang baru diimpor ke dalam peta. "
 
 # a6de4fabb7114d4dbd00b8a1d79cad81
 #: ..\..\grass\grass_setup.rst:111
 msgid ""
 "Close first the import tool itself (click the :guilabel:`Close` button to "
-"the immediate right of :guilabel:`View output`), then close the :guilabel:"
-"`GDAL Tools` window."
+"the immediate right of :guilabel:`View output`), then close the "
+":guilabel:`GDAL Tools` window."
 msgstr ""
 "Tutup terlebih dahulu import *tool* tersebut (klik tombol  :guilabel:`Close` "
-"di sebelah kanan  :guilabel:`View output`), kemudian tutup jendela :guilabel:"
-"`GDAL Tools`. "
+"di sebelah kanan  :guilabel:`View output`), kemudian tutup jendela "
+":guilabel:`GDAL Tools`. "
 
 # 5dc1f002c65d45088d4643644b71a346
 #: ..\..\grass\grass_setup.rst:114
@@ -285,40 +286,40 @@ msgid ""
 "DEM first."
 msgstr ""
 "DEM yang kita gunakan memiliki sistem proyeksi CRS  :kbd:`UTM 33S / WGS 84`, "
-"sedangkan projek GRASS kita menggunakan sistem proyeksi Geographic CRS :kbd:"
-"`WGS 84`. Jadi mari kita lakukan proyeksi ulang DEM terlebih dahulu. "
+"sedangkan projek GRASS kita menggunakan sistem proyeksi Geographic CRS "
+":kbd:`WGS 84`. Jadi mari kita lakukan proyeksi ulang DEM terlebih dahulu. "
 
 # 811b0e43054b4cba9505d2e11d431fc6
 #: ..\..\grass\grass_setup.rst:126
 msgid ""
-"Load the :kbd:`srtm_41_19.tif` dataset (found under :kbd:`exercise_data/"
-"raster/SRTM/`) into the QGIS map as usual, using QGIS' :guilabel:`Add Raster "
-"Layer` tool."
+"Load the :kbd:`srtm_41_19.tif` dataset (found under "
+":kbd:`exercise_data/raster/SRTM/`) into the QGIS map as usual, using QGIS' "
+":guilabel:`Add Raster Layer` tool."
 msgstr ""
-"Muat *dataset* :kbd:`srtm_41_19.tif` (data disimpan dalam folder :kbd:"
-"`exercise_data/raster/SRTM/`) ke dalam peta QGIS seperti biasa, menggunakan "
-"*tool* :guilabel:`Add Raster Layer`. "
+"Muat *dataset* :kbd:`srtm_41_19.tif` (data disimpan dalam folder "
+":kbd:`exercise_data/raster/SRTM/`) ke dalam peta QGIS seperti biasa, "
+"menggunakan *tool* :guilabel:`Add Raster Layer`. "
 
 # baad1c34cee34739a492528c9dbf78bb
 #: ..\..\grass\grass_setup.rst:129
 msgid ""
-"Reproject it using GDAL Warp tool (:menuselection:`Raster --> Projections --"
-"> Warp (Reproject)`), setting it up as shown:"
+"Reproject it using GDAL Warp tool (:menuselection:`Raster --> Projections "
+"--> Warp (Reproject)`), setting it up as shown:"
 msgstr ""
-"Lakukan proyeksi ulang menggunakan tool GDAL Warp (:menuselection:`Raster --"
-"> Projections --> Warp (Reproject)`). Cara pengaturannya ditunjukkan dalam "
+"Lakukan proyeksi ulang menggunakan tool GDAL Warp (:menuselection:`Raster "
+"--> Projections --> Warp (Reproject)`). Cara pengaturannya ditunjukkan dalam "
 "kotak dialog berikut:"
 
 # a68b29e62397405c82779e892a09b240
 #: ..\..\grass\grass_setup.rst:135
 msgid ""
 "Save the raster under the same folder as the original, but with the file "
-"name :kbd:`DEM_WGS84.tif`. Once it appears in your map, remove the :kbd:"
-"`srtm_41_19.tif` dataset from your :guilabel:`Layers list`."
+"name :kbd:`DEM_WGS84.tif`. Once it appears in your map, remove the "
+":kbd:`srtm_41_19.tif` dataset from your :guilabel:`Layers list`."
 msgstr ""
 "Simpan data raster di dalam folder yang sama seperti aslinya, tetapi dengan "
-"nama file   :kbd:`DEM_WGS84.tif`. Setelah muncul di peta, hapus *dataset*  :"
-"kbd:`srtm_41_19.tif dari ` :guilabel:`Layers list` Anda."
+"nama file   :kbd:`DEM_WGS84.tif`. Setelah muncul di peta, hapus *dataset*  "
+":kbd:`srtm_41_19.tif dari ` :guilabel:`Layers list` Anda."
 
 # 19c00bb17b244976beacb09b55d3f06f
 #: ..\..\grass\grass_setup.rst:139
@@ -350,8 +351,8 @@ msgstr "Yang memberi Anda *tool* ini:"
 # 7b761ce5500d4fa39d7eb4288508f46d
 #: ..\..\grass\grass_setup.rst:153
 msgid ""
-"Set it up as shown (input layer is :guilabel:`DEM_WGS84`, output is :kbd:"
-"`g_dem`)."
+"Set it up as shown (input layer is :guilabel:`DEM_WGS84`, output is "
+":kbd:`g_dem`)."
 msgstr ""
 "Lakukan pengaturan seperti ditunjukkan (layer input  :guilabel:`DEM_WGS84`, "
 "hasilnya :kbd:`g_dem`)."
@@ -441,11 +442,11 @@ msgstr "Buka kotak dialog  :guilabel:`GRASS Tools` ."
 # 529e6c70bee84b2b8ac30eb7e7e19733
 #: ..\..\grass\grass_tools.rst:11
 msgid ""
-"Look for the :kbd:`r.colors.table` module by searching for it in the :"
-"guilabel:`Filter` field of the :guilabel:`Modules List` tab."
+"Look for the :kbd:`r.colors.table` module by searching for it in the "
+":guilabel:`Filter` field of the :guilabel:`Modules List` tab."
 msgstr ""
-"Cari modul  :kbd:`r.colors.table` di kolom  :guilabel:`Filter` dari tab  :"
-"guilabel:`Modules List`."
+"Cari modul  :kbd:`r.colors.table` di kolom  :guilabel:`Filter` dari tab  "
+":guilabel:`Modules List`."
 
 # 261c7cd9b1db4301988aa0cb3ed010e2
 #: ..\..\grass\grass_tools.rst:13
@@ -506,7 +507,7 @@ msgid ""
 "Click :guilabel:`OK` in the :guilabel:`GRASS Region Settings` dialog when "
 "done."
 msgstr ""
-"Klik :guilabel:`OK pada kotak dialog  :guilabel:`GRASS Region Settings` "
+"Klik :guilabel:`OK` pada kotak dialog  :guilabel:`GRASS Region Settings` "
 "ketika telah selesai."
 
 # c7a74debb3d14e61ac9dc7ad39deb2ed
@@ -550,9 +551,9 @@ msgstr ""
 # f3589f05c97d477e86f69ae2d62357ad
 #: ..\..\grass\grass_tools.rst:64
 msgid ""
-"Experiment with the :guilabel:`height`, :guilabel:`z-exag`, and :guilabel:"
-"`View method` settings to change your view of the data. The navigation "
-"methods may take some getting used to."
+"Experiment with the :guilabel:`height`, :guilabel:`z-exag`, and "
+":guilabel:`View method` settings to change your view of the data. The "
+"navigation methods may take some getting used to."
 msgstr ""
 "Cobalah untuk melakukan pengaturan  :guilabel:`height`, :guilabel:`z-exag`, "
 "dan  :guilabel:`View method` untuk melihat data dari sudut pandang yang "
@@ -576,8 +577,8 @@ msgstr ""
 # 0c2a8355fd2a4a6394c319edfbf523b6
 #: ..\..\grass\grass_tools.rst:73
 msgid ""
-"From the list of modules, select :guilabel:`r.mapcalc` (not :guilabel:`r."
-"mapcalculator`, which is more basic)."
+"From the list of modules, select :guilabel:`r.mapcalc` (not "
+":guilabel:`r.mapcalculator`, which is more basic)."
 msgstr ""
 "Dari *Module list* , pilih  :guilabel:`r.mapcalc` (jangan sampai keliru "
 "dengan :guilabel:`r.mapcalculator`)."
@@ -697,10 +698,10 @@ msgid ""
 "organizes tools by type."
 msgstr ""
 "Dalam pelajaran ini, kita hanya membahas beberapa tool yang disediakan "
-"GRASS. Untuk mengeksplorasi sendiri kemampuan GRASS, buka dialog  :guilabel:"
-"`GRASS Tools` dan cari  :guilabel:`Modules List`. Cara yang lain, lihat di "
-"bawah tab  :guilabel:`Modules Tree`, yang mangatur tool sesuai dengan "
-"jenisnya."
+"GRASS. Untuk mengeksplorasi sendiri kemampuan GRASS, buka dialog  "
+":guilabel:`GRASS Tools` dan cari  :guilabel:`Modules List`. Cara yang lain, "
+"lihat di bawah tab  :guilabel:`Modules Tree`, yang mangatur tool sesuai "
+"dengan jenisnya."
 
 # 520caeee48be4f25b80df0463688cb4a
 #: ..\..\grass\index.rst:3

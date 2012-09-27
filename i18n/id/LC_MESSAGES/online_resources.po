@@ -41,8 +41,8 @@ msgid ""
 "In this module, we'll cover two kinds of web-based GIS services: Web Mapping "
 "Services (WMS) and Web Feature Services (WFS)."
 msgstr ""
-"Dalam modul ini, kita akan membahas dua jenis layanan berbasis web GIS "
-"yaitu : Web Mapping Services (WMS) and Web Feature Services (WFS)."
+"Dalam modul ini, kita akan membahas dua jenis layanan berbasis web GIS yaitu "
+": Web Mapping Services (WMS) and Web Feature Services (WFS)."
 
 # 6952d905d42347a78b05155ea23d6743
 #: ..\..\online_resources\wfs.rst:2
@@ -67,7 +67,7 @@ msgid ""
 "**The goal for this lesson:** To use a WFS and understand how it differs "
 "from a WMS."
 msgstr ""
-"**Tujuan dari pelajaran ini :** Menggunakan WFS dan memahami perbedaannya "
+"**Tujuan dari pelajaran ini:** Menggunakan WFS dan memahami perbedaannya "
 "dengan WMS."
 
 # 55af4c4f8686426986fa81e1f0ecc994
@@ -100,21 +100,21 @@ msgstr "Klik tombol :guilabel:`New`."
 #: ..\..\online_resources\wfs.rst:22
 msgid ""
 "In the dialog that appears, enter the :guilabel:`Name` as :kbd:`nsidc.org` "
-"and the :guilabel:`URL` as :kbd:`http://nsidc.org/cgi-bin/atlas_south?"
-"version=1.1.0`."
+"and the :guilabel:`URL` as "
+":kbd:`http://nsidc.org/cgi-bin/atlas_south?version=1.1.0`."
 msgstr ""
-"Pada kotak dialog yang muncul, ketik :guilabel:`Name` sebagai :kbd:`nsidc."
-"org` dan :guilabel:`URL` sebagai :kbd:`http://nsidc.org/cgi-bin/atlas_south?"
-"version=1.1.0`."
+"Pada kotak dialog yang muncul, ketik :guilabel:`Name` sebagai "
+":kbd:`nsidc.org` dan :guilabel:`URL` sebagai "
+":kbd:`http://nsidc.org/cgi-bin/atlas_south?version=1.1.0`."
 
 # 91d4e20633d24ab5b191f9279532d425
 #: ..\..\online_resources\wfs.rst:29
 msgid ""
-"Click :guilabel:`OK`, and the new connection will appear in your :guilabel:"
-"`Server connections`."
+"Click :guilabel:`OK`, and the new connection will appear in your "
+":guilabel:`Server connections`."
 msgstr ""
-"Klik :guilabel:`OK`dan koneksi baru akan muncul :guilabel:`Server "
-"connections`."
+"Klik :guilabel:`OK` dan koneksi baru akan muncul pada :guilabel:`Server "
+"connections` Anda."
 
 # 0c508214722248f593bafc4262eaa6e2
 #: ..\..\online_resources\wfs.rst:31
@@ -148,8 +148,8 @@ msgid ""
 msgstr ""
 "Ini akan membutuhkan waktu untuk memuat layer tersebut. Ketika sudah "
 "terunduh, layer tersebut akan muncul di layar. Tetapi hasilnya luar garis "
-"Antartika ( tersedia di server yang sama dengan nama :guilabel:"
-"`antarctica_country_border`):"
+"Antartika ( tersedia di server yang sama dengan nama "
+":guilabel:`antarctica_country_border`):"
 
 # fe782d6c47964474831dd9af1fbdf030
 #: ..\..\online_resources\wfs.rst:51
@@ -240,21 +240,21 @@ msgid ""
 msgstr ""
 "Sebagai contoh, pada WFS server yang baru saja kita gunakan, ada sebuah "
 "layer yang bernama :guilabel:`countries (excluding Antarctica)`. Diasumsikan "
-"kita ingin tahu di mana posisi relative Afrika Selatan terhadap layer :"
-"guilabel:`south_poles_wfs` (dan juga layer :guilabel:"
-"`antarctica_country_border`) yang sudah dimuat."
+"kita ingin tahu di mana posisi relative Afrika Selatan terhadap layer "
+":guilabel:`south_poles_wfs` (dan juga layer "
+":guilabel:`antarctica_country_border`) yang sudah dimuat."
 
 # 7b17ff3e66a14a98bc970fc1c6932b8b
 #: ..\..\online_resources\wfs.rst:93
 msgid ""
-"There are two ways to do this. You can load the whole :guilabel:"
-"`countries ...` layer, and then build a query as usual once it's loaded. "
-"However, transmitting the data for all the countries in the world and then "
-"only using the data for South Africa seems a bit wasteful of bandwidth. "
-"Depending on your connection, this dataset can take several minutes to load."
+"There are two ways to do this. You can load the whole :guilabel:`countries "
+"...` layer, and then build a query as usual once it's loaded. However, "
+"transmitting the data for all the countries in the world and then only using "
+"the data for South Africa seems a bit wasteful of bandwidth. Depending on "
+"your connection, this dataset can take several minutes to load."
 msgstr ""
-"Terdapat dua cara untuk melakukan ini, Anda dapat memuat seluruh layer :"
-"guilabel:`countries ...`, dan kemudian membuat query setelah layer dimuat. "
+"Terdapat dua cara untuk melakukan ini, Anda dapat memuat seluruh layer "
+":guilabel:`countries ...`, dan kemudian membuat query setelah layer dimuat. "
 "Akan tetapi mengunduh data semua negera dan kemudian hanya memanfaatkan data "
 "South Africa akan membuang bandwith. Setdata ini membutuhkan beberapa menit "
 "pada saat dimuat, tergantung kecepatan koneksi Anda."
@@ -281,11 +281,11 @@ msgstr ""
 # 205e0ab2072f4598a9a5335106a8c811
 #: ..\..\online_resources\wfs.rst:104
 msgid ""
-"Double-click next to the :guilabel:`countries ...` layer in the :guilabel:"
-"`Filter` field:"
+"Double-click next to the :guilabel:`countries ...` layer in the "
+":guilabel:`Filter` field:"
 msgstr ""
-"Klik dua kali di sebelah layer :guilabel:`countries ...` dalam :guilabel:"
-"`Filter` field:"
+"Klik dua kali di sebelah layer :guilabel:`countries ...` dalam "
+":guilabel:`Filter` field:"
 
 # 4084f6d0a7a94b97ac4f6f867f8b174a
 #: ..\..\online_resources\wfs.rst:110
@@ -309,8 +309,8 @@ msgid ""
 "Africa` will load from that layer:"
 msgstr ""
 "Klik :guilabel:`Apply` dengan layer :guilabel:`countries` terpilih seperti "
-"gambar di atas. Hanya negara dengan  nilai :kbd:`Countryeng`pada :kbd:`South "
-"Africa` yang akan dimuat dari layer tersebut:"
+"gambar di atas. Hanya negara dengan  nilai :kbd:`Countryeng` pada "
+":kbd:`South Africa` yang akan dimuat dari layer tersebut:"
 
 # 4b4df326a3cb4098a46d3349da15a93d
 #: ..\..\online_resources\wfs.rst:128
@@ -370,8 +370,8 @@ msgstr ""
 "Layer WFS lebih bagus di atas layer WMS apabila Anda memerlukan akses "
 "langsung ke layer atribut dan geometri. Namun, mengingat jumlah data yang "
 "perlu didownload (yang mengacu pada masalah kecepatan dan kurangnya "
-"ketersediaan server WFS yang umum) . Kita tidak selalu dapat menggunakan "
-"WFS ."
+"ketersediaan server WFS yang umum) . Kita tidak selalu dapat menggunakan WFS "
+"."
 
 # 3c10515fd3134351a3b5099a0c49ba26
 # 6ff170857b704163b44ca7a7c9b2b70f
@@ -414,17 +414,17 @@ msgid ""
 "view if you pan or zoom on the map."
 msgstr ""
 "Dari pelajaran plugin, Anda ingat bahwa mungkin saja memuat gambar raster "
-"baru dari Google, Namun, ini hanya transaksi sekali: setelah Anda men-"
-"download sebuah gambar, gambar tersebut tidak akan berubah. Berbeda dengan "
-"WMS,Pada WMS ini adalah layanan langsung yang secara otomatis akan berubah "
-"jika Anda menggeser atau memperbesar peta Anda."
+"baru dari Google, Namun, ini hanya transaksi sekali: setelah Anda "
+"men-download sebuah gambar, gambar tersebut tidak akan berubah. Berbeda "
+"dengan WMS,Pada WMS ini adalah layanan langsung yang secara otomatis akan "
+"berubah jika Anda menggeser atau memperbesar peta Anda."
 
 # 6d04f0553ab848ce8134ac068b3744a9
 #: ..\..\online_resources\wms.rst:14
 msgid ""
 "**The goal for this lesson:** To use a WMS and understand its limitations."
 msgstr ""
-"**Tujuan untuk pelajaran ini: ** Untuk menggunakan WMS dan memahami "
+"**Tujuan untuk pelajaran ini:** Untuk menggunakan WMS dan memahami "
 "keterbatasannya."
 
 # c0444f1138bc49b6a4622ce8ee0a6788
@@ -441,9 +441,9 @@ msgid ""
 "and :guilabel:`important_roads` layers:"
 msgstr ""
 "Untuk latihan kali ini, Anda dapat menggunakan peta dasar yang dibuat di "
-"awal, atau hanya membuat peta baru dengan memuat layer yang ada ke dalamnya."
-"untuk contoh ini, kita menggunakan layer :guilabel:`places`, layer :guilabel:"
-"`new_solution`dan layer :guilabel:`important_roads`:"
+"awal, atau hanya membuat peta baru dengan memuat layer yang ada ke "
+"dalamnya.untuk contoh ini, kita menggunakan layer :guilabel:`places`, layer "
+":guilabel:`new_solution` dan layer :guilabel:`important_roads`:"
 
 # 02f239d9c86648629661f0b5a8edaf5f
 #: ..\..\online_resources\wms.rst:27
@@ -461,8 +461,8 @@ msgid ""
 "projection.  This may cause the layers to no longer overlap properly, but "
 "don't worry: we'll fix that later."
 msgstr ""
-"Sebelum meanambahkan layer WMS, pertama  nonaktifkan proyeksi \"on the fly"
-"\". Ini akan membuat layer tidak saling tumpang tindih, tapi jangan "
+"Sebelum meanambahkan layer WMS, pertama  nonaktifkan proyeksi \"on the "
+"fly\". Ini akan membuat layer tidak saling tumpang tindih, tapi jangan "
 "khawatir, kita akan memperbaikinya nanti."
 
 # 454e618506664ceda6566c6731fa6c3b
@@ -479,9 +479,9 @@ msgid ""
 "connect to the database. Using a WMS is similar, with the exception (of "
 "course) that the layers are on a remote server."
 msgstr ""
-"Ingat bagaimana Anda terhubung dengan database spasial di awal kursus ini."
-"Pada database ini terdapat layer :guilabel:`rural`, :guilabel:`urban`, dan :"
-"guilabel:`water`. Untuk menggunakan layer-layer tersebut, Anda harus "
+"Ingat bagaimana Anda terhubung dengan database spasial di awal kursus "
+"ini.Pada database ini terdapat layer :guilabel:`rural`, :guilabel:`urban`, "
+"dan :guilabel:`water`. Untuk menggunakan layer-layer tersebut, Anda harus "
 "terhubung dengan database. Hampir sama dengan WMS, perbedaannya adalah layer "
 "pada WMS adalah remote server."
 
@@ -495,14 +495,14 @@ msgstr "Untuk membuat koneksi baru ke WMS, klik pada tombol :guilabel:`New`."
 #: ..\..\online_resources\wms.rst:46
 msgid ""
 "You'll need a WMS address to continue. There are several free WMS servers "
-"available on the Internet. One of these is `GIS-LAB.info <http://irs.gis-lab."
-"info/>`_, which makes use of the `OpenStreetMap <http://wiki.openstreetmap."
-"org/wiki/Main_Page>`_ dataset."
+"available on the Internet. One of these is `GIS-LAB.info "
+"<http://irs.gis-lab.info/>`_, which makes use of the `OpenStreetMap "
+"<http://wiki.openstreetmap.org/wiki/Main_Page>`_ dataset."
 msgstr ""
 "Anda perlu alamat WMS . Ada beberapa server gratis WMS yang tersedia di "
-"intenet. salah satunya adalah `GIS-LAB.info <http://irs.gis-lab.info/>`_,"
-"yang membuat penggunaan setdata `OpenStreetMap <http://wiki.openstreetmap."
-"org/wiki/Main_Page>`_."
+"intenet. salah satunya adalah `GIS-LAB.info "
+"<http://irs.gis-lab.info/>`_,yang membuat penggunaan setdata `OpenStreetMap "
+"<http://wiki.openstreetmap.org/wiki/Main_Page>`_."
 
 # ab88a3bc3aeb42c3bea4b46b267285c6
 #: ..\..\online_resources\wms.rst:51
@@ -514,14 +514,15 @@ msgstr ""
 # 28278975ca8a4c3cb3becd7c1e2d13a3
 #: ..\..\online_resources\wms.rst:56
 msgid "The value of the :guilabel:`Name` field should be :kbd:`gis-lab`."
-msgstr "Nilai pada field :guilabel:`Name`harus :kbd:`gis-lab`."
+msgstr "Nilai pada field :guilabel:`Name` harus :kbd:`gis-lab`."
 
 # f267b501033e46389484944afb5e5fe0
 #: ..\..\online_resources\wms.rst:57
 msgid ""
-"The value of the :guilabel:`URL` field should be :kbd:`http://irs.gis-lab."
-"info/`."
-msgstr "Nilai pada field :guilabel:`URL`harus :kbd:`http://irs.gis-lab.info/`."
+"The value of the :guilabel:`URL` field should be "
+":kbd:`http://irs.gis-lab.info/`."
+msgstr ""
+"Nilai pada field :guilabel:`URL` harus :kbd:`http://irs.gis-lab.info/`."
 
 # 3c0b5260822c4eb487f5555446435bfa
 #: ..\..\online_resources\wms.rst:59
@@ -564,11 +565,11 @@ msgstr ""
 # fb0419d2a1914dcf8675232d5c619702
 #: ..\..\online_resources\wms.rst:81
 msgid ""
-"Click the :guilabel:`Change` button. You will see a standard :guilabel:"
-"`Coordinate Reference System Selector` dialog."
+"Click the :guilabel:`Change` button. You will see a standard "
+":guilabel:`Coordinate Reference System Selector` dialog."
 msgstr ""
-"Klik pada tombol :guilabel:`Change`. Anda akan melihat kotak standar :"
-"guilabel:`Coordinate Reference System Selector`."
+"Klik pada tombol :guilabel:`Change`. Anda akan melihat kotak standar "
+":guilabel:`Coordinate Reference System Selector`."
 
 # 5711d24627814f8a9bc47b805ae4c518
 #: ..\..\online_resources\wms.rst:83
@@ -588,11 +589,11 @@ msgstr "Klik :guilabel:`OK`."
 # 8bac28d62be14a64aeb9294d0512f6d7
 #: ..\..\online_resources\wms.rst:86
 msgid ""
-"Click :guilabel:`Add` and the new layer will appear in your map as :guilabel:"
-"`osm`."
+"Click :guilabel:`Add` and the new layer will appear in your map as "
+":guilabel:`osm`."
 msgstr ""
-"Klik :guilabel:`Add`dan layer baru akan muncul di peta Anda sebagai :"
-"guilabel:`osm`."
+"Klik :guilabel:`Add`dan layer baru akan muncul di peta Anda sebagai "
+":guilabel:`osm`."
 
 # 4a3376266bcb4477a750d5bcdc36d3d4
 #: ..\..\online_resources\wms.rst:88
@@ -603,11 +604,11 @@ msgstr "Pada :guilabel:`Layers list`, klik dan seret ke daftar atas."
 # 5979f571319d4b998c4ce5347d3efdfe
 #: ..\..\online_resources\wms.rst:90
 msgid ""
-"You will notice that your layers aren't located correctly. (For example, "
-"the :guilabel:`places` layer puts Bonnievale in the Gulf of Guinea.) This is "
+"You will notice that your layers aren't located correctly. (For example, the "
+":guilabel:`places` layer puts Bonnievale in the Gulf of Guinea.) This is "
 "obviously because \"on the fly\" projection is disabled. Let's enable it "
-"again, but using the same projection as the :guilabel:`osm` layer, which is :"
-"guilabel:`WGS 84 / World Mercator`."
+"again, but using the same projection as the :guilabel:`osm` layer, which is "
+":guilabel:`WGS 84 / World Mercator`."
 msgstr ""
 
 # f56e8c7bb66540d0ab3051dda20c0abb
@@ -621,8 +622,8 @@ msgid ""
 "In the :guilabel:`CRS` tab (:guilabel:`Project Properties` dialog), enter "
 "the value :kbd:`world` in the :guilabel:`Filter` field:"
 msgstr ""
-"Dalam tab :guilabel:`CRS`(Kotak :guilabel:`Project Properties`), masukkan :"
-"kbd:`world` pada field :guilabel:`Filter`:"
+"Dalam tab :guilabel:`CRS` (Kotak :guilabel:`Project Properties`), masukkan "
+":kbd:`world` pada field :guilabel:`Filter`:"
 
 # 07fab105655d4aebba8abc4a9031e5b4
 #: ..\..\online_resources\wms.rst:103
@@ -662,9 +663,9 @@ msgid ""
 msgstr ""
 "Sekarang Anda mungkin telah memperhatikan bahwa layer WMS sebenarnya "
 "memiliki banyak layer di dalamnya. Layer tersebut memiliki jalan, sungai, "
-"cagar alam, dan sebagainya. Terlebih lagi, meskipun terlihat sepert i vektor,"
-"Layer ini nampaknya adalah sebuah raster. Tapi Anda tidak bisa mengubah "
-"simbologinya! Mengapa demikian?"
+"cagar alam, dan sebagainya. Terlebih lagi, meskipun terlihat sepert i "
+"vektor,Layer ini nampaknya adalah sebuah raster. Tapi Anda tidak bisa "
+"mengubah simbologinya! Mengapa demikian?"
 
 # 8a062dfab4034c28acd7f430fc0e6d0c
 #: ..\..\online_resources\wms.rst:122
@@ -732,8 +733,8 @@ msgstr "Sembunyikan layer the `osm` dalam `Layers list`."
 #: ..\..\online_resources\wms.rst:147
 msgid ""
 "Load the :guilabel:`landsat` layer into the map (use the :guilabel:`Add WMS "
-"Layer` button as before). Remember to check that it's in the same :guilabel:"
-"`WGS 84 / World Mercator` projection as the rest of your map!"
+"Layer` button as before). Remember to check that it's in the same "
+":guilabel:`WGS 84 / World Mercator` projection as the rest of your map!"
 msgstr ""
 "Muat layer :guilabel:`landsat`ke dalam peta (gunakan tombol :guilabel:`Add "
 "WMS Layer`seperti yang digunakan sebelumnya). Ingatlah untuk memeriksa layer "
@@ -743,13 +744,13 @@ msgstr ""
 # 3d9e1af31e7846ffa4311a8fa0802bed
 #: ..\..\online_resources\wms.rst:150
 msgid ""
-"You might want to set its :guilabel:`Encoding` to :guilabel:`JPEG` and its :"
-"guilabel:`Tile size` option to :kbd:`200` by :kbd:`200`, so that it loads "
+"You might want to set its :guilabel:`Encoding` to :guilabel:`JPEG` and its "
+":guilabel:`Tile size` option to :kbd:`200` by :kbd:`200`, so that it loads "
 "faster:"
 msgstr ""
-"Anda mungkin ingin mengatur: guilabel: `Encoding` ke: guilabel: `JPEG’ "
-"dengan pilihan : guilabel: `Tile size` untuk: kbd: `200` dengan: kbd: `200`, "
-"sehingga dapat memuat lebih cepat:"
+"Anda mungkin ingin mengatur :guilabel:`Encoding` ke :guilabel:`JPEG` dengan "
+"pilihan :guilabel:`Tile size` untuk: kbd:`200` dengan: kbd:`200`, sehingga "
+"dapat memuat lebih cepat:"
 
 # dfac48a9c4bd42e5baea3d9be109def3
 #: ..\..\online_resources\wms.rst:157
@@ -773,11 +774,11 @@ msgstr ""
 # 6d651764f5c84ec8b8774f6944e1dc4a
 #: ..\..\online_resources\wms.rst:167
 msgid ""
-"Add the \"ICEDS\" WMS server at this URL: :kbd:`http://iceds.ge.ucl.ac.uk/"
-"cgi-bin/icedswms`"
+"Add the \"ICEDS\" WMS server at this URL: "
+":kbd:`http://iceds.ge.ucl.ac.uk/cgi-bin/icedswms`"
 msgstr ""
-"Tambahkan server WMS \"ICEDS\" pada URL ini: :kbd:`http://iceds.ge.ucl.ac.uk/"
-"cgi-bin/icedswms`"
+"Tambahkan server WMS \"ICEDS\" pada URL ini: "
+":kbd:`http://iceds.ge.ucl.ac.uk/cgi-bin/icedswms`"
 
 # 8216a72f2867448289afad30f31e438a
 #: ..\..\online_resources\wms.rst:169
@@ -853,11 +854,11 @@ msgstr "`Geopole.org <http://geopole.org/>`_"
 # 1cfa2e0064404b31b5a38bde0b7d4dce
 #: ..\..\online_resources\wms.rst:201
 msgid ""
-"`OpenStreetMap.org list of WMS servers <http://wiki.openstreetmap.org/wiki/"
-"WMS>`_"
+"`OpenStreetMap.org list of WMS servers "
+"<http://wiki.openstreetmap.org/wiki/WMS>`_"
 msgstr ""
-"`OpenStreetMap.org list of WMS servers <http://wiki.openstreetmap.org/wiki/"
-"WMS>`_"
+"`OpenStreetMap.org list of WMS servers "
+"<http://wiki.openstreetmap.org/wiki/WMS>`_"
 
 # a9bf35883c5c4c6ba4547157c79e83b6
 #: ..\..\online_resources\wms.rst:207

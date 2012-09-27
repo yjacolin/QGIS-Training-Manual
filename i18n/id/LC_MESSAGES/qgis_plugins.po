@@ -49,11 +49,11 @@ msgstr "|basic| Ikuti Bersama: Mengatur Plugin"
 # ,650fc78925ca44189cde04b99dcb3b7c
 #: ..\..\qgis_plugins\fetching_plugins.rst:13
 msgid ""
-"To open the :guilabel:`Plugin Manager`, click on the menu item :"
-"menuselection:`Plugins --> Manage Plugins`."
+"To open the :guilabel:`Plugin Manager`, click on the menu item "
+":menuselection:`Plugins --> Manage Plugins`."
 msgstr ""
-"Untuk membuka :guilabel:`Plugin Manager`, klik pada item menu Plugins :"
-"menuselection:`Plugins --> Manage Plugins`."
+"Untuk membuka :guilabel:`Plugin Manager`, klik pada item menu Plugins "
+":menuselection:`Plugins --> Manage Plugins`."
 
 # 7347bb56f0234f68baa99f5cdc65cf90
 #: ..\..\qgis_plugins\fetching_plugins.rst:15
@@ -80,17 +80,17 @@ msgid ""
 msgstr ""
 "Sekarang amati di bawah menu :guilabel:`Raster`. Anda akan melihat bahwa "
 "fungsi-fungsi yang Anda gunakan sebelumnya telah menghilang. Hal ini "
-"dikarenakan, fungsi-fungsi tersebut merupakan bagian dari plugin :guilabel:"
-"`GdalTools`,yang perlu diaktifkan sebelum digunakan."
+"dikarenakan, fungsi-fungsi tersebut merupakan bagian dari plugin "
+":guilabel:`GdalTools`,yang perlu diaktifkan sebelum digunakan."
 
 # 85294a5b39864580be2a3f0a38c98e2c
 #: ..\..\qgis_plugins\fetching_plugins.rst:26
 msgid ""
-"Open the :guilabel:`Plugin Manager` again and reactivate the :guilabel:"
-"`GdalTools` plugin by clicking in the checkbox next to it."
+"Open the :guilabel:`Plugin Manager` again and reactivate the "
+":guilabel:`GdalTools` plugin by clicking in the checkbox next to it."
 msgstr ""
-"Buka kembali :guilabel:`Plugin Manager`dan aktifkan kembali plugin:guilabel:"
-"`GdalTools` dengan mencentang kotak disebelahnya. "
+"Buka kembali :guilabel:`Plugin Manager` dan aktifkan kembali plugin "
+":guilabel:`GdalTools` dengan mencentang kotak disebelahnya. "
 
 # babe80cd11504269bfa1e22df61b81ff
 #: ..\..\qgis_plugins\fetching_plugins.rst:28
@@ -120,11 +120,11 @@ msgstr "|Basic| Ikuti Bersama: Menginstal Plugin Baru"
 # 4ed6bcde373a466883d77dcebb135812
 #: ..\..\qgis_plugins\fetching_plugins.rst:38
 msgid ""
-"To start the :guilabel:`Plugin Installer`, click on the menu item :"
-"menuselection:`Plugins --> Fetch Python Plugins`."
+"To start the :guilabel:`Plugin Installer`, click on the menu item "
+":menuselection:`Plugins --> Fetch Python Plugins`."
 msgstr ""
-"Untuk memulai :guilabel:`Plugin Installer`, klik pada item menu :"
-"menuselection:`Plugins --> Fetch Python Plugins`."
+"Untuk memulai :guilabel:`Plugin Installer`, klik pada item menu "
+":menuselection:`Plugins --> Fetch Python Plugins`."
 
 # 2287fc99a71b4df4ae4976274b928ef8
 #: ..\..\qgis_plugins\fetching_plugins.rst:41
@@ -227,8 +227,8 @@ msgstr ""
 # a76854dcbb0c40cd8f529e6bd5a37456
 #: ..\..\qgis_plugins\fetching_plugins.rst:80
 msgid ""
-"To install a plugin, simply click on it in the list and then click the :"
-"guilabel:`Install plugin` button."
+"To install a plugin, simply click on it in the list and then click the "
+":guilabel:`Install plugin` button."
 msgstr ""
 "Untuk menginstall satu plugin, cukup dengan mengklik salah satu plugin pada "
 "daftar dan kemudian klik tombol :guilabel:`Install plugin`."
@@ -307,24 +307,25 @@ msgid ""
 "Start a new map with only the :guilabel:`srtm_41_19.tif` raster dataset in "
 "it (look in :kbd:`exercise_data/raster/SRTM`)."
 msgstr ""
-"Mulailah dengan peta baru yang hanya memuat dataset raster :guilabel:"
-"`srtm_41_19.tif`di dalamnya (lihat pada :kbd:`exercise_data/raster/SRTM`)."
+"Mulailah dengan peta baru yang hanya memuat dataset raster "
+":guilabel:`srtm_41_19.tif` di dalamnya (lihat pada "
+":kbd:`exercise_data/raster/SRTM`)."
 
 # e8fac71f8a334323901d6b66a3c285b9
 #: ..\..\qgis_plugins\plugin_examples.rst:16
 msgid ""
 "From the lesson on raster analysis, you're already familiar with raster "
-"analysis functions. You used GDAL tools (accessible via :guilabel:`Raster --"
-"> Analysis`) for this. However, you should also know about the Raster "
+"analysis functions. You used GDAL tools (accessible via :guilabel:`Raster "
+"--> Analysis`) for this. However, you should also know about the Raster "
 "Terrain Analysis plugin. This ships standard with newer versions of QGIS, "
 "and so you don't need to install it separately."
 msgstr ""
 "Dari latihan tentang analisis raster, Anda diharapkan telah  terbiasa dengan "
 "fungsi-fungsi analisi raster. Anda telah menggunakan beberapa tooltool GDAL  "
 "untuk hal ini (dapat diakses pada :guilabel:`Raster --> Analysis`). Meskipun "
-"demikian, Anda juga harus mengetahui  tentang plugin Raster Terrain Analysis."
-"Plugin ini merupakan satu paket standar pada versi QGIS yang terbaru, dan "
-"Anda tidak perlu untuk menginstalnya secara terpisah."
+"demikian, Anda juga harus mengetahui  tentang plugin Raster Terrain "
+"Analysis.Plugin ini merupakan satu paket standar pada versi QGIS yang "
+"terbaru, dan Anda tidak perlu untuk menginstalnya secara terpisah."
 
 # cf109541053e48d1a118709796276f02
 #: ..\..\qgis_plugins\plugin_examples.rst:22
@@ -338,8 +339,8 @@ msgstr ""
 # 2b4e0abf29b3433baba7fed60e1636d1
 #: ..\..\qgis_plugins\plugin_examples.rst:28
 msgid ""
-"Open the :menuselection:`Raster` menu. You should see a :menuselection:"
-"`Terrain analysis` submenu."
+"Open the :menuselection:`Raster` menu. You should see a "
+":menuselection:`Terrain analysis` submenu."
 msgstr ""
 "Buka menu :menuselection:`Raster`, Anda seharusnya sudah dapat melihat "
 "submenu :menuselection:`Terrain analysis`."
@@ -426,8 +427,8 @@ msgstr "Perbesar pada Swellendem area."
 # 03ec3a694f924a4d8c64d167f0c46613
 #: ..\..\qgis_plugins\plugin_examples.rst:65
 msgid ""
-"Using the :guilabel:`Plugin Installer`, find the plugin by entering the "
-"word :kbd:`Google` in the :guilabel:`Filter` field."
+"Using the :guilabel:`Plugin Installer`, find the plugin by entering the word "
+":kbd:`Google` in the :guilabel:`Filter` field."
 msgstr ""
 "Dengan mengunakan :guilabel:`Plugin Installer`, cari pluginnya dengan "
 "mengetik :kbd:`Google` pada field :guilabel:`Filter`."
@@ -465,7 +466,7 @@ msgstr "Centang pada kotak yang ada disamping ."
 # d0055edc375741aca9bf00a6d6a5eb72
 #: ..\..\qgis_plugins\plugin_examples.rst:81
 msgid "Now click :guilabel:`OK` to enable the plugin."
-msgstr "kemudian klik :guilabel:`OK untuk dapat mengaktifkan plugin."
+msgstr "kemudian klik :guilabel:`OK` untuk dapat mengaktifkan plugin."
 
 # b0202d7d352643c0905e3f189981fabf
 #: ..\..\qgis_plugins\plugin_examples.rst:83
@@ -504,15 +505,15 @@ msgstr "Aktifkan proyeksi \"on the fly\" dan sistem proyeksi Google Mercator:"
 # 589123cfc9504220a685432d8d6a5291
 #: ..\..\qgis_plugins\plugin_examples.rst:95
 msgid ""
-"Now use the plugin to give you a Google map of the area! You can click on :"
-"menuselection:`Plugins --> Google Layers --> Google Layers` to run it. Or, "
+"Now use the plugin to give you a Google map of the area! You can click on "
+":menuselection:`Plugins --> Google Layers --> Google Layers` to run it. Or, "
 "if you have the :guilabel:`Plugins` toolbar enabled, you can click on its "
 "icon:"
 msgstr ""
 "Sekarang gunakan plugin untuk memberikan Anda tampila Google map pada area "
-"tersebut. Untuk menjalankannya, Anda dapat mengklik  pada :menuselection:"
-"`Plugins --> Google Layers --> Google Layers`, Atau jika Toolbar Plugin Anda "
-"aktif, Anda dapat mengklik  ikon plugin berikut:"
+"tersebut. Untuk menjalankannya, Anda dapat mengklik  pada "
+":menuselection:`Plugins --> Google Layers --> Google Layers`, Atau jika "
+"Toolbar Plugin Anda aktif, Anda dapat mengklik  ikon plugin berikut:"
 
 # 596f246c75614b0880c13b8e5e5a8c2d
 #: ..\..\qgis_plugins\plugin_examples.rst:103
@@ -546,11 +547,11 @@ msgstr ""
 # 47b4f81bc93546fca97c6019a2a4d97a
 #: ..\..\qgis_plugins\plugin_examples.rst:117
 msgid ""
-"First, ensure that you have the plugin installed by opening the :guilabel:"
-"`Plugin Installer` and filtering on the word :kbd:`street`:"
+"First, ensure that you have the plugin installed by opening the "
+":guilabel:`Plugin Installer` and filtering on the word :kbd:`street`:"
 msgstr ""
-"Pertama, Pastikan bahwa plugin Anda telah terinstal dengan cara membuka :"
-"guilabel:`Plugin Installer` dan seleksi dengan kata :kbd:`street`:"
+"Pertama, Pastikan bahwa plugin Anda telah terinstal dengan cara membuka "
+":guilabel:`Plugin Installer` dan seleksi dengan kata :kbd:`street`:"
 
 # e08f525cfcbb4964a5814ed9145c6c11
 #: ..\..\qgis_plugins\plugin_examples.rst:123
@@ -658,8 +659,8 @@ msgstr ""
 #: ..\..\qgis_plugins\plugin_examples.rst:171
 msgid ""
 "You can create new features (point, lines, polygons) as well as edit a "
-"feature that you have identified. For example, using the plugin's :guilabel:"
-"`Identify feature` tool as before, you can click on this street:"
+"feature that you have identified. For example, using the plugin's "
+":guilabel:`Identify feature` tool as before, you can click on this street:"
 msgstr ""
 "Anda dapat membuat fitur baru (point, line, polygon) dan Anda dapat juga "
 "mengedit fitur yang sudah Anda identifikasi. Sebagai contoh,dengan "

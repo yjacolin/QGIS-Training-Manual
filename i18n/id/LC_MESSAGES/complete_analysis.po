@@ -56,21 +56,22 @@ msgstr "Simpan peta Anda saat ini (:kbd:`raster_analysis.qgs`)."
 # 120502b262d6491b83e1b328422731ee
 #: ..\..\complete_analysis\analysis_combination.rst:14
 msgid ""
-"Open the map in which you did the vector analysis earlier (:kbd:`analysis."
-"qgs`)."
+"Open the map in which you did the vector analysis earlier "
+"(:kbd:`analysis.qgs`)."
 msgstr ""
 "Buka peta yang telah Anda analisis vektor sebelumnya (:kbd:`analysis.qgs`)."
 
 # 9c13d4802e9146ad9660f4cb541bdf28
 #: ..\..\complete_analysis\analysis_combination.rst:16
 msgid ""
-"In the :guilabel:`Layers list`, enable these layers: - :guilabel:"
-"`hillshade`, - :guilabel:`solution`, - :guilabel:`important_roads` and - "
-"either :guilabel:`aerial_photos` or :guilabel:`DEM`."
+"In the :guilabel:`Layers list`, enable these layers: - "
+":guilabel:`hillshade`, - :guilabel:`solution`, - :guilabel:`important_roads` "
+"and - either :guilabel:`aerial_photos` or :guilabel:`DEM`."
 msgstr ""
-"Dalam :guilabel:`Layers list`, terdapat beberapa layer : - :guilabel:"
-"`hillshade`, - :guilabel:`solution`, - :guilabel:`important_roads`dan salah "
-"satu dari :guilabel:`aerial_photos` atau :guilabel:`DEM`."
+"Dalam :guilabel:`Layers list`, terdapat beberapa layer : - "
+":guilabel:`hillshade`, - :guilabel:`solution`, - "
+":guilabel:`important_roads`dan salah satu dari :guilabel:`aerial_photos` "
+"atau :guilabel:`DEM`."
 
 # 679884b64e70478988173ff3a16a4d6b
 #: ..\..\complete_analysis\analysis_combination.rst:21
@@ -295,10 +296,10 @@ msgid ""
 "solution will involve:"
 msgstr ""
 "Untuk mengatasi masalah ini, Anda harus menggunakan data yang tersedia "
-"(tersedia dalam: kbd: `exercise_data / more_analysis`) untuk menemukan area "
+"(tersedia dalam :kbd:`exercise_data/more_analysis`) untuk menemukan area "
 "kandidat yang paling dekat dengan rumah Anda. Jika Anda tidak tinggal di "
-"Cape T (yang merupakan dasar permasalahan ini) Anda dapat memilih rumah lain "
-"di kawasan Cape Town. Solusi ini akan melibatkan:"
+"Cape Town (yang merupakan dasar permasalahan ini) Anda dapat memilih rumah "
+"lain di kawasan Cape Town. Solusi ini akan melibatkan:"
 
 # 7d341c9dc9294c719ee62c73f141f958
 #: ..\..\complete_analysis\analysis_exercise.rst:37
@@ -339,9 +340,9 @@ msgid ""
 "screen. Under the :guilabel:`CRS` tab of the screen that appears, you will "
 "see the box :guilabel:`Coordinate reference systems of the world.`"
 msgstr ""
-"Klik tombol \"CRS status\" yang berada di paling bawah sudut kanan layar."
-"Dibawah tab :guilabel:`CRS` pada layar yang muncul, Anda akan melihat kotak "
-"dialog :guilabel:`Coordinate reference systems of the world.`"
+"Klik tombol \"CRS status\" yang berada di paling bawah sudut kanan "
+"layar.Dibawah tab :guilabel:`CRS` pada layar yang muncul, Anda akan melihat "
+"kotak dialog :guilabel:`Coordinate reference systems of the world.`"
 
 # 33834744155741c089c8575a594d6f9a
 #: ..\..\complete_analysis\analysis_exercise.rst:50
@@ -355,10 +356,10 @@ msgstr ""
 # fb8c74346d6e42e09dcec651195ccd43
 #: ..\..\complete_analysis\analysis_exercise.rst:52
 msgid ""
-"Select the entry :guilabel:`WGS 84 / UTM zone 33S` (with the EPSG code :kbd:"
-"`32733`)."
+"Select the entry :guilabel:`WGS 84 / UTM zone 33S` (with the EPSG code "
+":kbd:`32733`)."
 msgstr ""
-"Pilih :guilabel:`WGS 84 / UTM zone 33S` (dengan kode EPSG kbd:`32733`)."
+"Pilih :guilabel:`WGS 84 / UTM zone 33S` (dengan kode EPSG  :kbd:`32733`)."
 
 # 042d591b554b4694b387de886523b68e
 #: ..\..\complete_analysis\analysis_exercise.rst:54
@@ -366,7 +367,7 @@ msgid ""
 "Click :guilabel:`OK`. The map is now in the :kbd:`UTM33S` coordinate "
 "reference system."
 msgstr ""
-"klik :guilabel:'OK'. Sekarang peta ini berada pada sistem koordinat "
+"klik :guilabel:`OK`. Sekarang peta ini berada pada sistem koordinat "
 "referensi :kbd:`UTM33S`."
 
 # a2b8d32f7d8a46cca6b73660a8a1210a
@@ -411,11 +412,11 @@ msgstr "Untuk data vektor ..."
 # d6d49c5a0b164534a600dd2a62e938f6
 #: ..\..\complete_analysis\analysis_exercise.rst:71
 msgid ""
-"Click on the :guilabel:`Add Vector Layer` button, or use the :menuselection:"
-"`Layer --> Add Vector Layer...` menu item."
+"Click on the :guilabel:`Add Vector Layer` button, or use the "
+":menuselection:`Layer --> Add Vector Layer...` menu item."
 msgstr ""
-"Klik pada tombol :guilabel:'Add Vector Layer, atau gunakan :menuselection:"
-"`Layer --> Add Vector Layer...` pada menu item."
+"Klik pada tombol :guilabel:'Add Vector Layer, atau gunakan "
+":menuselection:`Layer --> Add Vector Layer...` pada menu item."
 
 # eb0e6a50f49d4bccb68dfb2f5a70d606
 #: ..\..\complete_analysis\analysis_exercise.rst:73
@@ -433,12 +434,11 @@ msgstr "Klik pada tombol :guilabel:`Browse`."
 # ceda79021a3743eda4bb30a95b15d431
 #: ..\..\complete_analysis\analysis_exercise.rst:76
 msgid ""
-"In the dialog that appears, open the :guilabel:`exercise_data/more_analysis/"
-"streets` directory."
+"In the dialog that appears, open the "
+":guilabel:`exercise_data/more_analysis/streets` directory."
 msgstr ""
-"Pada dialog yang muncul buka direktori :guilabel:`exercise_data/"
-"more_analysis/streets.`Pada dialog yang muncul buka direktori :guilabel:"
-"`exercise_data/more_analysis/streets."
+"Pada dialog yang muncul buka direktori "
+":guilabel:`exercise_data/more_analysis/streets`"
 
 # 597436e77bff4e9db2029df3275428c4
 #: ..\..\complete_analysis\analysis_exercise.rst:78
@@ -499,12 +499,12 @@ msgstr ""
 # 106176953ed148649b951fad688fe99e
 #: ..\..\complete_analysis\analysis_exercise.rst:93
 msgid ""
-"Repeat the vector adding process, but this time select the :guilabel:"
-"`Generalised_Zoning_Dissolve_UTM33S.shp` file in the :guilabel:`Zoning` "
-"directory."
+"Repeat the vector adding process, but this time select the "
+":guilabel:`Generalised_Zoning_Dissolve_UTM33S.shp` file in the "
+":guilabel:`Zoning` directory."
 msgstr ""
-"Ulangi proses penambahan vektor, akan tetapi untuk kali ini, pilih file :"
-"guilabel:`Generalised_Zoning_Dissolve_UTM33S.shp` yang terdapat dalam "
+"Ulangi proses penambahan vektor, akan tetapi untuk kali ini, pilih file "
+":guilabel:`Generalised_Zoning_Dissolve_UTM33S.shp` yang terdapat dalam "
 "direktori :guilabel:`Zoning`."
 
 # 8d346ff530144db7b611c05c8f9f033b
@@ -520,13 +520,11 @@ msgstr "Untuk data raster..."
 # 57c4fd091f224e16b8b90f2e229a7db3
 #: ..\..\complete_analysis\analysis_exercise.rst:101
 msgid ""
-"Click on the :guilabel:`Add Raster Layer` button, or use the :menuselection:"
-"`Layer --> Add Raster Layer...` menu item."
+"Click on the :guilabel:`Add Raster Layer` button, or use the "
+":menuselection:`Layer --> Add Raster Layer...` menu item."
 msgstr ""
-"Klik pada tombol :guilabel:`Add Raster Layer`, atau  gunakan :menuselection:"
-"`Layer --> Add Raster Layer...` pada item menu.Klik pada tombol :guilabel:"
-"`Add Raster Layer`, atau  gunakan :menuselection:`Layer --> Add Raster "
-"Layer...`pada item menu."
+"Klik pada tombol :guilabel:`Add Raster Layer`, atau  gunakan "
+":menuselection:`Layer --> Add Raster Layer...` pada item menu."
 
 # d1db08741ab24d2fb6494879c42aeb93
 #: ..\..\complete_analysis\analysis_exercise.rst:103
@@ -537,11 +535,12 @@ msgstr "Arahkan pada file yang sesuai, pilih dan klik  click :guilabel:`Open`."
 # eea78d811fa9453386789cc972225db4
 #: ..\..\complete_analysis\analysis_exercise.rst:104
 msgid ""
-"Do this for each of the two raster files. The files you want are :guilabel:"
-"`DEM/reproject/DEM` and :guilabel:`Rainfall/reprojected/rainfall.tif`."
+"Do this for each of the two raster files. The files you want are "
+":guilabel:`DEM/reproject/DEM` and "
+":guilabel:`Rainfall/reprojected/rainfall.tif`."
 msgstr ""
-"Lakukan hal ini pada dua file raster , yaitu:`DEM/reproject/DEM` dan :"
-"guilabel:`Rainfall/reprojected/rainfall.tif`."
+"Lakukan hal ini pada dua file raster , yaitu:`DEM/reproject/DEM` dan "
+":guilabel:`Rainfall/reprojected/rainfall.tif`."
 
 # 8551e3f7cfbd42bb9c3299b9f9a273b9
 #: ..\..\complete_analysis\analysis_exercise.rst:107
@@ -551,8 +550,8 @@ msgid ""
 "worry, this will be changed later."
 msgstr ""
 "Ubah nama raster curah hujan ke :kbd:`Rainfall` (dengan huruf awalnya "
-"kapital). Awalnya ketika dimuatnya, citra akan nampak menjadi abu-abu ."
-"Jangan khawatir, warna ini nanti akan diubah."
+"kapital). Awalnya ketika dimuatnya, citra akan nampak menjadi abu-abu "
+".Jangan khawatir, warna ini nanti akan diubah."
 
 # 08b94dbc19bc4bcd833d3903fed8779f
 # a6977d45a9ad4e4981c19d78cbd874dc
@@ -657,7 +656,7 @@ msgid ""
 "Click :guilabel:`OK` again in the :guilabel:`Layer Properties` dialog. This "
 "will change the color of the :guilabel:`Streets` layer."
 msgstr ""
-"Klik :guilabel:'OK' lagi dalam kotak dialog :guilabel:'Layer Properties'. "
+"Klik :guilabel:`OK` lagi dalam kotak dialog ::guilabel:`Layer Properties` . "
 "hal ini akan merubah warna di layer :guilabel:`Streets`."
 
 # 30ad7cff1671451fa1e504bb704654a7
@@ -703,20 +702,20 @@ msgstr "Pastikan tombol :guilabel:`Use standard deviation` dipilih."
 # e939a8d644774f1d96f34bf1965b9a9f
 #: ..\..\complete_analysis\analysis_exercise.rst:139
 msgid ""
-"Change the value in the associated box to :kbd:`2.00` (it should be set to :"
-"kbd:`0.00` by default)."
+"Change the value in the associated box to :kbd:`2.00` (it should be set to "
+":kbd:`0.00` by default)."
 msgstr ""
-"Ubah nilai dalam kotak yang terkait ke: kbd: `2,00` (secara default, nilai "
-"tersebut seharusnya : kbd: `0.00` )."
+"Ubah nilai dalam kotak yang terkait ke :kbd:`2,00` (secara default, nilai "
+"tersebut seharusnya :kbd:`0.00` )."
 
 # 36530576c7ad4e0dbbdd5965bdf03930
 #: ..\..\complete_analysis\analysis_exercise.rst:141
 msgid ""
-"Under the heading :guilabel:`Contrast enhancement`, change the value of the :"
-"guilabel:`Current` dropdown list to :guilabel:`Stretch to MinMax`."
+"Under the heading :guilabel:`Contrast enhancement`, change the value of the "
+":guilabel:`Current` dropdown list to :guilabel:`Stretch to MinMax`."
 msgstr ""
-"Di bawah judul :guilabel:`Contrast enhancement`, Ubah nilai :guilabel:"
-"`Current` pada daftar dropdown ke :guilabel:`Stretch to MinMax`."
+"Di bawah judul :guilabel:`Contrast enhancement`, Ubah nilai "
+":guilabel:`Current` pada daftar dropdown ke :guilabel:`Stretch to MinMax`."
 
 # f7816e506a5244b8b6a68a9c3c131893
 #: ..\..\complete_analysis\analysis_exercise.rst:143
@@ -725,8 +724,8 @@ msgid ""
 "colors, allowing you to see different brightness values for each pixel."
 msgstr ""
 "Klik :guilabel:`OK`. Raster \"Rainfall\" apabila terlihat akan berubah "
-"warna, sehingga memungkinkan Anda untuk melihat nilai kecerahan dari masing-"
-"masing pixel."
+"warna, sehingga memungkinkan Anda untuk melihat nilai kecerahan dari "
+"masing-masing pixel."
 
 # 8edcf546668d414fa27454ffe4945bec
 #: ..\..\complete_analysis\analysis_exercise.rst:145
@@ -799,13 +798,13 @@ msgid ""
 "Right-click on the :guilabel:`Districts` layer in the :guilabel:`Layers "
 "list`."
 msgstr ""
-"klik kanan pada layer:guilabel:`Districts` dalam :guilabel:`Layers list`."
+"klik kanan pada layer :guilabel:`Districts` dalam :guilabel:`Layers list`."
 
 # de24744c2bfd4a8283022af9292091eb
 #: ..\..\complete_analysis\analysis_exercise.rst:168
 msgid ""
-"In the menu that appears,  select the :guilabel:`Query...` menu item. The :"
-"guilabel:`Query Builder` dialog appears."
+"In the menu that appears,  select the :guilabel:`Query...` menu item. The "
+":guilabel:`Query Builder` dialog appears."
 msgstr ""
 "Pada menu yang muncul, pilih item menu :guilabel:`Query...`.Maka kotak "
 "dialog :guilabel:`Query Builder` muncul."
@@ -873,14 +872,15 @@ msgstr ""
 # 3591f2c63e324e1cb953b1d2b4cbaee4
 #: ..\..\complete_analysis\analysis_exercise.rst:184
 msgid ""
-"Click the :guilabel:`All` button below the (currently empty) :guilabel:"
-"`Values` list. After a short delay, this will populate the :guilabel:"
-"`Values` list with the values of the selected field (:guilabel:`NAME_2`)."
+"Click the :guilabel:`All` button below the (currently empty) "
+":guilabel:`Values` list. After a short delay, this will populate the "
+":guilabel:`Values` list with the values of the selected field "
+"(:guilabel:`NAME_2`)."
 msgstr ""
-"Klik tombol:guilabel:`All` di bawah daftar :guilabel:`Values`(yang sekarang "
-"kosong). Setelah menunggu sebentar, daftar :guilabel:`Values` ini akan "
-"terisi dengan nilai-nilai yang ada pada field yang dipilih (:guilabel:"
-"`NAME_2`)."
+"Klik tombol :guilabel:`All` di bawah daftar :guilabel:`Values` (yang "
+"sekarang kosong). Setelah menunggu sebentar, daftar :guilabel:`Values` ini "
+"akan terisi dengan nilai-nilai yang ada pada field yang dipilih "
+"(:guilabel:`NAME_2`)."
 
 # 4db7042a3e9044c39d3fa70ca71f602f
 #: ..\..\complete_analysis\analysis_exercise.rst:188
@@ -921,7 +921,7 @@ msgid ""
 "Add another :kbd:`OR` operator, then work your way through the list of "
 "districts above in a similar fashion."
 msgstr ""
-"tambahkan operasi lain :kbd:'OR', kemudian bekerjalah dengan daftar "
+"tambahkan operasi lain :kbd:`OR`, kemudian bekerjalah dengan daftar "
 "kabupaten di atas dengan menggunakan cara yang sama."
 
 # 8ec8156ee6094eefa7c8a7858889d15b
@@ -935,7 +935,7 @@ msgid ""
 "Click :guilabel:`OK`. The districts shown in your map are now limited to "
 "those in the list above."
 msgstr ""
-"Klik :guilabel:'OK'. Kabupaten yang muncul di peta Anda sekarang dibatasi "
+"Klik  :guilabel:`OK`. Kabupaten yang muncul di peta Anda sekarang dibatasi "
 "dengan daftar yang anda buat di atas."
 
 # b793d460fe5c4dfe94e81e03100df911
@@ -954,22 +954,22 @@ msgstr ""
 # 94b848ed60b24d0784e90dc73f8995ef
 #: ..\..\complete_analysis\analysis_exercise.rst:220
 msgid ""
-"Ensure that the only layers that are visible are the :guilabel:`DEM`, :"
-"guilabel:`Rainfall` and :guilabel:`Districts` layers."
+"Ensure that the only layers that are visible are the :guilabel:`DEM`, "
+":guilabel:`Rainfall` and :guilabel:`Districts` layers."
 msgstr ""
-"Pastikan hanya layer berikut yang terlihat :guilabel:`DEM`, :guilabel:"
-"`Rainfall` dan :guilabel:`Districts`."
+"Pastikan hanya layer berikut yang terlihat :guilabel:`DEM`, "
+":guilabel:`Rainfall` dan :guilabel:`Districts`."
 
 # f0ceaf9fe0774f99b5675b0028115e7c
 #: ..\..\complete_analysis\analysis_exercise.rst:222
 msgid ":guilabel:`Districts` must be on top so that they are visible."
-msgstr ":guilabel:'District' harus berada di atas agar dapat terlihat."
+msgstr ":guilabel:`Districts` harus berada di atas agar dapat terlihat."
 
 # 9b5be7325ee94230a9c6130bab013200
 #: ..\..\complete_analysis\analysis_exercise.rst:223
 msgid ""
-"Open the clipping dialog by selecting the menu item :menuselection:`Raster --"
-"> Extraction --> Clipper`."
+"Open the clipping dialog by selecting the menu item :menuselection:`Raster "
+"--> Extraction --> Clipper`."
 msgstr ""
 "buka kotak dialog dengan memilih item menu :menuselection:`Raster --> "
 "Extraction --> Clipper`."
@@ -977,11 +977,11 @@ msgstr ""
 # 35c155751b4242d8bf4d494839b30063
 #: ..\..\complete_analysis\analysis_exercise.rst:225
 msgid ""
-"In the :guilabel:`Input file (raster)` dropdown list, select the :guilabel:"
-"`DEM` layer."
+"In the :guilabel:`Input file (raster)` dropdown list, select the "
+":guilabel:`DEM` layer."
 msgstr ""
-"Dalam daftar dropdown :guilabel:`Input file (raster)`, pilih layer :guilabel:"
-"`DEM`."
+"Dalam daftar dropdown :guilabel:`Input file (raster)`, pilih layer "
+":guilabel:`DEM`."
 
 # 814c0b0afee44c23997008afec1d47b7
 #: ..\..\complete_analysis\analysis_exercise.rst:227
@@ -989,8 +989,8 @@ msgid ""
 "Specify an output location in the :guilabel:`Output file` text field by "
 "clicking the :guilabel:`Select...` button."
 msgstr ""
-"Spesifikasikan lokasi keluaran pada text field dengan mengklik tombol :"
-"guilabel:`Select...`."
+"Spesifikasikan lokasi keluaran pada text field dengan mengklik tombol "
+":guilabel:`Select...`."
 
 # 995b0ee84c484242a59cc542e89a2505
 #: ..\..\complete_analysis\analysis_exercise.rst:229
@@ -1030,24 +1030,24 @@ msgstr ""
 # 8826f17eb8ea4470b5633b1696ae1a81
 #: ..\..\complete_analysis\analysis_exercise.rst:236
 msgid "Check the :guilabel:`Load into canvas when finished` box."
-msgstr "Periksa kotak dialog :guilabel:`Load into canvas when finished`."
+msgstr "Centang :guilabel:`Load into canvas when finished`."
 
 # 92acd176ebe64e5c98a95809135ef38d
 #: ..\..\complete_analysis\analysis_exercise.rst:238
 msgid ""
-"After the clipping operation is completed, DO NOT CLOSE the :guilabel:"
-"`Clipper` dialog. (Doing so would cause you to lose the clipping area that "
-"you have already defined.)"
+"After the clipping operation is completed, DO NOT CLOSE the "
+":guilabel:`Clipper` dialog. (Doing so would cause you to lose the clipping "
+"area that you have already defined.)"
 msgstr ""
-"Setelah operasi pemotongan selesai, JANGAN TUTUP kotak dialog :guilabel:"
-"`Clipper` ini (Apabila Anda melakukannya, Anda akan kehilangan area clipping "
-"yang sudah anda definisikan)"
+"Setelah operasi pemotongan selesai, JANGAN TUTUP kotak dialog "
+":guilabel:`Clipper` ini (Apabila Anda melakukannya, Anda akan kehilangan "
+"area clipping yang sudah anda definisikan)"
 
 # 850f8f66a1d6455fa3da2ef61fb06a99
 #: ..\..\complete_analysis\analysis_exercise.rst:241
 msgid ""
-"Select the :guilabel:`Rainfall` raster in the :guilabel:`Input file (raster)"
-"` dropdown list and choose a different output file name."
+"Select the :guilabel:`Rainfall` raster in the :guilabel:`Input file "
+"(raster)` dropdown list and choose a different output file name."
 msgstr ""
 "Pilih raster :guilabel:`Rainfall` dalam daftar dropdown :guilabel:`Input "
 "file (raster)` dan pilih nama file keluaran yang berbeda."
@@ -1056,8 +1056,8 @@ msgstr ""
 #: ..\..\complete_analysis\analysis_exercise.rst:243
 msgid ""
 "Do not change any other options. Do not alter the existing clipping area "
-"which you drew previously. Leave everything the same and click :guilabel:"
-"`OK`."
+"which you drew previously. Leave everything the same and click "
+":guilabel:`OK`."
 msgstr ""
 "jangan mengubah ke pilihan lain. Jangan mengubah daerah kliping yang sudah "
 "Anda buat gambar sebelumnya. Tinggalkan segala sesuatunya dalam keadaan sama "
@@ -1066,11 +1066,11 @@ msgstr ""
 # 9377b614b1824fd6a37e8bcfb1d1ab9e
 #: ..\..\complete_analysis\analysis_exercise.rst:246
 msgid ""
-"After the second clipping operation has completed, you may close the :"
-"guilabel:`Clipper` dialog."
+"After the second clipping operation has completed, you may close the "
+":guilabel:`Clipper` dialog."
 msgstr ""
-"Sesudah operasi pemotongan kedua lengkap, Anda dapat menutup kotak dialog :"
-"guilabel:`Clipper`."
+"Sesudah operasi pemotongan kedua lengkap, Anda dapat menutup kotak dialog "
+":guilabel:`Clipper`."
 
 # 2e9e1d0bdeb14ed281a72d689c3b5f05
 #: ..\..\complete_analysis\analysis_exercise.rst:251
@@ -1080,11 +1080,11 @@ msgstr "Bersihkan peta"
 # ca0fb5be620c47fcb951d99ae3dbc707
 #: ..\..\complete_analysis\analysis_exercise.rst:253
 msgid ""
-"Remove the original :guilabel:`Rainfall` and :guilabel:`DEM` layers from "
-"the :guilabel:`Layers list`:"
+"Remove the original :guilabel:`Rainfall` and :guilabel:`DEM` layers from the "
+":guilabel:`Layers list`:"
 msgstr ""
-"Hilangkan layer :guilabel:`Rainfall` dan :guilabel:`DEM` dari :guilabel:"
-"`Layers list`:"
+"Hilangkan layer :guilabel:`Rainfall` dan :guilabel:`DEM` dari "
+":guilabel:`Layers list`:"
 
 # 6a72126d81f843c3bebfff46a7c11938
 #: ..\..\complete_analysis\analysis_exercise.rst:256
@@ -1113,7 +1113,7 @@ msgstr "Klik tombol :guilabel:`Labeling`."
 # b919d815adac47d098984ff8f8890ec6
 #: ..\..\complete_analysis\analysis_exercise.rst:264
 msgid "Uncheck the :guilabel:`Label this layer with` box."
-msgstr "Hapus tanda centang pada kotak :guilabel:':`Label this layer with`."
+msgstr "Hapus tanda centang pada kotak :guilabel:`Label this layer with`."
 
 # 7f89adadb1ea414eb5d2d555d72d55d8
 #: ..\..\complete_analysis\analysis_exercise.rst:267
@@ -1136,8 +1136,8 @@ msgid ""
 "In the :guilabel:`Query` dialog that appears, click the :guilabel:`Clear` "
 "button, then click :guilabel:`OK`."
 msgstr ""
-"Pada kotak dialog :guilabel:`Query` yang muncul, klik tombol :guilabel:"
-"`Clear`, kemudian klik :guilabel:`OK`."
+"Pada kotak dialog :guilabel:`Query` yang muncul, klik tombol "
+":guilabel:`Clear`, kemudian klik :guilabel:`OK`."
 
 # 43cca42d76b945d2920d25cd741ad8cf
 #: ..\..\complete_analysis\analysis_exercise.rst:274
@@ -1156,13 +1156,14 @@ msgstr ""
 # a82e053d5f694af886d89e3e17eaf090
 #: ..\..\complete_analysis\analysis_exercise.rst:278
 msgid ""
-"You can now hide the vector layers by unchecking the box next to them in "
-"the :guilabel:`Layers list`. This will make the map render faster and will "
-"save you some time."
+"You can now hide the vector layers by unchecking the box next to them in the "
+":guilabel:`Layers list`. This will make the map render faster and will save "
+"you some time."
 msgstr ""
 "Anda sekarang dapat menyembunyikan layer vektor dengan menghilangkan tanda "
-"centang pada kotak yang berada di sebelah layer tersebut dalam :guilabel:"
-"`Layers list`.Dengan demikian pembuatan peta lebih cepat dan menghemat waktu."
+"centang pada kotak yang berada di sebelah layer tersebut dalam "
+":guilabel:`Layers list`.Dengan demikian pembuatan peta lebih cepat dan "
+"menghemat waktu."
 
 # 77169b7dceba47bf9b0f0b0eeb8eb645
 #: ..\..\complete_analysis\analysis_exercise.rst:282
@@ -1208,8 +1209,8 @@ msgid ""
 "You will now have access to this plugin via the :menuselection:`Raster --> "
 "Terrain analysis` menu item."
 msgstr ""
-"Anda sekarang akan mempunyai akses ke plugin ini melalui item menu :"
-"menuselection:`Raster --> Terrain analysis`."
+"Anda sekarang akan mempunyai akses ke plugin ini melalui item menu "
+":menuselection:`Raster --> Terrain analysis`."
 
 # 35f97f1db6ed403585cb3a279589d524
 #: ..\..\complete_analysis\analysis_exercise.rst:299
@@ -1244,16 +1245,16 @@ msgid ""
 "item to open the :guilabel:`Hillshade` dialog."
 msgstr ""
 "Klik pada item menu :menuselection:`Raster --> Terrain analysis --> "
-"Hillshade`untuk membuka kotak dialog :guilabel:`Hillshade`."
+"Hillshade` untuk membuka kotak dialog :guilabel:`Hillshade`."
 
 # 3ac06d110cbb4e279c069f1879326bbc
 #: ..\..\complete_analysis\analysis_exercise.rst:310
 msgid ""
-"Specify an appropriate location for the output layer and call it :guilabel:"
-"`hillshade`."
+"Specify an appropriate location for the output layer and call it "
+":guilabel:`hillshade`."
 msgstr ""
-"Tentukan lokasi yang tepat untuk layer keluaran dan namakan :guilabel:"
-"`hillshade`."
+"Tentukan lokasi yang tepat untuk layer keluaran dan namakan "
+":guilabel:`hillshade`."
 
 # b48e2843b18f49d2b948c3d6536b6c72
 # 208913395383412abb00721bf3de8ef2
@@ -1273,8 +1274,8 @@ msgid ""
 "The new :guilabel:`hillshade` layer has appeared in your :guilabel:`Layers "
 "list`."
 msgstr ""
-"Layer baru dengan nama :guilabel:`hillshade`telah muncul di :guilabel:"
-"`Layers list`Anda."
+"Layer baru dengan nama :guilabel:`hillshade` telah muncul di "
+":guilabel:`Layers list` Anda."
 
 # 423c572fb6e94b7abe7fa12dee9a4dbe
 #: ..\..\complete_analysis\analysis_exercise.rst:319
@@ -1282,17 +1283,17 @@ msgid ""
 "Right-click on the :guilabel:`hillshade` layer in your :guilabel:`Layers "
 "list` and bring up the :guilabel:`Properties` dialog."
 msgstr ""
-"Klik kanan pada layer :guilabel:`hillshade`yang ada dalam :guilabel:`Layers "
+"Klik kanan pada layer :guilabel:`hillshade` yang ada dalam :guilabel:`Layers "
 "list` dan munculkan pada kotak dialog :guilabel:`Properties`."
 
 # 07c81c700f8d4c21823cb6513b9a3ab6
 #: ..\..\complete_analysis\analysis_exercise.rst:321
 msgid ""
-"Click on the :guilabel:`Transparency` tab and set the transparency slider "
-"to :kbd:`80%`."
+"Click on the :guilabel:`Transparency` tab and set the transparency slider to "
+":kbd:`80%`."
 msgstr ""
-"Klik pada tab :guilabel:`Transparency`dan atur slider transparancy ke :kbd:"
-"`80%`."
+"Klik pada tab :guilabel:`Transparency` dan atur slider transparancy ke "
+":kbd:`80%`."
 
 # 888a9f4cdf114094b7e0ce0c1b5fb374
 #: ..\..\complete_analysis\analysis_exercise.rst:323
@@ -1349,7 +1350,7 @@ msgid ""
 "Open the layer :guilabel:`Properties` dialog (as usual, via the right-click "
 "menu of the layer)."
 msgstr ""
-"Buka kotak dialog layer :guilabel:`Properties`(seperti biasa, dengan "
+"Buka kotak dialog layer :guilabel:`Properties` (seperti biasa, dengan "
 "mengklik kanan menu pada layer)."
 
 # 88f94ae43358483db23cb629b9cf6449
@@ -1363,14 +1364,14 @@ msgid ""
 "Where it says :guilabel:`Grayscale` (in the :guilabel:`Color map` dropdown "
 "menu), change it to :guilabel:`Pseudocolor`."
 msgstr ""
-"Dimana tertulis :guilabel:`Grayscale`(Dalam menu dropdown :guilabel:`Color "
+"Dimana tertulis :guilabel:`Grayscale` (Dalam menu dropdown :guilabel:`Color "
 "map`), ubah ke ::guilabel:`Pseudocolor`."
 
 # 45240f5359ea45fb9ca1cef7384cd6b3
 #: ..\..\complete_analysis\analysis_exercise.rst:346
 msgid ""
 "Ensure that the :guilabel:`Use standard deviation` radio button is selected."
-msgstr "Pastikan bahwa tombol :guilabel:`Use standard deviation`dipilih."
+msgstr "Pastikan bahwa tombol :guilabel:`Use standard deviation` dipilih."
 
 # 4eafcae4a7574846a973108f7e2c01b5
 #: ..\..\complete_analysis\analysis_exercise.rst:349
@@ -1380,11 +1381,11 @@ msgstr "Aspek"
 # d8eae25737e14358b00f1f76cb7d931f
 #: ..\..\complete_analysis\analysis_exercise.rst:351
 msgid ""
-"Use the same approach as for calculating the slope, but select :guilabel:"
-"`Aspect` in the initial dialog box."
+"Use the same approach as for calculating the slope, but select "
+":guilabel:`Aspect` in the initial dialog box."
 msgstr ""
-"Gunakan pendekatan yang sama seperti menghitung kelerengan, tapi pilih :"
-"guilabel: `Aspek` di kotak dialog awal."
+"Gunakan pendekatan yang sama seperti menghitung kelerengan, tapi pilih "
+":guilabel:`Aspek` di kotak dialog awal."
 
 # dff246db362e4a2e8e3d4d8e616d8ace
 #: ..\..\complete_analysis\analysis_exercise.rst:354
@@ -1413,19 +1414,19 @@ msgstr ""
 # 039ffbd04c9947e495dd97ba434bc28a
 #: ..\..\complete_analysis\analysis_exercise.rst:362
 msgid "Ensure that the :guilabel:`Add result to project` box is selected."
-msgstr "Pastikan kotak dialog :guilabel:`Add result to project`dipilih."
+msgstr "Pastikan kotak dialog :guilabel:`Add result to project` dipilih."
 
 # c6f647932d2b405494139bebb0f0172a
 #: ..\..\complete_analysis\analysis_exercise.rst:364
 msgid ""
 "In the :guilabel:`Raster bands` list on the left, you will see all the "
-"raster layers in your :guilabel:`Layers list`. If your Slope layer is "
-"called :guilabel:`slope`, it will be listed as :guilabel:`slope@1`."
+"raster layers in your :guilabel:`Layers list`. If your Slope layer is called "
+":guilabel:`slope`, it will be listed as :guilabel:`slope@1`."
 msgstr ""
-"Dalam daftar : guilabel: `Raster band` di sebelah kiri, Anda akan melihat "
-"semua layer raster dalam daftar: guilabel: `Layers list`. Jika Layer Lereng "
-"Anda disebut: guilabel:`slope`, maka akan terdaftar sebagai: :guilabel:"
-"`slope@1`."
+"Dalam daftar :guilabel:`Raster band` di sebelah kiri, Anda akan melihat "
+"semua layer raster dalam daftar :guilabel:`Layers list`. Jika Layer Lereng "
+"Anda disebut :guilabel:`slope`, maka akan terdaftar sebagai "
+":guilabel:`slope@1`."
 
 # e4328ef88559481caf545271c972741f
 #: ..\..\complete_analysis\analysis_exercise.rst:368
@@ -1433,8 +1434,8 @@ msgid ""
 "The slope needs to be between :kbd:`15` and :kbd:`60` degrees. Everything "
 "less than :kbd:`15` or greater than :kbd:`60` must therefore be excluded."
 msgstr ""
-"Kelerengan harus berada pada :kbd:`15` and :kbd:`60`derajat. Semua yang "
-"berada kurang dari :kbd:`15` or lebih dari :kbd:`60`harus dikesampingkan."
+"Kelerengan harus berada pada :kbd:`15` and :kbd:`60` derajat. Semua yang "
+"berada kurang dari :kbd:`15` or lebih dari :kbd:`60` harus dikesampingkan."
 
 # c21cefc0134545a096f8144799e9bdf8
 #: ..\..\complete_analysis\analysis_exercise.rst:371
@@ -1451,7 +1452,7 @@ msgid ""
 "Set the :guilabel:`Output layer` field to an appropriate location and file "
 "name."
 msgstr ""
-"Atur field :guilabel:`Output layer`pada lokasi dan nama file yang sesuai."
+"Atur field :guilabel:`Output layer` pada lokasi dan nama file yang sesuai."
 
 # 1251cb886f5e42ac8570c71e41a83e25
 #: ..\..\complete_analysis\analysis_exercise.rst:382
@@ -1459,8 +1460,8 @@ msgid ""
 "Now find the correct aspect (east-facing: between :kbd:`45` and :kbd:`135` "
 "degrees) using the same approach."
 msgstr ""
-"Sekarang carilah aspek yang benar (menghadap ke timur dengan :kbd:`45` and :"
-"kbd:`135` degrees) dan gunakan pendekatan yang sama seperti sebelumnya."
+"Sekarang carilah aspek yang benar (menghadap ke timur dengan :kbd:`45` and "
+":kbd:`135` degrees) dan gunakan pendekatan yang sama seperti sebelumnya."
 
 # a143506b818d44d98ef2b491c2d9227a
 #: ..\..\complete_analysis\analysis_exercise.rst:385
@@ -1473,8 +1474,8 @@ msgid ""
 "Find the correct rainfall (greater than :kbd:`1200mm`) the same way. Build "
 "the following expression:"
 msgstr ""
-"Cari curah hujan yang benar dengan menggunakan cara yang sama (lebih dari :"
-"kbd:`1200mm`). Buat ekspresi sebagai berikut:"
+"Cari curah hujan yang benar dengan menggunakan cara yang sama (lebih dari "
+":kbd:`1200mm`). Buat ekspresi sebagai berikut:"
 
 # 68b3565f5ae44760a67fc92aa1fe8158
 #: ..\..\complete_analysis\analysis_exercise.rst:398
@@ -1502,14 +1503,14 @@ msgid ""
 "Open the :guilabel:`Style` tab in the layer's :guilabel:`Properties` dialog "
 "as usual."
 msgstr ""
-"Buka tab :guilabel:`Style`dalam kotak dialog :guilabel:`Properties`seperti "
+"Buka tab :guilabel:`Style` dalam kotak dialog :guilabel:`Properties` seperti "
 "biasanya."
 
 # aef9882f481143a7897f1e1a48c8195a
 #: ..\..\complete_analysis\analysis_exercise.rst:408
 msgid ""
-"Under the heading :guilabel:`Load min / max values from band`, select the :"
-"guilabel:`Actual (slower)` radio button."
+"Under the heading :guilabel:`Load min / max values from band`, select the "
+":guilabel:`Actual (slower)` radio button."
 msgstr ""
 "Di bawah judul :guilabel:`Load min / max values from band`, pilih tombol "
 "radio :guilabel:`Actual (slower)`."
@@ -1522,24 +1523,24 @@ msgstr "Klik pada tombol :guilabel:`Load`."
 # ad7ed8b723164b009a8f3fb3e47dfbb8
 #: ..\..\complete_analysis\analysis_exercise.rst:412
 msgid ""
-"The :guilabel:`Custom min / max values` fields should now populate with :kbd:"
-"`0` and :kbd:`1`, respectively. (If they do not, then there was a mistake "
-"with your reclassification of the data, and you will need to go over that "
-"part again.)"
+"The :guilabel:`Custom min / max values` fields should now populate with "
+":kbd:`0` and :kbd:`1`, respectively. (If they do not, then there was a "
+"mistake with your reclassification of the data, and you will need to go over "
+"that part again.)"
 msgstr ""
-"field :guilabel:`Custom min / max values`seharusnya sekarang sudah terisi "
-"dengan nilai :kbd:`0` and :kbd:`1.(Apabila tidak, ada kesalahan pada "
+"field :guilabel:`Custom min / max values` seharusnya sekarang sudah terisi "
+"dengan nilai :kbd:`0` and :kbd:`1`. (Apabila tidak, ada kesalahan pada "
 "reklasifikasi data Anda dan Anda butuh untuk mengulang kembali bagian "
 "tersebut)"
 
 # 037c3644dcc74d1a8eb05591faf1d5c1
 #: ..\..\complete_analysis\analysis_exercise.rst:417
 msgid ""
-"Under the heading :guilabel:`Contrast enhancement`, set the :guilabel:"
-"`Current` dropdown list to :guilabel:`Stretch To MinMax`."
+"Under the heading :guilabel:`Contrast enhancement`, set the "
+":guilabel:`Current` dropdown list to :guilabel:`Stretch To MinMax`."
 msgstr ""
-"di bawah judul :guilabel:`Contrast enhancement`, atur daftar dropdown :"
-"guilabel:`Current`ke :guilabel:`Stretch To MinMax`."
+"di bawah judul :guilabel:`Contrast enhancement`, atur daftar dropdown "
+":guilabel:`Current` ke :guilabel:`Stretch To MinMax`."
 
 # c8b05de73932468da309c237387d03d4
 #: ..\..\complete_analysis\analysis_exercise.rst:420
@@ -1558,9 +1559,9 @@ msgid ""
 msgstr ""
 "Satu-satunya kriteria yang tersisa adalah bahwa daerah tersebut harus jauh "
 "dari daerah perkotaan dengan jarak :kbd:`250m`. Kami akan memenuhi "
-"persyaratan ini dengan memastikan bahwa daerah yang kita hitung adalah :kbd:"
-"`250m` atau lebih dari tepi area pedesaan. Oleh karena itu,pertama-tama, "
-"kita perlu menemukan semua daerah pedesaan."
+"persyaratan ini dengan memastikan bahwa daerah yang kita hitung adalah "
+":kbd:`250m` atau lebih dari tepi area pedesaan. Oleh karena "
+"itu,pertama-tama, kita perlu menemukan semua daerah pedesaan."
 
 # b088d5af591f436f813b5deb10ddbc5f
 #: ..\..\complete_analysis\analysis_exercise.rst:428
@@ -1581,8 +1582,8 @@ msgstr "tampilkan layer vektor :guilabel:`Zoning`."
 #: ..\..\complete_analysis\analysis_exercise.rst:432
 msgid "Right-click on it and bring up the :guilabel:`Query` dialog."
 msgstr ""
-"Klik kanan pada layer vektor :guilabel:`Zoning`.dan pilihlah kotak :guilabel:"
-"`Query`."
+"Klik kanan pada layer vektor :guilabel:`Zoning`.dan pilihlah kotak "
+":guilabel:`Query`."
 
 # 7d429e133c054ef9af97b9e560f99256
 #: ..\..\complete_analysis\analysis_exercise.rst:433
@@ -1595,7 +1596,7 @@ msgid ""
 "See the earlier instructions for building the :guilabel:`Streets` query if "
 "you get stuck."
 msgstr ""
-"Lihat petunjuk awal untuk membuat query :guilabel:`Streets`jika Anda "
+"Lihat petunjuk awal untuk membuat query :guilabel:`Streets` jika Anda "
 "mengalami kesulitan."
 
 # b578abe40cff4b35a954b875f17df903
@@ -1609,14 +1610,14 @@ msgid ""
 "You should see a collection of polygons from the :guilabel:`Zoning` layer. "
 "You will need to save these to a new layer file."
 msgstr ""
-"Anda akan melihat kumpulan poligon dari layer : guilabel: `Zonasi`. Anda "
-"perlu menyimpan ploigon-poligon baru ini ke file layer yang baru."
+"Anda akan melihat kumpulan poligon dari layer :guilabel:`Zonasi`. Anda perlu "
+"menyimpan ploigon-poligon baru ini ke file layer yang baru."
 
 # fae47ea5bedf4509810367c5a0886aee
 #: ..\..\complete_analysis\analysis_exercise.rst:446
 msgid ""
-"On the right-click menu for :guilabel:`Zoning`, select :guilabel:`Save as..."
-"`."
+"On the right-click menu for :guilabel:`Zoning`, select :guilabel:`Save "
+"as...`."
 msgstr "Klik kanan pada menu :guilabel:`Zoning`, pilih :guilabel:`Save as...`."
 
 # 0357fc9374a2409182875c3ee9b2b53e0301c66a167e42feb02d4c39939ad7f5
@@ -1650,9 +1651,9 @@ msgid ""
 "Select the :guilabel:`rural` layer as your input vector layer, while leaving "
 "the :guilabel:`Use only selected features` box unchecked."
 msgstr ""
-"Pilih layer :guilabel:`rural`sebagai layer vektor masukan Anda.Centang "
-"kotak :guilabel:`Use only selected, pada saat Anda meninggalkan dialog "
-"tersebut."
+"Pilih layer :guilabel:`rural` sebagai layer vektor masukan Anda.Centang "
+"kotak :guilabel::`Use only selected features`, pada saat Anda meninggalkan "
+"dialog tersebut."
 
 # d48867dbbabd46298589792f153b5a35
 #: ..\..\complete_analysis\analysis_exercise.rst:456
@@ -1665,8 +1666,8 @@ msgstr ""
 #: ..\..\complete_analysis\analysis_exercise.rst:458
 msgid ""
 "Click :guilabel:`OK`. A dialog will appear asking whether you want to add "
-"the new layer to the TOC (\"Table of Contents\", referring to the :guilabel:"
-"`Layers list`)."
+"the new layer to the TOC (\"Table of Contents\", referring to the "
+":guilabel:`Layers list`)."
 msgstr ""
 "Klik :guilabel:`OK`. Sebuah kotak dialog akan muncul dan menanyakan apakah "
 "Anda ingin menambahkan layer baru pada TOC (\"Table of Contents\", mengacu "
@@ -1706,8 +1707,8 @@ msgstr "membuat buffer negatif"
 # 3ee538441fad4aa685cd6e778c874907
 #: ..\..\complete_analysis\analysis_exercise.rst:472
 msgid ""
-"Click the menu item :menuselection:`Vector --> Geoprocessing Tools --> Buffer"
-"(s)`."
+"Click the menu item :menuselection:`Vector --> Geoprocessing Tools --> "
+"Buffer(s)`."
 msgstr ""
 "Klik item menu :menuselection:`Vector --> Geoprocessing Tools --> Buffer(s)`."
 
@@ -1718,20 +1719,20 @@ msgid ""
 "your input vector layer (:guilabel:`Use only selected features` should not "
 "be checked)."
 msgstr ""
-"Dalam kotak dialog yang muncul, pilih layer :guilabel:`rural_dissolve "
+"Dalam kotak dialog yang muncul, pilih layer :guilabel:`rural_dissolve` "
 "sebagai layer vektor masukan Anda (:guilabel:`Use only selected features` "
 "tidak boleh dicentang)."
 
 # 2838b8deb7a84484a018f298a5c2a512
 #: ..\..\complete_analysis\analysis_exercise.rst:477
 msgid ""
-"Select the :guilabel:`Buffer distance` button and enter the value :kbd:`-"
-"250` into the associated field; the negative value means that the buffer "
-"must be an internal buffer."
+"Select the :guilabel:`Buffer distance` button and enter the value "
+":kbd:`-250` into the associated field; the negative value means that the "
+"buffer must be an internal buffer."
 msgstr ""
-"Pilih tombol :guilabel:`Buffer distance` dan ketikkan nilai :kbd:`-250`dalam "
-"field yang terkait; Nilai yang negatif berarti bahwa buffer tersebut pasti "
-"merupakan buffer internal."
+"Pilih tombol :guilabel:`Buffer distance` dan ketikkan nilai :kbd:`-250` "
+"dalam field yang terkait; Nilai yang negatif berarti bahwa buffer tersebut "
+"pasti merupakan buffer internal."
 
 # c54336a9d1574b6b8ecf0b97cb634216
 #: ..\..\complete_analysis\analysis_exercise.rst:480
@@ -1743,7 +1744,7 @@ msgstr "Periksa kotak dialog :guilabel:`Dissolve buffer results`."
 msgid ""
 "Set the output file to the same directory as the other rural vector files."
 msgstr ""
-"Atur file keluaran ke direktori yang sama seperti file vektor rural yan "
+"Atur file keluaran ke direktori yang sama seperti file vektor rural yang "
 "lainnya."
 
 # e9d248cea6834ba7bddba302983c28fa
@@ -1816,11 +1817,11 @@ msgstr "Di bawah judul :guilabel:`Type`, pilih tombol :guilabel:`Polygon`."
 # 5cb5f69e9842422aa4916152c0c2821f
 #: ..\..\complete_analysis\analysis_exercise.rst:503
 msgid ""
-"Click :guilabel:`Specify CRS` and set the coordinate reference system :kbd:"
-"`WGS 84 / UTM zone 33S : EPSG:32733`."
+"Click :guilabel:`Specify CRS` and set the coordinate reference system "
+":kbd:`WGS 84 / UTM zone 33S : EPSG:32733`."
 msgstr ""
-"Klik :guilabel:`Specify CRS dan atur sistem referensi koordinat dengan :kbd:"
-"`WGS 84 / UTM zone 33S : EPSG:32733`."
+"Klik :guilabel:`Specify CRS` dan atur sistem referensi koordinat dengan "
+":kbd:`WGS 84 / UTM zone 33S : EPSG:32733`."
 
 # ab9f2e5c390a42588ab3e5e13068f392
 # a684d80c253f47f28b68058f937e3c94
@@ -1836,7 +1837,7 @@ msgstr "Klik OK."
 msgid ""
 "Click :guilabel:`OK` on the :guilabel:`New Vector Layer` dialog as well."
 msgstr ""
-"Klik :guilabel:`OK`juga pada kotak dialog :guilabel:`New Vector Layer`."
+"Klik :guilabel:`OK` juga pada kotak dialog :guilabel:`New Vector Layer`."
 
 # bc1fca28a5f6431e9cf83e5e3a5c2446
 #: ..\..\complete_analysis\analysis_exercise.rst:507
@@ -1860,22 +1861,22 @@ msgstr ""
 # af9d1c4b13934f15afd6df866af4b97d
 #: ..\..\complete_analysis\analysis_exercise.rst:511
 msgid ""
-"Ensure that the :guilabel:`bbox` layer is highlighted in the :guilabel:"
-"`Layers list`."
+"Ensure that the :guilabel:`bbox` layer is highlighted in the "
+":guilabel:`Layers list`."
 msgstr ""
-"Pastikan bahwa layer :guilabel:`bbox`disorot dalam :guilabel:`Layers list`."
+"Pastikan bahwa layer :guilabel:`bbox` disorot dalam :guilabel:`Layers list`."
 
 # 5e6f65e73494491b85504e7e144b218d
 #: ..\..\complete_analysis\analysis_exercise.rst:513
 msgid ""
-"Navigate to the :menuselection:`View > Toolbars` menu item and ensure that :"
-"guilabel:`Digitizing` is selected. You should then see a toolbar icon with a "
-"pencil or koki on it. This is the :guilabel:`Toggle editing` button."
+"Navigate to the :menuselection:`View > Toolbars` menu item and ensure that "
+":guilabel:`Digitizing` is selected. You should then see a toolbar icon with "
+"a pencil or koki on it. This is the :guilabel:`Toggle editing` button."
 msgstr ""
-"Arahkan pada item menu :menuselection:`View > Toolbars dan pastikan bahwa :"
-"guilabel:`Digitizing`dipilih. Kemudian Anda akan melihat ikon toolbar dengan "
-"sebuah gambar pensil atau koki di atasnya. Ini adalah tombol :guilabel:"
-"`Toggle editing`."
+"Arahkan pada item menu :menuselection:`View > Toolbars` dan pastikan bahwa "
+":guilabel:`Digitizing` dipilih. Kemudian Anda akan melihat ikon toolbar "
+"dengan sebuah gambar pensil atau koki di atasnya. Ini adalah tombol "
+":guilabel:`Toggle editing`."
 
 # 60be9f511d3449c8bc86a7b7f6dfe9a8
 #: ..\..\complete_analysis\analysis_exercise.rst:516
@@ -1883,21 +1884,21 @@ msgid ""
 "Click the :guilabel:`Toggle editing` button to enter *edit mode*. This "
 "allows you to edit a vector layer."
 msgstr ""
-"Klik tombol :guilabel:`Toggle editing`untuk masuk ke *edit mode*. Ini "
+"Klik tombol :guilabel:`Toggle editing` untuk masuk ke *edit mode*. Ini "
 "memungkinkan Anda untuk mengedit sebuah layer vektor."
 
 # 5e834c231e7548fcbfaaaa63b166bbdf
 #: ..\..\complete_analysis\analysis_exercise.rst:518
 msgid ""
-"Click the :guilabel:`Add feature` button, which should be nearby the :"
-"guilabel:`Toggle editing` button. It may be hidden behind a double arrow "
+"Click the :guilabel:`Add feature` button, which should be nearby the "
+":guilabel:`Toggle editing` button. It may be hidden behind a double arrow "
 "button; if so, click the double arrows to show the :guilabel:`Digitizing` "
 "toolbar's hidden buttons."
 msgstr ""
-"Klik tombol: guilabel: `Add feature`, yang biasanya berada dekat dengan "
-"tombol: guilabel: `Toggle editing`. Tombol ini mungkin tersembunyi di balik "
+"Klik tombol :guilabel:`Add feature`, yang biasanya berada dekat dengan "
+"tombol :guilabel:`Toggle editing`. Tombol ini mungkin tersembunyi di balik "
 "tombol panah ganda, jika demikian, klik dua kali tanda panah ganda untuk "
-"menampilkan tombol : guilabel: `Digitizing` yang tersembunyi pada toolbar."
+"menampilkan tombol :guilabel:`Digitizing` yang tersembunyi pada toolbar."
 
 # e2363079d22b42c7bfc2dba2cacd38e4
 #: ..\..\complete_analysis\analysis_exercise.rst:522
@@ -1935,7 +1936,8 @@ msgstr "Klik pada tombol :guilabel:`Save edits`."
 #: ..\..\complete_analysis\analysis_exercise.rst:530
 msgid ""
 "Click the :guilabel:`Toggle editing` button to stop your editing session."
-msgstr "Klik tombol :guilabel:`Toggle editing untuk menghentikan sesi editing."
+msgstr ""
+"Klik tombol :guilabel:`Toggle editing` untuk menghentikan sesi editing."
 
 # 26c6e05113ca42fda100750716da35f3
 #: ..\..\complete_analysis\analysis_exercise.rst:533
@@ -1970,13 +1972,13 @@ msgstr ""
 # 6fd81548b84c43e5afc7c22a0d2d9653
 #: ..\..\complete_analysis\analysis_exercise.rst:542
 msgid ""
-"In the dialog that appears, set the input vector layer to :guilabel:"
-"`rural_buffer` and the clip layer to :guilabel:`bbox`, with both :guilabel:"
-"`Use only selected features` boxes unchecked."
+"In the dialog that appears, set the input vector layer to "
+":guilabel:`rural_buffer` and the clip layer to :guilabel:`bbox`, with both "
+":guilabel:`Use only selected features` boxes unchecked."
 msgstr ""
-"Pada kotak dialog yang muncul , atur layer vektor masukan ke layer :guilabel:"
-"`rural_buffer dan potong layer ke :guilabel:`bbox`, dengan kedua kotak :"
-"guilabel:`Use only selected features` tidak dicentang."
+"Pada kotak dialog yang muncul , atur layer vektor masukan ke layer "
+":guilabel:`rural_bufferr` dan potong layer ke :guilabel:`bbox`, dengan kedua "
+"kotak :guilabel:`Use only selected features` tidak dicentang."
 
 # 0c988a45cf124e7cbb29f535d1454dd2
 #: ..\..\complete_analysis\analysis_exercise.rst:545
@@ -1992,7 +1994,7 @@ msgstr "Beri nama  file keluaran dengan :kbd:`rural_clipped`."
 #: ..\..\complete_analysis\analysis_exercise.rst:548
 msgid "When prompted to add the layer to the TOC, click :guilabel:`Yes`."
 msgstr ""
-"Ketika diminta untuk menambahkan layer untuk TOC, klik: guilabel: `Yes`."
+"Ketika diminta untuk menambahkan layer untuk TOC, klik: guilabel:`Yes`."
 
 # bdd295bf849049f38704261b571934a4
 #: ..\..\complete_analysis\analysis_exercise.rst:549
@@ -2016,7 +2018,7 @@ msgstr ""
 # 9538333290db4a248c9f69ad7440f9d5
 #: ..\..\complete_analysis\analysis_exercise.rst:554
 msgid "Now it's ready to be rasterized."
-msgstr "Sekarang :kbd:`rural_clipped`.Anda siap untuk dirasterisasi."
+msgstr "Sekarang :kbd:`rural_clipped`Anda siap untuk dirasterisasi."
 
 # abe10c8f139a4e4981930a91f8cb3214
 #: ..\..\complete_analysis\analysis_exercise.rst:557
@@ -2038,8 +2040,7 @@ msgstr ""
 msgid ""
 "Open the :guilabel:`Properties` dialog of any of the three existing rasters."
 msgstr ""
-"Buka kotak dialog : guilabel: `Properti` dari salah satu tiga raster yang "
-"ada."
+"Buka kotak dialog :guilabel:`Properti` dari salah satu tiga raster yang ada."
 
 # 03042ef7bf2f46a894dd842c8d818ce0
 #: ..\..\complete_analysis\analysis_exercise.rst:563
@@ -2049,11 +2050,11 @@ msgstr "Alihkan ke Tab :guilabel:`Metadata`."
 # e79868f6e0fe4a8c93716f3d93f52371
 #: ..\..\complete_analysis\analysis_exercise.rst:564
 msgid ""
-"Make a note of the :kbd:`X` and :kbd:`Y` values under the heading :guilabel:"
-"`Dimensions` in the Metadata table."
+"Make a note of the :kbd:`X` and :kbd:`Y` values under the heading "
+":guilabel:`Dimensions` in the Metadata table."
 msgstr ""
-"Buat catatan nilai : kbd: `X` dan: kbd: `Y` di bawah judul: guilabel: "
-"`Dimensionsi` dalam tabel Metadata."
+"Buat catatan nilai :kbd:`X` dan :kbd:`Y` di bawah judul "
+":guilabel:`Dimensions` dalam tabel Metadata."
 
 # e54b3428764b4cb1a7aded71c99e5065
 #: ..\..\complete_analysis\analysis_exercise.rst:566
@@ -2074,7 +2075,7 @@ msgstr ""
 # b8ee9c2d622f45bfbc269bf512cbf8ed
 #: ..\..\complete_analysis\analysis_exercise.rst:570
 msgid "Select :guilabel:`rural_clipped` as your input layer."
-msgstr "Pilih :guilabel:`rural_clipped`sebagai layer masukkan Anda."
+msgstr "Pilih :guilabel:`rural_clipped` sebagai layer masukkan Anda."
 
 # 1a5b6c178b2f440188506d95b7aa4159
 #: ..\..\complete_analysis\analysis_exercise.rst:571
@@ -2092,7 +2093,7 @@ msgid ""
 "Check the :guilabel:`New size` box and enter the :kbd:`X` and :kbd:`Y` "
 "values you made a note of earlier."
 msgstr ""
-"Periksa kotak :guilabel:`New size`dan masukkan nilai :kbd:`X` dan :kbd:`Y "
+"Periksa kotak :guilabel:`New size` dan masukkan nilai :kbd:`X` dan :kbd:`Y` "
 "yang sebelumnya sudah Anda buat di catatan."
 
 # ef7ec2c9bf4e4bd98b80550acff58b3b
@@ -2104,18 +2105,18 @@ msgstr "Centang kotak :guilabel:`Load into canvas`."
 #: ..\..\complete_analysis\analysis_exercise.rst:576
 msgid ""
 "Click the pencil icon next to the text field which shows the command that "
-"will be run. At the end of the existing text, add a space and then the text :"
-"kbd:`-burn 1`. This tells the Rasterize function to \"burn\" the existing "
+"will be run. At the end of the existing text, add a space and then the text "
+":kbd:`-burn 1`. This tells the Rasterize function to \"burn\" the existing "
 "vector into the new raster and give the areas covered by the vector the new "
 "value of :kbd:`1` (as opposed to the rest of the image, which will "
 "automatically be :kbd:`0`)."
 msgstr ""
 "Klik ikon pensil di sebelah kolom teks yang menunjukkan perintah yang akan "
 "dijalankan. Pada akhir teks yang ada, tambahkan spasi dan kemudian tambahkan "
-"`-burn 1`.Hal Ini memberitahukan fungsi Rasterisasi untuk \"burn\"  vektor "
-"yang ada ke dalam raster yang baru dan memberikan wilayah dengan cakupan "
-"nilai vektor baru dari 1 (berlawanan dengan gambar yang lain, yang secara "
-"otomatis akan menjadi :kbd:`0`)."
+":kbd:`-burn 1`.Hal Ini memberitahukan fungsi Rasterisasi untuk \"burn\"  "
+"vektor yang ada ke dalam raster yang baru dan memberikan wilayah dengan "
+"cakupan nilai vektor baru dari 1 (berlawanan dengan gambar yang lain, yang "
+"secara otomatis akan menjadi :kbd:`0`)."
 
 # 0c6ca35e9be341728701204379c3f0f0
 #: ..\..\complete_analysis\analysis_exercise.rst:583
@@ -2145,18 +2146,19 @@ msgid ""
 "Now that you have all four criteria each in a separate raster, you need to "
 "combine them to see which areas satisfy all the criteria. To do so, the "
 "rasters will be multiplied with each other. When this happens, all "
-"overlapping pixels with a value of :kbd:`1` will retain the value of :kbd:"
-"`1`, but if a pixel has the value of :kbd:`0` in any of the four rasters, "
-"then it will be :kbd:`0` in the result. In this way, the result will contain "
-"only the overlapping areas."
+"overlapping pixels with a value of :kbd:`1` will retain the value of "
+":kbd:`1`, but if a pixel has the value of :kbd:`0` in any of the four "
+"rasters, then it will be :kbd:`0` in the result. In this way, the result "
+"will contain only the overlapping areas."
 msgstr ""
 "Sekarang Anda sudah memiliki masing-masing empat kriteria untuk raster yang "
 "terpisah, Anda perlu mengkombinasikan semuanya untuk mencari area mana yang "
 "sesuai.Untuk melakukannya, raster akan dikalikan satu sama lain. Ketika ini "
 "terjadi, semua piksel yang tumpang tindih dengan nilai :kbd:`1` akan tetap "
-"mempertahankan nilai :kbd:`1`, tetapi jika sebuah pixel memiliki nilai :kbd:"
-"`0` pada salah satu dari empat raster tersebut, maka hasilnya tetap akan:kbd:"
-"`0` . Dengan cara ini, hasilnya akan berisi daerah yang tumpang tindih."
+"mempertahankan nilai :kbd:`1`, tetapi jika sebuah pixel memiliki nilai "
+":kbd:`0` pada salah satu dari empat raster tersebut, maka hasilnya tetap "
+"akan :kbd:`0` . Dengan cara ini, hasilnya akan berisi daerah yang tumpang "
+"tindih."
 
 # af63a00c466a44d2b434a3a0df78144d
 #: ..\..\complete_analysis\analysis_exercise.rst:596
@@ -2166,7 +2168,7 @@ msgstr "menggabungkan raster"
 # 96d14e4c2cdc4dc58bcff31a14197342
 #: ..\..\complete_analysis\analysis_exercise.rst:598
 msgid "Click the :menuselection:`Raster --> Raster calculator` menu item."
-msgstr "Klik pada item menu menuselection:`Raster --> Raster calculator."
+msgstr "Klik pada item menu :menuselection:`Raster --> Raster calculator`."
 
 # 4701f1c2b6e74101bad15df72c446f17
 #: ..\..\complete_analysis\analysis_exercise.rst:599
@@ -2190,7 +2192,7 @@ msgstr "beri nama raster keluaran dengan nama :kbd:`cross_product.tif`."
 # fe61834478b340a6bbf4242f77658f85
 #: ..\..\complete_analysis\analysis_exercise.rst:609
 msgid "Ensure that the :guilabel:`Add result to project` box is checked."
-msgstr "Pastikan bahwa dialog :guilabel:`Add result to project`dicentang."
+msgstr "Pastikan bahwa dialog :guilabel:`Add result to project` dicentang."
 
 # 918a77ea58cf47caae3adb9eb8b38934
 #: ..\..\complete_analysis\analysis_exercise.rst:611
@@ -2201,19 +2203,19 @@ msgid ""
 msgstr ""
 "Ubah simbologi pada raster yang baru dengan cara yang sama seperti yang Anda "
 "atur pada layer raster lainnya.Raster baru Anda sekarang menampilkan area "
-"dimana semua kriteria sudeah dipenuhi."
+"dimana semua kriteria sudah dipenuhi."
 
 # f9200d91afb84bd997f69c8489c74b9d
 #: ..\..\complete_analysis\analysis_exercise.rst:615
 msgid ""
-"To get the final result, you need to select the areas that are greater than :"
-"kbd:`6000m^2`. However, computing these areas accurately is only possible "
+"To get the final result, you need to select the areas that are greater than "
+":kbd:`6000m^2`. However, computing these areas accurately is only possible "
 "for a vector layer, so you will need to vectorize the raster."
 msgstr ""
 "Untuk mendapatkan hasil akhir, Anda perlu memilih daerah yang lebih besar "
-"dari 6000m ^ 2. Namun, menghitung daerah-daerah secara akurat hanya mungkin "
-"dapat dilakukan pada layer vektor, sehingga Anda akan perlu melakukan raster "
-"vektorisasi."
+"dari :kbd:`6000m^2`. Namun, menghitung daerah-daerah secara akurat hanya "
+"mungkin dapat dilakukan pada layer vektor, sehingga Anda akan perlu "
+"melakukan raster vektorisasi."
 
 # e38b928833354f329a17d4d67bf1764b
 #: ..\..\complete_analysis\analysis_exercise.rst:620
@@ -2258,13 +2260,13 @@ msgid ""
 "All areas of the raster have been vectorized, so you need to select only the "
 "areas that have a value of :kbd:`1`."
 msgstr ""
-"Semua area raster telah divektorisasi, jadi Anda hanya perlu menyeleksi area-"
-"area yang mempunyai nilai :kbd:`1`."
+"Semua area raster telah divektorisasi, jadi Anda hanya perlu menyeleksi "
+"area-area yang mempunyai nilai :kbd:`1`."
 
 # f47ea6895b0c48ceb223c1d5b5941e23
 #: ..\..\complete_analysis\analysis_exercise.rst:633
 msgid "Open the :guilabel:`Query` dialog for the new vector."
-msgstr "Buka dialog :guilabel:`Query`untuk vektoe baru."
+msgstr "Buka dialog :guilabel:`Query` untuk vektor baru."
 
 # da8636df3a3f40b0aac76bab9a07dd3b
 #: ..\..\complete_analysis\analysis_exercise.rst:634
@@ -2274,15 +2276,15 @@ msgstr "Buat query ini:"
 # c9ca1ae653054e6a9b3374317fc263f4
 #: ..\..\complete_analysis\analysis_exercise.rst:641
 msgid ""
-"Create a new vector file from the results by saving the :guilabel:"
-"`candidate_areas` vector after the query is complete (and only the areas "
-"with a value of :kbd:`1` are visible). Use the :guilabel:`Save as...` "
+"Create a new vector file from the results by saving the "
+":guilabel:`candidate_areas` vector after the query is complete (and only the "
+"areas with a value of :kbd:`1` are visible). Use the :guilabel:`Save as...` "
 "function in the layer's right-click menu for this."
 msgstr ""
-"Buat file vektor baru dari hasil kemudian simpan vektor dengan nama :"
-"guilabel:`candidate_areas`setalah proses selsai (dan hanya area-area yang "
-"memiliki nilai :kbd:`1` yang nampak). Gunakan fungsi :guilabel:`Save as..."
-"`pada klik kanan layer menu ini."
+"Buat file vektor baru dari hasil kemudian simpan vektor dengan nama "
+":guilabel:`candidate_areas` setelah proses selesai (dan hanya area-area yang "
+"memiliki nilai :kbd:`1` yang nampak). Gunakan fungsi :guilabel:`Save as...` "
+"pada klik kanan layer menu ini."
 
 # 0a50cb7cbad546558be19e8567bd1afe
 #: ..\..\complete_analysis\analysis_exercise.rst:645
@@ -2315,7 +2317,7 @@ msgid ""
 "Click the :guilabel:`Toggle editing mode` button along the bottom of the "
 "table, or press :kbd:`Ctrl+E`."
 msgstr ""
-"Klik pada tombol :guilabel:`Toggle editing mode`yang terletak di bagian "
+"Klik pada tombol :guilabel:`Toggle editing mode` yang terletak di bagian "
 "bawah tabel, atau tekan :kbd:`Ctrl+E`."
 
 # ca9d6f0723b5431489692ccf05aacb47
@@ -2324,7 +2326,7 @@ msgid ""
 "Click the :guilabel:`Open field calculator` button along the bottom of the "
 "table, or press :kbd:`Ctrl+I`."
 msgstr ""
-"Klik pada tombol :guilabel:`Open Field Calculator`yang berada di bagian "
+"Klik pada tombol :guilabel:`Open Field Calculator` yang berada di bagian "
 "bawah tabel, atau tekan :kbd:`Ctrl+I`."
 
 # 6a9f0c31b157466b836a0a404f8ac9c9
@@ -2334,8 +2336,8 @@ msgid ""
 "the field name :kbd:`area`. The output field type should be an integer, and "
 "the field width should be :kbd:`10`."
 msgstr ""
-"Di bawah judul :guilabel:`New field`pada kotak dialog yang muncul, masukkan "
-"nama field :kbd:`area`.Field keluaran harus bertipe integer, dan panjang "
+"Di bawah judul :guilabel:`New field` pada kotak dialog yang muncul, masukkan "
+"nama field :kbd:`area`. Field keluaran harus bertipe integer, dan panjang "
 "field harus :kbd:`10`."
 
 # a46d070b916949cdafd52c768a211e55
@@ -2347,8 +2349,8 @@ msgstr "Dalam tipe :guilabel:`Field calculator expresion`:"
 #: ..\..\complete_analysis\analysis_exercise.rst:667
 msgid ""
 "This means that the field calculator will calculate the area of each polygon "
-"in the vector layer and will then populate a new integer column (called :"
-"guilabel:`area`) with the computed value."
+"in the vector layer and will then populate a new integer column (called "
+":guilabel:`area`) with the computed value."
 msgstr ""
 "Hal ini berarti bahwa field calculator akan menghitung aluas masing-masing "
 "poligon dalam layer vektor dan kemudian mengisi kolom baru yang bersifat "
@@ -2357,11 +2359,11 @@ msgstr ""
 # 2a8b95fdd4fd4ba1a20e55d0c5683786
 #: ..\..\complete_analysis\analysis_exercise.rst:672
 msgid ""
-"Do the same thing for another new field called :guilabel:`id`. In :guilabel:"
-"`Field calculator expresion`, type:"
+"Do the same thing for another new field called :guilabel:`id`. In "
+":guilabel:`Field calculator expresion`, type:"
 msgstr ""
-"Lakukan hal yang sama untuk field baru bernama :guilabel:`id`. Dengan tipe :"
-"guilabel:`Field calculator expresion`:"
+"Lakukan hal yang sama untuk field baru bernama :guilabel:`id`. Dengan tipe "
+":guilabel:`Field calculator expresion`:"
 
 # 7e4b318c96434c9395c7a6dd10003d55
 #: ..\..\complete_analysis\analysis_exercise.rst:679
@@ -2377,8 +2379,8 @@ msgid ""
 "Click :guilabel:`Toggle editing mode` again, and save your edits if prompted "
 "to do so."
 msgstr ""
-"Klik lagi pada :guilabel:`Toggle editing mode`dan simpan kembali editan Anda "
-"apabila Anda diminta melakukannya."
+"Klik lagi pada :guilabel:`Toggle editing mode` dan simpan kembali editan "
+"Anda apabila Anda diminta melakukannya."
 
 # fe1a5383836a4449b379ab93718de836
 #: ..\..\complete_analysis\analysis_exercise.rst:684
@@ -2393,19 +2395,19 @@ msgstr "Setelah areanya diketahui:"
 # 2b9cf1a0dbe74fd8b113c6203e8aa9b0
 #: ..\..\complete_analysis\analysis_exercise.rst:688
 msgid ""
-"Build a query (as usual) to select only the polygons larger than :kbd:"
-"`6000m^2`.  The query is:"
+"Build a query (as usual) to select only the polygons larger than "
+":kbd:`6000m^2`.  The query is:"
 msgstr ""
-"Buat query seperti biasa untuk memilih poligon yang lebih besar dari :kbd:"
-"`6000m^2`.Querynya sebagai berikut:"
+"Buat query seperti biasa untuk memilih poligon yang lebih besar dari "
+":kbd:`6000m^2`.Querynya sebagai berikut:"
 
 # 36224effd4f94eb1aee36919e934b648
 #: ..\..\complete_analysis\analysis_exercise.rst:695
 msgid ""
 "Save the selection as a new vector layer called :guilabel:`solution.shp`."
 msgstr ""
-"Simpan area yang terseleksi sebagai layer vektor baru dengan nama :guilabel:"
-"`solution.shp`."
+"Simpan area yang terseleksi sebagai layer vektor baru dengan nama "
+":guilabel:`solution.shp`."
 
 # 5197fdd50cfe497eb62e98b7b01060ea
 #: ..\..\complete_analysis\analysis_exercise.rst:697
@@ -2424,11 +2426,11 @@ msgstr "Digitasi rumah Anda"
 # 56acb1fc34f64cb1bd842d69805491f8
 #: ..\..\complete_analysis\analysis_exercise.rst:703
 msgid ""
-"Create a new vector layer as before, but this time, select the :guilabel:"
-"`Type` value as being a :guilabel:`Point`."
+"Create a new vector layer as before, but this time, select the "
+":guilabel:`Type` value as being a :guilabel:`Point`."
 msgstr ""
 "Buatlah layer vektor baru seperti yang Anda lakukan sebelumnya, kali ini, "
-"pilih :guilabel:`Type`dengan format for:guilabel:`Point`."
+"pilih :guilabel:`Type` dengan format for:guilabel:`Point`."
 
 # 795cf7a7e86c4679816aa58e8b1194b7
 #: ..\..\complete_analysis\analysis_exercise.rst:705
@@ -2542,13 +2544,13 @@ msgstr ""
 # 9d7d3c1af758497881487c9e6e97a1d5
 #: ..\..\complete_analysis\analysis_exercise.rst:738
 msgid ""
-"The input layer should be your house, and the target layer :guilabel:"
-"`solution_centroids`. Both of these should use the :kbd:`id` field as their "
-"unique ID field."
+"The input layer should be your house, and the target layer "
+":guilabel:`solution_centroids`. Both of these should use the :kbd:`id` field "
+"as their unique ID field."
 msgstr ""
-"Layer masukkan seharusnya adalah rumah Anda dan layer target adalah :"
-"guilabel:`solution_centroids`. Kedua layer tesebut harus menggunakan filed :"
-"kbd:`id`sebagai ID unik mereka."
+"Layer masukkan seharusnya adalah rumah Anda dan layer target adalah "
+":guilabel:`solution_centroids`. Kedua layer tesebut harus menggunakan filed "
+":kbd:`id`sebagai ID unik mereka."
 
 # 51a259be6f29432b99424df2503d0098
 #: ..\..\complete_analysis\analysis_exercise.rst:741
@@ -2578,7 +2580,7 @@ msgid ""
 "house (selecting it using the :kbd:`id` field)."
 msgstr ""
 "buat qery dalam QGIS untuk memilih area yang hanya berada paling dekat "
-"dengan rumah Anda (Untuk melmilihnya gunakan field :kbd:`id`)."
+"dengan rumah Anda (Untuk memilihnya gunakan field :kbd:`id`)."
 
 # 1aaf20fd96dd430c98503d03ea821162
 #: ..\..\complete_analysis\analysis_exercise.rst:750
@@ -2589,8 +2591,8 @@ msgstr "Ini adalah jawaban akhir untuk pertanyaan dari penelitian ini."
 #: ..\..\complete_analysis\analysis_exercise.rst:752
 msgid ""
 "For your submission, include the semi-transparent hillshade layer over an "
-"appealing raster of your choice (such as the :guilabel:`DEM` or the :"
-"guilabel:`slope` raster, for example). Also include the polygon of the "
+"appealing raster of your choice (such as the :guilabel:`DEM` or the "
+":guilabel:`slope` raster, for example). Also include the polygon of the "
 "closest solution area(s), as well as your house. Follow all the best "
 "practices for cartography in creating your output map."
 msgstr ""
@@ -2626,17 +2628,17 @@ msgstr ":guilabel:`hillshade`,"
 # f84f1f4c8656440a866ef629cb1dca16
 #: ..\..\complete_analysis\assignment.rst:9
 msgid ":guilabel:`solution` (or :guilabel:`new_solution`),"
-msgstr ":guilabel:`solution`(atau :guilabel:`new_solution`),"
+msgstr ":guilabel:`solution` (atau :guilabel:`new_solution`),"
 
 # b4b4326fa6ab46489f06db66f672da96
 #: ..\..\complete_analysis\assignment.rst:10
 msgid ":guilabel:`important_roads` and"
-msgstr ":guilabel:`important_roads`dan"
+msgstr ":guilabel:`important_roads` dan"
 
 # ef467b8659e5467a9d2c28f4dbb35be9
 #: ..\..\complete_analysis\assignment.rst:11
 msgid "either :guilabel:`aerial_photos` or :guilabel:`DEM`."
-msgstr "baik: guilabel: `aerial_photos` atau: guilabel: `DEM`."
+msgstr "baik: guilabel:`aerial_photos` atau: guilabel:`DEM`."
 
 # e334fad450d34806b82a7e8634ec92d7
 #: ..\..\complete_analysis\assignment.rst:13
@@ -2653,7 +2655,7 @@ msgstr ""
 # 7e38894e2df8441cb9548341b08aeccc
 #: ..\..\complete_analysis\index.rst:3
 msgid "|MOD| Completing the Analysis"
-msgstr "|Modul| Melengkapi Analisis"
+msgstr "Modul: Melengkapi Analisis"
 
 # 8e22cc0f719d42729b212d08595150c6
 #: ..\..\complete_analysis\index.rst:5
@@ -2711,7 +2713,7 @@ msgstr ""
 # 76ad7d7e7e4140308900fd999f246ede
 #: ..\..\complete_analysis\raster_to_vector.rst:18
 msgid "|moderate| |FA| The :guilabel:`Raster to Vector` Tool"
-msgstr "|moderate| |Ikuti Bersama| Tool :guilabel:`Raster to Vector`"
+msgstr "|moderate| Ikuti Bersama Tool :guilabel:`Raster to Vector`"
 
 # 5d10780d127e461e9916be4953052cbd
 #: ..\..\complete_analysis\raster_to_vector.rst:20
@@ -2730,20 +2732,20 @@ msgstr "Lakukan pengaturan seperti dibawah ini:"
 # 2b565719aa3149edbd132b766253a10b
 #: ..\..\complete_analysis\raster_to_vector.rst:27
 msgid ""
-"Change the field name (describing the values of the raster) to :kbd:"
-"`suitable`."
+"Change the field name (describing the values of the raster) to "
+":kbd:`suitable`."
 msgstr ""
-"Ubah nama *field* (yang menggambarkan nila-nilai dari raster) menjadi :kbd:"
-"`suitable`."
+"Ubah nama *field* (yang menggambarkan nila-nilai dari raster) menjadi "
+":kbd:`suitable`."
 
 # b92803e087194b71b08561a9023d9095
 #: ..\..\complete_analysis\raster_to_vector.rst:29
 msgid ""
-"Save the shapefile under :kbd:`exercise_data/residential_development` as :"
-"kbd:`all_terrain.shp`."
+"Save the shapefile under :kbd:`exercise_data/residential_development` as "
+":kbd:`all_terrain.shp`."
 msgstr ""
-"Simpan shapefile di folder :kbd:`exercise_data/residential_development` as :"
-"kbd:`all_terrain.shp`."
+"Simpan shapefile di folder :kbd:`exercise_data/residential_development` as "
+":kbd:`all_terrain.shp`."
 
 # 1353aec8858a4481ad5e3a0dec25b00c
 #: ..\..\complete_analysis\raster_to_vector.rst:32
@@ -2764,20 +2766,20 @@ msgstr "Lihat kembali modul analisis vektor ."
 # cc542edf89884bf49f21a32de77d339a
 #: ..\..\complete_analysis\raster_to_vector.rst:43
 msgid ""
-"Create a new vector file that contains only the polygons where :kbd:"
-"`suitable` has the value of :kbd:`1`."
+"Create a new vector file that contains only the polygons where "
+":kbd:`suitable` has the value of :kbd:`1`."
 msgstr ""
-"Buat file vektor baru yang hanya berisi poligon yang nilai :kbd:"
-"`suitable`adalah :kbd:`1`."
+"Buat file vektor baru yang hanya berisi poligon yang nilai :kbd:`suitable` "
+"adalah :kbd:`1`."
 
 # bf9230698ba64d84b0881711ea184555
 #: ..\..\complete_analysis\raster_to_vector.rst:45
 msgid ""
-"Save the new file under :kbd:`exercise_data/residential_development` as :"
-"guilabel:`suitable_terrain.shp`."
+"Save the new file under :kbd:`exercise_data/residential_development` as "
+":guilabel:`suitable_terrain.shp`."
 msgstr ""
-"Simpan file baru di folder :kbd:`exercise_data/residential_development` as :"
-"guilabel:`suitable_terrain.shp`."
+"Simpan file baru di folder :kbd:`exercise_data/residential_development` as "
+":guilabel:`suitable_terrain.shp`."
 
 # d6d615ec12e84047b9d1b5b1eaf8f490
 #: ..\..\complete_analysis\raster_to_vector.rst:48
@@ -2787,7 +2789,7 @@ msgstr ":ref:`Periksa hasil Anda <complete-analysis-1>`"
 # c61daa27b41242ff944e82dee78607bd
 #: ..\..\complete_analysis\raster_to_vector.rst:51
 msgid "|moderate| |FA| The :guilabel:`Vector to Raster` Tool"
-msgstr "|moderate| |Ikuti Bersama| Tool :guilabel:`Vector to Raster`"
+msgstr "|moderate| Ikuti Bersama: Tool :guilabel:`Vector to Raster`"
 
 # 4044dd0304eb49edbeb1865b07495148
 #: ..\..\complete_analysis\raster_to_vector.rst:53
@@ -2815,11 +2817,11 @@ msgstr ":guilabel:`Input file` adalah :guilabel:`all_terrain`;"
 # 415ab320fe5244f094c5e5a6f4aa985a
 #: ..\..\complete_analysis\raster_to_vector.rst:63
 msgid ""
-":guilabel:`Output file...` is :kbd:`exercise_data/residential_development/"
-"raster_conversion.tif`;"
+":guilabel:`Output file...` is "
+":kbd:`exercise_data/residential_development/raster_conversion.tif`;"
 msgstr ""
-":guilabel:`Output file...` adalah :kbd:`exercise_data/"
-"residential_development/raster_conversion.tif`;"
+":guilabel:`Output file...` adalah :kbd:` "
+"exercise_data/residential_development/raster_conversion.tif`;"
 
 # 5c6d0a9662744429825756c9f2102bb2
 #: ..\..\complete_analysis\raster_to_vector.rst:65
@@ -2827,8 +2829,8 @@ msgid ""
 ":guilabel:`Width` and :guilabel:`Height` are :kbd:`837` and :kbd:`661`, "
 "respectively."
 msgstr ""
-":guilabel:`Width`dan  :guilabel:`Height`masing-masing adalah :kbd:`837` and :"
-"kbd:`661`."
+":guilabel:`Width` dan  :guilabel:`Height` masing-masing adalah :kbd:`837` "
+"and :kbd:`661`."
 
 # 5312973757eb463a92a7e818fc898ef9
 #: ..\..\complete_analysis\raster_to_vector.rst:68
@@ -2840,8 +2842,8 @@ msgid ""
 msgstr ""
 "Ukuran file data raster hasil vektorisasi dibuat sama dengan data raster "
 "asli yang telah di vektorisasi. Untuk melihat dimensi dari suatu gambar, "
-"dapat dilihat di  metadata file tersebut (Tab :guilabel:`Metadata`di :"
-"guilabel:`Layer Properties`)."
+"dapat dilihat di  metadata file tersebut (Tab :guilabel:`Metadata` di "
+":guilabel:`Layer Properties`)."
 
 # c1aa38b329754d9989b29b2c315f010c
 #: ..\..\complete_analysis\raster_to_vector.rst:73
