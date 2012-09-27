@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -201,13 +202,13 @@ msgstr ""
 # 6cead5de755440168bcbb5087431e162
 #: ..\..\map_composer\map_composer.rst:24
 msgid ""
-"Click the :guilabel:`Add` button and a new composer will be added called :"
-"guilabel:`Composer 1` (it may be another number if you have tried using the :"
-"guilabel:`Composer Manager` before now)."
+"Click the :guilabel:`Add` button and a new composer will be added called "
+":guilabel:`Composer 1` (it may be another number if you have tried using the "
+":guilabel:`Composer Manager` before now)."
 msgstr ""
-"Klik pada tombol :guilabel:`Add` dan composer baru bernama :guilabel:"
-"`Composer 1` akan ditambahkan (atau dengan nomor yang lain jika  Anda pernah "
-"menggunakan :guilabel:`Composer Manager` sebelum ini)."
+"Klik pada tombol :guilabel:`Add` dan composer baru bernama "
+":guilabel:`Composer 1` akan ditambahkan (atau dengan nomor yang lain jika  "
+"Anda pernah menggunakan :guilabel:`Composer Manager` sebelum ini)."
 
 # aa8b0a50c3b741f3bf8584900de7beb4
 #: ..\..\map_composer\map_composer.rst:27
@@ -215,8 +216,8 @@ msgid ""
 "With your new composer selected, click on the :guilabel:`Rename` button and "
 "rename it to :kbd:`Swellendam`."
 msgstr ""
-"Dengan *composer* baru dalam keadaan terseleksi, klik pada tombol :guilabel:"
-"`Rename` dan ubah namanya menjadi :kbd:`Swellendam` ."
+"Dengan *composer* baru dalam keadaan terseleksi, klik pada tombol "
+":guilabel:`Rename` dan ubah namanya menjadi :kbd:`Swellendam` ."
 
 # e66f98c202954b9989a676da4e2f62c6
 #: ..\..\map_composer\map_composer.rst:29
@@ -231,8 +232,8 @@ msgstr "Klik tombol :guilabel:`Show`."
 # c7627851d68848939ad71a9112d07c2e
 #: ..\..\map_composer\map_composer.rst:32
 msgid ""
-"(You could also close the dialog and navigate to a composer via the :"
-"menuselection:`File --> Print Composers` menus, as in the image below.)"
+"(You could also close the dialog and navigate to a composer via the "
+":menuselection:`File --> Print Composers` menus, as in the image below.)"
 msgstr ""
 "( Anda dapat juga menutup kotak dialog dan mengarahkannya ke composer "
 "melalui :menuselection:`File --> Print Composers`, seperti ditunjukkan "
@@ -244,8 +245,8 @@ msgid ""
 "Whichever route you take to get there, you will now see the :guilabel:`Print "
 "Composer` window."
 msgstr ""
-"Terlepas dari cara yang Anda gunakan,  Anda sekarang akan melihat jendela :"
-"guilabel:`Print Composer`."
+"Terlepas dari cara yang Anda gunakan,  Anda sekarang akan melihat jendela "
+":guilabel:`Print Composer`."
 
 # e79867d5185f4055986cabd05975b3b6
 #: ..\..\map_composer\map_composer.rst:42
@@ -258,8 +259,8 @@ msgid ""
 "In this example, the composition was already the way we wanted it. Ensure "
 "that yours is as well."
 msgstr ""
-"Pada contoh ini, komposisinya sesuai dengan desain kami. Pastikan bahwa "
-"peta  Anda juga demikian."
+"Pada contoh ini, komposisinya sesuai dengan desain kami. Pastikan bahwa peta "
+" Anda juga demikian."
 
 # 5c7c54894bfb417a80794f339e75108d
 #: ..\..\map_composer\map_composer.rst:47
@@ -391,8 +392,8 @@ msgid ""
 "final. You can always come back and change it later if you're not satisfied. "
 "For now, you need to ensure that you've saved your work on this map. Because "
 "a :guilabel:`Composer` in QGIS is part of the main map file, you'll need to "
-"save your main project. Go to the main QGIS window (the one with the :"
-"guilabel:`Layers list` and all the other familiar elements you were working "
+"save your main project. Go to the main QGIS window (the one with the "
+":guilabel:`Layers list` and all the other familiar elements you were working "
 "with before), and save your project from there as usual."
 msgstr ""
 "Ingat bahwa ukuran dan posisi peta yang telah Anda atur saat ini belum "
@@ -421,8 +422,8 @@ msgid ""
 msgstr ""
 "Sekarang peta  Anda terlihat bagus pada halaman *layout*, tetapi pembaca "
 "peta belum mengetahui tentang apa yang terjadi. Mereka membutuhkan suatu "
-"konteks, yang harus  Anda sediakan untuk mereka dengan menambahkan elemen-"
-"elemen peta. Pertama, mari kita tambahkan judul."
+"konteks, yang harus  Anda sediakan untuk mereka dengan menambahkan "
+"elemen-elemen peta. Pertama, mari kita tambahkan judul."
 
 # e31929aae0434e1fa5035aa3b3cf891c
 # 6a51c4d7097545a893e18eb184ec1f4d
@@ -522,11 +523,11 @@ msgstr "Pilih label dengan mengklik kanan label tersebut."
 # fc3dbaf9d25b44c7af1995c8d4bcf397
 #: ..\..\map_composer\map_composer.rst:173
 msgid ""
-"Click on the :guilabel:`Item` tab in the side panel of the :guilabel:"
-"`Composer` window."
+"Click on the :guilabel:`Item` tab in the side panel of the "
+":guilabel:`Composer` window."
 msgstr ""
-"Klik pada tab :guilabel:`Item` di panel di samping jendela :guilabel:"
-"`Composer`."
+"Klik pada tab :guilabel:`Item` di panel di samping jendela "
+":guilabel:`Composer`."
 
 # fb6c075a9c394175b5e0eb14f8b31e7f
 #: ..\..\map_composer\map_composer.rst:175
@@ -587,13 +588,13 @@ msgstr "Kerangka ini perlu dihapus."
 # b4379e6eb8534710a294a64a353fb198
 #: ..\..\map_composer\map_composer.rst:206
 msgid ""
-"Click on the :guilabel:`General options` slider at the bottom of the :"
-"guilabel:`Item` tab. The :guilabel:`Label` slider will slide away and you "
+"Click on the :guilabel:`General options` slider at the bottom of the "
+":guilabel:`Item` tab. The :guilabel:`Label` slider will slide away and you "
 "will see a new interface."
 msgstr ""
-"Klik pada slider :guilabel:`General options` pada bagian bawah tab :guilabel:"
-"`Item` tab. Slider :guilabel:`Label` akan bergeser menjauh dan  Anda akan "
-"melihat antarmuka baru."
+"Klik pada slider :guilabel:`General options` pada bagian bawah tab "
+":guilabel:`Item` tab. Slider :guilabel:`Label` akan bergeser menjauh dan  "
+"Anda akan melihat antarmuka baru."
 
 # d3118f7568dc46c98fa77b20ccde02a4
 #: ..\..\map_composer\map_composer.rst:209
@@ -681,8 +682,8 @@ msgstr "Klik tombol :guilabel:`Edit`:"
 # d9399f9944b142119a19d0b2609f1e23
 #: ..\..\map_composer\map_composer.rst:257
 msgid ""
-"Rename the layers to :kbd:`Roads and Streets`, :kbd:`Surface Water`, :kbd:"
-"`Urban Areas`, and :kbd:`Farms`."
+"Rename the layers to :kbd:`Roads and Streets`, :kbd:`Surface Water`, "
+":kbd:`Urban Areas`, and :kbd:`Farms`."
 msgstr ""
 "Ubah nama layer tersebut menjadi :kbd:`Roads and Streets`, :kbd:`Surface "
 "Water`, :kbd:`Urban Areas`, dan :kbd:`Farms`."
@@ -711,8 +712,8 @@ msgstr ""
 "tidak mudah dikonversi menjadi luasan tanah secara langsung. Jika pertanian  "
 "Anda diklasifikasikan berdasarkan area atau beberapa kriteria lainnya,  Anda "
 "harus merubah nama kelas-kelas tersebut menjadi sesuatu yang dapat dipahami "
-"oleh pembaca peta. Pada contoh, kita merubah nama kelas terkecil menjadi :"
-"kbd:`small area` dan yang terbesar menjadi :kbd:`large area`, dengan satu "
+"oleh pembaca peta. Pada contoh, kita merubah nama kelas terkecil menjadi "
+":kbd:`small area` dan yang terbesar menjadi :kbd:`large area`, dengan satu "
 "kelas yang ada di tengah dirubah menjadi :kbd:`moderate area` serta sisanya "
 "dibuat menjadi kosong."
 

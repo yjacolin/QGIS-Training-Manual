@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -173,28 +174,26 @@ msgstr ""
 
 # 2ee8a38614bb4a76924569c5b05ce00a
 #: ..\..\create_vector_data\actions.rst:70
-#, fuzzy
 msgid ""
-"Click on the browse button (the :guilabel:`...` next to the :guilabel:"
-"`image` field)."
+"Click on the browse button (the :guilabel:`...` next to the "
+":guilabel:`image` field)."
 msgstr ""
 "Klik pada tombol cari (:guilabel:`...` disamping field :guilabel:`image` )"
 
 # 38ab5d09ca30444fa333498575b06226
 #: ..\..\create_vector_data\actions.rst:72
-#, fuzzy
 msgid ""
-"Select the path for your image. The images are in :kbd:`exercise_data/"
-"school_property_photos/` and are named the same as the features they should "
-"be associated with."
+"Select the path for your image. The images are in "
+":kbd:`exercise_data/school_property_photos/` and are named the same as the "
+"features they should be associated with."
 msgstr ""
-"Pilih direktori untuk citra  Anda di :kbd:`exercise_data/"
-"school_property_photos/` dan beri nama seperti fitur yang akan dihubungkan."
+"Pilih direktori untuk citra  Anda di "
+":kbd:`exercise_data/school_property_photos/` dan beri nama seperti fitur "
+"yang akan dihubungkan."
 
 # 65442099bb7d41e78d662be37245a7a2
 # 43f9ebb7ad754ddd8e56f22433da4787
-#: ..\..\create_vector_data\actions.rst:75
-#: ..\..\create_vector_data\forms.rst:96
+#: ..\..\create_vector_data\actions.rst:75 ..\..\create_vector_data\forms.rst:96
 msgid "Click :guilabel:`OK`."
 msgstr "Klik :guilabel:`OK`."
 
@@ -305,8 +304,8 @@ msgid ""
 "image is."
 msgstr ""
 "Bagian selanjutnya mudah! Anda ingin membuka gambar, dan QGIS akan tahu "
-"dimana gambar itu berada. Yang perlu dilakukan adalah memberi tahu  :"
-"guilabel:`Action` dimana foto itu berada."
+"dimana gambar itu berada. Yang perlu dilakukan adalah memberi tahu  "
+":guilabel:`Action` dimana foto itu berada."
 
 # 3b6f5d4695634347a2d4a89ff9ff5ea0
 #: ..\..\create_vector_data\actions.rst:121
@@ -340,14 +339,13 @@ msgid ""
 "Click on the :guilabel:`school_property` layer in the :guilabel:`Layers "
 "list` so that it is highlighted."
 msgstr ""
-"Klik pada layer :guilabel:`school_property` dalam  :guilabel:`Layers list."
+"Klik pada layer :guilabel:`school_property` dalam :guilabel:`Layers list`"
 
 # 4c16af2c0a4a48638da60ac9822aa0cd
 #: ..\..\create_vector_data\actions.rst:135
-#, fuzzy
 msgid ""
-"Find the :guilabel:`Run feature action` button (on the same toolbar as the :"
-"guilabel:`Open Attribute Table` button):"
+"Find the :guilabel:`Run feature action` button (on the same toolbar as the "
+":guilabel:`Open Attribute Table` button):"
 msgstr ""
 "Cari tombol :guilabel:`Run feature action` (Pada toolbar yang samasebagai "
 "tombol :guilabel:`Open Attribute Table`):"
@@ -401,8 +399,8 @@ msgid ""
 "Open the attribute table for the :guilabel:`rural` layer (you may need to "
 "close :guilabel:`Layer Properties` first)."
 msgstr ""
-"Buka tabel atribut untuk layer :guilabel:`rural` (Anda perlu menutup :"
-"guilabel:`Layer Properties`)."
+"Buka tabel atribut untuk layer :guilabel:`rural` (Anda perlu menutup "
+":guilabel:`Layer Properties`)."
 
 # 0d06ad2ea7424b48a321c9cb264765cb
 #: ..\..\create_vector_data\actions.rst:159
@@ -433,8 +431,8 @@ msgid ""
 "In the field :menuselection:`Action Properties --> Name`, write :kbd:`Google "
 "Search`."
 msgstr ""
-"Di dalam kolom  :menuselection:`Action Properties --> Name`, tuliskan :kbd:"
-"`Google Search`."
+"Di dalam kolom  :menuselection:`Action Properties --> Name`, tuliskan "
+":kbd:`Google Search`."
 
 # 64c4c4e032944d0b961be47cfc26f026
 #: ..\..\create_vector_data\actions.rst:176
@@ -476,35 +474,35 @@ msgstr ""
 
 # eb5c0cb9fefc4121908eef84cc5b429a
 #: ..\..\create_vector_data\actions.rst:198
-#, fuzzy
 msgid ""
 "Usually when you use Google, you enter your search phrase into the Google "
 "Search bar. But in this case, you want your computer to do this for you. The "
 "way you tell Google to search for something (if you don't want to use its "
-"search bar directly) is by giving your Internet browser the address :kbd:"
-"`http://www.google.co.za/search?q=SEARCH_PHRASE`, where :kbd:`SEARCH_PHRASE` "
-"is what you want to search for. Since we don't know what phrase to search "
-"for yet, we'll just enter the first part (without the search phrase)."
+"search bar directly) is by giving your Internet browser the address "
+":kbd:`http://www.google.co.za/search?q=SEARCH_PHRASE`, where "
+":kbd:`SEARCH_PHRASE` is what you want to search for. Since we don't know "
+"what phrase to search for yet, we'll just enter the first part (without the "
+"search phrase)."
 msgstr ""
 "Pada umumnya ketika menggunakan Google, Anda ingin komputer anda ke bar "
 "pencairan Google. Tetapi pada kasus ini , Anda ingin komputer anda melakukan "
 "ini untuk anda. Cara yang dapat Anda gunakan adalah dengan memberikan "
-"pencari internet anda dengan alamat :kbd:`http://www.google.co.za/search?"
-"q=SEARCH_PHRASE`, dimana  :kbd:`SEARCH_PHRASE` adalah apa yang Anda ingin "
-"cari. Karena kita tidak tahu apa kata apa yang dicari sebelumnya, kita hanya "
-"mengisi bagian pertama tanpa pencari."
+"pencari internet anda dengan alamat "
+":kbd:`http://www.google.co.za/search?q=SEARCH_PHRASE`, dimana  "
+":kbd:`SEARCH_PHRASE` adalah apa yang Anda ingin cari. Karena kita tidak tahu "
+"apa kata apa yang dicari sebelumnya, kita hanya mengisi bagian pertama tanpa "
+"pencari."
 
 # b47e5d082c2f457ba62037cb1c89fec3
 #: ..\..\create_vector_data\actions.rst:207
-#, fuzzy
 msgid ""
-"In the :guilabel:`Action` field, write :kbd:`http://www.google.co.za/search?"
-"q=`. Remember to add a space after your initial command before writing this "
-"in!"
+"In the :guilabel:`Action` field, write "
+":kbd:`http://www.google.co.za/search?q=`. Remember to add a space after your "
+"initial command before writing this in!"
 msgstr ""
-"Dalam kolom :guilabel:`Action` , tuliskan  :kbd:`http://www.google.co.za/"
-"search?q=`. Ingat untuk mengisi field perintah inisial sebelum menulis itu "
-"didalamnya!"
+"Dalam kolom :guilabel:`Action` , tuliskan  "
+":kbd:`http://www.google.co.za/search?q=`. Ingat untuk mengisi field perintah "
+"inisial sebelum menulis itu didalamnya!"
 
 # fb62c15e160c43cfac6aefb19859b88a
 #: ..\..\create_vector_data\actions.rst:211
@@ -534,23 +532,23 @@ msgstr "Ini akan memberi tahu QGIS untuk menambah kata selanjutnya:"
 
 # 90fc30f9a965445f9488d0c791ef45e8
 #: ..\..\create_vector_data\actions.rst:226
-#, fuzzy
 msgid ""
 "What this means is that QGIS is going to open the browser and send it to the "
-"address :kbd:`http://www.google.co.za/search?q=[% \"SGADMIN\" %]`. But :kbd:`"
-"[% \"SGADMIN\" %]` tells QGIS to use the contents of the :kbd:`SGADMIN` "
-"field as the phrase to search for. So if, for example, the farm you clicked "
-"on is in the :kbd:`Montagu` area, then QGIS is going to send the browser to :"
-"kbd:`http://www.google.co.za/search?q=Montagu`, which will cause the browser "
-"to visit Google, which will in turn search for the word \"Montagu\"."
+"address :kbd:`http://www.google.co.za/search?q=[% \"SGADMIN\" %]`. But "
+":kbd:`[% \"SGADMIN\" %]` tells QGIS to use the contents of the "
+":kbd:`SGADMIN` field as the phrase to search for. So if, for example, the "
+"farm you clicked on is in the :kbd:`Montagu` area, then QGIS is going to "
+"send the browser to :kbd:`http://www.google.co.za/search?q=Montagu`, which "
+"will cause the browser to visit Google, which will in turn search for the "
+"word \"Montagu\"."
 msgstr ""
-"Artinya adalah QGIS akan membuka browser mengrahkannya ke alamat :kbd:"
-"`http://www.google.co.za/search?q=[% \"SGADMIN\" %]`. :kbd:`[% \"SGADMIN\" %]"
-"` memberitahu QGIS untuk menggunakan isi field :kbd:`SGADMIN` sebagai kata "
-"untuk mencari. Sebagai contoh, pertanian yang anda klik pada area :kbd:"
-"`Montagu` ,kemudian QGIS akan berjalam untuk mengrim pencari ke  :kbd:"
-"`http://www.google.co.za/search?q=Montagu`, sehingga browser akan membuka "
-"Google dan mencari mencari kata Montagu."
+"Artinya adalah QGIS akan membuka browser mengrahkannya ke alamat "
+":kbd:`http://www.google.co.za/search?q=[% \"SGADMIN\" %]`. :kbd:`[% "
+"\"SGADMIN\" %]` memberitahu QGIS untuk menggunakan isi field :kbd:`SGADMIN` "
+"sebagai kata untuk mencari. Sebagai contoh, pertanian yang anda klik pada "
+"area :kbd:`Montagu` ,kemudian QGIS akan berjalam untuk mengrim pencari ke  "
+":kbd:`http://www.google.co.za/search?q=Montagu`, sehingga browser akan "
+"membuka Google dan mencari mencari kata Montagu."
 
 # 1c765f133f3f4057890b2a1169c59017
 #: ..\..\create_vector_data\actions.rst:234
@@ -668,30 +666,29 @@ msgstr "Untuk membuat layer action:"
 
 # fd7fe5382a8b45ccbd0281bb9cedbd63
 #: ..\..\create_vector_data\actions.rst:278
-#, fuzzy
 msgid ""
-"Open the :guilabel:`Layer Properties` dialog and head over to the :guilabel:"
-"`Actions` tab."
+"Open the :guilabel:`Layer Properties` dialog and head over to the "
+":guilabel:`Actions` tab."
 msgstr ""
 "Buka dialog :guilabel:`Layer Properties` untuk layer :guilabel:`rural` ."
 
 # a3bdfbea03af4108a9164c813dca2c1a
 #: ..\..\create_vector_data\actions.rst:280
-#, fuzzy
 msgid ""
-"Set up a new action using the following properties for the action: * :"
-"guilabel:`Type`: :kbd:`Python` * :guilabel:`Name`: :kbd:`Wikipedia` * :"
-"guilabel:`Action` (all on one line): :kbd:`from PyQt4.QtCore import QUrl; "
-"from PyQt4.QtWebKit import QWebView;  myWV = QWebView(None); myWV.load(QUrl"
-"('http://wikipedia.org/wiki/[% \"SGADMIN\" %]')); myWV.show()`"
+"Set up a new action using the following properties for the action: * "
+":guilabel:`Type`: :kbd:`Python` * :guilabel:`Name`: :kbd:`Wikipedia` * "
+":guilabel:`Action` (all on one line): :kbd:`from PyQt4.QtCore import QUrl; "
+"from PyQt4.QtWebKit import QWebView;  myWV = QWebView(None); "
+"myWV.load(QUrl('http://wikipedia.org/wiki/[% \"SGADMIN\" %]')); myWV.show()`"
 msgstr ""
-"Membuat action baru menggunakan pengaturan berikut: * :guilabel:`Type`: :kbd:"
-"`Python` * :guilabel:`Name`: :kbd:`Wikipedia` * :guilabel:`Action` (all on "
-"one line): :kbd:`from PyQt4.QtCore import QUrl; from PyQt4.QtWebKit import "
-"QWebView; myWV = QWebView(None); myWV.load(QUrl('http://wikipedia.org/wiki/"
-"[% \"SGADMIN\" %]')); myWV.show()`Set up a new action using the following "
-"properties for the action: * :guilabel:`Type`: :kbd:`Python` * :guilabel:"
-"`Name`: :kbd:`Wikipedia` * :guilabel:`Action` (all on one line): :kbd:`from "
+"Membuat action baru menggunakan pengaturan berikut: * :guilabel:`Type`: "
+":kbd:`Python` * :guilabel:`Name`: :kbd:`Wikipedia` * :guilabel:`Action` (all "
+"on one line): :kbd:`from PyQt4.QtCore import QUrl; from PyQt4.QtWebKit "
+"import QWebView; myWV = QWebView(None); "
+"myWV.load(QUrl('http://wikipedia.org/wiki/[% \"SGADMIN\" %]')); "
+"myWV.show()`Set up a new action using the following properties for the "
+"action: * :guilabel:`Type`: :kbd:`Python` * :guilabel:`Name`: "
+":kbd:`Wikipedia` * :guilabel:`Action` (all on one line): :kbd:`from "
 "PyQt4.QtCore import QUrl; from PyQt4.QtWebKit import QWebView; myWV = "
 "QWebView(None); myWV.load(QUrl('http://wikipedia.org/wiki/[% \"SGADMIN\" "
 "%]')); myWV.show()`"
@@ -766,12 +763,11 @@ msgstr "Kesimpulan"
 
 # 668e717bd0484b55b832a390b42619c8
 #: ..\..\create_vector_data\actions.rst:307
-#, fuzzy
 msgid ""
-"Actions allow you to give your map extra functionality, useful to the end-"
-"user who views the same map in QGIS. Due to the fact that you can use shell "
-"commands for any operating system, as well as Python, the sky's the limit in "
-"terms of the functions you could incorporate!"
+"Actions allow you to give your map extra functionality, useful to the "
+"end-user who views the same map in QGIS. Due to the fact that you can use "
+"shell commands for any operating system, as well as Python, the sky's the "
+"limit in terms of the functions you could incorporate!"
 msgstr ""
 "Action memungkinkan Anda menambahkan fungsionalitas tambahan pada peta yang "
 "sangat bermanfaat untuk pengguna akhir yang melihat peta yang sama di QGIS. "
@@ -821,8 +817,7 @@ msgstr ""
 # 0f76f1b1a7cb4a1f98a48a28d83f3e19
 #: ..\..\create_vector_data\create_new_vector.rst:9
 msgid "**The goal for this lesson:** To create a new vector dataset."
-msgstr ""
-"**Tujuan dari pembelajaran ini:** untuk membuat datasetset vektor baru."
+msgstr "**Tujuan dari pembelajaran ini:** Untuk membuat dataset vektor baru."
 
 # c6f295c77e3643c8a67fe27429f3a577
 #: ..\..\create_vector_data\create_new_vector.rst:12
@@ -948,7 +943,7 @@ msgstr "Periksa apakah kotak dialog Anda terlihat seperti ini :"
 # b727c4e7e0154fcbba98c9bbf7c55bd1
 #: ..\..\create_vector_data\create_new_vector.rst:70
 msgid "Click :guilabel:`OK`. A save dialog will appear."
-msgstr "Klik :guilabel:`OK. Sebuah penyimpanan dialog akan muncul."
+msgstr "Klik :guilabel:`OK`. Sebuah penyimpanan dialog akan muncul."
 
 # 9b10699e72dc447abda0f462fd796df8
 #: ..\..\create_vector_data\create_new_vector.rst:71
@@ -1056,8 +1051,8 @@ msgid ""
 "Hide all the layers except the raster and the :guilabel:`school_property` "
 "layer."
 msgstr ""
-"Sembunyikan semua layer kecuali  layer raster dan :guilabel:"
-"`school_property`."
+"Sembunyikan semua layer kecuali  layer raster dan "
+":guilabel:`school_property`."
 
 # 9ed2bc7e5f09454584f833988293a74e
 #: ..\..\create_vector_data\create_new_vector.rst:117
@@ -1095,15 +1090,14 @@ msgstr "Klik pada tombol :guilabel:`Toggle Editing`."
 
 # a6d5dad292914961987c4905c4249de9
 #: ..\..\create_vector_data\create_new_vector.rst:131
-#, fuzzy
 msgid ""
 "If you can't find this button, check that the :guilabel:`Digitizing` toolbar "
-"is enabled. There should be a check mark next to the :menuselection:`View --"
-"> Toolbars --> Digitizing` menu entry."
+"is enabled. There should be a check mark next to the :menuselection:`View "
+"--> Toolbars --> Digitizing` menu entry."
 msgstr ""
-"Jika Anda tidak dapat menemukan tombol ini, periksa toolbar :guilabel:"
-"`Digitizing` sudah aktif. Harus ada tanda centang di sebelah menu entry :"
-"menuselection:`View --> Toolbars --> Digitizing`."
+"Jika Anda tidak dapat menemukan tombol ini, periksa toolbar "
+":guilabel:`Digitizing` sudah aktif. Harus ada tanda centang di sebelah menu "
+"entry :menuselection:`View --> Toolbars --> Digitizing`."
 
 # 0f14bfd3bdfd42b39498771730e8e0cd
 #: ..\..\create_vector_data\create_new_vector.rst:135
@@ -1336,8 +1330,8 @@ msgid ""
 "Create a new line feature called :kbd:`river.shp` with attributes :kbd:`id` "
 "and :kbd:`type`. (Use the approach above to guide you.)"
 msgstr ""
-"Buat garis fitur baru yang disebut :kbd:`river.shp` dengan atribut :kbd:"
-"`id`  dan :kbd:`type`. (Gunakan pendekatan di atas untuk membimbing Anda)"
+"Buat garis fitur baru yang disebut :kbd:`river.shp` dengan atribut :kbd:`id` "
+" dan :kbd:`type`. (Gunakan pendekatan di atas untuk membimbing Anda)"
 
 # 2d1be862b6784db48971511f1d3c4f9b
 #: ..\..\create_vector_data\create_new_vector.rst:225
@@ -1371,8 +1365,8 @@ msgstr ""
 # aeb073f53d4b4548930b17e75d43ca98
 #: ..\..\create_vector_data\create_new_vector.rst:242
 msgid ""
-"When creating the feature, give it the :kbd:`type` attribute value of \":kbd:"
-"`stream`\"."
+"When creating the feature, give it the :kbd:`type` attribute value of "
+"\":kbd:`stream`\"."
 msgstr ""
 "Ketika membuat fitur tersebut , berikan nilai atribut :kbd:`type` sebagai  "
 "\":kbd:`stream`\"."
@@ -1446,8 +1440,8 @@ msgid ""
 "Fortunately, QGIS lets you create your own custom dialogs for a layer. This "
 "lesson shows you how."
 msgstr ""
-"QGIS memungkinkan Anda membuat dialog yang sesuai untuk layer Anda sendiri."
-"Pelajaran ini menunjukkan caranya."
+"QGIS memungkinkan Anda membuat dialog yang sesuai untuk layer Anda "
+"sendiri.Pelajaran ini menunjukkan caranya."
 
 # f2f5e4be76494b8395ee150978fb349f
 #: ..\..\create_vector_data\forms.rst:13
@@ -1491,22 +1485,20 @@ msgstr "Klik untuk melihat bentuk yang dihasilkan layer QGIS ini."
 
 # ba7e814ee6454f20af8ff41b34aefd7d
 #: ..\..\create_vector_data\forms.rst:25
-#, fuzzy
 msgid ""
 "Obviously it would be nice to be able to do this while looking at the map, "
-"rather than needing to search for a specific street in the :guilabel:"
-"`Attribute Table` all the time."
+"rather than needing to search for a specific street in the "
+":guilabel:`Attribute Table` all the time."
 msgstr ""
 "Jelas akan menyenangkan untuk melakukan hal ini sambil melihat peta, "
 "terlebih perlu untuk mencari jalan tertentu dalam :guilabel:`Attribute "
-"Table`sepanjang waktu."
+"Table` sepanjang waktu."
 
 # 9c36a3370fd4451b827bb9150e96b8f3
 #: ..\..\create_vector_data\forms.rst:29
-#, fuzzy
 msgid ""
-"Go to the :menuselection:`Settings --> Options` menu (in the same row as "
-"the :menuselection:`File` menu, etc.)."
+"Go to the :menuselection:`Settings --> Options` menu (in the same row as the "
+":menuselection:`File` menu, etc.)."
 msgstr ""
 "Pergi ke menu :menuselection:`Settings --> Options` (terletak pada baris "
 "yang sama dengan :menuselection:`File` menu, etc.)."
@@ -1535,13 +1527,12 @@ msgstr ""
 
 # 0bd02cc0f0f343d39f1df2cd177cef19
 #: ..\..\create_vector_data\forms.rst:44
-#, fuzzy
 msgid ""
-"Instead of the normal :guilabel:`Identify` dialog, you'll see the now-"
-"familiar form instead:"
+"Instead of the normal :guilabel:`Identify` dialog, you'll see the "
+"now-familiar form instead:"
 msgstr ""
-"Anda akan melihat bentuk form yang familier, bukan kotak diaog biasa dari  :"
-"guilabel:`Identify`:"
+"Anda akan melihat bentuk form yang familier, bukan kotak diaog biasa dari  "
+":guilabel:`Identify`:"
 
 # c20559066d0c4973b54006cf3260b7fd
 #: ..\..\create_vector_data\forms.rst:51
@@ -1574,7 +1565,7 @@ msgstr ""
 # bcc16da5d3e044ef966df96c21b94438
 #: ..\..\create_vector_data\forms.rst:62
 msgid "Edit its :guilabel:`LANES` value to the correct value of :kbd:`2`."
-msgstr "Edit nilai :guilabel:`LANES`ke nilai yang benar :kbd:`2`."
+msgstr "Edit nilai :guilabel:`LANES` ke nilai yang benar :kbd:`2`."
 
 # 9203ff9059494703aba32a235401946d
 #: ..\..\create_vector_data\forms.rst:63
@@ -1593,14 +1584,14 @@ msgstr "Buka :guilabel:`Tabel Attribut` dan lihat hasil editan anda disana!"
 
 # be5ad9a56fbb492794606b766e831eec
 #: ..\..\create_vector_data\forms.rst:67
-#, fuzzy
 msgid ""
-"Note that there is more than one road on this map called :guilabel:"
-"`Voortrekker`. The one you edited had a :kbd:`TYPE` of :kbd:`tertiary`."
+"Note that there is more than one road on this map called "
+":guilabel:`Voortrekker`. The one you edited had a :kbd:`TYPE` of "
+":kbd:`tertiary`."
 msgstr ""
-"Perhatikan bahwa ada lebih dari satu jalan di peta berikut ini disebut :"
-"guilabel:`Voortrekker`. Yang anda edit memiliki :kbd:`TYPE` dari  :kbd:"
-"`tertiary`."
+"Perhatikan bahwa ada lebih dari satu jalan di peta berikut ini disebut "
+":guilabel:`Voortrekker`. Yang anda edit memiliki :kbd:`TYPE` dari  "
+":kbd:`tertiary`."
 
 # 795d04b30adf472abe17a52fd072619d
 #: ..\..\create_vector_data\forms.rst:72
@@ -1609,11 +1600,10 @@ msgstr "|moderate| Ikuti Bersama: Mengatur tipe kolom untuk form"
 
 # 517e1eebadc040878f7d69dd64a0180e
 #: ..\..\create_vector_data\forms.rst:74
-#, fuzzy
 msgid ""
 "It's nice to edit things using a form, but you still have to enter "
-"everything by hand. Fortunately, forms have different kinds of so-called *"
-"\"widgets\"* that allow you to edit data in various different ways."
+"everything by hand. Fortunately, forms have different kinds of so-called "
+"*\"widgets\"* that allow you to edit data in various different ways."
 msgstr ""
 "Sangat menyenangkan untuk mengedit hal-hal menggunakan formulir, tapi Anda "
 "masih harus memasukkan segala sesuatu dengan tangan. Untungnya, bentuk "
@@ -1632,13 +1622,12 @@ msgstr "Pindah ke tab :guilabel:`Fields` .Anda akan melihat:"
 
 # e317b23a1dd14bb0880d669bd26839cb
 #: ..\..\create_vector_data\forms.rst:84
-#, fuzzy
 msgid ""
-"Click on the :guilabel:`Line edit` button in the same row as :guilabel:"
-"`LANES` and you'll be given a new dialog."
+"Click on the :guilabel:`Line edit` button in the same row as "
+":guilabel:`LANES` and you'll be given a new dialog."
 msgstr ""
-"Klik  pada tombol :guilabel:`Line edit` pada baris yang sama dengan :"
-"guilabel:`LANES` dan akan mendapat kotak dialog yang baru."
+"Klik  pada tombol :guilabel:`Line edit` pada baris yang sama dengan "
+":guilabel:`LANES` dan akan mendapat kotak dialog yang baru."
 
 # 4c02750de0d747e98db105cfe7c0aa22
 #: ..\..\create_vector_data\forms.rst:86
@@ -1807,8 +1796,8 @@ msgid ""
 "Click and drag this item into your form. This creats a new :guilabel:`Line "
 "Edit` in the form."
 msgstr ""
-"Klik dan seret item ini ke form anda untuk untuk membuat form :guilabel:"
-"`Line Edit` yang baru."
+"Klik dan seret item ini ke form anda untuk untuk membuat form "
+":guilabel:`Line Edit` yang baru."
 
 # 493941a56889428aaf18d928f83f392e
 #: ..\..\create_vector_data\forms.rst:163
@@ -1829,8 +1818,8 @@ msgstr "Ubah namanya menjadi  :kbd:`Name`."
 msgid ""
 "Using the same approach, create a new spinbox and set its name to :kbd:`Age`."
 msgstr ""
-"Gunakan pendekatan yang sama, membuat spinbox dan mengatur namanya dengan :"
-"kbd:`Age`."
+"Gunakan pendekatan yang sama, membuat spinbox dan mengatur namanya dengan "
+":kbd:`Age`."
 
 # 8219420feb6d49319cad6b569459b16c
 #: ..\..\create_vector_data\forms.rst:171
@@ -1861,13 +1850,12 @@ msgstr ""
 
 # 7e0d72e833bb473d95c7d038cc6d1b2a
 #: ..\..\create_vector_data\forms.rst:182
-#, fuzzy
 msgid ""
-"Set the dialog's maximum size (in its properties) to :kbd:`200` (width) by :"
-"kbd:`100` (height)."
+"Set the dialog's maximum size (in its properties) to :kbd:`200` (width) by "
+":kbd:`100` (height)."
 msgstr ""
-"Atur ukuran maksimum dialog (dalam properti) dari  :kbd:`200` (width) "
-"dengan :kbd:`100` (height)."
+"Atur ukuran maksimum dialog (dalam properti) dari  :kbd:`200` (width) dengan "
+":kbd:`100` (height)."
 
 # e58f727c097e4c4fb907d620f58ab6ef
 #: ..\..\create_vector_data\forms.rst:184
@@ -1929,18 +1917,17 @@ msgid ""
 "can now bring up the form by right clicking in the identify results window "
 "and choosing :guilabel:`View Feature Form` from the context menu."
 msgstr ""
-"Jika Anda klik pada salah satu poin Anda menggunakan tool  :guilabel:"
-"`Identify` , kini Anda dapat membuka form dengan mengklik kanan di jendela "
-"hasil identifikasi dan memilih fitur :guilabel:`View Feature Form` dari menu "
-"konteks."
+"Jika Anda klik pada salah satu poin Anda menggunakan tool  "
+":guilabel:`Identify` , kini Anda dapat membuka form dengan mengklik kanan di "
+"jendela hasil identifikasi dan memilih fitur :guilabel:`View Feature Form` "
+"dari menu konteks."
 
 # effc050c39fa42c8864cbb5b7521cc0b
 #: ..\..\create_vector_data\forms.rst:202
-#, fuzzy
 msgid ""
-"If you are in edit mode for this layer, that context menu will show :"
-"guilabel:`Edit Feature Form` instead, and you can then adjust the attributes "
-"in the new form even after initial capture."
+"If you are in edit mode for this layer, that context menu will show "
+":guilabel:`Edit Feature Form` instead, and you can then adjust the "
+"attributes in the new form even after initial capture."
 msgstr ""
 "Jika Anda berada dalam mode edit untuk layer ini, konteks menu akan "
 "menunjukkan :guilabel:`Edit Feature Form` , dan Anda kemudian dapat mengatur "
@@ -1974,10 +1961,10 @@ msgid ""
 "functions including data validation, autocompletion, etc."
 msgstr ""
 "Jika Anda menyelesaikan bagian lanjutan atas dan memiliki pengetahuan "
-"tentang Python, Anda dapat membaca informasi `di blog ini <http://tinyurl."
-"com/6tr42rb>`_ tentang bagaimana menciptakan bentuk fitur sesuai.dengan "
-"logika Python, yang memungkinkan fungsi-fungsi lanjutan termasuk validasi "
-"data, autocompletion, dll"
+"tentang Python, Anda dapat membaca informasi `di blog ini "
+"<http://tinyurl.com/6tr42rb>`_ tentang bagaimana menciptakan bentuk fitur "
+"sesuai.dengan logika Python, yang memungkinkan fungsi-fungsi lanjutan "
+"termasuk validasi data, autocompletion, dll"
 
 # 54067be031c244ac9f7e30e515e05cbb
 #: ..\..\create_vector_data\forms.rst:225
@@ -2038,8 +2025,8 @@ msgstr ""
 #: ..\..\create_vector_data\topo_editing.rst:12
 msgid "**The goal for this lesson:** To understand topology using examples."
 msgstr ""
-"**Tujuan dari pelajaran ini:** Untuk memahami topologi menggunakan contoh-"
-"contoh."
+"**Tujuan dari pelajaran ini:** Untuk memahami topologi menggunakan "
+"contoh-contoh."
 
 # d6b667ccea894c09b8e96812bd66e151
 #: ..\..\create_vector_data\topo_editing.rst:15
@@ -2091,13 +2078,12 @@ msgstr "Masuk ke mode edit dan pilihlah layer :guilabel:`rural` "
 
 # 5dee5e5f6dec48f39ca64b12b54667c2
 #: ..\..\create_vector_data\topo_editing.rst:31
-#, fuzzy
 msgid ""
-"Check under :menuselection:`View --> Toolbars` to make sure that your :"
-"guilabel:`Advanced Digitizing` toolbar is enabled."
+"Check under :menuselection:`View --> Toolbars` to make sure that your "
+":guilabel:`Advanced Digitizing` toolbar is enabled."
 msgstr ""
-"Periksa :menuselection:`View --> Toolbars` untuk meyakinkan bahwa toolbar :"
-"guilabel:`Advanced Digitizing` telah tersedia."
+"Periksa :menuselection:`View --> Toolbars` untuk meyakinkan bahwa toolbar "
+":guilabel:`Advanced Digitizing` telah tersedia."
 
 # da515c8d4b1d4550b7c9030cedbd7f91
 #: ..\..\create_vector_data\topo_editing.rst:33
@@ -2152,8 +2138,8 @@ msgstr "|moderate| Ikuti bersama: Menutup gap"
 msgid ""
 "You've probably noticed some large holes in the :guilabel:`rural` dataset:"
 msgstr ""
-"Anda mungkin telah melihat adanya beberapa lubang besar dalam dataset :"
-"guilabel:`rural` :"
+"Anda mungkin telah melihat adanya beberapa lubang besar dalam dataset "
+":guilabel:`rural` :"
 
 # 4bc56610b41e4d1ba5a6ec23a0ffebae
 #: ..\..\create_vector_data\topo_editing.rst:65
@@ -2166,8 +2152,8 @@ msgid ""
 "impossible."
 msgstr ""
 "Celah berwarna putih dalam layer farms, yang tidak berwarna abu-abu di area "
-"urban yang berwarna abu-abu, merupakan lahan pertanian yang  hilang. Celah-"
-"celah tersebut perlu untuk ditutup. Jika Anda menambahkan fitur secara "
+"urban yang berwarna abu-abu, merupakan lahan pertanian yang  hilang. "
+"Celah-celah tersebut perlu untuk ditutup. Jika Anda menambahkan fitur secara "
 "normal, Anda harus sangat akurat untuk mencegah gap dan overlap. Meskipun "
 "Anda berusaha untuk Anda sangat akurat, tanpa snapping titik simpul (yang "
 "Anda aktifkan di atas) tidak mungkin untuk melakukan digitasi fitur tanpa "
@@ -2188,13 +2174,12 @@ msgstr ""
 
 # a089dba5ff2d49dfa1764c4bd1df611e
 #: ..\..\create_vector_data\topo_editing.rst:79
-#, fuzzy
 msgid ""
 "If you had to do this without help from the topology, you'd be digitizing "
-"that for a while. But at the moment, as per the directions above, you have :"
-"guilabel:`Avoid Int.` (\"Avoid Intersections\") enabled for the :guilabel:"
-"`rural` layer. This tells QGIS to use the topology to prevent overlap. So "
-"you can digitize even a very rough shape:"
+"that for a while. But at the moment, as per the directions above, you have "
+":guilabel:`Avoid Int.` (\"Avoid Intersections\") enabled for the "
+":guilabel:`rural` layer. This tells QGIS to use the topology to prevent "
+"overlap. So you can digitize even a very rough shape:"
 msgstr ""
 "Jika dilakukan  tanpa bantuan topologi, proses  digitasi cukup memakan "
 "waktu. Dengan  :guilabel:`Avoid Int.` ( “Menghindari perpotongan” ) "
@@ -2269,10 +2254,9 @@ msgstr "|moderate| Ikuti bersama : Mengoreksi kesalahan topologi"
 
 # f55011365da247c38409afd9ad90107b
 #: ..\..\create_vector_data\topo_editing.rst:120
-#, fuzzy
 msgid ""
-"Topology errors aren't always immediately visible. Let's change the :"
-"guilabel:`rural` layer's symbology to see some of them."
+"Topology errors aren't always immediately visible. Let's change the "
+":guilabel:`rural` layer's symbology to see some of them."
 msgstr ""
 "Kesalahan topologi tidak selalu terlihat seketika. Mari kita ubah simbologi "
 "layer rural untuk melihat beberapa kesalahan topologinya."
@@ -2416,7 +2400,7 @@ msgstr "Sebelum Anda lanjut, kembalikan lahan pertanian ke posisi sebelumnya:"
 # 861199a1626148bd92a21d2b0f8f5335
 #: ..\..\create_vector_data\topo_editing.rst:191
 msgid "cancel the :guilabel:`Simplify Feature` dialog, or"
-msgstr "Batalkan kotak dialog :guilabel:`Simplify Feature, atau"
+msgstr "Batalkan kotak dialog :guilabel:`Simplify Feature`, atau"
 
 # 7d53c57e072e49fca93043553d033b54
 #: ..\..\create_vector_data\topo_editing.rst:192
@@ -2678,9 +2662,9 @@ msgstr ""
 
 # eaa1eda45589479598851e920c86ab61
 #~ msgid ""
-#~ "Open the :guilabel:`Layer Properties` dialog and head over to the :"
-#~ "guilabel:`Actions` tab.Open the :guilabel:`Layer Properties` dialog and "
+#~ "Open the :guilabel:`Layer Properties` dialog and head over to the "
+#~ ":guilabel:`Actions` tab.Open the :guilabel:`Layer Properties` dialog and "
 #~ "head over to the :guilabel:`Actions` tab."
 #~ msgstr ""
-#~ "Buka dilaog :guilabel:`Layer Properties` dan sembunyikan tab :guilabel:"
-#~ "`Actions`."
+#~ "Buka dilaog :guilabel:`Layer Properties` dan sembunyikan tab "
+#~ ":guilabel:`Actions`."
