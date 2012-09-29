@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -85,7 +84,7 @@ msgid ""
 "on the property."
 msgstr ""
 "Gunakan layer :guilabel:`school_property` yang Anda buat sebelumnya.  "
-"Material latihan termasukfoto  yang Anda digitasi. Kita akan  menghubungkan "
+"Material latihan termasuk foto  yang Anda digitasi. Kita akan  menghubungkan "
 "tiap bidang dengan foto-doto tersebut.  Kita akan membuat action untuk "
 "membuka gambar pada sebuah properti ketika anda mengklik properti tersebut."
 
@@ -264,7 +263,7 @@ msgid ""
 "write :kbd:`display` to use *ImageMagick*. Remember to put a space after the "
 "command!"
 msgstr ""
-"Dibawah :guilabel:`Action, tuliskan :kbd:`eog` untuk *Gnome Image Viewer*, "
+"Dibawah :guilabel:`Action`, tuliskan :kbd:`eog` untuk *Gnome Image Viewer*, "
 "atau tulis :kbd:`display` untuk menggunakan *ImageMagick*. Ingat untuk "
 "menambahkan spasi setelah perintah!"
 
@@ -571,7 +570,7 @@ msgid ""
 "click on the :guilabel:`Run feature action`."
 msgstr ""
 "Dengan layer :guilabel:`rural` aktif dalam :guilabel:`Layers list`, klik "
-"pada :guilabell:`Run feature action`."
+"pada :guilabel:`Run feature action`."
 
 # 7d2714f365374c8ab574505c070ab3c7
 #: ..\..\create_vector_data\actions.rst:243
@@ -2400,7 +2399,7 @@ msgstr "Sebelum Anda lanjut, kembalikan lahan pertanian ke posisi sebelumnya:"
 # 861199a1626148bd92a21d2b0f8f5335
 #: ..\..\create_vector_data\topo_editing.rst:191
 msgid "cancel the :guilabel:`Simplify Feature` dialog, or"
-msgstr "Batalkan kotak dialog :guilabel:`Simplify Feature`, atau"
+msgstr "Batalkan kotak dialog :guilabel:`Simplify Feature` , atau"
 
 # 7d53c57e072e49fca93043553d033b54
 #: ..\..\create_vector_data\topo_editing.rst:192

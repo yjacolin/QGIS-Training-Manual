@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -69,9 +68,8 @@ msgid ""
 "and - either :guilabel:`aerial_photos` or :guilabel:`DEM`."
 msgstr ""
 "Dalam :guilabel:`Layers list`, terdapat beberapa layer : - "
-":guilabel:`hillshade`, - :guilabel:`solution`, - "
-":guilabel:`important_roads`dan salah satu dari :guilabel:`aerial_photos` "
-"atau :guilabel:`DEM`."
+":guilabel:`hillshade`, - :guilabel:`solution`, - :guilabel:`important_roads` "
+"dan salah satu dari :guilabel:`aerial_photos` atau :guilabel:`DEM`."
 
 # 679884b64e70478988173ff3a16a4d6b
 #: ..\..\complete_analysis\analysis_combination.rst:21
@@ -2638,7 +2636,7 @@ msgstr ":guilabel:`important_roads` dan"
 # ef467b8659e5467a9d2c28f4dbb35be9
 #: ..\..\complete_analysis\assignment.rst:11
 msgid "either :guilabel:`aerial_photos` or :guilabel:`DEM`."
-msgstr "baik: guilabel:`aerial_photos` atau: guilabel:`DEM`."
+msgstr "baik :guilabel:`aerial_photos` atau: guilabel:`DEM`."
 
 # e334fad450d34806b82a7e8634ec92d7
 #: ..\..\complete_analysis\assignment.rst:13

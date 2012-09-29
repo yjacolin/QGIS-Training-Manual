@@ -303,7 +303,15 @@ msgstr "Para Kontributor"
 # d8c5953aadaa49778d48db33da09c86f
 #: ..\..\foreword\foreword.rst:102
 msgid "Your name here!"
-msgstr "Nama Anda di sini!"
+msgstr ""
+"Trias Aditya K. M., ST, M.Sc, Ph.D\n"
+"Purnama B. S., ST, M.App.Sc, Dr.Eng\n"
+"Heri Sutanta, ST, M.Sc\n"
+"Dany Puguh Laksono, ST.\n"
+"Rindi Kurnianti, ST.\n"
+"Maratun Sholihah, ST. \n"
+"Siti Purwanti, ST.\n"
+"I Made Diky Ade Hermawan"
 
 # 61a3dc10b8f94cbfa865de7143347998
 #: ..\..\foreword\foreword.rst:105

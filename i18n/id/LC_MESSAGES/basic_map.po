@@ -350,7 +350,7 @@ msgid ""
 "layer."
 msgstr ""
 "Buka kotak dialog :guilabel:`Layer Properties` untuk layer "
-":guilable:`streets`."
+":guilabel:`streets`."
 
 # e567a4da1ddc4c849bf4c9da1440efe4
 #: ..\..\basic_map\symbology.rst:133
@@ -364,7 +364,7 @@ msgid ""
 ":guilabel:`Use scale dependent rendering`:"
 msgstr ""
 "Akftifkan rendering berbasis skala (*scale-based rendering*)dengan mengklik "
-"*checkbox* berlabelkan :guilable:`Use scale dependent rendering`:"
+"*checkbox* berlabelkan :guilabel:`Use scale dependent rendering`:"
 
 # d054b724c4f3422ea7856c3a42769de9
 #: ..\..\basic_map\symbology.rst:140
@@ -384,7 +384,7 @@ msgid ""
 msgstr ""
 "Lakukan tes untuk melihat efek dari pengubahan ini dengan melakukan "
 "*zooming*  membesar dan mengecil pada peta Anda, dan amati saat layer "
-":guilable:`streets`  muncul dan menghilang."
+":guilabel:`streets`  muncul dan menghilang."
 
 # 6fcb11f18d3141be806fe58162c8d45b
 #: ..\..\basic_map\symbology.rst:146
@@ -698,11 +698,12 @@ msgstr "Buat peta baru dan tambahkan hanya **dataset** :guilabel:`streets`."
 
 # 40c37dd202774aba8eef77190e6a6aad
 #: ..\..\basic_map\symbology.rst:295
+#, fuzzy
 msgid ""
 "Apply the style :kbd:`advanced_levels_demo.qml` provided in "
 ":kbd:`exercise_data/styles`."
 msgstr ""
-"Terapkan  :kbd:`advanced_levels_demo.qml`yang tersedia di "
+"Terapkan  :kbd:`advanced_levels_demo.qml` yang tersedia di "
 ":kbd:`exercise_data/styles`."
 
 # 00770a8822654663bb7220e2b8990a22

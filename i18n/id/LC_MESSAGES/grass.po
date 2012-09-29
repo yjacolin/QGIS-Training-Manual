@@ -318,8 +318,8 @@ msgid ""
 ":kbd:`srtm_41_19.tif` dataset from your :guilabel:`Layers list`."
 msgstr ""
 "Simpan data raster di dalam folder yang sama seperti aslinya, tetapi dengan "
-"nama file   :kbd:`DEM_WGS84.tif`. Setelah muncul di peta, hapus *dataset*  "
-":kbd:`srtm_41_19.tif dari ` :guilabel:`Layers list` Anda."
+"nama file :kbd:`DEM_WGS84.tif`. Setelah muncul di peta, hapus *dataset* "
+":kbd:`srtm_41_19.tif` dari :guilabel:`Layers list` Anda."
 
 # 19c00bb17b244976beacb09b55d3f06f
 #: ..\..\grass\grass_setup.rst:139

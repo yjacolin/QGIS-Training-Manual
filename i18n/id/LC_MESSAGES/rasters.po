@@ -1052,7 +1052,7 @@ msgid ""
 "Set the save location to "
 ":kbd:`exercise_data/residential_development/slope.tif`"
 msgstr ""
-"Atur lokasi penyimpanan ke dalam folder  "
+"Atur lokasi penyimpanan ke dalam folder "
 ":kbd:`exercise_data/residential_development/slope.tif`"
 
 # 04a45cad2f204b48b4e40cf112783df0
@@ -1404,9 +1404,9 @@ msgid ""
 ":guilabel:`Output file` to :kbd:`all_conditions_sieve.tif` (under "
 ":kbd:`exercise_data/residential_development/`)."
 msgstr ""
-"Atur  :guilabel:`Input file`ke dalam  :kbd:`all_conditions`, dan  "
-":guilabel:`Output file` ke dalam  :kbd:`all_conditions_sieve.tif`(dalam "
-"folder  :kbd:`exercise_data/residential_development/`)."
+"Atur :guilabel:`Input file`ke dalam  :kbd:`all_conditions`, dan "
+":guilabel:`Output file` ke dalam  :kbd:`all_conditions_sieve.tif` (dalam "
+"folder :kbd:`exercise_data/residential_development/`)."
 
 # af7a6e06139b437aaca68f262d0b51ee
 #: ..\..\rasters\terrain_analysis.rst:246
