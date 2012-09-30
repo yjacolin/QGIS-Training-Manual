@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -96,13 +95,13 @@ msgid ""
 "To change a layer's symbology, open its :guilabel:`Layer Properties`. Let's "
 "begin by changing the color of the :guilabel:`urban` layer."
 msgstr ""
-"Untuk mengubah simbologi dari *layer*, buka :guilabel:`*layer* Properties` "
-"nya.Mari kita mulai dengan mengubah warna layer :guilabel:`urban`."
+"Untuk mengubah simbologi dari *layer*, buka :guilabel:`layer Properties` "
+"nya. Mari kita mulai dengan mengubah warna layer :guilabel:`pemukiman`."
 
 # 6337d8d4993048858ccaa866a8050e5f
 #: ..\..\basic_map\symbology.rst:28
 msgid "Right-click on the :guilabel:`urban` layer in the Layers list."
-msgstr "Klik kanan pada **layer** :guilabel:`urban` dalam Daftar *layer*."
+msgstr "Klik kanan pada **layer** :guilabel:`pemukiman` dalam Daftar *layer*."
 
 # 100ad6a74ba84ff382268842f1045a6d
 #: ..\..\basic_map\symbology.rst:29
@@ -151,7 +150,7 @@ msgid ""
 "you will see the color change being applied to the layer."
 msgstr ""
 "Klik :guilabel:`OK` lagi pada jendela :guilabel:`*layer* Properties`, dan "
-"Anda akan melihat perubahan warna pada *layer* Urban."
+"Anda akan melihat perubahan warna pada *layer* Pemukiman."
 
 # 60ee1558e74c4bfebd48e77a57482a4f
 # 530c2f93949b48c999cfb636f4c50cfc
@@ -165,8 +164,8 @@ msgid ""
 "Change the :guilabel:`rural` layer to a new color that you associate with "
 "rural farming areas."
 msgstr ""
-"Ubah **layer** :guilabel:`rural` dengan warna baru yang menurut Anda sesuai "
-"dengan warna area pertanian di kawasan pedesaan."
+"Ubah **layer** :guilabel:`vegetasi` dengan warna baru yang menurut Anda "
+"sesuai dengan warna tumbuh-tumbuhan."
 
 # 3935c1425aa244df975133265543d0f6
 #: ..\..\basic_map\symbology.rst:61
@@ -188,16 +187,16 @@ msgid ""
 msgstr ""
 "Sejauh ini semuanya tampak bagus, namun banyak lagi yang dapat dilakukan "
 "dengan simbologi layer disamping merubah warnanya. Selanjutnya kita akan "
-"mencoba untuk mengubah warna dari layer :guilabel:`rural`, sekaligus "
-"menghilangkan garis-garis diantara daerah pertanian yang berbeda sehingga "
-"peta yang dihasilkan tidak terlihat terlalu mengelompok."
+"mencoba untuk mengubah warna dari layer :guilabel:`vegetasi`, sekaligus "
+"menghilangkan garis-garis diantara jenis vegetasi yang berbeda sehingga "
+"fitur yang ada pada peta yang dihasilkan tidak terlihat terlalu mengelompok."
 
 # 40d44118e84b4d3780cc2757bd43e64b
 #: ..\..\basic_map\symbology.rst:71
 msgid ""
 "Open the :guilabel:`Layer Properties` window for the :guilabel:`rural` layer."
 msgstr ""
-"Buka jendela :guilabel:`Layer Properties` untuk layer :guilabel:`rural`."
+"Buka jendela :guilabel:`Layer Properties` untuk layer :guilabel:`vegetasi`."
 
 # 07c44573c0754a3088e4fdf2e1fdf73e
 #: ..\..\basic_map\symbology.rst:74
@@ -238,7 +237,7 @@ msgid ""
 "In the dialog that appears, choose a new color (that seems to suit a farm)."
 msgstr ""
 "Dalam kotak dialog yang muncul, pilih warna baru (yang kira-kira sesuai "
-"dengan daerah pertanian)."
+"dengan warna tanaman)."
 
 # 2ab9317f481c493cbe041b5d4daf1071
 #: ..\..\basic_map\symbology.rst:89
@@ -250,7 +249,7 @@ msgstr "Klik :guilabel:`OK` sekali."
 msgid "Next, we want to get rid of the lines between all the farms."
 msgstr ""
 "Selanjutnya, kita akan menghilangkan garis-garis yang ada diantara semua "
-"jenis area pertanian. "
+"jenis vegetasi."
 
 # 9f34070f209a41d9800d3db10c350582
 #: ..\..\basic_map\symbology.rst:93
@@ -275,8 +274,8 @@ msgstr "Klik  :guilabel:`OK`, dan kemudian klik  :guilabel:`OK` lagi. "
 #: ..\..\basic_map\symbology.rst:98
 msgid "Now the :guilabel:`rural` layer won't have any lines between farms."
 msgstr ""
-"Sekarang **layer**  :guilabel:`rural` tidak lagi memiliki garis batas apapun "
-"diantara area-area pertanian."
+"Sekarang **layer**  :guilabel:`vegetasi` tidak lagi memiliki garis batas "
+"apapun diantara area-area jenis vegetasi."
 
 # 02e6a210140f4ece9ab0b5de1fef9307
 #: ..\..\basic_map\symbology.rst:106
@@ -284,8 +283,8 @@ msgid ""
 "Change the :guilabel:`urban` layer's symbology so that it is gray and "
 "without outlines."
 msgstr ""
-"Ubah simbologi layer :guilabel:`urban`sehingga akan menjadi abu-abu tanpa "
-"outline (garis luar poligon)."
+"Ubah simbologi layer :guilabel:`pemukiman`sehingga akan menjadi abu-abu "
+"tanpa outline (garis luar poligon)."
 
 # 18d23712210a4a9ba0f937fbb5e71a1c
 #: ..\..\basic_map\symbology.rst:108
@@ -293,7 +292,7 @@ msgid ""
 "Change the :guilabel:`rural` layer again so that it has dotted outlines "
 "which are just a bit darker than the fill color for that layer."
 msgstr ""
-"Ubah lagi **layer** :guilabel:`rural` sehingga ia memiliki *outline* "
+"Ubah lagi **layer** :guilabel:`vegetasi` sehingga ia memiliki *outline* "
 "bertitik yang berwarna agak sedikit lebih gelap dibandingkan warna pengisi "
 "(*fill color*) **layer** tersebut."
 
@@ -329,7 +328,7 @@ msgid ""
 "This map, for example ..."
 msgstr ""
 "Pada kasus kita, kita mungkin akan memutuskan untuk menyembunyikan layer "
-"jalan (*street*)dari tampilan peta pada skala kecil. Sebagai contoh..."
+"'jalan' dari tampilan peta pada skala kecil. Sebagai contoh..."
 
 # 3995abacd1c04bb48f4204be5d39b83f
 #: ..\..\basic_map\symbology.rst:127
@@ -350,7 +349,7 @@ msgid ""
 "layer."
 msgstr ""
 "Buka kotak dialog :guilabel:`Layer Properties` untuk layer "
-":guilabel:`streets`."
+":guilabel:`Jalan_Sleman_OSM`."
 
 # e567a4da1ddc4c849bf4c9da1440efe4
 #: ..\..\basic_map\symbology.rst:133
@@ -384,7 +383,7 @@ msgid ""
 msgstr ""
 "Lakukan tes untuk melihat efek dari pengubahan ini dengan melakukan "
 "*zooming*  membesar dan mengecil pada peta Anda, dan amati saat layer "
-":guilabel:`streets`  muncul dan menghilang."
+":guilabel:`Jalan_Sleman_OSM`  muncul dan menghilang."
 
 # 6fcb11f18d3141be806fe58162c8d45b
 #: ..\..\basic_map\symbology.rst:146
@@ -421,7 +420,7 @@ msgid ""
 "dialog as before."
 msgstr ""
 "Kembali ke kotak dialog :guilabel:`Symbol Properties` layer "
-":guilabel:`rural` seperti sebelumnya. "
+":guilabel:`vegetasi` seperti sebelumnya. "
 
 # 945613b4dbe44b86bab9572706ce6114
 #: ..\..\basic_map\symbology.rst:162
@@ -488,7 +487,7 @@ msgstr ""
 #: ..\..\basic_map\symbology.rst:188
 msgid "Set the border style to :guilabel:`No Pen`, as before."
 msgstr ""
-"Tetapkan nilai *border sytle*  menjadi   :guilabel:`No Pen`, sebagaimana "
+"Tetapkan nilai *border sytle*  menjadi :guilabel:`No Pen`, sebagaimana "
 "sebelumnya."
 
 # 164ee8241fe9490a94eb9670e9eb18cc
@@ -539,7 +538,7 @@ msgid ""
 "using the methods above."
 msgstr ""
 "Gunakan simbol tekstur yang sederhana namun tidak terlalu mencolok untuk "
-"layer :guilabel:`rural` menggunakan cara yang disebutkan di atas."
+"layer :guilabel:`vegetasi` menggunakan cara yang disebutkan di atas."
 
 # ac0c35bb43f6418e9f25d47600cc8f3b
 #: ..\..\basic_map\symbology.rst:214
@@ -570,8 +569,9 @@ msgid ""
 "Give the :guilabel:`streets` layer an extra symbol layer (using the methid "
 "for adding symbol layers demonstrated above)."
 msgstr ""
-"Coba untuk memberikan tambahan simbol layer pada layer :guilabel:`streets` "
-"(menggunakan metode untuk menambahkan layer simbol yang ditunjukkan di atas)."
+"Coba untuk memberikan tambahan simbol layer pada layer "
+":guilabel:`Jalan_Sleman_OSM` (menggunakan metode untuk menambahkan layer "
+"simbol yang ditunjukkan di atas)."
 
 # e62259306990467da8f6a5ffd09182b9
 #: ..\..\basic_map\symbology.rst:226
@@ -650,14 +650,14 @@ msgstr ""
 "dengan mengklik tombol :guilabel:`Save Style ...` di bawah tab "
 ":guilabel:`Style` pada kotak dialog :guilabel:`Layer Properties`. Simpan "
 "*style*  Anda pada *root directory* untuk materi ini di bawah "
-":kbd:`exercise/data styles`. *Style* yang dirubah dan tidak disimpan, akan "
+":kbd:`data_latihan/ styles`. *Style* yang dirubah dan tidak disimpan, akan "
 "hilang. Anda dapat memanggil kembali *style* yang telah disimpan sebelumnya "
 "setiap saat dengan mengklik tombol :guilabel:`Load Style ...`."
 
 # bfd75974cd6f469480ec930a4129fee7
 #: ..\..\basic_map\symbology.rst:274
 msgid "Change the appearance of the :guilabel:`streets` layer again."
-msgstr "Ubah lagi tampilan layer :guilabel:`streets`."
+msgstr "Ubah lagi tampilan layer :guilabel:`Jalan_Sleman_OSM`."
 
 # c6b01fea00d540638c10dadc1ce39ff7
 #: ..\..\basic_map\symbology.rst:276
@@ -694,24 +694,25 @@ msgstr ""
 # 345c05066c114456b43f33e58b2c7749
 #: ..\..\basic_map\symbology.rst:294
 msgid "Create a new map and add only the :guilabel:`streets` dataset."
-msgstr "Buat peta baru dan tambahkan hanya **dataset** :guilabel:`streets`."
+msgstr ""
+"Buat peta baru dan tambahkan hanya **dataset** :guilabel:`Jalan_Sleman_OSM`."
 
 # 40c37dd202774aba8eef77190e6a6aad
 #: ..\..\basic_map\symbology.rst:295
-#, fuzzy
 msgid ""
 "Apply the style :kbd:`advanced_levels_demo.qml` provided in "
 ":kbd:`exercise_data/styles`."
 msgstr ""
-"Terapkan  :kbd:`advanced_levels_demo.qml` yang tersedia di "
-":kbd:`exercise_data/styles`."
+"Terapkan  :kbd:`contoh_level_lanjut.qml` yang tersedia di "
+":kbd:`data_latihan/styles`."
 
 # 00770a8822654663bb7220e2b8990a22
 #: ..\..\basic_map\symbology.rst:296
 msgid ""
 "Zoom to the Swellendam area (the cluster of roads near the center of the "
 "layer)."
-msgstr "*Zoom* ke area Swellendam (kelompok jalan dekat bagian tengah layer)."
+msgstr ""
+"*Zoom* ke area sekitar kampus UGM (kelompok jalan dekat bagian tengah layer)."
 
 # d2f12f8dda0445a1a09f6ec844a166ff
 #: ..\..\basic_map\symbology.rst:298
@@ -764,7 +765,7 @@ msgstr "Jenis-jenis simbol *layer* titik"
 # a31f23482a0842eea7fde1a0d98219f4
 #: ..\..\basic_map\symbology.rst:321
 msgid "Change the symbol properties for the :guilabel:`places` layer:"
-msgstr "Ubah properti simbol untuk layer :guilabel:`places`:"
+msgstr "Ubah properti simbol untuk layer :guilabel:`POI_Sleman_OSM`:"
 
 # d7d4ad543f9a4f0d813505e99b11cd81
 #: ..\..\basic_map\symbology.rst:326
@@ -777,7 +778,7 @@ msgid ""
 "Investigate the various options available to you, and choose a symbol layer "
 "type other than the default :guilabel:`Simple Marker`."
 msgstr ""
-"Pelajari berbagai pilihan simbol yang tersedia, dan pilih jenis layersimbol  "
+"Pelajari berbagai pilihan simbol yang tersedia, dan pilih jenis simbol layer "
 "selain :guilabel:`Simple Marker`."
 
 # 1ba0e513d907419fadec1f63f211dd3e
@@ -810,7 +811,9 @@ msgstr "Untuk melihat berbagai pilihan yang tersedia untuk data baris, :"
 msgid ""
 "Change the symbol layer type for the :guilabel:`street` layer's topmost "
 "symbol layer:"
-msgstr "ubah jenis simbol *layer* paling atas untuk layer :guilabel:`street`:"
+msgstr ""
+"ubah jenis simbol *layer* paling atas untuk layer "
+":guilabel:`Jalan_Sleman_OSM`:"
 
 # 594a9ceb5fbf41fe869070d9da244ca0
 #: ..\..\basic_map\symbology.rst:348
@@ -865,8 +868,8 @@ msgid ""
 "Change the symbol layer type for the :guilabel:`urban` layer, as before for "
 "the other layers."
 msgstr ""
-"Ubah jenis simbol *layer* untuk layer :guilabel:`urban`, menggunakan metode "
-"yang telah dipelajari sebelumnya."
+"Ubah jenis simbol *layer* untuk layer :guilabel:`pemukiman`, menggunakan "
+"metode yang telah dipelajari sebelumnya."
 
 # 5c98ec563b18465780b790a00770d535
 #: ..\..\basic_map\symbology.rst:374
@@ -1068,7 +1071,7 @@ msgstr "Dalam QGIS:"
 # 375b9b7692bb4379b56f0e3857c84945
 #: ..\..\basic_map\symbology.rst:463
 msgid "Open the :guilabel:`Layer Properties` for the :guilabel:`rural` layer."
-msgstr "Buka :guilabel:`Layer Properties` untuk layer :guilabel:`rural`."
+msgstr "Buka :guilabel:`Layer Properties` untuk layer :guilabel:`vegetasi`."
 
 # 0cb3e230a18c48e294d123677feed0a4
 #: ..\..\basic_map\symbology.rst:464
@@ -1140,10 +1143,10 @@ msgid ""
 msgstr ""
 "Mengubah simbol untuk seluruh layer memang berguna, tetapi informasi yang "
 "terkandung dalam setiap layer belum tersedia untuk seseorang yang membaca "
-"peta ini. Apa yang disebut *streets*? Wilayah administratif mana yang masuk "
-"ke dalam daerah tertentu? Apa saja bidang permukaan yang relatif terhadap "
-"peternakan? Semua informasi ini masih tersembunyi. Pelajaran berikutnya akan "
-"menjelaskan bagaimana untuk merepresentasikan data ini pada peta Anda."
+"peta ini. Apa nama jalan tersebut? Wilayah administratif mana yang masuk ke "
+"dalam daerah tertentu? Apa saja penggunaan lahan untuk vegetasi? Semua "
+"informasi ini masih tersembunyi. Pelajaran berikutnya akan menjelaskan "
+"bagaimana untuk merepresentasikan data ini pada peta Anda."
 
 # eb28d220ba2642f3b5bcf2d42b2cfda5
 #: ..\..\basic_map\symbology.rst:506
@@ -1224,9 +1227,9 @@ msgid ""
 "your map represent where the streets go; this is the *spatial data*."
 msgstr ""
 "Klik tombol tersebut untuk menampilkan sebuah tabel dengan data atribut "
-"layer :guilabel:`streets`. Data tambahan ini disebut dengan data atribut. "
-"Garis yang dapat Anda lihat di peta merepresentasikan di mana jalan itu "
-"mengarah; inilah data spasial."
+"layer :guilabel:`Jalan_Sleman_OSM`. Data tambahan ini disebut dengan data "
+"atribut. Garis yang dapat Anda lihat di peta merepresentasikan di mana jalan "
+"itu mengarah; inilah data spasial."
 
 # 101d42d9d44b42a48436a1e738f6ecdd
 #: ..\..\basic_map\vector_data.rst:35
@@ -1285,7 +1288,8 @@ msgstr ""
 #: ..\..\basic_map\vector_data.rst:57
 msgid "Load the \"places\" dataset into your map following the same method."
 msgstr ""
-"Tambahkan **dataset** \"places\" ke dalam peta Anda dengan cara yang sama."
+"Tambahkan **dataset** \"POI_Sleman_OSM\" ke dalam peta Anda dengan cara yang "
+"sama."
 
 # dc5adca22e054d409dcd097c6faba6cb
 #: ..\..\basic_map\vector_data.rst:59
@@ -1344,7 +1348,7 @@ msgid ""
 ":guilabel:`land_use.db`. Select it and click :guilabel:`Open`."
 msgstr ""
 "Dalam folder yang sama dengan data lain, carilah file "
-":guilabel:`land_use.db`. Pilih file tersebut dan klik  :guilabel:`Open`."
+":guilabel:`guna_lahan.db`. Pilih file tersebut dan klik  :guilabel:`Open`."
 
 # ae04fd4bb72d455dbc08d53770725268
 #: ..\..\basic_map\vector_data.rst:87
@@ -1354,8 +1358,8 @@ msgid ""
 "of the database file on your computer."
 msgstr ""
 "Anda sekarang akan melihat lagi kotak dialog yang pertama. Perhatikan bahwa "
-"pilihan dropdown di atas tiga tombol sekarang berisi \"land_use.db@...\", "
-"diikutioleh path dari file *database* pada komputer Anda. "
+"pilihan dropdown di atas tiga tombol sekarang berisi \"guna_lahan.db@...\", "
+"diikuti oleh path dari file *database* pada komputer Anda. "
 
 # 7ba9402ee20a41f0a8fd053e033df72f
 #: ..\..\basic_map\vector_data.rst:91
@@ -1458,7 +1462,7 @@ msgid ""
 msgstr ""
 "... akan mengakibatkan *layer*-*layer* jalan (*Streets*) dan titik-titik "
 "lokasi (*Places*) menjadi tersembunyi ketika mereka berada di bawah *layer* "
-"wilayah perkotaan (*Urban*)."
+"pemukiman."
 
 # 8d580efcf5d34c8e93054638bfb6f1fe
 #: ..\..\basic_map\vector_data.rst:134

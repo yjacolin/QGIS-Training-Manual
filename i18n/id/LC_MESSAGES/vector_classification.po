@@ -71,12 +71,9 @@ msgid ""
 "section *\"Working with Vector Data\"* if necessary). Which field would be "
 "the most useful to represent in label form, and why?"
 msgstr ""
-"Buka tabel atribut untuk layer  :guilabel:`places` (lihat kembali pada "
-"bagian *\"Bekerja dengan data vektor\"* apabila diperlukan). Field mana yang "
-"paling berguna untuk digambarkan dalam bentuk label, dan mengapa?Buka tabel "
-"atribut untuk layer `places` (lihat kembali pada bagian *\"bekerja dengan "
-"data vektor\"* apabila diperlukan). Field mana yang paling berguna untuk "
-"digambarkan dalam bentuk label, dan mengapa?"
+"Buka tabel atribut untuk layer  :guilabel:`POI_Sleman_OSM` (lihat kembali "
+"pada bagian *\"Bekerja dengan data vektor\"* apabila diperlukan). Field mana "
+"yang paling berguna untuk digambarkan dalam bentuk label, dan mengapa?"
 
 # ee04c94d2f0f4457a3b55a7dc52a24df
 #: ..\..\vector_classification\attribute_data.rst:27
@@ -903,8 +900,8 @@ msgid ""
 "Click on the :guilabel:`places` layer in the :guilabel:`Layers list`, so "
 "that it is highlighted."
 msgstr ""
-"Klik pada layer :guilabel:`places` pada :guilabel:`Layers list`, sampai ia "
-"tersorot."
+"Klik pada layer :guilabel:`POI_Sleman_OSM` pada :guilabel:`Layers list`, "
+"sampai ia tersorot."
 
 # e310ff2fca874bce9fa3990459e420a6
 #: ..\..\vector_classification\label_tool.rst:29
@@ -1120,8 +1117,7 @@ msgid ""
 ":guilabel:`places` layer."
 msgstr ""
 "Buka kotak dialog : :guilabel:`Layer labeling settings` untuk layer "
-":guilabel:`places`.Buka kotak dialog : :guilabel:`Layer labeling "
-"settings`untuk layer :guilabel:`places`."
+":guilabel:`POI_Sleman_OSM."
 
 # fce48521568a46dbb23bd86f4e02f3ac
 #: ..\..\vector_classification\label_tool.rst:133
@@ -1131,7 +1127,7 @@ msgstr "Buka tab :guilabel:`Advanced`."
 # 1dee0b8117f84796a95e27ba8bb1a1a6
 #: ..\..\vector_classification\label_tool.rst:134
 msgid "Click on the :guilabel:`over point` button."
-msgstr "Klik pada tombol:guilabel:`over point`."
+msgstr "Klik pada tombol :guilabel:`over point`."
 
 # 9143d995b62f4df1a8238125f5dc4cdb
 #: ..\..\vector_classification\label_tool.rst:139
@@ -1145,7 +1141,7 @@ msgstr ""
 # 03163b2ecfa24be8a23b91040de59cdc
 #: ..\..\vector_classification\label_tool.rst:145
 msgid "Click :guilabel:`OK` and you'll see this result:"
-msgstr "Klik pada :guilabel:`OK`dan Anda akan melihat hasil seperti berikut :"
+msgstr "Klik pada :guilabel:`OK` dan Anda akan melihat hasil seperti berikut :"
 
 # fde29c4e9dcb461e858fd4fce42bfd1b
 #: ..\..\vector_classification\label_tool.rst:150
@@ -1183,7 +1179,7 @@ msgid ""
 "Set the map to the scale :kbd:`1:50000`. You can do this by typing it into "
 "the :guilabel:`Scale` box in the :guilabel:`Status Bar`."
 msgstr ""
-"Atur skala peta menjadi:kbd:`1:50000`. Anda dapat melakukannya dengan "
+"Atur skala peta menjad i:kbd:`1:50000`. Anda dapat melakukannya dengan "
 "mengetik pada kotak :guilabel:`Scale` di :guilabel:`Status Bar`."
 
 # 74b751f6df4249d2a268eef4741846f9
@@ -1225,7 +1221,8 @@ msgstr ""
 # 6e8ee222f6e442a4803aa175e3f6da71
 #: ..\..\vector_classification\label_tool.rst:185
 msgid "Hide the :guilabel:`places` layer so that it doesn't distract you."
-msgstr "Sembunyikan layer :guilabel:`places` sehingga tidak mengganggu ."
+msgstr ""
+"Sembunyikan layer :guilabel:`POI_Sleman_OSM` sehingga tidak mengganggu ."
 
 # 2b9224722cac46f8940f95d70b7a7c21
 #: ..\..\vector_classification\label_tool.rst:186
@@ -1234,9 +1231,9 @@ msgid ""
 "use the :guilabel:`Label tool` on the toolbar, not the one in "
 ":guilabel:`Label Properties`!)"
 msgstr ""
-"Aktifkan label untuk layer :guilabel:`streets` sebagaimana sebelumnya "
-"(Gunakan :guilabel:`Label tool` pada toolbar , bukan :guilabel:`Label "
-"Properties`!)"
+"Aktifkan label untuk layer :guilabel:`Jalan_Sleman_OSM` sebagaimana "
+"sebelumnya (Gunakan :guilabel:`Label tool` pada toolbar , bukan "
+":guilabel:`Label Properties`!)"
 
 # 97b0cd453c3d412f9fe05117c9d16208
 #: ..\..\vector_classification\label_tool.rst:189
@@ -1249,7 +1246,7 @@ msgstr ""
 # 0c8f1a79441d49a2ba28bef0061ae13e
 #: ..\..\vector_classification\label_tool.rst:190
 msgid "Zoom in on the Swellendam town area."
-msgstr "Perbesar ke area kota Swellendam."
+msgstr "Perbesar ke area sekitar kampus UGM."
 
 # 877e16b4f7d942c28be53c52c97274a6
 #: ..\..\vector_classification\label_tool.rst:191
@@ -1355,19 +1352,19 @@ msgstr "|hard| Ikuti bersama: Pengaturan berbasis data"
 # ccd4a8f655114051981723dde4610340
 #: ..\..\vector_classification\label_tool.rst:237
 msgid "Deactivate labeling for the :guilabel:`streets` layer."
-msgstr "Nonaktifkan label untuk layer :guilabel:`streets`."
+msgstr "Nonaktifkan label untuk layer :guilabel:`Jalan_Sleman_OSM`."
 
 # 419b8a140d0f453da6f1f9537e55b96f
 #: ..\..\vector_classification\label_tool.rst:238
 msgid "Reactivate labeling for the :guilabel:`places` layer."
-msgstr "Aktifkan kembali labeling untuk layer :guilabel:`places`."
+msgstr "Aktifkan kembali labeling untuk layer :guilabel:`POI_Sleman_OSM`."
 
 # c4a96719fbb94b60a1faae74be42b03f
 # 0f83e75af74a4458aef867b7bd35871d
 #: ..\..\vector_classification\label_tool.rst:239
 #: ..\..\vector_classification\label_tool.rst:267
 msgid "Open the attribute table for :guilabel:`places`."
-msgstr "buka atribut table untuk :guilabel:`places`."
+msgstr "buka atribut table untuk :guilabel:`POI_Sleman_OSM`."
 
 # bb3c9378a08d48c7bb257136abfba741
 #: ..\..\vector_classification\label_tool.rst:241
@@ -1379,11 +1376,11 @@ msgid ""
 "to influence the label styles."
 msgstr ""
 "Tabel atribut tersebut mempunyai dua field yang kita perlukan sekarang: "
-":kbd:`ADDR_CITY` dan :kbd:`IN_SWD`. :kbd:`ADDR_CITY` adalah kota yang "
-"diwakili oleh fitur tersebut. :kbd:`IN_SWD` diturunkan darinya, dan berisi "
-"informasi tentang apakah fitur tersebut berada di Kota Swellendam (:kbd:`1` "
-"jika ya, dan :kbd:`0` jika tidak). Kita dapat menggunakan data-data ini "
-"untuk mempengaruhi style label. "
+":kbd:`CATEGORY` dan :kbd:`TOURISM`. :kbd:`CATEGORY` menunjukkan jenis lokasi "
+"tersebut. :kbd:`TOURISM` diturunkan darinya, dan berisi informasi tentang "
+"apakah fitur tersebut merupakan objek wisata atau bukan (:kbd:`1` jika ya, "
+"dan :kbd:`0` jika tidak). Kita dapat menggunakan data-data ini untuk "
+"mempengaruhi style label. "
 
 # 6ce3c707887843c9b51ee1e8fc7bd7b2
 #: ..\..\vector_classification\label_tool.rst:247
@@ -1396,7 +1393,7 @@ msgid ""
 "In the :guilabel:`Italic` dropdown, select :kbd:`IN_SWD` and click "
 ":guilabel:`Apply`."
 msgstr ""
-"Pada menu dropdown :guilabel:`Italic`,pilih :kbd:`IN_SWD`dan klik "
+"Pada menu dropdown :guilabel:`Italic`,pilih :kbd:`TOURISM`dan klik "
 ":guilabel:`Apply`."
 
 # 88985123c2d84056aad7ac82db6e9463
