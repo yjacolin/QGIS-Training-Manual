@@ -182,9 +182,9 @@ msgstr "|basic| Ikuti bersama: Merubah struktur simbol"
 #: ../../basic_map/symbology.rst:66
 msgid ""
 "This is good stuff so far, but there's more to a layer's symbology than just "
-"its color. Next we want to change the color of the farms (the :guilabel:"
-"`rural` layer), but we also want to eliminate the lines between the "
-"different farms so as to make the map less visually cluttered."
+"its color. Next we want to change the color of the farms (the "
+":guilabel:`rural` layer), but we also want to eliminate the lines between "
+"the different farms so as to make the map less visually cluttered."
 msgstr ""
 "Sejauh ini semuanya tampak bagus, namun banyak lagi yang dapat dilakukan "
 "dengan simbologi layer disamping merubah warnanya. Selanjutnya kita akan "
@@ -349,8 +349,8 @@ msgid ""
 "Open the :guilabel:`Layer Properties` dialog for the :guilabel:`streets` "
 "layer."
 msgstr ""
-"Buka kotak dialog :guilabel:`Layer Properties` untuk layer :guilabel:"
-"`Jalan_Sleman_OSM`."
+"Buka kotak dialog :guilabel:`Layer Properties` untuk layer "
+":guilabel:`Jalan_Sleman_OSM`."
 
 # e567a4da1ddc4c849bf4c9da1440efe4
 #: ../../basic_map/symbology.rst:133
@@ -360,8 +360,8 @@ msgstr "Aktifkan tab :guilabel:`General`."
 # 695c0038d91d437ba338a7c8850c05c9
 #: ../../basic_map/symbology.rst:134
 msgid ""
-"Enable scale-based rendering by clicking on the checkbox labeled :guilabel:"
-"`Use scale dependent rendering`:"
+"Enable scale-based rendering by clicking on the checkbox labeled "
+":guilabel:`Use scale dependent rendering`:"
 msgstr ""
 "Akftifkan rendering berbasis skala (*scale-based rendering*)dengan mengklik "
 "*checkbox* berlabelkan :guilabel:`Use scale dependent rendering`:"
@@ -379,12 +379,12 @@ msgstr "klik :guilabel:`OK`."
 # e0e2db45fb2a426e822af808cd609d71
 #: ../../basic_map/symbology.rst:143
 msgid ""
-"Test the effects of this by zooming in and out in your map, noting when the :"
-"guilabel:`streets` layer disappears and reappears."
+"Test the effects of this by zooming in and out in your map, noting when the "
+":guilabel:`streets` layer disappears and reappears."
 msgstr ""
 "Lakukan tes untuk melihat efek dari pengubahan ini dengan melakukan "
-"*zooming*  membesar dan mengecil pada peta Anda, dan amati saat layer :"
-"guilabel:`Jalan_Sleman_OSM`  muncul dan menghilang."
+"*zooming*  membesar dan mengecil pada peta Anda, dan amati saat layer "
+":guilabel:`Jalan_Sleman_OSM`  muncul dan menghilang."
 
 # 6fcb11f18d3141be806fe58162c8d45b
 #: ../../basic_map/symbology.rst:146
@@ -420,14 +420,14 @@ msgid ""
 "Go back to the :guilabel:`rural` layer's :guilabel:`Symbol properties` "
 "dialog as before."
 msgstr ""
-"Kembali ke kotak dialog :guilabel:`Symbol Properties` layer :guilabel:"
-"`vegetasi` seperti sebelumnya. "
+"Kembali ke kotak dialog :guilabel:`Symbol Properties` layer "
+":guilabel:`vegetasi` seperti sebelumnya. "
 
 # 945613b4dbe44b86bab9572706ce6114
 #: ../../basic_map/symbology.rst:162
 msgid ""
-"In this example, the current symbol has no outline (i.e., it uses the :"
-"guilabel:`No Pen` border style)."
+"In this example, the current symbol has no outline (i.e., it uses the "
+":guilabel:`No Pen` border style)."
 msgstr ""
 "Pada contoh ini, symbol yang diaplikasikan saat ini tidak memiliki *outline* "
 "(yaitu, ia menggunakan *border style*  :guilabel:`No Pen`)."
@@ -494,11 +494,11 @@ msgstr ""
 # 164ee8241fe9490a94eb9670e9eb18cc
 #: ../../basic_map/symbology.rst:189
 msgid ""
-"Change the fill style to something other than :guilabel:`Solid` or :guilabel:"
-"`No brush`. For example:"
+"Change the fill style to something other than :guilabel:`Solid` or "
+":guilabel:`No brush`. For example:"
 msgstr ""
-"Ubah *fill style* menjadi pilihan yang lain selain :guilabel:`Solid` atau :"
-"guilabel:`No Brush`, seperti:"
+"Ubah *fill style* menjadi pilihan yang lain selain :guilabel:`Solid` atau "
+":guilabel:`No Brush`, seperti:"
 
 # 48e163f1a85648058f48bfdd787296e4
 #: ../../basic_map/symbology.rst:195
@@ -570,9 +570,9 @@ msgid ""
 "Give the :guilabel:`streets` layer an extra symbol layer (using the methid "
 "for adding symbol layers demonstrated above)."
 msgstr ""
-"Coba untuk memberikan tambahan simbol layer pada layer :guilabel:"
-"`Jalan_Sleman_OSM` (menggunakan metode untuk menambahkan layer simbol yang "
-"ditunjukkan di atas)."
+"Coba untuk memberikan tambahan simbol layer pada layer "
+":guilabel:`Jalan_Sleman_OSM` (menggunakan metode untuk menambahkan layer "
+"simbol yang ditunjukkan di atas)."
 
 # e62259306990467da8f6a5ffd09182b9
 #: ../../basic_map/symbology.rst:226
@@ -607,8 +607,8 @@ msgstr ""
 # e76b304989c840c0aa786402c6ab32c1
 #: ../../basic_map/symbology.rst:239
 msgid ""
-"In the :guilabel:`Layer Properties` dialog, click on :menuselection:"
-"`Advanced --> Symbol levels`:"
+"In the :guilabel:`Layer Properties` dialog, click on "
+":menuselection:`Advanced --> Symbol levels`:"
 msgstr ""
 "Di kotak dialog  :guilabel:`Layer Properties`, klik :menuselection:`Advanced "
 "--> Symbol levels`:"
@@ -638,8 +638,8 @@ msgstr "Peta Anda sekarang akan tampak seperti berikut:"
 msgid ""
 "When you're done, remember to save the symbol itself so as not to lose your "
 "work if you change the symbol again in the future. You can save your current "
-"symbol style by clicking the :guilabel:`Save Style ...` button under the :"
-"guilabel:`Style` tab of the :guilabel:`Layer Properties` dialog. Save your "
+"symbol style by clicking the :guilabel:`Save Style ...` button under the "
+":guilabel:`Style` tab of the :guilabel:`Layer Properties` dialog. Save your "
 "style under :kbd:`exercise_data/styles`.  You can load a previously saved "
 "style at any time by clicking the :guilabel:`Load Style ...` button. Before "
 "you change a style, keep in mind that any unsaved style you are replacing "
@@ -648,12 +648,12 @@ msgstr ""
 "Ketika Anda selesai, ingatlah untuk menyimpan simbol itu sendiri sehingga "
 "Anda tidak kehilangan hasil pekerjaan Anda apabila Anda mengubah simbol itu "
 "lagi nantinya. Anda dapat menyimpan *style simbol* yang saat ini aktif "
-"dengan mengklik tombol :guilabel:`Save Style ...` di bawah tab :guilabel:"
-"`Style` pada kotak dialog :guilabel:`Layer Properties`. Simpan *style*  Anda "
-"pada *root directory* untuk materi ini di bawah :kbd:`data_latihan/ styles`. "
-"*Style* yang dirubah dan tidak disimpan, akan hilang. Anda dapat memanggil "
-"kembali *style* yang telah disimpan sebelumnya setiap saat dengan mengklik "
-"tombol :guilabel:`Load Style ...`."
+"dengan mengklik tombol :guilabel:`Save Style ...` di bawah tab "
+":guilabel:`Style` pada kotak dialog :guilabel:`Layer Properties`. Simpan "
+"*style*  Anda pada *root directory* untuk materi ini di bawah "
+":kbd:`data_latihan/ styles`. *Style* yang dirubah dan tidak disimpan, akan "
+"hilang. Anda dapat memanggil kembali *style* yang telah disimpan sebelumnya "
+"setiap saat dengan mengklik tombol :guilabel:`Load Style ...`."
 
 # bfd75974cd6f469480ec930a4129fee7
 #: ../../basic_map/symbology.rst:274
@@ -701,11 +701,11 @@ msgstr ""
 # 40c37dd202774aba8eef77190e6a6aad
 #: ../../basic_map/symbology.rst:295
 msgid ""
-"Apply the style :kbd:`advanced_levels_demo.qml` provided in :kbd:"
-"`exercise_data/styles`."
+"Apply the style :kbd:`advanced_levels_demo.qml` provided in "
+":kbd:`exercise_data/styles`."
 msgstr ""
-"Terapkan  :kbd:`contoh_level_lanjut.qml` yang tersedia di :kbd:`data_latihan/"
-"styles`."
+"Terapkan  :kbd:`contoh_level_lanjut.qml` yang tersedia di "
+":kbd:`data_latihan/styles`."
 
 # 00770a8822654663bb7220e2b8990a22
 #: ../../basic_map/symbology.rst:296
@@ -790,12 +790,12 @@ msgstr "Jika Anda ragu, gunakan :guilabel:`Ellipse Marker`."
 # f80a458d4e6142829720b8f2a226b539
 #: ../../basic_map/symbology.rst:334
 msgid ""
-"Choose a white outline and black fill, with a :guilabel:`symbol width` of :"
-"kbd:`2,00` and :guilabel:`symbol height` of :kbd:`4,00`."
+"Choose a white outline and black fill, with a :guilabel:`symbol width` of "
+":kbd:`2,00` and :guilabel:`symbol height` of :kbd:`4,00`."
 msgstr ""
-"Pilih garis tepi warna putih dan hitam, dengan lebar simbol ( :guilabel:"
-"`symbol width`) :kbd:`2,00` dan tinggi simbol (:guilabel:`symbol height`) :"
-"kbd:`4,00`."
+"Pilih garis tepi warna putih dan hitam, dengan lebar simbol ( "
+":guilabel:`symbol width`) :kbd:`2,00` dan tinggi simbol (:guilabel:`symbol "
+"height`) :kbd:`4,00`."
 
 # e96f627e584b4a62bebb4372bf6bf10e
 #: ../../basic_map/symbology.rst:338
@@ -813,8 +813,8 @@ msgid ""
 "Change the symbol layer type for the :guilabel:`street` layer's topmost "
 "symbol layer:"
 msgstr ""
-"ubah jenis simbol *layer* paling atas untuk layer :guilabel:"
-"`Jalan_Sleman_OSM`:"
+"ubah jenis simbol *layer* paling atas untuk layer "
+":guilabel:`Jalan_Sleman_OSM`:"
 
 # 594a9ceb5fbf41fe869070d9da244ca0
 #: ../../basic_map/symbology.rst:348
@@ -1058,11 +1058,11 @@ msgstr ""
 # 5029bb2291904d72951189297fa2d19d
 #: ../../basic_map/symbology.rst:458
 msgid ""
-"Save it under the directory that the course is in, under :kbd:`exercise_data/"
-"symbols`, as an SVG file."
+"Save it under the directory that the course is in, under "
+":kbd:`exercise_data/symbols`, as an SVG file."
 msgstr ""
-"Simpan di dalam direktori yang di dalamnya terdapat  latihan, di dalam :kbd:"
-"`exercise_data/symbols`, sebagai file SVG."
+"Simpan di dalam direktori yang di dalamnya terdapat  latihan, di dalam "
+":kbd:`exercise_data/symbols`, sebagai file SVG."
 
 # 5d77ecb2d2184efd81f22ba501aac91f
 #: ../../basic_map/symbology.rst:461
@@ -1120,11 +1120,11 @@ msgstr "Bacaan lebih lanjut"
 # e0bbbb63f07749e0aebf954c0a91cdab
 #: ../../basic_map/symbology.rst:494
 msgid ""
-"`Examples of Beautiful Maps <http://gis.stackexchange.com/questions/3083/"
-"examples-of-beautiful-maps>`_"
+"`Examples of Beautiful Maps "
+"<http://gis.stackexchange.com/questions/3083/examples-of-beautiful-maps>`_"
 msgstr ""
-"Contoh peta-peta yang indah dapat dilihat di http://gis.stackexchange.com/"
-"questions/3083/examples-of-beautiful-maps"
+"Contoh peta-peta yang indah dapat dilihat di "
+"http://gis.stackexchange.com/questions/3083/examples-of-beautiful-maps"
 
 # e88871878e21479480a0614b0441ecaf
 # a7da21b94bda41d8a952deb2dfa4e901
@@ -1189,12 +1189,7 @@ msgid "|basic| |FA| Viewing layer attributes"
 msgstr "|basic| Ikuti bersama: Menampilkan atribut layer"
 
 # 8573fa07fa814c3f83cdfd2e1def8667
-<<<<<<< HEAD
-#: ..\..\basic_map\vector_data.rst:15
-#, fuzzy
-=======
 #: ../../basic_map/vector_data.rst:15
->>>>>>> d7369c22858b2d5cf3ce12994a5213ebb07f5e0a
 msgid ""
 "It's important to know that the data you will be working with does not only "
 "represent **where** objects are in space, but also tells you **what** those "
@@ -1312,9 +1307,9 @@ msgstr "|basic| Ikuti bersama: Memuat data vektor dari *database*"
 msgid ""
 "Databases allow you to store a large volume of associated data in one file. "
 "You may already be familiar with a database management system (DBMS) such as "
-"Microsoft Access. GIS applications can also make use of databases. GIS-"
-"specific DBMSes (such as PostGIS) have extra functions, because they need to "
-"handle spatial data."
+"Microsoft Access. GIS applications can also make use of databases. "
+"GIS-specific DBMSes (such as PostGIS) have extra functions, because they "
+"need to handle spatial data."
 msgstr ""
 "Database memungkinkan Anda untuk menyimpan data yang saling berhubungan "
 "dalam jumlah besar pada sebuah file. Anda mungkin sudah akrab dengan Sistem "
@@ -1334,8 +1329,8 @@ msgid ""
 "(If you're sure you can't see it at all, check that the :guilabel:`Manage "
 "Layers` toolbar is enabled.)"
 msgstr ""
-"(Jika Anda Anda tidak bisa menemukannya, periksa bahwa toolbar  :guilabel:"
-"`Manage layers` sudah diaktifkan.) "
+"(Jika Anda Anda tidak bisa menemukannya, periksa bahwa toolbar  "
+":guilabel:`Manage layers` sudah diaktifkan.) "
 
 # 046e21f361244e019535402999bcbeff
 #: ../../basic_map/vector_data.rst:81
@@ -1350,11 +1345,11 @@ msgstr "Pada kotak dialog ini, klik tombol :guilabel:`New`."
 # 73c63e588fed4c2b9e951b16f212e4f1
 #: ../../basic_map/vector_data.rst:84
 msgid ""
-"In the same folder as the other data, you should find the file :guilabel:"
-"`land_use.db`. Select it and click :guilabel:`Open`."
+"In the same folder as the other data, you should find the file "
+":guilabel:`land_use.db`. Select it and click :guilabel:`Open`."
 msgstr ""
-"Dalam folder yang sama dengan data lain, carilah file :guilabel:`guna_lahan."
-"db`. Pilih file tersebut dan klik  :guilabel:`Open`."
+"Dalam folder yang sama dengan data lain, carilah file "
+":guilabel:`guna_lahan.db`. Pilih file tersebut dan klik  :guilabel:`Open`."
 
 # ae04fd4bb72d455dbc08d53770725268
 #: ../../basic_map/vector_data.rst:87
@@ -1382,8 +1377,8 @@ msgid ""
 "Click on the first layer to select it, then use :kbd:`shift+click` to select "
 "all of them at once."
 msgstr ""
-"Klik pada layer pertama untuk memilihnya, kemudian gunakan :kbd:`shift"
-"+click` untuk memilih semuanya sekaligus."
+"Klik pada layer pertama untuk memilihnya, kemudian gunakan "
+":kbd:`shift+click` untuk memilih semuanya sekaligus."
 
 # 0eb96a0857134a979b6f7388125dbf08
 #: ../../basic_map/vector_data.rst:99
@@ -1466,9 +1461,8 @@ msgid ""
 "... would result in roads and places being hidden as they run *underneath* "
 "urban areas."
 msgstr ""
-"... akan mengakibatkan *layer*-*layer* jalan (*Streets*) dan titik-titik "
-"lokasi (*Places*) menjadi tersembunyi ketika mereka berada di bawah *layer* "
-"pemukiman."
+"... akan mengakibatkan *layer*-*layer* jalan dan titik-titik lokasi menjadi "
+"tersembunyi ketika mereka berada di bawah *layer* pemukiman."
 
 # 8d580efcf5d34c8e93054638bfb6f1fe
 #: ../../basic_map/vector_data.rst:134

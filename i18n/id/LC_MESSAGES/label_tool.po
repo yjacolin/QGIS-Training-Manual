@@ -16,6 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Language: id\n"
 
 # 71b1bb42051d4c9fb326f939a2f7927a
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:2
@@ -37,8 +38,8 @@ msgid ""
 "but for this example we will not be using it. It has too few options and may "
 "be difficult to work with, which is why it will probably be taken out of new "
 "versions of QGIS (after 1.8). Instead, for this lesson we'll use the "
-"separate :guilabel:`Label tool`, which has more options and is more user-"
-"friendly."
+"separate :guilabel:`Label tool`, which has more options and is more "
+"user-friendly."
 msgstr ""
 
 # b9ec97f0061049d8b9556263cbb598d8
@@ -154,8 +155,8 @@ msgstr ""
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:77
 msgid ""
 "That's the font problem solved! Now let's look at the problem of the labels "
-"overlapping the points, but before we do that, let's take a look at the :"
-"guilabel:`Buffer` option."
+"overlapping the points, but before we do that, let's take a look at the "
+":guilabel:`Buffer` option."
 msgstr ""
 
 # ee8a107fab7347a5a8b7513019e59168
@@ -256,8 +257,8 @@ msgstr ""
 # a92e1cdae08240029b2180de14716acf
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:131
 msgid ""
-"Open the :guilabel:`Layer labeling settings` dialog for the :guilabel:"
-"`places` layer."
+"Open the :guilabel:`Layer labeling settings` dialog for the "
+":guilabel:`places` layer."
 msgstr ""
 
 # 052d7ae683aa416f9e8572b209df93df
@@ -353,8 +354,8 @@ msgstr ""
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:186
 msgid ""
 "Activate labels for the :guilabel:`streets` layer as before. (Remember to "
-"use the :guilabel:`Label tool` on the toolbar, not the one in :guilabel:"
-"`Label Properties`!)"
+"use the :guilabel:`Label tool` on the toolbar, not the one in "
+":guilabel:`Label Properties`!)"
 msgstr ""
 
 # 9cd4cafbb5874a82b4f583e1a580731d
@@ -413,8 +414,8 @@ msgstr ""
 # c9d8df2812a44330b3c2e567b196fe4c
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:216
 msgid ""
-"Try out different :guilabel:`Placement` settings as well (also under the :"
-"guilabel:`Advanced` tab). As we've seen before, the :guilabel:`horizontal` "
+"Try out different :guilabel:`Placement` settings as well (also under the "
+":guilabel:`Advanced` tab). As we've seen before, the :guilabel:`horizontal` "
 "option is not a good idea in this case, so let's try the :guilabel:`curved` "
 "option instead!"
 msgstr ""
@@ -465,11 +466,11 @@ msgstr ""
 # 57e9d10547444467b84624ee1af6fb3c
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:241
 msgid ""
-"It has two fields that are of interest to us now: :kbd:`ADDR_CITY` and :kbd:"
-"`IN_SWD`. :kbd:`ADDR_CITY` is the city that the feature is in. :kbd:`IN_SWD` "
-"is derived from it, and tells you whether or not that feature is in "
-"Swellendam (:kbd:`1` if it is, :kbd:`0` if not). We can use this data to "
-"influence the label styles."
+"It has two fields that are of interest to us now: :kbd:`ADDR_CITY` and "
+":kbd:`IN_SWD`. :kbd:`ADDR_CITY` is the city that the feature is in. "
+":kbd:`IN_SWD` is derived from it, and tells you whether or not that feature "
+"is in Swellendam (:kbd:`1` if it is, :kbd:`0` if not). We can use this data "
+"to influence the label styles."
 msgstr ""
 
 # 7d3a2dd6e4a746fb9c344b3bc30dce6f
@@ -480,8 +481,8 @@ msgstr ""
 # 2dd4cc6211ac458bb018258aa8f684ed
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:248
 msgid ""
-"In the :guilabel:`Italic` dropdown, select :kbd:`IN_SWD` and click :guilabel:"
-"`Apply`."
+"In the :guilabel:`Italic` dropdown, select :kbd:`IN_SWD` and click "
+":guilabel:`Apply`."
 msgstr ""
 
 # e4e7235cc245473ab2e6cd5c23e19bc3
@@ -540,13 +541,13 @@ msgstr ""
 # 5e6d925159fa4ffaafe37caf2eefc5d3
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:293
 msgid ""
-"We can't cover every option in this course, but be aware that the :guilabel:"
-"`Label tool` has many other useful functions. You can set scale-based "
-"rendering, alter the rendering priority for labels in a layer, and set every "
-"label option using layer attributes. You can even set the rotation, XY "
-"position, and other properties of a label (if you have attribute fields "
-"allocated for the purpose), then edit these properties using the tools "
-"adjacent to the main :guilabel:`Label tool`:"
+"We can't cover every option in this course, but be aware that the "
+":guilabel:`Label tool` has many other useful functions. You can set "
+"scale-based rendering, alter the rendering priority for labels in a layer, "
+"and set every label option using layer attributes. You can even set the "
+"rotation, XY position, and other properties of a label (if you have "
+"attribute fields allocated for the purpose), then edit these properties "
+"using the tools adjacent to the main :guilabel:`Label tool`:"
 msgstr ""
 
 # 37d676956b9f4d1c982484304ef3a2cc

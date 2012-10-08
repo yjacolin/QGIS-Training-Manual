@@ -373,16 +373,10 @@ msgstr ""
 # 0ad08c53b55a4039b6a8d2f15b1b7eb6
 # 8443ab76dbeb4b95a34446fa306077ff
 # c7a3f4179e9b4624b95cf9b769f74741
-<<<<<<< HEAD
-#: ..\..\postgis\geometry.rst:315 ..\..\postgis\import_export.rst:91
-#: ..\..\postgis\simple_feature_model.rst:251
-#: ..\..\postgis\spatial_functions.rst:243 ..\..\postgis\spatial_queries.rst:392
-=======
 #: ../../postgis/geometry.rst:315 ../../postgis/import_export.rst:91
 #: ../../postgis/simple_feature_model.rst:251
 #: ../../postgis/spatial_functions.rst:243
 #: ../../postgis/spatial_queries.rst:392
->>>>>>> d7369c22858b2d5cf3ce12994a5213ebb07f5e0a
 msgid "|IC|"
 msgstr "Kesimpulan"
 
@@ -558,16 +552,10 @@ msgstr ""
 # b65536830c104ef887c47948b60a8ac2
 # e44bf30e6eaa49a9bf6dbe637856511c
 # 673cc41ccb8d43cba99373ff86940d73
-<<<<<<< HEAD
-#: ..\..\postgis\import_export.rst:98
-#: ..\..\postgis\simple_feature_model.rst:257
-#: ..\..\postgis\spatial_functions.rst:249 ..\..\postgis\spatial_queries.rst:398
-=======
 #: ../../postgis/import_export.rst:98
 #: ../../postgis/simple_feature_model.rst:257
 #: ../../postgis/spatial_functions.rst:249
 #: ../../postgis/spatial_queries.rst:398
->>>>>>> d7369c22858b2d5cf3ce12994a5213ebb07f5e0a
 msgid "|WN|"
 msgstr "Apa Selanjutnya?"
 
@@ -1277,18 +1265,11 @@ msgstr "Jadi mari kita mencoba dengan:"
 # bd78006f67024ce8be5686856b58f798
 # f7638b5a6d0a454895041f98ab493fb8
 # 1914dd3caac94e75aa2682d96ffb6805
-<<<<<<< HEAD
-#: ..\..\postgis\spatial_functions.rst:185
-#: ..\..\postgis\spatial_functions.rst:219 ..\..\postgis\spatial_queries.rst:25
-#: ..\..\postgis\spatial_queries.rst:58 ..\..\postgis\spatial_queries.rst:179
-#: ..\..\postgis\spatial_queries.rst:219 ..\..\postgis\spatial_queries.rst:320
-=======
 #: ../../postgis/spatial_functions.rst:185
 #: ../../postgis/spatial_functions.rst:219
 #: ../../postgis/spatial_queries.rst:25 ../../postgis/spatial_queries.rst:58
 #: ../../postgis/spatial_queries.rst:179 ../../postgis/spatial_queries.rst:219
 #: ../../postgis/spatial_queries.rst:320
->>>>>>> d7369c22858b2d5cf3ce12994a5213ebb07f5e0a
 msgid "Result:"
 msgstr "Hasil:"
 
