@@ -124,7 +124,7 @@ Let's say you want to get from Barrydale to Bonnievale:
    :align: center
 
 * Call this new column :kbd:`SPEED`, and give it the type :guilabel:`Whole
-  integer (number)` with a width of :kbd:`3`.
+  number (integer)` with a width of :kbd:`3`.
 * In the main window, activate the :guilabel:`Select Features by Rectangle`
   tool:
 
@@ -156,7 +156,8 @@ In context, this means that you're setting the speed limit on those roads to
 * Set the :kbd:`SPEED` value for all the selected streets to :kbd:`120`.
 * Close the attribute table, save your edits, and exit edit mode.
 * Check the :menuselection:`Vector --> Road graph --> Road graph settings` to
-  ensure that it's set up as explained previously in this lesson.
+  ensure that it's set up as explained previously in this lesson, but with the
+  :guilabel:`Speed` value set to the :kbd:`SPEED` field you just created.
 * In the :guilabel:`Shortest path` panel, click the :guilabel:`Start point`
   button.
 * Set the starting point to where the dirt road meets the on/off-rqamp at the
