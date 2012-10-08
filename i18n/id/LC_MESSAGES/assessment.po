@@ -150,9 +150,9 @@ msgstr ""
 # 0215fd010be34ff298ee7b050e64e102
 #: ..\..\assessment\index.rst:43
 msgid ""
-"For features that aren't located at a single point (for example, provincial/"
-"regional names, or town names at a large scale), don't assign any point at "
-"all."
+"For features that aren't located at a single point (for example, "
+"provincial/regional names, or town names at a large scale), don't assign any "
+"point at all."
 msgstr ""
 "Untuk fitur  yang tidak terletak pada satu titik (misalnya, provinsi / nama "
 "daerah, atau nama kota pada skala besar), tidak perlu dilakukan perubahan "

@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -208,12 +209,11 @@ msgid ""
 "previous lesson. (We want to be able to calculate distances in meters and "
 "areas in hectares, not in degrees.)"
 msgstr ""
-"layer-layer itu mungkin sudah familiar. layer-layer tersebut "
-"merupakan data yang sama yang telah kita gunakan selama ini, yang sekarang "
-"sudah dalam Sistem Koordinat Proyeksi. Hal ini diperlukan untuk analisis, "
-"untuk alasan yang sudah kita bahas pada pelajaran sebelumnya. (Kita ingin "
-"dapat menghitung jarak dalam meter dan luas dalam hektar, bukan dalam "
-"derajat.)"
+"layer-layer itu mungkin sudah familiar. layer-layer tersebut merupakan data "
+"yang sama yang telah kita gunakan selama ini, yang sekarang sudah dalam "
+"Sistem Koordinat Proyeksi. Hal ini diperlukan untuk analisis, untuk alasan "
+"yang sudah kita bahas pada pelajaran sebelumnya. (Kita ingin dapat "
+"menghitung jarak dalam meter dan luas dalam hektar, bukan dalam derajat.)"
 
 # b5bcda8cd0e24e228115885ecf2a10e8
 #: ..\..\vector_analysis\basic_analysis.rst:71
@@ -235,8 +235,8 @@ msgid ""
 "Give them the new, less messy names :kbd:`roads`, :kbd:`schools` and "
 ":kbd:`farms`."
 msgstr ""
-"Beri nama baru untuk layer-layer tersebut, :kbd:`roads`, :kbd:`schools` "
-"dan :kbd:`farms`."
+"Beri nama baru untuk layer-layer tersebut, :kbd:`roads`, :kbd:`schools` dan "
+":kbd:`farms`."
 
 # 3d67bba0c0fa4ce69f4f5ccb4e6de5ee
 #: ..\..\vector_analysis\basic_analysis.rst:77
@@ -283,8 +283,7 @@ msgstr ""
 #: ..\..\vector_analysis\basic_analysis.rst:91
 msgid ""
 "Right-click on the :guilabel:`farms` layer in the :guilabel:`Layers list`."
-msgstr ""
-"Klik kanan pada layer :guilabel:`farms` dalam :guilabel:`Layers list`."
+msgstr "Klik kanan pada layer :guilabel:`farms` dalam :guilabel:`Layers list`."
 
 # cdcbe381a0cb4ca9968c18aeed9c02e9
 #: ..\..\vector_analysis\basic_analysis.rst:92
@@ -340,8 +339,7 @@ msgstr ""
 # 65357d9a3224482c9aa3f9db986cd408
 #: ..\..\vector_analysis\basic_analysis.rst:111
 msgid "The word :kbd:`\"TOWN\"` has appeared! To build the rest of the query:"
-msgstr ""
-"Kata :kbd:`\"TOWN\"` telah muncul. Untuk membangun query selanjutnya:"
+msgstr "Kata :kbd:`\"TOWN\"` telah muncul. Untuk membangun query selanjutnya:"
 
 # 87a6e608cc6d40d2b9ca83edd78481b0
 #: ..\..\vector_analysis\basic_analysis.rst:113
@@ -371,8 +369,8 @@ msgid ""
 "For further analysis, it's better if we've got these farms as a separate "
 "layer."
 msgstr ""
-"Untuk analisis lebih lanjut, kita akan menjadikan layer farms sebagai "
-"layer yang terpisah."
+"Untuk analisis lebih lanjut, kita akan menjadikan layer farms sebagai layer "
+"yang terpisah."
 
 # 6094602e970c4f3985bd580031289316
 #: ..\..\vector_analysis\basic_analysis.rst:128
@@ -396,9 +394,8 @@ msgid ""
 "Save the layer under :kbd:`exercise_data/residential_development/`, as "
 ":kbd:`swellendam_farms.shp`."
 msgstr ""
-"Simpan layer di dalam folder  "
-":kbd:`exercise_data/residential_development/`, sebagai "
-":kbd:`swellendam_farms.shp`."
+"Simpan layer di dalam folder  :kbd:`exercise_data/residential_development/`, "
+"sebagai :kbd:`swellendam_farms.shp`."
 
 # 07888e2e89e54aac8e482fee50a1f5d8
 #: ..\..\vector_analysis\basic_analysis.rst:133
@@ -646,8 +643,8 @@ msgid ""
 "road! That's not nice. Remove that layer and let's try again:"
 msgstr ""
 "Jika dilihat lebih dekat, tampilan di atas seperti gabungan antara "
-"bagian-bagian jalan. Secara visual, hal ini tidak baik. Hapus layer "
-"tersebut dan coba lagi:"
+"bagian-bagian jalan. Secara visual, hal ini tidak baik. Hapus layer tersebut "
+"dan coba lagi:"
 
 # dfa07071cf78438b8b3a83757ec863ff
 #: ..\..\vector_analysis\basic_analysis.rst:227
@@ -736,11 +733,10 @@ msgid ""
 "like this, click :guilabel:`OK` and add the layer to the :guilabel:`Layers "
 "list` when prompted."
 msgstr ""
-"Kedua layer masukan adalah hasil buffer; simpan di lokasi sebagaimana "
-"biasa, beri nama filenya sebagai "
-":kbd:`road_school_buffers_intersect.shp`.Setelah dilakukan pengaturan "
-"seperti ini, klik :guilabel:`OK`dan tambahkan layer ke :guilabel:`Layers "
-"list` ketika diminta."
+"Kedua layer masukan adalah hasil buffer; simpan di lokasi sebagaimana biasa, "
+"beri nama filenya sebagai :kbd:`road_school_buffers_intersect.shp`.Setelah "
+"dilakukan pengaturan seperti ini, klik :guilabel:`OK`dan tambahkan layer ke "
+":guilabel:`Layers list` ketika diminta."
 
 # 3564a6e35a394327ba0eb87b6f8cd8ae
 #: ..\..\vector_analysis\basic_analysis.rst:269
@@ -1273,8 +1269,8 @@ msgid ""
 "on the road layer:"
 msgstr ""
 "Pilih jalan yang hanya memenuhi kategori  :kbd:`trunk`, :kbd:`primary` atau  "
-":kbd:`tertiary`dengan menjalankan query untuk menyeleksi atribut pada "
-"layer road:"
+":kbd:`tertiary`dengan menjalankan query untuk menyeleksi atribut pada layer "
+"road:"
 
 # 6dbb86088fe6456aa42ea6b2bdb84c17
 #: ..\..\vector_analysis\network_analysis.rst:110
@@ -1800,8 +1796,8 @@ msgid ""
 "Add another vector layer to your map which has the data for South Africa "
 "only.  You'll find it as :kbd:`exercise_data/world/RSA.shp`."
 msgstr ""
-"Tambahkan satu layer vektor pada peta Anda yang memiliki data Afrika "
-"Selatan saja. Anda akan menemukannya di dalam direktori "
+"Tambahkan satu layer vektor pada peta Anda yang memiliki data Afrika Selatan "
+"saja. Anda akan menemukannya di dalam direktori "
 ":kbd:`exercise_data/world/RSA.shp`."
 
 # 5163f4c13f914f01956496029b3481cc
@@ -1813,8 +1809,8 @@ msgstr "Apa yang Anda perhatikan?"
 #: ..\..\vector_analysis\reproject_transform.rst:86
 msgid "The layer isn't visible! But that's easy to fix, right?"
 msgstr ""
-"layer tersebut tidak terlihat! Untuk membuat layer tersebut terlihat "
-"cukup mudah?"
+"layer tersebut tidak terlihat! Untuk membuat layer tersebut terlihat cukup "
+"mudah?"
 
 # fa818112c9d04c03a564ce50768fd856
 #: ..\..\vector_analysis\reproject_transform.rst:88
@@ -1844,14 +1840,13 @@ msgid ""
 "away from the equator. But in the :guilabel:`continents` dataset, that same "
 "point is about :kbd:`33.9` degrees away from the equator."
 msgstr ""
-"Kita dapat memperbesar dua layer, tapi kita tidak bisa melihat kedua "
-"layer tersebut bersamaan. Penyebabnya adalah Sistem Koordinat Referensi "
-"yang berbeda. *dataset* :guilabel:`continents` adalah dalam system "
-"*derajat*, tetapi *dataset* :guilabel:`RSA` adalah dalam *meter*. Sebuah "
-"titik di Cape Town dalam *dataset* :guilabel:`RSA` berjarak sekitar :kbd:`4 "
-"100 000` meter dari katulistiwa. Namun dalam *dataset* "
-":guilabel:`continents`, titik yang sama adalah terletak sekitar :kbd:`33.9` "
-"derajat dari katulistiwa."
+"Kita dapat memperbesar dua layer, tapi kita tidak bisa melihat kedua layer "
+"tersebut bersamaan. Penyebabnya adalah Sistem Koordinat Referensi yang "
+"berbeda. *dataset* :guilabel:`continents` adalah dalam system *derajat*, "
+"tetapi *dataset* :guilabel:`RSA` adalah dalam *meter*. Sebuah titik di Cape "
+"Town dalam *dataset* :guilabel:`RSA` berjarak sekitar :kbd:`4 100 000` meter "
+"dari katulistiwa. Namun dalam *dataset* :guilabel:`continents`, titik yang "
+"sama adalah terletak sekitar :kbd:`33.9` derajat dari katulistiwa."
 
 # 00cbfdab17414362a61f0c48f7ede718
 #: ..\..\vector_analysis\reproject_transform.rst:101
@@ -1983,8 +1978,7 @@ msgstr ""
 #: ..\..\vector_analysis\reproject_transform.rst:149
 msgid ""
 "Right-click on the :guilabel:`rural` layer in the :guilabel:`Layers list`."
-msgstr ""
-"Klik kanan pada layer :guilabel:`rural` dalam :guilabel:`Layers list`."
+msgstr "Klik kanan pada layer :guilabel:`rural` dalam :guilabel:`Layers list`."
 
 # b159c548feed47679a57bb8da8e77872
 #: ..\..\vector_analysis\reproject_transform.rst:150
@@ -2651,8 +2645,8 @@ msgid ""
 "In order to compare layers using statistical tools, a layer needs to have a "
 "unique ID field. Let's create one for your :guilabel:`random_samples` layer."
 msgstr ""
-"Untuk membandingkan layer menggunakan tool statistik, layer perlu "
-"memiliki field ID yang unik. Mari kita membuat satu ID untuk layer "
+"Untuk membandingkan layer menggunakan tool statistik, layer perlu memiliki "
+"field ID yang unik. Mari kita membuat satu ID untuk layer "
 ":guilabel:`random_samples`."
 
 # 91673a5990794e09afafa8d6b3e15d0b
@@ -2787,8 +2781,8 @@ msgid ""
 "In the dialog that appears, specify :guilabel:`random_samples` as the input "
 "layer, but leave the optional choices unchanged."
 msgstr ""
-"Pada dialog akan muncul , tentukan :guilabel:`random_samples` sebagai "
-"layer input, biarkan pilihan opsional yang lain tidak berubah."
+"Pada dialog akan muncul , tentukan :guilabel:`random_samples` sebagai layer "
+"input, biarkan pilihan opsional yang lain tidak berubah."
 
 # f69914d733644a4189658d5a31429b79
 #: ..\..\vector_analysis\spatial_statistics.rst:216
@@ -2835,8 +2829,7 @@ msgstr "Simpan hasilnya sebagai :kbd:`center_point`."
 # d23534463b724c85bc60a3255ff95e15
 #: ..\..\vector_analysis\spatial_statistics.rst:227
 msgid "Add it to the :guilabel:`Layers list` when prompted."
-msgstr ""
-"Tambahkan layer tersebut dalam :guilabel:`layers list`ketika diminta."
+msgstr "Tambahkan layer tersebut dalam :guilabel:`layers list`ketika diminta."
 
 # 876cf5d36e8e4724aade2ccf36748dda
 #: ..\..\vector_analysis\spatial_statistics.rst:229
@@ -3096,10 +3089,10 @@ msgid ""
 "beyond its edges. This is a much better representation of the terrain, due "
 "to the much greater density of sample points."
 msgstr ""
-"Garis hijau menunjukan layer :guilabel:`roads_hull` ( yang "
-"merepresentasikan batas dari titik-titik sampel acak) untuk menjelaskan "
-"kurangnya detail luar tepinya. Representasi tersebut jauh lebih baik untuk "
-"terain, karena kepadatan titik-titik sampel yang jauh lebih besar."
+"Garis hijau menunjukan layer :guilabel:`roads_hull` ( yang merepresentasikan "
+"batas dari titik-titik sampel acak) untuk menjelaskan kurangnya detail luar "
+"tepinya. Representasi tersebut jauh lebih baik untuk terain, karena "
+"kepadatan titik-titik sampel yang jauh lebih besar."
 
 # 0275c52b8f0c44bdb18c6b5c48dabb11
 #: ..\..\vector_analysis\spatial_statistics.rst:326

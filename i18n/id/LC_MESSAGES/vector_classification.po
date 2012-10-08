@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -214,7 +215,7 @@ msgid ""
 "Click the arrow (or plus sign) next to :guilabel:`rural` in the "
 ":guilabel:`Layer list`, you'll see the categories explained:"
 msgstr ""
-"Klik pada tanda panah (atau tanda plus) disamping :guilabel:`rural` pada "
+"Klik pada tanda panah (atau tanda plus) disamping :guilabel:`vegetasi` pada "
 ":guilabel:`Layer list`, Anda akan melihat kategori tersebut dijelaskan "
 "sebagai :"
 
@@ -306,8 +307,8 @@ msgstr "Hasilnya adalah peta yang lebih baik :"
 #: ..\..\vector_classification\classification.rst:93
 msgid "(Only :guilabel:`rural` and :guilabel:`water` are switched on here.)"
 msgstr ""
-"(Hanya :guilabel:`rural` dan :guilabel:`water` yang diaktikan pada contoh "
-"ini)"
+"(Hanya :guilabel:`vegetasi` dan :guilabel:`tubuh_air` yang diaktikan pada "
+"contoh ini)"
 
 # 0765cf3b3e36492d8abea9c4ed7f45ae
 #: ..\..\vector_classification\classification.rst:95
@@ -355,8 +356,8 @@ msgid ""
 "set them apart from the farms."
 msgstr ""
 "Jika Anda hanya mengikuti materi-materi tingkat dasar, gunakan pengetahuan "
-"Anda di atas untuk mengklasifikasikan area :guilabel:`urban`. Gunakan warna "
-"yang lebih gelap untuk membedakannya dari area pertanian."
+"Anda di atas untuk mengklasifikasikan area :guilabel:`pemukiman`. Gunakan "
+"warna yang lebih gelap untuk membedakannya dari vegetasi."
 
 # 3114984e397b4a70acd77dc1bc53b3a8
 #: ..\..\vector_classification\classification.rst:117
@@ -438,7 +439,7 @@ msgid ""
 "Save your rural symbology (if you want to keep it) by clicking on the "
 ":guilabel:`Save Style ...` button in the :guilabel:`Style` dialog."
 msgstr ""
-"Simpan simbologi rural Anda (jika Anda ingin menyimpannya) dengan cara "
+"Simpan simbologi vegetasi Anda (jika Anda ingin menyimpannya) dengan cara "
 "mengklik tombol :guilabel:`Save Style ...` pada kotak dialog "
 ":guilabel:`Style`."
 
@@ -459,7 +460,7 @@ msgstr "Tutup kotak dialog :guilabel:`Style`."
 # da6d3282e59a4599a31a892a9fa525e1
 #: ..\..\vector_classification\classification.rst:149
 msgid "Open the layer attributes for the :guilabel:`rural` layer."
-msgstr "Buka atribut untuk layer :guilabel:`rural`."
+msgstr "Buka atribut untuk layer :guilabel:`vegetasi`."
 
 # d43f72e1cda1420f820b9bb3acadc284
 #: ..\..\vector_classification\classification.rst:151
@@ -686,7 +687,8 @@ msgstr ""
 msgid ""
 "Open the :guilabel:`Layer Properties` dialog for the :guilabel:`rural` layer."
 msgstr ""
-"Buka kotak dialog :guilabel:`Layer Properties` untuk layer :guilabel:`rural`."
+"Buka kotak dialog :guilabel:`Layer Properties` untuk layer "
+":guilabel:`vegetasi`."
 
 # 5bbebc36cf874acfbd2f7914589ccdaf
 #: ..\..\vector_classification\classification.rst:276
@@ -726,14 +728,13 @@ msgid ""
 "Using the query builder that appears, enter the criterion :kbd:`AREA >= "
 "0.00085` and choose a dark color for it."
 msgstr ""
-"Dengan menggunakan Query Builder, masukkan kriteria :kbd:`AREA >= 0.00085` "
-"dan pilih warna yang gelap."
+"Dengan menggunakan Query Builder, masukkan kriteria :kbd:`LUAS >= 1000` dan "
+"pilih warna yang gelap."
 
 # f4ef48a1455649ba8be41de58056683c
 #: ..\..\vector_classification\classification.rst:287
 msgid "Add the criterion :kbd:`AREA <= 0.00085` and choose a light color."
-msgstr ""
-"Tambahkan kriteria :kbd:`AREA <= 0.00085`  dan pilih warna yang terang."
+msgstr "Tambahkan kriteria :kbd:`LUAS <= 1000`  dan pilih warna yang terang."
 
 # 8fd669d3889645d2ae11fab91d5a368c
 #: ..\..\vector_classification\classification.rst:288
@@ -741,8 +742,8 @@ msgid ""
 "Add the criterion :kbd:`TOWN != 'Swellendam Rural'` and assign it the color "
 "black, with transparency at :kbd:`85%`."
 msgstr ""
-"Tambahkan kriteria :kbd:`TOWN != 'Swellendam Rural'` dan berikan warna "
-"hitam, dengan transparansi :kbd:`85%`."
+"Tambahkan kriteria :kbd:`PL_T2 != 'Hutan'` dan berikan warna hitam, dengan "
+"transparansi :kbd:`85%`."
 
 # 9e73790cfc974b22a230654690d4f794
 #: ..\..\vector_classification\classification.rst:290
@@ -774,8 +775,8 @@ msgid ""
 "Now you have two area classes, with the farms in the Swellendam Rural area "
 "emphasized."
 msgstr ""
-"Sekarang Anda mempunyai dua kelas area, dengan penekanan pada area pertanian "
-"di daerah rural Swellendam."
+"Sekarang Anda mempunyai dua kelas area, dengan penekanan pada penggunaan "
+"lahan berupa Hutan."
 
 # a356161ff2ca4226b991f1bf3776bbab
 #: ..\..\vector_classification\classification.rst:311

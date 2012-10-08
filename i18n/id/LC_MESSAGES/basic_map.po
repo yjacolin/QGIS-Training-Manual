@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -141,7 +142,7 @@ msgstr "Dialog standar warna akan muncul."
 # 1512c807144b4f31a0c6ac86746dce17
 #: ..\..\basic_map\symbology.rst:45
 msgid "Choose a grey color and click :guilabel:`OK`."
-msgstr "Pilih warna abu-abu dan klik  :guilabel:`OK`. "
+msgstr "Pilih warna abu-abu dan klik  :guilabel:`OK`."
 
 # b0682f4d120e4decbfc1372efb6d7558
 #: ..\..\basic_map\symbology.rst:46
@@ -1189,13 +1190,14 @@ msgstr "|basic| Ikuti bersama: Menampilkan atribut layer"
 
 # 8573fa07fa814c3f83cdfd2e1def8667
 #: ..\..\basic_map\vector_data.rst:15
+#, fuzzy
 msgid ""
 "It's important to know that the data you will be working with does not only "
 "represent **where** objects are in space, but also tells you **what** those "
 "objects are."
 msgstr ""
 "Sangat penting untuk mengetahui bahwa data yang akan digunakan dalam bekerja "
-"tidak hanya merepresentasikan lokasi (**where**)i obyek dalam ruang, tetapi "
+"tidak hanya merepresentasikan lokasi (**where**) obyek dalam ruang, tetapi "
 "juga memberitahu Anda tentang apa (**what**) obyek tersebut."
 
 # e5a63032f30b4ebd9ff56b92371e4f2a

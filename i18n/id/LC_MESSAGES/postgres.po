@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -51,8 +52,8 @@ msgid ""
 "How do you add data to a table? The sql :kbd:`INSERT` statement provides the "
 "functionality for this:"
 msgstr ""
-"Bagaimana cara Anda menambahkan data ke dalam tabel? Pernyataan sql :kbd:"
-"`INSERT` memenuhi maksud : tersebut:"
+"Bagaimana cara Anda menambahkan data ke dalam tabel? Pernyataan sql "
+":kbd:`INSERT` memenuhi maksud : tersebut:"
 
 # 8ebca29bcb174b54af032c6a2401cc0b
 #: ..\..\postgres\adding_data.rst:20
@@ -126,8 +127,8 @@ msgid ""
 "Use the :kbd:`INSERT` command to add a new street to the :kbd:`streets` "
 "table."
 msgstr ""
-"Gunakan perintah :kbd:`INSERT` untuk menambahkan jalan baru ke dalam tabel :"
-"kbd:`streets`."
+"Gunakan perintah :kbd:`INSERT` untuk menambahkan jalan baru ke dalam tabel "
+":kbd:`streets`."
 
 # 9445af44391249d1ba7e35402df27c53
 #: ..\..\postgres\adding_data.rst:54
@@ -212,11 +213,12 @@ msgid ""
 "of :kbd:`2`."
 msgstr ""
 "Jika Anda melihat tabel *streets* sekali lagi (menggunakan pernyataan "
-"**SELECT** sebelumnya), Anda akan melihat bahwa :kbd:`id` untuk entri :kbd:"
-"`Main Street` adalah :kbd:`2`. Itulah mengapa kita hanya bisa memasukkan "
-"nilai numeris :kbd:`2` di atas. Meskipun kita tidak melihat :kbd:`Main "
-"Street` ditampilkan sepenuhnya dalam entri di atas, basisdata akan dapat "
-"menghubungkannya menggunakan nilai :kbd:`street_id` yaitu :kbd:`2`."
+"**SELECT** sebelumnya), Anda akan melihat bahwa :kbd:`id` untuk entri "
+":kbd:`Main Street` adalah :kbd:`2`. Itulah mengapa kita hanya bisa "
+"memasukkan nilai numeris :kbd:`2` di atas. Meskipun kita tidak melihat "
+":kbd:`Main Street` ditampilkan sepenuhnya dalam entri di atas, basisdata "
+"akan dapat menghubungkannya menggunakan nilai :kbd:`street_id` yaitu "
+":kbd:`2`."
 
 # 5a02491631884597b4907d3644d26350
 #: ..\..\postgres\adding_data.rst:134
@@ -282,8 +284,8 @@ msgstr "hal di atas  seharusnya akan memberikan hasil :kbd:`UPDATE 1`."
 # 394091ac9cf74274a880b65a2cdf3872
 #: ..\..\postgres\adding_data.rst:175
 msgid ""
-"the :kbd:`WHERE` statement criteria are case sensitive :kbd:`Main Street` "
-"<> :kbd:`Main street`"
+"the :kbd:`WHERE` statement criteria are case sensitive :kbd:`Main Street` <> "
+":kbd:`Main street`"
 msgstr ""
 "Kriteria pernyataan :kbd:`WHERE` adalah sensitif terhadap kapital (case "
 "sensitive) sehingga :kbd:`Main Street` <> :kbd:`Main street`"
@@ -296,8 +298,8 @@ msgstr "Menghapus Data"
 # be456c3ccc1f4151ae5b17897715a61a
 #: ..\..\postgres\adding_data.rst:181
 msgid ""
-"Some times you fall out of friendship with people. Sounds like a job for "
-"the :kbd:`DELETE` command!"
+"Some times you fall out of friendship with people. Sounds like a job for the "
+":kbd:`DELETE` command!"
 msgstr ""
 "Beberapa kali Anda gagal dalam menjalin persahabatan dengan orang-orang. "
 "Kedengarannya seperti tanda untuk menggunakan perintah :kbd:`DELETE`!"
@@ -420,11 +422,11 @@ msgstr "Help"
 # ced3c0f46326418b9825026c14ca6741
 #: ..\..\postgres\data_model.rst:45
 msgid ""
-"PostgreSQL has very good `online <http://www.postgresql.org/docs/9.1/static/"
-"index.html>`_ documentation."
+"PostgreSQL has very good `online "
+"<http://www.postgresql.org/docs/9.1/static/index.html>`_ documentation."
 msgstr ""
-"PostgreSQL memiliki dokumentasi `online <http://www.postgresql.org/docs/9.1/"
-"static/index.html>`_ yang sangat baik."
+"PostgreSQL memiliki dokumentasi `online "
+"<http://www.postgresql.org/docs/9.1/static/index.html>`_ yang sangat baik."
 
 # b7369f11e55245db9ad4ace4b26d4b70
 #: ..\..\postgres\data_model.rst:49
@@ -564,13 +566,12 @@ msgstr ""
 #: ..\..\postgres\data_model.rst:179
 msgid ""
 "See also the `Psql cheat sheet <../_static/postgres/psql_cheatsheet.pdf>`_ - "
-"available online `here <http://www.postgresonline.com/special_feature.php?"
-"sf_name=postgresql83_psql_cheatsheet&outputformat=html>`_."
+"available online `here "
+"<http://www.postgresonline.com/special_feature.php?sf_name=postgresql83_psql_cheatsheet&outputformat=html>`_."
 msgstr ""
-"Lihat juga `Psql cheat sheet <../_static/postgres/psql_cheatsheet.pdf>` –"
-"tersedia secara online `disini <http://www.postgresonline.com/"
-"special_feature.php?"
-"sf_name=postgresql83_psql_cheatsheet&outputformat=html>`_."
+"Lihat juga `Psql cheat sheet <../_static/postgres/psql_cheatsheet.pdf>` "
+"–tersedia secara online `disini "
+"<http://www.postgresonline.com/special_feature.php?sf_name=postgresql83_psql_cheatsheet&outputformat=html>`_."
 
 # 7098d5f952e945b89ef4f433da65c2b3
 #: ..\..\postgres\data_model.rst:184
@@ -590,15 +591,15 @@ msgstr ""
 #: ..\..\postgres\data_model.rst:193
 msgid ""
 ":kbd:`serial` and :kbd:`varchar` are **data types**. :kbd:`serial` tells "
-"PostgreSQL to start an integer sequence (autonumber) to populate the :kbd:"
-"`id` automatically for every new record. :kbd:`varchar(50)` tells PostgreSQL "
-"to create a character field of 50 characters in length."
+"PostgreSQL to start an integer sequence (autonumber) to populate the "
+":kbd:`id` automatically for every new record. :kbd:`varchar(50)` tells "
+"PostgreSQL to create a character field of 50 characters in length."
 msgstr ""
 ":kbd:`serial` dan :kbd:`varchar` adalah **tipe-tipe data**. :kbd:`serial` "
 "memerintahkan PostgreSQL agar memulai urutan *integer (AutoNumber)* untuk "
-"mengisi :kbd:`id` secara otomatis untuk setiap record baru. :kbd:`varchar(50)"
-"` memerintahkan PostgreSQL untuk membuat tipe data pada kolom berisi "
-"maksimal 50 karakter."
+"mengisi :kbd:`id` secara otomatis untuk setiap record baru. "
+":kbd:`varchar(50)` memerintahkan PostgreSQL untuk membuat tipe data pada "
+"kolom berisi maksimal 50 karakter."
 
 # 1a96bc502c394130af8f8eb9143e69f4
 #: ..\..\postgres\data_model.rst:198
@@ -614,11 +615,11 @@ msgstr ""
 # d06eb5e170c04548ba1d5892ecd1da30
 #: ..\..\postgres\data_model.rst:210
 msgid ""
-"That means your table was created successfully, with a primary key :kbd:"
-"`streets_pkey` using :kbd:`streets.id`."
+"That means your table was created successfully, with a primary key "
+":kbd:`streets_pkey` using :kbd:`streets.id`."
 msgstr ""
-"Itu berarti tabel telah berhasil dibuat, dengan *primary key* :kbd:"
-"`streets_pkey` menggunakan :kbd:`streets.id`."
+"Itu berarti tabel telah berhasil dibuat, dengan *primary key* "
+":kbd:`streets_pkey` menggunakan :kbd:`streets.id`."
 
 # cab9da439bf44d51bca31fa52cd74487
 #: ..\..\postgres\data_model.rst:213
@@ -731,9 +732,9 @@ msgid ""
 "That tells the :kbd:`people` table that its :kbd:`street_id` fields must "
 "match a valid street :kbd:`id` from the :kbd:`streets` table."
 msgstr ""
-"Yang menginformasikan kepada tabel :kbd:`people` bahwa kolom :kbd:"
-"`street_id` yang ada harus cocok secara tepat dengan kolom :kbd:`id` pada "
-"tabel :kbd:`streets`."
+"Yang menginformasikan kepada tabel :kbd:`people` bahwa kolom "
+":kbd:`street_id` yang ada harus cocok secara tepat dengan kolom :kbd:`id` "
+"pada tabel :kbd:`streets`."
 
 # f04f06542970457ab0409372f2c0cbe9
 #: ..\..\postgres\data_model.rst:351
@@ -799,9 +800,9 @@ msgstr ""
 "tersakiti dengan semua teman Anda. Bagaimana Anda bisa menghapus mereka "
 "semua dengan satu langkah yang mudah? Hapus tabel tentu saja! Tentu saja, "
 "saat ini terlalu sayang untuk menghapus dalam satu langkah saja karena "
-"banyak latihan yang telah dilakukan dalam tabel kita, tetapi jika Anda benar-"
-"benar membenci teman Anda  yang banyak, tidak ada yang menghentikan Anda "
-"untuk menghapus mereka selamanya:"
+"banyak latihan yang telah dilakukan dalam tabel kita, tetapi jika Anda "
+"benar-benar membenci teman Anda  yang banyak, tidak ada yang menghentikan "
+"Anda untuk menghapus mereka selamanya:"
 
 # 8c6f87ad61624e1781216b6def7d2ae8
 #: ..\..\postgres\data_model.rst:446
@@ -934,8 +935,8 @@ msgstr ""
 "vertikal (yang diidentifikasi dengan nama data-data tersebut) dan baris "
 "horisontal. Sebuah tabel memiliki kolom dengan jumlah tertentu, dengan "
 "jumlah baris bisa berapa saja. Setiap baris diidentifikasi oleh nilai-nilai "
-"yang muncul dalam subset kolom tertentu yang merupakan kunci kandidat *"
-"(candidate key)*. *- Wikipedia*"
+"yang muncul dalam subset kolom tertentu yang merupakan kunci kandidat "
+"*(candidate key)*. *- Wikipedia*"
 
 # 218bb5509da6448b9b5c1137f63fdc88
 #: ..\..\postgres\db_intro.rst:40
@@ -1165,8 +1166,8 @@ msgstr ""
 # 5384f97f0a6b4113b53b231f0a627f94
 #: ..\..\postgres\db_intro.rst:237
 msgid ""
-"You can read more about database normalisation `here <http://en.wikipedia."
-"org/wiki/Database_normalization>`_"
+"You can read more about database normalisation `here "
+"<http://en.wikipedia.org/wiki/Database_normalization>`_"
 msgstr ""
 "Anda dapat membaca lebih banyak tentang normalisasi basisdata `disini "
 "<http://en.wikipedia.org/wiki/Database_normalization>`_"
@@ -1267,11 +1268,11 @@ msgstr "dan"
 # a588876b627f43dba3fa293a5822a7f1
 #: ..\..\postgres\db_intro.rst:326
 msgid ""
-"We can then link the two tables using the 'keys' :kbd:`streets.id` and :kbd:"
-"`people.streets_id`."
+"We can then link the two tables using the 'keys' :kbd:`streets.id` and "
+":kbd:`people.streets_id`."
 msgstr ""
-"Kita dapat menghubungkan dua tabel tersebut menggunakan 'keys' :kbd:`streets."
-"id` dan :kbd:`people.streets_id`."
+"Kita dapat menghubungkan dua tabel tersebut menggunakan 'keys' "
+":kbd:`streets.id` dan :kbd:`people.streets_id`."
 
 # 50d073fbf75c47ef9b05dd84c9bfd240
 #: ..\..\postgres\db_intro.rst:329
@@ -1536,9 +1537,9 @@ msgid ""
 "You can combine filters (defined using the :kbd:`WHERE` clause) with sorting "
 "(defined using the :kbd:`ORDER BY`)"
 msgstr ""
-"Anda dapat mengkombinasikan penyaringan ( didefinisikan menggunakan "
-"perintah :kbd:`WHERE`) dengan pengurutan (didefinisikan menggunakan "
-"perintah :kbd:`ORDER BY`)"
+"Anda dapat mengkombinasikan penyaringan ( didefinisikan menggunakan perintah "
+":kbd:`WHERE`) dengan pengurutan (didefinisikan menggunakan perintah "
+":kbd:`ORDER BY`)"
 
 # 26be7a16bb3346b1873b4d9881259515
 #: ..\..\postgres\queries.rst:96
@@ -1641,8 +1642,8 @@ msgid ""
 "who live in :kbd:`street_id` number :kbd:`1`."
 msgstr ""
 "Sekarang, mari kita tunjukkan *subselection* pada data ini. Kita ingin "
-"menunjukkan orang-orang yang hanya tinggal di :kbd:`street_id` number :kbd:"
-"`1`."
+"menunjukkan orang-orang yang hanya tinggal di :kbd:`street_id` number "
+":kbd:`1`."
 
 # 215de3d3bdaf45a8b273fb81714d95fa
 #: ..\..\postgres\queries.rst:222
@@ -1668,8 +1669,8 @@ msgid ""
 "typical example:"
 msgstr ""
 "Salah satu fitur canggih dari sebuah database adalah kemampuannya untuk "
-"meringkas data dalam tabel tersebut. Ringkasan ini disebut query agregat *"
-"(aggregate queries)*. Berikut adalah contohnya:"
+"meringkas data dalam tabel tersebut. Ringkasan ini disebut query agregat "
+"*(aggregate queries)*. Berikut adalah contohnya:"
 
 # 1002692ee6c7409c964846a865fb6459
 #: ..\..\postgres\queries.rst:246
@@ -1822,9 +1823,9 @@ msgid ""
 "The next module will introduce you to PostGIS, which takes these database "
 "concepts and applies them to GIS data."
 msgstr ""
-"Modul berikutnya akan memperkenalkan Anda kepada *PostGIS*, dimana konsep-"
-"konsep basisdata yang sudah kita bahas akan dipakai dan diterapkan untuk "
-"data SIG."
+"Modul berikutnya akan memperkenalkan Anda kepada *PostGIS*, dimana "
+"konsep-konsep basisdata yang sudah kita bahas akan dipakai dan diterapkan "
+"untuk data SIG."
 
 # 96414e80cd144840abde2fc3cde820c7
 #: ..\..\postgres\views.rst:2
@@ -1846,8 +1847,8 @@ msgstr ""
 #: ..\..\postgres\views.rst:8
 msgid "**The goal for this lesson:** To save a query as a view."
 msgstr ""
-"**Tujuan untuk pelajaran ini:** Menyimpan query sebagai sebuah Tampilan *"
-"(View)*."
+"**Tujuan untuk pelajaran ini:** Menyimpan query sebagai sebuah Tampilan "
+"*(View)*."
 
 # 88a96e9979ca40daae5b9c239fb0d7ef
 #: ..\..\postgres\views.rst:11

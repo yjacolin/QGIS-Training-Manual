@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
@@ -43,13 +44,15 @@ msgstr "Mengunduh Sumber Daya"
 # ec64c8747e9a4c9689abe4367ccdf274
 #: ..\..\appendix\contribute.rst:13
 msgid ""
-"The source of this document is available at `GitHub <git@github.com:qgis/"
-"QGIS-Training-Manual.git>`_. Consult `GitHub.com <https://github.com/>`_ for "
-"instructions on how to use the git version control system."
+"The source of this document is available at `GitHub "
+"<git@github.com:qgis/QGIS-Training-Manual.git>`_. Consult `GitHub.com "
+"<https://github.com/>`_ for instructions on how to use the git version "
+"control system."
 msgstr ""
-"Sumber dari dokumen ini tersedia melalui `GitHub <git@github.com:qgis/QGIS-"
-"Training-Manual.git>`_. Konsultasikan `GitHub.com <https://github.com/>`_."
-"com untuk instruksi bagaimana untuk menggunakan sistem kontrol versi git."
+"Sumber dari dokumen ini tersedia melalui `GitHub "
+"<git@github.com:qgis/QGIS-Training-Manual.git>`_. Konsultasikan `GitHub.com "
+"<https://github.com/>`_.com untuk instruksi bagaimana untuk menggunakan "
+"sistem kontrol versi git."
 
 # ccbcf9f62620402180e639f25e0e2e35
 #: ..\..\appendix\contribute.rst:19
@@ -60,14 +63,14 @@ msgstr "Format Pedoman "
 #: ..\..\appendix\contribute.rst:21
 msgid ""
 "This manual is written using `Sphinx <http://sphinx.pocoo.org/>`_, a Python "
-"document generator using the `reStructuredText <http://docutils.sourceforge."
-"net/rst.html>`_ markup language. Instructions on how to use these tools are "
-"available on their respective sites."
+"document generator using the `reStructuredText "
+"<http://docutils.sourceforge.net/rst.html>`_ markup language. Instructions "
+"on how to use these tools are available on their respective sites."
 msgstr ""
 "Manual ini ditulis menggunakan `Sphinx <http://sphinx.pocoo.org/>`_, sebuah "
-"generator dokumen Python menggunakan bahasa markup `reStructuredText <http://"
-"docutils.sourceforge.net/rst.html>`_ . Petunjuk tentang cara menggunakan "
-"perangkat tersebut tersedia di situs masing-masing (*Sphinx* dan "
+"generator dokumen Python menggunakan bahasa markup `reStructuredText "
+"<http://docutils.sourceforge.net/rst.html>`_ . Petunjuk tentang cara "
+"menggunakan perangkat tersebut tersedia di situs masing-masing (*Sphinx* dan "
 "*reStructuredText*)."
 
 # 96bfe89199d04a5c8578dd332905727a
@@ -78,13 +81,13 @@ msgstr "Menambahkan Modul"
 # 66cdb02153814a45a288d1494658ee9b
 #: ..\..\appendix\contribute.rst:29
 msgid ""
-"To add a new module, first create a new directory (directly under the top-"
-"level of the :kbd:`qgis-training-manual` directory) with the name of the new "
-"module."
+"To add a new module, first create a new directory (directly under the "
+"top-level of the :kbd:`qgis-training-manual` directory) with the name of the "
+"new module."
 msgstr ""
 "Untuk menambahkan modul baru, pertama-tama buatlah sebuah direktori "
-"(langsung berada di bawah top-level dari direktori :kbd:`qgis-training-"
-"manual`) dengan nama modul baru."
+"(langsung berada di bawah top-level dari direktori "
+":kbd:`qgis-training-manual`) dengan nama modul baru."
 
 # 1e0c3bf15b684196a0e23d0a3516e9ef
 #: ..\..\appendix\contribute.rst:32
@@ -107,16 +110,16 @@ msgstr ""
 # 81f3754c549d43a4a76dae10dae06842
 #: ..\..\appendix\contribute.rst:44
 msgid ""
-"You will note that this is a list of directory names, followed by the name :"
-"kbd:`index`. This directs the top-level index file to the index files in "
+"You will note that this is a list of directory names, followed by the name "
+":kbd:`index`. This directs the top-level index file to the index files in "
 "each directory. The order in which they are listed determines the order they "
 "will have in the document."
 msgstr ""
 "Bisa Anda perhatikan bahwa urutan dimulai dengan daftar nama direktori, "
-"diikuti oleh :kbd:`index`. Hal ini akan mengarahkan file index pada top-"
-"level untuk dapat menuju ke file indeks di dalam direktori masing-masing. "
-"Urutan file yang  terdaftar menentukan urutan yang seharusnya di dalam "
-"dokumen."
+"diikuti oleh :kbd:`index`. Hal ini akan mengarahkan file index pada "
+"top-level untuk dapat menuju ke file indeks di dalam direktori "
+"masing-masing. Urutan file yang  terdaftar menentukan urutan yang seharusnya "
+"di dalam dokumen."
 
 # 27f6b89cbbba4690b0151becf9ed6de3
 #: ..\..\appendix\contribute.rst:49
@@ -150,8 +153,8 @@ msgid ""
 "Along the top of the page, write a line of 80 asterisks (:kbd:`*`).  This "
 "represents a module heading."
 msgstr ""
-"Pada bagian atas halaman, tulislah sebuah baris dengan 80 tanda bintang (:"
-"kbd:`*`). Hal ini merupakan judul modul."
+"Pada bagian atas halaman, tulislah sebuah baris dengan 80 tanda bintang "
+"(:kbd:`*`). Hal ini merupakan judul modul."
 
 # b633d16fdfb24d1d91ecb27e6bef16b1
 #: ..\..\appendix\contribute.rst:57
@@ -224,11 +227,11 @@ msgstr ""
 # 964101440adb4d2c8fb25e62157d6ecc
 #: ..\..\appendix\contribute.rst:98
 msgid ""
-"Ensure that the name of the planned lesson is listed underneath the :kbd:"
-"`toctree` directive, as shown above."
+"Ensure that the name of the planned lesson is listed underneath the "
+":kbd:`toctree` directive, as shown above."
 msgstr ""
-"Pastikan bahwa nama pelajaran yang direncanakan terdaftar di bawah direktif :"
-"kbd:`toctree`, seperti yang ditunjukkan di atas."
+"Pastikan bahwa nama pelajaran yang direncanakan terdaftar di bawah direktif "
+":kbd:`toctree`, seperti yang ditunjukkan di atas."
 
 # e10d3ac5f8774fd7be6bf3b7fe9105b2
 #: ..\..\appendix\contribute.rst:100
@@ -238,8 +241,8 @@ msgstr "Buat file baru di bawah direktori modul."
 # d09c67251a9947498b48ec851f4e175b
 #: ..\..\appendix\contribute.rst:101
 msgid ""
-"Name this file exactly the same as the name you provided in the module's :"
-"kbd:`index.rst` file, and add the extension :kbd:`.rst`."
+"Name this file exactly the same as the name you provided in the module's "
+":kbd:`index.rst` file, and add the extension :kbd:`.rst`."
 msgstr ""
 "Beri nama file ini persis sama dengan nama yang Anda diberikan dalam file "
 "modul index :kbd:`index.rst`, dan tambahkan extension :kbd:`.rst`. sesudah "
@@ -267,8 +270,8 @@ msgstr ""
 #: ..\..\appendix\contribute.rst:109
 msgid "In the next line, write a line of 80 equal signs (:kbd:`=`)."
 msgstr ""
-"Pada baris berikutnya, tulislah sebuah baris dengan 80 tanda sama dengan (:"
-"kbd:`=`)."
+"Pada baris berikutnya, tulislah sebuah baris dengan 80 tanda sama dengan "
+"(:kbd:`=`)."
 
 # 439c7a64681948f0a0cd59a3812ad70c
 #: ..\..\appendix\contribute.rst:110
@@ -360,8 +363,8 @@ msgstr ""
 # 74cc579099524c92b649899f2960dad2
 #: ..\..\appendix\contribute.rst:139
 msgid ""
-"Every section comes with a difficulty level. An easy section is denoted by :"
-"kbd:`|basic|`, moderate by :kbd:`|moderate|`, and advanced by :kbd:`|hard|`."
+"Every section comes with a difficulty level. An easy section is denoted by "
+":kbd:`|basic|`, moderate by :kbd:`|moderate|`, and advanced by :kbd:`|hard|`."
 msgstr ""
 "Setiap bagian dilengkapi dengan tingkat kesulitan tertentu. Sebuah bagian "
 "dengan tanda :kbd:`|basic|` untuk dasar , :kbd:`|moderate|` untuk sedang, "
@@ -405,9 +408,10 @@ msgid ""
 "your text editor does not replace the default minus/dash character with a "
 "long dash or other character."
 msgstr ""
-"Pada baris berikutnya, tulislah sebuah baris dengan 80 tanda minus / strip (:"
-"kbd:`-`). Pastikan bahwa editor teks Anda tidak mengganti *default* minus / "
-"karakter dasbor dengan jumlah dasbor lebih sedikit atau dengan karakter lain."
+"Pada baris berikutnya, tulislah sebuah baris dengan 80 tanda minus / strip "
+"(:kbd:`-`). Pastikan bahwa editor teks Anda tidak mengganti *default* minus "
+"/ karakter dasbor dengan jumlah dasbor lebih sedikit atau dengan karakter "
+"lain."
 
 # 977e381c64a04cfab7fb168b3dc941fe
 #: ..\..\appendix\contribute.rst:153
@@ -644,8 +648,8 @@ msgid ""
 "concept's name in italics by enclosing it in asterisks (:kbd:`*`)."
 msgstr ""
 "Jika Anda menjelaskan tentang konsep baru, Anda akan perlu menuliskan nama "
-"konsep baru dalam huruf miring dengan melampirkannya dalam tanda bintang (:"
-"kbd:`*`)."
+"konsep baru dalam huruf miring dengan melampirkannya dalam tanda bintang "
+"(:kbd:`*`)."
 
 # de739849f69244b1a0b7a4e9d3fa24b8
 #: ..\..\appendix\contribute.rst:255
@@ -779,11 +783,11 @@ msgstr "Pilihan menu"
 # 822d1c255467469d90978d3e3cdd2c7d
 #: ..\..\appendix\contribute.rst:325
 msgid ""
-"If you are guiding a user through menus, you must use the :menuselection:"
-"`menu --> selection --> format`. For example::"
+"If you are guiding a user through menus, you must use the "
+":menuselection:`menu --> selection --> format`. For example::"
 msgstr ""
-"Jika Anda membimbing pengguna melalui menu, Anda harus menggunakan :"
-"menuselection:`menu --> selection --> format`. Sebagai contoh:"
+"Jika Anda membimbing pengguna melalui menu, Anda harus menggunakan "
+":menuselection:`menu --> selection --> format`. Sebagai contoh:"
 
 # 376cb5e5ffb2479b8deb6ddc3c8f7f11
 #: ..\..\appendix\contribute.rst:332
@@ -828,9 +832,9 @@ msgid ""
 "below the heading of the module, lesson or section that you authored. This "
 "must take the form :kbd:`This [module/lesson/section] contributed by [author "
 "name].` Do not add further text, contact details, etc. Such details are to "
-"be added in the \"Contributors\" section of the Foreword, along with the name"
-"(s) of the part(s) you added. If you only made enhancements, corrections and/"
-"or additions, list yourself as an editor."
+"be added in the \"Contributors\" section of the Foreword, along with the "
+"name(s) of the part(s) you added. If you only made enhancements, corrections "
+"and/or additions, list yourself as an editor."
 msgstr ""
 "Jika Anda menulis modul, pelajaran atau bagian secara mandiri, dan bukan "
 "atas nama sponsor, Anda dapat menyertakan nama Anda sebagai penulis di bawah "
