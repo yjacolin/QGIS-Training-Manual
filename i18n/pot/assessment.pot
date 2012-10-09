@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-09 00:01\n"
+"POT-Creation-Date: 2012-10-09 10:09\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,274 +17,274 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../assessment/index.rst:3
-# eaef0a2fa06f4a46a450afd8f646abda
+# 2785ddac778b4844bdc8753307559e5e
 msgid "|MOD| Assessment"
 msgstr ""
 
 #: ../../assessment/index.rst:5
-# f73a3f5256e741bfba1dcf4ad19462f4
+# 67db71ce18a24e86aa426899970bbfaf
 msgid "Use your own data for this section. You will need:"
 msgstr ""
 
 #: ../../assessment/index.rst:7
-# 67e71ee15ee846198bebcc2ed1c5eb3d
+# ee719cb85f324817b52ac8198762e009
 msgid "a point vector dataset of points of interest, with point names and multiple categories"
 msgstr ""
 
 #: ../../assessment/index.rst:9
-# 4cd25406bb8e4ec4ad6860a02cb203bb
+# 486a70fce49f4bf6bd4dd4e94bf5d1bb
 msgid "a line vector dataset of roads"
 msgstr ""
 
 #: ../../assessment/index.rst:10
-# 7c3c3d2276be4df1af7605e1c1591fde
+# 847809fb3d7948008987856bfce9ac0f
 msgid "a polygon vector dataset of land use (using property boundaries)"
 msgstr ""
 
 #: ../../assessment/index.rst:11
-# 83beb156e29649449bda64165efe0959
+# e9baa8e8d1f54cb08f87c65fe986f80a
 msgid "a visual-spectrum image (such as an aerial photograph)"
 msgstr ""
 
 #: ../../assessment/index.rst:12
-# e4471962638442779dcfc78834682cf3
+# a5fefff15e4c4e57aae38f8108dd98cb
 msgid "a DEM (downloadable from `this URL <http://srtm.csi.cgiar.org/>`_ if you don't have your own)"
 msgstr ""
 
 #: ../../assessment/index.rst:16
-# b2dce94ce8eb46a6972e164dfcf799e4
+# a034d00b2dce44479e8adf747f421563
 msgid "Create a base map"
 msgstr ""
 
 #: ../../assessment/index.rst:18
-# f1558b6f2409416ba3f25815d6c20e4b
+# d33e7aa1c6a94e4da2d459203a15a98d
 msgid "Before doing any data analysis, you will need a base map, which will provide your analysis result with context."
 msgstr ""
 
 #: ../../assessment/index.rst:22
-# 28f8262fb13a476f862d418d9fa069d5
+# 3faabd997fd144cfbd76657fb57e24a9
 msgid "Add the point layer"
 msgstr ""
 
 #: ../../assessment/index.rst:24
-# f1e8ff3556b244688376ae662d868f0f
+# 4e32be91cb70402398f8f0ecd8c4e9e5
 msgid "Add in the point layer. Based on the level that you're doing the course at, do only what is listed in the appropriate section below:"
 msgstr ""
 
 #: ../../assessment/index.rst:28
 #: ../../assessment/index.rst:65
 #: ../../assessment/index.rst:98
-# a3201535a5f7420aa6ee060ed50983d7
-# a65ea54f495f4eb194b8e291ac2ae039
-# db93956989b443e3a8fe8dbcb6ecd548
+# b5ba4fd0152942a1a90fc41526e43197
+# 2f02eb10091e418b8328210fd6e7be7b
+# 042b7890ced44ea7a6ba3beff346fa43
 msgid "|basic|"
 msgstr ""
 
 #: ../../assessment/index.rst:30
-# 6f7e1dfb7e56438bbba37209815fd53a
+# 2862949a206942e09f075f1272bf0607
 msgid "Label the points according to a unique attribute, such as place names.  Use a small font and keep the labels inconspicuous. The information should be available, but shouldn't be a main feature of the map."
 msgstr ""
 
 #: ../../assessment/index.rst:33
-# d1de14c3b5764957b4ca21e3aedc6af6
+# 4d46a1bda002486c840d4489f0ce9f1d
 msgid "Classify the points themselves into different colors based on a category. For example, categories could include \"tourist destination\", \"police station\", and \"town center\"."
 msgstr ""
 
 #: ../../assessment/index.rst:38
 #: ../../assessment/index.rst:71
 #: ../../assessment/index.rst:103
-# 571a6943d6844a2c9fca54d6069ef39e
-# fb5838df53df4849b82ed8f32873483f
-# 113feba27e294f199e2151317b670553
+# 3fa067509b424d418d2174d195d75171
+# a8133cb34c3d4e3185e339249e08ce18
+# 16cf1c1214f243cea3dd823b1d23a92d
 msgid "|moderate|"
 msgstr ""
 
 #: ../../assessment/index.rst:40
-# d9ec7e1174d840d8b662c1c56eb295b6
+# f875b67dc18b40daabf29bc84a8acdcf
 msgid "Do the same as the |basic| section."
 msgstr ""
 
 #: ../../assessment/index.rst:41
-# 244ea71da0f245f58b3267b1cd66bce7
+# 000ca687c9db413a88a1830fc0068007
 msgid "Classify the point size by importance: the more significant a feature, the larger its point. However, don't exceed the point size of :kbd:`2.00`."
 msgstr ""
 
 #: ../../assessment/index.rst:43
-# da6d370a29b44b5dac7d0cf6b88730d4
+# 37a296e766db40f2be3715b6f820df99
 msgid "For features that aren't located at a single point (for example, provincial/regional names, or town names at a large scale), don't assign any point at all."
 msgstr ""
 
 #: ../../assessment/index.rst:48
 #: ../../assessment/index.rst:85
 #: ../../assessment/index.rst:110
-# bc1555afcbf54d6fa2003a77a4560f11
-# 80b5c73c6d57412783c660a7a04de48c
-# f110cc6200404a689dc1f65d65fa74ea
+# ccd4d1348f724859a69574552d1d980f
+# c42c395aabdb4131a4aa64b5e336e7d9
+# bddd3ac688a94038af259cdafa7caa75
 msgid "|hard|"
 msgstr ""
 
 #: ../../assessment/index.rst:50
-# 55e8d2f60ccf419e8e22bc1919f2e780
+# b0dda955be134bc3a65707d21c220c81
 msgid "Don't use point symbols to symbolize the layer at all. Instead, use labels centered over the points; the point symbols themselves should have no size."
 msgstr ""
 
 #: ../../assessment/index.rst:52
-# 772c0fe570294826b2b8da0762eff852
+# 19e21cad09214bfcb5d82d2a5dbed5c6
 msgid "Use :guilabel:`Data defined settings` to style the labels into meaningful categories."
 msgstr ""
 
 #: ../../assessment/index.rst:54
-# 3cf06553ceec40ecb946a358ff616f08
+# 9dd8ab5c3c42461f897114f9f3850900
 msgid "Add appropriate columns to the attribute data if necessary. When doing so, don't create fictional data - rather, use the :guilabel:`Field Calculator` to populate the new columns, based on appropriate existing values in the dataset."
 msgstr ""
 
 #: ../../assessment/index.rst:60
-# d1176821ee9347af90b805034d0ad34c
+# 7cfb0ab0fd9c4c58a94a6808025630dc
 msgid "Add the line layer"
 msgstr ""
 
 #: ../../assessment/index.rst:62
-# 9f9e56adbfd544989baefadb3e99c909
+# c793831c7f2b40e4b21bc5c2842b7689
 msgid "Add the road layer and then change its symbology. Don't label the roads."
 msgstr ""
 
 #: ../../assessment/index.rst:67
-# 5d542a321a8e4a86a2b4bfc3979d9cf0
+# b7f7029e18714b20a171a9ff49223708
 msgid "Change the road symbology to a light color with a broad line. Make it somewhat transparent as well."
 msgstr ""
 
 #: ../../assessment/index.rst:73
-# 0290ae2b143b4e4cae42a54a0b81a99b
+# 6042ba29024644948004371c281fea2b
 msgid "Create a symbol with multiple symbol layers. The resulting symbol should look like a real road. You can use a simple symbol for this; for example, a black line with a thin white solid line running down the center. It can be more elaborate as well, but the resulting map should not look too busy."
 msgstr ""
 
 #: ../../assessment/index.rst:77
-# a0a1cc4beef1490c982f20f003982cc7
+# 2c6e06d3db0e4a378366751838d87c3b
 msgid "If your dataset has a high density of roads at the scale you want to show the map at, you should have two road layers: the elaborate road-like symbol, and a simpler symbol at smaller scales. (Use scale-based visibility to make them switch out at appropriate scales.)"
 msgstr ""
 
 #: ../../assessment/index.rst:81
-# 5c4099d5a463479488f762b8d24c9694
+# e1c938a52ac94b47bc2aefa5466aa9aa
 msgid "All symbols should have multiple symbol layers. Use symbols to make them display correctly."
 msgstr ""
 
 #: ../../assessment/index.rst:87
-# f6b6c74e4d83494c82e2c65ebf9d515f
+# f164cd92f720428eb84332f8a3242898
 msgid "Do the same as in the |moderate| section above."
 msgstr ""
 
 #: ../../assessment/index.rst:88
-# 5722f64a146749b895c09421f6e1bfbb
+# 5af97978ad5a4939a8a62ca3c6af9df7
 msgid "In addition, roads should be classified. When using realistic road-like symbols, each type of road should have an appropriate symbol; for example, a highway should appear to have two lanes in either direction."
 msgstr ""
 
 #: ../../assessment/index.rst:93
-# 3d684fbfa4ed4fdc82c0dd82b21c3cbf
+# 68bbcb07cc264dbaa485815f713e330e
 msgid "Add the polygon layer"
 msgstr ""
 
 #: ../../assessment/index.rst:95
-# f559a884f7174dcc96aa9b0b07674d29
+# aaa136e637454d0382afc9919a0daf9b
 msgid "Add the land use layer and change its symbology."
 msgstr ""
 
 #: ../../assessment/index.rst:100
-# ff2f51518fc549de8fec681839ee4733
+# 7a1a41cda7f5403a8de5e66cfa4524ef
 msgid "Classify the layer according to land use. Use solid colors."
 msgstr ""
 
 #: ../../assessment/index.rst:105
-# 5e4bcb872b3649989e1120633f21acc7
+# ad266dba36774740aadcf614fb4a6bae
 msgid "Classify the layer according to land use. Where appropriate, incorporate symbol layers, different symbol types, etc. Keep the results looking subdued and uniform, however. Keep in mind that this will be part of a backdrop!"
 msgstr ""
 
 #: ../../assessment/index.rst:112
-# 625ca35d72114ebca76d28286231838c
+# efd5e5aa34f0449b995c571b8052a44d
 msgid "Use rule-based classification to classify the land use into general categories, such as \"urban\", \"rural\", \"nature reserve\", etc."
 msgstr ""
 
 #: ../../assessment/index.rst:116
-# 597a28a9b9114b04a162c76abf6bd546
+# 5cd4bda1c7db470b803c5df4c15cc810
 msgid "Create the raster backdrop"
 msgstr ""
 
 #: ../../assessment/index.rst:118
-# e86654d9b361437aaf6df132089a6e19
+# 3327234ef7c64077b23ca0c4fc1b3a6f
 msgid "Create a hillshade from the DEM, and use it as an overlay for a classified version of the DEM itself. You could also use the :guilabel:`Relief` plugin (as shown in the lesson on plugins)."
 msgstr ""
 
 #: ../../assessment/index.rst:123
-# 29ad470787a74f0c9d8d906b7f2d0621
+# 460b2a74b04a4f3eabc8600332c28ffc
 msgid "Finalize the base map"
 msgstr ""
 
 #: ../../assessment/index.rst:125
-# 6aedf91fe473490fb495ca132e297492
+# 627e34b397dd40a381fed0948129bf25
 msgid "Using the resources you above, create a base map using some or all of the layers. This map should include all the basic information needed to orient the user, as well as being visually unified / \"simple\"."
 msgstr ""
 
 #: ../../assessment/index.rst:130
-# dcd541a0061b4d87a7acbf271cd04aec
+# a88137a4abaa4d1ca851e928ac9230cc
 msgid "Analyze the data"
 msgstr ""
 
 #: ../../assessment/index.rst:132
-# 41069a49586746cfa0502c0b322c9768
+# d064c8c7756045da82cb892b87d00d1b
 msgid "You are looking for a property that satisfies certain criteria."
 msgstr ""
 
 #: ../../assessment/index.rst:133
-# 75e2ceea1b844092ada3aca968da82ba
+# c321fa0c6cfc4dbeb6d2b64730d7dcdb
 msgid "You can decide on your own criteria, which you must document."
 msgstr ""
 
 #: ../../assessment/index.rst:134
-# b08d4057ee424f89bed12d9d2fe3d5cf
+# 252926cbe64b484c8008035dbe3b2ec1
 msgid "There are some guidelines for these criteria:"
 msgstr ""
 
 #: ../../assessment/index.rst:136
-# 0bf6a64ac3a644f5b3de6b16c245f0a3
+# 0a1ce699d3244fc19680c7d4115b3676
 msgid "the target property should be of (a) certain type(s) of land use"
 msgstr ""
 
 #: ../../assessment/index.rst:137
-# 3f1ce371d86c4c55a8a1df8f2cafba35
+# 90f3f0850aa94ecdb479aa23d22bbf9e
 msgid "it should be within a given distance from roads, or be crossed by a road"
 msgstr ""
 
 #: ../../assessment/index.rst:138
-# 29af134e3a0d4014a7d3f11e157ed94a
+# faa884baf0a84337b271eb8c0c44b03b
 msgid "it should be within a given distance from some category of points, like a hospital for example"
 msgstr ""
 
 #: ../../assessment/index.rst:142
-# ec1f50316e0c403182ff7718e4d6caea
+# b94989b6651a474d9147df1fb0c988cd
 msgid "|moderate| / |hard|"
 msgstr ""
 
 #: ../../assessment/index.rst:144
-# 024e74c000e2421e8eb92d9ff1ae322c
+# b1482b17c56c47809780dff48ed782a1
 msgid "Include raster analysis in your results. Consider at least one derived property of the raster, such as its aspect or slope."
 msgstr ""
 
 #: ../../assessment/index.rst:148
-# 78f6a6133be34b929afaa109a81ef20d
+# ea1013f34f7c4638b2bf6bb86251a447
 msgid "Final Map"
 msgstr ""
 
 #: ../../assessment/index.rst:150
-# 302f968c1c5e40149d31e7c1edc0fba0
+# 620755d664a243048ae0f06aff0dc2d0
 msgid "Use the :guilabel:`Map Composer` to create a final map, which incorporates your analysis results."
 msgstr ""
 
 #: ../../assessment/index.rst:152
-# d5106841841f45818c86cf5cbcc839c2
+# 0b1d61bed17241ecba1b0e9c735b523c
 msgid "Include this map in a document along with your documented criteria. If the map has become too vsually busy due to the added layer(s), deselect the layers which you feel are the least necessary."
 msgstr ""
 
 #: ../../assessment/index.rst:155
-# ef1302898f9a4b4bbc77f137c25eb62b
+# f3fac33481004221a752bee4d6addf71
 msgid "Your map must include a title and a legend."
 msgstr ""
 
