@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-09 10:09\n"
+"POT-Creation-Date: 2012-10-09 08:18\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,459 +17,459 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../grass/grass_setup.rst:2
-# cd9dd44b8eac4236a849c5181c85e00b
+# f76f2d92305b4045b0d1bf172ff75cd9
 msgid "|LS| GRASS Setup"
 msgstr ""
 
 #: ../../grass/grass_setup.rst:4
-# 403569af9ec446a38f5d215318bc2ee2
+# 7f62b0198d924d58bc43edde248d0fa5
 msgid "Using GRASS in QGIS requires you to think of the interface in a slightly different way. Remember that you're not working in QGIS directly, but working in GRASS *via* QGIS."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:8
-# d1bc257a814d486d8249a49f34dd024d
+# 210cf15115bb4837a99b0f28126ff2eb
 msgid "**The goal for this lesson:** To begin a GRASS project in QGIS."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:11
-# bcd54c69e8604732a5cd1f4748c1cd54
+# 6cdb8dc0ab6c42158b731ec1358b9dab
 msgid "|basic| |FA| Start a New GRASS Project"
 msgstr ""
 
 #: ../../grass/grass_setup.rst:13
-# fb49f33eaab14bc0b61eb73a1d8346cf
+# eed19b8789f4416990f35c5a92bc8657
 msgid "To launch GRASS from within QGIS, you need to activate it as with any other plugin."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:16
-# 69f8b3dfb6a14637826e40098471a1cf
+# fb59e76a33e2458c9c859ad0ca24535e
 msgid "In the :guilabel:`Plugin Manager`, enable :guilabel:`GRASS` in the list:"
 msgstr ""
 
 #: ../../grass/grass_setup.rst:21
-# fe673039e7e24bf8afbda53fd3a8ef86
+# 8d9328f077da49ecb8a4300217a0b487
 msgid "The GRASS toolbar will appear:"
 msgstr ""
 
 #: ../../grass/grass_setup.rst:26
-# da65555ccf394252b83e4b3b4282a305
+# bb978610a3ca4371a7f4797f4419031d
 msgid "Before you can use GRASS, you need to create a **mapset**. GRASS always works in a database environment, which means that you need to import all the data you want to use into a GRASS database."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:30
-# bf242df837ba432b99e58a0f584c9c3e
+# 5f3756bf3de8493480ab21c690da3900
 msgid "Click on the :guilabel:`New mapset` button:"
 msgstr ""
 
 #: ../../grass/grass_setup.rst:35
-# e0f88a84b105449d8ac3244123a8b3e7
+# d126a000adb74631a7592211da08f626
 msgid "You'll see a dialog explaining the structure of a GRASS mapset."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:36
-# c4adb5e3e5f7427b9a28e2aaa35c7feb
+# 099cca42f9014ffcb6f7ba31b0ffdb82
 msgid "Create a new directory called :kbd:`grass_db` in :guilabel:`exercise_data`."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:37
-# 40543d1e716841c8975091c6134f275e
+# 4f40616d85c4467399553c23e89b82de
 msgid "Set it as the directory that will be used by GRASS to set up its database:"
 msgstr ""
 
 #: ../../grass/grass_setup.rst:42
-# ec082a010cf2436ab6db23f4eddf1c81
+# 097e075ba23e467aaf412dc17438f6a5
 msgid "GRASS needs to create a \"location\", which describes the maximum extents of the geographic area you'll be working in."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:45
-# 29d2ca7740724f8c91c3e466a04b2578
+# 698248f910db4565901bf15dfa5128d2
 msgid "Call the new location :kbd:`South_Africa`:"
 msgstr ""
 
 #: ../../grass/grass_setup.rst:50
-# fa716dd30db64c0493fabfa08f7c60ed
+# 47e716b6b2104205bc0b12a11aff13f1
 msgid "We'll be working with :kbd:`WGS 84`, so search for and select this CRS:"
 msgstr ""
 
 #: ../../grass/grass_setup.rst:55
-# 5a8c7ecaf67f4c87838232813d9e6429
+# b09dd59ab03a4ca0b48f0c61d9036e16
 msgid "Now select the region :guilabel:`South Africa`, which is already defined in GRASS:"
 msgstr ""
 
 #: ../../grass/grass_setup.rst:61
-# f3621cfc3bb2474ba04aa1807cfa93b7
+# 46652540a3f24cfb94d06095617a5167
 msgid "Create a mapset, which is the map file that you'll be working with."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:66
-# 84335b0301ff4fe0821f71ab16e8129c
+# 093401bea6ea4989b5497a03ad34b993
 msgid "Once you're done, you'll see a dialog asking you to confirm that the settings it displays are correct."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:69
-# f31b5abc5f684fb3a28b8a8d3f66ebb7
+# dbf849c72f0b4e949a762e98ba305b45
 msgid "Click :guilabel:`Finish`."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:70
-# fb97b11de467431b9923d269fbddac04
+# 910f3e1ad8614172baf5d09abeddaaeb
 msgid "Click :guilabel:`OK` on the success dialog."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:73
-# c7b56039384d4b58a8d1f9792470f61d
+# 4053575eac184324822ab5e8917fde4d
 msgid "|basic| |FA| Loading Vector Data into GRASS"
 msgstr ""
 
 #: ../../grass/grass_setup.rst:75
-# 954a98dea5c548ad96b42521792dca66
+# 54d01bba35fc44d9b4a91e42e7df577c
 msgid "You'll now have a blank map. To load data into GRASS, you need to follow a two-step process."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:78
-# 80cc6d2f12354eeca00861beb5405f26
+# d08cd3eacdc14b5682f2459be97ae73c
 msgid "Load data into QGIS as usual. Use the :kbd:`streets.shp` dataset (found under :kbd:`exercise_data/`) for now."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:80
-# 184cc1999fb64fb58b53d15c3c3a4cc6
+# 17076636773d4e3983258f92784d03e0
 msgid "As soon as it's loaded, click on the :guilabel:`GRASS Tools` button:"
 msgstr ""
 
 #: ../../grass/grass_setup.rst:85
-# ffc4d1c20200409085bb1f2b376a852d
+# f4ebdaba613a45c08f2574cffc069cc0
 msgid "Find the vector import tool by entering the term :kbd:`v.in.ogr.qgis` in the :guilabel:`Filter` field of the dialog that has appeared."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:88
-# 52d62eecfced49209a53022f39b16931
+# ef241cb1b4984b4c997f24f2869f6864
 msgid "The :kbd:`v` stands for \"vector\", :kbd:`in` means its a function to import data into the GRASS database, :kbd:`ogr` is the software library used to read vector data, and :kbd:`qgis` means that the tool will look for a vector from among the vectors already loaded into QGIS."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:93
-# 5c769d52fb2a4597b5f460ca8f535abc
+# 7cdc7884bfff47afb1883a001029fd58
 msgid "Once you've found this tool, click on it to bring up the tool itself:"
 msgstr ""
 
 #: ../../grass/grass_setup.rst:98
-# 417254276a7349e89fa28d9228e47867
+# 622a1f28e53d4be1a4a7e2a05180f105
 msgid "Set the loaded layer to :guilabel:`streets` and its GRASS version's name to :kbd:`g_streets` to prevent confusion."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:108
-# 25bf56482b4f444ba3a2b0478827a49f
+# 0e531db79ecc43a89593eb9207de8540
 msgid "Click :guilabel:`Run` to begin the import."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:109
-# 2ee661ff813d4c30a140f52bc4dbc125
+# 9fcecfc272c549bca4233e53c65e48e2
 msgid "When it's done, click the :guilabel:`View output` button to see the newly imported GRASS layer in the map."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:111
-# 5b6544361eb5418694e0e326af05654e
+# e0c698e63c2142548957b97a1eb1f86f
 msgid "Close first the import tool itself (click the :guilabel:`Close` button to the immediate right of :guilabel:`View output`), then close the :guilabel:`GDAL Tools` window."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:114
-# 8eb15ffb992444d495a027cae8bf6692
+# 0201a793b9e94b69957d908aee2da59c
 msgid "Remove the original :guilabel:`roads_33S` layer."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:116
-# 8bee20dcc5d546f4b8986e1568448d4c
+# 47138e7c47c241e585063245408fa50c
 msgid "Now you are left with only the imported GRASS layer as displayed in your QGIS map."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:120
-# ca36ada0d1454a199a6fd12dbb1093d0
+# 0e05ebe6317f4c2fb15af9239e622890
 msgid "|basic| |FA| Loading Raster Data into GRASS"
 msgstr ""
 
 #: ../../grass/grass_setup.rst:122
-# 7ed68bfc9df24043b0fa97353e5b6379
+# 696d0e7c90c14fea8439c29c9ac128ef
 msgid "Recall that our DEM is in the Projected CRS :kbd:`UTM 33S / WGS 84`, but our GRASS project is in the Geographic CRS :kbd:`WGS 84`. So let's reproject the DEM first."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:126
-# c96f5989a9c7482b868eb6cb26017738
+# d9d7fc8634994253bed19b628e9683f0
 msgid "Load the :kbd:`srtm_41_19.tif` dataset (found under :kbd:`exercise_data/raster/SRTM/`) into the QGIS map as usual, using QGIS' :guilabel:`Add Raster Layer` tool."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:129
-# ef296a835c2f4d3c866fe28b2c8dd728
+# eff6ec1e4ea64ee8a24a08b6a03782fa
 msgid "Reproject it using GDAL Warp tool (:menuselection:`Raster --> Projections --> Warp (Reproject)`), setting it up as shown:"
 msgstr ""
 
 #: ../../grass/grass_setup.rst:135
-# cb709549b64245f087d67c07af59b225
+# ef667301f9ee4956baaad6a1a6f99b06
 msgid "Save the raster under the same folder as the original, but with the file name :kbd:`DEM_WGS84.tif`. Once it appears in your map, remove the :kbd:`srtm_41_19.tif` dataset from your :guilabel:`Layers list`."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:139
-# 744f7cbc967c433cb13d93ab9e2bc193
+# 5e3abcbd56294f108c0e4cf68fe36beb
 msgid "Now that it's reprojected, you can load it into your GRASS database."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:141
-# a8f31ca96f364a77bfb93f2d59572d96
+# ea2db6e2637e4321954ce4d85be2320a
 msgid "Open the :guilabel:`GRASS Tools` dialog again."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:142
-# 1cca43608a0348cdacfdedf2ddde6040
+# f597e759c74b4523be4cf7c267f0c130
 msgid "Click on the :guilabel:`Modules List` tab."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:143
-# d8b3c7ee88ac43a7a1190595da6b78bb
+# d56609ba9d624b3ba6928ec6a4b06574
 msgid "Search for :kbd:`r.in.gdal.qgis`:"
 msgstr ""
 
 #: ../../grass/grass_setup.rst:148
-# 42f7efde236741afb7e4209c70e68de8
+# 2479823c061c4ab4a07cefd48436f708
 msgid "Which gives you this tool:"
 msgstr ""
 
 #: ../../grass/grass_setup.rst:153
-# 15e6d280d14c4014aeed5d403ba2e806
+# a697c821e32d4154af514a5bd5ef4faf
 msgid "Set it up as shown (input layer is :guilabel:`DEM_WGS84`, output is :kbd:`g_dem`)."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:155
-# 0941fd135a6c4f6191ec4048e38a6e1d
+# 2a8534658aa24333b30105214a637ad6
 msgid "Click :guilabel:`Run`."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:156
-# 074d0d42ace2417786c0ad4888fda97a
+# afef6fa0de104297b7b769d85bd25397
 msgid "When the process is done, click :guilabel:`View output`."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:157
-# cfd53028d32441eca25e75b71af9684e
+# d711de3481f945608678adda195bbc50
 msgid ":guilabel:`Close` the current tab, and then :guilabel:`Close` the whole dialog."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:163
-# 44fbf2a9b7784c9eb61d0e68fa2ffce8
+# c0b9519d9e184eeaa55b495c57dda1b4
 msgid "You may now remove the original :guilabel:`DEM_WGS84` layer."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:166
 #: ../../grass/grass_tools.rst:119
-# 60e62c07b60d40b5b22d851eba7bac07
-# ff1ae2de5dce4623b2e8f8476b30813b
+# 39c6e8f7599a436faccee27f4f667a28
+# dbf2571619a84a54b0f7e9ac4950db13
 msgid "|IC|"
 msgstr ""
 
 #: ../../grass/grass_setup.rst:168
-# 042b705f05b84525aa05a230cdd6e178
+# 904bf9e3bd734a9598edb28699b1599a
 msgid "The GRASS workflow for ingesting data is somewhat different from the QGIS method, because GRASS loads its data into a spatial database structure. However, by using QGIS as a frontend, you can make the setup of a GRASS mapset easier by using existing layers in QGIS as data sources for GRASS."
 msgstr ""
 
 #: ../../grass/grass_setup.rst:174
-# c387712d936143d3b8abf1e375ba553c
+# 5a5250f95c3e41e8b0dbe157dae8ab63
 msgid "|WN|"
 msgstr ""
 
 #: ../../grass/grass_setup.rst:176
-# f3aabacd07054fccb988dc3383000f99
+# fd683ad6a403408a99f96076b3cb0066
 msgid "Now that the data is imported into GRASS, we can look at the advanced analysis operations that GRASS offers."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:2
-# af0dee227dda4b0e915985d6ebfb1f85
+# 3cff14858cb74bee86bb673543e3d708
 msgid "|LS| GRASS Tools"
 msgstr ""
 
 #: ../../grass/grass_tools.rst:4
-# d36b2dfcabcc4ea0ab157ae3c84a24c0
+# 785800167aac4b619c8671d5605f7bd2
 msgid "In this lesson we will present a selection of tools to give you an idea of the capabilities of GRASS."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:8
-# 1c384570de654bd8beccaeb1036ab7e8
+# 9c31160f63d14218a1609e34b08a691b
 msgid "|basic| |FA| Set Raster Colors"
 msgstr ""
 
 #: ../../grass/grass_tools.rst:10
-# a0b196a5c74441c9acbb36fe926fd541
+# a3db530a67c94a23afb809a15ccdddb4
 msgid "Open the :guilabel:`GRASS Tools` dialog."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:11
-# e61e1cf6f7c14a21bfeaf834c0f8fa18
+# ce4e5259082f4fbb8a239ef016d2fdf9
 msgid "Look for the :kbd:`r.colors.table` module by searching for it in the :guilabel:`Filter` field of the :guilabel:`Modules List` tab."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:13
-# 50ed289004234827afa5dcdcc84d7f5c
+# fb6f478a9cb84a6fa746cb5ddba65f0c
 msgid "Open the tool and set it up like this:"
 msgstr ""
 
 #: ../../grass/grass_tools.rst:18
-# c945767d06274812823b46d08946763e
+# 580ab1f18dbf4c8c9c72e9160c5f1d47
 msgid "When you run the tool, it will recolor your raster:"
 msgstr ""
 
 #: ../../grass/grass_tools.rst:24
-# 2c3ab525e63142ce992876977bc593b0
+# fa67071b095c4af984c4698aeda2aaa1
 msgid "|basic| |FA| Visualize Data in 3D"
 msgstr ""
 
 #: ../../grass/grass_tools.rst:26
-# 33870b3d20e8471e8d794809d9106913
+# f0594c19a27248d78fdeaa10e962d64a
 msgid "GRASS allows you to use a DEM to visualize your data in three dimensions. The tool you'll use for this operates on the GRASS Region, which at the moment is set to the whole extent of South Africa, as you set it up before."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:30
-# bb0999401bab4f37a775fa9426214064
+# 349313486e7d48cf970ec83070e93f2c
 msgid "To redefine the extent to cover only our raster dataset, click this button:"
 msgstr ""
 
 #: ../../grass/grass_tools.rst:35
-# e0b4b6ad564845bdbaf92c66db085ffa
+# 6157c2adc5064be3bfd43189df65b267
 msgid "When this tool is activated, your cursor will turn into a cross whe over the QGIS map canvas."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:38
-# 11ab4129d07b4100869eda767aac9078
+# 58d15a9608ce4181a0071e326223f6cf
 msgid "Using this tool, click and drag a rectangle around the edges of the GRASS raster."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:40
-# 7eefe1aa2fd4498996232f79c5011b4a
+# bf593a90a5f64b088ceb57fcad43b5d9
 msgid "Click :guilabel:`OK` in the :guilabel:`GRASS Region Settings` dialog when done."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:42
-# 1a5bccd3b3e349b19ab8d9c8c18295c5
+# 3b13e04fa1cf4b86b100f95d93041a96
 msgid "Search for the :kbd:`nviz` tool:"
 msgstr ""
 
 #: ../../grass/grass_tools.rst:47
-# 77dcbee86869488d82d49146db29d2c2
+# 71548c80825a44deb36921e6d7160432
 msgid "Set it up as shown:"
 msgstr ""
 
 #: ../../grass/grass_tools.rst:52
-# 205787ae338447d0a395aec77dc76c88
+# 7ee72a9b14a345aa908e65626b7d3015
 msgid "Remember to enable both :guilabel:`Use region of this map` buttons to the right of the two raster selection dropdown menus. This will allow NVIZ to correctly assess the resolution of the rasters."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:55
-# ab796eb97316473ab9baadfffe0b9c4e
+# 7ad2a99f19524830a4827612ec5a7b88
 msgid "Click the :guilabel:`Run` button."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:57
-# 0d67b24de46c4eceb570e8b1366c1d43
+# 60700400564f43a2abba5c70aa037178
 msgid "NVIZ will set up a 3D environment using the raster and vector selected. This may take some time, depending on your hardware. When it's done, you will see the map rendered in 3D in a new window:"
 msgstr ""
 
 #: ../../grass/grass_tools.rst:64
-# a91435d951004c269dd349765097a683
+# 29fbe72ec2b049218e0b9522473ecbe6
 msgid "Experiment with the :guilabel:`height`, :guilabel:`z-exag`, and :guilabel:`View method` settings to change your view of the data. The navigation methods may take some getting used to."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:69
-# a9e65bd8387143aca9965829c233b7f2
+# f881d4187d944584b1325d14b32980fe
 msgid "|moderate| |FA| The Mapcalc Tool"
 msgstr ""
 
 #: ../../grass/grass_tools.rst:71
-# 430a38b9fad84bb1bd58d09efb36cfc2
+# 257453d1c779443c864ebbc9002ec88b
 msgid "Open the :guilabel:`GRASS Tools` dialog's :guilabel:`Modules List` tab and search for :kbd:`calc`."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:73
-# 2545c76d09234691826676df1830ddd8
+# 8cad036d6c7d4b718a05196815ea7dee
 msgid "From the list of modules, select :guilabel:`r.mapcalc` (not :guilabel:`r.mapcalculator`, which is more basic)."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:75
-# 9170e972b57b4e81b1b84a7bf89c0473
+# 956b912e167a4bdba50bdcc3b3119516
 msgid "Start the tool."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:77
-# b5238f90a8a74edcaf4c97404e82e03f
+# 399688dca7c0402eac28567c43ecd854
 msgid "The Mapcalc dialog allows you to construct a sequence of analyses to be performed on a raster, or collection of rasters. You will use these tools to do so:"
 msgstr ""
 
 #: ../../grass/grass_tools.rst:84
-# ee8548a16c364497a185d10926a680a7
+# 3a48510599fe4f1693d9223db6ba8c6b
 msgid "In order, they are:"
 msgstr ""
 
 #: ../../grass/grass_tools.rst:86
-# 12b6748c73b24241a7062528887fe53f
+# b4edf9cbdbfa4adea3878bb7b59ce89d
 msgid ":kbd:`Add map`: Add a raster file from your current GRASS mapset."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:87
-# 9c01f1fcd377488299d2e770d5605948
+# 9907279e9226461d9b53e5b042f76024
 msgid ":kbd:`Add constant value`: Add a constant value to be used in functions."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:88
-# 31180ed7b4f749d480ac1b6af09027d4
+# 131b491f9dbb4380a4c46bbf49ff1c3a
 msgid ":kbd:`Add operator or function`: Add an operator or function to be connected to inputs and outputs."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:90
-# 29c35de7f6d848969b1a17a50c02e018
+# 6267d30522e9489892c3eef24c8a98e7
 msgid ":kbd:`Add connection`: Connect elements. Using this tool, click and drag from the red dot on one item to the red dot on another item. Dots that are correctly connected to a connector line will turn gray. If the line or dot is red, it is not properly connected!"
 msgstr ""
 
 #: ../../grass/grass_tools.rst:94
-# dbf263ed5a884e1eae80a8dbbe804df0
+# a1a5710248cf44a5b24b037100b07442
 msgid ":kbd:`Select item`: Select an item and move selected items."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:95
-# 649dc5f9ce524a829592d7d13ac36d0e
+# 3e0351413a384c0699c8300fa62831ad
 msgid ":kbd:`Delete selected item`: Removes the selected item from the current mapcalc sheet, but not from the mapset (if it is an existing raster)."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:98
-# 585b662f23e845349416fb57bb914322
+# 0c20f5195cf549fa9a8b57221119477c
 msgid "Using these tools:"
 msgstr ""
 
 #: ../../grass/grass_tools.rst:100
-# 5c2a445eaf1445b49122f77a89b79b2e
+# dde76c35caf54a44b00021663d6349c7
 msgid "Construct the following algorithm:"
 msgstr ""
 
 #: ../../grass/grass_tools.rst:105
-# bfc8accf11f34d3396cd5e6fa49b55ad
+# 07a1ae37c89147b5bb962f8dd89b7343
 msgid "When you click :guilabel:`Run`, your output should look like this:"
 msgstr ""
 
 #: ../../grass/grass_tools.rst:110
-# acb2c32865e14914b34b5967b11a6d01
+# d327dcb0fe0a42b6a70c11d96ddca882
 msgid "Click :guilabel:`View output` to see the output displayed in your map:"
 msgstr ""
 
 #: ../../grass/grass_tools.rst:115
-# 855e6dbb660f464181856e0e2295cad0
+# 4682fd8c5ae54d808a25214e3066c401
 msgid "This shows all the areas where the terrain is lower than 500 meters or higher than 1000 meters."
 msgstr ""
 
 #: ../../grass/grass_tools.rst:121
-# f1d4be6c0e0b4b3798837e4f5b507621
+# 42a06196a3214a9d82e5557b0afc8c7e
 msgid "In this lesson, we have covered only a few of the many tools GRASS offers. To explore the capabilities of GRASS for yourself, open the :guilabel:`GRASS Tools` dialog and scroll down the :guilabel:`Modules List`. Or for a more structured approach, look under the :guilabel:`Modules Tree` tab, which organizes tools by type."
 msgstr ""
 
 #: ../../grass/index.rst:3
-# 2e5531107c8a4ab89f4775be300121b9
+# 9df70a61ac994be78017f775fc864f67
 msgid "|MOD| GRASS"
 msgstr ""
 
 #: ../../grass/index.rst:5
-# 797418dfcfac4ba4b3879e6a6b747e03
+# 3c723e259f154b8ea71738a28f539c21
 msgid "GRASS (Geographic Resources Analysis Support System) is a well-known open source GIS with a wide array of useful GIS functions. It was first released in 1984, and has seen much improvement and additional functionality since then. QGIS allows you to make use of GRASS' powerful GIS tools directly."
 msgstr ""
 
