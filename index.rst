@@ -17,7 +17,6 @@
    assessment/index
    postgres/index
    postgis/index
-.. I add this line
    appendix/contribute
 
    answers/answers
