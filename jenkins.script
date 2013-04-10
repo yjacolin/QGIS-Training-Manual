@@ -1,0 +1,16 @@
+#
+# Add this in the jenkins job to automate creation of the website
+# 
+git reset --hard
+git checkout master
+git pull origin master
+./pre_translate.sh
+git commit -m "Automated update of translation strings" i18n/
+#git push origin master
+./post_translate.sh
+#mkdir /var/www/QGISTrainingManual/
+cp -r _build/html/* /var/www/QGISTrainingManual/
+cp -r website/* /var/www/QGISTrainingManual/
+for FILE in `find _build/latex/ -name *.pdf`; do mv $FILE /var/www/QGISTrainingManual/; done
+zip -r /var/www/QGISTrainingManual/exercise_data.zip exercise_data
+
