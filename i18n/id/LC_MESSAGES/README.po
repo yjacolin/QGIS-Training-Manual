@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-20 09:12\n"
+"POT-Creation-Date: 2013-04-10 00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Language: id\n"
 
 # 36dfdd52605647d6ac9fa78addadc28a
@@ -26,8 +26,8 @@ msgstr ""
 # ff4c871f8b3c4f4db64967a4c9178000
 #: ../../README.rst:4
 msgid ""
-"This manual was originally produced by Linfiniti Consulting CC "
-"(http://linfiniti.com) and is now a community effort."
+"This manual was originally produced by Linfiniti Consulting CC (http://"
+"linfiniti.com) and is now a community effort."
 msgstr ""
 
 # 0717f99114f44d949f41a31bdd14822a
@@ -60,9 +60,9 @@ msgstr ""
 # d956db099eea4996819d76a6ab6a6315
 #: ../../README.rst:19
 msgid ""
-"A local clone of the manual's `repository "
-"<https://github.com/qgis/QGIS-Training-Manual>`_. You may wish to work on "
-"your own fork of this repository and submit a pull request later."
+"A local clone of the manual's `repository <https://github.com/qgis/QGIS-"
+"Training-Manual>`_. You may wish to work on your own fork of this repository "
+"and submit a pull request later."
 msgstr ""
 
 # 7fc44c33fc5d4b1d95bb6759dd20b500
@@ -94,10 +94,10 @@ msgstr ""
 # ef3041cee57f48d89c9b8caf36d16d11
 #: ../../README.rst:32
 msgid ""
-"You'll need a translation editor such as `Qt Linguist "
-"<http://code.google.com/p/qtlinguistdownload/>`_ or `Virtaal "
-"<http://translate.sourceforge.net/wiki/virtaal/index>`_. Use it to edit the "
-".po files for your language, found under the i18n folder."
+"You'll need a translation editor such as `Qt Linguist <http://code.google."
+"com/p/qtlinguistdownload/>`_ or `Virtaal <http://translate.sourceforge.net/"
+"wiki/virtaal/index>`_. Use it to edit the .po files for your language, found "
+"under the i18n folder."
 msgstr ""
 
 # 1567da7ffe8b428092bbebbd09257174
@@ -188,6 +188,6 @@ msgstr ""
 # 0ff1ad8adabf4b2fb48f72be533623b1
 #: ../../README.rst:67
 msgid ""
-"To use the theme, run the command \"git submodule update --init "
-"linfiniti-sphinx-theme\" to load the theme submodule from git."
+"To use the theme, run the command \"git submodule update --init linfiniti-"
+"sphinx-theme\" to load the theme submodule from git."
 msgstr ""
