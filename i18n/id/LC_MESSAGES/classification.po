@@ -12,10 +12,10 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Language: id\n"
 
 # 80de5230e72544cb8a8eec9051c2916f
@@ -92,8 +92,8 @@ msgstr ""
 # a199a85228994da5b55d0d1e2102fa98
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:45
 msgid ""
-"Click the arrow (or plus sign) next to :guilabel:`rural` in the "
-":guilabel:`Layer list`, you'll see the categories explained:"
+"Click the arrow (or plus sign) next to :guilabel:`rural` in the :guilabel:"
+"`Layer list`, you'll see the categories explained:"
 msgstr ""
 
 # b1e7d11f4b444662a9275e80690c2d3b
@@ -117,9 +117,9 @@ msgstr ""
 # eb47955b1efc4ee79d8bab55b21bc517
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:60
 msgid ""
-"Get rid of the outline the same way you did before, and click "
-":guilabel:`OK`. (If you need to, go back to the lesson where we covered this "
-"to remember how it's done.)"
+"Get rid of the outline the same way you did before, and click :guilabel:"
+"`OK`. (If you need to, go back to the lesson where we covered this to "
+"remember how it's done.)"
 msgstr ""
 
 # 1c87731257c240e9b21670607d9e6730
@@ -267,8 +267,8 @@ msgstr ""
 # f41b4b13acdb4cf2bf1ae5224f16986a
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:142
 msgid ""
-"Save your rural symbology (if you want to keep it) by clicking on the "
-":guilabel:`Save Style ...` button in the :guilabel:`Style` dialog."
+"Save your rural symbology (if you want to keep it) by clicking on the :"
+"guilabel:`Save Style ...` button in the :guilabel:`Style` dialog."
 msgstr ""
 
 # 691ad82080aa416eaba8417e37a410e5
@@ -381,8 +381,8 @@ msgstr ""
 # 4de87bc82b9b49fa9d449d5e4df732a1
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:207
 msgid ""
-"Change the classification style from :guilabel:`Classified` to "
-":guilabel:`Graduated`:"
+"Change the classification style from :guilabel:`Classified` to :guilabel:"
+"`Graduated`:"
 msgstr ""
 
 # 46007a1b460d46bbbd90d347bffb3cea
@@ -393,15 +393,15 @@ msgstr ""
 # 56465d14e1a84910b6e680e0d0d15b8e
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:218
 msgid ""
-"Under :guilabel:`Color ramp`, choose the option :guilabel:`New color "
-"ramp...` to get this dialog:"
+"Under :guilabel:`Color ramp`, choose the option :guilabel:`New color ramp..."
+"` to get this dialog:"
 msgstr ""
 
 # 5d556c8d8b734bbaad6ce17ae95f4c26
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:224
 msgid ""
-"Choose :guilabel:`Gradient` (if it's not selected already) and click "
-":guilabel:`OK`. You'll see this:"
+"Choose :guilabel:`Gradient` (if it's not selected already) and click :"
+"guilabel:`OK`. You'll see this:"
 msgstr ""
 
 # 475e77e9a5da45549f61d55a05b8da3b
@@ -537,8 +537,8 @@ msgstr ""
 # fba6f124baab4836ad5e4105cb223df0
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:290
 msgid ""
-"Click on the :kbd:`TOWN ...` criterion in the list of rules, and then on "
-":guilabel:`Increase priority`."
+"Click on the :kbd:`TOWN ...` criterion in the list of rules, and then on :"
+"guilabel:`Increase priority`."
 msgstr ""
 
 # 5495c08efcc34b8ea7cc63ce1745008c
@@ -571,8 +571,8 @@ msgstr ""
 # 60ac31a4607a4b6cad93bff7efbd6ed9
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:311
 msgid ""
-"Symbology allows us to represent the attributes of a layer in an "
-"easy-to-read way. It allows us as well as the map reader to understand the "
+"Symbology allows us to represent the attributes of a layer in an easy-to-"
+"read way. It allows us as well as the map reader to understand the "
 "significance of features, using any relevat attributes that we choose. "
 "Depending on the problems you face, you'll apply different classification "
 "techniques to solve them."

@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-23 11:40\n"
+"POT-Creation-Date: 2013-04-10 00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Language: de\n"
 "X-Source-Language: en\n"
@@ -162,9 +162,9 @@ msgstr ""
 #: ../../basic_map/symbology.rst:66
 msgid ""
 "This is good stuff so far, but there's more to a layer's symbology than just "
-"its color. Next we want to change the color of the farms (the "
-":guilabel:`rural` layer), but we also want to eliminate the lines between "
-"the different farms so as to make the map less visually cluttered."
+"its color. Next we want to change the color of the farms (the :guilabel:"
+"`rural` layer), but we also want to eliminate the lines between the "
+"different farms so as to make the map less visually cluttered."
 msgstr ""
 
 # 40d44118e84b4d3780cc2757bd43e64b
@@ -302,8 +302,8 @@ msgstr ""
 # 695c0038d91d437ba338a7c8850c05c9
 #: ../../basic_map/symbology.rst:134
 msgid ""
-"Enable scale-based rendering by clicking on the checkbox labeled "
-":guilabel:`Use scale dependent rendering`:"
+"Enable scale-based rendering by clicking on the checkbox labeled :guilabel:"
+"`Use scale dependent rendering`:"
 msgstr ""
 
 # d054b724c4f3422ea7856c3a42769de9
@@ -319,8 +319,8 @@ msgstr ""
 # e0e2db45fb2a426e822af808cd609d71
 #: ../../basic_map/symbology.rst:143
 msgid ""
-"Test the effects of this by zooming in and out in your map, noting when the "
-":guilabel:`streets` layer disappears and reappears."
+"Test the effects of this by zooming in and out in your map, noting when the :"
+"guilabel:`streets` layer disappears and reappears."
 msgstr ""
 
 # 6fcb11f18d3141be806fe58162c8d45b
@@ -353,8 +353,8 @@ msgstr ""
 # 945613b4dbe44b86bab9572706ce6114
 #: ../../basic_map/symbology.rst:162
 msgid ""
-"In this example, the current symbol has no outline (i.e., it uses the "
-":guilabel:`No Pen` border style)."
+"In this example, the current symbol has no outline (i.e., it uses the :"
+"guilabel:`No Pen` border style)."
 msgstr ""
 
 # b203f6ae8dee4099afa3eb4858ec210e
@@ -401,8 +401,8 @@ msgstr ""
 # 164ee8241fe9490a94eb9670e9eb18cc
 #: ../../basic_map/symbology.rst:189
 msgid ""
-"Change the fill style to something other than :guilabel:`Solid` or "
-":guilabel:`No brush`. For example:"
+"Change the fill style to something other than :guilabel:`Solid` or :guilabel:"
+"`No brush`. For example:"
 msgstr ""
 
 # 48e163f1a85648058f48bfdd787296e4
@@ -493,8 +493,8 @@ msgstr ""
 # e76b304989c840c0aa786402c6ab32c1
 #: ../../basic_map/symbology.rst:239
 msgid ""
-"In the :guilabel:`Layer Properties` dialog, click on "
-":menuselection:`Advanced --> Symbol levels`:"
+"In the :guilabel:`Layer Properties` dialog, click on :menuselection:"
+"`Advanced --> Symbol levels`:"
 msgstr ""
 
 # c1f2ecba126e4de39e531b2106c435e6
@@ -522,8 +522,8 @@ msgstr ""
 msgid ""
 "When you're done, remember to save the symbol itself so as not to lose your "
 "work if you change the symbol again in the future. You can save your current "
-"symbol style by clicking the :guilabel:`Save Style ...` button under the "
-":guilabel:`Style` tab of the :guilabel:`Layer Properties` dialog. Save your "
+"symbol style by clicking the :guilabel:`Save Style ...` button under the :"
+"guilabel:`Style` tab of the :guilabel:`Layer Properties` dialog. Save your "
 "style under :kbd:`exercise_data/styles`.  You can load a previously saved "
 "style at any time by clicking the :guilabel:`Load Style ...` button. Before "
 "you change a style, keep in mind that any unsaved style you are replacing "
@@ -568,8 +568,8 @@ msgstr ""
 # 40c37dd202774aba8eef77190e6a6aad
 #: ../../basic_map/symbology.rst:295
 msgid ""
-"Apply the style :kbd:`advanced_levels_demo.qml` provided in "
-":kbd:`exercise_data/styles`."
+"Apply the style :kbd:`advanced_levels_demo.qml` provided in :kbd:"
+"`exercise_data/styles`."
 msgstr ""
 
 # 00770a8822654663bb7220e2b8990a22
@@ -642,8 +642,8 @@ msgstr ""
 # f80a458d4e6142829720b8f2a226b539
 #: ../../basic_map/symbology.rst:334
 msgid ""
-"Choose a white outline and black fill, with a :guilabel:`symbol width` of "
-":kbd:`2,00` and :guilabel:`symbol height` of :kbd:`4,00`."
+"Choose a white outline and black fill, with a :guilabel:`symbol width` of :"
+"kbd:`2,00` and :guilabel:`symbol height` of :kbd:`4,00`."
 msgstr ""
 
 # e96f627e584b4a62bebb4372bf6bf10e
@@ -873,8 +873,8 @@ msgstr ""
 # 5029bb2291904d72951189297fa2d19d
 #: ../../basic_map/symbology.rst:458
 msgid ""
-"Save it under the directory that the course is in, under "
-":kbd:`exercise_data/symbols`, as an SVG file."
+"Save it under the directory that the course is in, under :kbd:`exercise_data/"
+"symbols`, as an SVG file."
 msgstr ""
 
 # 5d77ecb2d2184efd81f22ba501aac91f
@@ -929,8 +929,8 @@ msgstr ""
 # e0bbbb63f07749e0aebf954c0a91cdab
 #: ../../basic_map/symbology.rst:494
 msgid ""
-"`Examples of Beautiful Maps "
-"<http://gis.stackexchange.com/questions/3083/examples-of-beautiful-maps>`_"
+"`Examples of Beautiful Maps <http://gis.stackexchange.com/questions/3083/"
+"examples-of-beautiful-maps>`_"
 msgstr ""
 
 # e88871878e21479480a0614b0441ecaf
@@ -1077,9 +1077,9 @@ msgstr ""
 msgid ""
 "Databases allow you to store a large volume of associated data in one file. "
 "You may already be familiar with a database management system (DBMS) such as "
-"Microsoft Access. GIS applications can also make use of databases. "
-"GIS-specific DBMSes (such as PostGIS) have extra functions, because they "
-"need to handle spatial data."
+"Microsoft Access. GIS applications can also make use of databases. GIS-"
+"specific DBMSes (such as PostGIS) have extra functions, because they need to "
+"handle spatial data."
 msgstr ""
 
 # 48caa524105248a3840b8e19533eb2c9
@@ -1107,8 +1107,8 @@ msgstr ""
 # 73c63e588fed4c2b9e951b16f212e4f1
 #: ../../basic_map/vector_data.rst:84
 msgid ""
-"In the same folder as the other data, you should find the file "
-":guilabel:`land_use.db`. Select it and click :guilabel:`Open`."
+"In the same folder as the other data, you should find the file :guilabel:"
+"`land_use.db`. Select it and click :guilabel:`Open`."
 msgstr ""
 
 # ae04fd4bb72d455dbc08d53770725268

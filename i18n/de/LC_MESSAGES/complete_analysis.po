@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-23 11:40\n"
+"POT-Creation-Date: 2013-04-10 00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 
 # 10e8f713065240a1b48e39fe35555ad9
 #: ../../complete_analysis/analysis_combination.rst:2
@@ -1433,8 +1433,8 @@ msgstr ""
 # 2838b8deb7a84484a018f298a5c2a512
 #: ../../complete_analysis/analysis_exercise.rst:477
 msgid ""
-"Select the :guilabel:`Buffer distance` button and enter the value :kbd:"
-"`-250` into the associated field; the negative value means that the buffer "
+"Select the :guilabel:`Buffer distance` button and enter the value :kbd:`-"
+"250` into the associated field; the negative value means that the buffer "
 "must be an internal buffer."
 msgstr ""
 

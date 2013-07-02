@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-01 09:19\n"
+"POT-Creation-Date: 2013-04-10 00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Language: id\n"
 
 # 9678709ca9674c9cb36272795e22fd14
@@ -266,8 +266,8 @@ msgid ""
 "To clip a subpart of your data you can use the :kbd:`ST_INTERSECT()` "
 "function. To avoid empty geometries, use:"
 msgstr ""
-"Untuk memotong sebuah sub bagian dari data Anda dapat menggunakan fungsi "
-":kbd:`ST_INTERSECT()` . untuk menghindari geometri kosong, gunakan:"
+"Untuk memotong sebuah sub bagian dari data Anda dapat menggunakan fungsi :"
+"kbd:`ST_INTERSECT()` . untuk menghindari geometri kosong, gunakan:"
 
 # 71c1d54f154245019fa727699ea1d457
 #: ../../postgis/geometry.rst:248
@@ -300,8 +300,8 @@ msgstr ""
 #: ../../postgis/geometry.rst:270
 msgid ""
 "To see how it works without creating a new layer, you could also run this "
-"command on the 'people' layer, although of course it would make little "
-"real-world sense to do this."
+"command on the 'people' layer, although of course it would make little real-"
+"world sense to do this."
 msgstr ""
 "Untuk melihat bagaimana ini bekerja tanpa membuat layer baru, Anda dapat "
 "juga menjalankan *command* pada layer ‘people’, meskipun tentu saja itu akan "
@@ -316,8 +316,8 @@ msgstr "Pembersihan Geometri"
 # bbb499a92ae74632907dda61e63192fd
 #: ../../postgis/geometry.rst:280
 msgid ""
-"You can get more information for this topic in `this blog entry "
-"<http://linfiniti.com/?s=cleangeometry>`_."
+"You can get more information for this topic in `this blog entry <http://"
+"linfiniti.com/?s=cleangeometry>`_."
 msgstr ""
 "Anda dapat mendapatkan informasi lebih lanjut untuk topik ini di blog entri "
 "ini."
@@ -362,8 +362,8 @@ msgstr ""
 # 3de1e6a549474983824f6b9bad7efbdc
 #: ../../postgis/geometry.rst:308
 msgid ""
-"When you create a database, you can then specify which tablespace to use "
-"e.g.:"
+"When you create a database, you can then specify which tablespace to use e."
+"g.:"
 msgstr ""
 "Pada saat Anda membuat basisdata, Anda dapat menentukan *tablespace* mana "
 "yang digunakan misalnya:"
@@ -533,8 +533,8 @@ msgid ""
 "You can add shapefiles to the database by clicking the :guilabel:`Add` "
 "button, which will give you a file browser window."
 msgstr ""
-"Anda dapat menambahkan shapefile ke dalam basisdata dengan mengklik tombol "
-":guilabel:`Add` , yang akan memberikan Anda jendela pencari file."
+"Anda dapat menambahkan shapefile ke dalam basisdata dengan mengklik tombol :"
+"guilabel:`Add` , yang akan memberikan Anda jendela pencari file."
 
 # 1788aa26394a4702a36259a7f5e27b75
 #: ../../postgis/import_export.rst:93
@@ -588,17 +588,16 @@ msgstr ""
 msgid ""
 "While working through this section, you may want to keep a copy of the "
 "`PostGIS cheat sheet <../_static/postgis/postgis_cheatsheet.pdf>`_ available "
-"at `Boston GIS user group "
-"<http://www.bostongis.com/postgis_quickguide.bqg>`_. Another good friend is "
-"the `online <http://postgis.refractions.net/documentation/manual-1.5/>`_ "
-"PostGIS documentation."
+"at `Boston GIS user group <http://www.bostongis.com/postgis_quickguide."
+"bqg>`_. Another good friend is the `online <http://postgis.refractions.net/"
+"documentation/manual-1.5/>`_ PostGIS documentation."
 msgstr ""
 "Ketika bekerja pada bagian ini, Anda mungkin ingin menyimpan salinan seperti "
-"yang ada pada `PostGIS cheat sheet "
-"<../_static/postgis/postgis_cheatsheet.pdf>`_ yang tersedia di `Boston GIS "
-"user group <http://www.bostongis.com/postgis_quickguide.bqg>`_. Cara lain "
-"yang dapat digunakan adalah membaca dokumentasi `online "
-"<http://postgis.refractions.net/documentation/manual-1.5/>`_."
+"yang ada pada `PostGIS cheat sheet <../_static/postgis/postgis_cheatsheet."
+"pdf>`_ yang tersedia di `Boston GIS user group <http://www.bostongis.com/"
+"postgis_quickguide.bqg>`_. Cara lain yang dapat digunakan adalah membaca "
+"dokumentasi `online <http://postgis.refractions.net/documentation/manual-1.5/"
+">`_."
 
 # b5fa57a355c54695a821d5898d3c79f8
 #: ../../postgis/index.rst:16
@@ -676,9 +675,9 @@ msgid ""
 "The model defines geospatial data from Point, Linestring, and Polygon types "
 "(and aggregations of them to Multi objects)."
 msgstr ""
-"Model ini menentukan pembentukan data geospasial dari tipe-tipe garis "
-"*(Point)*, garis *(Linestring)*, dan Poligon (dan agregasi tipe-tipe "
-"tersebut dalam obyek Multi)."
+"Model ini menentukan pembentukan data geospasial dari tipe-tipe garis *"
+"(Point)*, garis *(Linestring)*, dan Poligon (dan agregasi tipe-tipe tersebut "
+"dalam obyek Multi)."
 
 # 9ec6674d08174f44a7e44a1e16f22188
 #: ../../postgis/simple_feature_model.rst:33
@@ -866,9 +865,9 @@ msgstr ""
 # 1a2036808e2f404686d3d0b37a73eaab
 #: ../../postgis/simple_feature_model.rst:187
 msgid ""
-"Now is probably a good time to fire up QGIS and try to view your "
-":kbd:`people` table. Also, we should try editing / adding / deleting records "
-"and then performing select queries in the database to see how the data has "
+"Now is probably a good time to fire up QGIS and try to view your :kbd:"
+"`people` table. Also, we should try editing / adding / deleting records and "
+"then performing select queries in the database to see how the data has "
 "changed."
 msgstr ""
 "Sekarang mungkin saat yang tepat untuk menjalankan QGIS dan mencoba untuk "
@@ -882,8 +881,8 @@ msgid ""
 "To load a PostGIS layer in QGIS, use the :menuselection:`Layer --> Add "
 "PostGIS Layers` menu option or toolbar button:"
 msgstr ""
-"Untuk memuat layer PostGIS di QGIS, gunakan pilihan menu "
-":menuselection:`Layer --> Add PostGIS Layers`  atau tombol toolbar:"
+"Untuk memuat layer PostGIS di QGIS, gunakan pilihan menu :menuselection:"
+"`Layer --> Add PostGIS Layers`  atau tombol toolbar:"
 
 # acbda36d78734736b8b7101cac3e89fb
 #: ../../postgis/simple_feature_model.rst:197
@@ -920,9 +919,8 @@ msgid ""
 "Back in the :guilabel:`Add PostGIS Layers` dialog, click :guilabel:`Connect` "
 "and add layers to your project as usual."
 msgstr ""
-"Kembali pada dialog :guilabel:`Add PostGIS Layers` , klik "
-":guilabel:`Connect` dan tambahkan layer yang dikehendaki ke dalam proyek "
-"Anda."
+"Kembali pada dialog :guilabel:`Add PostGIS Layers` , klik :guilabel:"
+"`Connect` dan tambahkan layer yang dikehendaki ke dalam proyek Anda."
 
 # 0d8305e507024ecbb8b14e5223508b1b
 #: ../../postgis/simple_feature_model.rst:227
@@ -1006,11 +1004,11 @@ msgstr "Kunjungi `halaman download <http://www.postgresql.org/download/>`_."
 # b76b9944b35f483b81fc3a5a8e1e059e
 #: ../../postgis/spatial_functions.rst:27
 msgid ""
-"Now follow `this guide "
-"<http://www.bostongis.com/PrinterFriendly.aspx?content_name=postgis_tut01>`_."
+"Now follow `this guide <http://www.bostongis.com/PrinterFriendly.aspx?"
+"content_name=postgis_tut01>`_."
 msgstr ""
-"Sekarang ikuti `panduan ini "
-"<http://www.bostongis.com/PrinterFriendly.aspx?content_name=postgis_tut01>`_."
+"Sekarang ikuti `panduan ini <http://www.bostongis.com/PrinterFriendly.aspx?"
+"content_name=postgis_tut01>`_."
 
 # 88339763ac9243b0acb2789f65d45572
 #: ../../postgis/spatial_functions.rst:30
@@ -1250,8 +1248,8 @@ msgstr ""
 #: ../../postgis/spatial_functions.rst:177
 msgid "Here is one that caught my eye: :kbd:`st_pointfromtext`"
 msgstr ""
-"Dari list fungsi yang ada, berikut adalah salah satu yang saya tangkap : "
-":kbd:`st_pointfromtext`"
+"Dari list fungsi yang ada, berikut adalah salah satu yang saya tangkap : :"
+"kbd:`st_pointfromtext`"
 
 # 4a97c7dc6fe74fdbb707a5ac4f1757ea
 #: ../../postgis/spatial_functions.rst:179
@@ -1281,8 +1279,8 @@ msgstr "Jadi ada beberapa hal yang menarik terjadi di sini:"
 # fab8b698e86f47eabd25df9a380800fb
 #: ../../postgis/spatial_functions.rst:196
 msgid ""
-"we defined a point at position 1,1 (EPSG:4326 is assumed) using "
-":kbd:`POINT(1 1)`"
+"we defined a point at position 1,1 (EPSG:4326 is assumed) using :kbd:`POINT"
+"(1 1)`"
 msgstr ""
 "kita mendefinisikan titik di posisi 1,1 (diasumsikan EPSG: 4326) menggunakan "
 "perintah :kbd:`POINT(1 1)`"
@@ -1339,8 +1337,8 @@ msgid ""
 msgstr ""
 "Jadi apa yang terjadi di sini? Kita mengetikkan teks :kbd:`POINT(1,1)`, "
 "untuk mengubahnya menjadi titik menggunakan :kbd:`st_pointfromtext()`, dan "
-"mengubahnya kembali ke bentuk yang dapat dibaca oleh manusia dengan "
-":kbd:`st_astext()`, yang memberikan hasil kepada kita berupa *string* asli."
+"mengubahnya kembali ke bentuk yang dapat dibaca oleh manusia dengan :kbd:"
+"`st_astext()`, yang memberikan hasil kepada kita berupa *string* asli."
 
 # 0adedeaaf8304d389eeb80d168034220
 #: ../../postgis/spatial_functions.rst:233
@@ -1511,10 +1509,10 @@ msgid ""
 "import from the terminal or via SPIT. Import the files into the following "
 "database tables:"
 msgstr ""
-"Selanjutnya, import data yang disediakan dalam "
-":kbd:`exercise_data/postgis/`. Lihat kembali pelajaran sebelumnya sebagai "
-"petunjuk Anda. Anda dapat mengimport dari terminal atau melalui SPIT. Import "
-"file ke dalam tabel basis data berikut:"
+"Selanjutnya, import data yang disediakan dalam :kbd:`exercise_data/postgis/"
+"`. Lihat kembali pelajaran sebelumnya sebagai petunjuk Anda. Anda dapat "
+"mengimport dari terminal atau melalui SPIT. Import file ke dalam tabel basis "
+"data berikut:"
 
 # cc29deec8db64c958d12eecd1015448f
 #: ../../postgis/spatial_queries.rst:148
@@ -1541,8 +1539,8 @@ msgid ""
 msgstr ""
 "Panggil tiga layer basisdata ini ke dalam QGIS melalui dialog :guilabel:`Add "
 "PostGIS Layers`, seperti biasa. Bila Anda membuka tabel atributnya, Anda "
-"akan melihat bahwa tiga layer tersebut memiliki kolom :kbd:`id` dan kolom "
-":kbd:`gid` yang diciptakan saat proses import PostGIS."
+"akan melihat bahwa tiga layer tersebut memiliki kolom :kbd:`id` dan kolom :"
+"kbd:`gid` yang diciptakan saat proses import PostGIS."
 
 # 6677e3ed51c14fdcbf065e5c379f12f1
 #: ../../postgis/spatial_queries.rst:157
@@ -1615,8 +1613,8 @@ msgid ""
 "solve this enigma without getting caught up in the anomalies the data may "
 "have, we could use a buffer intersect instead:"
 msgstr ""
-"Apabila diperhatikan  hasil yang diperoleh, ada wilayah yang hilang "
-"*(Queensland)*. Ini mungkin disebabkan karena kesalahan topologi. Hasil "
+"Apabila diperhatikan  hasil yang diperoleh, ada wilayah yang hilang *"
+"(Queensland)*. Ini mungkin disebabkan karena kesalahan topologi. Hasil "
 "seperti ini mengingatkan kita akan potensi masalah dalam data yang kita "
 "miliki. Untuk memecahkan teka-teki ini tanpa terjebak dalam anomali data, "
 "kita dapat menggunakan *buffer intersect* sebagai gantinya:"
