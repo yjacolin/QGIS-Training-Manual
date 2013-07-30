@@ -3,473 +3,686 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-10 00:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2013-07-10 18:27+0200\n"
+"Last-Translator: Tudor Barascu <tudorbarascu@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.6\n"
 
-#: ../../grass/grass_setup.rst:2
 # f76f2d92305b4045b0d1bf172ff75cd9
+#: ../../grass/grass_setup.rst:2
 msgid "|LS| GRASS Setup"
-msgstr ""
+msgstr "GRASS"
 
-#: ../../grass/grass_setup.rst:4
 # 7f62b0198d924d58bc43edde248d0fa5
-msgid "Using GRASS in QGIS requires you to think of the interface in a slightly different way. Remember that you're not working in QGIS directly, but working in GRASS *via* QGIS."
+#: ../../grass/grass_setup.rst:4
+msgid ""
+"Using GRASS in QGIS requires you to think of the interface in a slightly "
+"different way. Remember that you're not working in QGIS directly, but "
+"working in GRASS *via* QGIS."
 msgstr ""
+"Pentru a folosi GRASS in QGIS necesita sa va ganditi la interfata intr-un "
+"mod usor diferit. Nu uitati ca nu lucrati direct in QGIS, ci lucrati de fapt "
+"in GRASS cu ajutorul/prin QGIS."
 
-#: ../../grass/grass_setup.rst:8
 # 210cf15115bb4837a99b0f28126ff2eb
+#: ../../grass/grass_setup.rst:8
 msgid "**The goal for this lesson:** To begin a GRASS project in QGIS."
-msgstr ""
+msgstr "**Scopul lectiei:** Sa porniti un proiect GRASS din QGIS."
 
-#: ../../grass/grass_setup.rst:11
 # 6cdb8dc0ab6c42158b731ec1358b9dab
+#: ../../grass/grass_setup.rst:11
 msgid "|basic| |FA| Start a New GRASS Project"
-msgstr ""
+msgstr "|introductiv| |FA| Porniti un Nou Proiect GRASS"
 
-#: ../../grass/grass_setup.rst:13
 # eed19b8789f4416990f35c5a92bc8657
-msgid "To launch GRASS from within QGIS, you need to activate it as with any other plugin."
+#: ../../grass/grass_setup.rst:13
+msgid ""
+"To launch GRASS from within QGIS, you need to activate it as with any other "
+"plugin."
 msgstr ""
+"Pentru a lansa GRASS din QGIS, trebuie sa il activati ca orice alt plugin."
 
-#: ../../grass/grass_setup.rst:16
 # fb59e76a33e2458c9c859ad0ca24535e
-msgid "In the :guilabel:`Plugin Manager`, enable :guilabel:`GRASS` in the list:"
-msgstr ""
+#: ../../grass/grass_setup.rst:16
+msgid ""
+"In the :guilabel:`Plugin Manager`, enable :guilabel:`GRASS` in the list:"
+msgstr "In guilabel:`Plugin Manager`, activati :guilabel:`GRASS` din lista"
 
-#: ../../grass/grass_setup.rst:21
 # 8d9328f077da49ecb8a4300217a0b487
+#: ../../grass/grass_setup.rst:21
 msgid "The GRASS toolbar will appear:"
-msgstr ""
+msgstr "Caseta cu uneltele GRASS va aparea:"
 
-#: ../../grass/grass_setup.rst:26
 # bb978610a3ca4371a7f4797f4419031d
-msgid "Before you can use GRASS, you need to create a **mapset**. GRASS always works in a database environment, which means that you need to import all the data you want to use into a GRASS database."
+#: ../../grass/grass_setup.rst:26
+msgid ""
+"Before you can use GRASS, you need to create a **mapset**. GRASS always "
+"works in a database environment, which means that you need to import all the "
+"data you want to use into a GRASS database."
 msgstr ""
+"Inainte sa folositi GRASS, aveti nevoie sa creati un **mapset**. GRASS "
+"functioneaza tot timpul intr-o baza de date, aceasta insemnand ca toate "
+"datele cu care veti lucra trebuiesc importate intr-o baza de date GRASS."
 
-#: ../../grass/grass_setup.rst:30
 # 5f3756bf3de8493480ab21c690da3900
+#: ../../grass/grass_setup.rst:30
 msgid "Click on the :guilabel:`New mapset` button:"
-msgstr ""
+msgstr "Faceti click pe butonul :guilabel:`New mapset`:"
 
-#: ../../grass/grass_setup.rst:35
 # d126a000adb74631a7592211da08f626
+#: ../../grass/grass_setup.rst:35
 msgid "You'll see a dialog explaining the structure of a GRASS mapset."
-msgstr ""
+msgstr "Veti vedea un dialog explicand structura unui set de date GRASS."
 
-#: ../../grass/grass_setup.rst:36
 # 099cca42f9014ffcb6f7ba31b0ffdb82
-msgid "Create a new directory called :kbd:`grass_db` in :guilabel:`exercise_data`."
+#: ../../grass/grass_setup.rst:36
+msgid ""
+"Create a new directory called :kbd:`grass_db` in :guilabel:`exercise_data`."
 msgstr ""
+"In :guilabel:`exercise_data` creati un director nou numit :kbd:`grass_db`"
 
-#: ../../grass/grass_setup.rst:37
 # 4f40616d85c4467399553c23e89b82de
-msgid "Set it as the directory that will be used by GRASS to set up its database:"
+#: ../../grass/grass_setup.rst:37
+msgid ""
+"Set it as the directory that will be used by GRASS to set up its database:"
 msgstr ""
+"Folositi-l ca directorul folosit de GRASS pentru a-si configura baza de date:"
 
-#: ../../grass/grass_setup.rst:42
 # 097e075ba23e467aaf412dc17438f6a5
-msgid "GRASS needs to create a \"location\", which describes the maximum extents of the geographic area you'll be working in."
+#: ../../grass/grass_setup.rst:42
+msgid ""
+"GRASS needs to create a \"location\", which describes the maximum extents of "
+"the geographic area you'll be working in."
 msgstr ""
+"GRASS are nevoie sa creeze \"location\", prin care descrie extentul (aria de "
+"acoperire maxima) in care veti lucra."
 
-#: ../../grass/grass_setup.rst:45
 # 698248f910db4565901bf15dfa5128d2
+#: ../../grass/grass_setup.rst:45
 msgid "Call the new location :kbd:`South_Africa`:"
-msgstr ""
+msgstr "Denumiti noua locatie kbd:`South_Africa`:"
 
-#: ../../grass/grass_setup.rst:50
 # 47e716b6b2104205bc0b12a11aff13f1
+#: ../../grass/grass_setup.rst:50
 msgid "We'll be working with :kbd:`WGS 84`, so search for and select this CRS:"
 msgstr ""
+"Vom folosi :kbd:`WGS 84`, asa ca efectuati cautare si selectati acest CRS "
+"(sistem de coordonate de referinta):"
 
-#: ../../grass/grass_setup.rst:55
 # b09dd59ab03a4ca0b48f0c61d9036e16
-msgid "Now select the region :guilabel:`South Africa`, which is already defined in GRASS:"
+#: ../../grass/grass_setup.rst:55
+msgid ""
+"Now select the region :guilabel:`South Africa`, which is already defined in "
+"GRASS:"
 msgstr ""
+"Selectati regiunea :guilabel:`South Africa`, care este deja definita in "
+"GRASS:"
 
-#: ../../grass/grass_setup.rst:61
 # 46652540a3f24cfb94d06095617a5167
+#: ../../grass/grass_setup.rst:61
 msgid "Create a mapset, which is the map file that you'll be working with."
-msgstr ""
+msgstr "Creeati un mapset (set de harti) in care veti lucra."
 
-#: ../../grass/grass_setup.rst:66
 # 093401bea6ea4989b5497a03ad34b993
-msgid "Once you're done, you'll see a dialog asking you to confirm that the settings it displays are correct."
+#: ../../grass/grass_setup.rst:66
+msgid ""
+"Once you're done, you'll see a dialog asking you to confirm that the "
+"settings it displays are correct."
 msgstr ""
+"Cand sunteti gata, veti vedea un dialog prin care sunteti rugat sa "
+"confirmati ca setarile prezentate sunt si cele corecte."
 
-#: ../../grass/grass_setup.rst:69
 # dbf849c72f0b4e949a762e98ba305b45
+#: ../../grass/grass_setup.rst:69
 msgid "Click :guilabel:`Finish`."
-msgstr ""
+msgstr "Feceti Click pe :guilabel:`Finish`."
 
-#: ../../grass/grass_setup.rst:70
 # 910f3e1ad8614172baf5d09abeddaaeb
+#: ../../grass/grass_setup.rst:70
 msgid "Click :guilabel:`OK` on the success dialog."
-msgstr ""
+msgstr "In dialogul de succes faceti click pe :guilabel:`OK`"
 
-#: ../../grass/grass_setup.rst:73
 # 4053575eac184324822ab5e8917fde4d
+#: ../../grass/grass_setup.rst:73
 msgid "|basic| |FA| Loading Vector Data into GRASS"
-msgstr ""
+msgstr "|introductiv| FA| Incarcarea vectorilor in GRASS"
 
-#: ../../grass/grass_setup.rst:75
 # 54d01bba35fc44d9b4a91e42e7df577c
-msgid "You'll now have a blank map. To load data into GRASS, you need to follow a two-step process."
+#: ../../grass/grass_setup.rst:75
+msgid ""
+"You'll now have a blank map. To load data into GRASS, you need to follow a "
+"two-step process."
 msgstr ""
+"Acum aveti o harta goala. Pentru a incarca date in GRASS trebuie sa urmariti "
+"un proces impartit in doua."
 
-#: ../../grass/grass_setup.rst:78
 # d08cd3eacdc14b5682f2459be97ae73c
-msgid "Load data into QGIS as usual. Use the :kbd:`streets.shp` dataset (found under :kbd:`exercise_data/`) for now."
+#: ../../grass/grass_setup.rst:78
+msgid ""
+"Load data into QGIS as usual. Use the :kbd:`streets.shp` dataset (found "
+"under :kbd:`exercise_data/`) for now."
 msgstr ""
+"Incarcati datele in QGIS ca de obicei. Folositi deocamdata :kbd:`streets."
+"shp` (il gasiti sub `exercise_data/`)."
 
-#: ../../grass/grass_setup.rst:80
 # 17076636773d4e3983258f92784d03e0
+#: ../../grass/grass_setup.rst:80
 msgid "As soon as it's loaded, click on the :guilabel:`GRASS Tools` button:"
 msgstr ""
+"Indata ce datele sunt incarcate, faceti click pe butonul :guilabel:`GRASS "
+"Tools`:"
 
-#: ../../grass/grass_setup.rst:85
 # f4ebdaba613a45c08f2574cffc069cc0
-msgid "Find the vector import tool by entering the term :kbd:`v.in.ogr.qgis` in the :guilabel:`Filter` field of the dialog that has appeared."
+#: ../../grass/grass_setup.rst:85
+msgid ""
+"Find the vector import tool by entering the term :kbd:`v.in.ogr.qgis` in "
+"the :guilabel:`Filter` field of the dialog that has appeared."
 msgstr ""
+"Gasiti unealta de import vectori prin introducerea termenului :kbd:`v.in.ogr."
+"qgis` in campul :guilabel:`Filter` din dialogul care tocmai a aparut."
 
-#: ../../grass/grass_setup.rst:88
 # ef241cb1b4984b4c997f24f2869f6864
-msgid "The :kbd:`v` stands for \"vector\", :kbd:`in` means its a function to import data into the GRASS database, :kbd:`ogr` is the software library used to read vector data, and :kbd:`qgis` means that the tool will look for a vector from among the vectors already loaded into QGIS."
+#: ../../grass/grass_setup.rst:88
+msgid ""
+"The :kbd:`v` stands for \"vector\", :kbd:`in` means its a function to import "
+"data into the GRASS database, :kbd:`ogr` is the software library used to "
+"read vector data, and :kbd:`qgis` means that the tool will look for a vector "
+"from among the vectors already loaded into QGIS."
 msgstr ""
+":kbd:`v` vine de la \"vector\", :kbd:`in` si inseamna o functie pentru a "
+"importa datele intr-o baza de date GRASS, :kbd:`ogr`este libraria de "
+"software folosita pentru a citi datele vectoriale si :kbd:`qgis`inseamna ca "
+"unealta va cauta prin vectorii (layerele de vectori) deja incarcate in QGIS."
 
-#: ../../grass/grass_setup.rst:93
 # 7cdc7884bfff47afb1883a001029fd58
+#: ../../grass/grass_setup.rst:93
 msgid "Once you've found this tool, click on it to bring up the tool itself:"
-msgstr ""
+msgstr "Odata ce ati gasit aceasta unealta, faceti click pe ea:"
 
-#: ../../grass/grass_setup.rst:98
 # 622a1f28e53d4be1a4a7e2a05180f105
-msgid "Set the loaded layer to :guilabel:`streets` and its GRASS version's name to :kbd:`g_streets` to prevent confusion."
+#: ../../grass/grass_setup.rst:98
+msgid ""
+"Set the loaded layer to :guilabel:`streets` and its GRASS version's name to :"
+"kbd:`g_streets` to prevent confusion."
 msgstr ""
+"Pentru a preveni confuzia denumiti layerul incarcat drept :guilabel:"
+"`streets`si versiunea echivalenta din GRASS in :kbd:`g_streets`."
 
-#: ../../grass/grass_setup.rst:108
 # 0e531db79ecc43a89593eb9207de8540
+#: ../../grass/grass_setup.rst:108
 msgid "Click :guilabel:`Run` to begin the import."
-msgstr ""
+msgstr "Faceti click pe :guilabel:`Run` pentru a incepe importul."
 
-#: ../../grass/grass_setup.rst:109
 # 9fcecfc272c549bca4233e53c65e48e2
-msgid "When it's done, click the :guilabel:`View output` button to see the newly imported GRASS layer in the map."
+#: ../../grass/grass_setup.rst:109
+msgid ""
+"When it's done, click the :guilabel:`View output` button to see the newly "
+"imported GRASS layer in the map."
 msgstr ""
+"Cand totul este gata, faceti click pe butonul :guilabel:`View output` pentru "
+"a vedea in harta layerul importat in GRASS."
 
-#: ../../grass/grass_setup.rst:111
 # e0c698e63c2142548957b97a1eb1f86f
-msgid "Close first the import tool itself (click the :guilabel:`Close` button to the immediate right of :guilabel:`View output`), then close the :guilabel:`GDAL Tools` window."
+#: ../../grass/grass_setup.rst:111
+msgid ""
+"Close first the import tool itself (click the :guilabel:`Close` button to "
+"the immediate right of :guilabel:`View output`), then close the :guilabel:"
+"`GDAL Tools` window."
 msgstr ""
+"Inchideti unealta de import (click pe butonul :guilabel:`Close` situat in "
+"dreapta imediata a :guilabel:`View output`) si apoi inchideti fereastra :"
+"guilabel:`GDAL Tools`."
 
-#: ../../grass/grass_setup.rst:114
 # 0201a793b9e94b69957d908aee2da59c
+#: ../../grass/grass_setup.rst:114
 msgid "Remove the original :guilabel:`roads_33S` layer."
-msgstr ""
+msgstr "Indepartati layerul original :guilabel:`roads_33S`."
 
-#: ../../grass/grass_setup.rst:116
 # 47138e7c47c241e585063245408fa50c
-msgid "Now you are left with only the imported GRASS layer as displayed in your QGIS map."
-msgstr ""
+#: ../../grass/grass_setup.rst:116
+msgid ""
+"Now you are left with only the imported GRASS layer as displayed in your "
+"QGIS map."
+msgstr "Acum nu a ramas decat layerul GRASS importat, prezent in harta QGIS."
 
-#: ../../grass/grass_setup.rst:120
 # 0e05ebe6317f4c2fb15af9239e622890
+#: ../../grass/grass_setup.rst:120
 msgid "|basic| |FA| Loading Raster Data into GRASS"
-msgstr ""
+msgstr "|introductiv| |FA| Incarcarea unui Raster in GRASS"
 
-#: ../../grass/grass_setup.rst:122
 # 696d0e7c90c14fea8439c29c9ac128ef
-msgid "Recall that our DEM is in the Projected CRS :kbd:`UTM 33S / WGS 84`, but our GRASS project is in the Geographic CRS :kbd:`WGS 84`. So let's reproject the DEM first."
+#: ../../grass/grass_setup.rst:122
+msgid ""
+"Recall that our DEM is in the Projected CRS :kbd:`UTM 33S / WGS 84`, but our "
+"GRASS project is in the Geographic CRS :kbd:`WGS 84`. So let's reproject the "
+"DEM first."
 msgstr ""
+"Va aduceti aminte ca DEM-ul nostru este in CRS-ul :kbd:`UTM 33S / WGS 84` dar "
+"proiectul GRASS este in :kbd:`WGS 84`. Haideti sa reproiectam DEM-ul prima "
+"oara."
 
-#: ../../grass/grass_setup.rst:126
 # d9d7fc8634994253bed19b628e9683f0
-msgid "Load the :kbd:`srtm_41_19.tif` dataset (found under :kbd:`exercise_data/raster/SRTM/`) into the QGIS map as usual, using QGIS' :guilabel:`Add Raster Layer` tool."
+#: ../../grass/grass_setup.rst:126
+msgid ""
+"Load the :kbd:`srtm_41_19.tif` dataset (found under :kbd:`exercise_data/"
+"raster/SRTM/`) into the QGIS map as usual, using QGIS' :guilabel:`Add Raster "
+"Layer` tool."
 msgstr ""
+"Incarcati datasetul :kbd:`srtm_41_19.tif` (gasit in "
+":kbd:`exercise_data/raster/SRTM/`) in harta QGIS, folosind :guilabel:`Add "
+"Raster Layer`."
 
-#: ../../grass/grass_setup.rst:129
 # eff6ec1e4ea64ee8a24a08b6a03782fa
-msgid "Reproject it using GDAL Warp tool (:menuselection:`Raster --> Projections --> Warp (Reproject)`), setting it up as shown:"
+#: ../../grass/grass_setup.rst:129
+msgid ""
+"Reproject it using GDAL Warp tool (:menuselection:`Raster --> Projections --"
+"> Warp (Reproject)`), setting it up as shown:"
 msgstr ""
+"Reproiectati-l folosint instrumentul GDAL Warp :menuselection:`Raster --> "
+"Projections --> Warp (Reproject)`), si folositi setarile:"
 
-#: ../../grass/grass_setup.rst:135
 # ef667301f9ee4956baaad6a1a6f99b06
-msgid "Save the raster under the same folder as the original, but with the file name :kbd:`DEM_WGS84.tif`. Once it appears in your map, remove the :kbd:`srtm_41_19.tif` dataset from your :guilabel:`Layers list`."
+#: ../../grass/grass_setup.rst:135
+msgid ""
+"Save the raster under the same folder as the original, but with the file "
+"name :kbd:`DEM_WGS84.tif`. Once it appears in your map, remove the :kbd:"
+"`srtm_41_19.tif` dataset from your :guilabel:`Layers list`."
 msgstr ""
+"Salvati rasterul in acelasi fisier ca si cel original, dar cu numele "
+":kbd:`DEM_WGS84.tif`. Cand apare pe harta, indepartati datasetul "
+":kbd:`srtm_41_19.tif` din :guilabel:`Layers list`."
 
-#: ../../grass/grass_setup.rst:139
 # 5e3abcbd56294f108c0e4cf68fe36beb
+#: ../../grass/grass_setup.rst:139
 msgid "Now that it's reprojected, you can load it into your GRASS database."
-msgstr ""
+msgstr "Acum ca este reproiectat, il putem incarca in baza de date GRASS."
 
-#: ../../grass/grass_setup.rst:141
 # ea2db6e2637e4321954ce4d85be2320a
+#: ../../grass/grass_setup.rst:141
 msgid "Open the :guilabel:`GRASS Tools` dialog again."
-msgstr ""
+msgstr "Deschideti :guilabel:`GRASS Tools`, din nou."
 
-#: ../../grass/grass_setup.rst:142
 # f597e759c74b4523be4cf7c267f0c130
+#: ../../grass/grass_setup.rst:142
 msgid "Click on the :guilabel:`Modules List` tab."
-msgstr ""
+msgstr "Click pe tabul :guilabel:`Modules List`."
 
-#: ../../grass/grass_setup.rst:143
 # d56609ba9d624b3ba6928ec6a4b06574
+#: ../../grass/grass_setup.rst:143
 msgid "Search for :kbd:`r.in.gdal.qgis`:"
-msgstr ""
+msgstr "Cautati in :kbd:`r.in.gdal.qgis`:"
 
-#: ../../grass/grass_setup.rst:148
 # 2479823c061c4ab4a07cefd48436f708
+#: ../../grass/grass_setup.rst:148
 msgid "Which gives you this tool:"
-msgstr ""
+msgstr "Veti primi instrumentul:"
 
-#: ../../grass/grass_setup.rst:153
 # a697c821e32d4154af514a5bd5ef4faf
-msgid "Set it up as shown (input layer is :guilabel:`DEM_WGS84`, output is :kbd:`g_dem`)."
+#: ../../grass/grass_setup.rst:153
+msgid ""
+"Set it up as shown (input layer is :guilabel:`DEM_WGS84`, output is :kbd:"
+"`g_dem`)."
 msgstr ""
+"Setati-l asa cum este aratat (layerul input este :guilabel:`DEM_WGS84`, "
+"output este :kbd:`g_dem`)."
 
-#: ../../grass/grass_setup.rst:155
 # 2a8534658aa24333b30105214a637ad6
+#: ../../grass/grass_setup.rst:155
 msgid "Click :guilabel:`Run`."
-msgstr ""
+msgstr "Click pe :guilabel:`Run`."
 
-#: ../../grass/grass_setup.rst:156
 # afef6fa0de104297b7b769d85bd25397
+#: ../../grass/grass_setup.rst:156
 msgid "When the process is done, click :guilabel:`View output`."
-msgstr ""
+msgstr "Cand procesul este gata, click pe :guilabel:`View output`."
 
-#: ../../grass/grass_setup.rst:157
 # d711de3481f945608678adda195bbc50
-msgid ":guilabel:`Close` the current tab, and then :guilabel:`Close` the whole dialog."
+#: ../../grass/grass_setup.rst:157
+msgid ""
+":guilabel:`Close` the current tab, and then :guilabel:`Close` the whole "
+"dialog."
 msgstr ""
+"Inchideti tabul curent :guilabel:`Close`, si apoi :guilabel:`Close` intreaga "
+"caseta de dialog."
 
-#: ../../grass/grass_setup.rst:163
 # c0b9519d9e184eeaa55b495c57dda1b4
+#: ../../grass/grass_setup.rst:163
 msgid "You may now remove the original :guilabel:`DEM_WGS84` layer."
-msgstr ""
+msgstr "Acum puteti indeparta layerul original :guilabel:`DEM_WGS84`."
 
-#: ../../grass/grass_setup.rst:166
-#: ../../grass/grass_tools.rst:119
 # 39c6e8f7599a436faccee27f4f667a28
 # dbf2571619a84a54b0f7e9ac4950db13
+#: ../../grass/grass_setup.rst:166 ../../grass/grass_tools.rst:119
 msgid "|IC|"
-msgstr ""
+msgstr "|IC|"
 
-#: ../../grass/grass_setup.rst:168
 # 904bf9e3bd734a9598edb28699b1599a
-msgid "The GRASS workflow for ingesting data is somewhat different from the QGIS method, because GRASS loads its data into a spatial database structure. However, by using QGIS as a frontend, you can make the setup of a GRASS mapset easier by using existing layers in QGIS as data sources for GRASS."
+#: ../../grass/grass_setup.rst:168
+msgid ""
+"The GRASS workflow for ingesting data is somewhat different from the QGIS "
+"method, because GRASS loads its data into a spatial database structure. "
+"However, by using QGIS as a frontend, you can make the setup of a GRASS "
+"mapset easier by using existing layers in QGIS as data sources for GRASS."
 msgstr ""
+"Fluxul de lucru GRASS pentru achizitionarea datelor este diferit de cel al "
+"QGIS-ului, pentru ca GRASS incarca data intro baza de date spatiala. Folosind "
+"QGIS ca si interfata, puteti face setarea hartii GRASS mai usor, folosind "
+"layerele deja existente in QGIS ca si sursa de date pentru GRASS. "
 
-#: ../../grass/grass_setup.rst:174
 # 5a5250f95c3e41e8b0dbe157dae8ab63
+#: ../../grass/grass_setup.rst:174
 msgid "|WN|"
-msgstr ""
+msgstr "|WN|"
 
-#: ../../grass/grass_setup.rst:176
 # fd683ad6a403408a99f96076b3cb0066
-msgid "Now that the data is imported into GRASS, we can look at the advanced analysis operations that GRASS offers."
+#: ../../grass/grass_setup.rst:176
+msgid ""
+"Now that the data is imported into GRASS, we can look at the advanced "
+"analysis operations that GRASS offers."
 msgstr ""
+"Acum ca datele sunt importate in GRASS, ne putem uita la operatiunile de "
+"analiza avansata pe care GRASS le ofera."
 
-#: ../../grass/grass_tools.rst:2
 # 3cff14858cb74bee86bb673543e3d708
+#: ../../grass/grass_tools.rst:2
 msgid "|LS| GRASS Tools"
-msgstr ""
+msgstr "|LS| Uneltele GRASS"
 
-#: ../../grass/grass_tools.rst:4
 # 785800167aac4b619c8671d5605f7bd2
-msgid "In this lesson we will present a selection of tools to give you an idea of the capabilities of GRASS."
+#: ../../grass/grass_tools.rst:4
+msgid ""
+"In this lesson we will present a selection of tools to give you an idea of "
+"the capabilities of GRASS."
 msgstr ""
+"In aceasta lectie va vom prezenta o gama de instrumete pentru a va face o "
+"idee despre abilitatile GRASS."
 
-#: ../../grass/grass_tools.rst:8
 # 9c31160f63d14218a1609e34b08a691b
+#: ../../grass/grass_tools.rst:8
 msgid "|basic| |FA| Set Raster Colors"
-msgstr ""
+msgstr "|introductiv| |FA| Setarea Culorilor Rasterului"
 
-#: ../../grass/grass_tools.rst:10
 # a3db530a67c94a23afb809a15ccdddb4
+#: ../../grass/grass_tools.rst:10
 msgid "Open the :guilabel:`GRASS Tools` dialog."
-msgstr ""
+msgstr "Deschideti caseta de dialog :guilabel:`GRASS Tools`."
 
-#: ../../grass/grass_tools.rst:11
 # ce4e5259082f4fbb8a239ef016d2fdf9
-msgid "Look for the :kbd:`r.colors.table` module by searching for it in the :guilabel:`Filter` field of the :guilabel:`Modules List` tab."
+#: ../../grass/grass_tools.rst:11
+msgid ""
+"Look for the :kbd:`r.colors.table` module by searching for it in the :"
+"guilabel:`Filter` field of the :guilabel:`Modules List` tab."
 msgstr ""
+"Cautati modulul :kbd:`r.colors.table` in campul :guilabel:`Filter` din tabul "
+":guilabel:`Modules List`."
 
-#: ../../grass/grass_tools.rst:13
 # fb6f478a9cb84a6fa746cb5ddba65f0c
+#: ../../grass/grass_tools.rst:13
 msgid "Open the tool and set it up like this:"
-msgstr ""
+msgstr "Deschideti instrumentul si setati-l asa:"
 
-#: ../../grass/grass_tools.rst:18
 # 580ab1f18dbf4c8c9c72e9160c5f1d47
+#: ../../grass/grass_tools.rst:18
 msgid "When you run the tool, it will recolor your raster:"
-msgstr ""
+msgstr "Cand il folositi, va recolora rasterul:"
 
-#: ../../grass/grass_tools.rst:24
 # fa67071b095c4af984c4698aeda2aaa1
+#: ../../grass/grass_tools.rst:24
 msgid "|basic| |FA| Visualize Data in 3D"
-msgstr ""
+msgstr "|basic| |FA| Vizualizarea Datelor in 3D"
 
-#: ../../grass/grass_tools.rst:26
 # f0594c19a27248d78fdeaa10e962d64a
-msgid "GRASS allows you to use a DEM to visualize your data in three dimensions. The tool you'll use for this operates on the GRASS Region, which at the moment is set to the whole extent of South Africa, as you set it up before."
+#: ../../grass/grass_tools.rst:26
+msgid ""
+"GRASS allows you to use a DEM to visualize your data in three dimensions. "
+"The tool you'll use for this operates on the GRASS Region, which at the "
+"moment is set to the whole extent of South Africa, as you set it up before."
 msgstr ""
+"GRASS permite utilizarea unui DEM penru a putea vizualiza datele in trei "
+"dimensiuni. Instrumentul folosit folosit opereaza pe Regiunea GRASS, care in "
+"momentul asta este setata pe Africa de Sud."
 
-#: ../../grass/grass_tools.rst:30
 # 349313486e7d48cf970ec83070e93f2c
-msgid "To redefine the extent to cover only our raster dataset, click this button:"
-msgstr ""
+#: ../../grass/grass_tools.rst:30
+msgid ""
+"To redefine the extent to cover only our raster dataset, click this button:"
+msgstr "Pentru a redefini limitele rasterului, click pe acest buton:"
 
-#: ../../grass/grass_tools.rst:35
 # 6157c2adc5064be3bfd43189df65b267
-msgid "When this tool is activated, your cursor will turn into a cross whe over the QGIS map canvas."
+#: ../../grass/grass_tools.rst:35
+msgid ""
+"When this tool is activated, your cursor will turn into a cross whe over the "
+"QGIS map canvas."
 msgstr ""
+"Cand unealta este activata, cursorul se va transforma intr-o cruce cand se "
+"afla deasupra hartii QGIS."
 
-#: ../../grass/grass_tools.rst:38
 # 58d15a9608ce4181a0071e326223f6cf
-msgid "Using this tool, click and drag a rectangle around the edges of the GRASS raster."
+#: ../../grass/grass_tools.rst:38
+msgid ""
+"Using this tool, click and drag a rectangle around the edges of the GRASS "
+"raster."
 msgstr ""
+"Folosind acest instrument, click si trageti pentru a descrie un dreptungi in "
+"jurul marginilor rasterului."
 
-#: ../../grass/grass_tools.rst:40
 # bf593a90a5f64b088ceb57fcad43b5d9
-msgid "Click :guilabel:`OK` in the :guilabel:`GRASS Region Settings` dialog when done."
+#: ../../grass/grass_tools.rst:40
+msgid ""
+"Click :guilabel:`OK` in the :guilabel:`GRASS Region Settings` dialog when "
+"done."
 msgstr ""
+"Click pe :guilabel:`OK` in caseta de dialog :guilabel:`GRASS Region Settings` "
+"cand ati terminat."
 
-#: ../../grass/grass_tools.rst:42
 # 3b13e04fa1cf4b86b100f95d93041a96
+#: ../../grass/grass_tools.rst:42
 msgid "Search for the :kbd:`nviz` tool:"
-msgstr ""
+msgstr "Cautati instrumentul :kbd:`nviz`:"
 
-#: ../../grass/grass_tools.rst:47
 # 71548c80825a44deb36921e6d7160432
+#: ../../grass/grass_tools.rst:47
 msgid "Set it up as shown:"
-msgstr ""
+msgstr "Setati-l asa:"
 
-#: ../../grass/grass_tools.rst:52
 # 7ee72a9b14a345aa908e65626b7d3015
-msgid "Remember to enable both :guilabel:`Use region of this map` buttons to the right of the two raster selection dropdown menus. This will allow NVIZ to correctly assess the resolution of the rasters."
+#: ../../grass/grass_tools.rst:52
+msgid ""
+"Remember to enable both :guilabel:`Use region of this map` buttons to the "
+"right of the two raster selection dropdown menus. This will allow NVIZ to "
+"correctly assess the resolution of the rasters."
 msgstr ""
+"Retineti sa activati ambele butoane :guilabel:`Use region of this map` de la "
+"dreapta rasterului din meniul drop-down. Acest lucru va permite NVIZ sa "
+"estimeze corect rezolutia rasterelor."
 
-#: ../../grass/grass_tools.rst:55
 # 7ad2a99f19524830a4827612ec5a7b88
+#: ../../grass/grass_tools.rst:55
 msgid "Click the :guilabel:`Run` button."
-msgstr ""
+msgstr "Click pe butonul :guilabel:`Run`."
 
-#: ../../grass/grass_tools.rst:57
 # 60700400564f43a2abba5c70aa037178
-msgid "NVIZ will set up a 3D environment using the raster and vector selected. This may take some time, depending on your hardware. When it's done, you will see the map rendered in 3D in a new window:"
+#: ../../grass/grass_tools.rst:57
+msgid ""
+"NVIZ will set up a 3D environment using the raster and vector selected. This "
+"may take some time, depending on your hardware. When it's done, you will see "
+"the map rendered in 3D in a new window:"
 msgstr ""
+"NVIZ va crea un mediu 3D folosind rasterul si vectorul selectat. Poate dura "
+"ceva timp, in functie de hardware. Cand este gata, veti vedea harta 3D "
+"randata intr-un ecran nou:"
 
-#: ../../grass/grass_tools.rst:64
 # 29fbe72ec2b049218e0b9522473ecbe6
-msgid "Experiment with the :guilabel:`height`, :guilabel:`z-exag`, and :guilabel:`View method` settings to change your view of the data. The navigation methods may take some getting used to."
+#: ../../grass/grass_tools.rst:64
+msgid ""
+"Experiment with the :guilabel:`height`, :guilabel:`z-exag`, and :guilabel:"
+"`View method` settings to change your view of the data. The navigation "
+"methods may take some getting used to."
 msgstr ""
+"Experimentati cu setarile :guilabel:`height`, :guilabel:`z-exag` si "
+":guilabel:`View method` pentru a modifica modul de vizualizare a hartii. "
+"Poate dura ceva timp pana va obisnuiti cu metodele de navigare prin meniuri."
 
-#: ../../grass/grass_tools.rst:69
 # f881d4187d944584b1325d14b32980fe
+#: ../../grass/grass_tools.rst:69
 msgid "|moderate| |FA| The Mapcalc Tool"
-msgstr ""
+msgstr "|moderat| |FA| Instrumentul Mapcalc"
 
-#: ../../grass/grass_tools.rst:71
 # 257453d1c779443c864ebbc9002ec88b
-msgid "Open the :guilabel:`GRASS Tools` dialog's :guilabel:`Modules List` tab and search for :kbd:`calc`."
+#: ../../grass/grass_tools.rst:71
+msgid ""
+"Open the :guilabel:`GRASS Tools` dialog's :guilabel:`Modules List` tab and "
+"search for :kbd:`calc`."
 msgstr ""
+"Deschideti caseta de dialog :guilabel:`GRASS Tools` si in tabul "
+":guilabel:`Modules List` cautati :kbd:`calc`."
 
-#: ../../grass/grass_tools.rst:73
 # 8cad036d6c7d4b718a05196815ea7dee
-msgid "From the list of modules, select :guilabel:`r.mapcalc` (not :guilabel:`r.mapcalculator`, which is more basic)."
+#: ../../grass/grass_tools.rst:73
+msgid ""
+"From the list of modules, select :guilabel:`r.mapcalc` (not :guilabel:`r."
+"mapcalculator`, which is more basic)."
 msgstr ""
+"Din lista de module, selectati :guilabel:`r.mapcalc` (nu "
+":guilabel:`r.mapcalculator`, care este mai putin complex)."
 
-#: ../../grass/grass_tools.rst:75
 # 956b912e167a4bdba50bdcc3b3119516
+#: ../../grass/grass_tools.rst:75
 msgid "Start the tool."
-msgstr ""
+msgstr "Porniti instrumentul."
 
-#: ../../grass/grass_tools.rst:77
 # 399688dca7c0402eac28567c43ecd854
-msgid "The Mapcalc dialog allows you to construct a sequence of analyses to be performed on a raster, or collection of rasters. You will use these tools to do so:"
+#: ../../grass/grass_tools.rst:77
+msgid ""
+"The Mapcalc dialog allows you to construct a sequence of analyses to be "
+"performed on a raster, or collection of rasters. You will use these tools to "
+"do so:"
 msgstr ""
+"Caseta de dialog Mapcalc permite constructia unei secvente de analize care sa "
+"fie efectuate pe un raster, sau o colectie de rastere. Veti folosi aceste "
+"unelte pentru a face:"
 
-#: ../../grass/grass_tools.rst:84
 # 3a48510599fe4f1693d9223db6ba8c6b
+#: ../../grass/grass_tools.rst:84
 msgid "In order, they are:"
-msgstr ""
+msgstr "In ordinea in care se afla:"
 
-#: ../../grass/grass_tools.rst:86
 # b4edf9cbdbfa4adea3878bb7b59ce89d
+#: ../../grass/grass_tools.rst:86
 msgid ":kbd:`Add map`: Add a raster file from your current GRASS mapset."
-msgstr ""
+msgstr ":kbd:`Add map`: Adaugati un fisier raster din harta curenta GRASS."
 
-#: ../../grass/grass_tools.rst:87
 # 9907279e9226461d9b53e5b042f76024
-msgid ":kbd:`Add constant value`: Add a constant value to be used in functions."
+#: ../../grass/grass_tools.rst:87
+msgid ""
+":kbd:`Add constant value`: Add a constant value to be used in functions."
 msgstr ""
+":kbd:`Add constant value`: Adaugati o valoare constanta care sa fie folosita "
+"in functii."
 
-#: ../../grass/grass_tools.rst:88
 # 131b491f9dbb4380a4c46bbf49ff1c3a
-msgid ":kbd:`Add operator or function`: Add an operator or function to be connected to inputs and outputs."
+#: ../../grass/grass_tools.rst:88
+msgid ""
+":kbd:`Add operator or function`: Add an operator or function to be connected "
+"to inputs and outputs."
 msgstr ""
+":kbd:`Add operator or function`: Adaugati un operator sau functie care sa fie "
+"conectat la input si output."
 
-#: ../../grass/grass_tools.rst:90
 # 6267d30522e9489892c3eef24c8a98e7
-msgid ":kbd:`Add connection`: Connect elements. Using this tool, click and drag from the red dot on one item to the red dot on another item. Dots that are correctly connected to a connector line will turn gray. If the line or dot is red, it is not properly connected!"
+#: ../../grass/grass_tools.rst:90
+msgid ""
+":kbd:`Add connection`: Connect elements. Using this tool, click and drag "
+"from the red dot on one item to the red dot on another item. Dots that are "
+"correctly connected to a connector line will turn gray. If the line or dot "
+"is red, it is not properly connected!"
 msgstr ""
+":kbd:`Add connection`: Conectati elementele. Utilizati acest instrument, "
+"click si trageti punctul rosu pe un alt obiect. Punctele care sunt corect "
+"conectate la o linie de conectare, vor deveni gri. Daca linia sau punctul "
+"sunt rosii, nu sunt corect conectate!"
 
-#: ../../grass/grass_tools.rst:94
 # a1a5710248cf44a5b24b037100b07442
+#: ../../grass/grass_tools.rst:94
 msgid ":kbd:`Select item`: Select an item and move selected items."
-msgstr ""
+msgstr ":kbd:`Select item`: Selectati un obiect si mutati-l."
 
-#: ../../grass/grass_tools.rst:95
 # 3e0351413a384c0699c8300fa62831ad
-msgid ":kbd:`Delete selected item`: Removes the selected item from the current mapcalc sheet, but not from the mapset (if it is an existing raster)."
+#: ../../grass/grass_tools.rst:95
+msgid ""
+":kbd:`Delete selected item`: Removes the selected item from the current "
+"mapcalc sheet, but not from the mapset (if it is an existing raster)."
 msgstr ""
+":kbd:`Delete selected item`: Indepartati obiectul selectat din tabelul "
+"mapcalc curent, dar nu de pe harta (daca este un raster existent)."
 
-#: ../../grass/grass_tools.rst:98
 # 0c20f5195cf549fa9a8b57221119477c
+#: ../../grass/grass_tools.rst:98
 msgid "Using these tools:"
-msgstr ""
+msgstr "Utilizarea acestor instrumente:"
 
-#: ../../grass/grass_tools.rst:100
 # dde76c35caf54a44b00021663d6349c7
+#: ../../grass/grass_tools.rst:100
 msgid "Construct the following algorithm:"
-msgstr ""
+msgstr "Construiti urmatorul algoritm:"
 
-#: ../../grass/grass_tools.rst:105
 # 07a1ae37c89147b5bb962f8dd89b7343
+#: ../../grass/grass_tools.rst:105
 msgid "When you click :guilabel:`Run`, your output should look like this:"
-msgstr ""
+msgstr "Cand apasati click pe :guilabel:`Run`, outputul ar trebui sa arate asa:"
 
-#: ../../grass/grass_tools.rst:110
 # d327dcb0fe0a42b6a70c11d96ddca882
+#: ../../grass/grass_tools.rst:110
 msgid "Click :guilabel:`View output` to see the output displayed in your map:"
 msgstr ""
+"Click pe :guilabel:`View output` pentru a vedea outputul reprezentat pe harta:"
 
-#: ../../grass/grass_tools.rst:115
 # 4682fd8c5ae54d808a25214e3066c401
-msgid "This shows all the areas where the terrain is lower than 500 meters or higher than 1000 meters."
+#: ../../grass/grass_tools.rst:115
+msgid ""
+"This shows all the areas where the terrain is lower than 500 meters or "
+"higher than 1000 meters."
 msgstr ""
+"Acesta arata zonele in care terenul este mai jos de 500 de metri sau mai "
+"inalt de 1000m"
 
-#: ../../grass/grass_tools.rst:121
 # 42a06196a3214a9d82e5557b0afc8c7e
-msgid "In this lesson, we have covered only a few of the many tools GRASS offers. To explore the capabilities of GRASS for yourself, open the :guilabel:`GRASS Tools` dialog and scroll down the :guilabel:`Modules List`. Or for a more structured approach, look under the :guilabel:`Modules Tree` tab, which organizes tools by type."
+#: ../../grass/grass_tools.rst:121
+msgid ""
+"In this lesson, we have covered only a few of the many tools GRASS offers. "
+"To explore the capabilities of GRASS for yourself, open the :guilabel:`GRASS "
+"Tools` dialog and scroll down the :guilabel:`Modules List`. Or for a more "
+"structured approach, look under the :guilabel:`Modules Tree` tab, which "
+"organizes tools by type."
 msgstr ""
+"In aceasta lectie am acoperit doar cateva din multele unelte pe care GRASS le "
+"ofera. Pentru a explora capacitatile GRASS, deschideti caseta de dialog "
+":guilabel:`GRASS Tools` si gasiti lista :guilabel:`Modules List`. Pentru o "
+"abordare mai structurata, uitati-va in tabul :guilabel:`Modules Tree`, care "
+"organizeaza instrumentele in functie de tip."
 
-#: ../../grass/index.rst:3
 # 9df70a61ac994be78017f775fc864f67
+#: ../../grass/index.rst:3
 msgid "|MOD| GRASS"
-msgstr ""
+msgstr "|MOD| GRASS"
 
-#: ../../grass/index.rst:5
 # 3c723e259f154b8ea71738a28f539c21
-msgid "GRASS (Geographic Resources Analysis Support System) is a well-known open source GIS with a wide array of useful GIS functions. It was first released in 1984, and has seen much improvement and additional functionality since then. QGIS allows you to make use of GRASS' powerful GIS tools directly."
+#: ../../grass/index.rst:5
+msgid ""
+"GRASS (Geographic Resources Analysis Support System) is a well-known open "
+"source GIS with a wide array of useful GIS functions. It was first released "
+"in 1984, and has seen much improvement and additional functionality since "
+"then. QGIS allows you to make use of GRASS' powerful GIS tools directly."
 msgstr ""
-
+"GRASS (Geographic Resources Analysis Support System - Sistem de Suport al "
+"Analizei Resurselor Geografice) este un GIS open-source (cu sursa deschisa) "
+"bine cunoscut. A fost prezentat prima data in 1984 si intre timp a cunoscut "
+"o continua imbunatatire si adaugare de functionalitati."

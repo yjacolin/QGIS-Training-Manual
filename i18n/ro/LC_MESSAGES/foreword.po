@@ -233,7 +233,7 @@ msgstr ""
 # 4ebb2c1d06c54b6ba9c47f413663f7e5
 #: ../../foreword/foreword.rst:110
 msgid "Data"
-msgstr ""
+msgstr "Data"
 
 # 690e80bea4a64ae99b14abc607878c64
 #: ../../foreword/foreword.rst:112
@@ -284,7 +284,7 @@ msgstr ""
 # 6195fb0d04334bdfa77be0e3547e0ddc
 #: ../../foreword/foreword.rst:132
 msgid "Tim Sutton, May 2012"
-msgstr ""
+msgstr "Tim Sutton, Mai 2012"
 
 # d8bf472f9b7741ceaec4a1f231ab7ec1
 #: ../../foreword/index.rst:3
