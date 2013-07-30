@@ -19,20 +19,20 @@ msgstr ""
 #: ../../index.rst:25
 # 3497d00d0c474b4c9c0013bd03841c8e
 msgid "Indices and tables"
-msgstr ""
+msgstr "Indexuri si tabele"
 
 #: ../../index.rst:27
 # bf04e45834a14994b923598ee7864015
 msgid ":ref:`genindex`"
-msgstr ""
+msgstr ":ref:`genindex`"
 
 #: ../../index.rst:28
 # 3c3a3a8ac5bc4d058e81aeb7912c3baa
 msgid ":ref:`modindex`"
-msgstr ""
+msgstr ":ref:`modindex`"
 
 #: ../../index.rst:29
 # db3adf1b37524d319e11519308c60362
 msgid ":ref:`search`"
-msgstr ""
+msgstr ":ref:`search`"
 
