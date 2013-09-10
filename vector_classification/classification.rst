@@ -69,7 +69,7 @@ This gets rid of the ugly classes so you can try again.
 
 * Click :guilabel:`Classify` again, and the new symbols will appear.
   
-You'll notice they don't have outlines. This is because because you just
+You'll notice they don't have outlines. This is because you just
 removed the outlines!
 
 * Change the color for each town by double-clicking on the colored block
