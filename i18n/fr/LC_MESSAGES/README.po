@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, Linfiniti Consulting CC
+# This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-15 14:48\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../README.rst:2
+# 9659e6c213844836b7d7d5fb1b6d39cc
+msgid "About the Project"
+msgstr ""
+
+#: ../../README.rst:4
+# fc95c707781e4103a086c75a3bd17395
+msgid "This manual was originally produced by Linfiniti Consulting CC (http://linfiniti.com) and is now a community effort."
+msgstr ""
+
+#: ../../README.rst:8
+# 48468352029248dfbcdb3012c92053bd
+msgid "Contributions"
+msgstr ""
+
+#: ../../README.rst:10
+# 90da539dbe534a1c9bfc4699bd165145
+msgid "Make sure that you understand and agree to the license conditions for this project before contributing."
+msgstr ""
+
+#: ../../README.rst:14
+# a3deb81f9e7a40b685d4ae90efe6839b
+msgid "To edit the source"
+msgstr ""
+
+#: ../../README.rst:16
+# 6a6e369199a8465eb9597f547bd1fd99
+msgid "To add content to the (English) source, you will need:"
+msgstr ""
+
+#: ../../README.rst:18
+# b25aa42aaebf47e689d3fb9db8c42791
+msgid "Git version control software. Refer to git's documentation for help."
+msgstr ""
+
+#: ../../README.rst:19
+# e10e2727a28c4edc9a590c535ad1ffa9
+msgid "A local clone of the manual's `repository <https://github.com/qgis/QGIS-Training-Manual>`_. You may wish to work on your own fork of this repository and submit a pull request later."
+msgstr ""
+
+#: ../../README.rst:22
+# 4796e47bc7be454f8f0f1c81120b77a5
+msgid "The latest stable installation of `QGIS <http://qgis.org/>`_ software (in which to produce examples)."
+msgstr ""
+
+#: ../../README.rst:24
+# 29c850e894284db1872d40b50f4b087e
+msgid "A basic text editor to edit the RST text files which contain the content. Take care not to commit Windows line endings!"
+msgstr ""
+
+#: ../../README.rst:26
+# cd518ece55414763a11d3d640e5fddec
+msgid "A method to make and edit screenshots. When adding screenshots, put them in the \"_static_en\" directory. Use the existing structure as an example."
+msgstr ""
+
+#: ../../README.rst:30
+# e0062769631045259b12ce9e84872b82
+msgid "To edit existing translations"
+msgstr ""
+
+#: ../../README.rst:32
+# 508060c5f3274dc1b38cf7b5322292ae
+msgid "You'll need a translation editor such as `Qt Linguist <http://code.google.com/p/qtlinguistdownload/>`_ or `Virtaal <http://translate.sourceforge.net/wiki/virtaal/index>`_. Use it to edit the .po files for your language, found under the i18n folder."
+msgstr ""
+
+#: ../../README.rst:36
+# 41ca13ef7d3c48d58b6f87f8f359a48f
+msgid "When creating new screenshots, always save them under the same name as the ones they are to replace. If you use your own file names, the images won't show up in the document."
+msgstr ""
+
+#: ../../README.rst:41
+# 163a6ed85bed40f6894d9869fe647f29
+msgid "To add new translations"
+msgstr ""
+
+#: ../../README.rst:43
+# 2438962f950048a2b6b1c8cbc014f0d2
+msgid "The languages that will be considered for translation are in the \"pre_translate.sh\" and \"post_translate.sh\" scripts."
+msgstr ""
+
+#: ../../README.rst:45
+# a7d8daed9e2449449f985a9f38e3a484
+msgid "In order to create a fully functional translation for a language, open each of these scripts and edit their LOCALE lists."
+msgstr ""
+
+#: ../../README.rst:47
+# 8d2d9826739240f9b707ea96631ad058
+msgid "Add the two-letter code for your chosen language to all of the LOCALE lists and save the files."
+msgstr ""
+
+#: ../../README.rst:49
+# 67047a3b05a14203a2d397f0db796715
+msgid "Run the \"pre_translate.sh\" script."
+msgstr ""
+
+#: ../../README.rst:52
+# 4aa4ee31231e4f0f8b0b3255dd07b24e
+msgid "To render documentation"
+msgstr ""
+
+#: ../../README.rst:54
+# 54fd3082becc4c2b9ab0ae265b972a75
+msgid "Run the \"post_translate.sh\" script."
+msgstr ""
+
+#: ../../README.rst:55
+# 03264d369143459ba72d13c60009a42c
+msgid "You may add the two-letter language code of your language as a parameter to make the script only render documentation for the language you specified."
+msgstr ""
+
+#: ../../README.rst:57
+# 8ccc6fb8754f4d3bb8ef2c264724ebc7
+msgid "The output directory is _build, which is not under version control."
+msgstr ""
+
+#: ../../README.rst:58
+# d9e0ef60556e42afb05babb0673616b6
+msgid "Alternatively, to render the English documentation only as html, run the command \"make html\"."
+msgstr ""
+
+#: ../../README.rst:60
+# 29cbd0df5a5d44fc84eb4efbd0c50185
+msgid "The English PDF render target is specified by using \"make latexpdf\"."
+msgstr ""
+
+#: ../../README.rst:61
+# 6e097b8171104d2ebd5b4263a8e70d34
+msgid "You may need to install \"texlive\" or \"texlive-full\" for PDF rendering to work."
+msgstr ""
+
+#: ../../README.rst:65
+# 1251cac42190451680538a5e85fffab3
+msgid "Theming"
+msgstr ""
+
+#: ../../README.rst:67
+# 56cae10965fd4d049fbeefdf1a39126b
+msgid "To use the theme, run the command \"git submodule update --init linfiniti-sphinx-theme\" to load the theme submodule from git."
+msgstr ""
+

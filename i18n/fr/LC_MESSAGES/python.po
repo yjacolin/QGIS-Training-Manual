@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, Linfiniti Consulting CC
+# This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-15 14:48\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../python/index.rst:3
+# b7492030342a4272a299cc3b52f3ba7b
+msgid "|MOD| The Interface"
+msgstr ""
+
+#: ../../python/overview.rst:1
+# 24b6aadd45d9437b825427b339ec214c
+msgid "Here are the things we will cover in this course:"
+msgstr ""
+
+#: ../../python/overview.rst:3
+# 2bc251a7a51c4d64b825a876b07eaa6e
+msgid "What is python? * Hello world"
+msgstr ""
+
+#: ../../python/overview.rst:5
+# 2afcbd6537924ff181c5b70b5e0376d8
+msgid "Program logic * Whitespace in python * Declaring variables * Expressions * Loops * if..then..else * Declaring Functions * Documenting functions"
+msgstr ""
+
+#: ../../python/overview.rst:13
+# 363feb2af41e479badf5f11177ce5c30
+msgid "Python datatypes (dynamically typed, strongly typed) * String, int, float * Dictionaries * Lists * Tubles * String formatting * List comprehensions"
+msgstr ""
+
+#: ../../python/overview.rst:20
+# 946aec44bd8d4aa0b9d9270204d899d8
+msgid "Introspection * Optional and named arguments * type, str, dir * getattr * lambda functions * __doc__"
+msgstr ""
+
+#: ../../python/overview.rst:26
+# 5eb2247fdf504995b5481b281b9bd9ff
+msgid "Objects * Module imports * Import search paths * Defining classes * Class initialisation (constructors) * self * Class instantiation * Garbage collection * Instance Variables (class members) * Method overloading (not supported) * Class attributes (static class variables) * Private functions (to module) * Private class methods (to class) * Private attributes (to class)"
+msgstr ""
+
+#: ../../python/overview.rst:40
+# 94a890689ea14de59bad7336ef1cfb50
+msgid "Exceptions * try...except * try...except...else * try...except...finally"
+msgstr ""
+
+#: ../../python/overview.rst:44
+# aad9a7952d0d43ebaa9db2dffd55e39c
+msgid "File IO * reading text files * writing text files * file path manipulation (os module) * splitting paths * directory listings / globbing"
+msgstr ""
+
+#: ../../python/python-basics.rst:2
+# 6f8bb4e743114e04a85b4a6d816b8859
+msgid "|LS| Python Basics"
+msgstr ""
+
+#: ../../python/python-basics.rst:4
+# 069028ceed8f4bf389db0fce5732718f
+msgid "In this lesson we will introduce you to the basics of python. If you have programmed with other languages (Java, C++, VB etc.) you will find that python is very easy and quick to learn, though it is a little different to the way other languages work, particularly in terms of its requirements for code formatting."
+msgstr ""
+
+#: ../../python/python-basics.rst:11
+# c9ef7bdceabd4d5ab76c2a21c883e690
+msgid "|basic| |FA| Hello World"
+msgstr ""
+
+#: ../../python/python-basics.rst:13
+# 6b584bf8aeab4f069e456a3d76d80e14
+msgid "Install python from `python.org <http://python.org>`_ then open a terminal or command window and start the python prompt::"
+msgstr ""
+
+#: ../../python/python-basics.rst:18
+# a27040e645ea44dba890346ce9521400
+msgid "When it starts you will see a message like this::"
+msgstr ""
+
+#: ../../python/python-basics.rst:24
+# 2ff7df8ed05840829af4270fcdb3d79b
+msgid "Now type :samp:`print 'Hello World'` at the command prompt as shown below::"
+msgstr ""
+
+#: ../../python/python-basics.rst:28
+# 618c136f7daf41c3bf99526d7b718ba6
+msgid "Python will respond by running your command::"
+msgstr ""
+
+#: ../../python/python-basics.rst:33
+# 9ccc9df0dbb34c9b88d3f86bc743e001
+msgid "Congratulations, you just wrote your first python application!"
+msgstr ""
+
+#: ../../python/python-basics.rst:35
+# 1c5e89a366fa4d66945cb3339fb49c06
+msgid "You can escape from the python prompt by pressing :keyboard:`ctrl-D` or by typing :samp:`quit()` and then pressing :keyboard:`enter`."
+msgstr ""
+
+#: ../../python/python-basics.rst:40
+# 61d2f240973049b8802393778afd0d8a
+msgid "|moderate| |FA| Running commands from a file"
+msgstr ""
+
+#: ../../python/python-basics.rst:42
+# 22b8b2478bc04085b98757007bf1fdee
+msgid "Naturally it would be of limited use to only ever be able to type your python commands interactively, so it is common practice to save your python commands in a :file:`.py` file and then run the file. For example, save this line in a text file called :file:`hello_world.py`::"
+msgstr ""
+
+#: ../../python/python-basics.rst:49
+# 7f9ff15720ef4c72a8de9103ec9b9089
+msgid "By convention, avoid saving your python code with file names containing spaces or hypens."
+msgstr ""
+
+#: ../../python/python-basics.rst:53
+# 0db3da366e82473db46751df48cee267
+msgid "Now you can run your program by typing this from your command prompt::"
+msgstr ""
+
+#: ../../python/python-basics.rst:59
+# d6feeec8f65544a9b2c5a663ecbc4599
+msgid "|advanced| |FA| Defining the interpreter in the file"
+msgstr ""
+
+#: ../../python/python-basics.rst:61
+# 993d3cd322c7449f8bec6c4394a8d200
+msgid "It would be more convenient if we could just run the file directly. You can do this on Linux and Mac OSX by adding an interpreter annotation to the top of the file::"
+msgstr ""
+
+#: ../../python/python-basics.rst:69
+# f050bf7fd81e40708821e757d2f581a0
+msgid "You will also need to make the file executable like this::"
+msgstr ""
+
+#: ../../python/python-basics.rst:73
+# 24ac141bce5c4b7ab84436ac713feeb1
+msgid "Now you can execute the file like this::"
+msgstr ""
+
+#: ../../python/python-basics.rst:77
+# 4466e471412d4865b38f256bca4c801e
+msgid "Doing this may prevent your program from being portable accross operating systems."
+msgstr ""
+
