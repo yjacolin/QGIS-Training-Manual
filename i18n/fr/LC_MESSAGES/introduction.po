@@ -15,421 +15,699 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Language: fr_FR\n"
+"X-Source-Language: C\n"
 
-#: ../../introduction/index.rst:3
 # 469588c608d34db9a05e34dcc3b51091
+#: ../../introduction/index.rst:3
 msgid "|MOD| The Interface"
 msgstr "|MOD| L'interface"
 
-#: ../../introduction/intro.rst:2
 # 1615bdf07ba3459c8fea78a3c40247bf
+#: ../../introduction/intro.rst:2
 msgid "|LS| A Brief Introduction"
 msgstr "|LS| Une brève introduction"
 
-#: ../../introduction/intro.rst:4
 # 86dedd46ac4d4c30b2671153e76de5de
-msgid "Welcome to our course! Over the next few days, we'll be showing you how to use QGIS easily and efficiently. If you're new to GIS, we'll tell you what you need to get started. If you're an experienced user, you'll see how QGIS fulfills all the functions you expect from a GIS program, and more!"
-msgstr "Bienvenu à notre formation ! Dans les prochains jours, nous allons vous montrer comment utiliser QGIS facilement et efficacement. Si vous êtes nouveau dans le monde des SIG, nous vous dirons ce qui est nécessaire pour démarrer. Si vous êtes un utilisateur expérimenté, vous verrez comment QGIS apporte toutes les fonctions que vous attendez d'un programme SIG, voire plus !"
+#: ../../introduction/intro.rst:4
+msgid ""
+"Welcome to our course! Over the next few days, we'll be showing you how to "
+"use QGIS easily and efficiently. If you're new to GIS, we'll tell you what "
+"you need to get started. If you're an experienced user, you'll see how QGIS "
+"fulfills all the functions you expect from a GIS program, and more!"
+msgstr ""
+"Bienvenu à notre formation ! Dans les prochains jours, nous allons vous "
+"montrer comment utiliser QGIS facilement et efficacement. Si vous êtes "
+"nouveau dans le monde des SIG, nous vous dirons ce qui est nécessaire pour "
+"démarrer. Si vous êtes un utilisateur expérimenté, vous verrez comment QGIS "
+"apporte toutes les fonctions que vous attendez d'un programme SIG, voire "
+"plus !"
 
-#: ../../introduction/intro.rst:10
 # aefc00bd672b4e348db6749e2913de3f
-msgid "In this module we introduce the QGIS project itself, as well as explaining the user interface."
-msgstr "Dans ce module nous introduisons le projet QGIS lui-même ainsi que l'interface utilisateur."
+#: ../../introduction/intro.rst:10
+msgid ""
+"In this module we introduce the QGIS project itself, as well as explaining "
+"the user interface."
+msgstr ""
+"Dans ce module nous introduisons le projet QGIS lui-même ainsi que "
+"l'interface utilisateur."
 
-#: ../../introduction/intro.rst:13
 # 5e83398f447848a48d008e04bc2533d1
-msgid "After completing this section, you will be able to correctly identify the main elements of the screen in QGIS and know what each of them does, and load a shapefile into QGIS."
-msgstr "Après avoir terminé cette section, vous serez capable d'identifier correctement les principaux éléments de l'écran dans QGIS et saurez ce que chacun d'eux fait, de charger un shapefile dans QGIS."
+#: ../../introduction/intro.rst:13
+msgid ""
+"After completing this section, you will be able to correctly identify the "
+"main elements of the screen in QGIS and know what each of them does, and "
+"load a shapefile into QGIS."
+msgstr ""
+"Après avoir terminé cette section, vous serez capable d'identifier "
+"correctement les principaux éléments de l'écran dans QGIS et saurez ce que "
+"chacun d'eux fait, de charger un shapefile dans QGIS."
 
-#: ../../introduction/intro.rst:20
 # 08fd0d6a105f46e5896686952ed14c0e
-msgid "This course includes instructions on adding, deleting and altering GIS datasets. We have provided training datasets for this purpose. Before using the techniques described here on your own data, always ensure you have proper backups!"
-msgstr "Ce cours inclus des instructions sur l'ajout, la suppression et la modification de jeux de données SIG. Nous fournissons des jeux de données de formation dans ce but. Avant d'utiliser les techniques décrites ici , assurez vous toujours d'avoir une sauvegarde fonctionnelle !"
+#: ../../introduction/intro.rst:20
+msgid ""
+"This course includes instructions on adding, deleting and altering GIS "
+"datasets. We have provided training datasets for this purpose. Before using "
+"the techniques described here on your own data, always ensure you have "
+"proper backups!"
+msgstr ""
+"Ce cours inclus des instructions sur l'ajout, la suppression et la "
+"modification de jeux de données SIG. Nous fournissons des jeux de données de "
+"formation dans ce but. Avant d'utiliser les techniques décrites ici , "
+"assurez vous toujours d'avoir une sauvegarde fonctionnelle !"
 
-#: ../../introduction/intro.rst:26
 # c2601f3c9967435189361f64ed303882
+#: ../../introduction/intro.rst:26
 msgid "How to use this tutorial"
 msgstr "Comment utiliser ce tutorial"
 
-#: ../../introduction/intro.rst:28
 # cab8d2e61c874e2fa7371a49534ac46f
-msgid "Any text :guilabel:`that looks like this` refers to something on the screen that you can click on."
-msgstr "N'importe quel text :guilabel:`ressemblant à ceci` fait référence à quelque chose à l'écran que vous pouvez cliquer."
+#: ../../introduction/intro.rst:28
+msgid ""
+"Any text :guilabel:`that looks like this` refers to something on the screen "
+"that you can click on."
+msgstr ""
+"N'importe quel text :guilabel:`ressemblant à ceci` fait référence à quelque "
+"chose à l'écran que vous pouvez cliquer."
 
-#: ../../introduction/intro.rst:31
 # f5afe3ed20554696ad50c2384d42a518
-msgid "Text that :menuselection:`looks --> like --> this` directs you through menus."
-msgstr "Le texte qui :menuselection:`ressemble --> à --> cela` vous dirige à travers les menus"
+#: ../../introduction/intro.rst:31
+msgid ""
+"Text that :menuselection:`looks --> like --> this` directs you through menus."
+msgstr ""
+"Le texte qui :menuselection:`ressemble --> à --> cela` vous dirige à travers "
+"les menus."
 
-#: ../../introduction/intro.rst:33
 # fa34905e47e548a6abf0be8c823ba217
-msgid ":kbd:`This kind of text` refers to something you can type, such as a command, path, or file name."
-msgstr ":kbg:`Ce type de texte` fait référence à quelque chose que vous tapez, comme une commande, un chemin ou un nom de fichier"
+#: ../../introduction/intro.rst:33
+msgid ""
+":kbd:`This kind of text` refers to something you can type, such as a "
+"command, path, or file name."
+msgstr ""
+":kbd:`Ce type de texte` fait référence à quelque chose que vous tapez, comme "
+"une commande, un chemin ou un nom de fichier."
 
-#: ../../introduction/intro.rst:37
 # 12b8267cf45c4270873f2b564e8d133d
+#: ../../introduction/intro.rst:37
 msgid "Tiered course objectives"
 msgstr "Objectifs de cours à plusieurs niveaux"
 
-#: ../../introduction/intro.rst:39
 # 1d9127c93d8746b1b4635b2dc02ada36
-msgid "This course caters to different user experience levels. Depending on which category you consider yourself to be in, you can expect a different set of course outcomes. Each category contains information that is essential for the next one, so it's important to do all exercises that are at or below your level of experience."
-msgstr "Ce cours s'adresse à différents niveaux d'expérience utilisateurs. En fonction de quelle catégorie vous vous trouvez, vous pouvez réaliser différents ensembles de cours. Chaque catégorie contient des informations qui est essentielle pour la prochaine, il est donc importante de faire tous les exercices qui sont au même niveau ou en dessous."
+#: ../../introduction/intro.rst:39
+msgid ""
+"This course caters to different user experience levels. Depending on which "
+"category you consider yourself to be in, you can expect a different set of "
+"course outcomes. Each category contains information that is essential for "
+"the next one, so it's important to do all exercises that are at or below "
+"your level of experience."
+msgstr ""
+"Ce cours s'adresse à différents niveaux d'expérience utilisateurs. En "
+"fonction de quelle catégorie vous vous trouvez, vous pouvez réaliser "
+"différents ensembles de cours. Chaque catégorie contient des informations "
+"qui est essentielle pour la prochaine, il est donc importante de faire tous "
+"les exercices qui sont au même niveau ou en dessous."
 
-#: ../../introduction/intro.rst:46
 # d61d4bab5bf04f8683e368bc319bfb57
+#: ../../introduction/intro.rst:46
 msgid "|basic| Basic"
 msgstr "|basic| Basic"
 
-#: ../../introduction/intro.rst:48
 # 76e8f78f495b4f6fbf19d49789d100db
-msgid "In this category, the course assumes that you have little or no prior experience with theoretical GIS knowledge or the operation of a GIS program."
-msgstr "Dans cette catégorie, le cours assume que vous avez peu ou pas d'expérience avec la théorie SIG ou le fonctionnement d'un programme SIG."
+#: ../../introduction/intro.rst:48
+msgid ""
+"In this category, the course assumes that you have little or no prior "
+"experience with theoretical GIS knowledge or the operation of a GIS program."
+msgstr ""
+"Dans cette catégorie, le cours assume que vous avez peu ou pas d'expérience "
+"avec la théorie SIG ou le fonctionnement d'un programme SIG."
 
-#: ../../introduction/intro.rst:51
 # 6f15603f42fd4dc5838b1540cad34a14
-msgid "Limited theoretical background will be provided to explain the purpose of an action you will be performing in the program, but the emphasis is on learning by doing."
-msgstr "Un background théorique limité sera fournie pour expliquer l'objectif d'une action que vous réaliserez dans le programme, mais l'important est sur l'apprentissage sur la manipulation."
+#: ../../introduction/intro.rst:51
+msgid ""
+"Limited theoretical background will be provided to explain the purpose of an "
+"action you will be performing in the program, but the emphasis is on "
+"learning by doing."
+msgstr ""
+"Un background théorique limité sera fournie pour expliquer l'objectif d'une "
+"action que vous réaliserez dans le programme, mais l'important est sur "
+"l'apprentissage sur la manipulation."
 
-#: ../../introduction/intro.rst:55
 # 5196543cc3454e28babd44f07e798eb2
-msgid "When you complete the course, you will have a better concept of the possibilities of GIS, and how to harness their power via QGIS."
-msgstr "Quand vous terminez le cours, vous aurez une meilleure connaissance des possibilités des SIG and comment exploiter leur puissances à travers QGIS."
+#: ../../introduction/intro.rst:55
+msgid ""
+"When you complete the course, you will have a better concept of the "
+"possibilities of GIS, and how to harness their power via QGIS."
+msgstr ""
+"Quand vous terminez le cours, vous aurez une meilleure connaissance des "
+"possibilités des SIG and comment exploiter leur puissances à travers QGIS."
 
-#: ../../introduction/intro.rst:59
 # 7b830ccfc20a4b67a3f1ccccef94a898
+#: ../../introduction/intro.rst:59
 msgid "|moderate| Intermediate"
 msgstr "|moderate| Intermédiaire"
 
-#: ../../introduction/intro.rst:61
 # cd5dc6a000404ff0aa1621060946162b
-msgid "In this category, it is assumed that you have working knowledge and experience of the everyday uses of GIS."
-msgstr "Dans cette catégorie, il est supposé que vous ayez des connaissances et une expérience sur l'usage courant des SIG."
+#: ../../introduction/intro.rst:61
+msgid ""
+"In this category, it is assumed that you have working knowledge and "
+"experience of the everyday uses of GIS."
+msgstr ""
+"Dans cette catégorie, il est supposé que vous ayez des connaissances et une "
+"expérience sur l'usage courant des SIG."
 
-#: ../../introduction/intro.rst:64
 # b343a93de0a84cc0b900fc3d0b75312d
-msgid "Following the instructions for the beginner level will provide you with familiar ground, as well as to make you aware of the cases where QGIS does things slightly differently from other software you may be used to. You will also learn how to use analysis functions in QGIS."
-msgstr "En suivant les instructions du niveau débutant, cela vous fournira un background familier ainsi que vous montrer les cas où QGIS fait les choses un peu différemment que les autres logiciels que vous pouvez utiliser. Vous apprendrez également comment utiliser les fonctions d'analyse dans QGIS."
+#: ../../introduction/intro.rst:64
+msgid ""
+"Following the instructions for the beginner level will provide you with "
+"familiar ground, as well as to make you aware of the cases where QGIS does "
+"things slightly differently from other software you may be used to. You will "
+"also learn how to use analysis functions in QGIS."
+msgstr ""
+"En suivant les instructions du niveau débutant, cela vous fournira un "
+"background familier ainsi que vous montrer les cas où QGIS fait les choses "
+"un peu différemment que les autres logiciels que vous pouvez utiliser. Vous "
+"apprendrez également comment utiliser les fonctions d'analyse dans QGIS."
 
-#: ../../introduction/intro.rst:69
 # eefce07ca33b46c5b8f1653415bbdebf
-msgid "When you complete the course, you should be comfortable with using QGIS for all of the functions you usually need from a GIS for everyday use."
-msgstr "Lorsque vous terminez le cours, vous devriez être capable d'être comfortable dans l'utilisation de QGIS pour toutes les fonctions dont vous avez besoin habituellement dans un SIG pour un usage courant."
+#: ../../introduction/intro.rst:69
+msgid ""
+"When you complete the course, you should be comfortable with using QGIS for "
+"all of the functions you usually need from a GIS for everyday use."
+msgstr ""
+"Lorsque vous terminez le cours, vous devriez être capable d'être comfortable "
+"dans l'utilisation de QGIS pour toutes les fonctions dont vous avez besoin "
+"habituellement dans un SIG pour un usage courant."
 
-#: ../../introduction/intro.rst:73
 # a6de6eec579c43a1905fa0b770ff0393
+#: ../../introduction/intro.rst:73
 msgid "|hard| Advanced"
 msgstr "|hard| Avancé"
 
-#: ../../introduction/intro.rst:75
 # 7cf8fb91cc8d4e8394ef5df7c8e9c434
-msgid "In this category, the assumption is that you are experienced with GIS, have knowledge of and experience with spatial databases, using data on a remote server, perhaps writing scripts for analysis purposes, etc."
-msgstr "Dans cette catégorie, nous faisons l'hypothèse que vous avez de l'expérience avec les SIG, des connaissances et une expérience des bases de données spatiales, l'usage des données sur un serveur distant, peut être l'écriture de scripts pour réaliser des analyses, etc."
+#: ../../introduction/intro.rst:75
+msgid ""
+"In this category, the assumption is that you are experienced with GIS, have "
+"knowledge of and experience with spatial databases, using data on a remote "
+"server, perhaps writing scripts for analysis purposes, etc."
+msgstr ""
+"Dans cette catégorie, nous faisons l'hypothèse que vous avez de l'expérience "
+"avec les SIG, des connaissances et une expérience des bases de données "
+"spatiales, l'usage des données sur un serveur distant, peut être l'écriture "
+"de scripts pour réaliser des analyses, etc."
 
-#: ../../introduction/intro.rst:79
 # 606ee766df64489d855585592e186f81
-msgid "Following the instructions for the other two levels will familiarize you with the approach that the QGIS interface follows, and will ensure that you know how to access the basic functions that you need. You will also be shown how to make use of QGIS' plugin system, database access system, and so on."
-msgstr "En suivant les instructions pour les deux autres niveaux vous rendra familier de l'interface de QGIS, et vous assurera la connaissance nécessaire pour accéder aux fonctions basiques. On vous montrera également comment utiliser le système de plugin de QGIS, d'accès aux bases de données, etc."
+#: ../../introduction/intro.rst:79
+msgid ""
+"Following the instructions for the other two levels will familiarize you "
+"with the approach that the QGIS interface follows, and will ensure that you "
+"know how to access the basic functions that you need. You will also be shown "
+"how to make use of QGIS' plugin system, database access system, and so on."
+msgstr ""
+"En suivant les instructions pour les deux autres niveaux vous rendra "
+"familier de l'interface de QGIS, et vous assurera la connaissance nécessaire "
+"pour accéder aux fonctions basiques. On vous montrera également comment "
+"utiliser le système de plugin de QGIS, d'accès aux bases de données, etc."
 
-#: ../../introduction/intro.rst:84
 # b79028a1ecc2466e8494bb16c8edeb38
-msgid "When you complete the course, you should be well-acquainted with the everyday operation of QGIS, as well as its more advanced functions."
-msgstr "Lorsque vous terminez le cours, vous devriez avoir une bonne connaissance des opérations courantes de QGIS ainsi que ses fonctions plus avancées."
+#: ../../introduction/intro.rst:84
+msgid ""
+"When you complete the course, you should be well-acquainted with the "
+"everyday operation of QGIS, as well as its more advanced functions."
+msgstr ""
+"Lorsque vous terminez le cours, vous devriez avoir une bonne connaissance "
+"des opérations courantes de QGIS ainsi que ses fonctions plus avancées."
 
-#: ../../introduction/intro.rst:89
 # e5618bc312234c19a3021ed0a18cda27
+#: ../../introduction/intro.rst:89
 msgid "Why QGIS?"
 msgstr "Pourquoi QGIS ?"
 
-#: ../../introduction/intro.rst:91
 # 269039e20c8d4c709848feef06470ebd
-msgid "As information becomes increasingly spatially aware, there is no shortage of tools able to fulfill some or all commonly used GIS functions. Why should anyone be using QGIS over some other GIS software package?"
-msgstr "Bien que l'information devienne incroyablement spatiale, il y a une multitude d'outils capable de remplir une partie ou toutes les fonctions SIG courantes. Pourquoi devrions nous utiliser QGIS au lieu d'autres logiciels SIG ?'"
+#: ../../introduction/intro.rst:91
+msgid ""
+"As information becomes increasingly spatially aware, there is no shortage of "
+"tools able to fulfill some or all commonly used GIS functions. Why should "
+"anyone be using QGIS over some other GIS software package?"
+msgstr ""
+"Bien que l'information devienne incroyablement spatiale, il y a une "
+"multitude d'outils capable de remplir une partie ou toutes les fonctions SIG "
+"courantes. Pourquoi devrions nous utiliser QGIS au lieu d'autres logiciels "
+"SIG ?"
 
-#: ../../introduction/intro.rst:95
 # c3f0240ceeff4902a8ba468e2b5574b8
+#: ../../introduction/intro.rst:95
 msgid "Here are only some of the reasons:"
 msgstr "Voici seulement quelques raisons :"
 
-#: ../../introduction/intro.rst:97
 # 7789b8b9047442ad8aca8d57695743fb
-msgid "*It's free, as in lunch.* Installing and using the QGIS program costs you a grand total of zero money. No initial fee, no recurring fee, nothing."
-msgstr "*C'est gratuit.* Installer et utiliser QGIS vous coutera la somme de zéro (ajouter votre unité monétaire). Pas de coût initial, pas de coût récurant, rien."
+#: ../../introduction/intro.rst:97
+msgid ""
+"*It's free, as in lunch.* Installing and using the QGIS program costs you a "
+"grand total of zero money. No initial fee, no recurring fee, nothing."
+msgstr ""
+"*C'est gratuit.* Installer et utiliser QGIS vous coutera la somme de zéro "
+"(ajouter votre unité monétaire). Pas de coût initial, pas de coût récurant, "
+"rien."
 
-#: ../../introduction/intro.rst:100
 # 2a66414f3bad4a1fb91532f5cdacae90
-msgid "*It's free, as in liberty.* If you need extra functionality in QGIS, you can do more than just hope it will be included in the next release. You can sponsor the development of a feature, or add it yourself if you are familiar with programming."
-msgstr "*C'est libre.* Si vous avez besoin de nouvelles fonctionnalités dans QGIS, vous pouvez un peu plus qu'espérer qu'elles seront incluses dans la prochaine version. Vous pouvez sponsoriser leur développement ou l'ajouter vous même si vous êtes familier avec la programmation."
+#: ../../introduction/intro.rst:100
+msgid ""
+"*It's free, as in liberty.* If you need extra functionality in QGIS, you can "
+"do more than just hope it will be included in the next release. You can "
+"sponsor the development of a feature, or add it yourself if you are familiar "
+"with programming."
+msgstr ""
+"*C'est libre.* Si vous avez besoin de nouvelles fonctionnalités dans QGIS, "
+"vous pouvez un peu plus qu'espérer qu'elles seront incluses dans la "
+"prochaine version. Vous pouvez sponsoriser leur développement ou l'ajouter "
+"vous même si vous êtes familier avec la programmation."
 
-#: ../../introduction/intro.rst:105
 # cbb9360f83074a9e88a8fb0029ec9a91
-msgid "*It's constantly developing.* Because anyone can add new features and improve on existing ones, QGIS never stagnates. The development of a new tool can happen as quickly as you need it to."
-msgstr "*C'est en constante développement.* Parce que quiconque peut ajouter une nouvelle fonctionnalité et en améliorer une existante, QGIS ne stage jamais. Le développement d'un nouvel outil peut arriver aussi rapidement que nécessaire."
+#: ../../introduction/intro.rst:105
+msgid ""
+"*It's constantly developing.* Because anyone can add new features and "
+"improve on existing ones, QGIS never stagnates. The development of a new "
+"tool can happen as quickly as you need it to."
+msgstr ""
+"*C'est en constante développement.* Parce que quiconque peut ajouter une "
+"nouvelle fonctionnalité et en améliorer une existante, QGIS ne stage jamais. "
+"Le développement d'un nouvel outil peut arriver aussi rapidement que "
+"nécessaire."
 
-#: ../../introduction/intro.rst:109
 # 32ece44a415b45bd81be3153659001ca
-msgid "*Extensive help and documentation is available.* If you're stuck with anything, you can turn to the extensive documentation, your fellow QGIS users, or even the developers."
-msgstr "*Une aide et une documentation complète est disponible.*"
+#: ../../introduction/intro.rst:109
+msgid ""
+"*Extensive help and documentation is available.* If you're stuck with "
+"anything, you can turn to the extensive documentation, your fellow QGIS "
+"users, or even the developers."
+msgstr ""
+"*Une aide et une documentation complète est disponible.* Si vous êtesperdu, "
+"vous pouvez vous tourner vers la documentation, vos collègues utilisateurs "
+"ou même les développeurs."
 
-#: ../../introduction/intro.rst:113
 # 75c81ef62f8e47fc86df56713d127e5e
+#: ../../introduction/intro.rst:113
 msgid "*Cross-platform.* QGIS can be installed on MacOS, Windows and Linux."
-msgstr "*Multi-plateforme.* QGIS peut être installé sur MacOS, Windows et Linux."
+msgstr ""
+"*Multi-plateforme.* QGIS peut être installé sur MacOS, Windows et Linux."
 
-#: ../../introduction/intro.rst:115
 # 0303c0b9b294452cad79ad628e6af14d
-msgid "Now that you know why you want to use QGIS, we can show you how. The first lesson will guide you in creating your first QGIS map."
-msgstr "Maintenant que vous savez pourquoi utiliser QGIS, nous pouvons vous montrer comment. La première leçon vous guidera dans la création de votre première carte avec QGIS."
+#: ../../introduction/intro.rst:115
+msgid ""
+"Now that you know why you want to use QGIS, we can show you how. The first "
+"lesson will guide you in creating your first QGIS map."
+msgstr ""
+"Maintenant que vous savez pourquoi utiliser QGIS, nous pouvons vous montrer "
+"comment. La première leçon vous guidera dans la création de votre première "
+"carte avec QGIS."
 
-#: ../../introduction/overview.rst:2
 # f212e6e4c888452bb846b58f47b1f79c
+#: ../../introduction/overview.rst:2
 msgid "|LS| An Overview of the Interface"
 msgstr "|LS| Un aperçu de l'interface"
 
-#: ../../introduction/overview.rst:4
 # aeb16a3b48d94572b4903b2d75615d16
-msgid "We will explore the QGIS user interface so that you are familiar with the menus, toolbars, map canvas and layers list that form the basic structure of the interface."
-msgstr "Nous allons explorer l'interface utilisateur de QGIS afin que vous soyez familier avec les menus, la barre d'outils, la carte et la liste des couches qui forment la structure de base de l'interface."
+#: ../../introduction/overview.rst:4
+msgid ""
+"We will explore the QGIS user interface so that you are familiar with the "
+"menus, toolbars, map canvas and layers list that form the basic structure of "
+"the interface."
+msgstr ""
+"Nous allons explorer l'interface utilisateur de QGIS afin que vous soyez "
+"familier avec les menus, la barre d'outils, la carte et la liste des couches "
+"qui forment la structure de base de l'interface."
 
-#: ../../introduction/overview.rst:8
 # 2d21aae032c74740a2e9fd3914092938
-msgid "**The goal for this lesson:** To understand the basics of the QGIS user interface."
-msgstr "**Objectif de cette leçon :** comprendre les bases de l'interface utilisateur de QGIS."
+#: ../../introduction/overview.rst:8
+msgid ""
+"**The goal for this lesson:** To understand the basics of the QGIS user "
+"interface."
+msgstr ""
+"**Objectif de cette leçon :** comprendre les bases de l'interface "
+"utilisateur de QGIS."
 
-#: ../../introduction/overview.rst:12
 # c78967bec02b4242813b2fb2d586bc78
+#: ../../introduction/overview.rst:12
 msgid "|basic| |TY|: The Basics"
 msgstr "|basic| |TY| : les bases"
 
-#: ../../introduction/overview.rst:17
 # 053f5729ed4a48879110b8855acfd394
+#: ../../introduction/overview.rst:17
 msgid "The elements identified in the figure above are:"
 msgstr "Les éléments identifiés dans la figure ci-dessus sont :"
 
-#: ../../introduction/overview.rst:19
 # 78e53ef005214931a52413e0b1c50cde
+#: ../../introduction/overview.rst:19
 msgid "Layers list"
 msgstr "La liste des couches"
 
-#: ../../introduction/overview.rst:20
 # a3a844a6fa37453dbded7cc8908999e5
+#: ../../introduction/overview.rst:20
 msgid "Toolbars"
 msgstr "La barre d'outils"
 
-#: ../../introduction/overview.rst:21
 # 8fcdf4fc5ee74518bf4b87b897451882
+#: ../../introduction/overview.rst:21
 msgid "Map canvas"
 msgstr "la carte"
 
-#: ../../introduction/overview.rst:22
 # db28f51578784b94a0a19dc80ce2b8f1
+#: ../../introduction/overview.rst:22
 msgid "Status bar"
 msgstr "la barre de status"
 
-#: ../../introduction/overview.rst:28
 # d8c2c3f728354999b9d397395cfce012
+#: ../../introduction/overview.rst:28
 msgid "|basic| The Layers List"
 msgstr "|basic| la liste des couches"
 
-#: ../../introduction/overview.rst:30
 # 36a47e468d8a4b38a1b0fb903f315a1a
-msgid "In the Layers list, you can see a list, at any time, of all the layers available to you."
-msgstr "Dans la liste des couches, vous pouvez voir une liste, n'importe quand, de toutes les couches disponibles."
+#: ../../introduction/overview.rst:30
+msgid ""
+"In the Layers list, you can see a list, at any time, of all the layers "
+"available to you."
+msgstr ""
+"Dans la liste des couches, vous pouvez voir une liste, n'importe quand, de "
+"toutes les couches disponibles."
 
-#: ../../introduction/overview.rst:33
 # abd52304cd884da4b20012615740767b
-msgid "Expanding collapsed items (by clicking the arrow or plus symbol beside them) will provide you with more information on the layer's current appearance."
-msgstr "Étendre les items repliés (en cliquant sur la flèche ou le symbol plus à côté) vous donnera plus d'information sur l'apparence des couches actuelles."
+#: ../../introduction/overview.rst:33
+msgid ""
+"Expanding collapsed items (by clicking the arrow or plus symbol beside them) "
+"will provide you with more information on the layer's current appearance."
+msgstr ""
+"Étendre les items repliés (en cliquant sur la flèche ou le symbol plus à "
+"côté) vous donnera plus d'information sur l'apparence des couches actuelles."
 
-#: ../../introduction/overview.rst:36
 # 461c9fa2959d4a2dafc05a5f36068c31
-msgid "Right-clicking on a layer will give you a menu with lots of extra options. You will be using some of them before long, so take a look around!"
-msgstr "Un clic droit sur une couche vous donnera un menu avec des options supplémentaires. Vous allez utiliser certaines d'entre elles dans peu de temps, regardons un peu ailleurs !"
+#: ../../introduction/overview.rst:36
+msgid ""
+"Right-clicking on a layer will give you a menu with lots of extra options. "
+"You will be using some of them before long, so take a look around!"
+msgstr ""
+"Un clic droit sur une couche vous donnera un menu avec des options "
+"supplémentaires. Vous allez utiliser certaines d'entre elles dans peu de "
+"temps, regardons un peu ailleurs !"
 
-#: ../../introduction/overview.rst:39
 # b7639362283b40078c542a42191a1968
-msgid "Some versions of QGIS have a separate :guilabel:`Control rendering order` checkbox just underneath the Layers list. Don't worry if you can't see it. If it is present, ensure that it's checked for now."
-msgstr "Certaines version de QGIS ont une case à cocher séparer pour :guilabel:`contrôler l'ordre de rendu` juste en dessous de la liste des couches. Ne vous en faites pas si vous ne pouvez pas la voir. Si elle est présente, assurez vous qu'elle est coché pour le moment."
+#: ../../introduction/overview.rst:39
+msgid ""
+"Some versions of QGIS have a separate :guilabel:`Control rendering order` "
+"checkbox just underneath the Layers list. Don't worry if you can't see it. "
+"If it is present, ensure that it's checked for now."
+msgstr ""
+"Certaines version de QGIS ont une case à cocher séparer pour "
+":guilabel:`contrôler l'ordre de rendu` juste en dessous de la liste des "
+"couches. Ne vous en faites pas si vous ne pouvez pas la voir. Si elle est "
+"présente, assurez vous qu'elle est coché pour le moment."
 
-#: ../../introduction/overview.rst:43
 # bc0fa16bd2614eafae1c9af824d0a199
-msgid "A vector layer is a dataset, usually of a specific kind of object, such as roads, trees, etc. A vector layer can consist of either points, lines or polygons."
-msgstr "Une couche vecteur est un jeu de données, habituellement d'un type spécifique d'objet, comme des routes, des arbres, etc. Une couche vecteur est composé soit de points, de lignes ou de polygones."
+#: ../../introduction/overview.rst:43
+msgid ""
+"A vector layer is a dataset, usually of a specific kind of object, such as "
+"roads, trees, etc. A vector layer can consist of either points, lines or "
+"polygons."
+msgstr ""
+"Une couche vecteur est un jeu de données, habituellement d'un type "
+"spécifique d'objet, comme des routes, des arbres, etc. Une couche vecteur "
+"est composé soit de points, de lignes ou de polygones."
 
-#: ../../introduction/overview.rst:48
 # bd93c79a45534e429de137617191ee50
+#: ../../introduction/overview.rst:48
 msgid "|basic| Toolbars"
 msgstr "|basic| barre d'outils"
 
-#: ../../introduction/overview.rst:50
 # 0418c2f9e11c495199c8b34f31066f39
-msgid "Your most oft-used sets of tools can be turned into toolbars for basic access. For example, the File toolbar allows you to save, load, print, and start a new project. You can easily customize the interface to see only the tools you use most often, adding or removing toolbars as necessary via the :menuselection:`View --> Toolbars` menu."
-msgstr "La plupart des outils les plus utilisés peuvent être retrouvé dans les barres d'outils pour un accès rapide. Par exemple, la barre d'outils Fichier vous permet de sauver, imprimer et démarrer un nouveau projet. Vous pouvez facilement personnaliser l'interface pour voir seulement les outils que vous utilisez le plus souvent, ajouter ou enlever les barres d'outils autant que nécessaire via le menu :menuselection:`Vue --> Barre d'outils`."
-
-#: ../../introduction/overview.rst:56
-# ce378e6fe3c54f9c97d7ff517f79df96
-msgid "Even if they are not visible in a toolbar, all of your tools will remain accessible via the menus. For example, if you remove the :guilabel:`File` toolbar (which contains the :guilabel:`Save` button), you can still save your map by clicking on the :guilabel:`File` menu and then clicking on :guilabel:`Save`."
+#: ../../introduction/overview.rst:50
+msgid ""
+"Your most oft-used sets of tools can be turned into toolbars for basic "
+"access. For example, the File toolbar allows you to save, load, print, and "
+"start a new project. You can easily customize the interface to see only the "
+"tools you use most often, adding or removing toolbars as necessary via the "
+":menuselection:`View --> Toolbars` menu."
 msgstr ""
+"La plupart des outils les plus utilisés peuvent être retrouvé dans les "
+"barres d'outils pour un accès rapide. Par exemple, la barre d'outils Fichier "
+"vous permet de sauver, imprimer et démarrer un nouveau projet. Vous pouvez "
+"facilement personnaliser l'interface pour voir seulement les outils que vous "
+"utilisez le plus souvent, ajouter ou enlever les barres d'outils autant que "
+"nécessaire via le menu :menuselection:`Vue --> Barre d'outils`."
 
-#: ../../introduction/overview.rst:63
+# ce378e6fe3c54f9c97d7ff517f79df96
+#: ../../introduction/overview.rst:56
+msgid ""
+"Even if they are not visible in a toolbar, all of your tools will remain "
+"accessible via the menus. For example, if you remove the :guilabel:`File` "
+"toolbar (which contains the :guilabel:`Save` button), you can still save "
+"your map by clicking on the :guilabel:`File` menu and then clicking on "
+":guilabel:`Save`."
+msgstr ""
+"Même s'ils ne sont pas visible dans une barre d'outils, tout vos outils "
+"resteront accessible via les menus. Par exemple, si vous supprimer la barre "
+"d'outils :guilabel:`Fichier` (qui contient le bouton :guilabel:`Sauvez`) "
+"vous pouvez encore sauver votre carte en cliquant sur le meun "
+":guilabel:`Fichier` puis en cliquant sur :guilabel:`Sauve`. "
+
 # f859bac6a1a5425fa567a8e7b473659a
+#: ../../introduction/overview.rst:63
 msgid "|basic| The Map Canvas"
 msgstr "|basic| La carte"
 
-#: ../../introduction/overview.rst:65
 # ce1301b693af48668056f785ae09761e
+#: ../../introduction/overview.rst:65
 msgid "This is where the map itself is displayed."
 msgstr "C'est l'endroit où la carte est affichée."
 
-#: ../../introduction/overview.rst:68
 # a8cab074977a4c118076a79b0efb2eb0
+#: ../../introduction/overview.rst:68
 msgid "|basic| The Status Bar"
 msgstr "|basic| la barre de status"
 
-#: ../../introduction/overview.rst:70
 # 4192806ad711468f93b4f36179eae895
-msgid "Shows you information about the current map. Also allows you to adjust the map scale and see the mouse cursor's coordinates on the map."
+#: ../../introduction/overview.rst:70
+msgid ""
+"Shows you information about the current map. Also allows you to adjust the "
+"map scale and see the mouse cursor's coordinates on the map."
 msgstr ""
+"Vous montre des informations sur la carte actuelle. Vous permet aussi "
+"d'ajuster l'échelle de la carte et de voir les coordonnées de la souris sur "
+"la carte."
 
-#: ../../introduction/overview.rst:77
 # 891b0c5a0d964eff80784b0f438a032b
+#: ../../introduction/overview.rst:77
 msgid "|basic| |TY| 1"
 msgstr "|basic| |TY| 1 "
 
-#: ../../introduction/overview.rst:79
 # 9ad26d65ce3c408da2b8c8b65155a352
-msgid "Try to identify the four elements listed above on your own screen, without referring to the diagram above. See if you can identify their names and functions. You will become more familiar with these elements as you use them in the coming days."
+#: ../../introduction/overview.rst:79
+msgid ""
+"Try to identify the four elements listed above on your own screen, without "
+"referring to the diagram above. See if you can identify their names and "
+"functions. You will become more familiar with these elements as you use them "
+"in the coming days."
 msgstr ""
+"Essayer d'identifier les quatre éléments listé ci-dessus sur votre écran, "
+"sans vous référez au diagrame ci-dessus. Voyez si vous pouvez identifier "
+"leurs noms et leurs fonctions. Vous deviendrez plus familié avec ces "
+"éléments au fur et à mesure que vous les utiliserez dans les jours qui "
+"suivent. "
 
-#: ../../introduction/overview.rst:84
 # f7c9d109792441898bf5d8b9fbd66496
+#: ../../introduction/overview.rst:84
 msgid ":ref:`Check your results <interface-overview-1>`"
-msgstr ""
+msgstr ":ref:`Vérifiez vos résultats <interface-overview-1>` "
 
-#: ../../introduction/overview.rst:90
 # 470354789e0941dbb47bdbfeb32eb73d
+#: ../../introduction/overview.rst:90
 msgid "|basic| |TY| 2"
 msgstr "|basic| |TY| 2"
 
-#: ../../introduction/overview.rst:92
 # 8a13f643c81442f1822b272bf4f004cb
+#: ../../introduction/overview.rst:92
 msgid "Try to find each of these tools on your screen. What is their purpose?"
 msgstr ""
+"Essayer de trouver chacun de ces outils sur votre écran. Quels sont leur "
+"fonvtions ?"
 
-#: ../../introduction/overview.rst:109
 # 5d690eb082104e1a9be9d3b256593453
-msgid "If any of these tools is not visible on the screen, try enabling some toolbars that are currently hidden. Also keep in mind that if there isn't enough space on the screen, a toolbar may be shortened by hiding some of its tools. You can see the hidden tools by clicking on the double right arrow button in any such collapsed toolbar. You can see a tooltip with the name of any tool by holding your mouse over the tool for a while."
+#: ../../introduction/overview.rst:109
+msgid ""
+"If any of these tools is not visible on the screen, try enabling some "
+"toolbars that are currently hidden. Also keep in mind that if there isn't "
+"enough space on the screen, a toolbar may be shortened by hiding some of its "
+"tools. You can see the hidden tools by clicking on the double right arrow "
+"button in any such collapsed toolbar. You can see a tooltip with the name of "
+"any tool by holding your mouse over the tool for a while."
 msgstr ""
+"Si un de ces outils n'est pas visible sur l'écran, essayez d'activer des "
+"barres d'outils qui sont actuellement cachées. Garder à l'esprit également "
+"que s'il n'y a pas assez d'espace sur l'écran, une barre d'outils peut être "
+"raccourci en cachant certain de ces outils. Vous pouvez voir les outils "
+"cachés en cliquant sur le bouton double flèche vers la droite sur n'importe "
+"quelle barre d'outils refermée. Vous pouvez voir une bulle avec le nom de "
+"l'outil en laissant la souris sur l'icône de l'outil."
 
-#: ../../introduction/overview.rst:116
 # 37b2fa6dac04424bbacbda4b44004062
+#: ../../introduction/overview.rst:116
 msgid ":ref:`Check your results <interface-overview-2>`"
-msgstr ""
+msgstr ":ref:`Vérifiez vos résultats <interface-overview-2>`"
 
-#: ../../introduction/overview.rst:119
-#: ../../introduction/preparation.rst:64
 # c8f3151e26e940c6bcbb9408c8415eea
 # 0e05bbce923c454ea0b873d7d3df1582
+#: ../../introduction/overview.rst:119 ../../introduction/preparation.rst:64
 msgid "|WN|"
-msgstr ""
+msgstr "|WN|"
 
-#: ../../introduction/overview.rst:121
 # a9f524794f68406aa8ebf42c8e027187
-msgid "Now you've seen how the QGIS interface works, you can use the tools available to you and start improving on your map! This is the topic of the next lesson."
+#: ../../introduction/overview.rst:121
+msgid ""
+"Now you've seen how the QGIS interface works, you can use the tools "
+"available to you and start improving on your map! This is the topic of the "
+"next lesson."
 msgstr ""
+"Maintenant vous connaissez comment l'interface de QGIS fonctionne, vous "
+"pouvez utiliser les outils disponibles et commencer à améliorer votre carte "
+"! C'est le sujet de la leçon suivante."
 
-#: ../../introduction/preparation.rst:2
 # 32f97e7e39a840f2a9edfa1f19248643
+#: ../../introduction/preparation.rst:2
 msgid "|LS| Adding your first layer"
-msgstr ""
+msgstr "|LS| Ajouter votre première couche"
 
-#: ../../introduction/preparation.rst:4
 # d6e61a1c4857472499073e3b1a465f99
-msgid "We will start the application, and create a basic map to use for examples and exercises."
+#: ../../introduction/preparation.rst:4
+msgid ""
+"We will start the application, and create a basic map to use for examples "
+"and exercises."
 msgstr ""
+"Nous allons démarrer l'application et créer une carte basique à utiliser "
+"pour les exempls et les exercices. "
 
-#: ../../introduction/preparation.rst:7
 # ac7d527099f34e0e9785a3c1a7f8e02d
+#: ../../introduction/preparation.rst:7
 msgid "**The goal for this lesson:** To get started with an example map."
-msgstr ""
+msgstr "**L'objectif de cette leçon :** débuter avec une carte exemple."
 
-#: ../../introduction/preparation.rst:9
 # 2e44633e7cbc43a9b5292e2a76fca9bd
+#: ../../introduction/preparation.rst:9
 msgid "Before starting this exercise, QGIS must be installed on your computer."
 msgstr ""
+"Avant de démarrer cet exercice, QGIS doit être installé sur votre ordinateur."
 
-#: ../../introduction/preparation.rst:12
 # c0a7095ec0b946fdb5577191f3842a10
-msgid "Launch QGIS from its desktop shortcut, menu item, etc., depending on how you configured its installation."
+#: ../../introduction/preparation.rst:12
+msgid ""
+"Launch QGIS from its desktop shortcut, menu item, etc., depending on how you "
+"configured its installation."
 msgstr ""
+"Lancer QGIS à partir du raccourci du bureau, menu démarrer, etc. en fonction "
+"de la manière dont vous l'avez installé."
 
-#: ../../introduction/preparation.rst:15
 # 6a3fbb38380448c69f6fd0ea88976e9d
-msgid "The screenshots for this course were taken in QGIS 1.8 running on Ubuntu 11.10 and Windows XP. Depending on your setup, the screens you encounter may well appear somewhat different. However, all the same buttons will still be available, and the instructions will work on any OS. You will need QGIS 1.8 (the latest version at time of writing) to use this course."
+#: ../../introduction/preparation.rst:15
+msgid ""
+"The screenshots for this course were taken in QGIS 1.8 running on Ubuntu "
+"11.10 and Windows XP. Depending on your setup, the screens you encounter may "
+"well appear somewhat different. However, all the same buttons will still be "
+"available, and the instructions will work on any OS. You will need QGIS 1.8 "
+"(the latest version at time of writing) to use this course."
 msgstr ""
+"Les captures d'écran de ce cours ont été réalisé avec QGIS 1.8 sous Ubuntu "
+"11.10 et Windows XP. En fonction de votre configuration, les écrans que vous "
+"rencontrerez peuvent apparaitre différement. Cependant, tous les boutons "
+"seront toujours disponibles et les instructions fonctionneront sur n'importe "
+"quel système. Vous aurez besoin de QGIS 1.8 (la dernière version au moment "
+"de la rédaction) pour utiliser ce cours."
 
-#: ../../introduction/preparation.rst:21
 # 48145639918440a58f0394022765dc38
+#: ../../introduction/preparation.rst:21
 msgid "Let's get started right away!"
-msgstr ""
+msgstr "Commençons de suite !"
 
-#: ../../introduction/preparation.rst:26
 # e54670e90005479f8f20be906791dbbd
+#: ../../introduction/preparation.rst:26
 msgid "|basic| |FA| Prepare a map"
-msgstr ""
+msgstr "|basic| |FA| Préparer une carte"
 
-#: ../../introduction/preparation.rst:28
 # 4aa2177e79fa473fad34b924fbab21c3
+#: ../../introduction/preparation.rst:28
 msgid "Open QGIS. You will have a new, blank map."
-msgstr ""
+msgstr "Lancez QGIS. Vous avez une carte vierge."
 
-#: ../../introduction/preparation.rst:30
 # 52c0bb951d754cd3a12c2063d8469c54
+#: ../../introduction/preparation.rst:30
 msgid "Look for the :guilabel:`Add Vector Layer` button:"
-msgstr ""
+msgstr "Cherchez le bouton :guilabel:`Ajouter une carte vecteur` : "
 
-#: ../../introduction/preparation.rst:35
 # 4e1808eb96e24d35a377c218284d99af
+#: ../../introduction/preparation.rst:35
 msgid "Click on it to open the following dialog:"
-msgstr ""
+msgstr "Cliquez dessus pour ouvrir la boîte de dialogue suivante :"
 
-#: ../../introduction/preparation.rst:40
 # e85068ef067d4d40854d424fce7f7715
-msgid "Click on the :guilabel:`Browse` button and navigate to the file :kbd:`exercise_data/streets.shp` (in your course directory). With this file selected, click :guilabel:`Open`. You will see the original dialog, but with the file path filled in. Click :guilabel:`Open` here as well. The data you specified will now load."
+#: ../../introduction/preparation.rst:40
+msgid ""
+"Click on the :guilabel:`Browse` button and navigate to the file "
+":kbd:`exercise_data/streets.shp` (in your course directory). With this file "
+"selected, click :guilabel:`Open`. You will see the original dialog, but with "
+"the file path filled in. Click :guilabel:`Open` here as well. The data you "
+"specified will now load."
 msgstr ""
+"Cliquez sur le bouton :guilabel:`Naviguer` et  naviguez vers le fichier "
+":kbd:`exercice_data/street.shp` (dans votre répertoire de cours). Lorsque ce "
+"fichier est sélectionné, cliquez sur :guilabel:`Ouvrir`. Vous verrez la "
+"boîte de dialogue initiale mais avec le chemin vers le fichier. Cliquez sur "
+":guilabel:`Ouvrir` encore. Les données que vous avez définie s'affichent."
 
-#: ../../introduction/preparation.rst:46
 # 25d3699e9dbf4d23bddce66ad236a087
-msgid "Congratulations! You now have a basic map. Now would be a good time to save your work."
+#: ../../introduction/preparation.rst:46
+msgid ""
+"Congratulations! You now have a basic map. Now would be a good time to save "
+"your work."
 msgstr ""
+"Bravo ! Vous avez maintenant une carte basique. Il est maintenant temps de "
+"sauver votre travail."
 
-#: ../../introduction/preparation.rst:49
 # 17bda4f08538441d8e166156c8f13331
+#: ../../introduction/preparation.rst:49
 msgid "Click on the :guilabel:`Save As` button:"
-msgstr ""
+msgstr "Cliquez sur le bouton :guilabel:`Sauver sous ...` :"
 
-#: ../../introduction/preparation.rst:54
 # 9fa316403e9f45b39ed5ea6eb9ae36fa
-msgid "Save the map under :kbd:`exercise_data/` and call it :kbd:`basic_map.qgs`."
+#: ../../introduction/preparation.rst:54
+msgid ""
+"Save the map under :kbd:`exercise_data/` and call it :kbd:`basic_map.qgs`."
 msgstr ""
+"Sauvez la carte sous :kbd:`exercise_data/` et nommez le "
+":kbd:`basic_map.qgs`.  "
 
-#: ../../introduction/preparation.rst:56
 # c5ffe721b13e49508e2122622886d5bf
+#: ../../introduction/preparation.rst:56
 msgid ":ref:`Check your results <interface-preparation-1>`"
-msgstr ""
+msgstr ":ref:`Vérifiez vos résultats  <interface-preparation-1>`"
 
-#: ../../introduction/preparation.rst:59
 # 5d036effebb14ca890b8f48989574a3e
+#: ../../introduction/preparation.rst:59
 msgid "|IC|"
 msgstr "|IC|"
 
-#: ../../introduction/preparation.rst:61
 # a84f3e3b95be4ebca7397694a7fd7db0
+#: ../../introduction/preparation.rst:61
 msgid "You've learned how to add a layer and create a basic map!"
 msgstr ""
+"Vous avez appris comment ajouter une carte et créer une carte basique !"
 
-#: ../../introduction/preparation.rst:66
 # c43b5ca65b3545dcb9cadde1c05a78da
-msgid "Now you're familiar with the function of the :guilabel:`Add Vector Layer` button, but what about all the others? How does this interface work? Before we go on with the more involved stuff, let's first take a good look at the general layout of the QGIS interface. This is the topic of the next lesson."
+#: ../../introduction/preparation.rst:66
+msgid ""
+"Now you're familiar with the function of the :guilabel:`Add Vector Layer` "
+"button, but what about all the others? How does this interface work? Before "
+"we go on with the more involved stuff, let's first take a good look at the "
+"general layout of the QGIS interface. This is the topic of the next lesson."
 msgstr ""
-
+"Maintenant vous êtes familié avec la fonction du bouton :guilabel:`Ajouter "
+"une carte vecteur` mais que font les autres boutons ? Comment cette "
+"interface fonctionne t'elle ? Avant d'aller plus loin, regardons plus "
+"attentivement le design général de l'interface de QGIS. C'est le sujet de la "
+"prochaine leçon. "
